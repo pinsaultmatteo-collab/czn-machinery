@@ -3,14 +3,14 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Contact | CZN Machinery — Toulouse, France</title>
-<meta name="description" content="Contactez CZN Machinery à Toulouse. Devis gratuit, conseils techniques, SAV France. Téléphone : 05 31 60 51 61. Lun–Ven 9h–18h.">
+<title>Contact | CZN Machinery — Devis, SAV, Toulouse</title>
+<meta name="description" content="Contactez CZN Machinery à Toulouse. Devis gratuit, conseils techniques, SAV France. Tél : 05 31 60 51 61. Lun–Ven 9h–18h.">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://czn-machinery.com/contact/">
 
 <!-- Open Graph -->
-<meta property="og:title" content="Contact | CZN Machinery — Toulouse, France">
-<meta property="og:description" content="Contactez CZN Machinery à Toulouse. Devis gratuit, conseils techniques, SAV France. Téléphone : 05 31 60 51 61. Lun–Ven 9h–18h.">
+<meta property="og:title" content="Contact | CZN Machinery — Devis, SAV, Toulouse">
+<meta property="og:description" content="Contactez CZN Machinery à Toulouse. Devis gratuit, conseils techniques, SAV France. Tél : 05 31 60 51 61. Lun–Ven 9h–18h.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://czn-machinery.com/contact/">
 <meta property="og:locale" content="fr_FR">
@@ -93,53 +93,37 @@
 
 <section class="page-hero">
   <div class="container">
-    <nav class="breadcrumb" aria-label="Fil d'Ariane">
-      <a href="/">Accueil</a>
-      <span class="bc-sep">/</span>
-      <span aria-current="page">Contact</span>
-    </nav>
-    <div class="page-hero-inner reveal">
+    <nav class="breadcrumb"><a href="/">Accueil</a><span class="bc-sep">/</span><span aria-current="page">Contact</span></nav>
+    <div class="reveal">
       <div class="eyebrow">Contact</div>
-      <h1 class="page-title">Une équipe joignable, <em>en français</em>.</h1>
-      <p class="page-lede">
-        Showroom à Toulouse, atelier d'assemblage et SAV technique. Notre équipe vous répond du lundi au vendredi,
-        9h–12h / 14h–18h, pour un devis, une question technique ou un suivi de commande.
-      </p>
+      <h1 class="page-title">Une équipe joignable,<br><em>en français</em>.</h1>
+      <p class="page-lede">Showroom à Toulouse, atelier d'assemblage et SAV technique. Notre équipe vous répond du lundi au vendredi, 9h–18h.</p>
+    </div>
+    <div class="hero-stats reveal">
+      <div class="hero-stat"><div class="hero-stat-num"><em>24 h</em></div><div class="hero-stat-label">Délai de réponse email</div></div>
+      <div class="hero-stat"><div class="hero-stat-num"><em>Gratuit</em></div><div class="hero-stat-label">Devis et conseils</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">148<em>+</em></div><div class="hero-stat-label">Avis 5★ Google</div></div>
+      <div class="hero-stat"><div class="hero-stat-num">Lun–<em>Ven</em></div><div class="hero-stat-label">9h–12h / 14h–18h</div></div>
     </div>
   </div>
 </section>
 
-<!-- CONTACT GRID: FORM + INFO -->
-<section class="section-pad" style="background: var(--paper);">
+<section class="sec-paper">
   <div class="container">
-    <div class="contact-grid">
-      <!-- FORM -->
-      <div class="contact-form-block reveal">
-        <h2 class="contact-section-title">Envoyez-nous un message</h2>
-        <p class="contact-section-intro">
-          Décrivez votre projet (modèle souhaité, usage, livraison) et nous revenons vers vous sous 24 h ouvrées
-          avec un devis personnalisé.
-        </p>
-        <form class="contact-form" action="https://formspree.io/f/your-form-id" method="POST">
+    <div class="contact-layout">
+      <div class="reveal">
+        <div class="contact-form-head">
+          <h2 class="contact-form-title">Envoyez-nous un message</h2>
+          <p class="contact-form-intro">Décrivez votre projet et nous revenons vers vous sous 24 h ouvrées avec un devis personnalisé.</p>
+        </div>
+        <form class="czn-form" action="https://formspree.io/f/your-form-id" method="POST">
           <div class="form-row">
-            <div class="form-field">
-              <label for="name">Nom complet *</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-field">
-              <label for="company">Société (facultatif)</label>
-              <input type="text" id="company" name="company">
-            </div>
+            <div class="form-field"><label for="name">Nom complet *</label><input type="text" id="name" name="name" required></div>
+            <div class="form-field"><label for="company">Société (facultatif)</label><input type="text" id="company" name="company"></div>
           </div>
           <div class="form-row">
-            <div class="form-field">
-              <label for="email">Email *</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-field">
-              <label for="phone">Téléphone</label>
-              <input type="tel" id="phone" name="phone">
-            </div>
+            <div class="form-field"><label for="email">Email *</label><input type="email" id="email" name="email" required></div>
+            <div class="form-field"><label for="phone">Téléphone</label><input type="tel" id="phone" name="phone"></div>
           </div>
           <div class="form-field">
             <label for="topic">Sujet</label>
@@ -156,38 +140,36 @@
             <label for="message">Votre message *</label>
             <textarea id="message" name="message" rows="6" required placeholder="Décrivez votre projet : type de machine, usage prévu, lieu de livraison…"></textarea>
           </div>
-          <div class="form-field form-consent">
-            <label class="checkbox-label">
+          <div class="form-field consent-row">
+            <label class="consent-label">
               <input type="checkbox" name="consent" required>
-              <span>J'accepte que mes données soient utilisées pour traiter ma demande. <a href="/politique-confidentialite/" target="_blank">Politique de confidentialité</a></span>
+              <span>J'accepte que mes données soient utilisées pour traiter ma demande. <a href="/politique-confidentialite/">Politique de confidentialité</a></span>
             </label>
           </div>
-          <button type="submit" class="btn-primary form-submit">Envoyer ma demande</button>
-          <p class="form-note">Réponse sous 24 h ouvrées. Devis et conseils gratuits.</p>
+          <button type="submit" class="form-submit-btn">Envoyer ma demande</button>
+          <p class="form-note-text">Réponse sous 24 h ouvrées · Devis et conseils gratuits</p>
         </form>
       </div>
-
-      <!-- INFO COLUMN -->
-      <div class="contact-info-block reveal">
-        <div class="contact-info-card">
-          <h3 class="contact-info-title">Par téléphone</h3>
-          <a href="tel:+33531605161" class="contact-info-value">+33 5 31 60 51 61</a>
-          <p class="contact-info-desc">Lun–Ven, 9h–12h / 14h–18h</p>
+      <div class="contact-info-stack reveal">
+        <div class="contact-info-item">
+          <div class="contact-item-eyebrow">Par téléphone</div>
+          <a href="tel:+33531605161" class="contact-item-val">+33 5 31 60 51 61</a>
+          <p class="contact-item-sub">Lun–Ven, 9h–12h / 14h–18h</p>
         </div>
-        <div class="contact-info-card">
-          <h3 class="contact-info-title">Par email</h3>
-          <a href="mailto:contact@czn-machinery.com" class="contact-info-value">contact@czn-machinery.com</a>
-          <p class="contact-info-desc">Réponse sous 24 h ouvrées</p>
+        <div class="contact-info-item">
+          <div class="contact-item-eyebrow">Par email</div>
+          <a href="mailto:contact@czn-machinery.com" class="contact-item-val">contact@czn-machinery.com</a>
+          <p class="contact-item-sub">Réponse sous 24 h ouvrées</p>
         </div>
-        <div class="contact-info-card">
-          <h3 class="contact-info-title">Showroom &amp; atelier</h3>
-          <p class="contact-info-value">11 impasse Pierre Camo<br>31200 Toulouse</p>
-          <p class="contact-info-desc">Sur rendez-vous, du lundi au vendredi</p>
-          <a href="https://www.google.com/maps/place/Czn+Machinery+-+CZE+France/@43.6428536,1.4176449,17z/" target="_blank" rel="noopener" class="contact-info-link">Itinéraire Google Maps →</a>
+        <div class="contact-info-item">
+          <div class="contact-item-eyebrow">Showroom &amp; atelier</div>
+          <div class="contact-item-val">11 impasse Pierre Camo<br>31200 Toulouse</div>
+          <p class="contact-item-sub">Sur rendez-vous, Lun–Ven</p>
+          <a href="https://www.google.com/maps/place/Czn+Machinery+-+CZE+France/@43.6428536,1.4176449,17z/" target="_blank" rel="noopener" class="contact-item-link">Itinéraire Google Maps →</a>
         </div>
-        <div class="contact-info-card">
-          <h3 class="contact-info-title">Réseaux sociaux</h3>
-          <div class="contact-socials">
+        <div class="contact-info-item">
+          <div class="contact-item-eyebrow">Réseaux sociaux</div>
+          <div class="contact-socials-list">
             <a href="https://www.instagram.com/czn_machinery_minipelle/" target="_blank" rel="noopener">Instagram</a>
             <a href="https://www.facebook.com/cznmachinery" target="_blank" rel="noopener">Facebook</a>
             <a href="https://www.linkedin.com/company/czn-machinery/" target="_blank" rel="noopener">LinkedIn</a>
@@ -199,18 +181,14 @@
   </div>
 </section>
 
-<!-- TRUST / GOOGLE REVIEWS LINK -->
-<section class="section-pad">
+<section class="inner-cta">
   <div class="container">
-    <div class="trust-banner reveal">
-      <div class="eyebrow no-rule" style="text-align:center; justify-content:center; display:flex;">★★★★★ 5,0 / 5</div>
-      <h2 class="trust-title">148+ avis vérifiés <em>sur Google</em>.</h2>
-      <p class="trust-body">
-        Avant de nous contacter, vous pouvez lire l'expérience d'autres clients : artisans, paysagistes,
-        entreprises BTP, particuliers. Aucun filtre, aucune sélection.
-      </p>
-      <div class="cta-actions" style="margin-top: 32px;">
-        <a href="https://www.google.com/maps/place/Czn+Machinery+-+CZE+France/@43.6428536,1.4176449,17z/" target="_blank" rel="noopener" class="btn-primary">Voir les avis Google</a>
+    <div class="inner-cta-inner reveal">
+      <h2><em>148+ avis 5★</em> vérifiés sur Google.</h2>
+      <p>Avant de nous contacter, lisez l'expérience d'autres clients : artisans, paysagistes, entreprises BTP, particuliers. Aucun filtre.</p>
+      <div class="cta-btns">
+        <a href="https://www.google.com/maps/place/Czn+Machinery+-+CZE+France/@43.6428536,1.4176449,17z/" target="_blank" rel="noopener" class="btn-orange">Voir les avis Google</a>
+        <a href="/mini-pelles/" class="btn-ghost">Voir le catalogue</a>
       </div>
     </div>
   </div>
