@@ -2075,7 +2075,8 @@
     transform: translateY(40px);
     transition: opacity 0.9s var(--ease-quart), transform 0.9s var(--ease-quart);
   }
-  .reveal.visible {
+  .reveal.visible,
+  .reveal.in-view {
     opacity: 1;
     transform: translateY(0);
   }
@@ -2090,7 +2091,8 @@
   .reveal-stagger.visible > *:nth-child(4) { transition-delay: 0.3s; }
   .reveal-stagger.visible > *:nth-child(5) { transition-delay: 0.4s; }
   .reveal-stagger.visible > *:nth-child(6) { transition-delay: 0.5s; }
-  .reveal-stagger.visible > * {
+  .reveal-stagger.visible > *,
+  .reveal-stagger.in-view > * {
     opacity: 1;
     transform: translateY(0);
   }
