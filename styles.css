@@ -3921,3 +3921,33 @@ a.contact-item-val:hover { color: var(--orange); }
   color: var(--muted);
   font-style: italic;
 }
+/* legal h3 sub-articles */
+.legal-body h3 {
+  font-family: var(--f-display);
+  font-weight: 500;
+  font-size: clamp(17px, 1.6vw, 20px);
+  color: var(--ink);
+  margin: 32px 0 10px;
+  letter-spacing: -0.01em;
+}
+.legal-body .legal-note-box {
+  background: var(--paper);
+  border-left: 3px solid var(--orange);
+  padding: 16px 20px;
+  margin: 20px 0;
+  font-size: 13px;
+  color: var(--muted);
+  line-height: 1.65;
+}
+.legal-body .legal-credit-warning {
+  background: #fff8ec;
+  border: 1px solid var(--orange-dim);
+  border-radius: 3px;
+  padding: 14px 18px;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  color: var(--ink);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 16px 0;
+}
