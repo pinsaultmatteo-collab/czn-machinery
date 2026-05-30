@@ -3004,8 +3004,8 @@ a.contact-item-val:hover { color: var(--orange); }
 .page-hero--split { padding-bottom: 0; }
 .hero-split-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 48px;
+  grid-template-columns: 1.12fr 0.88fr;
+  gap: 56px;
   align-items: center;
 }
 .hero-split-content { padding: 48px 0 64px; }
@@ -3028,9 +3028,17 @@ a.contact-item-val:hover { color: var(--orange); }
   object-position: center center;
 }
 .hero-stats--compact {
-  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 28px 36px;
+  margin-top: 36px;
   padding-top: 32px;
 }
+.hero-stats--compact .hero-stat-num {
+  font-size: clamp(26px, 2.4vw, 34px);
+  white-space: normal;
+}
+.hero-stats--compact .hero-stat-label { font-size: 9.5px; }
 @media (max-width: 900px) {
   .hero-split-grid { grid-template-columns: 1fr; }
   .hero-split-img { display: none; }
@@ -3206,12 +3214,21 @@ a.contact-item-val:hover { color: var(--orange); }
   margin: 8px 0 28px;
   border-radius: 4px;
   overflow: hidden;
+  max-width: 78%;
 }
 .story-inline-photo img {
   display: block;
   width: 100%;
   height: auto;
   border-radius: 4px;
+}
+.story-inline-photo figcaption {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-top: 10px;
+  line-height: 1.5;
 }
 
 /* ── Wide organigram (entreprise) — light, square blocks ── */
@@ -3529,3 +3546,88 @@ a.contact-item-val:hover { color: var(--orange); }
   line-height: 1.25;
 }
 .related-card-desc { font-family: var(--f-body); font-size: 13px; line-height: 1.5; color: var(--muted); }
+
+/* ── Instagram feed preview (entreprise) ── */
+.ig-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  padding: 22px 24px;
+  margin-bottom: 16px;
+  background: var(--cream-pure);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  flex-wrap: wrap;
+}
+.ig-head-left { display: flex; align-items: center; gap: 16px; }
+.ig-avatar {
+  width: 52px;
+  height: 52px;
+  flex: 0 0 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cream-pure);
+  background: linear-gradient(135deg, var(--orange-light), var(--orange-deep));
+}
+.ig-avatar svg { width: 26px; height: 26px; }
+.ig-handle {
+  display: inline-block;
+  font-family: var(--f-display);
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--ink);
+  text-decoration: none;
+  letter-spacing: -0.01em;
+}
+.ig-handle:hover { color: var(--orange-deep); }
+.ig-sub {
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--muted);
+  margin-top: 4px;
+}
+.ig-follow { white-space: nowrap; }
+.ig-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.ig-tile {
+  position: relative;
+  display: block;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 4px;
+  background: var(--paper);
+}
+.ig-tile img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+.ig-tile-ov {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--cream-pure);
+  background: rgba(23,30,39,0.0);
+  opacity: 0;
+  transition: opacity 0.25s ease, background 0.25s ease;
+}
+.ig-tile-ov svg { width: 30px; height: 30px; }
+.ig-tile:hover img { transform: scale(1.06); }
+.ig-tile:hover .ig-tile-ov { opacity: 1; background: rgba(23,30,39,0.4); }
+@media (max-width: 760px) {
+  .ig-grid { grid-template-columns: repeat(3, 1fr); }
+}
+@media (max-width: 420px) {
+  .ig-grid { grid-template-columns: repeat(2, 1fr); }
+}
