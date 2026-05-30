@@ -3,16 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>À quoi sert une mini-pelle ? 8 usages principaux | CZN Machinery</title>
-<meta name="description" content="À quoi sert une mini-pelle ? Terrassement, tranchées, VRD, paysagisme, piscine, démolition, travaux intérieurs et agriculture : tonnage et accessoires par usage.">
+<title>Conditions générales de vente | CZN Machinery</title>
+<meta name="description" content="Conditions générales de vente CZN Machinery : prix, commande, acompte, livraison, garantie 24 mois et service après-vente.">
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="https://czn-machinery.com/guides/utilisation-mini-pelle/">
+<link rel="canonical" href="https://czn-machinery.com/cgv/">
 
 <!-- Open Graph -->
-<meta property="og:title" content="À quoi sert une mini-pelle ? 8 usages principaux | CZN Machinery">
-<meta property="og:description" content="À quoi sert une mini-pelle ? Terrassement, tranchées, VRD, paysagisme, piscine, démolition, travaux intérieurs et agriculture : tonnage et accessoires par usage.">
+<meta property="og:title" content="Conditions générales de vente | CZN Machinery">
+<meta property="og:description" content="Conditions générales de vente CZN Machinery : prix, commande, acompte, livraison, garantie 24 mois et service après-vente.">
 <meta property="og:type" content="website">
-<meta property="og:url" content="https://czn-machinery.com/guides/utilisation-mini-pelle/">
+<meta property="og:url" content="https://czn-machinery.com/cgv/">
 <meta property="og:locale" content="fr_FR">
 <meta property="og:site_name" content="CZN Machinery">
 
@@ -23,7 +23,6 @@
 
 <!-- Shared styles -->
 <link rel="stylesheet" href="/styles.css">
-  <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Accueil", "item": "https://czn-machinery.com/"}, {"@type": "ListItem", "position": 2, "name": "Guides", "item": "https://czn-machinery.com/guides/"}, {"@type": "ListItem", "position": 3, "name": "À quoi sert une mini-pelle ?", "item": "https://czn-machinery.com/guides/utilisation-mini-pelle/"}]}, {"@type": "Article", "headline": "À quoi sert une mini-pelle ?", "description": "À quoi sert une mini-pelle ? Terrassement, tranchées, VRD, paysagisme, piscine, démolition, travaux intérieurs et agriculture : tonnage et accessoires par usage.", "articleSection": "Usages", "inLanguage": "fr-FR", "datePublished": "2026-01-15", "dateModified": "2026-05-30", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://czn-machinery.com/guides/utilisation-mini-pelle/"}, "author": {"@type": "Organization", "name": "CZN Machinery", "url": "https://czn-machinery.com/"}, "publisher": {"@type": "Organization", "name": "CZN Machinery", "url": "https://czn-machinery.com/", "logo": {"@type": "ImageObject", "url": "https://czn-machinery.com/images/czn-machinery-logo-small.webp"}}}]}</script>
 </head>
 <body>
 
@@ -53,20 +52,15 @@
   function refresh(){
     var el=document.getElementById('openStatus');
     if(!el) return;
-    var now=new Date();
-    var parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now);
-    var m={};
-    parts.forEach(function(p){m[p.type]=p.value;});
+    var parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+    var m={}; parts.forEach(function(p){m[p.type]=p.value;});
     var mins=parseInt(m.hour,10)*60+parseInt(m.minute,10);
-    var weekdays=['Mon','Tue','Wed','Thu','Fri'];
-    var open=weekdays.indexOf(m.weekday)>=0 && ((mins>=540&&mins<720)||(mins>=840&&mins<1080)); /* Lun-Ven 9h-12h & 14h-18h */
+    var open=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0 && ((mins>=540&&mins<720)||(mins>=840&&mins<1080)); /* Lun-Ven 9h-12h & 14h-18h */
     el.classList.toggle('is-open',open);
     el.classList.toggle('is-closed',!open);
-    var t=el.querySelector('.status-text');
-    if(t) t.textContent=open?'Actuellement ouvert':'Actuellement fermé';
+    var t=el.querySelector('.status-text'); if(t) t.textContent=open?'Actuellement ouvert':'Actuellement fermé';
   }
-  refresh();
-  setInterval(refresh,60000);
+  refresh(); setInterval(refresh,60000);
 })();
 </script>
 
@@ -99,7 +93,6 @@
       <li><a href="/mini-chargeurs/">Mini-chargeurs</a></li>
       <li><a href="/mini-tombereaux/">Mini-tombereaux</a></li>
       <li><a href="/accessoires/">Accessoires</a></li>
-      <li><a href="/entreprise/">Entreprise</a></li>
       <li><a href="/guides/">Guides</a></li>
       <li><a href="/contact/">Contact</a></li>
     </ul>
@@ -118,145 +111,54 @@
   </div>
 </nav>
 
-<section class="article-hero">
+<!-- HERO -->
+<section class="page-hero">
+  <div class="hero-glow"></div>
   <div class="container">
-    <div class="breadcrumb"><a href="/">Accueil</a><span class="bc-sep">/</span><a href="/guides/">Guides</a><span class="bc-sep">/</span><span aria-current="page">Usages</span></div>
-    <span class="article-cat">Usages</span>
-    <h1 class="article-title">À quoi sert une mini-pelle ?</h1>
-    <p class="article-lede">Terrassement, tranchées, VRD, aménagement paysager, piscine, démolition, travaux intérieurs, agriculture : tous les usages d'une mini-pelle avec le tonnage adapté.</p>
-    <div class="article-meta">
-      <span>⏱ 11 min de lecture</span>
-      <span>✓ Conseils CZN Machinery</span>
-      <span>↻ Mis à jour 2026</span>
+    <div class="reveal">
+      <nav class="breadcrumb"><a href="/">Accueil</a> &nbsp;/&nbsp; CGV</nav>
+      <div class="eyebrow">Informations légales</div>
+      <h1 class="page-title">Conditions générales de vente</h1>
+      <p class="page-lede">Les règles qui encadrent nos ventes : prix, commande, livraison, garantie et SAV.</p>
     </div>
   </div>
 </section>
 
-<section class="sec-cream" style="padding: 72px 0;">
+<!-- CONTENU LEGAL -->
+<section class="legal-section">
   <div class="container">
-    <div class="article-layout">
-      <article class="article-body">
-        
-<p>Polyvalente, compacte et puissante, la <strong>mini-pelle</strong> sert à une multitude de travaux. Voici ses usages principaux — du terrassement à l'agriculture — avec le tonnage et les accessoires recommandés pour chacun.</p>
+    <div class="legal-body reveal">
+      <p class="legal-updated">Dernière mise à jour : 30 mai 2026</p>
+      
+<h2><span class="num">01</span>Objet</h2>
+<p>Les présentes conditions générales de vente (CGV) régissent les relations contractuelles entre <strong>CZE France SAS</strong> (CZN Machinery), 11 impasse Pierre Camo, 31200 Toulouse, et ses clients, pour toute commande de matériel (mini-pelles, mini-chargeurs, mini-tombereaux, accessoires) et prestations associées. Toute commande implique l'acceptation sans réserve des présentes CGV.</p>
 
-<h2 id="terrassement">Terrassement & nivellement</h2>
-<p>L'usage le plus fréquent. Le terrassement enchaîne <strong>décapage</strong> (20 à 30 cm de terre végétale), <strong>déblai</strong>, <strong>remblai</strong> et <strong>nivellement</strong> — la mini-pelle réalise les quatre en changeant de godet. Pour un jardin ou des fondations légères, une <strong>1,5 à 2,5 T</strong> est idéale ; pour des surfaces &gt; 500 m² ou de l'argile compacte, montez à 3-4 T.</p>
-<p><strong>Accessoires :</strong> godet à dents (400 à 600 mm), godet curage pour le nivellement, lame de remblai, attache rapide. <strong>Conseil :</strong> creusez toujours avec la lame de stabilisation au sol.</p>
+<h2><span class="num">02</span>Prix</h2>
+<p>Les prix affichés sont indiqués en euros <strong>hors taxes (HT)</strong>. La TVA est ajoutée selon la législation en vigueur. Les prix sont susceptibles d'évoluer ; le prix applicable est celui en vigueur au moment de la validation de la commande. Les frais de livraison sont précisés avant la finalisation de la commande.</p>
 
-<h2 id="tranchees">Tranchées & canalisations</h2>
-<p>Creuser des tranchées (eau, assainissement, gaz, électricité, fibre) est l'une des applications phares chez les plombiers, électriciens et entreprises de VRD. La mini-pelle offre une <strong>tranchée nette et précise</strong>, aux cotes exactes, là où une pelle manuelle peine. Sous 1 m en terrain meuble, une <strong>800 kg à 1,5 T</strong> suffit ; pour 1 à 2 m ou en terrain compact, une <strong>1,5 à 2,5 T</strong>.</p>
-<div class="article-callout">
-  <p><strong>Rappel réglementaire :</strong> toute tranchée de plus de 1,30 m de profondeur nécessite un blindage (plaque, palplanches ou étayage) contre les éboulements. C'est une obligation légale.</p>
-</div>
+<h2><span class="num">03</span>Commande &amp; acompte</h2>
+<p>La commande est définitivement validée après confirmation écrite par CZN Machinery et versement d'un <strong>acompte de 30 %</strong> du montant total. Le solde est exigible avant la livraison de la machine. Un financement <strong>Sofinco</strong> peut être proposé, sous réserve d'acceptation du dossier par l'organisme de crédit.</p>
 
-<h2 id="vrd">VRD & réseaux</h2>
-<p>Les entreprises de Voirie et Réseaux Divers sont parmi les plus gros utilisateurs : voiries, caniveaux, bordures, réseaux enterrés. Tonnage recommandé : <strong>1,5 à 3 T</strong>. Les modèles à <strong>voie variable</strong> (CL20S, SJW-25) sont prisés : rétrécis pour circuler, élargis pour la stabilité. Équipement type (godet tranchée, godet curage, brise-roche, attache rapide) : 1 500 à 3 000 € d'accessoires.</p>
+<h2><span class="num">04</span>Livraison</h2>
+<p>Les délais de livraison sont communiqués à titre indicatif et peuvent varier selon la disponibilité des produits. La livraison s'effectue en France métropolitaine selon les zones tarifaires précisées lors de la commande. Le transfert des risques intervient à la remise du matériel au client.</p>
 
-<h2 id="paysager">Aménagement paysager</h2>
-<p>Les paysagistes l'utilisent pour les <strong>bassins ornementaux</strong> (creusement précis aux profils variables), la <strong>pose de rochers décoratifs</strong> (pouce de manutention pour saisir des blocs de plusieurs tonnes) et la <strong>plantation de grands sujets</strong> (fosses profondes en quelques minutes). Tonnage idéal : <strong>1 à 2 T</strong>, assez compact pour évoluer entre les plantations. Les modèles à flèche orientable creusent le long des murs.</p>
+<h2><span class="num">05</span>Garantie &amp; SAV</h2>
+<p>Tous nos produits bénéficient d'une <strong>garantie constructeur de 24 mois</strong>, pièces et main d'œuvre. CZN Machinery assure un service après-vente en France, joignable en français, ainsi qu'un stock de pièces détachées. La garantie ne couvre pas l'usure normale, ni les dommages résultant d'un usage non conforme ou d'un défaut d'entretien.</p>
 
-<h2 id="collectivites">Espaces verts & collectivités</h2>
-<p>Marché en forte croissance (renaturation urbaine) : curage de fossés, réfection de chemins ruraux, création de noues, plantation de haies, aménagement de parcs. Les mini-pelles CZN permettent d'équiper les services techniques pour un budget très inférieur aux marques européennes — rentable dès la première année au-delà de 20 jours d'intervention par an.</p>
+<h2><span class="num">06</span>Réserve de propriété</h2>
+<p>CZE France SAS conserve la propriété pleine et entière du matériel livré jusqu'au paiement intégral du prix, en principal et accessoires.</p>
 
-<h2 id="piscine">Piscine & fondations</h2>
-<p>Le creusement de piscine motive souvent l'achat : un bassin 8×4 m à 1,50 m = 30 à 50 m³ de terre, quelques jours à la mini-pelle contre plusieurs semaines à la main. Pour coques et kits (jusqu'à 8×4 m), une <strong>1,8 à 2,5 T</strong> est optimale ; au-delà ou en terrain rocheux, 3 T. Les <strong>fondations de maison</strong> (semelles 60-80 cm, fondations jusqu'à 2 m) sont une autre application majeure (2 à 3 T).</p>
+<h2><span class="num">07</span>Droit de rétractation</h2>
+<p>Pour les clients <strong>professionnels</strong>, le droit de rétractation de 14 jours ne s'applique pas. Pour les <strong>consommateurs</strong>, et conformément aux articles L221-18 et suivants du Code de la consommation, un délai de rétractation de 14 jours s'applique, sauf exceptions légales (notamment biens confectionnés ou nettement personnalisés).</p>
 
-<div class="article-inline-cta">
-  <div class="article-inline-cta-text">
-    <h4>Un usage précis en tête ?</h4>
-    <p>Nos experts vous orientent vers le bon tonnage et les accessoires adaptés à votre application.</p>
-  </div>
-  <a href="/contact/">Demander conseil →</a>
-</div>
+<h2><span class="num">08</span>Données personnelles</h2>
+<p>Les données collectées dans le cadre d'une commande sont traitées conformément à notre <a href="/politique-confidentialite/">politique de confidentialité</a> et au RGPD.</p>
 
-<h2 id="demolition">Démolition légère</h2>
-<p>Équipée d'un <strong>brise-roche hydraulique</strong>, la mini-pelle casse béton, roche, brique : déconstruction sélective, réfection de voirie, fraisage de roche. Marteau de classe 100-200 kg pour les 1,5 à 2,5 T, 300-500 kg pour les 3 à 4 T. <strong>Ne montez jamais un brise-roche surdimensionné</strong> — cela endommage flèche et tourelle. Le duo mini-pelle + mini-tombereau excelle sur ces chantiers.</p>
+<h2><span class="num">09</span>Droit applicable &amp; litiges</h2>
+<p>Les présentes CGV sont soumises au droit français. En cas de litige, les parties s'efforceront de trouver une solution amiable. À défaut, les tribunaux compétents seront ceux du ressort de Toulouse pour les clients professionnels ; pour les consommateurs, les règles légales de compétence s'appliquent.</p>
 
-<h2 id="interieur">Travaux intérieurs en bâtiment</h2>
-<p>Pour casser une chape, déposer un carrelage épais ou creuser un vide sanitaire, la mini-pelle est parfois la seule solution. Contraintes sévères : hauteur sous plafond (2,20 à 2,50 m), largeur de passage (portes 80-90 cm), charge admissible du plancher. La <strong>CL08</strong> (800 kg, 754 mm) passe une porte standard ; vérifiez la résistance du plancher (plaques de répartition sur bois ancien).</p>
+<p class="legal-note">Document fourni à titre informatif. Nous recommandons sa validation par un conseil juridique avant publication définitive.</p>
 
-<h2 id="agriculture">Agriculture & viticulture</h2>
-<p>Secteur historique : entretien des fossés (une 1,5 à 2,5 T cure 1 km/jour), drains, mares, génie rural. En <strong>viticulture</strong>, la mini-pelle équipée d'une <strong>tarière</strong> creuse 200 à 400 trous de plantation par jour, et arrache les vieux ceps. Tonnage idéal : 1,5 à 2,5 T, avec chenilles larges pour préserver les sols.</p>
-
-<h2 id="conseils">Conseils pratiques pour débutants</h2>
-<h3>Avant de démarrer</h3>
-<ul>
-  <li>Lisez le manuel (schémas de contrôle et maintenance)</li>
-  <li>Tour de machine : niveaux, chenilles, flexibles</li>
-  <li>Effectuez une DICT avant tout creusement</li>
-  <li>Repérez les lignes aériennes (distance de sécurité 3 m)</li>
-</ul>
-<h3>Pendant le travail</h3>
-<ul>
-  <li>Commencez lentement (commandes progressives)</li>
-  <li>Stabilisez avec la lame avant de creuser</li>
-  <li>Travaillez en rotation minimale (90° max)</li>
-  <li>Ne surchargez pas le godet</li>
-  <li>Personne dans le rayon de rotation</li>
-</ul>
-<h3>Entretien quotidien</h3>
-<ul>
-  <li>Graissez les articulations toutes les 8-10 h (geste le plus important)</li>
-  <li>Nettoyez le godet, surtout en argile</li>
-  <li>Vérifiez la tension des chenilles</li>
-</ul>
-<p>Chaque livraison CZN inclut une formation de 30 minutes sur site.</p>
-
-      </article>
-      <aside class="article-toc">
-        <div class="article-toc-title">Sommaire</div>
-        <ul>
-        <li><a href="#terrassement">Terrassement</a></li>
-        <li><a href="#tranchees">Tranchées</a></li>
-        <li><a href="#vrd">VRD & réseaux</a></li>
-        <li><a href="#paysager">Aménagement paysager</a></li>
-        <li><a href="#collectivites">Collectivités</a></li>
-        <li><a href="#piscine">Piscine & fondations</a></li>
-        <li><a href="#demolition">Démolition légère</a></li>
-        <li><a href="#interieur">Travaux intérieurs</a></li>
-        <li><a href="#agriculture">Agriculture & viticulture</a></li>
-        <li><a href="#conseils">Conseils débutants</a></li>
-        </ul>
-      </aside>
-    </div>
-  </div>
-</section>
-
-<section class="sec-paper" style="padding: 72px 0;">
-  <div class="container">
-    <div class="inner-header reveal">
-      <div class="eyebrow">À lire aussi</div>
-      <h2 class="section-title">Articles <em>associés</em>.</h2>
-    </div>
-    <div class="related-guides">
-      <a href="/guides/quest-ce-quune-mini-pelle/" class="related-card">
-        <span class="related-card-cat">Fondamentaux</span>
-        <span class="related-card-title">Qu'est-ce qu'une mini-pelle ?</span>
-        <span class="related-card-desc">Définition, catégories par tonnage, composants clés et fonctionnement hydraulique.</span>
-      </a>
-      <a href="/guides/comment-choisir-mini-pelle/" class="related-card">
-        <span class="related-card-cat">Achat</span>
-        <span class="related-card-title">Comment choisir une mini-pelle ?</span>
-        <span class="related-card-desc">Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.</span>
-      </a>
-      <a href="/guides/mini-pelle-terrassement/" class="related-card">
-        <span class="related-card-cat">Usages</span>
-        <span class="related-card-title">Mini-pelle pour terrassement</span>
-        <span class="related-card-desc">Tonnage par type de sol, accessoires, techniques et coûts au m³. Le guide complet.</span>
-      </a>
-    </div>
-  </div>
-</section>
-
-<section class="inner-cta">
-  <div class="container">
-    <div class="inner-cta-inner reveal">
-      <h2>Besoin d'un <em>conseil personnalisé</em> ?</h2>
-      <p>Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.</p>
-      <div class="cta-btns">
-        <a href="/contact/" class="btn-orange">Contacter nos experts</a>
-        <a href="/mini-pelles/" class="btn-ghost">Voir les mini-pelles</a>
-      </div>
     </div>
   </div>
 </section>
@@ -396,31 +298,3 @@
 </script>
 </body>
 </html>
-
-<script>
-(function(){
-  var toc = document.querySelector('.article-toc');
-  if(!toc) return;
-  var links = Array.prototype.slice.call(toc.querySelectorAll('a'));
-  var map = links.map(function(a){
-    var id = (a.getAttribute('href') || '').replace('#','');
-    return { link: a, target: id ? document.getElementById(id) : null };
-  }).filter(function(o){ return o.target; });
-  if(!map.length) return;
-  var ticking = false;
-  function update(){
-    ticking = false;
-    var pos = window.scrollY + 140;
-    var current = map[0];
-    for(var i=0;i<map.length;i++){
-      if(map[i].target.offsetTop <= pos) current = map[i];
-    }
-    map.forEach(function(o){ o.link.classList.toggle('active', o === current); });
-  }
-  window.addEventListener('scroll', function(){
-    if(!ticking){ window.requestAnimationFrame(update); ticking = true; }
-  }, { passive: true });
-  window.addEventListener('resize', update, { passive: true });
-  update();
-})();
-</script>

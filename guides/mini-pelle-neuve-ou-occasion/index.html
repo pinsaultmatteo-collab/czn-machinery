@@ -33,7 +33,7 @@
     <div class="utility-left">
       <span>📍 Toulouse, France</span>
       <span class="util-divider"></span>
-      <span class="util-hours">Showroom Lun–Ven · 9h–18h</span>
+      <span class="util-hours">Showroom Lun–Ven · 9h–12h / 14h–18h</span>
       <span class="status-pill is-closed" id="openStatus" aria-live="polite"><span class="status-dot"></span><span class="status-text">—</span></span>
     </div>
     <div class="utility-right">
@@ -59,7 +59,7 @@
     parts.forEach(function(p){m[p.type]=p.value;});
     var mins=parseInt(m.hour,10)*60+parseInt(m.minute,10);
     var weekdays=['Mon','Tue','Wed','Thu','Fri'];
-    var open=weekdays.indexOf(m.weekday)>=0 && mins>=540 && mins<1080; /* 9h00-18h00 */
+    var open=weekdays.indexOf(m.weekday)>=0 && ((mins>=540&&mins<720)||(mins>=840&&mins<1080)); /* Lun-Ven 9h-12h & 14h-18h */
     el.classList.toggle('is-open',open);
     el.classList.toggle('is-closed',!open);
     var t=el.querySelector('.status-text');
