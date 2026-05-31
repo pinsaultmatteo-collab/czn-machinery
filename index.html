@@ -1150,57 +1150,6 @@
 
 <!-- ═══════════════ LIVRAISON FRANCE ═══════════════ -->
 <section class="livraison" id="livraison">
-  <div class="anim-truck-wrap" data-anim="truck" aria-hidden="true">
-  <!-- road dashes -->
-  <div class="anim-truck-road"></div>
-  <svg class="anim-truck" viewBox="0 0 320 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <!-- trailer carrying mini excavator -->
-    <g class="anim-truck-trailer">
-      <!-- trailer flatbed -->
-      <rect x="60" y="60" width="170" height="14" fill="var(--ink)" stroke="var(--orange-deep)" stroke-width="1"/>
-      <!-- excavator load -->
-      <g fill="var(--orange)">
-        <rect x="100" y="42" width="50" height="18" rx="2"/>
-        <rect x="115" y="32" width="22" height="14" rx="2"/>
-        <!-- excavator arm -->
-        <path d="M148 50 L172 38 L178 44 L174 56 Z" stroke="var(--ink)" stroke-width="0.5"/>
-      </g>
-      <!-- tracks under load -->
-      <rect x="100" y="58" width="50" height="4" fill="#0d0a06"/>
-    </g>
-    <!-- tractor cab -->
-    <g class="anim-truck-cab">
-      <rect x="232" y="36" width="56" height="38" fill="var(--ink)" stroke="var(--orange-deep)" stroke-width="1"/>
-      <!-- windshield -->
-      <path d="M236 40 L260 40 L258 56 L236 56 Z" fill="#5a6e78"/>
-      <!-- side window -->
-      <rect x="262" y="42" width="22" height="12" fill="#5a6e78"/>
-      <!-- bumper -->
-      <rect x="288" y="60" width="6" height="14" fill="var(--orange-deep)"/>
-      <!-- exhaust -->
-      <rect x="240" y="20" width="3" height="18" fill="#2a2a2a"/>
-    </g>
-    <!-- wheels with rotation -->
-    <g class="anim-truck-wheels" fill="#0d0a06">
-      <circle cx="80" cy="78" r="9"/>
-      <circle cx="80" cy="78" r="3" fill="#4a4a4a"/>
-      <circle cx="110" cy="78" r="9"/>
-      <circle cx="110" cy="78" r="3" fill="#4a4a4a"/>
-      <circle cx="200" cy="78" r="9"/>
-      <circle cx="200" cy="78" r="3" fill="#4a4a4a"/>
-      <circle cx="248" cy="78" r="9"/>
-      <circle cx="248" cy="78" r="3" fill="#4a4a4a"/>
-      <circle cx="278" cy="78" r="9"/>
-      <circle cx="278" cy="78" r="3" fill="#4a4a4a"/>
-    </g>
-    <!-- exhaust puff -->
-    <g class="anim-truck-smoke" fill="#cbd0d6" opacity="0.5">
-      <circle cx="238" cy="14" r="3"/>
-      <circle cx="232" cy="10" r="2"/>
-      <circle cx="244" cy="8" r="2.5"/>
-    </g>
-  </svg>
-</div>
   <div class="container">
     <div class="section-header reveal">
       <div class="eyebrow">Livraison France</div>
@@ -1715,7 +1664,7 @@
       var crossed = vh - rect.top;
       var p = Math.max(0, Math.min(1, crossed / totalRange));
       // X position: from -20% to 120% of viewport width
-      var x = -20 + p * 140;
+      var x = opts.reverse ? (120 - p * 140) : (-20 + p * 140);
       // Y wave for plane (gentle vertical drift)
       var y = opts.wave ? Math.sin(p * Math.PI) * -18 : 0;
       elem.style.transform = 'translate3d(' + x + 'vw, ' + y + 'px, 0)';
@@ -1728,8 +1677,7 @@
     update();
   }
 
-  setupSectionAnim('.pourquoi', '.anim-plane-wrap', {wave: true});
-  setupSectionAnim('.livraison', '.anim-truck-wrap', {wave: false});
+  setupSectionAnim('.pourquoi', '.anim-plane-wrap', {wave: true, reverse: true});
 })();
 </script>
 </body>

@@ -4552,49 +4552,10 @@ a.contact-item-val:hover { color: var(--orange); }
   z-index: 0;
   will-change: transform;
 }
-.anim-plane { width: 100%; height: 100%; opacity: 0.55; }
+.anim-plane { width: 100%; height: 100%; opacity: 0.55; transform: scaleX(-1); }
 
 /* Make sure .pourquoi content stays above plane */
 .pourquoi .container { position: relative; z-index: 1; }
-
-/* TRUCK on .livraison */
-.livraison { position: relative; overflow: hidden; }
-.livraison .container { position: relative; z-index: 1; }
-.anim-truck-wrap {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  width: 320px;
-  height: 110px;
-  pointer-events: none;
-  z-index: 0;
-  will-change: transform;
-}
-.anim-truck { width: 100%; height: 100%; opacity: 0.6; }
-.anim-truck-road {
-  position: absolute;
-  bottom: 12px;
-  left: -50%;
-  width: 200%;
-  height: 2px;
-  background-image: linear-gradient(to right, var(--muted) 50%, transparent 50%);
-  background-size: 22px 2px;
-  background-repeat: repeat-x;
-  opacity: 0.35;
-}
-.anim-truck-wheels circle {
-  transform-origin: center;
-  animation: wheelSpin 0.6s linear infinite;
-}
-@keyframes wheelSpin { to { transform: rotate(360deg); } }
-.anim-truck-smoke {
-  animation: smokeRise 1.6s ease-in-out infinite;
-  transform-origin: 240px 14px;
-}
-@keyframes smokeRise {
-  0%   { opacity: 0.5; transform: translate(0, 0) scale(1); }
-  100% { opacity: 0;   transform: translate(-6px, -10px) scale(1.3); }
-}
 
 /* PARTNERS — gentle floating */
 .partners-strip .partner-logo,
@@ -4619,7 +4580,38 @@ a.contact-item-val:hover { color: var(--orange); }
 
 /* Respect reduced-motion */
 @media (prefers-reduced-motion: reduce) {
-  .anim-plane-wrap, .anim-truck-wrap { display: none; }
+  .anim-plane-wrap { display: none; }
   .partners-strip img, .partners-strip .partner-logo { animation: none; }
-  .anim-truck-wheels circle, .anim-truck-smoke { animation: none; }
 }
+
+  /* Hover expansion on the utility bar */
+  .utility-bar {
+    transition: padding 0.28s cubic-bezier(0.4,0,0.2,1),
+                font-size 0.28s cubic-bezier(0.4,0,0.2,1);
+  }
+  .utility-bar .flag,
+  .utility-bar .util-phone-ic {
+    transition: transform 0.28s cubic-bezier(0.4,0,0.2,1);
+  }
+  .utility-bar:hover {
+    padding: 14px 0;
+    font-size: 13.5px;
+  }
+  .utility-bar:hover .flag {
+    width: 21px;
+    height: 14px;
+    transform: scale(1.05);
+  }
+  .utility-bar:hover .util-phone-ic {
+    width: 15px;
+    height: 15px;
+  }
+  .utility-bar:hover .status-pill {
+    padding: 4px 13px;
+    font-size: 11.5px;
+  }
+  @media (max-width: 720px) {
+    /* No hover on touch: keep static */
+    .utility-bar { transition: none; }
+    .utility-bar:hover { padding: 8px 0; font-size: 10px; }
+  }
