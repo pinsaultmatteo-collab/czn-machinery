@@ -4626,7 +4626,7 @@ a.contact-item-val:hover { color: var(--orange); }
   width: 72%;                     /* image occupies right 72% of the hero */
   height: 100%;
   object-fit: cover;
-  object-position: 58% 78%;       /* favour right + bottom: keep the tracks visible */
+  object-position: 58% center;       /* favour right + bottom: keep the tracks visible */
   z-index: 1;
   opacity: 0;
   animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
@@ -4725,8 +4725,6 @@ a.contact-item-val:hover { color: var(--orange); }
 @media (max-width: 700px) {
   .catv2-showcase { margin: 8px 0 30px; padding: 16px 8px 0; }
   .catv2-showcase .czn-digger { max-width: 280px; }
-}
-
 }
 
 /* ═══════════════ DIAGONAL STRIPE SEPARATOR (ink + orange) ═══════════════ */
