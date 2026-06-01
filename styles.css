@@ -256,7 +256,7 @@
     background-position: -1px -1px;
     mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
     -webkit-mask-image: radial-gradient(ellipse at center, black 30%, transparent 75%);
-    opacity: 0.6;
+    opacity: 0.22;
   }
   .hero::after {
     content: '';
@@ -4615,3 +4615,78 @@ a.contact-item-val:hover { color: var(--orange); }
     .utility-bar { transition: none; }
     .utility-bar:hover { padding: 8px 0; font-size: 10px; }
   }
+
+
+/* ═══════════════ HERO — photo background + animated underline ═══════════════ */
+.hero-bg-photo {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 70% center;
+  z-index: 1;
+  opacity: 0;
+  animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
+}
+@keyframes heroPhotoIn {
+  from { opacity: 0; transform: scale(1.05); }
+  to   { opacity: 1; transform: scale(1); }
+}
+.hero-bg-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  background:
+    linear-gradient(to right,
+      rgba(23,30,39,0.96) 0%,
+      rgba(23,30,39,0.92) 22%,
+      rgba(23,30,39,0.75) 42%,
+      rgba(23,30,39,0.42) 62%,
+      rgba(23,30,39,0.30) 100%),
+    linear-gradient(to top,
+      rgba(23,30,39,0.7) 0%,
+      transparent 35%);
+  pointer-events: none;
+}
+/* Keep the existing hero::after fade-to-oak at bottom on top of overlay */
+.hero::after { z-index: 3; }
+/* Glow goes above overlay for atmosphere */
+.hero-glow { z-index: 4; mix-blend-mode: screen; opacity: 0.6; }
+/* Content sits above everything */
+.hero-content { z-index: 5; }
+.hero-meta { z-index: 5; }
+/* The old SVG class is no longer in the DOM, but make sure no orphan rule shows it */
+.hero-machine { display: none; }
+
+/* ─── Animated underline on 'chantier' ─── */
+.hero-title em.title-mark {
+  position: relative;
+  display: inline-block;
+  font-style: normal;
+  color: var(--orange);
+}
+.title-underline {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.05em;
+  width: 100%;
+  height: 0.22em;
+  overflow: visible;
+  color: var(--orange);
+  pointer-events: none;
+}
+.title-underline path {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800;
+  animation: underlineDraw 1.4s cubic-bezier(0.65,0,0.35,1) 1.2s forwards;
+  filter: drop-shadow(0 1px 3px rgba(242,129,28,0.25));
+}
+@keyframes underlineDraw {
+  to { stroke-dashoffset: 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-bg-photo { animation: none; opacity: 1; transform: none; }
+  .title-underline path { animation: none; stroke-dashoffset: 0; }
+}
