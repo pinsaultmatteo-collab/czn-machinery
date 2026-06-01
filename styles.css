@@ -4626,7 +4626,7 @@ a.contact-item-val:hover { color: var(--orange); }
   width: 72%;                     /* image occupies right 72% of the hero */
   height: 100%;
   object-fit: cover;
-  object-position: 58% center;    /* favour the right portion of the machine */
+  object-position: 58% 78%;       /* favour right + bottom: keep the tracks visible */
   z-index: 1;
   opacity: 0;
   animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
@@ -4727,38 +4727,6 @@ a.contact-item-val:hover { color: var(--orange); }
   .catv2-showcase .czn-digger { max-width: 280px; }
 }
 
-/* ═══════════════ CONFIGURATEUR — blueprint background ═══════════════ */
-.config-promo { position: relative; overflow: hidden; }
-.config-promo .container { position: relative; z-index: 2; }
-.config-blueprint {
-  position: absolute;
-  top: 62%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 86%;
-  max-width: 1000px;
-  height: auto;
-  z-index: 1;
-  opacity: 0.55;
-  pointer-events: none;
-}
-.config-blueprint svg {
-  width: 100%;
-  height: auto;
-  display: block;
-}
-.config-blueprint .cb-machine path,
-.config-blueprint .cb-machine rect,
-.config-blueprint .cb-machine circle {
-  stroke-dasharray: 1800;
-  stroke-dashoffset: 1800;
-  animation: cbDraw 3s cubic-bezier(0.65, 0, 0.35, 1) 0.4s forwards;
-}
-@keyframes cbDraw {
-  to { stroke-dashoffset: 0; }
-}
-@media (prefers-reduced-motion: reduce) {
-  .config-blueprint .cb-machine * { stroke-dashoffset: 0; animation: none; }
 }
 
 /* ═══════════════ DIAGONAL STRIPE SEPARATOR (ink + orange) ═══════════════ */
