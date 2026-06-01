@@ -4620,11 +4620,13 @@ a.contact-item-val:hover { color: var(--orange); }
 /* ═══════════════ HERO — photo background + animated underline ═══════════════ */
 .hero-bg-photo {
   position: absolute;
-  inset: 0;
-  width: 100%;
+  top: 0;
+  right: 0;
+  left: auto;
+  width: 72%;                     /* image occupies right 72% of the hero */
   height: 100%;
   object-fit: cover;
-  object-position: 70% center;
+  object-position: 58% center;    /* favour the right portion of the machine */
   z-index: 1;
   opacity: 0;
   animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
@@ -4639,15 +4641,36 @@ a.contact-item-val:hover { color: var(--orange); }
   z-index: 2;
   background:
     linear-gradient(to right,
-      rgba(23,30,39,0.96) 0%,
-      rgba(23,30,39,0.92) 22%,
-      rgba(23,30,39,0.75) 42%,
-      rgba(23,30,39,0.42) 62%,
-      rgba(23,30,39,0.30) 100%),
+      rgba(23,30,39,1) 0%,
+      rgba(23,30,39,1) 28%,         /* solid dark on left, masks where image begins */
+      rgba(23,30,39,0.92) 38%,
+      rgba(23,30,39,0.68) 50%,
+      rgba(23,30,39,0.35) 65%,
+      rgba(23,30,39,0.18) 80%,
+      rgba(23,30,39,0.12) 100%),
     linear-gradient(to top,
-      rgba(23,30,39,0.7) 0%,
+      rgba(23,30,39,0.65) 0%,
       transparent 35%);
   pointer-events: none;
+}
+/* Mobile: photo goes back to full-bleed behind the text for impact */
+@media (max-width: 900px) {
+  .hero-bg-photo {
+    left: 0;
+    right: auto;
+    width: 100%;
+    object-position: 70% center;
+  }
+  .hero-bg-overlay {
+    background:
+      linear-gradient(to right,
+        rgba(23,30,39,0.93) 0%,
+        rgba(23,30,39,0.88) 40%,
+        rgba(23,30,39,0.65) 100%),
+      linear-gradient(to top,
+        rgba(23,30,39,0.85) 0%,
+        transparent 40%);
+  }
 }
 /* Keep the existing hero::after fade-to-oak at bottom on top of overlay */
 .hero::after { z-index: 3; }
