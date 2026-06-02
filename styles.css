@@ -4762,7 +4762,7 @@ a.contact-item-val:hover { color: var(--orange); }
   width: 72%;                     /* image occupies right 72% of the hero */
   height: 100%;
   object-fit: cover;
-  object-position: 30% center;       /* shifted left so text doesn't overlap the excavator arm */
+  object-position: 60% center;       /* push image rightward so text doesn't overlap the excavator arm */
   z-index: 1;
   opacity: 0;
   animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
