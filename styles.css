@@ -4451,6 +4451,121 @@ a.contact-item-val:hover { color: var(--orange); }
   .hv2-node-cap { display: none; }
 }
 
+/* ═══════════════ HISTOIRE — Photo du siège (haut de gamme) ═══════════════ */
+.hv2-locale {
+  margin: 72px auto 0;
+  max-width: 1100px;
+  padding: 0;
+}
+.hv2-locale-frame {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  background: #0a0d12;
+  box-shadow:
+    0 0 0 1px rgba(244,239,228,0.08),
+    0 30px 60px -20px rgba(0,0,0,0.55),
+    0 60px 120px -50px rgba(0,0,0,0.7);
+}
+.hv2-locale-frame img {
+  display: block;
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  /* Editorial print feel — subtle contrast + slight desaturation */
+  filter: contrast(1.04) saturate(0.92) brightness(0.96);
+  transition: transform 1.6s cubic-bezier(0.16, 1, 0.3, 1), filter 0.8s ease;
+}
+.hv2-locale-frame:hover img {
+  transform: scale(1.025);
+  filter: contrast(1.06) saturate(1) brightness(1);
+}
+/* Vignette — adds depth, focuses the eye on the entrance */
+.hv2-locale-vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background:
+    radial-gradient(ellipse 120% 80% at 50% 45%, transparent 55%, rgba(10,13,18,0.42) 100%),
+    linear-gradient(to bottom, rgba(10,13,18,0) 65%, rgba(10,13,18,0.45) 100%);
+}
+/* "Plate" — editorial caption sitting on the photo */
+.hv2-locale-plate {
+  position: absolute;
+  bottom: 22px;
+  left: 22px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 9px 14px 9px 12px;
+  background: rgba(15,19,26,0.82);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(244,239,228,0.1);
+  border-radius: 2px;
+  font-family: var(--f-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.12em;
+  color: rgba(244,239,228,0.85);
+  text-transform: uppercase;
+}
+.hv2-locale-plate-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--orange);
+  box-shadow: 0 0 0 3px rgba(232,107,33,0.18);
+  animation: hv2LocaleDot 2.4s ease-in-out infinite;
+}
+@keyframes hv2LocaleDot {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.45; transform: scale(0.92); }
+}
+/* Caption underneath — like the editorial credit line */
+.hv2-locale-caption {
+  margin-top: 18px;
+  padding: 0 4px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: var(--f-mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  color: rgba(244,239,228,0.4);
+  text-transform: uppercase;
+}
+.hv2-locale-coords { color: rgba(244,239,228,0.6); }
+.hv2-locale-sep { color: rgba(244,239,228,0.2); }
+
+@media (max-width: 700px) {
+  .hv2-locale { margin-top: 48px; }
+  .hv2-locale-plate {
+    bottom: 14px;
+    left: 14px;
+    padding: 7px 11px;
+    font-size: 9.5px;
+    letter-spacing: 0.1em;
+  }
+  .hv2-locale-caption {
+    font-size: 10.5px;
+    text-transform: none;
+    letter-spacing: 0.04em;
+    flex-direction: column;
+    gap: 4px;
+    text-align: center;
+  }
+  .hv2-locale-sep { display: none; }
+  .hv2-locale-coords {
+    font-family: var(--f-mono);
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    font-size: 10px;
+  }
+}
+
 /* ═══════════════ CATALOGUE v2 — refondu, fond paper, logos ═══════════════ */
 .catalogue-v2 {
   background: var(--paper);
@@ -4757,12 +4872,12 @@ a.contact-item-val:hover { color: var(--orange); }
 .hero-bg-photo {
   position: absolute;
   top: 0;
-  right: -14%;                    /* image overflows 14% past the right edge to physically shift content rightward */
+  right: 0;
   left: auto;
-  width: 86%;                     /* widened from 72% to give object-fit more horizontal slack */
+  width: 72%;                     /* image occupies right 72% of the hero */
   height: 100%;
   object-fit: cover;
-  object-position: center center;
+  object-position: 85% center;       /* push image rightward so text doesn't overlap the excavator arm */
   z-index: 1;
   opacity: 0;
   animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
