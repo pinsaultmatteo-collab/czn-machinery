@@ -116,6 +116,17 @@
     </div>
   </div>
 </nav>
+<script>
+(function(){
+  var path = window.location.pathname.replace(/\/$/, '') || '/';
+  document.querySelectorAll('.nav-links a').forEach(function(a){
+    var href = a.getAttribute('href').replace(/\/$/, '') || '/';
+    if (path === href || (href !== '' && href !== '/' && path.indexOf(href) === 0)) {
+      a.classList.add('nav-active');
+    }
+  });
+})();
+</script>
 
 <section class="page-hero page-hero--split">
   <div class="container">
