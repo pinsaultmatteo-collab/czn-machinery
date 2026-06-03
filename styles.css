@@ -3293,7 +3293,7 @@ a.contact-item-val:hover { color: var(--orange); }
 }
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   align-items: center;
   max-width: 960px;
@@ -4794,6 +4794,8 @@ a.contact-item-val:hover { color: var(--orange); }
 .partners-strip .partner-logo:nth-child(4) { animation-delay: 1.8s; }
 .partners-strip > *:nth-child(5) img,
 .partners-strip .partner-logo:nth-child(5) { animation-delay: 2.4s; }
+.partners-strip > *:nth-child(6) img,
+.partners-strip .partner-logo:nth-child(6) { animation-delay: 3.0s; }
 @keyframes partnerFloat {
   0%, 100% { transform: translateY(0); }
   50%      { transform: translateY(-6px); }
