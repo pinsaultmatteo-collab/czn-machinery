@@ -4964,31 +4964,30 @@ a.contact-item-val:hover { color: var(--orange); }
   .stripe-separator { height: 14px; }
 }
 
-
-
 /* ═══════════════ PAGE HERO — drone photo background (entreprise) ═══════════════ */
-.page-hero--split .page-hero-bg-photo {
-  position: absolute;
+.page-hero--split { position: relative; min-height: 520px; }
+.page-hero--split .page-hero-bg {
+  position: absolute !important;
   inset: 0;
-  width: 100%;
-  height: 100%;
   z-index: 0;
-  display: block;
+  overflow: hidden;
   pointer-events: none;
 }
-.page-hero--split .page-hero-bg-photo img {
+.page-hero--split .page-hero-bg picture,
+.page-hero--split .page-hero-bg img {
+  display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
   object-position: center 40%;
+}
+.page-hero--split .page-hero-bg img {
   opacity: 0;
   animation: heroPhotoIn 1.6s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)) 0.1s forwards;
 }
 .page-hero--split .page-hero-bg-overlay {
   position: absolute;
   inset: 0;
-  z-index: 1;
-  pointer-events: none;
   background:
     linear-gradient(to right,
       rgba(23,30,39,0.95) 0%,
@@ -5008,9 +5007,7 @@ a.contact-item-val:hover { color: var(--orange); }
 .page-hero--split::after { z-index: 2; }
 
 @media (max-width: 900px) {
-  .page-hero--split .page-hero-bg-photo img {
-    object-position: 60% 40%;
-  }
+  .page-hero--split .page-hero-bg img { object-position: 60% 40%; }
   .page-hero--split .page-hero-bg-overlay {
     background:
       linear-gradient(to right,
@@ -5025,5 +5022,5 @@ a.contact-item-val:hover { color: var(--orange); }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .page-hero--split .page-hero-bg-photo img { animation: none; opacity: 1; }
+  .page-hero--split .page-hero-bg img { animation: none; opacity: 1; }
 }
