@@ -341,6 +341,25 @@
   .hero-title em {
     font-style: normal;
     color: var(--orange);
+    position: relative;
+    display: inline-block;
+  }
+  .hero-title em::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0.15em; /* léger retrait pour ne pas souligner la virgule */
+    bottom: -0.05em;
+    height: 0.18em;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 300 14' preserveAspectRatio='none'><path d='M3 9 Q 75 3, 150 7 T 297 6' stroke='%23F2811C' stroke-width='4' stroke-linecap='round' fill='none'/></svg>");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    clip-path: inset(0 100% 0 0);
+    animation: underlineDraw 0.9s cubic-bezier(0.65, 0, 0.35, 1) 1.3s forwards;
+    pointer-events: none;
+  }
+  @keyframes underlineDraw {
+    to { clip-path: inset(0 0 0 0); }
   }
   @keyframes wordIn {
     to { opacity: 1; transform: translateY(0); }
