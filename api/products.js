@@ -1,66 +1,62 @@
 // 📁 Destination dans ton repo : /api/products.js
 //
-// Vercel transforme automatiquement tout fichier de /api/ en fonction serverless,
-// même sur un site 100 % statique — aucun framework requis.
+// Lit le catalogue Axonaut côté serveur (la clé API n'est JAMAIS exposée au
+// navigateur), puis ne renvoie au site QUE les vraies machines/accessoires.
 //
-// Rôle : lire le catalogue Axonaut côté serveur (la clé API n'est JAMAIS exposée
-// au navigateur), normaliser les produits, et les ranger par catégorie de site.
+// ⚠️ Les catégories Axonaut sont vides → on filtre par PRÉFIXE DE RÉFÉRENCE
+//    (product_code). Tout produit dont le code ne commence par aucun préfixe
+//    connu (donc tout le SAV / pièces) est EXCLU automatiquement.
 //
-// ⚠️ AVANT TOUT : ajoute la variable d'environnement dans Vercel
-//    Settings → Environment Variables → AXONAUT_API_KEY = ta_clé
-//    (Ne me la colle jamais ici. Elle ne doit vivre que dans Vercel.)
+// Variable d'environnement requise (Vercel → Settings → Environment Variables) :
+//    AXONAUT_API_KEY = ta clé Axonaut   (ne la colle jamais dans le code)
 //
-// Utilisation une fois déployé :
-//   /api/products                    → tous les produits, normalisés et rangés
-//   /api/products?category=mini-pelles → filtré sur une catégorie de site
-//   /api/products?debug=1            → DÉCOUVERTE : te montre la vraie structure
-//                                      Axonaut + la liste de tes noms de catégories
-//
-// 👉 ÉTAPE SUIVANTE : déploie, ouvre /api/products?debug=1, et envoie-moi
-//    « categoriesAxonaut » + « echantillonBrut ». Je verrouille alors le mapping
-//    et les noms de champs exacts (prix, stock…) sur tes vraies données.
+// Tests une fois déployé :
+//   /api/products?debug=1               → ce qui est détecté pour le site
+//   /api/products                       → toutes les machines/accessoires retenues
+//   /api/products?category=mini-pelles  → filtré sur une famille
 
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
 
 // ─────────────────────────────────────────────────────────────
-//  MAPPING CATÉGORIE AXONAUT → PAGE DU SITE
-//  À ajuster avec tes vrais noms de catégories (vus via ?debug=1).
-//  La clé = nom (ou fragment) de la catégorie côté Axonaut (insensible à la casse).
-//  La valeur = le slug de la page du site.
+//  LISTE BLANCHE — préfixe de référence → page du site (+ marque)
+//  À COMPLÉTER au fur et à mesure avec tes autres familles.
 // ─────────────────────────────────────────────────────────────
-const CATEGORY_MAP = [
-  { match: "pelle",      slug: "mini-pelles" },
-  { match: "chargeur",   slug: "mini-chargeurs" },
-  { match: "tombereau",  slug: "mini-tombereaux" },
-  { match: "dumper",     slug: "mini-tombereaux" },
-  { match: "accessoire", slug: "accessoires" },
+const PREFIX_MAP = [
+  { prefix: "SMP",  slug: "mini-pelles",     brand: "Sonca" },
+  { prefix: "X-MP", slug: "mini-pelles",     brand: "Xcavator" },
+  // { prefix: "SMC",  slug: "mini-chargeurs",  brand: "Sonca" },
+  // { prefix: "X-MC", slug: "mini-chargeurs",  brand: "Xcavator" },
+  // { prefix: "SMT",  slug: "mini-tombereaux", brand: "Sonca" },
+  // { prefix: "ACC",  slug: "accessoires",     brand: null },
 ];
 
-function mapCategory(rawCategory) {
-  const c = (rawCategory || "").toString().toLowerCase();
-  for (const rule of CATEGORY_MAP) {
-    if (c.includes(rule.match)) return rule.slug;
+function classify(productCode) {
+  const code = (productCode || "").toString().trim().toUpperCase();
+  if (!code) return null;
+  // préfixes les plus longs testés d'abord (évite les collisions type X-MP / X-MC)
+  const rules = [...PREFIX_MAP].sort((a, b) => b.prefix.length - a.prefix.length);
+  for (const r of rules) {
+    if (code.startsWith(r.prefix.toUpperCase())) return { slug: r.slug, brand: r.brand };
   }
-  return "autres"; // non mappé → visible en debug pour ajuster CATEGORY_MAP
+  return null; // hors site : SAV, pièces, services…
 }
 
 // Cache mémoire court (réutilisé tant que la fonction reste "chaude").
 let CACHE = { at: 0, data: null };
-const CACHE_MS = 5 * 60 * 1000; // 5 minutes
+const CACHE_MS = 5 * 60 * 1000;
 
-// Récupère TOUS les produits Axonaut en gérant la pagination.
-// (Piège classique : ne récupérer que la page 1 et perdre 80 % du catalogue.)
+// Récupère TOUT le catalogue Axonaut — pagination via EN-TÊTE HTTP `page`.
 async function fetchAllProducts(apiKey) {
   const all = [];
-  const MAX_PAGES = 30;   // garde-fou
-  const PER_PAGE = 500;   // Axonaut renvoie jusqu'à 500 résultats par page
+  const MAX_PAGES = 30;
+  const PER_PAGE = 500;
 
   for (let page = 1; page <= MAX_PAGES; page++) {
     const res = await fetch(`${AXONAUT_BASE}/products`, {
       headers: {
         userApiKey: apiKey,
         Accept: "application/json",
-        page: String(page), // ← pagination via EN-TÊTE HTTP (exigé par Axonaut), pas via ?page=
+        page: String(page), // ← exigé par Axonaut (et non ?page= dans l'URL)
       },
     });
     if (!res.ok) {
@@ -71,50 +67,44 @@ async function fetchAllProducts(apiKey) {
     const items = Array.isArray(batch) ? batch : (batch.data || batch.results || []);
     if (!items.length) break;
     all.push(...items);
-    if (items.length < PER_PAGE) break; // dernière page atteinte
+    if (items.length < PER_PAGE) break; // dernière page
   }
   return all;
 }
 
-// Normalisation défensive : on tolère plusieurs noms de champs possibles,
-// le temps de verrouiller les vrais via ?debug=1.
-function normalize(p) {
-  const priceHT =
-    num(p.price) ?? num(p.unit_price) ?? num(p.pricing && p.pricing.price) ?? null;
-  const vat = num(p.tax_rate) ?? num(p.vat) ?? num(p.tax) ?? 0;
-  const stock =
-    num(p.stock) ?? num(p.stock_quantity) ?? num(p.available_stock) ?? null;
-  const rawCat =
-    p.category || p.product_category || p.family || p.categoryName || "";
+const toNum = (v) => {
+  const n = parseFloat(v);
+  return isNaN(n) ? null : n;
+};
 
+// Normalisation sur les VRAIS champs Axonaut (confirmés via ?debug=1).
+function normalize(p) {
+  const cls = classify(p.product_code);
+  const priceHT = toNum(p.price);
+  const stock = toNum(p.stock);
   return {
-    id: p.id ?? p.product_id ?? null,
-    name: p.name || p.product_name || p.label || "Sans nom",
-    reference: p.product_code || p.reference || p.sku || null,
-    brand: p.brand || p.manufacturer || null,
+    id: p.id ?? null,
+    name: p.name || "Sans nom",
+    reference: p.product_code || null,
+    brand: cls ? cls.brand : null,
+    pageSlug: cls ? cls.slug : null,
     priceHT,
-    priceTTC: priceHT != null ? round2(priceHT * (1 + vat / 100)) : null,
-    vat,
+    priceTTC: toNum(p.price_with_tax),
+    vat: toNum(p.tax_rate) ?? 20,
     stock,
     inStock: stock == null ? null : stock > 0,
-    rawCategory: rawCat,
-    pageSlug: mapCategory(rawCat),
+    image: p.image || null,
+    disabled: !!p.disabled,
   };
 }
-
-const num = (v) => (v === 0 || v ? Number(v) : null);
-const round2 = (n) => Math.round(n * 100) / 100;
 
 module.exports = async (req, res) => {
   const apiKey = process.env.AXONAUT_API_KEY;
   if (!apiKey) {
-    return res
-      .status(500)
-      .json({ error: "AXONAUT_API_KEY manquante dans les variables d'environnement Vercel." });
+    return res.status(500).json({ error: "AXONAUT_API_KEY manquante dans les variables d'environnement Vercel." });
   }
 
   try {
-    // Cache
     let raw;
     if (CACHE.data && Date.now() - CACHE.at < CACHE_MS) {
       raw = CACHE.data;
@@ -123,30 +113,29 @@ module.exports = async (req, res) => {
       CACHE = { at: Date.now(), data: raw };
     }
 
-    // ── Mode découverte : révèle la vraie structure pour caler le mapping ──
+    // Ne garder que les produits whitelistés (préfixe connu) et actifs.
+    let site = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled);
+
+    // ── Mode découverte : vérifie ce qui est retenu pour le site ──
     if (req.query && req.query.debug) {
-      const cats = {};
-      raw.forEach((p) => {
-        const c = p.category || p.product_category || p.family || p.categoryName || "(vide)";
-        cats[c] = (cats[c] || 0) + 1;
-      });
+      const parFamille = {};
+      site.forEach((p) => { parFamille[p.pageSlug] = (parFamille[p.pageSlug] || 0) + 1; });
       return res.status(200).json({
-        total: raw.length,
-        categoriesAxonaut: cats,            // ← envoie-moi ça
-        echantillonBrut: raw.slice(0, 2),   // ← et ça (2 produits bruts)
-        clesDisponibles: raw[0] ? Object.keys(raw[0]) : [],
+        totalAxonaut: raw.length,
+        retenusPourLeSite: site.length,
+        parFamille,
+        machinesDetectees: site.map((p) => ({
+          ref: p.reference, name: p.name, brand: p.brand,
+          slug: p.pageSlug, priceHT: p.priceHT, stock: p.stock,
+        })),
       });
     }
 
-    // ── Mode normal : produits normalisés, rangés par catégorie ──
-    let products = raw.map(normalize);
-
     const wanted = req.query && req.query.category;
-    if (wanted) products = products.filter((p) => p.pageSlug === wanted);
+    if (wanted) site = site.filter((p) => p.pageSlug === wanted);
 
-    // Cache CDN : 5 min, revalidation en arrière-plan
     res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=600");
-    return res.status(200).json({ count: products.length, products });
+    return res.status(200).json({ count: site.length, products: site });
   } catch (err) {
     return res.status(502).json({ error: "Échec de récupération Axonaut", detail: String(err.message || err) });
   }
