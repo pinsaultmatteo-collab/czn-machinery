@@ -51,13 +51,18 @@ const CACHE_MS = 5 * 60 * 1000; // 5 minutes
 // Récupère TOUS les produits Axonaut en gérant la pagination.
 // (Piège classique : ne récupérer que la page 1 et perdre 80 % du catalogue.)
 async function fetchAllProducts(apiKey) {
-  const headers = { userApiKey: apiKey, Accept: "application/json" };
-  let page = 1;
   const all = [];
-  const MAX_PAGES = 20; // garde-fou
+  const MAX_PAGES = 30;   // garde-fou
+  const PER_PAGE = 500;   // Axonaut renvoie jusqu'à 500 résultats par page
 
-  while (page <= MAX_PAGES) {
-    const res = await fetch(`${AXONAUT_BASE}/products?page=${page}`, { headers });
+  for (let page = 1; page <= MAX_PAGES; page++) {
+    const res = await fetch(`${AXONAUT_BASE}/products`, {
+      headers: {
+        userApiKey: apiKey,
+        Accept: "application/json",
+        page: String(page), // ← pagination via EN-TÊTE HTTP (exigé par Axonaut), pas via ?page=
+      },
+    });
     if (!res.ok) {
       const body = await res.text().catch(() => "");
       throw new Error(`Axonaut ${res.status} (page ${page}): ${body.slice(0, 200)}`);
@@ -66,8 +71,7 @@ async function fetchAllProducts(apiKey) {
     const items = Array.isArray(batch) ? batch : (batch.data || batch.results || []);
     if (!items.length) break;
     all.push(...items);
-    if (items.length < 20) break; // dernière page (Axonaut pagine par ~20)
-    page++;
+    if (items.length < PER_PAGE) break; // dernière page atteinte
   }
   return all;
 }
