@@ -1,0 +1,45 @@
+# 📁 Destination : /.github/workflows/refresh-catalog.yml
+#
+# Régénère chaque jour les pages catalogue depuis Axonaut (via build.js)
+# et pousse le résultat. Vercel redéploie automatiquement après le push.
+#
+# ⚠️ Prérequis : ajouter la clé dans GitHub →
+#    Settings → Secrets and variables → Actions → New repository secret
+#    Nom : AXONAUT_API_KEY   Valeur : ta clé Axonaut
+
+name: Rafraîchir le catalogue Axonaut
+
+on:
+  schedule:
+    - cron: "0 4 * * *"   # tous les jours à 04:00 UTC (~06h Paris)
+  workflow_dispatch: {}    # bouton "Run workflow" pour déclencher à la main
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Régénérer les pages depuis Axonaut
+        env:
+          AXONAUT_API_KEY: ${{ secrets.AXONAUT_API_KEY }}
+        run: node build.js
+
+      - name: Committer si le catalogue a changé
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "Aucun changement de catalogue."
+          else
+            git add -A
+            git commit -m "chore: maj automatique du catalogue Axonaut"
+            git push
+          fi

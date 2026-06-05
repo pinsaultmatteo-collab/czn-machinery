@@ -3,21 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mini-pelles neuves — Sonca & Xcavator | CZN Machinery</title>
-<meta name="description" content="Mini-pelles neuves Sonca et Xcavator, importées en direct. Garantie 2 ans, livraison France. Découvrez la gamme et les prix.">
+<title>Mini-pelles neuves Sonca & Xcavator — dès 4 125 € HT | CZN Machinery</title>
+<meta name="description" content="5 mini-pelles neuves Sonca et Xcavator de 4 125 € à 27 525 € HT, importées en direct. Garantie 2 ans, livraison France. SJW-06, SJW-12, XC06S, XC25U.">
 
 <link rel="icon" type="image/x-icon" href="/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png">
-<link rel="icon" type="image/png" sizes="512x512" href="/favicon-512x512.png">
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="https://czn-machinery.com/mini-pelles/">
 
-<meta property="og:title" content="Mini-pelles neuves — Sonca & Xcavator | CZN Machinery">
-<meta property="og:description" content="Mini-pelles neuves importées en direct. Garantie 2 ans, livraison France.">
+<meta property="og:title" content="Mini-pelles neuves Sonca & Xcavator | CZN Machinery">
+<meta property="og:description" content="5 mini-pelles neuves de 4 125 € à 27 525 € HT, importées en direct. Garantie 2 ans, livraison France.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://czn-machinery.com/mini-pelles/">
 <meta property="og:locale" content="fr_FR">
@@ -28,6 +25,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="/styles.css">
+
+<!-- JSONLD:START -->
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Mini-pelles CZN Machinery","itemListElement":[
+{"@type":"ListItem","position":1,"item":{"@type":"Product","name":"Mini-pelle SJW-06","sku":"SMP06","brand":{"@type":"Brand","name":"Sonca"},"category":"Mini-pelle","offers":{"@type":"Offer","price":"4125","priceCurrency":"EUR","availability":"https://schema.org/InStock","url":"https://czn-machinery.com/produit/SMP06/"}}},
+{"@type":"ListItem","position":2,"item":{"@type":"Product","name":"Mini-pelle XC06S","sku":"X-MP-XC06S","brand":{"@type":"Brand","name":"Xcavator"},"category":"Mini-pelle","offers":{"@type":"Offer","price":"5125","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","url":"https://czn-machinery.com/produit/X-MP-XC06S/"}}},
+{"@type":"ListItem","position":3,"item":{"@type":"Product","name":"Mini-pelle SJW-12 F","sku":"SMP12F","brand":{"@type":"Brand","name":"Sonca"},"category":"Mini-pelle","offers":{"@type":"Offer","price":"6425","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","url":"https://czn-machinery.com/produit/SMP12F/"}}},
+{"@type":"ListItem","position":4,"item":{"@type":"Product","name":"Mini-pelle SJW-12 P","sku":"SMP12P","brand":{"@type":"Brand","name":"Sonca"},"category":"Mini-pelle","offers":{"@type":"Offer","price":"7250","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","url":"https://czn-machinery.com/produit/SMP12P/"}}},
+{"@type":"ListItem","position":5,"item":{"@type":"Product","name":"Mini-pelle XC25U-2C","sku":"X-MP-XC25-2C","brand":{"@type":"Brand","name":"Xcavator"},"category":"Mini-pelle","offers":{"@type":"Offer","price":"27525","priceCurrency":"EUR","availability":"https://schema.org/PreOrder","url":"https://czn-machinery.com/produit/X-MP-XC25-2C/"}}}
+]}
+</script>
+<!-- JSONLD:END -->
 </head>
 <body>
 
@@ -55,8 +64,7 @@
 (function(){
   function refresh(){
     var el=document.getElementById('openStatus'); if(!el) return;
-    var now=new Date();
-    var parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(now);
+    var parts=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
     var m={}; parts.forEach(function(p){m[p.type]=p.value;});
     var mins=parseInt(m.hour,10)*60+parseInt(m.minute,10);
     var open=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0 && (mins>=540&&mins<1080);
@@ -135,94 +143,114 @@
       </div>
     </div>
 
-    <div class="products-grid" id="grid" hidden></div>
-
-    <div id="state" style="text-align:center;padding:80px 0;font-family:var(--f-mono);font-size:13px;color:var(--muted);letter-spacing:0.04em;">
-      Chargement du catalogue…
+    <div class="products-grid" id="grid">
+<!-- PRODUCTS:START -->
+      <article class="product-card" data-brand="Sonca">
+        <div class="product-img"><span class="product-tag stock">En stock</span></div>
+        <div class="product-info">
+          <div class="product-brand">Sonca</div>
+          <h3 class="product-name">Mini-pelle SJW-06</h3>
+          <div class="product-footer">
+            <div class="product-price">
+              <span class="price-label">À partir de</span>
+              <span class="price-val">4&thinsp;125<span class="currency">€</span></span>
+              <span class="price-suffix">HT · hors livraison</span>
+            </div>
+            <a href="/produit/SMP06/" class="product-cta" aria-label="Voir la fiche produit">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-brand="Xcavator">
+        <div class="product-img"><span class="product-tag">Sur commande</span></div>
+        <div class="product-info">
+          <div class="product-brand">Xcavator</div>
+          <h3 class="product-name">Mini-pelle XC06S</h3>
+          <div class="product-footer">
+            <div class="product-price">
+              <span class="price-label">À partir de</span>
+              <span class="price-val">5&thinsp;125<span class="currency">€</span></span>
+              <span class="price-suffix">HT · hors livraison</span>
+            </div>
+            <a href="/produit/X-MP-XC06S/" class="product-cta" aria-label="Voir la fiche produit">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-brand="Sonca">
+        <div class="product-img"><span class="product-tag">Sur commande</span></div>
+        <div class="product-info">
+          <div class="product-brand">Sonca</div>
+          <h3 class="product-name">Mini-pelle SJW-12 F</h3>
+          <div class="product-footer">
+            <div class="product-price">
+              <span class="price-label">À partir de</span>
+              <span class="price-val">6&thinsp;425<span class="currency">€</span></span>
+              <span class="price-suffix">HT · hors livraison</span>
+            </div>
+            <a href="/produit/SMP12F/" class="product-cta" aria-label="Voir la fiche produit">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-brand="Sonca">
+        <div class="product-img"><span class="product-tag">Sur commande</span></div>
+        <div class="product-info">
+          <div class="product-brand">Sonca</div>
+          <h3 class="product-name">Mini-pelle SJW-12 P</h3>
+          <div class="product-footer">
+            <div class="product-price">
+              <span class="price-label">À partir de</span>
+              <span class="price-val">7&thinsp;250<span class="currency">€</span></span>
+              <span class="price-suffix">HT · hors livraison</span>
+            </div>
+            <a href="/produit/SMP12P/" class="product-cta" aria-label="Voir la fiche produit">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+      <article class="product-card" data-brand="Xcavator">
+        <div class="product-img"><span class="product-tag">Sur commande</span></div>
+        <div class="product-info">
+          <div class="product-brand">Xcavator</div>
+          <h3 class="product-name">Mini-pelle XC25U-2C</h3>
+          <div class="product-footer">
+            <div class="product-price">
+              <span class="price-label">À partir de</span>
+              <span class="price-val">27&thinsp;525<span class="currency">€</span></span>
+              <span class="price-suffix">HT · hors livraison</span>
+            </div>
+            <a href="/produit/X-MP-XC25-2C/" class="product-cta" aria-label="Voir la fiche produit">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </article>
+<!-- PRODUCTS:END -->
     </div>
 
   </div>
 </section>
 
 <script>
+/* Filtre par marque — agit sur des cartes déjà présentes dans le HTML (statique). */
 (function(){
-  var grid   = document.getElementById('grid');
-  var state  = document.getElementById('state');
-  var filters= document.getElementById('filters');
-  var ALL = [];
-
-  function euro(n){ return Number(n).toLocaleString('fr-FR', { maximumFractionDigits: 0 }); }
-  function esc(s){ return String(s == null ? '' : s).replace(/[&<>"']/g, function(c){
-    return ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'})[c]; }); }
-
-  function priceBlock(p){
-    if (p.priceHT && p.priceHT > 0){
-      return '<span class="price-label">À partir de</span>'
-        + '<span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>'
-        + '<span class="price-suffix">HT · hors livraison</span>';
-    }
-    return '<span class="price-label">Prix</span>'
-      + '<span class="price-val" style="font-size:22px;">Sur devis</span>';
-  }
-
-  function card(p){
-    var inStock = p.inStock === true;
-    var tag = inStock
-      ? '<span class="product-tag stock">En stock</span>'
-      : '<span class="product-tag">Sur commande</span>';
-    var img = p.image
-      ? '<img class="product-photo" src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy">'
-      : '';
-    var ref = encodeURIComponent(p.reference || p.id || '');
-    return ''
-      + '<article class="product-card" data-brand="' + esc(p.brand || '') + '">'
-      +   '<div class="product-img">' + tag + img + '</div>'
-      +   '<div class="product-info">'
-      +     '<div class="product-brand">' + esc(p.brand || 'CZN') + '</div>'
-      +     '<h3 class="product-name">' + esc(p.name) + '</h3>'
-      +     '<div class="product-footer">'
-      +       '<div class="product-price">' + priceBlock(p) + '</div>'
-      +       '<a href="/produit/' + ref + '/" class="product-cta" aria-label="Voir la fiche produit">'
-      +         '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>'
-      +       '</a>'
-      +     '</div>'
-      +   '</div>'
-      + '</article>';
-  }
-
-  function render(brand){
-    var list = (brand && brand !== 'all') ? ALL.filter(function(p){ return p.brand === brand; }) : ALL;
-    grid.innerHTML = list.map(card).join('');
-    grid.hidden = list.length === 0;
-    if (list.length === 0){
-      state.hidden = false;
-      state.innerHTML = 'Aucune mini-pelle pour ce filtre.';
-    } else {
-      state.hidden = true;
-    }
-  }
-
+  var filters = document.getElementById('filters');
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#grid .product-card'));
+  if(!filters) return;
   filters.addEventListener('click', function(e){
     var btn = e.target.closest('.filter-btn'); if(!btn) return;
     filters.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
     btn.classList.add('active');
-    render(btn.getAttribute('data-brand'));
-  });
-
-  fetch('/api/products?category=mini-pelles')
-    .then(function(r){ return r.json(); })
-    .then(function(data){
-      if (!data || !Array.isArray(data.products)) throw new Error('Réponse inattendue');
-      ALL = data.products;
-      if (ALL.length === 0){
-        state.innerHTML = 'Aucune mini-pelle détectée. Vérifie que les références Axonaut commencent bien par <strong>SMP</strong> ou <strong>X-MP</strong> (voir /api/products?debug=1).';
-        return;
-      }
-      render('all');
-    })
-    .catch(function(err){
-      state.innerHTML = 'Catalogue momentanément indisponible.<br><span style="opacity:.6">' + esc(err.message) + '</span>';
+    var brand = btn.getAttribute('data-brand');
+    cards.forEach(function(c){
+      c.style.display = (brand === 'all' || c.getAttribute('data-brand') === brand) ? '' : 'none';
     });
+  });
 })();
 </script>
 
