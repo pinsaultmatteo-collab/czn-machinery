@@ -167,7 +167,8 @@ function galleryHTML(p, d) {
   const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im, alt: "" } : im));
   if (!imgs.length) return `<div class="pdp-gallery pdp-gallery--empty"><div class="pdp-noimg"><span>${esc(p.brand || "CZN")}</span><small>Visuels à venir</small></div></div>`;
   const thumbs = imgs.map((im, i) => `<button class="pdp-thumb${i === 0 ? " active" : ""}" data-src="${esc(im.src)}" aria-label="Photo ${i + 1}"><img src="${esc(im.src)}" alt="${esc(im.alt || "")}" loading="lazy"></button>`).join("");
-  return `<div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="${esc(imgs[0].src)}" alt="${esc(imgs[0].alt || cleanName(p.name, p.brand))}"></div>${imgs.length > 1 ? `<div class="pdp-thumbs">${thumbs}</div>` : ""}</div>`;
+  const arrows = imgs.length > 1 ? `<button class="pdp-nav pdp-prev" aria-label="Photo précédente">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo suivante">&#8250;</button>` : "";
+  return `<div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="${esc(imgs[0].src)}" alt="${esc(imgs[0].alt || cleanName(p.name, p.brand))}">${arrows}</div>${imgs.length > 1 ? `<div class="pdp-thumbs">${thumbs}</div>` : ""}</div>`;
 }
 function statsHTML(d) {
   if (!Array.isArray(d.stats) || !d.stats.length) return "";
@@ -226,9 +227,12 @@ ${HEAD_FONTS}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
-  .pdp-main{aspect-ratio:4/3;border-radius:18px;overflow:hidden;background:var(--oak);}
-  .pdp-main img{width:100%;height:100%;object-fit:cover;display:block;}
-  .pdp-gallery--empty .pdp-noimg{aspect-ratio:4/3;border-radius:18px;background:linear-gradient(135deg,var(--oak),var(--oak-soft,#2A3441));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:rgba(244,239,228,.85);}
+  .pdp-main{position:relative;aspect-ratio:16/10;border-radius:18px;overflow:hidden;background:var(--oak);}
+  .pdp-main img{width:100%;height:100%;object-fit:contain;display:block;}
+  .pdp-nav{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;background:rgba(255,255,255,.9);color:var(--ink);font-size:24px;line-height:1;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(0,0,0,.25);transition:background .2s;}
+  .pdp-nav:hover{background:#fff;}
+  .pdp-prev{left:14px;}.pdp-next{right:14px;}
+  .pdp-gallery--empty .pdp-noimg{aspect-ratio:16/10;border-radius:18px;background:linear-gradient(135deg,var(--oak),var(--oak-soft,#2A3441));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:rgba(244,239,228,.85);}
   .pdp-noimg span{font-family:var(--f-display);font-size:30px;font-weight:600;}.pdp-noimg small{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.55;}
   .pdp-thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;}
   .pdp-thumb{width:78px;height:62px;border-radius:10px;overflow:hidden;border:2px solid transparent;background:none;cursor:pointer;padding:0;}
@@ -302,7 +306,7 @@ ${NAV}
 </div></main>
 ${FOOTER}
 <script>
-(function(){var main=document.getElementById('pdpMain');var th=document.querySelectorAll('.pdp-thumb');if(!main||!th.length)return;th.forEach(function(b){b.addEventListener('click',function(){main.src=b.dataset.src;th.forEach(function(x){x.classList.remove('active');});b.classList.add('active');});});})();
+(function(){var main=document.getElementById('pdpMain');var th=Array.prototype.slice.call(document.querySelectorAll('.pdp-thumb'));if(!main||!th.length)return;var i=0;function show(n){i=(n+th.length)%th.length;main.src=th[i].dataset.src;th.forEach(function(x,k){x.classList.toggle('active',k===i);});}th.forEach(function(b,k){b.addEventListener('click',function(){show(k);});});var prev=document.querySelector('.pdp-prev');var next=document.querySelector('.pdp-next');if(prev)prev.addEventListener('click',function(){show(i-1);});if(next)next.addEventListener('click',function(){show(i+1);});})();
 </script>
 </body>
 </html>`;
