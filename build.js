@@ -120,12 +120,13 @@ function cardHTML(p) {
   const price = (p.priceHT && p.priceHT > 0)
     ? '<span class="price-label">À partir de</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">HT · hors livraison</span>'
     : '<span class="price-label">Prix</span>\n              <span class="price-val" style="font-size:22px;">Sur devis</span>';
-  return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '">',
+  return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '" style="position:relative;">',
+    '        <a class="card-link" href="' + slugUrl(p.reference) + '" aria-label="Voir la fiche ' + esc(cleanName(p.name, p.brand)) + '" style="position:absolute;inset:0;z-index:2;"></a>',
     '        <div class="product-img" style="aspect-ratio:1/1;">' + tag + img + "</div>",
     '        <div class="product-info"><div class="product-brand">' + esc(p.brand || "CZN") + "</div>",
     '          <h3 class="product-name">' + esc(cleanName(p.name, p.brand)) + "</h3>",
     '          <div class="product-footer"><div class="product-price">', "              " + price, "            </div>",
-    '            <a href="' + slugUrl(p.reference) + '" class="product-cta" aria-label="Voir la fiche produit"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>',
+    '            <span class="product-cta" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>',
     "          </div></div>", "      </article>"].join("\n");
 }
 function itemListJsonLd(products, label) {
