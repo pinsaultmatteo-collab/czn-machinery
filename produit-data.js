@@ -126,7 +126,12 @@ module.exports = {
         { label: "Énergie", value: "Diesel Euro 5" },
       ]},
     ],
-    images: [],  // photos SJW-12 F à ajouter (dossier probable /images/SONCA/SJW-12-F/)
+    images: [
+      { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-avant-droit.webp",    alt: "Mini-pelle Sonca SJW-12 F à flèche orientable, vue avant droit" },
+      { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-biais-gauche.webp",    alt: "SJW-12 F vue de biais gauche" },
+      { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-arriere-gauche.webp",  alt: "SJW-12 F arrière gauche" },
+      { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-moteur.webp",          alt: "SJW-12 F, cache moteur" },
+    ],
   },
 
   // ───────────────────────── SONCA SJW-12 P ─────────────────────────
