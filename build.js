@@ -1,13 +1,10 @@
-// 📁 Destination : /build.js (racine du repo)
+// 📁 /build.js — génère les fiches produit + le catalogue depuis Axonaut + produit-data.js
 //
-// Génère, À PARTIR D'AXONAUT + d'un fichier de contenu local (produit-data.js) :
-//   1. les cartes + JSON-LD des pages catalogue (entre marqueurs)
-//   2. une fiche produit statique par machine : /produit/<référence>/index.html
+// Axonaut → titre / prix / stock UNIQUEMENT.
+// produit-data.js → descriptions, sections, caractéristiques, photos (tout le contenu riche).
+// E-commerce retiré : pas de panier ni paiement, CTA = « Demander un devis ».
 //
-// Prix & stock = Axonaut (auto). Descriptions, specs, photos = produit-data.js
-// (que TU remplis avec les vraies données CZN). Une spec vide n'est pas affichée.
-//
-// Lancement :  AXONAUT_API_KEY=xxx node build.js   (ou via le cron GitHub Actions)
+// Lancement :  AXONAUT_API_KEY='ta_cle' node build.js
 
 const fs = require("fs");
 const path = require("path");
@@ -17,25 +14,21 @@ try { DATA = require("./produit-data.js"); } catch (e) { DATA = {}; }
 
 const SITE = "https://czn-machinery.com";
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
-
 const PREFIX_MAP = [
-  { prefix: "SMP",  slug: "mini-pelles",     brand: "Sonca" },
-  { prefix: "X-MP", slug: "mini-pelles",     brand: "Xcavator" },
+  { prefix: "SMP",  slug: "mini-pelles", brand: "Sonca" },
+  { prefix: "X-MP", slug: "mini-pelles", brand: "Xcavator" },
 ];
-
-const PAGES = [
-  { file: "mini-pelles/index.html", category: "mini-pelles", label: "Mini-pelle" },
-];
+const PAGES = [{ file: "mini-pelles/index.html", category: "mini-pelles", label: "Mini-pelle" }];
 const LABELS = { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "accessoires": "Accessoire" };
 const CAT_PATH = { "mini-pelles": "/mini-pelles/", "mini-chargeurs": "/mini-chargeurs/", "mini-tombereaux": "/mini-tombereaux/", "accessoires": "/accessoires/" };
 const CAT_NAME = { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "accessoires": "Accessoires" };
 
-/* ───────────── Axonaut ───────────── */
+/* ── Axonaut ── */
 function classify(code) {
   const c = (code || "").toString().trim().toUpperCase();
   if (!c) return null;
-  const rules = [...PREFIX_MAP].sort((a, b) => b.prefix.length - a.prefix.length);
-  for (const r of rules) if (c.startsWith(r.prefix.toUpperCase())) return r;
+  for (const r of [...PREFIX_MAP].sort((a, b) => b.prefix.length - a.prefix.length))
+    if (c.startsWith(r.prefix.toUpperCase())) return r;
   return null;
 }
 async function fetchAllProducts(apiKey) {
@@ -63,7 +56,7 @@ function normalize(p) {
   };
 }
 
-/* ───────────── utils ───────────── */
+/* ── utils ── */
 function cleanName(name, brand) {
   let n = (name || "").trim();
   if (brand) n = n.replace(new RegExp("^" + brand + "\\s+", "i"), "");
@@ -74,105 +67,66 @@ const euro = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, "&thi
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
 const slugUrl = (ref) => "/produit/" + encodeURIComponent(ref) + "/";
 
-/* ───────────── shell (identique au reste du site) ───────────── */
-const UTILITY_BAR = `<div class="utility-bar">
-  <div class="container">
-    <div class="utility-left">
-      <span>📍 Toulouse, France</span>
-      <span class="util-divider"></span>
-      <span class="util-hours">Showroom Lun–Ven · 9h–12h / 14h–18h</span>
-      <span class="status-pill is-closed" id="openStatus" aria-live="polite"><span class="status-dot"></span><span class="status-text">—</span></span>
-    </div>
-    <div class="utility-right">
-      <a href="tel:+33531605161" class="util-phone"><svg class="util-phone-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg><span>+33 5 31 60 51 61</span></a>
-    </div>
-  </div>
-</div>
-<script>
-(function(){function r(){var el=document.getElementById('openStatus');if(!el)return;var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());var m={};p.forEach(function(x){m[x.type]=x.value;});var mn=parseInt(m.hour,10)*60+parseInt(m.minute,10);var o=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0&&(mn>=540&&mn<1080);el.classList.toggle('is-open',o);el.classList.toggle('is-closed',!o);var t=el.querySelector('.status-text');if(t)t.textContent=o?'Actuellement ouvert':'Actuellement fermé';}r();setInterval(r,60000);})();
-</script>`;
+/* ── shell (sans panier — e-commerce retiré) ── */
+const UTILITY_BAR = `<div class="utility-bar"><div class="container">
+  <div class="utility-left"><span>📍 Toulouse, France</span><span class="util-divider"></span><span class="util-hours">Showroom Lun–Ven · 9h–12h / 14h–18h</span><span class="status-pill is-closed" id="openStatus" aria-live="polite"><span class="status-dot"></span><span class="status-text">—</span></span></div>
+  <div class="utility-right"><a href="tel:+33531605161" class="util-phone"><svg class="util-phone-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg><span>+33 5 31 60 51 61</span></a></div>
+</div></div>
+<script>(function(){function r(){var el=document.getElementById('openStatus');if(!el)return;var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());var m={};p.forEach(function(x){m[x.type]=x.value;});var mn=parseInt(m.hour,10)*60+parseInt(m.minute,10);var o=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0&&(mn>=540&&mn<1080);el.classList.toggle('is-open',o);el.classList.toggle('is-closed',!o);var t=el.querySelector('.status-text');if(t)t.textContent=o?'Actuellement ouvert':'Actuellement fermé';}r();setInterval(r,60000);})();</script>`;
 
-const LOGO = (ink) => `<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-  <g><text x="400" y="240" text-anchor="middle" font-family="'Archivo Black', sans-serif" font-size="192" font-weight="900" letter-spacing="-8" fill="${ink}" transform="skewX(-11)">CZN</text>
-  <polygon points="344,212 390,212 379,239 333,239" fill="#F2811C"/><polygon points="590,246 624,206 624,246" fill="#F2811C"/></g>
-  <g><line x1="128" y1="292" x2="236" y2="292" stroke="${ink}" stroke-width="3"/><line x1="246" y1="292" x2="262" y2="292" stroke="#F2811C" stroke-width="3"/>
-  <text x="371" y="300" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="600" letter-spacing="10" fill="#F2811C">MACHINERY</text>
-  <line x1="480" y1="292" x2="496" y2="292" stroke="#F2811C" stroke-width="3"/><line x1="506" y1="292" x2="614" y2="292" stroke="${ink}" stroke-width="3"/></g></svg>`;
+const LOGO = (ink) => `<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g><text x="400" y="240" text-anchor="middle" font-family="'Archivo Black', sans-serif" font-size="192" font-weight="900" letter-spacing="-8" fill="${ink}" transform="skewX(-11)">CZN</text><polygon points="344,212 390,212 379,239 333,239" fill="#F2811C"/><polygon points="590,246 624,206 624,246" fill="#F2811C"/></g><g><line x1="128" y1="292" x2="236" y2="292" stroke="${ink}" stroke-width="3"/><line x1="246" y1="292" x2="262" y2="292" stroke="#F2811C" stroke-width="3"/><text x="371" y="300" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="600" letter-spacing="10" fill="#F2811C">MACHINERY</text><line x1="480" y1="292" x2="496" y2="292" stroke="#F2811C" stroke-width="3"/><line x1="506" y1="292" x2="614" y2="292" stroke="${ink}" stroke-width="3"/></g></svg>`;
 
 const NAV = `<nav id="mainNav"><div class="nav-inner">
   <a href="/" class="site-logo site-logo--nav" aria-label="CZN Machinery - Accueil">${LOGO("#212A35")}</a>
   <ul class="nav-links">
-    <li><a href="/mini-pelles/">Mini-pelles</a></li>
-    <li><a href="/mini-chargeurs/">Mini-chargeurs</a></li>
-    <li><a href="/mini-tombereaux/">Mini-tombereaux</a></li>
-    <li><a href="/accessoires/">Accessoires</a></li>
-    <li><a href="/entreprise/">Entreprise</a></li>
-    <li><a href="/guides/">Guides</a></li>
-    <li><a href="/contact/">Contact</a></li>
+    <li><a href="/mini-pelles/">Mini-pelles</a></li><li><a href="/mini-chargeurs/">Mini-chargeurs</a></li>
+    <li><a href="/mini-tombereaux/">Mini-tombereaux</a></li><li><a href="/accessoires/">Accessoires</a></li>
+    <li><a href="/entreprise/">Entreprise</a></li><li><a href="/guides/">Guides</a></li><li><a href="/contact/">Contact</a></li>
   </ul>
   <div class="nav-actions">
     <a href="#" class="nav-icon" aria-label="Recherche"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></a>
-    <a href="/panier/" class="nav-icon" aria-label="Panier"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/></svg><span class="badge" id="cartBadge" hidden>0</span></a>
-    <a href="/contact/" class="nav-cta">Prendre un rdv <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
+    <a href="/contact/" class="nav-cta">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
   </div></div></nav>
 <script>(function(){var path=window.location.pathname.replace(/\\/$/,'')||'/';document.querySelectorAll('.nav-links a').forEach(function(a){var h=a.getAttribute('href').replace(/\\/$/,'')||'/';if(path===h||(h!==''&&h!=='/'&&path.indexOf(h)===0))a.classList.add('nav-active');});})();</script>`;
 
-const FOOTER = `<footer><div class="container">
-  <div class="footer-top">
-    <div class="footer-brand">
-      <a href="/" class="site-logo site-logo--footer" aria-label="CZN Machinery - Accueil">${LOGO("#F4F1EC")}</a>
-      <p class="footer-tagline">Engins de chantier importés en direct depuis 2019. Toulouse, France.</p>
-      <div class="footer-social">
-        <a href="#" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-2.9h2.4V9.8c0-2.4 1.4-3.7 3.6-3.7 1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5V12h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z"/></svg></a>
-        <a href="#" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4A4 4 0 1 1 12.6 8a4 4 0 0 1 3.4 3.4z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
-        <a href="#" aria-label="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23 7s-.2-1.6-.8-2.3c-.8-.9-1.7-.9-2.1-1C17 3.5 12 3.5 12 3.5s-5 0-8.1.2c-.4 0-1.3.1-2.1 1C1.2 5.4 1 7 1 7S.8 8.9.8 10.8v1.7c0 1.9.2 3.8.2 3.8s.2 1.6.8 2.3c.8.9 1.9.8 2.3.9 1.7.2 7.4.2 7.4.2s5 0 8.1-.2c.4-.1 1.3-.1 2.1-1 .6-.7.8-2.3.8-2.3s.2-1.9.2-3.8v-1.7C23.2 8.9 23 7 23 7zM9.7 14.6V8.4l6.5 3.1-6.5 3.1z"/></svg></a>
-        <a href="#" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.86 0-1.62.65-1.62 2v4.67h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></a>
-      </div>
+const FOOTER = `<footer><div class="container"><div class="footer-top">
+  <div class="footer-brand"><a href="/" class="site-logo site-logo--footer" aria-label="CZN Machinery - Accueil">${LOGO("#F4F1EC")}</a>
+    <p class="footer-tagline">Engins de chantier importés en direct depuis 2019. Toulouse, France.</p>
+    <div class="footer-social">
+      <a href="#" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-2.9h2.4V9.8c0-2.4 1.4-3.7 3.6-3.7 1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5V12h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z"/></svg></a>
+      <a href="#" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4A4 4 0 1 1 12.6 8a4 4 0 0 1 3.4 3.4z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
+      <a href="#" aria-label="YouTube"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M23 7s-.2-1.6-.8-2.3c-.8-.9-1.7-.9-2.1-1C17 3.5 12 3.5 12 3.5s-5 0-8.1.2c-.4 0-1.3.1-2.1 1C1.2 5.4 1 7 1 7S.8 8.9.8 10.8v1.7c0 1.9.2 3.8.2 3.8s.2 1.6.8 2.3c.8.9 1.9.8 2.3.9 1.7.2 7.4.2 7.4.2s5 0 8.1-.2c.4-.1 1.3-.1 2.1-1 .6-.7.8-2.3.8-2.3s.2-1.9.2-3.8v-1.7C23.2 8.9 23 7 23 7zM9.7 14.6V8.4l6.5 3.1-6.5 3.1z"/></svg></a>
+      <a href="#" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.86 0-1.62.65-1.62 2v4.67h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></a>
     </div>
-    <div class="footer-col"><h4>Catalogue</h4><ul>
-      <li><a href="/mini-pelles/">Mini-pelles</a></li><li><a href="/mini-chargeurs/">Mini-chargeurs</a></li>
-      <li><a href="/mini-tombereaux/">Mini-tombereaux</a></li><li><a href="/accessoires/">Accessoires</a></li><li><a href="/occasion/">Occasion</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Acheter</h4><ul>
-      <li><a href="/entreprise/financement/">Financement Sofinco</a></li><li><a href="/contact/">Demander un devis</a></li>
-      <li><a href="#livraison">Livraison France</a></li><li><a href="#avis">Avis clients</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Ressources</h4><ul>
-      <li><a href="/guides/">Tous les guides</a></li><li><a href="/guides/comment-choisir-mini-pelle/">Comment choisir</a></li>
-      <li><a href="/guides/prix-mini-pelle/">Prix mini-pelle</a></li><li><a href="/guides/caces-mini-pelle/">CACES & permis</a></li>
-    </ul></div>
-    <div class="footer-col"><h4>Entreprise</h4><ul>
-      <li><a href="/entreprise/">À propos</a></li><li><a href="/entreprise/financement/">Financement</a></li><li><a href="/contact/">Contact</a></li>
-      <li><a href="mailto:contact@czn-machinery.com">contact@czn-machinery.com</a></li><li><a href="tel:+33531605161">05 31 60 51 61</a></li>
-    </ul></div>
   </div>
-  <div class="footer-bottom">
-    <div>© 2026 CZE France SAS · 11 impasse Pierre Camo, 31200 Toulouse · SIRET 824 356 513 00021</div>
-    <div class="footer-legal"><a href="/mentions-legales/">Mentions légales</a><a href="/cgv/">CGV</a><a href="/politique-confidentialite/">Politique de confidentialité</a></div>
-  </div>
-</div></footer>
-<script>(function(){try{var c=JSON.parse(localStorage.getItem('czn_cart')||'[]');var n=Array.isArray(c)?c.reduce(function(a,i){return a+(i.qty||1);},0):0;var b=document.getElementById('cartBadge');if(b){if(n>0){b.textContent=n;b.hidden=false;}else{b.hidden=true;}}}catch(e){}})();</script>`;
+  <div class="footer-col"><h4>Catalogue</h4><ul><li><a href="/mini-pelles/">Mini-pelles</a></li><li><a href="/mini-chargeurs/">Mini-chargeurs</a></li><li><a href="/mini-tombereaux/">Mini-tombereaux</a></li><li><a href="/accessoires/">Accessoires</a></li><li><a href="/occasion/">Occasion</a></li></ul></div>
+  <div class="footer-col"><h4>Acheter</h4><ul><li><a href="/entreprise/financement/">Financement Sofinco</a></li><li><a href="/contact/">Demander un devis</a></li><li><a href="#livraison">Livraison France</a></li><li><a href="#avis">Avis clients</a></li></ul></div>
+  <div class="footer-col"><h4>Ressources</h4><ul><li><a href="/guides/">Tous les guides</a></li><li><a href="/guides/comment-choisir-mini-pelle/">Comment choisir</a></li><li><a href="/guides/prix-mini-pelle/">Prix mini-pelle</a></li><li><a href="/guides/caces-mini-pelle/">CACES & permis</a></li></ul></div>
+  <div class="footer-col"><h4>Entreprise</h4><ul><li><a href="/entreprise/">À propos</a></li><li><a href="/entreprise/financement/">Financement</a></li><li><a href="/contact/">Contact</a></li><li><a href="mailto:contact@czn-machinery.com">contact@czn-machinery.com</a></li><li><a href="tel:+33531605161">05 31 60 51 61</a></li></ul></div>
+</div>
+<div class="footer-bottom"><div>© 2026 CZE France SAS · 11 impasse Pierre Camo, 31200 Toulouse · SIRET 824 356 513 00021</div><div class="footer-legal"><a href="/mentions-legales/">Mentions légales</a><a href="/cgv/">CGV</a><a href="/politique-confidentialite/">Politique de confidentialité</a></div></div>
+</div></footer>`;
 
-const HEAD_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">`;
-
+const HEAD_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">`;
 const FAVICONS = `<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">`;
 
-/* ───────────── catalogue (cartes + JSON-LD entre marqueurs) ───────────── */
+/* ── catalogue (cartes + JSON-LD entre marqueurs) ── */
 function cardHTML(p) {
   const tag = p.inStock ? '<span class="product-tag stock">En stock</span>' : '<span class="product-tag">Sur commande</span>';
-  const img = p.image ? '<img class="product-photo" src="' + esc(p.image) + '" alt="' + esc(cleanName(p.name, p.brand)) + '" loading="lazy">' : "";
+  const d = DATA[p.reference] || {};
+  const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im } : im));
+  const photo = imgs[0] ? imgs[0].src : p.image;
+  const img = photo ? '<img class="product-photo" src="' + esc(photo) + '" alt="' + esc(cleanName(p.name, p.brand)) + '" loading="lazy">' : "";
   const price = (p.priceHT && p.priceHT > 0)
     ? '<span class="price-label">À partir de</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">HT · hors livraison</span>'
     : '<span class="price-label">Prix</span>\n              <span class="price-val" style="font-size:22px;">Sur devis</span>';
   return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '">',
     '        <div class="product-img">' + tag + img + "</div>",
-    '        <div class="product-info">',
-    '          <div class="product-brand">' + esc(p.brand || "CZN") + "</div>",
+    '        <div class="product-info"><div class="product-brand">' + esc(p.brand || "CZN") + "</div>",
     '          <h3 class="product-name">' + esc(cleanName(p.name, p.brand)) + "</h3>",
-    '          <div class="product-footer">', '            <div class="product-price">', "              " + price, "            </div>",
+    '          <div class="product-footer"><div class="product-price">', "              " + price, "            </div>",
     '            <a href="' + slugUrl(p.reference) + '" class="product-cta" aria-label="Voir la fiche produit"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>',
-    "          </div>", "        </div>", "      </article>"].join("\n");
+    "          </div></div>", "      </article>"].join("\n");
 }
 function itemListJsonLd(products, label) {
   const items = products.map((p, i) => ({ "@type": "ListItem", position: i + 1, item: productNode(p, label) }));
@@ -184,38 +138,58 @@ function replaceBetween(content, start, end, inner) {
   return content.slice(0, s + start.length) + "\n" + inner + "\n" + content.slice(e);
 }
 
-/* ───────────── JSON-LD produit ───────────── */
+/* ── specs : aplatit groupé OU plat → [{label,value}] ── */
+function flatSpecs(d) {
+  if (!Array.isArray(d.specs)) return [];
+  if (d.specs.length && d.specs[0] && d.specs[0].rows) return d.specs.flatMap((g) => g.rows || []);
+  return d.specs;
+}
+
+/* ── JSON-LD produit ── */
 function productNode(p, label) {
   const d = DATA[p.reference] || {};
   const node = {
     "@type": "Product", name: cleanName(p.name, p.brand), sku: p.reference,
     brand: { "@type": "Brand", name: p.brand || "CZN" }, category: label,
-    offers: { "@type": "Offer", price: String(p.priceHT || 0), priceCurrency: "EUR",
-      availability: p.inStock ? "https://schema.org/InStock" : "https://schema.org/PreOrder", url: SITE + slugUrl(p.reference) },
+    offers: { "@type": "Offer", price: String(p.priceHT || 0), priceCurrency: "EUR", availability: p.inStock ? "https://schema.org/InStock" : "https://schema.org/PreOrder", url: SITE + slugUrl(p.reference) },
   };
-  if (d.description) node.description = d.description;
-  if (Array.isArray(d.images) && d.images.length) node.image = d.images.map((src) => (src.startsWith("http") ? src : SITE + src));
-  if (Array.isArray(d.specs) && d.specs.length) node.additionalProperty = d.specs.map((s) => ({ "@type": "PropertyValue", name: s.label, value: s.value }));
+  const desc = d.intro || d.description;
+  if (desc) node.description = desc;
+  const imgs = (d.images || []).map((im) => (typeof im === "string" ? im : im.src)).map((s) => (s.startsWith("http") ? s : SITE + s));
+  if (imgs.length) node.image = imgs;
+  const fs2 = flatSpecs(d);
+  if (fs2.length) node.additionalProperty = fs2.map((s) => ({ "@type": "PropertyValue", name: s.label, value: s.value }));
   return node;
 }
 
-/* ───────────── fiche produit ───────────── */
+/* ── rendu fiche ── */
 function galleryHTML(p, d) {
-  const imgs = (d.images || []);
-  if (!imgs.length) {
-    return `<div class="pdp-gallery pdp-gallery--empty"><div class="pdp-noimg"><span>${esc(p.brand || "CZN")}</span><small>Visuel à venir</small></div></div>`;
-  }
-  const main = imgs[0];
-  const thumbs = imgs.map((src, i) => `<button class="pdp-thumb${i === 0 ? " active" : ""}" data-src="${esc(src)}"><img src="${esc(src)}" alt="" loading="lazy"></button>`).join("");
-  return `<div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="${esc(main)}" alt="${esc(cleanName(p.name, p.brand))}"></div>${imgs.length > 1 ? `<div class="pdp-thumbs">${thumbs}</div>` : ""}</div>`;
+  const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im, alt: "" } : im));
+  if (!imgs.length) return `<div class="pdp-gallery pdp-gallery--empty"><div class="pdp-noimg"><span>${esc(p.brand || "CZN")}</span><small>Visuels à venir</small></div></div>`;
+  const thumbs = imgs.map((im, i) => `<button class="pdp-thumb${i === 0 ? " active" : ""}" data-src="${esc(im.src)}" aria-label="Photo ${i + 1}"><img src="${esc(im.src)}" alt="${esc(im.alt || "")}" loading="lazy"></button>`).join("");
+  return `<div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="${esc(imgs[0].src)}" alt="${esc(imgs[0].alt || cleanName(p.name, p.brand))}"></div>${imgs.length > 1 ? `<div class="pdp-thumbs">${thumbs}</div>` : ""}</div>`;
+}
+function statsHTML(d) {
+  if (!Array.isArray(d.stats) || !d.stats.length) return "";
+  return `<div class="pdp-stats">` + d.stats.map((s) => `<div class="pdp-stat"><div class="pdp-stat-val">${esc(s.value)}</div><div class="pdp-stat-label">${esc(s.label)}</div></div>`).join("") + `</div>`;
+}
+function sectionsHTML(d) {
+  if (!Array.isArray(d.sections) || !d.sections.length) return "";
+  return d.sections.map((sec) => {
+    const feats = (sec.features || []).map((f) => `<div class="pdp-feat"><h4>${esc(f.title)}</h4><p>${esc(f.text)}</p></div>`).join("");
+    return `<section class="pdp-block"><h2>${esc(sec.title)}</h2>${sec.body ? `<p class="pdp-block-body">${esc(sec.body)}</p>` : ""}${feats ? `<div class="pdp-feats">${feats}</div>` : ""}</section>`;
+  }).join("\n");
 }
 function specsHTML(d) {
-  if (!Array.isArray(d.specs) || !d.specs.length) {
-    return `<div class="pdp-specs-empty">Fiche technique détaillée disponible sur demande — <a href="/contact/">contactez-nous</a>.</div>`;
-  }
-  const rows = d.specs.map((s) => `<div class="pdp-spec"><dt>${esc(s.label)}</dt><dd>${esc(s.value)}</dd></div>`).join("");
-  return `<dl class="pdp-specs">${rows}</dl>`;
+  if (!Array.isArray(d.specs) || !d.specs.length) return `<div class="pdp-specs-empty">Fiche technique détaillée disponible sur demande — <a href="/contact/">contactez-nous</a>.</div>`;
+  const grouped = d.specs[0] && d.specs[0].rows;
+  const groups = grouped ? d.specs : [{ group: null, rows: d.specs }];
+  return groups.map((g) => {
+    const rows = (g.rows || []).map((r) => `<div class="pdp-spec"><dt>${esc(r.label)}</dt><dd>${esc(r.value)}</dd></div>`).join("");
+    return `${g.group ? `<h3 class="pdp-spec-group">${esc(g.group)}</h3>` : ""}<dl class="pdp-specs">${rows}</dl>`;
+  }).join("\n");
 }
+
 function productPageHTML(p) {
   const d = DATA[p.reference] || {};
   const name = cleanName(p.name, p.brand);
@@ -223,25 +197,13 @@ function productPageHTML(p) {
   const catPath = CAT_PATH[p.pageSlug] || "/";
   const catName = CAT_NAME[p.pageSlug] || "Catalogue";
   const tagline = d.tagline || `${label} ${p.brand || ""}`.trim();
-  const desc = d.description || `${name} — ${label.toLowerCase()} ${p.brand || ""} importée en direct par CZN Machinery. Garantie 2 ans, livraison dans toute la France.`;
+  const intro = d.intro || d.description || `${name} — ${label.toLowerCase()} ${p.brand || ""} importée en direct par CZN Machinery. Garantie 2 ans, livraison dans toute la France.`;
   const stockBadge = p.inStock ? '<span class="pdp-stock in">En stock</span>' : '<span class="pdp-stock pre">Sur commande</span>';
-  const acompte = p.priceHT ? Math.round(p.priceHT * 0.3) : null;
   const priceHTML = (p.priceHT && p.priceHT > 0)
-    ? `<div class="pdp-price"><span class="pdp-price-val">${euro(p.priceHT)} €</span><span class="pdp-price-ht">HT</span></div>
-       ${p.priceTTC ? `<div class="pdp-price-ttc">soit ${euro(p.priceTTC)} € TTC</div>` : ""}
-       <div class="pdp-acompte">Réservez avec <strong>30 % d'acompte</strong>${acompte ? ` (${euro(acompte)} € HT)` : ""} · solde avant livraison</div>`
+    ? `<div class="pdp-price"><span class="pdp-price-val">${euro(p.priceHT)} €</span><span class="pdp-price-ht">HT</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">soit ${euro(p.priceTTC)} € TTC</div>` : ""}`
     : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">Sur devis</span></div>`;
-
-  const metaDesc = (d.description || `${name} ${p.brand || ""} : ${label.toLowerCase()} neuve importée en direct par CZN Machinery${p.priceHT ? `, dès ${p.priceHT} € HT` : ""}. Garantie 2 ans, livraison France.`).slice(0, 160);
-
-  const productLd = JSON.stringify(productNode(p, label));
-  const breadcrumbLd = JSON.stringify({
-    "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [
-      { "@type": "ListItem", position: 1, name: "Accueil", item: SITE + "/" },
-      { "@type": "ListItem", position: 2, name: catName, item: SITE + catPath },
-      { "@type": "ListItem", position: 3, name: name, item: SITE + slugUrl(p.reference) },
-    ],
-  });
+  const metaDesc = intro.slice(0, 158);
+  const devisUrl = "/contact/?modele=" + encodeURIComponent(name) + "&ref=" + encodeURIComponent(p.reference);
 
   return `<!DOCTYPE html>
 <html lang="fr">
@@ -253,132 +215,105 @@ function productPageHTML(p) {
 ${FAVICONS}
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}${slugUrl(p.reference)}">
-<meta property="og:title" content="${esc(name)} ${esc(p.brand || "")} | CZN Machinery">
-<meta property="og:description" content="${esc(metaDesc)}">
-<meta property="og:type" content="product"><meta property="og:url" content="${SITE}${slugUrl(p.reference)}">
-<meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="CZN Machinery">
+<meta property="og:title" content="${esc(name)} ${esc(p.brand || "")} | CZN Machinery"><meta property="og:description" content="${esc(metaDesc)}"><meta property="og:type" content="product"><meta property="og:url" content="${SITE}${slugUrl(p.reference)}"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="CZN Machinery">
 ${HEAD_FONTS}
 <link rel="stylesheet" href="/styles.css">
-<script type="application/ld+json">${productLd}</script>
-<script type="application/ld+json">${breadcrumbLd}</script>
+<script type="application/ld+json">${JSON.stringify(productNode(p, label))}</script>
+<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: catName, item: SITE + catPath }, { "@type": "ListItem", position: 3, name: name, item: SITE + slugUrl(p.reference) }] })}</script>
 <style>
-  .pdp{padding:140px 0 80px;}
-  .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:32px;}
-  .pdp-crumbs a{color:var(--muted);text-decoration:none;}
-  .pdp-crumbs a:hover{color:var(--orange);}
-  .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:56px;align-items:start;}
-  .pdp-gallery{position:sticky;top:120px;}
+  .pdp{padding:130px 0 60px;}
+  .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
+  .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
+  .pdp-gallery{position:sticky;top:118px;}
   .pdp-main{aspect-ratio:4/3;border-radius:18px;overflow:hidden;background:var(--oak);}
-  .pdp-main img{width:100%;height:100%;object-fit:cover;}
+  .pdp-main img{width:100%;height:100%;object-fit:cover;display:block;}
   .pdp-gallery--empty .pdp-noimg{aspect-ratio:4/3;border-radius:18px;background:linear-gradient(135deg,var(--oak),var(--oak-soft,#2A3441));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;color:rgba(244,239,228,.85);}
-  .pdp-noimg span{font-family:var(--f-display);font-size:30px;font-weight:600;letter-spacing:-.02em;}
-  .pdp-noimg small{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.55;}
-  .pdp-thumbs{display:flex;gap:10px;margin-top:12px;}
-  .pdp-thumb{width:74px;height:60px;border-radius:10px;overflow:hidden;border:2px solid transparent;background:none;cursor:pointer;padding:0;}
-  .pdp-thumb.active{border-color:var(--orange);}
-  .pdp-thumb img{width:100%;height:100%;object-fit:cover;}
+  .pdp-noimg span{font-family:var(--f-display);font-size:30px;font-weight:600;}.pdp-noimg small{font-family:var(--f-mono);font-size:11px;letter-spacing:.1em;text-transform:uppercase;opacity:.55;}
+  .pdp-thumbs{display:flex;gap:10px;margin-top:12px;flex-wrap:wrap;}
+  .pdp-thumb{width:78px;height:62px;border-radius:10px;overflow:hidden;border:2px solid transparent;background:none;cursor:pointer;padding:0;}
+  .pdp-thumb.active{border-color:var(--orange);}.pdp-thumb img{width:100%;height:100%;object-fit:cover;}
   .pdp-eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:14px;}
-  .pdp-title{font-family:var(--f-display);font-weight:500;font-size:clamp(34px,4.6vw,52px);line-height:1.02;letter-spacing:-.03em;color:var(--ink);}
+  .pdp-title{font-family:var(--f-display);font-weight:500;font-size:clamp(32px,4.4vw,50px);line-height:1.03;letter-spacing:-.03em;color:var(--ink);}
   .pdp-tagline{font-family:var(--f-serif,'Fraunces',serif);font-style:italic;font-size:19px;color:var(--muted);margin-top:12px;}
-  .pdp-stock{display:inline-block;margin-top:20px;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:100px;}
-  .pdp-stock.in{background:rgba(34,140,80,.12);color:#1f7a45;}
-  .pdp-stock.pre{background:rgba(33,42,53,.08);color:var(--ink);}
-  .pdp-price{display:flex;align-items:baseline;gap:8px;margin-top:24px;}
-  .pdp-price-val{font-family:var(--f-display);font-weight:600;font-size:44px;letter-spacing:-.02em;color:var(--ink);}
-  .pdp-price-ht{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
-  .pdp-price-ttc{font-size:14px;color:var(--muted);margin-top:2px;}
-  .pdp-acompte{margin-top:14px;font-size:14px;line-height:1.5;color:var(--ink);background:var(--cream-2,#faf6ec);border:1px solid rgba(33,42,53,.08);border-radius:12px;padding:12px 16px;}
-  .pdp-actions{display:flex;gap:12px;margin-top:28px;flex-wrap:wrap;}
-  .pdp-actions .btn{flex:0 0 auto;}
-  .pdp-trust{display:flex;gap:22px;margin-top:30px;flex-wrap:wrap;font-size:13px;color:var(--muted);}
-  .pdp-trust span{display:inline-flex;align-items:center;gap:7px;}
-  .pdp-section{margin-top:80px;}
-  .pdp-section h2{font-family:var(--f-display);font-weight:500;font-size:26px;letter-spacing:-.02em;color:var(--ink);margin-bottom:20px;}
-  .pdp-desc{font-size:17px;line-height:1.75;color:var(--ink);max-width:62ch;}
-  .pdp-specs{display:grid;grid-template-columns:repeat(2,1fr);gap:0;border-top:1px solid rgba(33,42,53,.12);max-width:760px;}
-  .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:15px 4px;border-bottom:1px solid rgba(33,42,53,.12);}
-  .pdp-spec dt{color:var(--muted);font-size:14px;}
-  .pdp-spec dd{font-weight:500;color:var(--ink);font-size:15px;text-align:right;}
-  .pdp-specs-empty{font-size:15px;color:var(--muted);}
-  .pdp-specs-empty a{color:var(--orange);}
-  .pdp-toast{position:fixed;bottom:28px;left:50%;transform:translateX(-50%) translateY(20px);background:var(--ink);color:var(--cream-pure,#faf6ec);padding:13px 22px;border-radius:100px;font-size:14px;opacity:0;pointer-events:none;transition:.3s;z-index:200;}
-  .pdp-toast.show{opacity:1;transform:translateX(-50%) translateY(0);}
-  @media(max-width:880px){.pdp-grid{grid-template-columns:1fr;gap:32px;}.pdp-gallery{position:static;}}
+  .pdp-stock{display:inline-block;margin-top:18px;font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;padding:6px 12px;border-radius:100px;}
+  .pdp-stock.in{background:rgba(34,140,80,.12);color:#1f7a45;}.pdp-stock.pre{background:rgba(33,42,53,.08);color:var(--ink);}
+  .pdp-price{display:flex;align-items:baseline;gap:8px;margin-top:22px;}
+  .pdp-price-val{font-family:var(--f-display);font-weight:600;font-size:42px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-price-ht{font-family:var(--f-mono);font-size:13px;color:var(--muted);}.pdp-price-ttc{font-size:14px;color:var(--muted);margin-top:2px;}
+  .pdp-stats{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:rgba(33,42,53,.1);border:1px solid rgba(33,42,53,.1);border-radius:14px;overflow:hidden;margin-top:26px;}
+  .pdp-stat{background:var(--cream,#f4efe4);padding:16px 18px;}
+  .pdp-stat-val{font-family:var(--f-display);font-weight:600;font-size:21px;color:var(--ink);}
+  .pdp-stat-label{font-family:var(--f-mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-top:3px;}
+  .pdp-actions{display:flex;gap:12px;margin-top:26px;flex-wrap:wrap;}
+  .pdp-trust{display:flex;gap:22px;margin-top:24px;flex-wrap:wrap;font-size:13px;color:var(--muted);}
+  .pdp-section{margin-top:72px;}
+  .pdp-lead{font-size:18px;line-height:1.75;color:var(--ink);max-width:64ch;}
+  .pdp-block{margin-top:56px;}
+  .pdp-block h2{font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:14px;}
+  .pdp-block-body{font-size:16px;line-height:1.7;color:var(--ink);max-width:64ch;}
+  .pdp-feats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:26px;}
+  .pdp-feat{background:var(--cream-2,#faf6ec);border:1px solid rgba(33,42,53,.07);border-radius:14px;padding:20px;}
+  .pdp-feat h4{font-family:var(--f-display);font-weight:600;font-size:15px;color:var(--ink);margin-bottom:7px;}
+  .pdp-feat p{font-size:13.5px;line-height:1.6;color:var(--muted);}
+  .pdp-spec-group{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:28px 0 6px;}
+  .pdp-specs{display:grid;grid-template-columns:repeat(2,1fr);gap:0 40px;max-width:860px;}
+  .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:13px 2px;border-bottom:1px solid rgba(33,42,53,.1);}
+  .pdp-spec dt{color:var(--muted);font-size:14px;}.pdp-spec dd{font-weight:500;color:var(--ink);font-size:14px;text-align:right;}
+  .pdp-specs-empty{font-size:15px;color:var(--muted);}.pdp-specs-empty a{color:var(--orange);}
+  .pdp-cta-band{margin-top:72px;background:var(--oak);border-radius:20px;padding:48px;text-align:center;color:var(--cream-pure,#faf6ec);}
+  .pdp-cta-band h2{font-family:var(--f-display);font-weight:500;font-size:28px;color:var(--cream-pure,#faf6ec);margin-bottom:10px;}
+  .pdp-cta-band p{color:rgba(244,239,228,.7);margin-bottom:24px;}
+  @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
 </style>
 </head>
 <body>
 ${UTILITY_BAR}
 ${NAV}
-
-<main class="pdp">
-  <div class="container">
-    <nav class="pdp-crumbs" aria-label="Fil d'Ariane">
-      <a href="/">Accueil</a> &nbsp;/&nbsp; <a href="${catPath}">${catName}</a> &nbsp;/&nbsp; <span>${esc(name)}</span>
-    </nav>
-
-    <div class="pdp-grid">
-      ${galleryHTML(p, d)}
-
-      <div class="pdp-info">
-        <div class="pdp-eyebrow">${esc(p.brand || "CZN")} · ${label}</div>
-        <h1 class="pdp-title">${esc(name)}</h1>
-        <p class="pdp-tagline">${esc(tagline)}</p>
-        ${stockBadge}
-        ${priceHTML}
-        <div class="pdp-actions">
-          <button class="btn btn-primary" id="addToCart" data-ref="${esc(p.reference)}" data-name="${esc(name)}" data-brand="${esc(p.brand || "")}" data-price="${p.priceHT || 0}">
-            Ajouter au panier <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg>
-          </button>
-          <a href="/contact/?modele=${encodeURIComponent(name)}" class="btn btn-outline">Demander un devis</a>
-        </div>
-        <div class="pdp-trust">
-          <span>✓ Garantie 2 ans</span><span>✓ Livraison France</span><span>✓ Importateur direct</span>
-        </div>
+<main class="pdp"><div class="container">
+  <nav class="pdp-crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> &nbsp;/&nbsp; <a href="${catPath}">${catName}</a> &nbsp;/&nbsp; <span>${esc(name)}</span></nav>
+  <div class="pdp-grid">
+    ${galleryHTML(p, d)}
+    <div class="pdp-info">
+      <div class="pdp-eyebrow">${esc(p.brand || "CZN")} · ${label}</div>
+      <h1 class="pdp-title">${esc(name)}</h1>
+      <p class="pdp-tagline">${esc(tagline)}</p>
+      ${stockBadge}
+      ${priceHTML}
+      ${statsHTML(d)}
+      <div class="pdp-actions">
+        <a href="${devisUrl}" class="btn btn-primary">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
+        <a href="tel:+33531605161" class="btn btn-outline">05 31 60 51 61</a>
       </div>
+      <div class="pdp-trust"><span>✓ Garantie 2 ans</span><span>✓ Livraison France</span><span>✓ Importateur direct</span></div>
     </div>
-
-    <section class="pdp-section">
-      <h2>Présentation</h2>
-      <div class="pdp-desc">${esc(desc)}</div>
-    </section>
-
-    <section class="pdp-section">
-      <h2>Caractéristiques techniques</h2>
-      ${specsHTML(d)}
-    </section>
   </div>
-</main>
 
-<div class="pdp-toast" id="toast">Ajouté au panier</div>
+  <section class="pdp-section"><div class="pdp-lead">${esc(intro)}</div></section>
+  ${sectionsHTML(d)}
 
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Caractéristiques techniques</h2>${specsHTML(d)}</section>
+
+  <section class="pdp-cta-band">
+    <h2>Intéressé par la ${esc(name)} ?</h2>
+    <p>Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.</p>
+    <a href="${devisUrl}" class="btn btn-primary">Demander un devis</a>
+  </section>
+</div></main>
 ${FOOTER}
-
 <script>
-(function(){
-  var btn=document.getElementById('addToCart');var toast=document.getElementById('toast');
-  if(!btn)return;
-  btn.addEventListener('click',function(){
-    var item={ref:btn.dataset.ref,name:btn.dataset.name,brand:btn.dataset.brand,priceHT:Number(btn.dataset.price)||0,qty:1};
-    var cart=[];try{cart=JSON.parse(localStorage.getItem('czn_cart')||'[]');if(!Array.isArray(cart))cart=[];}catch(e){cart=[];}
-    var ex=cart.find(function(i){return i.ref===item.ref;});
-    if(ex){ex.qty=(ex.qty||1)+1;}else{cart.push(item);}
-    localStorage.setItem('czn_cart',JSON.stringify(cart));
-    var n=cart.reduce(function(a,i){return a+(i.qty||1);},0);
-    var b=document.getElementById('cartBadge');if(b){b.textContent=n;b.hidden=false;}
-    if(toast){toast.classList.add('show');setTimeout(function(){toast.classList.remove('show');},2200);}
-  });
-})();
+(function(){var main=document.getElementById('pdpMain');var th=document.querySelectorAll('.pdp-thumb');if(!main||!th.length)return;th.forEach(function(b){b.addEventListener('click',function(){main.src=b.dataset.src;th.forEach(function(x){x.classList.remove('active');});b.classList.add('active');});});})();
 </script>
 </body>
 </html>`;
 }
 
-/* ───────────── generation ───────────── */
+/* ── generation ── */
 function generateCatalog(all) {
   for (const page of PAGES) {
     const list = all.filter((p) => p.pageSlug === page.category).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
     const file = path.join(process.cwd(), page.file);
-    if (!fs.existsSync(file)) { console.warn("⚠ " + page.file + " absent, ignoré"); continue; }
+    if (!fs.existsSync(file)) { console.warn("⚠ " + page.file + " absent"); continue; }
     let html = fs.readFileSync(file, "utf8");
     html = replaceBetween(html, "<!-- PRODUCTS:START -->", "<!-- PRODUCTS:END -->", list.map(cardHTML).join("\n"));
     html = replaceBetween(html, "<!-- JSONLD:START -->", "<!-- JSONLD:END -->", itemListJsonLd(list, page.label));
@@ -394,7 +329,6 @@ function generateProductPages(all) {
     console.log("✓ fiche /produit/" + p.reference + "/");
   }
 }
-
 async function main() {
   const apiKey = process.env.AXONAUT_API_KEY;
   if (!apiKey) { console.error("❌ AXONAUT_API_KEY manquante"); process.exit(1); }
@@ -404,7 +338,5 @@ async function main() {
   generateProductPages(all);
   console.log("Terminé : " + all.length + " produits.");
 }
-
 module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages };
-
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
