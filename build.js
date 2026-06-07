@@ -121,7 +121,7 @@ function cardHTML(p) {
     ? '<span class="price-label">À partir de</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">HT · hors livraison</span>'
     : '<span class="price-label">Prix</span>\n              <span class="price-val" style="font-size:22px;">Sur devis</span>';
   return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '">',
-    '        <div class="product-img" style="aspect-ratio:3/2;">' + tag + img + "</div>",
+    '        <div class="product-img" style="aspect-ratio:1/1;">' + tag + img + "</div>",
     '        <div class="product-info"><div class="product-brand">' + esc(p.brand || "CZN") + "</div>",
     '          <h3 class="product-name">' + esc(cleanName(p.name, p.brand)) + "</h3>",
     '          <div class="product-footer"><div class="product-price">', "              " + price, "            </div>",
@@ -227,7 +227,7 @@ ${HEAD_FONTS}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
-  .pdp-main{position:relative;aspect-ratio:3/2;border-radius:18px;overflow:hidden;background:var(--oak);}
+  .pdp-main{position:relative;aspect-ratio:1/1;border-radius:18px;overflow:hidden;background:var(--oak);}
   .pdp-main img{width:100%;height:100%;object-fit:cover;object-position:center;display:block;}
   .pdp-nav{position:absolute;top:50%;transform:translateY(-50%);width:42px;height:42px;border-radius:50%;border:none;cursor:pointer;background:rgba(255,255,255,.9);color:var(--ink);font-size:24px;line-height:1;display:flex;align-items:center;justify-content:center;box-shadow:0 2px 10px rgba(0,0,0,.25);transition:background .2s;}
   .pdp-nav:hover{background:#fff;}
