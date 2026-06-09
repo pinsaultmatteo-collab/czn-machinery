@@ -226,7 +226,12 @@ module.exports = {
     tagline: `Mini-pelle 2,5 t pour les gros travaux.`,
     intro: `La SONCA SJW-25 est la plus puissante des mini-pelles Sonca avec ses 2,5 tonnes : profondeur d'excavation accrue et force d'arrachage supérieure pour s'attaquer aux chantiers de terrassement les plus ambitieux. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [], sections: [], specs: [],
-    images: [],  // ⚠ aucune photo trouvée sur la fiche d'origine — à fournir
+    images: [
+      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp",          alt: "Mini-pelle Sonca SJW-25 profil" },
+      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-cabine-joysticks.webp", alt: "Sonca SJW-25 cabine et joysticks" },
+      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-leviers-pedales.webp",  alt: "Sonca SJW-25 leviers et pédales" },
+      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-moteur.webp",           alt: "Sonca SJW-25 moteur" },
+    ],
   },
 
   // ───────────────────────── XCAVATOR XC12JS ─────────────────────────
