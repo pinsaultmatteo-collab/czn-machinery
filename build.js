@@ -254,8 +254,8 @@ const FINANCE_CSS = `
   .pdp-fin{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:14px;}
   .pdp-fin-monthly{font-size:15px;color:var(--ink);}
   .pdp-fin-monthly strong{font-family:var(--f-display);font-weight:600;font-size:19px;color:var(--orange);}
-  .pdp-fin-btn{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:none;border:1px solid rgba(33,42,53,.25);border-radius:100px;padding:8px 16px;cursor:pointer;transition:border-color .2s,color .2s;}
-  .pdp-fin-btn:hover{border-color:var(--orange);color:var(--orange);}
+  .pdp-fin-btn{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.06em;text-transform:uppercase;color:var(--orange);background:rgba(242,129,28,.12);border:1px solid rgba(242,129,28,.42);border-radius:100px;padding:9px 18px;cursor:pointer;transition:background .2s,border-color .2s,box-shadow .2s;}
+  .pdp-fin-btn:hover{background:rgba(242,129,28,.2);border-color:var(--orange);box-shadow:0 2px 10px rgba(242,129,28,.22);}
   .pdp-fin-note{font-size:12px;line-height:1.5;color:var(--muted);margin-top:8px;max-width:54ch;}
   .fin-modal{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;}
   .fin-modal[hidden]{display:none;}
