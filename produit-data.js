@@ -75,11 +75,11 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SONCA/SJW-06/produit/mini-pelle-sonca-sjw-06-compacte.webp",    alt: "Mini-pelle Sonca SJW-06 ultra-compacte 660 kg" },
-      { src: "/images/SONCA/SJW-06/produit/mini-pelle-sonca-sjw-06-godet.webp",       alt: "SJW-06 détail godet d'excavation 300 mm" },
-      { src: "/images/SONCA/SJW-06/produit/mini-pelle-sjw-06-excavation.webp",        alt: "SJW-06 en excavation, creusement de tranchée" },
-      { src: "/images/SONCA/SJW-06/produit/mini-pelle-sonca-sjw-06-terrassement.webp",alt: "SJW-06 terrassement et nivellement" },
-      { src: "/images/SONCA/SJW-06/produit/mini-pelle-sonca-sjw-06-600-kg.webp",      alt: "SJW-06 vue latérale, largeur 700 mm" },
+      { src: "/images/SONCA/SJW-06/sjw-06-3-4-avant.webp",    alt: "Mini-pelle Sonca SJW-06, vue 3/4 avant" },
+      { src: "/images/SONCA/SJW-06/sjw-06-profil.webp",       alt: "Sonca SJW-06 profil" },
+      { src: "/images/SONCA/SJW-06/sjw-06-3-4-arriere.webp",  alt: "Sonca SJW-06, vue 3/4 arrière" },
+      { src: "/images/SONCA/SJW-06/sjw-06-bras-leve.webp",    alt: "Sonca SJW-06 bras levé" },
+      { src: "/images/SONCA/SJW-06/sjw-06-arriere-droit.webp",alt: "Sonca SJW-06, vue arrière droite" },
     ],
   },
 
@@ -329,6 +329,7 @@ module.exports = {
       ]},
     ],
     images: [
+      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-3-4-avant.webp",      alt: "Mini-pelle Sonca SJW-25, vue 3/4 avant" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp",          alt: "Mini-pelle Sonca SJW-25 profil" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-cabine-joysticks.webp", alt: "Sonca SJW-25 cabine et joysticks" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-leviers-pedales.webp",  alt: "Sonca SJW-25 leviers et pédales" },
