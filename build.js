@@ -128,7 +128,9 @@ function cardHTML(p) {
   const d = DATA[p.reference] || {};
   const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im } : im));
   const photo = imgs[0] ? imgs[0].src : p.image;
-  const img = photo ? '<img class="product-photo" src="' + esc(photo) + '" alt="' + esc(cleanName(p.name, p.brand)) + '" loading="lazy">' : "";
+  const img = photo
+    ? '<img class="product-photo" src="' + esc(photo) + '" alt="' + esc(cleanName(p.name, p.brand)) + '" loading="lazy">'
+    : '<div class="product-photo" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:100%;height:100%;background:var(--cream-2);color:var(--muted);font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;"><span style="font-size:15px;letter-spacing:.04em;">' + esc(p.brand || "CZN") + '</span><span>Photo à venir</span></div>';
   const price = (p.priceHT && p.priceHT > 0)
     ? '<span class="price-label">À partir de</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">HT · hors livraison</span>'
     : '<span class="price-label">Prix</span>\n              <span class="price-val" style="font-size:22px;">Sur devis</span>';
@@ -390,14 +392,19 @@ function generateProductPages(all) {
     console.log("✓ fiche /produit/" + p.reference + "/");
   }
 }
+/* ── Marques masquées temporairement (pas de stock / pas de commandes).
+   Pour réafficher une marque : la retirer de cette liste puis relancer node build.js. ── */
+const HIDDEN_BRANDS = ["Xcavator"];
+
 async function main() {
   const apiKey = process.env.AXONAUT_API_KEY;
   if (!apiKey) { console.error("❌ AXONAUT_API_KEY manquante"); process.exit(1); }
   const raw = await fetchAllProducts(apiKey);
-  const all = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled);
+  const hidden = HIDDEN_BRANDS.map((b) => b.toLowerCase());
+  const all = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled && !hidden.includes((p.brand || "").toLowerCase()));
   generateCatalog(all);
   generateProductPages(all);
-  console.log("Terminé : " + all.length + " produits.");
+  console.log("Terminé : " + all.length + " produits." + (HIDDEN_BRANDS.length ? " (masqué : " + HIDDEN_BRANDS.join(", ") + ")" : ""));
 }
 module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages };
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
