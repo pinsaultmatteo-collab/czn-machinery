@@ -112,7 +112,7 @@ const FOOTER = `<footer><div class="container"><div class="footer-top">
     </div>
   </div>
   <div class="footer-col"><h4>Catalogue</h4><ul><li><a href="/mini-pelles/">Mini-pelles</a></li><li><a href="/mini-chargeurs/">Mini-chargeurs</a></li><li><a href="/mini-tombereaux/">Mini-tombereaux</a></li><li><a href="/accessoires/">Accessoires</a></li><li><a href="/occasion/">Occasion</a></li></ul></div>
-  <div class="footer-col"><h4>Acheter</h4><ul><li><a href="/entreprise/financement/">Financement Sofinco</a></li><li><a href="/contact/">Demander un devis</a></li><li><a href="#livraison">Livraison France</a></li><li><a href="#avis">Avis clients</a></li></ul></div>
+  <div class="footer-col"><h4>Acheter</h4><ul><li><a href="/entreprise/financement/">Financement</a></li><li><a href="/contact/">Demander un devis</a></li><li><a href="#livraison">Livraison France</a></li><li><a href="#avis">Avis clients</a></li></ul></div>
   <div class="footer-col"><h4>Ressources</h4><ul><li><a href="/guides/">Tous les guides</a></li><li><a href="/guides/comment-choisir-mini-pelle/">Comment choisir</a></li><li><a href="/guides/prix-mini-pelle/">Prix mini-pelle</a></li><li><a href="/guides/caces-mini-pelle/">CACES & permis</a></li></ul></div>
   <div class="footer-col"><h4>Entreprise</h4><ul><li><a href="/entreprise/">À propos</a></li><li><a href="/entreprise/financement/">Financement</a></li><li><a href="/contact/">Contact</a></li><li><a href="mailto:contact@czn-machinery.com">contact@czn-machinery.com</a></li><li><a href="tel:+33531605161">05 31 60 51 61</a></li></ul></div>
 </div>
@@ -206,6 +206,83 @@ function specsHTML(d) {
   }).join("\n");
 }
 
+/* ── Financement (estimation — aucun organisme nommé) ── */
+const FIN_DEFAULT_MONTHS = 60;     // durée de l'exemple affiché sous le prix
+const FIN_USE_TTC = true;          // base de calcul : true = prix TTC, false = prix HT
+function finBase(p) {
+  if (FIN_USE_TTC) return p.priceTTC && p.priceTTC > 0 ? Math.round(p.priceTTC) : (p.priceHT ? Math.round(p.priceHT * (1 + (p.vat || 20) / 100)) : 0);
+  return p.priceHT || 0;
+}
+function finRate(base) { return base < 6000 ? 0.099 : 0.079; }   // TAEG fixe
+function finMonthly(base, months) {
+  if (!base || months <= 0) return null;
+  const i = finRate(base) / 12;
+  return base * i / (1 - Math.pow(1 + i, -months));
+}
+function finModalHTML(p, name, devisUrl) {
+  const base = finBase(p);
+  if (!base) return "";
+  return `
+  <div class="fin-modal" id="finModal" hidden>
+    <div class="fin-backdrop" data-fin-close></div>
+    <div class="fin-dialog" role="dialog" aria-modal="true" aria-labelledby="finTitle">
+      <button class="fin-x" type="button" data-fin-close aria-label="Fermer la simulation">&times;</button>
+      <div id="finCalc" data-base="${base}">
+        <p class="fin-eyebrow">Simulation de financement</p>
+        <h3 id="finTitle" class="fin-title">${esc(name)}</h3>
+        <p class="fin-amount">Montant financé : <strong>${euro(base)} €</strong> <span>TTC</span></p>
+        <div class="fin-result">
+          <div><span id="finMonthly" class="fin-monthly-val">—</span><span class="fin-monthly-unit">€/mois</span></div>
+          <span id="finTaeg" class="fin-taeg">—</span>
+        </div>
+        <div class="fin-slider">
+          <div class="fin-slider-top">Durée du financement <strong><span id="finMonths">${FIN_DEFAULT_MONTHS}</span> mois</strong></div>
+          <input type="range" id="finRange" class="fin-range" min="0" max="120" step="1" value="${FIN_DEFAULT_MONTHS}" aria-label="Durée du financement en mois">
+          <div class="fin-ticks"><span>0</span><span>60</span><span>120</span></div>
+        </div>
+        <div class="fin-detail">
+          <div><span>Coût total du crédit</span><strong id="finCost">—</strong></div>
+          <div><span>Montant total dû</span><strong id="finTotal">—</strong></div>
+        </div>
+        <p class="fin-legal">Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.</p>
+        <a href="${devisUrl}" class="btn btn-primary fin-cta">Demander un financement</a>
+      </div>
+    </div>
+  </div>`;
+}
+const FINANCE_CSS = `
+  .pdp-fin{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:14px;}
+  .pdp-fin-monthly{font-size:15px;color:var(--ink);}
+  .pdp-fin-monthly strong{font-family:var(--f-display);font-weight:600;font-size:19px;color:var(--orange);}
+  .pdp-fin-btn{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--ink);background:none;border:1px solid rgba(33,42,53,.25);border-radius:100px;padding:8px 16px;cursor:pointer;transition:border-color .2s,color .2s;}
+  .pdp-fin-btn:hover{border-color:var(--orange);color:var(--orange);}
+  .pdp-fin-note{font-size:12px;line-height:1.5;color:var(--muted);margin-top:8px;max-width:54ch;}
+  .fin-modal{position:fixed;inset:0;z-index:1000;display:flex;align-items:center;justify-content:center;padding:20px;}
+  .fin-modal[hidden]{display:none;}
+  .fin-backdrop{position:absolute;inset:0;background:rgba(20,25,32,.55);backdrop-filter:blur(3px);}
+  .fin-dialog{position:relative;width:100%;max-width:460px;max-height:92vh;overflow:auto;background:var(--cream-pure,#faf6ec);border-radius:20px;padding:34px 30px 28px;box-shadow:0 30px 80px rgba(0,0,0,.35);}
+  .fin-x{position:absolute;top:14px;right:16px;width:34px;height:34px;border:none;background:rgba(33,42,53,.06);border-radius:50%;font-size:22px;line-height:1;color:var(--ink);cursor:pointer;}
+  .fin-x:hover{background:rgba(33,42,53,.12);}
+  .fin-eyebrow{font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--orange);margin-bottom:6px;}
+  .fin-title{font-family:var(--f-display);font-weight:600;font-size:22px;letter-spacing:-.02em;color:var(--ink);margin-bottom:10px;}
+  .fin-amount{font-size:14px;color:var(--muted);margin-bottom:18px;}.fin-amount strong{color:var(--ink);font-size:16px;}.fin-amount span{font-family:var(--f-mono);font-size:11px;}
+  .fin-result{display:flex;align-items:center;justify-content:space-between;gap:12px;background:var(--cream,#f4efe4);border-radius:14px;padding:16px 20px;margin-bottom:22px;}
+  .fin-monthly-val{font-family:var(--f-display);font-weight:600;font-size:36px;letter-spacing:-.02em;color:var(--ink);}
+  .fin-monthly-unit{font-family:var(--f-mono);font-size:13px;color:var(--muted);margin-left:5px;}
+  .fin-taeg{font-family:var(--f-mono);font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--orange);text-align:right;line-height:1.3;}
+  .fin-slider-top{display:flex;justify-content:space-between;align-items:baseline;font-size:14px;color:var(--muted);margin-bottom:10px;}
+  .fin-slider-top strong{color:var(--ink);font-family:var(--f-display);font-size:16px;}
+  .fin-range{width:100%;-webkit-appearance:none;appearance:none;height:5px;border-radius:5px;background:rgba(33,42,53,.15);outline:none;margin:0;}
+  .fin-range::-webkit-slider-thumb{-webkit-appearance:none;appearance:none;width:22px;height:22px;border-radius:50%;background:var(--orange);cursor:pointer;border:3px solid #fff;box-shadow:0 1px 5px rgba(0,0,0,.25);}
+  .fin-range::-moz-range-thumb{width:22px;height:22px;border-radius:50%;background:var(--orange);cursor:pointer;border:3px solid #fff;}
+  .fin-ticks{display:flex;justify-content:space-between;font-family:var(--f-mono);font-size:10px;color:var(--muted);margin-top:7px;}
+  .fin-detail{display:flex;flex-direction:column;gap:9px;margin-top:22px;padding-top:18px;border-top:1px solid rgba(33,42,53,.12);}
+  .fin-detail div{display:flex;justify-content:space-between;font-size:14px;}
+  .fin-detail span{color:var(--muted);}.fin-detail strong{color:var(--ink);font-weight:600;}
+  .fin-legal{font-size:11px;line-height:1.55;color:var(--muted);margin:20px 0 18px;}
+  .fin-cta{width:100%;justify-content:center;}`;
+const FINANCE_JS = `(function(){var root=document.getElementById('finCalc'),modal=document.getElementById('finModal');if(!root||!modal)return;var base=parseFloat(root.dataset.base)||0;var range=document.getElementById('finRange'),eM=document.getElementById('finMonths'),eMon=document.getElementById('finMonthly'),eT=document.getElementById('finTaeg'),eC=document.getElementById('finCost'),eTot=document.getElementById('finTotal');var f0=new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}),f2=new Intl.NumberFormat('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2});function rate(b){return b<6000?0.099:0.079;}function calc(){var n=parseInt(range.value,10);eM.textContent=n;var r=rate(base);if(n<=0){eMon.textContent=f0.format(base);eT.textContent='Paiement comptant';eC.textContent='0 €';eTot.textContent=f0.format(base)+' €';return;}var i=r/12,m=base*i/(1-Math.pow(1+i,-n)),tot=m*n;eMon.textContent=f2.format(m);eT.textContent='TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %';eC.textContent=f0.format(tot-base)+' €';eTot.textContent=f0.format(tot)+' €';}range.addEventListener('input',calc);calc();function op(){modal.hidden=false;document.body.style.overflow='hidden';}function cl(){modal.hidden=true;document.body.style.overflow='';}document.querySelectorAll('[data-fin-open]').forEach(function(b){b.addEventListener('click',op);});modal.querySelectorAll('[data-fin-close]').forEach(function(b){b.addEventListener('click',cl);});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!modal.hidden)cl();});})();`;
+
 function productPageHTML(p) {
   const d = DATA[p.reference] || {};
   const name = cleanName(p.name, p.brand);
@@ -220,6 +297,14 @@ function productPageHTML(p) {
     : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">Sur devis</span></div>`;
   const metaDesc = intro.slice(0, 158);
   const devisUrl = "/contact/?modele=" + encodeURIComponent(name) + "&ref=" + encodeURIComponent(p.reference);
+  const finB = finBase(p);
+  const finM = finMonthly(finB, FIN_DEFAULT_MONTHS);
+  const finBlock = (finB > 0 && finM) ? `
+      <div class="pdp-fin">
+        <span class="pdp-fin-monthly">ou à partir de <strong>${euro(Math.round(finM))} €</strong> / mois<sup>*</sup></span>
+        <button type="button" class="pdp-fin-btn" data-fin-open>Simuler mon financement</button>
+      </div>
+      <p class="pdp-fin-note">* Estimation indicative sur ${FIN_DEFAULT_MONTHS} mois, TAEG fixe ${(finRate(finB) * 100).toLocaleString("fr-FR")} %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.</p>` : "";
 
   return `<!DOCTYPE html>
 <html lang="fr">
@@ -284,6 +369,7 @@ ${HEAD_FONTS}
   .pdp-cta-band h2{font-family:var(--f-display);font-weight:500;font-size:28px;color:var(--cream-pure,#faf6ec);margin-bottom:10px;}
   .pdp-cta-band p{color:rgba(244,239,228,.7);margin-bottom:24px;}
   @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
+${FINANCE_CSS}
 </style>
 </head>
 <body>
@@ -299,6 +385,7 @@ ${NAV}
       <p class="pdp-tagline">${esc(tagline)}</p>
       ${stockBadge}
       ${priceHTML}
+      ${finBlock}
       ${statsHTML(d)}
       <div class="pdp-actions">
         <a href="${devisUrl}" class="btn btn-primary">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
@@ -319,9 +406,11 @@ ${NAV}
     <a href="${devisUrl}" class="btn btn-primary">Demander un devis</a>
   </section>
 </div></main>
+${finModalHTML(p, name, devisUrl)}
 ${FOOTER}
 <script>
 (function(){var main=document.getElementById('pdpMain');var th=Array.prototype.slice.call(document.querySelectorAll('.pdp-thumb'));if(!main||!th.length)return;var i=0;function show(n){i=(n+th.length)%th.length;main.src=th[i].dataset.src;th.forEach(function(x,k){x.classList.toggle('active',k===i);});}th.forEach(function(b,k){b.addEventListener('click',function(){show(k);});});var prev=document.querySelector('.pdp-prev');var next=document.querySelector('.pdp-next');if(prev)prev.addEventListener('click',function(){show(i-1);});if(next)next.addEventListener('click',function(){show(i+1);});})();
+${FINANCE_JS}
 </script>
 </body>
 </html>`;
