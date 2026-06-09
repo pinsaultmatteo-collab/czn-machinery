@@ -208,7 +208,7 @@ function specsHTML(d) {
 
 /* ── Financement (estimation — aucun organisme nommé) ── */
 const FIN_DEFAULT_MONTHS = 60;     // durée de l'exemple affiché sous le prix
-const FIN_USE_TTC = true;          // base de calcul : true = prix TTC, false = prix HT
+const FIN_USE_TTC = false;         // base de calcul : true = prix TTC, false = prix HT
 function finBase(p) {
   if (FIN_USE_TTC) return p.priceTTC && p.priceTTC > 0 ? Math.round(p.priceTTC) : (p.priceHT ? Math.round(p.priceHT * (1 + (p.vat || 20) / 100)) : 0);
   return p.priceHT || 0;
@@ -230,7 +230,7 @@ function finModalHTML(p, name, devisUrl) {
       <div id="finCalc" data-base="${base}">
         <p class="fin-eyebrow">Simulation de financement</p>
         <h3 id="finTitle" class="fin-title">${esc(name)}</h3>
-        <p class="fin-amount">Montant financé : <strong>${euro(base)} €</strong> <span>TTC</span></p>
+        <p class="fin-amount">Montant financé : <strong>${euro(base)} €</strong> <span>${FIN_USE_TTC ? "TTC" : "HT"}</span></p>
         <div class="fin-result">
           <div><span id="finMonthly" class="fin-monthly-val">—</span><span class="fin-monthly-unit">€/mois</span></div>
           <span id="finTaeg" class="fin-taeg">—</span>
