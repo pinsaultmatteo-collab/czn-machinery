@@ -208,17 +208,183 @@ module.exports = {
     ],
   },
 
-  // ───────────── XCAVATOR — à enrichir quand tu auras les infos ─────────────
-  "X-MP-XC06S": {
-    tagline: `Mini-pelle compacte d'entrée de gamme.`,
-    intro: `La Xcavator XC06S est une mini-pelle compacte d'entrée de gamme, pensée pour le terrassement léger et l'aménagement extérieur. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
-    stats: [], sections: [], specs: [], images: [],
+  // ───────────────────────── SONCA SJW-18 PRO ─────────────────────────
+  "SMP-SJW-18-PRO": {
+    tagline: `Mini-pelle 1,8 t, le bon compromis taille/puissance.`,
+    intro: `La SONCA SJW-18 PRO est une mini-pelle 1,8 tonne polyvalente, taillée pour les chantiers de terrassement plus exigeants tout en restant facilement transportable. Robuste et confortable, elle accepte une large gamme d'accessoires. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-avant.webp",   alt: "Mini-pelle Sonca SJW-18 PRO vue avant" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil.webp",  alt: "Sonca SJW-18 PRO profil" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-moteur.webp",  alt: "Sonca SJW-18 PRO moteur" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-pedales.webp", alt: "Sonca SJW-18 PRO pédales et commandes" },
+    ],
   },
 
-  "X-MP-XC25-2C": {
-    tagline: `La plus capable de la gamme.`,
-    intro: `La Xcavator XC25U-2C est la mini-pelle la plus performante du catalogue, destinée aux chantiers de terrassement exigeants. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
-    stats: [], sections: [], specs: [], images: [],
+  // ───────────────────────── SONCA SJW-25 ─────────────────────────
+  "SMP-SJW-25-": {
+    tagline: `Mini-pelle 2,5 t pour les gros travaux.`,
+    intro: `La SONCA SJW-25 est la plus puissante des mini-pelles Sonca avec ses 2,5 tonnes : profondeur d'excavation accrue et force d'arrachage supérieure pour s'attaquer aux chantiers de terrassement les plus ambitieux. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [],  // ⚠ aucune photo trouvée sur la fiche d'origine — à fournir
+  },
+
+  // ───────────────────────── XCAVATOR XC12JS ─────────────────────────
+  "XMP-XC-12-JS": {
+    tagline: `Mini-pelle 1,2 t, maniable et endurante.`,
+    intro: `La XCAVATOR XC12JS est une mini-pelle 1,2 tonne compacte et maniable, pensée pour le terrassement et l'aménagement dans les espaces restreints. Fiable et facile à prendre en main. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/XCAVATOR/XC12js/FOND/mini-pelle-xcavator-xc12js-vue-avant.webp",             alt: "Mini-pelle Xcavator XC12JS vue avant" },
+      { src: "/images/XCAVATOR/XC12js/FOND/mini-pelle-xcavator-xc12js-bras-excavation-etendu.webp", alt: "Xcavator XC12JS bras d'excavation étendu" },
+      { src: "/images/XCAVATOR/XC12js/FOND/mini-pelle-xcavator-xc12js-siege-cabine.webp",          alt: "Xcavator XC12JS siège et poste de conduite" },
+      { src: "/images/XCAVATOR/XC12js/FOND/mini-pelle-xcavator-xc12js-moteur.webp",                alt: "Xcavator XC12JS moteur" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC12S ─────────────────────────
+  "XMP-XC-12-S": {
+    tagline: `Mini-pelle 1,2 t polyvalente.`,
+    intro: `La XCAVATOR XC12S est une mini-pelle 1,2 tonne polyvalente, idéale pour les particuliers et artisans cherchant une machine compacte et performante pour le terrassement courant. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/XCAVATOR/XC12S/FOND/mini-pelle-xcavator-xc12s-vue-avant.webp",            alt: "Mini-pelle Xcavator XC12S vue avant" },
+      { src: "/images/XCAVATOR/XC12S/FOND/mini-pelle-xcavator-xc12s-vue-avant-gauche.webp",     alt: "Xcavator XC12S vue avant gauche" },
+      { src: "/images/XCAVATOR/XC12S/FOND/mini-pelle-xcavator-xc12s-profil-avant-droit.webp",   alt: "Xcavator XC12S profil avant droit" },
+      { src: "/images/XCAVATOR/XC12S/FOND/mini-pelle-xcavator-xc12s-profil-droit-excavation.webp", alt: "Xcavator XC12S en excavation" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC18S PRO ─────────────────────────
+  "XMP-XC-18-PRO": {
+    tagline: `Mini-pelle 1,8 t, performance et confort.`,
+    intro: `La XCAVATOR XC18S PRO est une mini-pelle 1,8 tonne qui allie puissance hydraulique et confort de conduite pour les chantiers de terrassement intensifs. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/XCAVATOR/XC18PRO/mini-pelle-xcs-18-pro-vue-avant.webp",                 alt: "Mini-pelle Xcavator XC18S PRO vue avant" },
+      { src: "/images/XCAVATOR/XC18PRO/mini-pelle-xcs-18-pro-vue-profil-droit.webp",          alt: "Xcavator XC18S PRO profil droit" },
+      { src: "/images/XCAVATOR/XC18PRO/FOND/mini-pelle-xcavator-xc18spro-vue-ensemble.webp",  alt: "Xcavator XC18S PRO vue d'ensemble" },
+      { src: "/images/XCAVATOR/XC18PRO/FOND/mini-pelle-xcavator-xc18spro-moteur.webp",        alt: "Xcavator XC18S PRO moteur" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC25S (CANOPY) ─────────────────────────
+  "XMP-XC-25-S-C": {
+    tagline: `Mini-pelle 2,5 t avec canopy de série.`,
+    intro: `La XCAVATOR XC25S est une mini-pelle 2,5 tonnes équipée d'un canopy de protection de série. Conçue pour les gros travaux de terrassement, elle conjugue puissance, stabilité et sécurité de l'opérateur. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/XCAVATOR/XC25S/FOND/mini-pelle-xcavator-xc25s-vue-avant-droite.webp",       alt: "Mini-pelle Xcavator XC25S vue avant droite" },
+      { src: "/images/XCAVATOR/XC25S/FOND/mini-pelle-xcavator-xc25s-profil-gauche.webp",          alt: "Xcavator XC25S profil gauche" },
+      { src: "/images/XCAVATOR/XC25S/FOND/mini-pelle-xcavator-xc25s-vue-arriere-droite.webp",     alt: "Xcavator XC25S vue arrière droite" },
+      { src: "/images/XCAVATOR/XC25S/FOND/mini-pelle-xcavator-xc25s-profil-droit-excavation.webp", alt: "Xcavator XC25S en excavation" },
+    ],
+  },
+
+  // ───────────── XCAVATOR XC06S & XC25U-2C — clés corrigées, photos à fournir ─────────────
+  "XMP-XC06S": {
+    tagline: `Mini-pelle compacte d'entrée de gamme.`,
+    intro: `La XCAVATOR XC06S est une mini-pelle compacte d'entrée de gamme, pensée pour le terrassement léger et l'aménagement extérieur. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [], images: [],  // ⚠ pas d'URL fournie — photos à venir
+  },
+
+  "XMP-XC25-2C": {
+    tagline: `Mini-pelle 2,5 t, la plus capable de la gamme.`,
+    intro: `La XCAVATOR XC25U-2C est l'une des mini-pelles les plus performantes du catalogue, destinée aux chantiers de terrassement exigeants. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [], images: [],  // ⚠ pas d'URL fournie — photos à venir
+  },
+
+  // ───────────────────────── SONCA SJ-08EL (tombereau) ─────────────────────────
+  "SMT-SJ-08EL": {
+    tagline: `Mini-tombereau chenillé, grande capacité.`,
+    intro: `Le SONCA SJ-08EL est un mini-tombereau (mini-dumper) sur chenilles à benne basculante, conçu pour transporter terre, gravats et matériaux sur les terrains les plus difficiles. Sa large capacité en fait un allié des chantiers d'évacuation et d'aménagement. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-profil-avant-droit.webp",   alt: "Mini-tombereau Sonca SJ-08EL profil avant droit" },
+      { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-profil-avant-deplie.webp",  alt: "Sonca SJ-08EL benne déployée" },
+      { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-moteur.webp",               alt: "Sonca SJ-08EL moteur" },
+    ],
+  },
+
+  // ───────────────────────── SONCA SJ-05E (tombereau) ─────────────────────────
+  "SMT-SJ-05E": {
+    tagline: `Mini-tombereau chenillé compact.`,
+    intro: `Le SONCA SJ-05E est un mini-tombereau sur chenilles compact à benne basculante, idéal pour transporter des matériaux dans les espaces restreints et sur sols meubles. Maniable et endurant. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJ-05E/mini-tombereau-sonca-sj-05e-profil-gauche.webp",       alt: "Mini-tombereau Sonca SJ-05E profil gauche" },
+      { src: "/images/SJ-05E/mini-tombereau-sonca-sj-05e-biais-arriere-droit.webp", alt: "Sonca SJ-05E vue de biais arrière droit" },
+      { src: "/images/SJ-05E/mini-tombereau-sonca-sj-05e-chenilles.webp",           alt: "Sonca SJ-05E chenilles" },
+      { src: "/images/SJ-05E/mini-tombereau-sonca-sj-05e-moteur.webp",              alt: "Sonca SJ-05E moteur" },
+    ],
+  },
+
+  // ───────────────────────── SONCA SJ-05EL (tombereau) ─────────────────────────
+  "SMT-SJ-05EL": {
+    tagline: `Mini-tombereau chenillé, benne relevable.`,
+    intro: `Le SONCA SJ-05EL est un mini-tombereau sur chenilles à benne relevable, pour décharger en hauteur (remorque, big-bag, conteneur). Compact et tout-terrain, il facilite l'évacuation des matériaux sur chantier. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-avant-droit.webp",  alt: "Mini-tombereau Sonca SJ-05EL profil avant droit" },
+      { src: "/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-droit.webp",        alt: "Sonca SJ-05EL profil droit" },
+      { src: "/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-droit-releve.webp", alt: "Sonca SJ-05EL benne relevée" },
+      { src: "/images/SJ-05EL/mini-tombereau-sonca-sj-05el-moteur.webp",              alt: "Sonca SJ-05EL moteur" },
+      { src: "/images/SJ-05EL/mini-tombereau-sonca-sj-05el-manettes.webp",            alt: "Sonca SJ-05EL commandes" },
+    ],
+  },
+
+  // ───────────────────────── SONCA SJ-05M (tombereau) ─────────────────────────
+  "SMT-SJ-05M": {
+    tagline: `Mini-tombereau chenillé maniable.`,
+    intro: `Le SONCA SJ-05M est un mini-tombereau sur chenilles à benne basculante, pensé pour la maniabilité et la simplicité d'utilisation sur les petits et moyens chantiers. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJ-05-EM/mini-tombereau-sonca-sj-05m-vue-ensemble.webp", alt: "Mini-tombereau Sonca SJ-05M vue d'ensemble" },
+      { src: "/images/SJ-05-EM/mini-tombereau-sonca-sj-05m-chenilles.webp",    alt: "Sonca SJ-05M chenilles" },
+      { src: "/images/SJ-05-EM/mini-tombereau-sonca-sj-05m-moteur.webp",       alt: "Sonca SJ-05M moteur" },
+      { src: "/images/SJ-05-EM/mini-tombereau-sonca-sj-05m-manettes.webp",     alt: "Sonca SJ-05M commandes" },
+    ],
+  },
+
+  // ───────────────────────── SONCA SJ-460 W (chargeur) ─────────────────────────
+  "SMC-SJ-460W": {
+    tagline: `Mini-chargeur sur roues, compact et puissant.`,
+    intro: `Le SONCA SJ-460 W est un mini-chargeur articulé sur roues, idéal pour la manutention, le chargement et les travaux d'aménagement. Compact, il se faufile partout et accepte de nombreux accessoires (godet, fourches…). Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-profil.webp",             alt: "Mini-chargeur Sonca SJ-460 W profil" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-biais.webp",              alt: "Sonca SJ-460 W vue de biais" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-moteur.webp",             alt: "Sonca SJ-460 W moteur" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-panneau-de-controle.webp",alt: "Sonca SJ-460 W panneau de contrôle" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-radiateur.webp",          alt: "Sonca SJ-460 W radiateur" },
+    ],
+  },
+
+  // ───────────────────────── SONCA SJ-460 T (chargeur chenillé) ─────────────────────────
+  "SMC-SJ-460T": {
+    tagline: `Mini-chargeur sur chenilles, tout-terrain.`,
+    intro: `Le SONCA SJ-460 T est la version chenillée du mini-chargeur compact : meilleure motricité et stabilité sur sols meubles ou difficiles, pour la manutention et le chargement sur tous terrains. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJW460T/mini-chargeur-sonca-sj-460-t-profil-leve.webp",         alt: "Mini-chargeur Sonca SJ-460 T benne levée" },
+      { src: "/images/SJW460T/mini-chargeur-sonca-sj-460-t-moteur.webp",              alt: "Sonca SJ-460 T moteur" },
+      { src: "/images/SJW460T/mini-chargeur-sonca-sj-460-t-radiateur.webp",           alt: "Sonca SJ-460 T radiateur" },
+      { src: "/images/SJW460T/mini-chargeur-sonca-sj-460-t-tableau-de-commandes.webp",alt: "Sonca SJ-460 T tableau de commandes" },
+    ],
+  },
+
+  // ───────────────────────── SONCA SJ-490 W (chargeur) ─────────────────────────
+  "SMC-SJ-490W": {
+    tagline: `Mini-chargeur sur roues, montée en puissance.`,
+    intro: `Le SONCA SJ-490 W est un mini-chargeur articulé sur roues plus puissant, pour les travaux de manutention et de chargement plus intensifs tout en restant compact et maniable. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
+    stats: [], sections: [], specs: [],
+    images: [
+      { src: "/images/SJ490W/mini-chargeur-sonca-sj-490-w-profil-droit-leve.webp", alt: "Mini-chargeur Sonca SJ-490 W benne levée" },
+      { src: "/images/SJ490W/mini-chargeur-sonca-sj-490-w-moteur.webp",            alt: "Sonca SJ-490 W moteur" },
+      { src: "/images/SJ490W/mini-chargeur-sonca-sj-490-w-radiateur.webp",         alt: "Sonca SJ-490 W radiateur" },
+      { src: "/images/SJ490W/mini-chargeur-sonca-sj-490-w-manettes.webp",          alt: "Sonca SJ-490 W commandes" },
+      { src: "/images/SJ490W/mini-chargeur-sonca-sj-490-w-siege.webp",             alt: "Sonca SJ-490 W siège" },
+    ],
   },
 
 };
