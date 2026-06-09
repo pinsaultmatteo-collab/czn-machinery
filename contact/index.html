@@ -171,7 +171,7 @@
             <label for="topic">Sujet</label>
             <select id="topic" name="topic">
               <option value="devis">Demande de devis</option>
-              <option value="financement">Financement Sofinco</option>
+              <option value="financement">Financement</option>
               <option value="livraison">Livraison</option>
               <option value="sav">SAV / pièces détachées</option>
               <option value="occasion">Machine d'occasion</option>
@@ -368,6 +368,27 @@
     if (window.scrollY > 8) nav.classList.add('scrolled');
     else nav.classList.remove('scrolled');
   });
+
+  // Pré-remplissage du formulaire depuis l'URL (?topic=...&msg=...)
+  (function(){
+    try {
+      var q = new URLSearchParams(location.search);
+      var msg = q.get('msg');
+      var topic = q.get('topic');
+      var t = document.getElementById('topic');
+      if (topic && t) {
+        for (var i = 0; i < t.options.length; i++) {
+          if (t.options[i].value === topic) { t.selectedIndex = i; break; }
+        }
+      }
+      var m = document.getElementById('message');
+      if (msg && m) {
+        m.value = msg;
+        m.focus();
+        m.setSelectionRange(m.value.length, m.value.length);
+      }
+    } catch (e) {}
+  })();
 </script>
 </body>
 </html>

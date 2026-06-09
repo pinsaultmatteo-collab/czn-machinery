@@ -130,7 +130,7 @@
       <p class="pdp-fin-note">* Estimation indicative sur 60 mois, TAEG fixe 9,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.</p>
       <div class="pdp-stats"><div class="pdp-stat"><div class="pdp-stat-val">500 kg</div><div class="pdp-stat-label">Charge maximale</div></div><div class="pdp-stat"><div class="pdp-stat-val">0,22 m³</div><div class="pdp-stat-label">Capacité benne</div></div><div class="pdp-stat"><div class="pdp-stat-val">6,5 CV</div><div class="pdp-stat-label">Puissance moteur</div></div><div class="pdp-stat"><div class="pdp-stat-val">0,95 m</div><div class="pdp-stat-label">Rayon de braquage</div></div></div>
       <div class="pdp-actions">
-        <a href="/contact/?modele=Mini-tombereau%20SJ-05E&ref=SMT-SJ-05E" class="btn btn-primary">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
+        <a href="/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05E%20(r%C3%A9f.%20SMT-SJ-05E).%20Merci%20de%20me%20recontacter." class="btn btn-primary">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
         <a href="tel:+33531605161" class="btn btn-outline">05 31 60 51 61</a>
       </div>
       <div class="pdp-trust"><span>✓ Garantie 2 ans</span><span>✓ Livraison France</span><span>✓ Importateur direct</span></div>
@@ -148,7 +148,7 @@
   <section class="pdp-cta-band">
     <h2>Intéressé par la Mini-tombereau SJ-05E ?</h2>
     <p>Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.</p>
-    <a href="/contact/?modele=Mini-tombereau%20SJ-05E&ref=SMT-SJ-05E" class="btn btn-primary">Demander un devis</a>
+    <a href="/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05E%20(r%C3%A9f.%20SMT-SJ-05E).%20Merci%20de%20me%20recontacter." class="btn btn-primary">Demander un devis</a>
   </section>
 </div></main>
 
@@ -156,7 +156,7 @@
     <div class="fin-backdrop" data-fin-close></div>
     <div class="fin-dialog" role="dialog" aria-modal="true" aria-labelledby="finTitle">
       <button class="fin-x" type="button" data-fin-close aria-label="Fermer la simulation">&times;</button>
-      <div id="finCalc" data-base="4500">
+      <div id="finCalc" data-base="4500" data-name="Mini-tombereau SJ-05E" data-ref="SMT-SJ-05E">
         <p class="fin-eyebrow">Simulation de financement</p>
         <h3 id="finTitle" class="fin-title">Mini-tombereau SJ-05E</h3>
         <p class="fin-amount">Montant financé : <strong>4&thinsp;500 €</strong> <span>HT</span></p>
@@ -174,7 +174,7 @@
           <div><span>Montant total dû</span><strong id="finTotal">—</strong></div>
         </div>
         <p class="fin-legal">Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.</p>
-        <a href="/contact/?modele=Mini-tombereau%20SJ-05E&ref=SMT-SJ-05E" class="btn btn-primary fin-cta">Demander un financement</a>
+        <a href="/contact/?topic=financement" id="finCta" class="btn btn-primary fin-cta">Demander un financement</a>
       </div>
     </div>
   </div>
@@ -197,7 +197,7 @@
 </div></footer>
 <script>
 (function(){var main=document.getElementById('pdpMain');var th=Array.prototype.slice.call(document.querySelectorAll('.pdp-thumb'));if(!main||!th.length)return;var i=0;function show(n){i=(n+th.length)%th.length;main.src=th[i].dataset.src;th.forEach(function(x,k){x.classList.toggle('active',k===i);});}th.forEach(function(b,k){b.addEventListener('click',function(){show(k);});});var prev=document.querySelector('.pdp-prev');var next=document.querySelector('.pdp-next');if(prev)prev.addEventListener('click',function(){show(i-1);});if(next)next.addEventListener('click',function(){show(i+1);});})();
-(function(){var root=document.getElementById('finCalc'),modal=document.getElementById('finModal');if(!root||!modal)return;var base=parseFloat(root.dataset.base)||0;var range=document.getElementById('finRange'),eM=document.getElementById('finMonths'),eMon=document.getElementById('finMonthly'),eT=document.getElementById('finTaeg'),eC=document.getElementById('finCost'),eTot=document.getElementById('finTotal');var f0=new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}),f2=new Intl.NumberFormat('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2});function rate(b){return b<6000?0.099:0.079;}function calc(){var n=parseInt(range.value,10);eM.textContent=n;var r=rate(base);if(n<=0){eMon.textContent=f0.format(base);eT.textContent='Paiement comptant';eC.textContent='0 €';eTot.textContent=f0.format(base)+' €';return;}var i=r/12,m=base*i/(1-Math.pow(1+i,-n)),tot=m*n;eMon.textContent=f2.format(m);eT.textContent='TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %';eC.textContent=f0.format(tot-base)+' €';eTot.textContent=f0.format(tot)+' €';}range.addEventListener('input',calc);calc();function op(){modal.hidden=false;document.body.style.overflow='hidden';}function cl(){modal.hidden=true;document.body.style.overflow='';}document.querySelectorAll('[data-fin-open]').forEach(function(b){b.addEventListener('click',op);});modal.querySelectorAll('[data-fin-close]').forEach(function(b){b.addEventListener('click',cl);});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!modal.hidden)cl();});})();
+(function(){var root=document.getElementById('finCalc'),modal=document.getElementById('finModal');if(!root||!modal)return;var base=parseFloat(root.dataset.base)||0;var name=root.dataset.name||'',ref=root.dataset.ref||'',cta=document.getElementById('finCta');function setCta(msg){if(cta)cta.href='/contact/?topic=financement&msg='+encodeURIComponent(msg);}var range=document.getElementById('finRange'),eM=document.getElementById('finMonths'),eMon=document.getElementById('finMonthly'),eT=document.getElementById('finTaeg'),eC=document.getElementById('finCost'),eTot=document.getElementById('finTotal');var f0=new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}),f2=new Intl.NumberFormat('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2});function rate(b){return b<6000?0.099:0.079;}function calc(){var n=parseInt(range.value,10);eM.textContent=n;var r=rate(base);if(n<=0){eMon.textContent=f0.format(base);eT.textContent='Paiement comptant';eC.textContent='0 €';eTot.textContent=f0.format(base)+' €';setCta('Bonjour, je souhaite acheter la '+name+(ref?' (réf. '+ref+')':'')+' au comptant ('+f0.format(base)+' € HT). Merci de me recontacter.');return;}var i=r/12,m=base*i/(1-Math.pow(1+i,-n)),tot=m*n;eMon.textContent=f2.format(m);eT.textContent='TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %';eC.textContent=f0.format(tot-base)+' €';eTot.textContent=f0.format(tot)+' €';setCta('Bonjour, je souhaite un financement pour la '+name+(ref?' (réf. '+ref+')':'')+'.\n\nSimulation : montant '+f0.format(base)+' € HT, durée '+n+' mois, mensualité estimée '+f2.format(m)+' €/mois, TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %, coût total du crédit '+f0.format(tot-base)+' €, montant total dû '+f0.format(tot)+' €.\n\nMerci de me recontacter.');}range.addEventListener('input',calc);calc();function op(){modal.hidden=false;document.body.style.overflow='hidden';}function cl(){modal.hidden=true;document.body.style.overflow='';}document.querySelectorAll('[data-fin-open]').forEach(function(b){b.addEventListener('click',op);});modal.querySelectorAll('[data-fin-close]').forEach(function(b){b.addEventListener('click',cl);});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!modal.hidden)cl();});})();
 </script>
 </body>
 </html>
