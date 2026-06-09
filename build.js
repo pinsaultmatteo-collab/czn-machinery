@@ -14,23 +14,34 @@ try { DATA = require("./produit-data.js"); } catch (e) { DATA = {}; }
 
 const SITE = "https://czn-machinery.com";
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
-const PREFIX_MAP = [
-  { prefix: "SMP",  slug: "mini-pelles", brand: "Sonca" },
-  { prefix: "X-MP", slug: "mini-pelles", brand: "Xcavator" },
+const PAGES = [
+  { slug: "mini-pelles",     file: "mini-pelles/index.html",     label: "Mini-pelle",     eyebrow: "01 — Terrassement", h1: "Mini-pelles <em>neuves</em>" },
+  { slug: "mini-chargeurs",  file: "mini-chargeurs/index.html",  label: "Mini-chargeur",  eyebrow: "02 — Manutention",  h1: "Mini-chargeurs <em>neufs</em>" },
+  { slug: "mini-tombereaux", file: "mini-tombereaux/index.html", label: "Mini-tombereau", eyebrow: "03 — Transport",    h1: "Mini-tombereaux <em>neufs</em>" },
 ];
-const PAGES = [{ file: "mini-pelles/index.html", category: "mini-pelles", label: "Mini-pelle" }];
 const LABELS = { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "accessoires": "Accessoire" };
 const CAT_PATH = { "mini-pelles": "/mini-pelles/", "mini-chargeurs": "/mini-chargeurs/", "mini-tombereaux": "/mini-tombereaux/", "accessoires": "/accessoires/" };
 const CAT_NAME = { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "accessoires": "Accessoires" };
 
-/* ── Axonaut ── */
-function classify(code) {
-  const c = (code || "").toString().trim().toUpperCase();
-  if (!c) return null;
-  for (const r of [...PREFIX_MAP].sort((a, b) => b.prefix.length - a.prefix.length))
-    if (c.startsWith(r.prefix.toUpperCase())) return r;
+/* ── Axonaut → routage par CATÉGORIE (page) + MARQUE lue dans le titre ──
+   Indépendant du format des références : changer une réf ne casse rien.
+   Les produits sans catégorie reconnue (SAV, pièces…) sont exclus. */
+function categoryToSlug(category) {
+  const c = (category || "").toLowerCase();
+  if (c.includes("pelle")) return "mini-pelles";
+  if (c.includes("chargeur")) return "mini-chargeurs";
+  if (c.includes("tombereau") || c.includes("dumper")) return "mini-tombereaux";
   return null;
 }
+function brandFromName(name) {
+  const n = (name || "").toUpperCase();
+  if (n.includes("SONCA")) return "Sonca";
+  if (n.includes("XCAVATOR")) return "Xcavator";
+  if (n.includes("LEITE")) return "Leite";
+  return null;
+}
+
+/* ── Axonaut ── */
 async function fetchAllProducts(apiKey) {
   const all = [];
   for (let page = 1; page <= 30; page++) {
@@ -46,11 +57,10 @@ async function fetchAllProducts(apiKey) {
 }
 const toNum = (v) => { const n = parseFloat(v); return isNaN(n) ? null : n; };
 function normalize(p) {
-  const cls = classify(p.product_code);
   const stock = toNum(p.stock);
   return {
     id: p.id, name: p.name || "", reference: p.product_code || String(p.id),
-    brand: cls ? cls.brand : null, pageSlug: cls ? cls.slug : null,
+    brand: brandFromName(p.name), pageSlug: categoryToSlug(p.category),
     priceHT: toNum(p.price), priceTTC: toNum(p.price_with_tax), vat: toNum(p.tax_rate) ?? 20,
     inStock: stock == null ? null : stock > 0, image: p.image || null, disabled: !!p.disabled,
   };
@@ -60,7 +70,9 @@ function normalize(p) {
 function cleanName(name, brand) {
   let n = (name || "").trim();
   if (brand) n = n.replace(new RegExp("^" + brand + "\\s+", "i"), "");
-  n = n.replace(/mini\s*-?\s*pelle/i, "Mini-pelle");
+  n = n.replace(/mini\s*-?\s*pelle/i, "Mini-pelle")
+       .replace(/mini\s*-?\s*chargeur/i, "Mini-chargeur")
+       .replace(/mini\s*-?\s*tombereau/i, "Mini-tombereau");
   return n.trim();
 }
 const euro = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, "&thinsp;");
@@ -314,16 +326,60 @@ ${FOOTER}
 }
 
 /* ── generation ── */
+function categoryShellHTML(page) {
+  const name = CAT_NAME[page.slug] || page.label + "s";
+  return `<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${esc(name)} neufs — importation directe | CZN Machinery</title>
+<meta name="description" content="${esc(name)} neufs importés en direct par CZN Machinery. Garantie 2 ans, livraison France. Découvrez la gamme et les prix.">
+${FAVICONS}
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="${SITE}${CAT_PATH[page.slug]}">
+${HEAD_FONTS}
+<link rel="stylesheet" href="/styles.css">
+<!-- JSONLD:START --><!-- JSONLD:END -->
+</head>
+<body>
+${UTILITY_BAR}
+${NAV}
+<section class="featured"><div class="container">
+  <div class="featured-header">
+    <div>
+      <div class="eyebrow">${esc(page.eyebrow || "")}</div>
+      <h1 class="section-title" style="margin-top:14px;">${page.h1 || name}</h1>
+    </div>
+  </div>
+  <div class="products-grid">
+<!-- PRODUCTS:START -->
+<!-- PRODUCTS:END -->
+  </div>
+</div></section>
+${FOOTER}
+</body>
+</html>`;
+}
+
 function generateCatalog(all) {
   for (const page of PAGES) {
-    const list = all.filter((p) => p.pageSlug === page.category).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
+    const list = all.filter((p) => p.pageSlug === page.slug).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
     const file = path.join(process.cwd(), page.file);
-    if (!fs.existsSync(file)) { console.warn("⚠ " + page.file + " absent"); continue; }
-    let html = fs.readFileSync(file, "utf8");
-    html = replaceBetween(html, "<!-- PRODUCTS:START -->", "<!-- PRODUCTS:END -->", list.map(cardHTML).join("\n"));
+    let html;
+    if (fs.existsSync(file) && fs.readFileSync(file, "utf8").includes("<!-- PRODUCTS:START -->")) {
+      html = fs.readFileSync(file, "utf8");          // page existante avec marqueurs : on garde le shell
+    } else {
+      fs.mkdirSync(path.dirname(file), { recursive: true });
+      html = categoryShellHTML(page);                 // page absente / sans marqueurs : on crée le shell
+    }
+    const cards = list.length
+      ? list.map(cardHTML).join("\n")
+      : '      <p style="grid-column:1/-1;text-align:center;padding:70px 0;color:var(--muted);font-family:var(--f-mono);font-size:13px;letter-spacing:.04em;">Nouveaux modèles bientôt disponibles.</p>';
+    html = replaceBetween(html, "<!-- PRODUCTS:START -->", "<!-- PRODUCTS:END -->", cards);
     html = replaceBetween(html, "<!-- JSONLD:START -->", "<!-- JSONLD:END -->", itemListJsonLd(list, page.label));
     fs.writeFileSync(file, html);
-    console.log("✓ catalogue " + page.file + " : " + list.length + " produits");
+    console.log("✓ catalogue " + page.slug + " : " + list.length + " produits");
   }
 }
 function generateProductPages(all) {
