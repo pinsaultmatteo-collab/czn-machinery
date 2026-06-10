@@ -5055,10 +5055,73 @@ a.contact-item-val:hover { color: var(--orange); }
 }
 .page-hero--split.page-hero--media .hero-split-img {
   align-self: center;
-  padding: 0;
+  padding: 24px 28px;
+  position: relative;
+  isolation: isolate;
+}
+/* Cadre fin décalé derrière la photo (effet "passe-partout") */
+.page-hero--split.page-hero--media .hero-split-img::before {
+  content: "";
+  position: absolute;
+  inset: 4px 4px 44px 44px;
+  border: 1px solid rgba(244,239,228,0.18);
+  border-radius: 8px;
+  z-index: -1;
+}
+/* Équerre d'accent orange en haut à gauche */
+.page-hero--split.page-hero--media .hero-split-img::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 12px;
+  width: 64px;
+  height: 64px;
+  border-top: 2px solid var(--orange);
+  border-left: 2px solid var(--orange);
+  border-top-left-radius: 8px;
+  z-index: 2;
+  pointer-events: none;
+}
+.page-hero--split.page-hero--media .hero-img-frame {
+  position: relative;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid rgba(244,239,228,0.1);
+  box-shadow:
+    0 34px 70px -24px rgba(0,0,0,0.75),
+    0 12px 28px -14px rgba(0,0,0,0.55);
+  transition: transform 0.5s var(--ease-quart, cubic-bezier(0.76,0,0.24,1)),
+              box-shadow 0.5s var(--ease-quart, cubic-bezier(0.76,0,0.24,1));
+}
+/* Surbrillance interne + léger fondu en bas pour ancrer le produit */
+.page-hero--split.page-hero--media .hero-img-frame::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(244,239,228,0.08) 0%, transparent 24%),
+    linear-gradient(180deg, transparent 62%, rgba(23,30,39,0.4) 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+.page-hero--split.page-hero--media .hero-img-frame:hover {
+  transform: translateY(-4px);
+  box-shadow:
+    0 44px 84px -22px rgba(0,0,0,0.8),
+    0 16px 34px -14px rgba(0,0,0,0.6);
+}
+.page-hero--split.page-hero--media .hero-split-img picture {
+  display: block;
 }
 .page-hero--split.page-hero--media .hero-split-img img {
-  max-height: 460px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  max-height: 560px;
+  object-fit: cover;
+  object-position: 50% 55%;
+  border-radius: 8px;
 }
 /* Anti-chevauchement des stats : la valeur multi-mots peut passer à la ligne */
 .page-hero--media .hero-stats--compact .hero-stat-num {
