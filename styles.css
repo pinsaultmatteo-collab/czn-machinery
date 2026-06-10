@@ -5145,3 +5145,25 @@ a.contact-item-val:hover { color: var(--orange); }
 @media (max-width: 900px) {
   .page-hero--split.page-hero--media-land .hero-split-grid { grid-template-columns: 1fr; }
 }
+
+/* ── Badge "clients équipés" (mise en avant +5 500 clients) ── */
+.trust-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 15px;
+  border-radius: 100px;
+  background: var(--orange);
+  color: #1a232e;
+  font-family: var(--f-mono);
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  line-height: 1;
+  white-space: nowrap;
+}
+.trust-badge .tb-icon { flex-shrink: 0; }
+.trust-badge strong { font-weight: 800; }
+/* Espacements selon le contexte */
+.section-header .trust-badge { margin-top: 20px; }
+.hero-split-content .trust-badge { margin-top: 22px; }
