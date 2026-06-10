@@ -5043,3 +5043,30 @@ a.contact-item-val:hover { color: var(--orange); }
 @media (prefers-reduced-motion: reduce) {
   .page-hero--split .page-hero-bg img { animation: none; opacity: 1; }
 }
+
+/* ── Accessoires : hero contenu + image latérale (tarière) ── */
+.page-hero--split.page-hero--media .hero-split-grid {
+  grid-template-columns: 1.25fr 0.75fr;
+  gap: 56px;
+  align-items: center;
+}
+.page-hero--split.page-hero--media .hero-split-content {
+  max-width: none;
+}
+.page-hero--split.page-hero--media .hero-split-img {
+  align-self: center;
+  padding: 0;
+}
+.page-hero--split.page-hero--media .hero-split-img img {
+  max-height: 460px;
+}
+/* Anti-chevauchement des stats : la valeur multi-mots peut passer à la ligne */
+.page-hero--media .hero-stats--compact .hero-stat-num {
+  white-space: normal;
+  font-size: clamp(19px, 1.6vw, 24px);
+  line-height: 1.1;
+}
+@media (max-width: 900px) {
+  .page-hero--split.page-hero--media .hero-split-grid { grid-template-columns: 1fr; }
+  .page-hero--split.page-hero--media .hero-split-img { display: none; }
+}
