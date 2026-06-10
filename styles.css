@@ -2288,8 +2288,35 @@
     .featured-filters { width: 100%; overflow-x: auto; }
     .footer-top { grid-template-columns: 1fr; gap: 36px; }
     .hero-machine { display: none; }
-    .hero-meta .container { grid-template-columns: 1fr; }
-    .meta-stat { border-left: none; padding-left: 0; }
+
+    /* ── Hero accueil : centrage + mise en page mobile ── */
+    .hero-content .container { text-align: center; }
+    .hero-eyebrow {
+      justify-content: center;
+      white-space: nowrap;
+      font-size: 9.5px;
+      letter-spacing: 0.05em;
+      gap: 8px;
+    }
+    .hero-eyebrow::before { width: 16px; }
+    .hero-title { margin-left: auto; margin-right: auto; }
+    .hero-sub { margin-left: auto; margin-right: auto; }
+    .hero-actions { justify-content: center; }
+
+    /* Pastille stock centrée + 4 stats en 2 colonnes de 2, centrées */
+    .hero-meta .container {
+      grid-template-columns: 1fr 1fr;
+      gap: 20px 16px;
+    }
+    .meta-status {
+      grid-column: 1 / -1;
+      justify-content: center;
+    }
+    .meta-stat {
+      border-left: none;
+      padding-left: 0;
+      text-align: center;
+    }
     .acheter-trust { gap: 24px; flex-direction: column; }
     .steps::before { display: none; }
     .reviews-meta { flex-direction: column; gap: 14px; }
