@@ -1688,9 +1688,12 @@
     .liv-stat:nth-child(1), .liv-stat:nth-child(2) { border-bottom: 1px solid var(--border); }
   }
   @media (max-width: 720px) {
-    .livraison-stats { grid-template-columns: 1fr; }
-    .liv-stat { border-right: none; border-bottom: 1px solid var(--border); padding: 20px 16px; }
-    .liv-stat:last-child { border-bottom: none; }
+    .livraison-stats { grid-template-columns: repeat(2, 1fr); }
+    .liv-stat { padding: 20px 14px; }
+    .liv-stat:nth-child(1), .liv-stat:nth-child(3) { border-right: 1px solid var(--border); }
+    .liv-stat:nth-child(2), .liv-stat:nth-child(4) { border-right: none; }
+    .liv-stat:nth-child(1), .liv-stat:nth-child(2) { border-bottom: 1px solid var(--border); }
+    .liv-stat:nth-child(3), .liv-stat:nth-child(4) { border-bottom: none; }
     .legend-row { grid-template-columns: 1fr 80px; }
   }
 
@@ -2326,6 +2329,32 @@
     .pourquoi-item { padding: 32px 24px; }
     .cta-contact { gap: 24px; flex-direction: column; align-items: center; }
     .cta-contact-item { text-align: center; }
+  }
+
+  /* ═══════════════ AJUSTEMENTS MOBILE — Page d'accueil ═══════════════ */
+  @media (max-width: 720px) {
+    /* Réduire l'espace au-dessus du titre orange (eyebrow) de chaque bloc */
+    .bestseller   { padding-top: 36px; }  /* moins de vide entre marquee et photo */
+    .histoire-v2  { padding-top: 44px; }
+    .catalogue-v2 { padding-top: 44px; }
+    .featured     { padding-top: 44px; }
+    .config-promo { padding-top: 44px; }
+    .pourquoi     { padding-top: 44px; }
+    .livraison    { padding-top: 44px; }
+    .localisation { padding-top: 44px; }
+    .faq          { padding-top: 44px; }
+
+    /* Masquer la mini-pelle en fin de bloc catalogue */
+    .czn-digger { display: none; }
+
+    /* Footer centré */
+    footer { text-align: center; }
+    .footer-brand { display: flex; flex-direction: column; align-items: center; }
+    .footer-tagline { max-width: none; }
+    .footer-social { justify-content: center; }
+    .footer-col ul { align-items: center; }
+    .footer-bottom { flex-direction: column; justify-content: center; text-align: center; }
+    .footer-legal { justify-content: center; }
   }
 
   /* Selection */
