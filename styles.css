@@ -5133,3 +5133,15 @@ a.contact-item-val:hover { color: var(--orange); }
   .page-hero--split.page-hero--media .hero-split-grid { grid-template-columns: 1fr; }
   .page-hero--split.page-hero--media .hero-split-img { display: none; }
 }
+
+/* ── Variante paysage du hero média (page Entreprise : photo des bureaux) ── */
+.page-hero--split.page-hero--media-land .hero-split-grid {
+  grid-template-columns: 1.05fr 0.95fr;
+}
+.page-hero--split.page-hero--media-land .hero-split-img img {
+  max-height: 440px;
+  object-position: center 42%;
+}
+@media (max-width: 900px) {
+  .page-hero--split.page-hero--media-land .hero-split-grid { grid-template-columns: 1fr; }
+}
