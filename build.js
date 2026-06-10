@@ -414,6 +414,7 @@ ${FOOTER}
 ${FINANCE_JS}
 </script>
   <script src="/rdv-modal.js" defer></script>
+  <script src="/mobile-nav.js" defer></script>
 </body>
 </html>`;
 }
