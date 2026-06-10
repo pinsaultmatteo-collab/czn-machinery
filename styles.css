@@ -2339,7 +2339,7 @@
     .pourquoi     { padding-top: 44px; }
     .livraison    { padding-top: 44px; }
     .localisation { padding-top: 44px; }
-    .faq          { padding-top: 44px; }
+    .faq          { padding-top: 28px; }
     /* .bestseller / .histoire-v2 / .catalogue-v2 + mini-pelle : override placé en fin de
        fichier (leurs styles d'origine sont définis plus bas → l'override doit venir après). */
 
@@ -5424,4 +5424,23 @@ body.drawer-locked { overflow: hidden; }
   .histoire-v2  { padding-top: 44px; }
   .catalogue-v2 { padding-top: 44px; }
   .catv2-showcase .czn-digger { display: none; }  /* masquer la mini-pelle en fin de catalogue */
+}
+
+/* ═══════════════ ACCUEIL MOBILE — Centrage des en-têtes (eyebrow + titre) ═══════════════
+   Scopé à .page-home pour ne PAS toucher les autres pages qui partagent le même CSS.
+   Les conteneurs d'en-tête passent en pleine largeur sur mobile → text-align:center
+   centre la petite ligne orange (inline-flex) et le titre. */
+@media (max-width: 720px) {
+  .page-home .hv2-header-text,
+  .page-home .catv2-head-left,
+  .page-home .config-content,
+  .page-home .section-header,
+  .page-home .faq-header,
+  .page-home .loc-header { text-align: center; }
+
+  /* featured-header est en flex-colonne → on centre aussi ses items */
+  .page-home .featured-header { align-items: center; text-align: center; }
+
+  /* Notre histoire : rétablir l'écart entre le texte orange et le titre (annule margin:0) */
+  .page-home .hv2-header .section-title { margin-top: 18px; }
 }
