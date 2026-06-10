@@ -2334,18 +2334,14 @@
   /* ═══════════════ AJUSTEMENTS MOBILE — Page d'accueil ═══════════════ */
   @media (max-width: 720px) {
     /* Réduire l'espace au-dessus du titre orange (eyebrow) de chaque bloc */
-    .bestseller   { padding-top: 36px; }  /* moins de vide entre marquee et photo */
-    .histoire-v2  { padding-top: 44px; }
-    .catalogue-v2 { padding-top: 44px; }
     .featured     { padding-top: 44px; }
     .config-promo { padding-top: 44px; }
     .pourquoi     { padding-top: 44px; }
     .livraison    { padding-top: 44px; }
     .localisation { padding-top: 44px; }
     .faq          { padding-top: 44px; }
-
-    /* Masquer la mini-pelle en fin de bloc catalogue */
-    .czn-digger { display: none; }
+    /* .bestseller / .histoire-v2 / .catalogue-v2 + mini-pelle : override placé en fin de
+       fichier (leurs styles d'origine sont définis plus bas → l'override doit venir après). */
 
     /* Footer centré */
     footer { text-align: center; }
@@ -5417,4 +5413,15 @@ body.drawer-locked { overflow: hidden; }
 @media (max-width: 360px) {
   .status-pill .status-text { font-size: 9px; }
   #mainNav .nav-cta { padding: 10px 12px; font-size: 10px; }
+}
+
+/* ═══════════════ AJUSTEMENTS MOBILE — Page d'accueil (override fin de fichier) ═══════════════
+   Ces blocs ont leurs styles d'origine définis plus haut dans le fichier ; pour que
+   l'ajustement mobile l'emporte, il doit être placé APRÈS eux (ordre de cascade CSS).
+   On réduit l'espace AU-DESSUS du texte orange (eyebrow) sans toucher l'écart eyebrow → titre. */
+@media (max-width: 720px) {
+  .bestseller   { padding-top: 36px; }  /* moins de vide entre le bandeau défilant et la photo */
+  .histoire-v2  { padding-top: 44px; }
+  .catalogue-v2 { padding-top: 44px; }
+  .catv2-showcase .czn-digger { display: none; }  /* masquer la mini-pelle en fin de catalogue */
 }
