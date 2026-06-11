@@ -5423,7 +5423,7 @@ body.drawer-locked { overflow: hidden; }
   .bestseller   { padding-top: 36px; }  /* moins de vide entre le bandeau défilant et la photo */
   .histoire-v2  { padding-top: 44px; }
   .catalogue-v2 { padding-top: 44px; }
-  .catv2-showcase .czn-digger { display: none; }  /* masquer la mini-pelle en fin de catalogue */
+  .catv2-showcase { display: none; }  /* masquer le visuel mini-pelle + sa zone vide en fin de catalogue */
 }
 
 /* ═══════════════ ACCUEIL MOBILE — Centrage des en-têtes (eyebrow + titre) ═══════════════
@@ -5443,4 +5443,45 @@ body.drawer-locked { overflow: hidden; }
 
   /* Notre histoire : rétablir l'écart entre le texte orange et le titre (annule margin:0) */
   .page-home .hv2-header .section-title { margin-top: 18px; }
+}
+
+/* ═══════════════ ACCUEIL MOBILE — Réglages par bloc (lot 4) ═══════════════ */
+@media (max-width: 720px) {
+  /* Catalogue : centrer l'intro + les 2 stats (20 modèles / 600kg→4T) */
+  .page-home .catv2-head-right { text-align: center; }
+  .page-home .catv2-intro { max-width: none; margin-left: auto; margin-right: auto; }
+  .page-home .catv2-meta { justify-content: center; }
+  .page-home .catv2-meta-stat { text-align: center; }
+
+  /* Best-sellers : centrer les filtres Tous / Sonca / Xcavator */
+  .page-home .featured-filters { justify-content: center; }
+
+  /* Configurateur : 4 points sur 4 lignes, alignés à gauche (pas en 2 colonnes) */
+  .page-home .config-features { grid-template-columns: 1fr; text-align: left; }
+
+  /* Livraison : centrer les 4 infos (5 jours / 100% / 6 zones / Porte-engin) */
+  .page-home .liv-stat { text-align: center; }
+
+  /* Showroom & SAV : Horaires | Téléphone en 2 colonnes, Adresse pleine largeur dessous */
+  .page-home .loc-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 32px 16px;
+    align-items: start;
+  }
+  .page-home .loc-block { width: auto; padding: 0; border: none; }
+  .page-home .loc-block:nth-child(2) { order: 1; }              /* Horaires */
+  .page-home .loc-block:nth-child(3) { order: 2; }              /* Téléphone */
+  .page-home .loc-block:nth-child(1) { order: 3; grid-column: 1 / -1; }  /* Adresse */
+  .page-home .loc-block--cta        { order: 4; grid-column: 1 / -1; }   /* bouton Maps */
+
+  /* FAQ : type un peu plus petit + réponse pleine largeur */
+  .page-home .faq-q { font-size: 16px; }
+  .page-home .faq-a { font-size: 14px; padding-right: 0; }
+
+  /* 6 raisons : cartes un peu plus compactes + numéro et icône sur la même ligne */
+  .page-home .pourquoi-item { padding: 30px 26px 30px; }
+  .page-home .pq-number { display: inline-block; vertical-align: middle; margin: 0 12px 0 0; }
+  .page-home .pq-icon   { display: inline-block; vertical-align: middle; margin: 0; }
+  .page-home .pq-title  { margin-top: 16px; }
 }
