@@ -372,6 +372,14 @@ ${HEAD_FONTS}
   @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
 ${FINANCE_CSS}
 </style>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-G0HZD8F8BK');
+</script>
 </head>
 <body>
 ${UTILITY_BAR}
@@ -489,6 +497,14 @@ ${FAVICONS}
 ${HEAD_FONTS}
 <link rel="stylesheet" href="/styles.css">
 <!-- JSONLD:START --><!-- JSONLD:END -->
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-G0HZD8F8BK');
+</script>
 </head>
 <body>
 ${UTILITY_BAR}
