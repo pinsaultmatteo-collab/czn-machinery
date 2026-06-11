@@ -1,14 +1,16 @@
 {
   "trailingSlash": true,
   "redirects": [
+    { "source": "/leite/", "destination": "/mini-pelles/", "permanent": true },
     { "source": "/leite", "destination": "/mini-pelles/", "permanent": true },
+    { "source": "/sonca/", "destination": "/mini-pelles/", "permanent": true },
     { "source": "/sonca", "destination": "/mini-pelles/", "permanent": true },
+    { "source": "/xcavator/", "destination": "/mini-pelles/", "permanent": true },
     { "source": "/xcavator", "destination": "/mini-pelles/", "permanent": true },
 
+    { "source": "/financement/", "destination": "/entreprise/financement/", "permanent": true },
     { "source": "/financement", "destination": "/entreprise/financement/", "permanent": true },
 
-    { "source": "/modeles/:slug(mini-chargeur.*)", "destination": "/mini-chargeurs/", "permanent": true },
-    { "source": "/modeles/:slug(mini-tombereau.*)", "destination": "/mini-tombereaux/", "permanent": true },
     { "source": "/modeles/:path*", "destination": "/mini-pelles/", "permanent": true }
   ]
 }
