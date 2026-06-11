@@ -11,6 +11,6 @@
     { "source": "/financement/", "destination": "/entreprise/financement/", "permanent": true },
     { "source": "/financement", "destination": "/entreprise/financement/", "permanent": true },
 
-    { "source": "/modeles/:path*", "destination": "/mini-pelles/", "permanent": true }
+    { "source": "/modeles/:path(.*)", "destination": "/mini-pelles/", "permanent": true }
   ]
 }
