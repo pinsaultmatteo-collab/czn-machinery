@@ -1,0 +1,7859 @@
+# CZN Machinery — contenu complet
+
+> CZN Machinery, filiale de CZE France SAS (Toulouse), importe en direct depuis 2019 des mini-pelles, mini-chargeurs et mini-tombereaux neufs des marques SONCA, XCAVATOR et LEITE. Prix 30 à 50% sous le marché européen, garantie constructeur 24 mois, SAV et pièces en France, livraison nationale, financement Sofinco.
+
+---
+
+# CZN Machinery — Importateur direct de mini pelles, chargeuses & tombereaux | Toulouse
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+Importateur direct · Toulouse · Depuis 2019
+
+# Engins de *chantier,* au juste prix.
+
+Mini pelles, chargeuses et tombereaux importés en direct des manufactures, livrés partout en France.
+La même qualité que les marques premium, sans le surcoût du distributeur.
+
+[Voir le catalogue](https://czn-machinery.com/mini-pelles/)
+[Acheter en ligne](https://czn-machinery.com/entreprise/financement/)
+
+Stock disponible · expédition sous 5 jours
+
+5 500+
+
+Clients équipés
+
+148+
+
+Avis 5★ Google
+
+6 ans
+
+D'expérience
+
+2 ans
+
+Garantie incluse
+
+**Importateur** direct constructeur
+◆
+Garantie **2 ans** · pièces & main d'œuvre
+◆
+Financement **Sofinco** · jusqu'à 60 mois
+◆
+**20 modèles** au catalogue
+◆
+Livraison France · délai **5 jours**
+◆
+SAV atelier **Toulouse** · 31200
+◆
+**148+** avis clients 5★
+◆
+Acompte **30%** sécurisé Stripe
+◆
+
+**Importateur** direct constructeur
+◆
+Garantie **2 ans** · pièces & main d'œuvre
+◆
+Financement **Sofinco** · jusqu'à 60 mois
+◆
+**20 modèles** au catalogue
+◆
+Livraison France · délai **5 jours**
+◆
+SAV atelier **Toulouse** · 31200
+◆
+**148+** avis clients 5★
+◆
+Acompte **30%** sécurisé Stripe
+◆
+
+Meilleure vente
+
+Sonca
+
+## SJW-12 F
+
+Mini-pelle 1,2 t à flèche orientable de série.
+
+1 200 kg
+Poids opérationnel
+
+1,00 m
+Largeur totale
+
+10 CV
+Puissance moteur
+
+24 mois
+Garantie
+
+6 425 € HT
+
+Livraison France incluse · Financement Sofinco dispo
+
+[Voir la fiche complète →](https://czn-machinery.com/produit/SMP12F/)
+[Simuler un financement](https://czn-machinery.com/entreprise/financement/)
+
+N°1
+des ventes
+
+Notre histoire
+
+## Six ans à *équiper* les chantiers français.
+
+Siège · Toulouse
+
+2019
+
+Les débuts
+
+2021
+
+La gamme
+
+2023
+
+Le SAV
+
+2026
+
+Aujourd'hui
+
+2019
+
+### Né d'une frustration
+
+En 2019, le constat était simple : les artisans français payaient leurs machines trois fois leur prix réel, coincés entre des marques européennes au tarif gonflé et des plateformes opaques sans SAV. CZN Machinery est née de cette frustration — premier conteneur importé en direct, depuis Toulouse.
+
+1Premier conteneur
+
+2021
+
+### La gamme s'installe
+
+Lancement de la gamme **Sonca** et structuration du catalogue. Partenariat avec Sofinco pour rendre l'acquisition accessible sans immobiliser la trésorerie. Les premières machines tournent sur les chantiers — et les premiers avis 5★ tombent.
+
+3Gammes lancées
+
+2023
+
+### Le SAV prend racine
+
+Ouverture du SAV France, joignable en français. Atelier d'assemblage et stock de pièces détachées à Toulouse. Les pièces courantes disponibles en 48 h — la promesse n'est plus seulement le prix, mais la continuité d'exploitation.
+
+48hPièces détachées
+
+2026
+
+### Plus de 1 500 machines
+
+20 modèles au catalogue, 148+ avis 5★, paiement en ligne. Plus de 1 500 machines tournent sur les chantiers de France — chacune accompagnée d'une garantie 2 ans pièces et main d'œuvre, et d'un SAV toujours joignable.
+
+1 500+Machines livrées
+
+« Vendre le même engin, *au juste prix.* »
+
+Notre principe fondateur
+
+Le catalogue
+
+## Deux gammes, *une exigence.*
+
+Pelles, mini-pelles et chargeuses réparties en deux familles distinctes — un positionnement clair pour chaque usage.
+
+20
+
+Modèles  
+au catalogue
+
+600kg→4T
+
+Plage  
+de poids
+
+[01
+
+La robustesse pour le terrassement.
+
+Mini-pelles, mini-chargeurs et mini-tombereaux pour terrassement professionnel, démolition légère, paysagisme et travaux publics.
+
+**14**Modèles
+
+**0,6–4T**Poids
+
+**4 125 €**Dès, HT
+
+Découvrir Sonca](https://czn-machinery.com/mini-pelles/) 
+
+[02
+
+La performance BTP sans concession.
+
+Pelles et chargeuses grand gabarit pour entreprises BTP, carrières, gros chantiers et démolition lourde. La gamme haut de spectre du catalogue.
+
+**6**Modèles
+
+**9T+**Poids
+
+**28 000 €**Dès, HT
+
+Découvrir Xcavator](https://czn-machinery.com/mini-pelles/)
+
+xml version="1.0" encoding="UTF-8"?
+
+Best-sellers
+
+## Les modèles *plébiscités*.
+
+Tous
+Sonca
+Xcavator
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-06
+
+660 kg
+
+Poids
+
+Permis B
+
+Transport
+
+Yanmar
+
+Moteur
+
+À partir de
+4 125€
+HT · hors livraison
+
+Top vente
+
+Sonca
+
+### Mini-pelle SJW-12 P
+
+1 015 kg
+
+Poids
+
+1,00 m
+
+Largeur
+
+Yanmar
+
+Moteur
+
+À partir de
+7 250€
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-18 PRO
+
+1,8 T
+
+Poids
+
+2,5 m
+
+Profondeur
+
+24 CV
+
+Moteur
+
+À partir de
+11 250€
+HT · hors livraison
+
+[Explorer les 20 modèles](#)
+
+Configurateur en temps réel
+
+## Votre machine, *sur mesure.*
+
+Sélectionnez les options qui correspondent à votre chantier. Le prix se met à jour en direct,
+avec acompte et solde calculés automatiquement. Plus de devis flou, plus d'attente.
+
+**2 minutes**
+Configuration complète
+
+**Prix en direct**
+HT, TTC, acompte, solde
+
+**Sauvegarde**
+Reprenez quand vous voulez
+
+**Financement Sofinco**
+Mensualité calculée
+
+[Configurer une machine](#)
+
+Sonca SJW-25
+
+En direct
+
+Toit cabine + climatisation
+
++ 1 200 €
+
+Attache rapide hydraulique
+
++ 480 €
+
+Marteau-piqueur hydraulique
+
++ 2 350 €
+
+Kit godets (3 tailles)
+
++ 620 €
+
+Extension garantie 4 ans
+
++ 890 €
+
+Total HT
+11 500€
+
+Acompte 30% : **3 450 €** · Solde avant livraison : **8 050 €**
+
+Six raisons de choisir CZN
+
+## Pourquoi nous, *plutôt qu'eux.*
+
+Plus de **5 500** clients équipés
+
+01
+
+### Importateur *direct*
+
+Depuis 2019, sans intermédiaire entre la manufacture et votre chantier. C'est ce qui explique nos prix.
+
+02
+
+### Garantie *2 ans*
+
+Constructeur, sans astérisque. Pièces et main d'œuvre incluses, prise en charge depuis notre SAV France.
+
+03
+
+### Financement *Sofinco*
+
+Jusqu'à 60 mois sans apport. Simulation en ligne, accord rapide, parfait pour préserver votre trésorerie.
+
+04
+
+### SAV *Toulouse*
+
+Une équipe joignable en français, du lundi au vendredi. Intervention sur site possible, ou retour atelier.
+
+05
+
+### Livraison *5 jours*
+
+Partout en France métropolitaine, sur porte-engin spécialisé. Tarif fixe et transparent selon 6 zones, dès 500 € HT.
+
+06
+
+### *148+* avis 5★
+
+Sur Google, vérifiables. Les artisans, paysagistes et entreprises BTP racontent leur expérience CZN sans filtre.
+
+Nouveau · Paiement en ligne sécurisé
+
+## Achetez en ligne. *En trois temps.*
+
+Une seule plateforme, du choix de votre machine au paiement final.
+Acompte sécurisé à la commande, solde réglé une fois votre engin préparé en atelier, avant expédition.
+
+1
+
+### Configurez & commandez
+
+Choisissez votre machine, ajoutez les options. Réglez l'acompte sécurisé par carte bancaire.
+
+Acompte 30%
+
+2
+
+### Préparation atelier
+
+Notre équipe Toulouse assemble et contrôle votre machine. Vous recevez les photos avant expédition.
+
+5 à 7 jours
+
+3
+
+### Solde & livraison
+
+Le solde est réglé une fois votre engin prêt. Livraison France sur porte-engin spécialisé.
+
+Solde 70%
+
+Paiement sécurisé Stripe
+
+3D Secure activé
+
+Financement Sofinco au checkout
+
+Sans engagement avant acompte
+
+Livraison France
+
+## De Toulouse, *vers chacun de vos chantiers.*
+
+Notre service logistique livre dans toute la France métropolitaine sur porte-engin spécialisé.
+Délai moyen de 5 jours ouvrés après préparation atelier. Tarification claire et fixe par zone géographique.
+
+*5* jours
+
+Délai moyen
+
+100%
+
+France métropole
+
+6 *zones*
+
+Tarif fixe
+
+Porte-*engin*
+
+Spécialisé
+
+6 zones de livraison · France métropolitaine · Départ Toulouse
+
+Tarif livraison par zone
+
+**+ 180 € HT** pour les zones de montagne
+
+Zone 1
+
+500 € HT
+
+Zone 2
+
+700 € HT
+
+Zone 3
+
+900 € HT
+
+Zone 4
+
+960 € HT
+
+Zone 5
+
+880 € HT
+
+Zone 6
+
+960 € HT
+
+Corse & autres pays européens
+
+nous consulter
+
+Nos partenaires
+
+Avis vérifiés
+
+## Ce qu'en disent *les chantiers.*
+
+Plus de **5 500** clients équipés
+
+5.0
+
+**148+** avis · Google Verified
+
+« Commande passée un lundi, machine livrée le vendredi suivant à Bordeaux. Configuration parfaite, prise en main rapide. Je recommande sans hésiter. »
+
+JM
+
+Julien M.
+
+Paysagiste · Gironde
+
+Vérifié
+
+« Trois mini-pelles achetées en deux ans pour notre entreprise. Le SAV répond toujours, les pièces sont disponibles. Tarifs imbattables, qualité au rendez-vous. »
+
+SD
+
+Sébastien D.
+
+Gérant BTP · Lyon
+
+Vérifié
+
+« J'hésitais entre CZN et une grande marque européenne. Le rapport qualité-prix m'a convaincu. Six mois plus tard, aucun regret, la machine tourne tous les jours. »
+
+AT
+
+Antoine T.
+
+Artisan maçon · Toulouse
+
+Vérifié
+
+[Voir tous les avis Google](https://www.google.com/search?q=czn+machinery&rlz=1C5AJCO_enFR1213FR1213&oq=czn+machinery&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MggIARBFGCcYOzIHCAIQABiABDIHCAMQABiABDITCAQQLhivARjHARjJAxiABBiOBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE4MjlqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#sv=CAwSggIKBmxjbF9wdhI3CgNwdnESMENnMHZaeTh4TVhSd05uQnlkM05xSWhNS0RXTjZiaUJ0WVdOb2FXNWxjbmtRQWhnRBKCAQoDbHFpEntDZzFqZW00Z2JXRmphR2x1WlhKNVNKRGU3LXJVdVlDQUNGb2ZFQUFRQVJnQUdBRWlEV042YmlCdFlXTm9hVzVsY25rcUJnZ0NFQUFRQVpJQkgyTnZibk4wY25WamRHbHZibDlsY1hWcGNHMWxiblJmYzNWd2NHeHBaWEkSEgoDdGJzEgtscmY6ITNzSUFFPRISCgFxEg1jem4gbWFjaGluZXJ5GhJsb2NhbC1wbGFjZS12aWV3ZXIYCiDl9LXKBg)
+
+Showroom & SAV
+
+## Venez nous *rendre visite.*
+
+Notre showroom toulousain accueille artisans, paysagistes et entreprises du lundi au vendredi. Venez découvrir les machines en vrai, poser vos questions et repartir avec toutes les informations pour faire le bon choix.
+
+Adresse
+
+11 Impasse Pierre Camo  
+31200 Toulouse
+
+Horaires
+
+Lundi – Vendredi  
+9h00 – 18h00
+
+Fermé samedi & dimanche
+
+Téléphone
+
++33 5 31 60 51 61
+
+[Ouvrir dans Google Maps](https://maps.google.com/?q=11+Impasse+Pierre+Camo,+31200+Toulouse)
+
+Questions fréquentes
+
+## Ce que *vous voulez* savoir.
+
+Les réponses aux questions qui reviennent le plus souvent. Une question hors liste ?
+Notre équipe répond directement au 05 31 60 51 61.
+
+Quel est le délai de livraison après commande ?
+
+Comptez 5 à 7 jours ouvrés pour la préparation de la machine en atelier après réception de l'acompte,
+puis 3 à 5 jours pour la livraison France sur porte-engin spécialisé. Soit environ 10 à 12 jours du paiement à la mise en main.
+
+Comment fonctionne le paiement en deux temps ?
+
+Vous réglez 30% d'acompte à la commande par carte bancaire (paiement sécurisé Stripe + 3D Secure).
+Le solde de 70% est réglé une fois votre machine préparée en atelier, avant l'expédition. Vous recevez les photos avant validation.
+
+La garantie couvre-t-elle l'intégralité de la machine ?
+
+Oui. Garantie constructeur 2 ans : pièces, main d'œuvre et déplacement inclus dans un rayon de 200 km autour de Toulouse.
+Pour les zones plus éloignées, nous proposons une prise en charge avec partenaires agréés. Extension 4 ans possible au checkout.
+
+Peut-on financer sa machine ?
+
+Oui, financement Sofinco jusqu'à 60 mois, avec ou sans apport. La simulation est disponible directement au checkout.
+Vous obtenez une réponse de principe en quelques heures. Particuliers et professionnels éligibles.
+
+Quelle différence entre vos machines et celles des marques européennes ?
+
+Nos machines sont équipées de moteurs reconnus (Yanmar, Kubota, Cummins) et de composants hydrauliques de premier ordre.
+La différence se fait sur la marge distributeur : nous importons en direct, donc nous coupons l'intermédiaire.
+Pour le même travail, vous payez 35 à 50% moins cher.
+
+Puis-je essayer la machine avant d'acheter ?
+
+Notre showroom de Toulouse (11 impasse Pierre Camo, 31200) accueille sur rendez-vous, du lundi au vendredi.
+Démonstration sur les machines en stock possible. Réservation au 05 31 60 51 61 ou par formulaire de contact.
+
+## Prêt à équiper *votre chantier ?*
+
+Configurez votre machine en deux minutes, ou échangez avec notre équipe.
+Nous répondons sous 24h ouvrées, devis détaillé inclus.
+
+[Voir le catalogue](https://czn-machinery.com/mini-pelles/)
+[Demander un devis](#)
+
+Téléphone
+
+[05 31 60 51 61](tel:+33531605161)
+
+Email
+
+[contact@czn-machinery.com](mailto:contact@czn-machinery.com)
+
+Showroom
+
+11 impasse Pierre Camo, Toulouse
+
+
+---
+
+# Accessoires mini-pelle : godets, brise-roches, tarières | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/Accessoires
+
+Catalogue accessoires
+
+# Accessoires, *pour démultiplier vos engins*.
+
+Godets de terrassement, brise-roches hydrauliques, tarières, attaches rapides… Compatibles avec les attelages standards (S30, S40, S50) et toutes marques. Stock Toulouse, expédition rapide.
+
+*+20*
+
+Modèles disponibles
+
+*Toutes gammes*
+
+Gamme
+
+*2 ans*
+
+Garantie incluse
+
+*5 j.*
+
+Délai livraison
+
+⏳ Catalogue en ligne bientôt
+
+## Fiches produit *disponibles prochainement*.
+
+Nous finalisons la migration des fiches produit avec photos HD, spécifications techniques complètes et configurateur en ligne. En attendant, appelez-nous ou écrivez-nous pour un devis personnalisé.
+
+[Demander un devis](https://czn-machinery.com/contact/)
+[05 31 60 51 61](tel:+33531605161)
+
+Ce que vous obtenez avec CZN
+
+## L'assurance d'un *partenaire sérieux*.
+
+01
+
+### Importateur *direct*
+
+Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.
+
+02
+
+### Garantie *2 ans*
+
+Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.
+
+03
+
+### Livraison *France*
+
+Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.
+
+04
+
+### Financement *Sofinco*
+
+De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+
+05
+
+### Contrôle *50 points*
+
+Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.
+
+06
+
+### *148+* avis 5★
+
+Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.
+
+## Besoin d'un conseil *avant d'acheter* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter notre équipe](https://czn-machinery.com/contact/)
+[Consulter les guides](https://czn-machinery.com/guides/)
+
+
+---
+
+# Boutique — Mini-pelles, chargeurs, tombereaux & accessoires | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+La boutique
+
+# Toute la gamme, *en un coup d'œil.*
+
+Quatre familles d'engins compacts, importés en direct. Choisissez votre catégorie pour découvrir les modèles, les fiches techniques et commander en ligne.
+
+[01 — Terrassement
+
+Mini-pelles
+
+Creuser, fonder, démolir.
+
+De la micro-pelle de jardin à l'engin de 4 tonnes pour le BTP. Importation directe Sonca, Xcavator et Leite — moteurs Yanmar, Kubota, Cummins.
+
+19
+
+Modèles
+
+0,6–4 T
+
+Poids
+
+4 125 €
+
+Dès, HT
+
+Voir les modèles](https://czn-machinery.com/mini-pelles/)
+
+[02 — Manutention
+
+Mini-chargeurs
+
+Charger, déplacer, niveler.
+
+Chargeuses compactes sur roues ou chenilles, ultra-maniables. Direction par glissement pour tourner sur place dans les espaces restreints.
+
+3
+
+Modèles
+
+Roues · Chenilles
+
+Trains
+
+6 336 €
+
+Dès, HT
+
+Voir les modèles](https://czn-machinery.com/mini-chargeurs/)
+
+[03 — Transport
+
+Mini-tombereaux
+
+Transporter sur tout terrain.
+
+Tombereaux à benne basculante, motorisation diesel, pour évacuer gravats et matériaux là où aucune brouette ne passe.
+
+4
+
+Modèles
+
+400–800 kg
+
+Charge
+
+Diesel
+
+Moteur
+
+Voir les modèles](https://czn-machinery.com/mini-tombereaux/)
+
+[04 — Équipement
+
+Accessoires
+
+Godets, marteaux & attaches.
+
+Tout l'outillage pour tirer le maximum de votre machine : godets de terrassement, marteaux hydrauliques, tarières, attaches rapides et pièces.
+
+Gamme
+
+Complète
+
+Multi-marques
+
+Compatible
+
+Stock
+
+France
+
+Voir les accessoires](https://czn-machinery.com/accessoires/)
+
+
+---
+
+# Conditions générales de vente | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+Informations légales
+
+# Conditions générales de vente
+
+Conditions applicables à toutes les ventes de produits CZN Machinery, en ligne et en magasin.
+
+Dernière mise à jour : 30 mai 2026
+
+## Art. 1Désignation du Vendeur — Champ d'application — Définitions
+
+Les présentes Conditions Générales de Vente s'appliquent, sans restriction ni réserve, à l'ensemble des ventes conclues par la société **CZE France SAS**, au capital de 5 000 €, dont le siège est situé **11 impasse Pierre Camo, 31200 Toulouse**, immatriculée au RCS de Toulouse sous le numéro 824 356 513, auprès de consommateurs, d'acheteurs non professionnels et professionnels âgés de plus de 18 ans et bénéficiant d'une pleine capacité juridique (ci-après « le(s) Client(s) »), désirant acquérir des équipements mécaniques (ci-après les « Produits ») proposés à la vente par CZE France SAS (ci-après « le Vendeur ») sur son site Internet ou directement en magasin.
+
+On entend par :
+
+* **Consommateur :** toute personne physique qui agit à des fins qui n'entrent pas dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole.
+* **Non professionnel :** toute personne morale qui n'agit pas à des fins professionnelles.
+* **Professionnel :** toute personne physique ou morale, publique ou privée, qui agit à des fins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole, y compris lorsqu'elle agit au nom ou pour le compte d'un autre professionnel.
+
+Lorsque le Client est un professionnel, les présentes Conditions Générales de Vente constituent, conformément à l'article L 441-1 du Code du Commerce, le socle unique de la relation commerciale entre les parties. Toute commande implique l'acceptation des présentes CGV. Le Vendeur se réserve le droit de les réviser à tout moment.
+
+## Art. 2Commandes en ligne — Modalités
+
+Les produits présentés sur le Site peuvent être achetés en ligne lorsque le bouton « Ajouter au panier » est présent sur la fiche produit.
+
+### 2.1 Processus de commande
+
+Le Client sélectionne le(s) Produit(s), choisit les quantités, les insère dans son Panier et valide. Il est alors invité à créer un compte ou à se connecter. Les informations nécessaires à l'ouverture d'un compte incluent : civilité, nom, prénom, adresse de facturation, numéro de téléphone et adresse e-mail valide.
+
+Après renseignement des informations, le Client peut choisir son mode de livraison, compléter ou modifier son Panier, puis valider sa commande en cliquant sur *« Valider mon panier »*. La vente est définitive après :
+
+* l'envoi au Client de la confirmation de commande par email dans un délai maximum de 24 heures ;
+* l'encaissement par le Vendeur de l'intégralité du montant dû (ou validation du financement Sofinco).
+
+Les informations enregistrées par le système informatique du Vendeur constituent la preuve de la commande (contenu et date).
+
+## Art. 3Tarifs
+
+Les Produits sont fournis aux tarifs en vigueur figurant sur le Site au jour de l'enregistrement de la commande. Les prix sont exprimés en euros, **toutes taxes comprises (TTC)**. Les frais de livraison, déterminés en fonction du poids, des dimensions des Produits et du mode de livraison choisi, s'ajoutent au prix des marchandises et sont indiqués avant validation de la commande.
+
+Le Vendeur se réserve le droit de modifier ses tarifs à tout moment par simple modification du site. Le prix applicable est celui affiché au moment de l'enregistrement de la commande.
+
+## Art. 4Règlement
+
+Le prix est payable au comptant, en totalité, au jour de la passation de la commande, selon l'un des moyens suivants :
+
+* Carte bancaire (CB, Visa, Mastercard, American Express)
+* PayPal
+* Virement bancaire
+* Chèque bancaire
+* Financement via notre partenaire **Sofinco** (sous réserve d'acceptation)
+
+### 4.1 Solution de financement Sofinco
+
+En cliquant sur « Financement » lors de la configuration de la machine, le Client est redirigé sur le site sécurisé de Sofinco pour déposer une demande de crédit en quelques clics, fournir les justificatifs demandés et obtenir une réponse de principe immédiate. La commande n'est traitée qu'après validation définitive du dossier par Sofinco. Le Client dispose d'un droit légal de rétractation de 14 jours à compter de la signature du contrat de crédit.
+
+### 4.2 Clients professionnels
+
+Les Clients professionnels peuvent également solliciter un financement. Ils sont invités à contacter CZN Machinery pour toute information complémentaire.
+
+**Offre réservée aux particuliers résidant en France métropolitaine, sous réserve d'acceptation définitive par CA Consumer Finance, prêteur dont Sofinco est une marque**, S.A. au capital de 629 480 046 € — 1 rue Victor Basch, CS 70001, 91068 Massy Cedex — RCS Évry 542 097 522. Intermédiaire d'assurance immatriculé à l'ORIAS n° 07 008 079 (www.orias.fr). Assurances facultatives souscrites auprès de CACI Life Dac (Décès), CACI non Life Dac (Perte totale et irréversible d'autonomie) et Fidelia Assistance (Assistance Santé).
+
+Cette publicité est diffusée par CZE France SAS, au capital de 5 000 €, 11 impasse Pierre Camo, 31200 Toulouse, RCS Toulouse 824 356 513, intermédiaire de crédit non exclusif de CA Consumer Finance, immatriculée à l'ORIAS sous le n° 24 007 411 (www.orias.fr), qui apporte son concours à la réalisation d'opérations de crédit à la consommation sans agir en qualité de prêteur.
+
+⚠ Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.
+
+## Art. 5Livraison
+
+Les Produits commandés sont livrés en France métropolitaine, dans l'Union Européenne et à l'export, hors Union Européenne. Les délais indiqués lors de la commande sont des délais moyens habituels.
+
+### 5.1 Modalités
+
+Le montant des frais d'expédition est indiqué dans le Panier. Les produits sont livrés à l'adresse indiquée par le Client lors de la commande. Pour les Clients consommateurs et non professionnels, la délivrance s'accompagne de la remise d'une notice d'emploi, des instructions d'installation et d'un écrit mentionnant la possibilité de formuler des réserves.
+
+### 5.2 Livraison à domicile
+
+Le Client s'engage à transmettre toutes les informations nécessaires à la livraison, notamment un numéro de téléphone accessible dans la journée. En cas d'absence, le transporteur laisse un avis de passage. À défaut de réception dans le délai communiqué par le transporteur, les produits sont automatiquement retournés au Vendeur.
+
+Le Client est tenu de vérifier l'état des Produits à la livraison. En cas de problème (colis fracturé, produits manquants), les réserves doivent être notifiées au transporteur et au Vendeur par lettre recommandée avec accusé de réception dans les **3 jours** suivant la réception. En cas d'avarie, le Client doit refuser le produit endommagé en indiquant « refus pour avarie » sur la feuille d'émargement.
+
+En cas de livraison non conforme, le Client contacte le Vendeur au [05 31 60 51 61](tel:+33531605161) du lundi au vendredi de 9h à 12h et de 14h à 18h, ou par email à [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
+
+### 5.3 Retard de livraison
+
+Si les Produits commandés par un Client consommateur ou non professionnel n'ont pas été livrés dans un délai de 30 jours après la date indicative de délivrance, le Client peut notifier au Vendeur soit la suspension du paiement, soit la résolution de la vente (conformément aux articles L 216-6 du Code de la consommation et 1219–1220 du Code civil). En cas de résolution, les sommes versées sont restituées dans les 14 jours suivant la dénonciation du contrat. Le Client professionnel ne peut demander la résolution qu'en cas de retard supérieur à 45 jours.
+
+## Art. 6Transfert de propriété — Transfert des risques
+
+Le transfert de propriété des Produits ne sera réalisé qu'après **complet paiement du prix**, quelle que soit la date de délivrance. Sauf lorsque le Client fait appel à un transporteur qu'il a lui-même choisi, le transfert des risques de perte et de détérioration ne s'opère qu'au moment où le Client prend physiquement possession des Produits.
+
+## Art. 7Droit de rétractation — Client consommateur ou non professionnel
+
+Le Client dispose d'un délai de **15 jours calendaires** à compter de la livraison pour exercer son droit de rétractation, sans avoir à justifier de motifs ni payer de pénalités (à l'exception des frais de retour). Il dispose ensuite de 14 jours pour retourner le(s) produit(s) au Vendeur.
+
+Les produits doivent être retournés à : **CZN Machinery — 11 impasse Pierre Camo, 31200 Toulouse**, dans leur emballage d'origine, en parfait état, accompagnés de tous accessoires, notices et de la facture. Les articles retournés incomplets, abîmés ou salis ne peuvent être repris.
+
+En cas de respect de ces conditions, le Vendeur rembourse le Client au plus tard dans les **14 jours** suivant la réception du produit retourné, par crédit sur la carte bancaire utilisée pour le règlement.
+
+## Art. 8Responsabilité du Vendeur — Garanties
+
+Le Client bénéficie de plein droit de la garantie légale de conformité et de la garantie légale des vices cachés. La responsabilité du Vendeur ne saurait être engagée en cas de mauvaise utilisation, de négligence, de défaut d'entretien, d'usure normale, d'accident ou de force majeure.
+
+### 8.1 Garantie contractuelle
+
+Les produits livrés bénéficient d'une **garantie contractuelle de 24 mois** à compter de la date de facture, couvrant les vices de fonctionnement. En cas de retard, la garantie est prolongée de la durée de celui-ci, dans la limite de 6 mois. Le Vendeur remplace gratuitement les pièces reconnues défectueuses ou rembourse leur prix sur la base de la facture d'achat. Le remboursement éventuel de pièces de réparation ne peut excéder 1/3 de la valeur de la pièce vendue à l'origine.
+
+La garantie ne s'applique pas en cas d'usage anormal, de non-respect de la notice, de choc, chute, négligence, défaut d'entretien ou transformation du Produit.
+
+### 8.2 Garantie légale de conformité (consommateurs et non professionnels)
+
+Conformément aux articles L 217-1 à L 217-32 du Code de la consommation, le Vendeur répond des défauts de conformité existant au moment de la délivrance, qui apparaissent dans un délai de **2 ans**. En cas de défaut, le Client peut exiger la réparation ou le remplacement dans un délai de 30 jours, sans frais. À défaut, il peut obtenir une réduction du prix ou la résolution de la vente. Le Client bénéficie également de la garantie légale des vices cachés (articles 1641 à 1649 du Code civil) pendant 2 ans à compter de la découverte du défaut.
+
+Le vendeur qui fait obstacle de mauvaise foi à la mise en œuvre de la garantie légale de conformité encourt une amende civile pouvant aller jusqu'à 300 000 € (article L. 241-5 du Code de la consommation).
+
+## Art. 9Données à caractère personnel
+
+Les données personnelles recueillies auprès des Clients font l'objet d'un traitement informatique réalisé par le Vendeur, enregistrées dans son fichier Clients, indispensables au traitement des commandes. Elles sont conservées aussi longtemps que nécessaire à l'exécution des commandes et des garanties applicables. Conformément au RGPD, le Client dispose de droits d'accès, de rectification, d'effacement et de portabilité, exercés à [contact@czn-machinery.com](mailto:contact@czn-machinery.com). Consultez notre [politique de confidentialité](https://czn-machinery.com/politique-confidentialite/) complète.
+
+## Art. 10Propriété intellectuelle
+
+Le Vendeur reste propriétaire de tous les droits de propriété intellectuelle sur les études, dessins, modèles, prototypes et réalisations effectués en vue de la fourniture des Produits. Le Client s'interdit toute reproduction ou exploitation sans autorisation écrite préalable du Vendeur.
+
+## Art. 11Imprévision
+
+En cas de changement de circonstances imprévisibles lors de la conclusion du contrat (article 1195 du Code civil), la Partie qui n'a pas accepté d'assumer un risque d'exécution excessivement onéreuse peut demander une renégociation. En cas d'échec, les Parties peuvent demander d'un commun accord la résolution ou l'adaptation du contrat. Si le changement perdure au-delà de 3 mois, le contrat est résolu selon les modalités de l'article « Résolution pour Imprévision ».
+
+## Art. 12Exécution forcée en nature
+
+En application des articles L 217-12 du Code de la consommation et 1221 et suivants du Code civil, le Client consommateur ou non professionnel peut, après mise en demeure, poursuivre l'exécution forcée en nature de la solution initialement sollicitée. Par dérogation, les Parties conviennent qu'en cas de manquement, la Partie victime peut demander la résolution selon les modalités de l'article 16.
+
+## Art. 13Réduction proportionnelle du prix
+
+En cas de manquement, le créancier peut, 15 jours après mise en demeure restée sans effet par lettre recommandée avec accusé de réception, notifier au débiteur sa décision d'accepter une exécution imparfaite et de réduire le prix proportionnellement (article 1223 du Code civil). À défaut d'accord, le montant de la réduction est déterminé à dire d'expert (article 1592 du Code civil).
+
+## Art. 14Exception d'inexécution
+
+Conformément à l'article 1219 du Code civil, chaque Partie peut refuser d'exécuter son obligation si l'autre Partie n'exécute pas la sienne et si cette inexécution est suffisamment grave. Le refus d'exécution prend effet immédiatement à réception par la Partie défaillante d'une notification par lettre recommandée avec accusé de réception.
+
+## Art. 15Force majeure
+
+Les Parties ne peuvent être tenues responsables si la non-exécution ou le retard dans l'exécution découle d'un cas de force majeure au sens de l'article 1218 du Code civil (notamment : grève, épidémie, guerre, embargo, incendie, inondation, interruption des transports ou approvisionnements). La Partie constatant l'événement en informe l'autre sans délai. L'exécution est suspendue pendant toute la durée de la force majeure si elle est temporaire et ne dépasse pas 60 jours. Au-delà, le contrat est résolu selon l'article 16.3.
+
+## Art. 16Résolution du contrat
+
+### 16.1 Résolution pour imprévision
+
+La résolution ne peut intervenir que 30 jours après réception d'une mise en demeure par lettre recommandée avec accusé de réception déclarant l'intention d'appliquer cette clause.
+
+### 16.2 Résolution pour inexécution suffisamment grave
+
+La Partie victime peut notifier la résolution fautive 60 jours après mise en demeure restée infructueuse. Pour tout achat supérieur à 500 €, si les Produits n'ont pas été livrés 7 jours après la date indicative de livraison, le Client peut se prévaloir de la résolution pour inexécution.
+
+### 16.3 Résolution pour force majeure
+
+La résolution de plein droit ne peut avoir lieu que 30 jours après mise en demeure, si la force majeure est définitive ou dépasse 60 jours.
+
+## Art. 17Litiges — Attribution de juridiction
+
+Pour toute réclamation, le Client contacte le Service Relations Clients au [05 31 60 51 61](tel:+33531605161), du lundi au vendredi de 9h à 12h et de 14h à 17h, ou à [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
+
+En cas d'échec, conformément aux articles L 612-1 et suivants du Code de la consommation, le Client peut saisir gratuitement un médiateur agréé. Requête à adresser par écrit à Madame Isabelle Faivre — 17 rue du Languedoc, 31000 Toulouse.
+
+Le Client peut également accéder à la plateforme européenne de règlement en ligne des litiges : <https://ec.europa.eu/consumers/odr/>.
+
+En cas de litige avec des professionnels ou commerçants, le **Tribunal de Commerce de Toulouse** sera compétent.
+
+## Art. 18Langue du contrat — Droit applicable
+
+Les présentes CGV et les opérations qui en découlent sont régies par le **droit français**. Elles sont rédigées en langue française. En cas de traduction, seul le texte français fait foi en cas de litige.
+
+## Art. 19Acceptation du Client
+
+Les présentes CGV sont expressément agréées et acceptées par le Client, qui déclare en avoir pris connaissance et renonce à se prévaloir de tout document contradictoire, notamment ses propres conditions générales d'achat.
+
+## Art. 20Confidentialité
+
+Les Parties s'engagent à la confidentialité la plus totale pendant toute la durée des prestations et sans limitation de durée après expiration du contrat, s'interdisant de divulguer les informations, connaissances ou savoir-faire expressément qualifiés de confidentiels, à moins qu'ils ne soient tombés dans le domaine public ou que leur divulgation soit rendue nécessaire par une injonction administrative ou judiciaire.
+
+## Art. 21Clause de divisibilité
+
+La nullité d'une clause contractuelle n'entraîne pas la nullité des présentes conditions générales dans leur ensemble, chaque clause étant indépendante des autres.
+
+## Art. 22Information précontractuelle — Acceptation du Client consommateur
+
+Le Client reconnaît avoir été informé par le Vendeur, de manière lisible et compréhensible, préalablement à son achat, conformément à l'article L111-1 du Code de la consommation, notamment sur :
+
+* les caractéristiques essentielles des Produits (spécifications, dimensions, conditions d'utilisation) ;
+* le prix TTC et les frais de livraison ;
+* les modalités de paiement, de livraison et d'exécution du contrat ;
+* l'identité et les coordonnées du Vendeur ;
+* l'existence et les modalités de mise en œuvre des garanties légales et contractuelles ;
+* la possibilité de recourir à un médiateur de la consommation ;
+* les moyens de paiement acceptés.
+
+Le fait d'effectuer un achat emporte adhésion pleine et entière aux présentes CGV et obligation au paiement des Produits commandés.
+
+
+---
+
+# Contact | CZN Machinery — Devis, SAV, Toulouse
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/Contact
+
+Contact
+
+# Une équipe joignable, *en français*.
+
+Showroom à Toulouse, atelier d'assemblage et SAV technique. Notre équipe vous répond du lundi au vendredi, 9h–18h.
+
+*24 h*
+
+Délai de réponse email
+
+*Gratuit*
+
+Devis et conseils
+
+148*+*
+
+Avis 5★ Google
+
+Lun–*Ven*
+
+9h–12h / 14h–18h
+
+## Envoyez-nous un message
+
+Décrivez votre projet et nous revenons vers vous sous 24 h ouvrées avec un devis personnalisé.
+
+Nom complet \*
+
+Société (facultatif)
+
+Email \*
+
+Téléphone
+
+Sujet
+
+Demande de devis
+Financement
+Livraison
+SAV / pièces détachées
+Machine d'occasion
+Autre
+
+Votre message \*
+
+J'accepte que mes données soient utilisées pour traiter ma demande. [Politique de confidentialité](https://czn-machinery.com/politique-confidentialite/)
+
+Envoyer ma demande
+
+Réponse sous 24 h ouvrées · Devis et conseils gratuits
+
+Par téléphone
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+Lun–Ven, 9h–12h / 14h–18h
+
+Par email
+
+[contact@czn-machinery.com](mailto:contact@czn-machinery.com)
+
+Réponse sous 24 h ouvrées
+
+Showroom & atelier
+
+11 impasse Pierre Camo  
+31200 Toulouse
+
+Sur rendez-vous, Lun–Ven
+
+[Itinéraire Google Maps →](https://www.google.com/maps/place/Czn+Machinery+-+CZE+France/@43.6428536,1.4176449,17z/)
+
+Réseaux sociaux
+
+[Instagram](https://www.instagram.com/czn_machinery_minipelle/)
+[Facebook](https://www.facebook.com/cznmachinery)
+[LinkedIn](https://www.linkedin.com/company/czn-machinery/)
+[YouTube](https://www.youtube.com/@CZNMachinery)
+
+## *148+ avis 5★* vérifiés sur Google.
+
+Avant de nous contacter, lisez l'expérience d'autres clients : artisans, paysagistes, entreprises BTP, particuliers. Aucun filtre.
+
+[Voir les avis Google](https://www.google.com/maps/place/Czn+Machinery+-+CZE+France/@43.6428536,1.4176449,17z/)
+[Voir le catalogue](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# CZN Machinery — Direct importer of mini excavators, loaders & dumpers | Toulouse
+
+📍 Toulouse, France
+
+Showroom Mon–Fri · 9am–12pm / 2pm–6pm
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+Direct importer · Toulouse · Since 2019
+
+# Construction site *machines,* at a fair price.
+
+Mini excavators, loaders and dumpers imported directly from the manufacturers, delivered anywhere in France. The same quality as premium brands, without the distributor markup.
+
+[View the catalogue](https://czn-machinery.com/en/mini-pelles/)
+[Buy online](https://czn-machinery.com/en/entreprise/financement/)
+
+In stock · shipped within 5 days
+
+5 500+
+
+Clients equipped
+
+148+
+
+5★ Google reviews
+
+6 years
+
+Of experience
+
+2 years
+
+Warranty included
+
+**Importer** factory-direct
+◆
+Warranty **2 ans** · parts & labour
+◆
+Financing **Sofinco** · up to 60 months
+◆
+**20 models** in the catalogue
+◆
+Delivery in France · lead time **5 jours**
+◆
+Workshop after-sales **Toulouse** · 31200
+◆
+**148+** 5★ customer reviews
+◆
+Acompte **30%** secured by Stripe
+◆
+
+**Importer** factory-direct
+◆
+Warranty **2 ans** · parts & labour
+◆
+Financing **Sofinco** · up to 60 months
+◆
+**20 models** in the catalogue
+◆
+Delivery in France · lead time **5 jours**
+◆
+Workshop after-sales **Toulouse** · 31200
+◆
+**148+** 5★ customer reviews
+◆
+Acompte **30%** secured by Stripe
+◆
+
+Best seller
+
+Sonca
+
+## SJW-12 F
+
+1.2 t mini excavator with swing boom as standard.
+
+1 200 kg
+Operating weight
+
+1,00 m
+Overall width
+
+10 HP
+Engine power
+
+24 months
+Warranty
+
+6 425 € excl. VAT
+
+Delivery in France included · Sofinco financing available
+
+[View details complète →](https://czn-machinery.com/en/produit/SMP12F/)
+[Simulate financing](https://czn-machinery.com/en/entreprise/financement/)
+
+No.1
+in sales
+
+Our story
+
+## Six years *equipping* French job sites.
+
+HQ · Toulouse
+
+2019
+
+The beginnings
+
+2021
+
+The range
+
+2023
+
+After-sales
+
+2026
+
+Today
+
+2019
+
+### Born of frustration
+
+In 2019 the situation was simple: French tradespeople were paying three times the real price for their machines, caught between overpriced European brands and opaque platforms with no after-sales support. CZN Machinery was born of that frustration — first container imported directly, from Toulouse.
+
+1First container
+
+2021
+
+### The range takes shape
+
+Launch of the range **Sonca** and structuring of the catalogue. Partnership with Sofinco to make ownership accessible without tying up cash flow. The first machines go to work on job sites — and the first 5★ reviews come in.
+
+3Ranges launched
+
+2023
+
+### After-sales takes root
+
+Opening of the France after-sales service, reachable in French. Assembly workshop and spare-parts stock in Toulouse. Common parts available within 48 h — the promise is no longer only price, but operational continuity.
+
+48hSpare parts
+
+2026
+
+### Over 1 500 machines
+
+20 models in the catalogue, 148+ 5★ reviews, online payment. Over 1 500 machines are at work on France's job sites — each backed by a 2-year parts-and-labour warranty, and after-sales support that always answers.
+
+1 500+Machines delivered
+
+“ Selling the same machine, *at a fair price.* ”
+
+Our founding principle
+
+The catalogue
+
+## Two ranges, *one standard.*
+
+Excavators, mini excavators and loaders split into two distinct families — clear positioning for every use.
+
+20
+
+Models  
+in the catalogue
+
+600kg→4T
+
+Weight  
+range
+
+[01
+
+Built tough for earthworks.
+
+Mini excavators, mini loaders and mini dumpers for professional earthworks, light demolition, landscaping and public works.
+
+**14**Models
+
+**0,6–4T**Weight
+
+**4 125 €**From, excl. VAT
+
+Discover Sonca](https://czn-machinery.com/en/mini-pelles/) 
+
+[02
+
+Uncompromising construction performance.
+
+Large-format excavators and loaders for construction firms, quarries, major job sites and heavy demolition. The top tier of the catalogue.
+
+**6**Models
+
+**9T+**Weight
+
+**28 000 €**From, excl. VAT
+
+Discover Xcavator](https://czn-machinery.com/en/mini-pelles/)
+
+xml version="1.0" encoding="UTF-8"?
+
+Best-sellers
+
+## The most-loved *models*.
+
+All
+Sonca
+Xcavator
+
+In stock
+
+Sonca
+
+### SJW-06 mini excavator
+
+660 kg
+
+Weight
+
+Car licence
+
+Transport
+
+Yanmar
+
+Engine
+
+From
+4 125€
+excl. VAT · delivery extra
+
+Top seller
+
+Sonca
+
+### SJW-12 P mini excavator
+
+1 015 kg
+
+Weight
+
+1,00 m
+
+Width
+
+Yanmar
+
+Engine
+
+From
+7 250€
+excl. VAT · delivery extra
+
+In stock
+
+Sonca
+
+### SJW-18 PRO mini excavator
+
+1,8 T
+
+Weight
+
+2,5 m
+
+Dig depth
+
+24 HP
+
+Engine
+
+From
+11 250€
+excl. VAT · delivery extra
+
+[Explore all 20 models](#)
+
+Real-time configurator
+
+## Your machine, *made to measure.*
+
+Select the options that match your job site. The price updates live, with deposit and balance calculated automatically. No more vague quotes, no more waiting.
+
+**2 minutes**
+Full configuration
+
+**Live pricing**
+excl. VAT, incl. VAT, deposit, balance
+
+**Save**
+Resume whenever you want
+
+**Sofinco financing**
+Monthly payment calculated
+
+[Configure a machine](#)
+
+Sonca SJW-25
+
+Live
+
+Cabin roof + air conditioning
+
++ 1 200 €
+
+Hydraulic quick coupler
+
++ 480 €
+
+Hydraulic breaker
+
++ 2 350 €
+
+Bucket kit (3 sizes)
+
++ 620 €
+
+4-year warranty extension
+
++ 890 €
+
+Total excl. VAT
+11 500€
+
+30% deposit: **3 450 €** · Balance before delivery: **8 050 €**
+
+Six reasons to choose CZN
+
+## Why us, *not them.*
+
+Over **5 500** clients equipped
+
+01
+
+### Importer *direct*
+
+Since 2019, with no middleman between the factory and your job site. That's what explains our prices.
+
+02
+
+### Warranty *2 ans*
+
+Manufacturer warranty, no asterisks. Parts and labour included, handled by our France after-sales team.
+
+03
+
+### Financing *Sofinco*
+
+Up to 60 months with no down payment. Online simulation, fast approval, perfect for preserving your cash flow.
+
+04
+
+### After-sales *Toulouse*
+
+A team reachable in French, Monday to Friday. On-site service available, or return to workshop.
+
+05
+
+### Delivery *5 jours*
+
+Anywhere in mainland France, on a specialised plant trailer. Fixed, transparent pricing across 6 zones, from €500 excl. VAT.
+
+06
+
+### *148+* 5★ reviews
+
+On Google, verifiable. Tradespeople, landscapers and construction firms share their CZN experience, unfiltered.
+
+New · Secure online payment
+
+## Buy online. *In three steps.*
+
+A single platform, from choosing your machine to final payment. Secure deposit at order, balance paid once your machine is prepared in the workshop, before shipping.
+
+1
+
+### Configure & order
+
+Choose your machine, add the options. Pay the secure deposit by card.
+
+30% deposit
+
+2
+
+### Workshop preparation
+
+Our Toulouse team assembles and inspects your machine. You receive photos before shipping.
+
+5 to 7 days
+
+3
+
+### Balance & delivery
+
+The balance is paid once your machine is ready. Delivery across France on a specialised plant trailer.
+
+70% balance
+
+Secure payment by Stripe
+
+3D Secure enabled
+
+Sofinco financing at checkout
+
+No commitment before deposit
+
+Delivery in France
+
+## From Toulouse, *to every one of your job sites.*
+
+Our logistics team delivers throughout mainland France on a specialised plant trailer. Average lead time of 5 working days after workshop preparation. Clear, fixed pricing by geographic zone.
+
+*5* days
+
+Average lead time
+
+100%
+
+Mainland France
+
+6 *zones*
+
+Fixed price
+
+Plant*trailer*
+
+Specialised
+
+6 delivery zones · Mainland France · Departing Toulouse
+
+Delivery price by zone
+
+**+ €180 excl. VAT** for mountain zones
+
+Zone 1
+
+500 € excl. VAT
+
+Zone 2
+
+700 € excl. VAT
+
+Zone 3
+
+900 € excl. VAT
+
+Zone 4
+
+960 € excl. VAT
+
+Zone 5
+
+880 € excl. VAT
+
+Zone 6
+
+960 € excl. VAT
+
+Corsica & other European countries
+
+contact us
+
+Our partners
+
+Verified reviews
+
+## What *the job sites say.*
+
+Over **5 500** clients equipped
+
+5.0
+
+**148+** reviews · Google Verified
+
+“Order placed on a Monday, machine delivered the following Friday in Bordeaux. Perfect setup, quick to get going. I recommend without hesitation.”
+
+JM
+
+Julien M.
+
+Landscaper · Gironde
+
+Verified
+
+“Three mini excavators bought in two years for our company. After-sales always answers, parts are available. Unbeatable prices, quality delivered.”
+
+SD
+
+Sébastien D.
+
+Construction manager · Lyon
+
+Verified
+
+“I was hesitating between CZN and a major European brand. The value for money won me over. Six months on, no regrets — the machine runs every day.”
+
+AT
+
+Antoine T.
+
+Mason · Toulouse
+
+Verified
+
+[See all Google reviews](https://www.google.com/search?q=czn+machinery&rlz=1C5AJCO_enFR1213FR1213&oq=czn+machinery&gs_lcrp=EgZjaHJvbWUqBggAEEUYOzIGCAAQRRg7MggIARBFGCcYOzIHCAIQABiABDIHCAMQABiABDITCAQQLhivARjHARjJAxiABBiOBTIGCAUQRRg8MgYIBhBFGDwyBggHEEUYPNIBCDE4MjlqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8#sv=CAwSggIKBmxjbF9wdhI3CgNwdnESMENnMHZaeTh4TVhSd05uQnlkM05xSWhNS0RXTjZiaUJ0WVdOb2FXNWxjbmtRQWhnRBKCAQoDbHFpEntDZzFqZW00Z2JXRmphR2x1WlhKNVNKRGU3LXJVdVlDQUNGb2ZFQUFRQVJnQUdBRWlEV042YmlCdFlXTm9hVzVsY25rcUJnZ0NFQUFRQVpJQkgyTnZibk4wY25WamRHbHZibDlsY1hWcGNHMWxiblJmYzNWd2NHeHBaWEkSEgoDdGJzEgtscmY6ITNzSUFFPRISCgFxEg1jem4gbWFjaGluZXJ5GhJsb2NhbC1wbGFjZS12aWV3ZXIYCiDl9LXKBg)
+
+Showroom & after-sales
+
+## Come and *visit us.*
+
+Our Toulouse showroom welcomes tradespeople, landscapers and businesses Monday to Friday. Come and see the machines in person, ask your questions and leave with everything you need to make the right choice.
+
+Address
+
+11 Impasse Pierre Camo  
+31200 Toulouse
+
+Opening hours
+
+Monday – Friday  
+9am – 6pm
+
+Closed Saturday & Sunday
+
+Phone
+
++33 5 31 60 51 61
+
+[Open in Google Maps](https://maps.google.com/?q=11+Impasse+Pierre+Camo,+31200+Toulouse)
+
+Frequently asked questions
+
+## What *you want* to know.
+
+Answers to the questions that come up most often. A question that's not listed? Our team answers directly on 05 31 60 51 61.
+
+What is the delivery lead time after ordering?
+
+Allow 5 to 7 working days for the machine to be prepared in the workshop after the deposit is received, then 3 to 5 days for delivery across France on a specialised plant trailer — roughly 10 to 12 days from payment to handover.
+
+How does the two-step payment work?
+
+You pay a 30% deposit at order by bank card (secure payment via Stripe + 3D Secure). The remaining 70% balance is paid once your machine is prepared in the workshop, before shipping. You receive photos before approving.
+
+Does the warranty cover the entire machine?
+
+Yes. 2-year manufacturer warranty: parts, labour and call-out included within a 200 km radius around Toulouse. For more distant areas, we offer coverage through approved partners. A 4-year extension is available at checkout.
+
+Can I finance my machine?
+
+Yes, Sofinco financing up to 60 months, with or without a down payment. The simulation is available directly at checkout. You get a provisional answer within a few hours. Both individuals and businesses are eligible.
+
+What's the difference between your machines and those of European brands?
+
+Our machines are fitted with proven engines (Yanmar, Kubota, Cummins) and top-tier hydraulic components. The difference comes down to the distributor margin: we import directly, so we cut out the middleman. For the same work, you pay 35 to 50% less.
+
+Can I try the machine before buying?
+
+Our Toulouse showroom (11 impasse Pierre Camo, 31200) welcomes visitors by appointment, Monday to Friday. Demonstrations on in-stock machines are possible. Book on 05 31 60 51 61 or via the contact form.
+
+## Ready to equip *your job site?*
+
+Configure your machine in two minutes, or talk to our team. We reply within 24 working hours, detailed quote included.
+
+[View the catalogue](https://czn-machinery.com/en/mini-pelles/)
+[Request a quote](#)
+
+Phone
+
+[05 31 60 51 61](tel:+33531605161)
+
+Email
+
+[contact@czn-machinery.com](mailto:contact@czn-machinery.com)
+
+Showroom
+
+11 impasse Pierre Camo, Toulouse
+
+
+---
+
+# À propos | CZN Machinery — Importateur direct depuis 2019, Toulouse
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/Entreprise
+
+À propos · CZN Machinery
+
+# Importateur direct, *depuis 2019*.
+
+CZN Machinery est née d'un constat simple : les artisans français payaient leurs engins trois fois leur prix réel. Depuis Toulouse, nous importons directement des manufactures — sans intermédiaire — pour livrer la même machine au juste prix.
+
+Plus de **5 500** clients équipés
+
+*2019*
+
+Année de création
+
+5 500*+*
+
+Clients équipés
+
+148*+*
+
+Avis 5★ Google
+
+20
+
+Modèles catalogue
+
+Notre histoire
+
+2019Les débuts
+
+### Né d'une frustration
+
+Le constat était simple : les artisans français payaient leurs engins trois fois leur prix réel, coincés entre des marques européennes au tarif gonflé et des plateformes opaques sans SAV. **CZN Machinery** est née de cette frustration, à Toulouse, avec un premier conteneur importé en direct.
+
+Nous avons fait le voyage à la source, rencontré les manufactures, sélectionné les châssis qui durent. Et nous les avons rapatriés *en direct*, sans intermédiaire, dans notre entrepôt de Toulouse. Des composants internationaux — moteurs Kubota et Yanmar, pompes Rexroth — avec un prix 30 à 50 % inférieur au marché européen.
+
+2021La gamme
+
+### La gamme s'installe
+
+Lancement de la gamme **Sonca** et structuration du catalogue. En parallèle, le partenariat avec **Sofinco** ouvre le financement en plusieurs fois — l'engin devient accessible sans immobiliser la trésorerie.
+
+L'équipe CZN Machinery chez notre partenaire Leite — sourcing direct manufacture.
+
+2023Le SAV
+
+### Le SAV prend racine
+
+Mise en place d'un **SAV en France**, joignable en français, avec atelier et stock de pièces détachées. Les pièces courantes sont disponibles en 48 h — la promesse n'est plus seulement le prix, mais la continuité d'exploitation.
+
+2026Aujourd'hui
+
+### Plus de 1 500 machines sur les chantiers
+
+Aujourd'hui, le catalogue compte **20 modèles**, plus de **148 avis 5★** et le **paiement en ligne**. Plus de 1 500 machines tournent sur les chantiers de France, chacune accompagnée d'une garantie 2 ans pièces et main d'œuvre, d'un SAV joignable en français, et d'un stock de pièces disponibles en 48 h.
+
+« Vendre le même engin, au juste prix. »Notre principe fondateur
+
+Nos marques
+
+## Deux gammes, *une exigence*.
+
+Sonca et Xcavator — importées exclusivement par CZN Machinery sur le marché français.
+
+### Sonca
+
+La gamme phare de CZN. Mini-pelles de 600 kg à 2,5 T, mini-chargeurs et tombereaux. Robustesse éprouvée terrain, composants internationaux (Kubota, Yanmar). Best-seller depuis 2021.
+
+600 kg – 2,5 T14 modèlesMoteurs Kubota / Yanmar
+
+[Voir la gamme Sonca →](https://czn-machinery.com/mini-pelles/)
+
+### Xcavator
+
+La gamme grand gabarit pour les chantiers BTP exigeants. Pelles et chargeuses de 9 T et plus, conçues pour les entreprises de terrassement, carrières et démolition lourde.
+
+9 T et plus6 modèlesBTP grand gabarit
+
+[Voir la gamme Xcavator →](https://czn-machinery.com/mini-pelles/)
+
+Nos engagements
+
+## Six piliers, *tenus depuis 6 ans*.
+
+01
+
+### Importateur *direct*
+
+Sans intermédiaire entre la manufacture et votre chantier. Prix 30 à 50 % inférieurs au marché européen.
+
+02
+
+### Marques *maîtrisées*
+
+Sonca et Xcavator, importées exclusivement par CZN en France. Composants Kubota, Yanmar, Rexroth.
+
+03
+
+### SAV *Toulouse*
+
+Équipe joignable en français, Lun–Ven. Atelier d'assemblage, contrôle 50 points, stock pièces 48 h.
+
+04
+
+### Garantie *2 ans*
+
+Constructeur, sans astérisque. Pièces et main d'œuvre incluses. Extension 4 ans disponible.
+
+05
+
+### Financement *Sofinco*
+
+Partenariat Sofinco (Crédit Agricole). De 6 à 60 mois, réponse de principe immédiate.
+
+06
+
+### Livraison *France*
+
+Partout en France métropolitaine sur porte-engin. Tarif fixe 6 zones, délai 5 à 15 jours ouvrés.
+
+01
+Fondateur
+
+2019
+Fondée à Toulouse
+
+CZN Machinery
+·
+Toulouse, France
+
+J'ai créé CZN Machinery en 2019 avec une conviction simple : les artisans français méritaient d'accéder aux mêmes machines que les grandes entreprises, sans se ruiner.
+
+En sourçant directement chez les manufacturiers, nous avons supprimé les intermédiaires et rendu l'accès à l'équipement professionnel équitable. Ce n'est pas qu'un modèle commercial — c'est une façon de respecter le travail des gens de terrain.
+
+Aujourd'hui, plus de 1 500 machines livrées plus tard, je suis fier de diriger une équipe qui partage cette même exigence : conseil honnête, SAV réactif, prix justes. Nous ne vendons pas des engins — nous aidons des professionnels à construire leur activité.
+
+> « Vendre le même engin, au juste prix. »
+
+Principe fondateur, CZN Machinery
+
+Showroom & SAV
+
+## Venez nous *rendre visite.*
+
+Notre showroom toulousain accueille artisans, paysagistes et entreprises du lundi au vendredi. Venez découvrir les machines en vrai, poser vos questions et repartir avec toutes les informations pour faire le bon choix.
+
+Adresse
+
+11 Impasse Pierre Camo  
+31200 Toulouse
+
+Horaires
+
+Lundi – Vendredi  
+9h00 – 18h00
+
+Fermé samedi & dimanche
+
+Téléphone
+
++33 5 31 60 51 61
+
+[Ouvrir dans Google Maps](https://maps.google.com/?q=11+Impasse+Pierre+Camo,+31200+Toulouse)
+
+Informations légales
+
+## Informations sur *la société*.
+
+Raison sociale
+
+CZE France SAS
+
+Marque commerciale
+
+CZN Machinery
+
+Siège social
+
+11 impasse Pierre Camo  
+31200 Toulouse
+
+SIRET
+
+824 356 513 00021
+
+RCS
+
+Toulouse 824 356 513
+
+Téléphone
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+Email
+
+[contact@czn-machinery.com](mailto:contact@czn-machinery.com)
+
+Horaires
+
+Lun–Ven · 9h–12h / 14h–18h
+
+Sur les réseaux
+
+## Suivez-nous sur *Instagram*.
+
+Livraisons, chantiers clients, nouveautés catalogue et coulisses de l'atelier — au quotidien.
+
+[@czn\_machinery\_minipelle](https://www.instagram.com/czn_machinery_minipelle/)
+
+CZN Machinery · Importateur mini-engins · Toulouse
+
+[Suivre](https://www.instagram.com/czn_machinery_minipelle/)
+
+## Une question ? *Un projet ?*
+
+Notre équipe vous répond du lundi au vendredi, 9h–18h. Devis gratuit, conseils techniques inclus.
+
+[Nous contacter](https://czn-machinery.com/contact/)
+[Voir le catalogue](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Financement mini-pelle : Crédit Sofinco en ligne | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Entreprise](https://czn-machinery.com/entreprise/)/Financement
+
+Financement Sofinco
+
+# Étalez votre paiement, *jusqu'à 60 mois*.
+
+En partenariat avec Sofinco (filiale du Crédit Agricole), nous proposons des solutions de financement adaptées aux particuliers comme aux professionnels. Simulation en ligne, réponse de principe immédiate.
+
+200 € *à*
+
+75 000 € finançables
+
+6 *à* 60
+
+mois de remboursement
+
+*100%*
+
+En ligne, sans déplacement
+
+*70* ans
+
+D'expérience Sofinco
+
+Comment ça marche
+
+## 5 étapes, *tout en ligne*.
+
+Du choix de votre machine à la signature électronique du contrat, en moins de 15 minutes.
+
+1
+
+Configurez votre machine
+
+Choisissez votre mini-pelle, mini-chargeur ou mini-tombereau et personnalisez les options.
+
+2
+
+Sélectionnez le financement
+
+Cliquez sur « Financer avec Sofinco » pour accéder au simulateur de crédit.
+
+3
+
+Simulez vos mensualités
+
+Choisissez la durée et visualisez instantanément vos mensualités.
+
+4
+
+Complétez votre demande
+
+Formulaire en ligne, réponse de principe immédiate\*.
+
+5
+
+Signez électroniquement
+
+Contrat signé en ligne, commande validée. Livraison planifiée.
+
+Montant finançable
+
+200 € à 75 000 €
+
+Financez tout ou partie de votre équipement selon vos besoins.
+
+Durée
+
+6 à 60 mois
+
+Choisissez la durée adaptée à votre projet et à votre trésorerie.
+
+Éligibilité
+
+Particuliers & pros
+
+Résidents de France métropolitaine. Sous réserve d'acceptation.
+
+Pour qui ?
+
+## Des conditions adaptées à *chaque profil*.
+
+Particuliers
+
+### Réalisez votre projet
+
+Étalez le paiement de votre équipement sur plusieurs mois. Idéal pour les propriétaires, passionnés de travaux, particuliers jardiniers.
+
+* Réponse de principe immédiate\*
+* 100 % en ligne, sans déplacement
+* Mensualités fixes sur 6 à 60 mois
+* Droit de rétractation 14 jours
+
+[Demander une simulation →](https://czn-machinery.com/contact/)
+
+Professionnels
+
+### Préservez votre trésorerie
+
+Réglez votre équipement en plusieurs mensualités sans toucher à votre fonds de roulement. Pour artisans, paysagistes, entreprises BTP.
+
+* Crédit affecté ou leasing disponible
+* Mensualités déductibles fiscalement
+* Accord rapide sur dossier complet
+* Mise en place avant livraison
+
+[Demander un devis pro →](https://czn-machinery.com/contact/)
+
+Mentions légales Sofinco
+
+**Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager.**
+
+\* Sous réserve d'acceptation définitive par CA Consumer Finance, prêteur dont Sofinco est une marque, S.A. au capital de 629 480 046 €, 1 rue Victor Basch, CS 70001, 91068 Massy Cedex, RCS Evry 542 097 522. Intermédiaire d'assurance immatriculé à l'ORIAS n° 07 008 079 (www.orias.fr).
+
+Cette publicité est diffusée par CZE FRANCE, SARL au capital de 5 000 €, 11 impasse Pierre Camo, 31200 Toulouse, RCS Toulouse 824 356 513, intermédiaire de crédit non exclusif de CA Consumer Finance, immatriculé à l'ORIAS sous le n° 24 007 411 (www.orias.fr). Vous disposez d'un droit légal de rétractation de 14 jours.
+
+## Prêt à *démarrer votre projet* ?
+
+Contactez-nous pour une simulation personnalisée ou consultez directement notre catalogue pour trouver la machine adaptée à votre usage.
+
+[Voir les machines](https://czn-machinery.com/mini-pelles/)
+[Demander un devis](https://czn-machinery.com/contact/)
+
+
+---
+
+# Guides mini-pelle : conseils, entretien & réglementation | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/Guides
+
+Guides & ressources
+
+# Tout savoir avant *d'acheter votre engin*.
+
+15 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+
+*15*
+
+Guides pratiques
+
+*6* ans
+
+D'expérience terrain
+
+5500*+*
+
+Clients équipés
+
+*0*
+
+Langage commercial
+
+[01Fondamentaux
+
+### Qu'est-ce qu'une mini-pelle ?
+
+Définition, catégories par tonnage (800 kg à 6 T), composants clés et différences avec une pelleteuse classique.
+
+Lire le guide →](https://czn-machinery.com/guides/quest-ce-quune-mini-pelle/)
+[02Achat
+
+### Comment choisir une mini-pelle ?
+
+Les 6 critères essentiels : tonnage, profondeur de fouille, largeur, motorisation, accessoires et transport.
+
+Lire le guide →](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[03Usages
+
+### À quoi sert une mini-pelle ?
+
+Les 6 principaux usages : terrassement, tranchées, aménagement paysager, piscine, démolition et agriculture.
+
+Lire le guide →](https://czn-machinery.com/guides/utilisation-mini-pelle/)
+[04Achat
+
+### Mini-pelle : acheter ou louer ?
+
+Comparatif coûts détaillé. L'achat est rentable dès 15 jours d'utilisation par an.
+
+Lire le guide →](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+[05Achat
+
+### Prix d'une mini-pelle neuve en 2026
+
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.
+
+Lire le guide →](https://czn-machinery.com/guides/prix-mini-pelle/)
+[06Entretien
+
+### Entretien mini-pelle : guide pratique
+
+Vidange, filtres, graissage, chenilles, hydraulique. Planning maintenance pour 8 000 à 12 000 heures.
+
+Lire le guide →](https://czn-machinery.com/guides/entretien-mini-pelle/)
+[07Réglementation
+
+### CACES mini-pelle : quelle certification ?
+
+CACES R482 catégorie A : formation, prix, validité, usage privé vs professionnel.
+
+Lire le guide →](https://czn-machinery.com/guides/caces-mini-pelle/)
+[08Achat
+
+### Mini-pelle neuve ou occasion ?
+
+Comparatif : prix, garantie, risques de l'occasion, avantages du neuf.
+
+Lire le guide →](https://czn-machinery.com/guides/mini-pelle-neuve-ou-occasion/)
+[09Achat
+
+### Acheter une mini-pelle chinoise
+
+Comment acheter en sécurité avec garantie 2 ans et SAV France, sans tomber dans les pièges.
+
+Lire le guide →](https://czn-machinery.com/guides/acheter-mini-pelle-chinoise/)
+[10Usages
+
+### Creuser une piscine avec une mini-pelle
+
+Tonnage, étapes, budget et modèles adaptés dès 11 250 € HT.
+
+Lire le guide →](https://czn-machinery.com/guides/creuser-piscine-mini-pelle/)
+[11Fondamentaux
+
+### Guide complet du mini-chargeur
+
+Types, usages, choix roues vs chenilles, entretien. 6 modèles dès 6 336 € HT.
+
+Lire le guide →](https://czn-machinery.com/guides/guide-complet-mini-chargeur/)
+[12Achat
+
+### Mini-dumper : guide d'achat complet
+
+Comment choisir, types, capacités, prix dès 3 894 € HT. 7 modèles avec garantie 24 mois.
+
+Lire le guide →](https://czn-machinery.com/guides/mini-dumper-guide-achat/)
+[13Comparatifs
+
+### Comparatif mini-pelles 2026
+
+19 modèles de 600 kg à 4 T dès 4 125 € HT. La meilleure selon votre usage et budget.
+
+Lire le guide →](https://czn-machinery.com/guides/comparatif-mini-pelles-2026/)
+[14Usages
+
+### Mini-pelle pour terrassement
+
+Tonnage, accessoires, techniques : guide complet pour réussir vos travaux.
+
+Lire le guide →](https://czn-machinery.com/guides/mini-pelle-terrassement/)
+[15Fondamentaux
+
+### Micro-pelle : tout savoir avant d'acheter
+
+Définition, avantages, prix. Mini-pelle de moins de 1 tonne, transportable permis B.
+
+Lire le guide →](https://czn-machinery.com/guides/micro-pelle-tout-savoir/)
+
+## Une question *technique* ?
+
+Notre équipe répond à toutes vos questions sur le choix d'un engin, le financement ou la livraison. Devis gratuit, conseils inclus.
+
+[Nous contacter](https://czn-machinery.com/contact/)
+[Voir le catalogue](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mini-pelle chinoise : avis, fiabilité et pièges à éviter | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Achat
+
+Achat
+
+# Mini-pelle chinoise : avis, fiabilité et pièges à éviter
+
+Une mini-pelle chinoise est-elle fiable ? Avis, marquage CE, droits de douane, et les pièges à éviter — machines démontées, zéro SAV. Comment acheter en sécurité.
+
+⏱ 11 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+La Chine est aujourd'hui le **premier fabricant mondial d'engins de chantier compacts**. En 20 ans, les usines chinoises ont considérablement progressé, au point que de nombreuses marques européennes y font fabriquer tout ou partie de leurs machines. L'avantage : des prix 30 à 50 % inférieurs aux marques traditionnelles (Kubota, Caterpillar, Bobcat) pour des performances comparables. Reste à **bien choisir son fournisseur** — on détaille les pièges et la marche à suivre.
+
+## Pourquoi acheter une mini-pelle chinoise ?
+
+Avec des machines neuves disponibles **dès 4 125 € HT** contre 15 000 à 25 000 € pour un modèle européen équivalent, l'importation directe représente une opportunité économique réelle. Mais acheter sur internet sans passer par un importateur sérieux, c'est s'exposer à des problèmes majeurs.
+
+## Des machines livrées démontées
+
+C'est le problème numéro un. Pour réduire les frais de transport, beaucoup de vendeurs expédient les mini-pelles en pièces détachées : bras, tourelle, chenilles, moteur hydraulique — tout arrive séparé. Vous recevez **des caisses de pièces** sans notice claire, sans outillage adapté. Le remontage exige des compétences en hydraulique, un pont roulant ou une grue, et souvent plusieurs jours de travail. Le risque de mal raccorder les circuits hydrauliques est élevé et peut endommager la machine dès la première mise en route. Pire : certains vendeurs ne préviennent même pas que la machine arrive démontée.
+
+## Zéro SAV en cas de problème
+
+Un vendeur basé en Chine ne vous offrira aucun service après-vente. En cas de panne :
+
+* **Personne ne se déplace** pour diagnostiquer ou réparer
+* **Les pièces détachées** sont introuvables en France — 4 à 8 semaines de délai depuis la Chine
+* **La garantie est inexistante** en pratique face à un fournisseur à 10 000 km
+* **Le support technique** se limite à des échanges WeChat traduits approximativement
+
+Sur un produit aussi technique, un problème mécanique ou hydraulique arrivera tôt ou tard. Avoir un SAV en France fait la différence entre 2 jours d'immobilisation et 2 mois.
+
+## Une qualité extrêmement variable
+
+Il existe des centaines d'usines en Chine, et la qualité va du meilleur au pire. Les **bonnes usines** utilisent des composants de marques reconnues (moteurs Kubota, Laidong, pompes certifiées), avec contrôle qualité et exportations déjà établies vers l'Europe. Les **mauvaises usines** assemblent des composants au rabais, sans contrôle, avec soudures approximatives et hydraulique sous-dimensionnée. Sur une fiche Alibaba, impossible de faire la différence : seul un audit physique de l'usine le permet.
+
+## Marquage CE et conformité européenne
+
+Le **marquage CE** est obligatoire pour toute machine commercialisée dans l'UE. Pour une mini-pelle, il atteste la conformité à la Directive Machines 2006/42/CE (remplacée par le Règlement Machines 2023/1230/UE à partir de 2027). Il garantit la sécurité des opérateurs (norme EN 474), un niveau sonore certifié, un dossier technique disponible et un manuel en français.
+
+Une machine sans marquage CE valide expose à des risques majeurs : **l'assurance peut refuser sa couverture** en cas d'accident, la machine peut être saisie lors d'un contrôle, et l'importateur particulier devient légalement responsable de la mise en conformité.
+
+Chez CZN Machinery, toutes les machines sont livrées avec marquage CE, déclaration de conformité et manuel en français — conformité incluse dans le prix, sans frais cachés.
+
+## Droits de douane et fiscalité à l'import
+
+Les mini-pelles chinoises relèvent du code douanier NC 8429 52, soumis à un **droit de douane de 2,5 %** de la valeur CIF (coût + assurance + fret). Sur une machine à 10 000 € HT avec 2 000 € de fret, le droit représente ~300 €. La **TVA à 20 %** est due sur la valeur CIF + droits au dédouanement (récupérable pour un professionnel assujetti). S'ajoutent les frais de dédouanement (150 à 400 €), de port maritime (1 500 à 3 000 € pour un conteneur 20'), de manutention (200 à 500 €) et de transport terminal. Au total, les frais logistiques représentent souvent **20 à 35 % du prix machine** — ce que les prix "ex-works" font oublier.
+
+Chez CZN, l'import est géré en nom propre : le prix affiché est le prix livré en France, toutes taxes et frais inclus, sans aucune démarche douanière de votre côté.
+
+## Acheter sur Alibaba vs passer par CZN
+
+| Critère | Achat direct Alibaba | Via CZN Machinery |
+| --- | --- | --- |
+| Prix affiché | 3 500 à 6 000 € (ex-works) | 4 125 € HT (livré) |
+| Prix réel livré France | 6 500 à 10 000 € | 4 125 € HT (tout compris) |
+| Machine livrée montée | Rarement — souvent en kit | Toujours, prête à l'emploi |
+| Marquage CE | Variable, souvent absent | Garanti + déclaration |
+| Manuel français | Généralement absent | Inclus |
+| Garantie effective | Quasi inexistante | 24 mois en France |
+| SAV et pièces | Délais 4 à 8 semaines | Stock permanent France |
+| Recours en cas de litige | Très difficile (droit chinois) | Droit français |
+| Formation à la prise en main | Absente | 30 min sur site |
+
+Une fois tous les frais intégrés et les risques évalués, **l'achat via CZN est souvent moins cher au total** que l'import direct — sans aucun des risques.
+
+## Normes d'émissions et bruit
+
+Les moteurs diesel d'engins non routiers sont soumis au **Règlement EU 2016/1628 (Stage V)**, appliqué aux moteurs neufs depuis le 1er janvier 2020, avec des limites strictes sur particules, NOx et CO. Tout moteur vendu neuf en Europe doit être certifié Stage V (ou norme équivalente pour les petites cylindrées). La Directive Bruit 2000/14/CE plafonne le niveau sonore garanti à **96 dB(A)** pour les mini-pelles de moins de 50 kW. Enfin, huiles hydrauliques et moteur sont des déchets dangereux : à collecter en bidons hermétiques et déposer en déchetterie professionnelle, jamais dans la nature.
+
+## Acheter en toute sécurité : les 6 critères
+
+1. **Passer par un importateur français établi** : SIRET vérifiable, adresse physique, avis clients
+2. **Exiger une garantie contractuelle française** : 12 à 24 mois, pièces et main d'œuvre
+3. **Vérifier un stock de pièces détachées en France**
+4. **S'assurer que la machine arrive montée**, avec mise en service et formation
+5. **Demander la provenance des composants clés** : moteur, pompe, vérins
+6. **Exiger le marquage CE** et la déclaration de conformité
+
+## L'approche CZN : l'import direct sans les risques
+
+CZN Machinery importe des mini-pelles depuis 2019, avec un principe simple : les prix de l'import direct, avec les garanties d'un concessionnaire français. Le travail repose sur 3 usines partenaires (LEITE, SONCA, XCAVATOR) sélectionnées après audit, des déplacements en Chine plusieurs fois par an pour contrôler fabrication, composants et tests avant expédition. Le taux de retour SAV est inférieur à 3 %. Chaque machine arrive entièrement montée et testée, avec transport plateau, préparation par les mécaniciens, formation 30 min et documentation en français. La garantie est de 24 mois, avec équipe à Toulouse, intervention France entière et stock de pièces permanent.
+
+## Les questions à poser avant d'acheter
+
+| Question | Réponse attendue |
+| --- | --- |
+| La machine arrive-t-elle montée ? | Oui, prête à l'emploi |
+| Quelle durée de garantie ? | Minimum 12 mois, idéalement 24 |
+| Qui assure le SAV ? | Une équipe en France, sur site |
+| Pièces détachées en stock en France ? | Oui, stock permanent |
+| Quelle marque de moteur ? | Kubota, Laidong, Yanmar, KOOP |
+| Entreprise immatriculée en France ? | Oui, SIRET vérifiable |
+| Années d'expérience en import ? | Minimum 3 ans |
+| Marquage CE présent ? | Oui, avec notice française |
+| Moteur conforme Stage V ? | Oui, certification dispo |
+| Prix livraison + douane + TVA inclus ? | Oui, prix tout compris |
+
+## En résumé
+
+Acheter une mini-pelle chinoise est une excellente idée pour réduire son budget — à condition de passer par un **importateur sérieux** qui garantit la qualité, assure la livraison montée et offre un vrai SAV en France. Les économies sont réelles (30 à 50 %), mais elles ne valent rien si la machine tombe en panne sans personne pour intervenir. CZN Machinery propose 19 modèles de 600 kg à 4 tonnes dès 4 125 € HT, avec garantie 24 mois et SAV France.
+
+Sommaire
+
+* [Pourquoi acheter ?](#pourquoi)
+* [Machines démontées](#demontees)
+* [Zéro SAV](#sav)
+* [Qualité variable](#qualite)
+* [Marquage CE](#ce)
+* [Droits de douane](#douane)
+* [Alibaba vs CZN](#alibaba)
+* [Émissions & bruit](#environnement)
+* [Acheter en sécurité](#securite)
+* [L'approche CZN](#approche-czn)
+* [Questions à poser](#checklist)
+* [En résumé](#resume)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Prix d'une mini-pelle neuve en 2026
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](https://czn-machinery.com/guides/prix-mini-pelle/)
+[Achat
+Mini-pelle neuve ou occasion ?
+Comparatif complet : prix, garantie, risques de l'occasion, avantages du neuf.](https://czn-machinery.com/guides/mini-pelle-neuve-ou-occasion/)
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# CACES mini-pelle R482 : formation, prix, durée | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Réglementation
+
+Réglementation
+
+# CACES mini-pelle : quelle certification faut-il ?
+
+Tout sur le CACES R482 catégorie A : obligation professionnelle, durée de formation, prix, validité, financement, et règles pour les particuliers.
+
+⏱ 10 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Pour conduire une mini-pelle en contexte professionnel, le **CACES R482 catégorie A** (anciennement R372m catégorie 1) est obligatoire. Il couvre tous les engins compacts de chantier de moins de 6 tonnes, mini-pelles et micro-pelles comprises. En revanche, pour un **usage privé sur votre propre terrain, aucun CACES n'est requis**.
+
+## CACES mini-pelle : est-ce obligatoire ?
+
+La distinction est fondamentale : **le CACES est une obligation liée à l'activité professionnelle**, pas à la machine. Un particulier qui creuse sa propre piscine ou réaménage son jardin n'y est pas soumis. Un salarié qui conduit la même machine sur un chantier professionnel, si.
+
+## CACES vs autorisation de conduite
+
+Ce sont deux documents distincts et complémentaires. Le **CACES** (Certificat d'Aptitude à la Conduite en Sécurité) est délivré par un organisme de test agréé (APAVE, DEKRA, Bureau Veritas, SOCOTEC) après examen théorique et pratique. Il est personnel, nominatif et valable 10 ans.
+
+L'**autorisation de conduite** est un document interne délivré par l'employeur après vérification de trois conditions cumulatives : aptitude médicale (médecin du travail), connaissances et savoir-faire (le CACES en est la preuve), et connaissance des consignes propres à l'entreprise. En milieu professionnel, **les deux sont nécessaires**.
+
+## La formation CACES R482 catégorie A
+
+Le référentiel CACES R482, entré en vigueur en janvier 2020 en remplacement du R372m, couvre en catégorie A les engins compacts à conducteur porté de moins de 6 tonnes. La formation se déroule en centre agréé et combine théorie et pratique :
+
+* **Débutant sans expérience** : 3 à 5 jours (21 à 35 heures)
+* **Conducteur expérimenté** : passage direct aux épreuves après une journée de mise à niveau, selon évaluation
+* **Recyclage (renouvellement)** : 1 à 2 jours (7 à 14 heures)
+
+Le formateur et le testeur sont deux personnes différentes — une garantie d'impartialité imposée par le référentiel.
+
+## Contenu de l'examen
+
+### Épreuve théorique (QCM)
+
+Une quarantaine de questions couvrant la réglementation et les responsabilités, la technologie des engins, les risques professionnels (renversement, lignes électriques, éboulement), la sécurité chantier, le travail en tranchée (blindage obligatoire au-delà de 1,30 m) et les réseaux enterrés (DICT). Seuil de réussite généralement à 70 %.
+
+### Épreuve pratique
+
+Sur machine réelle : prise de poste (tour de machine, réglages), mise en route, déplacements (ligne droite, courbe, pente, marche arrière), travail au sol (tranchée aux cotes, chargement), gestion de la stabilité, arrêt et stationnement en sécurité. Les erreurs graves sont des éliminatoires immédiats.
+
+## Coût de la formation et financement
+
+| Type de formation | Durée | Coût indicatif HT |
+| --- | --- | --- |
+| Débutant (Paris / IDF) | 4-5 jours | 1 200 à 1 800 € |
+| Débutant (régions) | 3-4 jours | 800 à 1 300 € |
+| Conducteur expérimenté | 1-2 jours | 450 à 700 € |
+| Recyclage / renouvellement | 1-2 jours | 350 à 600 € |
+
+Pour les **salariés**, la formation est prise en charge par l'employeur (plan de développement des compétences), finançable via l'OPCO. Pour les **demandeurs d'emploi**, elle est éligible au CPF depuis 2020 (moncompteformation.gouv.fr). Pour les **indépendants**, elle est déductible en charge, avec des tarifs groupés négociés par les associations sectorielles (FNTP, CAPEB, FFB).
+
+## Validité et renouvellement
+
+Le CACES R482 catégorie A est **valable 10 ans**. Passé ce délai, un recyclage (1 à 2 jours) est nécessaire : rappel réglementaire, remise à niveau pratique, puis épreuves. Anticipez le renouvellement entre le 9e et le 10e anniversaire. Un CACES expiré depuis plus de 2 ans est souvent traité comme un nouveau candidat, sans dérogation de durée.
+
+## Obligations de l'employeur
+
+Le Code du Travail (art. R4323-55 à R4323-57) impose à l'employeur de vérifier les habilitations, délivrer l'autorisation de conduite écrite et nominative, tenir à jour le registre des autorisations, financer le renouvellement avant expiration, et informer sur les consignes spécifiques à chaque chantier.
+
+En cas d'accident impliquant un conducteur sans CACES valide ou sans autorisation de conduite, **la responsabilité pénale de l'employeur est engagée**, indépendamment de la faute du conducteur.
+
+## Règles pour les particuliers
+
+Le CACES relève du Code du Travail, pas du Code de la route : il s'applique uniquement en cadre professionnel. Un particulier sur son propre terrain est **totalement libre d'utiliser une mini-pelle sans CACES**. Quelques précautions de bon sens s'imposent néanmoins : effectuer une **DICT** avant tout creusement (repérage des réseaux), lire le manuel, profiter de la formation de 30 minutes incluse à chaque livraison CZN, et ne jamais travailler seul sur des fouilles profondes. En cas de prêt/location à un proche contre contrepartie, l'usage peut être requalifié en activité professionnelle — vérifiez votre assurance.
+
+#### Achat pour usage privé ?
+
+Aucun CACES requis sur votre terrain. Formation de prise en main de 30 min incluse à la livraison.
+
+[Voir les mini-pelles →](https://czn-machinery.com/mini-pelles/)
+
+## Conseils pour réussir l'examen
+
+Le taux d'échec est estimé entre 15 et 25 %, surtout sur le QCM ou une pratique mal préparée.
+
+### Préparer le QCM
+
+* Étudiez le **référentiel INRS R482**, disponible gratuitement
+* Concentrez-vous sur les distances de sécurité, les procédures (DICT, balisage) et les responsabilités légales
+* Faites des QCM blancs en ligne
+* Mémorisez la profondeur de blindage obligatoire (1,30 m)
+
+### Préparer la pratique
+
+* Multipliez les heures de pratique — la précision vient de la répétition
+* Maîtrisez le tour de machine (source fréquente de points perdus)
+* Travaillez les déplacements en pente et la marche arrière
+* Soignez le stationnement final : godet au sol, verrouillage engagé, moteur coupé
+
+Le jour J : arrivez reposé, et privilégiez la sécurité et la précision plutôt que la vitesse — c'est ce que valorise l'examinateur.
+
+## FAQ
+
+### Peut-on conduire une mini-pelle avec le permis B ?
+
+Non, le permis B ne concerne que la voie publique. Sur chantier professionnel, c'est le CACES R482 catégorie A qui s'applique. Le permis B sert uniquement à **transporter** la machine sur remorque.
+
+### Le CACES est-il obligatoire sous 1 tonne ?
+
+Oui. La catégorie A s'applique sans distinction de tonnage à tous les engins compacts à conducteur porté, micro-pelles de 800 kg incluses.
+
+### Mon CACES R372m catégorie 1 est-il toujours valable ?
+
+Oui, jusqu'à sa date d'expiration (10 ans). Au renouvellement, vous passez sous le référentiel R482, sans démarche de conversion.
+
+### Le CACES est-il reconnu dans toute l'Europe ?
+
+Non, c'est un dispositif français. D'autres pays ont des certifications équivalentes (CSCS au Royaume-Uni) mais non directement équivalentes. Pour des chantiers internationaux, renseignez-vous sur les exigences locales.
+
+Sommaire
+
+* [Est-ce obligatoire ?](#obligatoire)
+* [CACES vs autorisation](#caces-vs-autorisation)
+* [La formation R482](#formation)
+* [Contenu de l'examen](#examen)
+* [Coût & financement](#cout)
+* [Validité & renouvellement](#validite)
+* [Obligations employeur](#employeur)
+* [Règles particuliers](#particuliers)
+* [Réussir l'examen](#reussir)
+* [FAQ](#faq)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Entretien
+Entretien mini-pelle : guide pratique
+Vidange, filtres, graissage, chenilles, hydraulique. Planning de maintenance complet.](https://czn-machinery.com/guides/entretien-mini-pelle/)
+[Usages
+À quoi sert une mini-pelle ?
+Les 6 principaux usages : terrassement, tranchées, aménagement paysager, piscine, démolition.](https://czn-machinery.com/guides/utilisation-mini-pelle/)
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Comment choisir une mini-pelle ? 6 critères clés | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Achat
+
+Achat
+
+# Comment choisir une mini-pelle ?
+
+Les 6 critères essentiels pour bien choisir votre mini-pelle : tonnage, profondeur de fouille, largeur de passage, motorisation, accessoires et transport.
+
+⏱ 9 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Bien choisir sa mini-pelle, c'est d'abord faire correspondre la machine à la réalité de vos chantiers. Six critères concentrent l'essentiel de la décision : le tonnage, la profondeur de fouille, la largeur de passage, la motorisation, les accessoires compatibles et le transport. On les passe en revue, avec des repères chiffrés concrets.
+
+## 1. Le tonnage adapté à vos travaux
+
+Le **poids opérationnel** détermine la puissance de creusement et la profondeur de fouille. Pour creuser une piscine ou des fondations, une machine de 1,5 à 2,5 tonnes suffit. Pour du terrassement intensif ou de la voirie, orientez-vous vers 3 tonnes et plus.
+
+Grille pratique selon les travaux envisagés :
+
+* **Jardin, tranchées légères, espaces confinés** : 800 kg à 1,2 tonne
+* **Tranchées profondes, fondations légères, petite piscine** : 1,5 à 2 tonnes
+* **Terrassement, piscine standard, réseaux VRD** : 2 à 2,5 tonnes
+* **Terrassement intensif, gros chantiers BTP** : 3 à 4 tonnes
+
+**Règle d'or :** mieux vaut prendre un tonnage légèrement supérieur à vos besoins immédiats. Une machine sous-dimensionnée travaille en permanence à sa limite, s'use plus vite et perd en précision. Visez 15 à 20 % de marge par rapport au tonnage minimal théorique.
+
+## 2. La profondeur de fouille
+
+La **profondeur de creusement maximale** varie de 1,5 m (micro-pelle 800 kg) à plus de 3,5 m (mini-pelle 4 T). Définissez vos besoins avant de choisir. Quelques repères pour les travaux courants :
+
+* **Câbles et réseaux télécoms** : 0,40 à 0,60 m — une micro-pelle suffit
+* **Canalisations eau potable** : 0,80 à 1,20 m (jusqu'à 1,50 m dans le nord)
+* **Assainissement** : 0,80 à 1,50 m selon la pente
+* **Fondations de maison** : 0,50 à 1,20 m pour semelles filantes standard
+* **Piscine coque standard** : 1,60 à 1,90 m de fouille
+* **Géothermie (capteurs horizontaux)** : 0,80 à 1,20 m sur grande surface
+
+La profondeur des fiches techniques est une **valeur maximale théorique** : dans la pratique, retirez 10 à 15 % pour travailler confortablement. Une machine annoncée à 1,73 m travaille sereinement jusqu'à 1,50 m.
+
+## 3. La largeur de passage
+
+Si vous devez franchir un portail, une allée ou un passage étroit, vérifiez la **largeur hors-tout**. Les micro-pelles descendent jusqu'à 75 cm de large. Les repères à connaître :
+
+* **Portail standard** : 90 à 100 cm — une micro-pelle de 75 cm passe sans souci
+* **Allée de jardin** : 100 à 120 cm — la plupart des 1,2 à 1,8 tonne passent
+* **Voie piétonne centre-ville** : 120 à 150 cm
+* **Porte intérieure standard** : 83 à 93 cm — seules les plus petites micro-pelles entrent
+
+Sur les modèles à **voie variable** (châssis extensible), la largeur annoncée est celle en position rétractée. En position élargie, la stabilité est maximale mais la largeur gagne 20 à 30 cm. Tenez compte des deux dimensions selon les phases de travail.
+
+## 4. Le type de motorisation
+
+Nos mini-pelles sont équipées de moteurs **diesel** (Kubota, Yanmar, Laidong), reconnus pour leur fiabilité et leur autonomie. La puissance (en CV ou kW) détermine la capacité de travail en terrain dur et la vitesse d'exécution :
+
+* **Moins de 12 CV (8,8 kW)** : travaux légers, terrains meubles, jardinage
+* **12 à 20 CV (8,8 à 14,7 kW)** : bon compromis pour la majorité des travaux artisanaux
+* **20 à 30 CV (14,7 à 22 kW)** : puissance professionnelle, tous terrains
+* **Plus de 30 CV** : usage intensif, travaux lourds, roche
+
+La marque du moteur est un vrai critère de qualité. Les moteurs **Kubota** et **Yanmar** sont des références pour leur fiabilité et la disponibilité des pièces détachées en France.
+
+## 5. Les accessoires compatibles
+
+Vérifiez les [accessoires disponibles](https://czn-machinery.com/accessoires/) : godets de terrassement, brise-roche hydraulique, tarière, pouce de manutention, attache rapide. La polyvalence d'une mini-pelle dépend largement de ses accessoires.
+
+L'**attache rapide** est l'accessoire le plus important à considérer dès l'achat. Elle permet de changer de godet en 30 secondes sans sortir de la cabine, contre 5 à 10 minutes avec une fixation manuelle. Sur un chantier polyvalent, elle est rentabilisée en une seule journée. Vérifiez la compatibilité avec la norme d'attache de votre machine (CW, S, ou propriétaire).
+
+## 6. Le transport
+
+Pour transporter une mini-pelle, il faut une **remorque adaptée**. Avec un permis B seul, la somme des PTAC (voiture + remorque chargée) doit rester sous 3 500 kg. Au-delà, un permis BE ou une formation B96 est nécessaire.
+
+* **Micro-pelle 800-995 kg** : remorque porte-engins 1,5 T PTAC, tractable par un SUV ou utilitaire léger (permis B)
+* **Mini-pelle 1,2 à 2 T** : remorque 2,5 à 3 T PTAC, véhicule puissant + permis B96 ou BE
+* **Mini-pelle 2,5 à 4 T** : camion plateau ou remorque lourde, permis C ou BE adapté
+
+#### Pas le permis ou le véhicule adapté ?
+
+CZN Machinery propose la livraison sur site partout en France : machine déchargée sur place et mise en service.
+
+[Demander un devis →](https://czn-machinery.com/contact/)
+
+## Budget et options de financement
+
+Le budget oriente souvent vers un modèle. Vision claire des prix par tonnage chez CZN Machinery :
+
+| Tonnage | Prix HT (dès) | Mensualité ~48 mois |
+| --- | --- | --- |
+| Micro-pelle (600 kg – 1 T) | 4 125 € | ~105 €/mois |
+| Mini-pelle 1,2 à 1,6 T | 6 425 € | ~160 €/mois |
+| Mini-pelle 1,8 à 2 T | 11 666 € | ~290 €/mois |
+| Mini-pelle 2,5 T | 19 625 € | ~490 €/mois |
+| Mini-pelle 3 T | 29 854 € | ~745 €/mois |
+| Mini-pelle 4 T | 45 080 € | ~1 125 €/mois |
+
+*Mensualités indicatives hors intérêts et hors TVA, sur 48 mois avec 20 % d'apport.*
+
+Trois formules de financement sont disponibles : **crédit classique** (propriété immédiate, idéal particuliers et artisans), **LOA** (loyers réduits, option d'achat en fin de contrat) et **leasing / crédit-bail** (loyers déductibles fiscalement, formule prédominante pour les entreprises). Pour les professionnels assujettis, la TVA (20 %) est récupérable. [Découvrez les options de financement](https://czn-machinery.com/entreprise/financement/).
+
+## Comparatif des marques CZN
+
+### Sonca — polyvalence et gamme complète
+
+Sonca propose des mini-pelles jusqu'à 2,5 tonnes avec fonctionnalités avancées (voie variable, forte puissance moteur), ainsi que l'ensemble de la gamme mini-tombereaux et mini-chargeurs. La SJW-25 (29 CV) est l'une des mini-pelles les plus puissantes de son tonnage.
+
+### Xcavator — performance et technologie
+
+Xcavator est le positionnement haut de gamme : pompes hydrauliques de qualité supérieure, composants soignés, design abouti. Idéale pour les artisans exigeants utilisant leur machine intensivement, et la gamme grand gabarit BTP (9 T et plus).
+
+## Garantie et SAV : ce qu'il faut vérifier
+
+La garantie et le SAV sont souvent négligés à l'achat, mais déterminants sur le long terme. Une machine en panne sans SAV peut coûter plusieurs milliers d'euros de chantier perdu. Chez CZN Machinery, chaque machine est couverte par une **garantie constructeur de 24 mois** pièces et main d'œuvre :
+
+* **Équipe technique à Toulouse**, joignable du lundi au vendredi
+* **Intervention France entière** pour les réparations sous garantie
+* **Stock permanent de pièces détachées** en France : délais en jours, pas en semaines
+* **Taux de panne sous garantie inférieur à 3 %**
+
+Avant d'acheter chez n'importe quel vendeur, posez ces questions : qui assure le SAV concrètement ? Où sont stockées les pièces ? Quel est le délai moyen d'intervention ?
+
+## Checklist : 10 questions avant d'acheter
+
+1. **Quelle profondeur maximale ?** Définissez votre cas d'usage le plus exigeant.
+2. **Quelle largeur du passage le plus étroit ?** Portail, allée, passage intérieur — mesurez tout.
+3. **Quel terrain dominant ?** Meuble, argileux, caillouteux, rocheux — cela influence tonnage et accessoires.
+4. **Quelle fréquence d'utilisation ?** Plus de 15 jours/an : l'achat est plus économique que la location.
+5. **Besoin de fonctions spécifiques ?** Voie variable, flèche orientable, cabine fermée, sortie hydraulique auxiliaire.
+6. **Comment transporter la machine ?** Permis et véhicule adaptés, ou livraison incluse ?
+7. **Quel budget total (machine + accessoires) ?** Un pack de base coûte 1 500 à 3 000 €.
+8. **Quel financement adapté à ma fiscalité ?** Comptant, crédit, LOA ou leasing.
+9. **La garantie est-elle assurée en France ?** Vérifiez un SAV local avec pièces en stock.
+10. **Ai-je besoin du CACES ?** Usage pro = CACES R482 cat. A obligatoire ; usage privé = libre.
+
+## Erreurs courantes à éviter
+
+* **Choisir uniquement sur le prix** : le mauvais dimensionnement coûte plus cher à terme.
+* **Négliger les accessoires** : prévoyez le budget dès l'achat.
+* **Ignorer la largeur de passage** : l'erreur la plus fréquente. Mesurez avant de commander.
+* **Sur-dimensionner inutilement** : une 3 T consomme plus, manœuvre moins bien en espace contraint et coûte plus à entretenir qu'une 1,8 T pour les mêmes travaux courants.
+* **Sous-estimer le coût de transport** : intégrez-le dans votre calcul de rentabilité.
+* **Acheter sans SAV en France** : la garantie d'un fournisseur sans structure française est illusoire. Voir notre guide sur l'[achat d'une mini-pelle chinoise](https://czn-machinery.com/guides/acheter-mini-pelle-chinoise/).
+
+## Recommandations par profil
+
+### Particulier : jardin, piscine, petits travaux
+
+Priorité à la facilité d'utilisation, la compacité et le prix. Une micro-pelle de 800 kg, étroite et intuitive, est la référence. Pour des projets plus ambitieux (piscine, fondations), montez en profondeur de fouille. Aucun CACES requis sur votre propre terrain.
+
+### Artisan : utilisation régulière, travaux variés
+
+La machine doit couvrir 90 % des situations en une seule unité. Une 1,8 tonne avec bonne profondeur et largeur contenue passe partout, creuse profond et travaille vite. La voie variable est un plus précieux en milieu urbain.
+
+### Professionnel BTP : usage intensif quotidien
+
+Optez pour un moteur de marque reconnue et une puissance adaptée. Une 3 T à moteur Kubota est le choix le plus fiable pour un usage quotidien. Pour les chantiers nécessitant cabine climatisée et grande profondeur, montez en 4 T.
+
+Sommaire
+
+* [1. Le tonnage adapté](#tonnage)
+* [2. La profondeur de fouille](#profondeur)
+* [3. La largeur de passage](#largeur)
+* [4. La motorisation](#motorisation)
+* [5. Les accessoires](#accessoires)
+* [6. Le transport](#transport)
+* [Budget & financement](#budget)
+* [Comparatif des marques](#marques)
+* [Garantie & SAV](#garantie)
+* [Checklist 10 questions](#checklist)
+* [Erreurs à éviter](#erreurs)
+* [Reco par profil](#profils)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Fondamentaux
+Qu'est-ce qu'une mini-pelle ?
+Définition, catégories par tonnage, composants clés et différences avec une pelleteuse classique.](https://czn-machinery.com/guides/quest-ce-quune-mini-pelle/)
+[Achat
+Prix d'une mini-pelle neuve en 2026
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](https://czn-machinery.com/guides/prix-mini-pelle/)
+[Achat
+Acheter ou louer une mini-pelle ?
+Comparatif détaillé des coûts. L'achat est rentable dès 15 jours d'utilisation par an.](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Comparatif mini-pelles 2026 : les meilleurs modèles | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Comparatifs
+
+Comparatifs
+
+# Comparatif des meilleures mini-pelles en 2026
+
+19 modèles de 600 kg à 4 tonnes dès 4 125 € HT, comparés sur les performances, la fiabilité, le prix et l'ergonomie — avec le face-à-face CZN vs marques européennes.
+
+⏱ 13 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Quelle est la **meilleure mini-pelle en 2026** selon votre usage, votre tonnage et votre budget ? Ce comparatif passe en revue les 19 modèles CZN (de 600 kg à 4 tonnes, dès 4 125 € HT) et les confronte aux grandes marques européennes.
+
+## Méthodologie de comparaison
+
+Comparatif construit sur des critères objectifs et pondérés : **performances techniques** (40 % — profondeur, force d'arrachage, puissance, stabilité), **fiabilité et composants** (25 % — moteur, pompe, matériaux), **valeur économique totale** (25 % — prix, entretien 5 ans, revente, pièces) et **ergonomie** (10 % — largeur, voie variable, flèche orientable). Prix CZN mars 2026, livraison incluse, garantie 24 mois.
+
+## Les critères essentiels
+
+* **Le tonnage** : puissance de creusement et stabilité
+* **La profondeur de fouille** : distance max sous le niveau du sol
+* **La motorisation** : Kubota, Yanmar, Laidong, KOOP pour la longévité
+* **Le rapport qualité-prix** : 2 à 3 fois moins cher que les marques européennes
+
+## Micro-pelles : moins de 1 tonne
+
+La **CL08** (800 kg, 5 250 € HT, largeur 754 mm) passe partout (profondeur 1,41 m). La **CL10S** (1 T, 6 100 € HT) ajoute une flèche orientable et 1,73 m de profondeur. *Recommandation : CL08 pour le prix d'entrée, CL10S pour la polyvalence.*
+
+## Mini-pelles de 1 à 2 tonnes
+
+Le segment le plus vendu en France (9 modèles chez CZN) :
+
+| Modèle | Poids | Profondeur | Largeur | Moteur | Prix HT |
+| --- | --- | --- | --- | --- | --- |
+| XC12S | 1,2 T | 1,65 m | 990 mm | KOOP 10 CV | 6 425 € |
+| CL12S | 1,2 T | 1,67 m | 980 mm | KOOP 10 CV | 6 875 € |
+| XC18S Pro | 1,8 T | **2,60 m** | 980 mm | LAIDONG 25,5 CV | 11 666 € |
+| CL18S | 1,8 T | 2,15 m | 1 200 mm | LAIDONG 24 CV | 12 450 € |
+
+La **XC18S Pro** domine grâce à sa profondeur record de 2,60 m (pour une 1,8 T) et sa pompe Shimadzu japonaise.
+
+## Mini-pelles de 2 à 3 tonnes
+
+* **CL20S** (2 T, 14 963 € HT) : voie ajustable (rétrécit pour passer, s'élargit pour la stabilité), LAIDONG 24 CV, 2,27 m. Idéale en urbain et VRD.
+* **SJW-25** (2,5 T, 19 625 € HT) : 29 CV, voies variables, 2,60 m. La plus puissante de son tonnage, supporte un brise-roche moyen.
+* **XC25S** (2,5 T, 23 399 € HT) : Changchai 27,2 CV, pompe Parker. Haut de gamme professionnel intensif.
+
+## Mini-pelles de 3 tonnes et plus
+
+* **CL30S** (3 T, 29 854 € HT) : moteur **Kubota D1105** (21,2 CV), référence mondiale de longévité, 2,26 m. Usage professionnel quotidien.
+* **CL40S2C** (4 T, 45 080 € HT) : moteur **Yanmar 3TNV80F** (24,8 CV), cabine fermée climatisée, profondeur **3,16 m**.
+
+Une Kubota KX030-4 coûte 50 000-60 000 € HT : la CL30S offre des performances comparables pour **moitié prix**.
+
+## Tableau comparatif complet
+
+| Modèle | Marque | Tonnage | Profondeur | Moteur | Prix HT |
+| --- | --- | --- | --- | --- | --- |
+| CL08 | LEITE | 800 kg | 1,41 m | KOOP 10,2 CV | 5 250 € |
+| CL10S | LEITE | 1 T | 1,73 m | KOOP 10 CV | 6 100 € |
+| XC12S | XCAVATOR | 1,2 T | 1,65 m | KOOP 10 CV | 6 425 € |
+| CL12S | LEITE | 1,2 T | 1,67 m | KOOP 10 CV | 6 875 € |
+| XC18S Pro | XCAVATOR | 1,8 T | 2,60 m | LAIDONG 25,5 CV | 11 666 € |
+| CL18S | LEITE | 1,8 T | 2,15 m | LAIDONG 24 CV | 12 450 € |
+| CL20S | LEITE | 2 T | 2,27 m | LAIDONG 24 CV | 14 963 € |
+| SJW-25 | SONCA | 2,5 T | 2,60 m | Diesel 29 CV | 19 625 € |
+| XC25S | XCAVATOR | 2,5 T | 2,60 m | Changchai 27,2 CV | 23 399 € |
+| CL30S | LEITE | 3 T | 2,26 m | KUBOTA 21,2 CV | 29 854 € |
+| CL40S2C | LEITE | 4 T | 3,16 m | YANMAR 24,8 CV | 45 080 € |
+
+## CZN vs marques européennes
+
+Sur les critères du travail quotidien (profondeur, force d'arrachage, stabilité, précision), les CZN sont à niveau comparable. La XC18S Pro (2,60 m) fait jeu égal avec une Yanmar ViO17 à 28 000-32 000 €. La CL40S2C égale une Cat 304 CR pour 20 000 à 35 000 € de moins.
+
+| Critère | CZN Machinery | Kubota / Cat / Yanmar |
+| --- | --- | --- |
+| Profondeur de fouille | Comparable/supérieure | Comparable |
+| Fiabilité moteur | Excellente | Excellente |
+| Qualité hydraulique | Bonne à très bonne | Très bonne |
+| Finitions cabine | Correcte à bonne | Très soignée |
+| Réseau SAV | Toulouse (national) | Réseau dense |
+| Prix d'achat | **40 à 70 % moins cher** | Référence |
+| Garantie | 24 mois P+MO | 12 à 24 mois |
+
+Les marques européennes gardent des avantages réels (densité du réseau SAV, finitions de cabine, électronique) pour un usage très intensif (250+ jours/an). Mais pour **95 % des utilisateurs français**, les CZN offrent toutes les performances nécessaires à un prix 2 à 3 fois inférieur.
+
+#### 19 modèles, dès 4 125 € HT
+
+Trouvez la machine adaptée à votre usage et votre budget, avec garantie 24 mois.
+
+[Voir toute la gamme →](https://czn-machinery.com/mini-pelles/)
+
+## Valeur de revente comparée
+
+En pourcentage, les CZN se déprécient aussi bien voire mieux : une CZN à 11 666 € se revend 7 000-8 500 € après 3 ans (60-73 %), une Kubota 1,5 T à 22 000 € se revend 12 000-14 000 € (55-64 %). La différence est en valeur absolue : perdre 4 000 € (CZN) vs 8 000-10 000 € (européenne). Un carnet d'entretien documenté améliore la revente de 15 à 25 %.
+
+## Verdict : les tops par budget
+
+* **Sous 7 000 € HT** : CL10S (6 100 €) — la plus polyvalente des micro-pelles
+* **7 000 à 13 000 € HT** : XC18S Pro (11 666 €) — profondeur 2,60 m inégalée dans sa gamme
+* **13 000 à 25 000 € HT** : SJW-25 (19 625 €) — 29 CV, la plus puissante de son segment
+* **25 000 à 50 000 € HT** : CL30S (29 854 €, Kubota) ou CL40S2C (45 080 €, cabine climatisée)
+
+## Le meilleur modèle selon votre profil
+
+**Particulier jardinage** : CL08 (5 250 €) ou CL12S (6 875 €). **Particulier piscine** : XC18S Pro (11 666 €). **Artisan régulier** : XC18S Pro. **Professionnel BTP intensif** : CL30S (Kubota) ou CL40S2C (cabine climatisée).
+
+## FAQ comparatif
+
+### Les CZN sont-elles aussi fiables que Kubota ou Yanmar ?
+
+Pour un usage artisanal/semi-pro (< 150 jours/an), la fiabilité est comparable. Les modèles à moteur Kubota (CL30S) ou Yanmar (CL40S2C) égalent les grandes marques. Pour 200+ jours/an, les européennes haut de gamme restent légèrement au-dessus sur la durabilité des structures.
+
+### Quelle est la meilleure mini-pelle pour creuser une piscine ?
+
+La XC18S Pro (1,8 T) pour la majorité des projets standards. Pour les grandes piscines ou terrains rocheux, la SJW-25 (2,5 T).
+
+### Peut-on financer une mini-pelle CZN ?
+
+Oui, en 12 à 60 mensualités. Leasing disponible pour les professionnels, avec loyers déductibles.
+
+### Les pièces détachées sont-elles disponibles en France ?
+
+Oui, stock permanent à Toulouse, délais de 1 à 5 jours ouvrés. Prise en charge totale sous garantie.
+
+### Quelle mini-pelle pour un espace urbain étroit ?
+
+Les modèles à voie variable (CL20S, SJW-25). Pour les passages < 1 m, la CL08 (754 mm).
+
+Sommaire
+
+* [Méthodologie](#methodo)
+* [Les critères clés](#criteres)
+* [Micro-pelles < 1 T](#micro)
+* [1 à 2 tonnes](#1-2t)
+* [2 à 3 tonnes](#2-3t)
+* [3 tonnes et plus](#3t-plus)
+* [Tableau complet](#tableau)
+* [CZN vs européennes](#vs-europeennes)
+* [Valeur de revente](#revente)
+* [Tops par budget](#verdict)
+* [Selon votre profil](#profil)
+* [FAQ](#faq)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Achat
+Prix d'une mini-pelle neuve en 2026
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](https://czn-machinery.com/guides/prix-mini-pelle/)
+[Fondamentaux
+Micro-pelle : tout savoir
+Définition, avantages, utilisations et prix de la mini-pelle de moins d'une tonne.](https://czn-machinery.com/guides/micro-pelle-tout-savoir/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Creuser une piscine avec une mini-pelle : guide complet | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Usages
+
+Usages
+
+# Creuser une piscine avec une mini-pelle
+
+Tonnage recommandé, dimensions de fouille, démarches administratives, étapes de creusement, gestion des déblais et coût : le guide complet pour terrasser votre bassin.
+
+⏱ 13 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+**Creuser une piscine avec une mini-pelle** est la solution la plus efficace pour réaliser le terrassement de votre bassin — coque, béton ou kit. Par rapport à une excavation manuelle (irréaliste pour 30 à 50 m³) ou à une pelleteuse classique (trop volumineuse pour un jardin), la mini-pelle offre le compromis idéal.
+
+## Pourquoi une mini-pelle pour creuser une piscine ?
+
+* **Compacité** : passe par un portail dès 90 cm et manœuvre sans détruire le jardin
+* **Puissance suffisante** : une 1,8 à 2,5 T creuse un trou de piscine en 1 à 2 jours
+* **Précision** : le bras articulé respecte les cotes exactes du pisciniste
+* **Polyvalence** : ensuite réutilisable pour tranchées, canalisations, jardin
+
+Un terrassement confié à une entreprise coûte 1 500 à 4 000 €. La location revient à 250 à 400 €/jour. L'achat d'une machine neuve dès 11 666 € HT (garantie 24 mois) se rentabilise si vous avez d'autres projets en vue.
+
+## Types de piscine et impact sur le terrassement
+
+### Piscine coque polyester
+
+La plus rapide à installer, livrée en un bloc. Dimensions standardisées (5×2,5 m à 12×5 m), profondeurs fixes (1,40 à 1,50 m). La fouille doit respecter des **cotes au centimètre près** et inclure 20 cm de lit de sable. Le plan fourni par le fabricant simplifie le travail, mais les tolérances sont serrées.
+
+### Piscine béton
+
+La plus personnalisable, mais terrassement plus complexe : prévoyez **60 à 80 cm de dégagement** de chaque côté pour le coffrage et les armatures, plus l'épaisseur du radier (15-20 cm) et le lit de gravier (15 cm). Une piscine 9×4,5 m peut nécessiter une fouille de 11×6,5 m sur 2 m, soit 70 à 80 m³ de déblais (mini-pelle 2,5 à 3 T).
+
+### Piscine en kit
+
+Intermédiaire en complexité, tolérances plus souples. Souvent choisie par les particuliers qui construisent eux-mêmes — l'achat ou la location d'une mini-pelle y est particulièrement pertinent.
+
+## Quel tonnage pour creuser une piscine ?
+
+* **1,5 à 1,8 tonne** : petites piscines (jusqu'à 6×3 m), terrains faciles. Profondeur max ~2,5 m
+* **2 à 2,5 tonnes** : le choix optimal pour la majorité des piscines standards (8×4 m), idéal en argileux ou caillouteux
+* **3 tonnes et plus** : grandes piscines (10×5 m+) ou terrains très durs nécessitant un brise-roche
+
+Pour la grande majorité des projets, une **mini-pelle de 1,8 à 2,5 tonnes** est le meilleur choix.
+
+## Dimensions de la fouille à prévoir
+
+Le trou est toujours plus grand que la piscine : ajoutez 50 à 80 cm de chaque côté, 15 à 20 cm sous le point le plus profond (gravier drainant), et prévoyez un léger talutage des parois. Exemple : pour une coque de 8×4 m profondeur 1,50 m, la fouille fait ~9,5×5,5 m sur 1,70 m, soit **~28 m³ de terre à évacuer**.
+
+## Réglementation et démarches
+
+**Permis ou déclaration :** moins de 10 m² = aucune formalité ; 10 à 100 m² = déclaration préalable (Cerfa 13703, 1 mois) ; plus de 100 m² ou abri > 1,80 m = permis de construire (2 mois). Vérifiez votre PLU (distances aux limites, revêtements visibles). **DICT** obligatoire avant tout creusement via reseaux-et-canalisations.ineris.fr. Pensez à **déclarer à votre assurance habitation**.
+
+**Ne jamais creuser sans DICT**, même sur terrain privé : une canalisation de gaz ou un câble électrique endommagé peut provoquer un accident mortel et engage votre responsabilité civile et pénale.
+
+## Les étapes du creusement
+
+1. **Implantation et piquetage** : contours exacts avec piquets et cordeaux
+2. **Décapage** : 20 à 30 cm de terre végétale au godet large
+3. **Creusement par passes** : couches de 40 à 50 cm, du centre vers les bords
+4. **Mise en forme des parois** : godet plus étroit
+5. **Évacuation** : remorque ou mini-tombereau
+6. **Finitions** : compactage du fond, géotextile, lit de gravier drainant
+
+## Gestion des déblais
+
+Pour une piscine 8×4 m, vous extrayez 25 à 50 m³. Calculez : longueur × largeur × profondeur × coefficient de foisonnement (1,2 à 1,4). Un volume de 30 m³ peut représenter 36 à 42 m³ foisonnés. Options : réutilisation sur place (le moins coûteux, terre végétale réservée à part), déchetterie (gratuit pour terre propre), **mini-tombereau en complément** (dès 3 894 € HT — le duo pelle+tombereau permet de travailler en continu), ou benne à gravats (250 à 400 € pour 8 m³). Ne stockez pas de terre à moins de la moitié de la profondeur de fouille du bord.
+
+#### Le duo idéal pour une piscine
+
+Mini-pelle + mini-tombereau : la pelle charge directement dans la benne qui évacue. Chantier en continu.
+
+[Voir les mini-pelles →](https://czn-machinery.com/mini-pelles/)
+
+## Erreurs fréquentes à éviter
+
+* **Ne pas faire de DICT** : l'erreur la plus grave, même sur son terrain
+* **Sous-estimer les dimensions de fouille** : prévoyez les marges du pisciniste
+* **Négliger la nappe phréatique** : prévoyez une pompe en zone humide
+* **Oublier les gaines techniques** (filtration, électricité) avant le radier
+* **Travailler seul** : une 2e personne guide les cotes et l'évacuation
+* **Machine sous-dimensionnée** : préférez un modèle légèrement surdimensionné
+
+## Quels modèles CZN pour une piscine ?
+
+| Modèle | Tonnage | Profondeur max | Prix dès HT |
+| --- | --- | --- | --- |
+| XC18S Pro | 1,8 T | 2,60 m | 11 666 € |
+| CL20S | 2 T | 2,27 m | 14 963 € |
+| XC25S | 2,5 T | 2,60 m | 23 399 € |
+
+## Louer ou acheter pour la piscine ?
+
+Le terrassement par un pro coûte 1 500 à 4 000 €. La location d'une 2 T revient à 250-400 €/jour (500 à 1 200 € pour 2-3 jours). L'achat (dès 11 666 € HT, financement 12 à 60 mois) devient intéressant si vous avez d'autres travaux prévus, d'autant que la machine conserve 60 à 70 % de sa valeur après 3 ans.
+
+## FAQ piscine + mini-pelle
+
+### Combien de jours pour creuser une piscine ?
+
+Pour une 8×4 m, comptez 1 à 2 jours complets (7 à 14 h) avec une 1,8 à 2,5 T. En terrain meuble, une journée peut suffire ; en argileux compact, prévoyez 2 jours.
+
+### Peut-on creuser une piscine sans CACES ?
+
+Oui. Le CACES n'est obligatoire qu'en contexte professionnel. Pour un usage privé sur votre terrain, aucune certification n'est requise. CZN inclut une formation de 30 min à la livraison.
+
+### Quelle profondeur de fouille pour une piscine ?
+
+Pour 1,50 m d'eau, la fouille doit atteindre 1,70 à 1,90 m (profondeur + 20 cm de lit drainant). Les 1,8 à 2,5 T atteignent aisément ces profondeurs.
+
+### Que faire de la terre extraite ?
+
+Réutilisez-la pour niveler, créer des buttes ou remblayer. L'excédent va en déchetterie (gratuit pour terre propre) ou via des sites de dons de matériaux.
+
+### La piscine doit-elle être déclarée aux impôts ?
+
+Oui. Elle augmente la valeur cadastrale (majoration de taxe foncière). Déclaration dans les 90 jours via le Cerfa 6704. Certaines communes exonèrent les deux premières années.
+
+Sommaire
+
+* [Pourquoi une mini-pelle ?](#pourquoi)
+* [Types de piscine](#types)
+* [Quel tonnage ?](#tonnage)
+* [Dimensions de fouille](#dimensions)
+* [Réglementation](#reglementation)
+* [Les étapes](#etapes)
+* [Gestion des déblais](#deblais)
+* [Erreurs à éviter](#erreurs)
+* [Modèles CZN](#modeles)
+* [Louer ou acheter ?](#cout)
+* [FAQ](#faq)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Usages
+Mini-pelle pour terrassement
+Tonnage par type de sol, accessoires, techniques et coûts au m³. Le guide complet.](https://czn-machinery.com/guides/mini-pelle-terrassement/)
+[Fondamentaux
+Micro-pelle : tout savoir
+Définition, avantages, utilisations et prix de la mini-pelle de moins d'une tonne.](https://czn-machinery.com/guides/micro-pelle-tout-savoir/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Entretien mini-pelle : guide pratique complet | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Entretien
+
+Entretien
+
+# Entretien mini-pelle : le guide pratique
+
+Vidange, filtres, graissage, chenilles, hydraulique : le planning de maintenance complet pour faire durer votre mini-pelle 8 000 à 12 000 heures.
+
+⏱ 12 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Un entretien régulier est essentiel pour maximiser la durée de vie de votre **mini-pelle** et éviter les pannes coûteuses. Une machine bien entretenue dure **8 000 à 12 000 heures**, soit 15 à 20 ans à raison de 500 à 600 heures par an. À l'inverse, une machine négligée peut tomber en panne irréparable dès 1 500 à 2 000 heures.
+
+Le coût d'un entretien bien suivi sur 3 ans est de l'ordre de **500 à 900 €** en pièces — à comparer aux 5 000 à 15 000 € qu'une panne majeure (pompe hydraulique, moteur) peut coûter.
+
+## Planning de maintenance par intervalles
+
+### Avant chaque utilisation (quotidien)
+
+* **Niveau d'huile moteur** : vérifiez à la jauge, complétez si besoin
+* **Niveau d'huile hydraulique** : voyant ou jauge du réservoir
+* **Niveau de carburant** : ne jamais faire tourner à sec (risque d'air dans le circuit)
+* **Liquide de refroidissement** : à froid, dans le vase d'expansion
+* **Tension des chenilles** : une chenille trop lâche peut se déchausser
+* **Flexibles hydrauliques visibles** : absence de fuite ou d'abrasion
+* **Sécurités** : siège et verrouillage du bras fonctionnels
+
+### Toutes les 8 à 10 heures
+
+* Graissage des articulations du bras (flèche, balancier, godet — graisse lithium EP2)
+* Graissage des articulations de la lame
+* Graissage de l'anneau de rotation (couronne de pivotement)
+
+### Toutes les 50 heures
+
+* Vérification/dépoussiérage du filtre à air
+* Contrôle de la courroie d'alternateur (tension, craquelures)
+* Jeu dans les axes d'articulation
+* Serrage des boulons de patins de chenilles
+* Indicateur de colmatage du filtre hydraulique
+
+### Toutes les 100 heures
+
+* Drainage du décanteur eau/carburant
+* Contrôle du jeu de soupapes (moteurs Laidong, KOOP)
+* Vérification de la pression hydraulique
+
+### Toutes les 200 à 250 heures
+
+* Vidange moteur complète (à chaud) + remplacement filtre à huile
+* Remplacement filtre à carburant et filtre à air
+* Nettoyage du radiateur à l'air comprimé (sens inverse)
+
+### Toutes les 500 heures
+
+* Remplacement du filtre hydraulique (retour + pilotage)
+* Vidange des réducteurs de translation et de rotation
+* Contrôle complet des flexibles hydrauliques
+
+### Toutes les 1 000 heures (ou annuellement)
+
+* Vidange complète de l'huile hydraulique + rinçage du réservoir
+* Remplacement du liquide de refroidissement
+* Contrôle des soudures et de la structure (bras, flèche, châssis)
+* Révision des vérins (joints de tiges)
+
+## Huiles et lubrifiants recommandés
+
+| Circuit | Spécification | Quantité |
+| --- | --- | --- |
+| Huile moteur | 15W-40 API CF-4/CG-4 | 2,5 à 4,5 L |
+| Huile hydraulique | ISO VG 46 anti-usure (HM46) | 18 à 35 L |
+| Réducteur translation | SAE 90 EP GL-4 | 0,2 à 0,5 L / réducteur |
+| Réducteur rotation | SAE 90 EP GL-4 | 0,3 à 0,6 L |
+| Graissage articulations | Graisse lithium EP2 (NLGI 2) | Variable |
+| Refroidissement | Eau + antigel 50/50 | 3 à 6 L |
+
+Les quantités exactes figurent dans le carnet d'entretien de votre machine.
+
+## Problèmes courants et dépannage
+
+### Surchauffe moteur
+
+Arrêtez immédiatement la machine si la température dépasse le seuil d'alerte. Causes fréquentes : niveau de refroidissement insuffisant, radiateur encrassé, courroie de ventilateur cassée/lâche, thermostat défaillant, ou usage prolongé à pleine puissance par temps chaud (faites des pauses toutes les 2 h en été).
+
+### Fuites hydrauliques
+
+Tâche d'huile, niveau qui baisse ou perte de puissance. Causes : joint de tige de vérin, flexible endommagé (**remplacement immédiat** — risque de projection sous pression), raccord dévissé/fissuré, ou joint de pompe.
+
+### Difficultés de démarrage
+
+Batterie déchargée (cause n°1, surtout en hiver), filtre à carburant colmaté, air dans le circuit (purge), bougies de préchauffage défaillantes, ou huile trop épaisse (passez en 5W-30/10W-30 sous 0 °C).
+
+### Perte de puissance de creusement
+
+Vérifiez dans l'ordre : niveau d'huile hydraulique, pression de service, état du filtre. Une pression sous 200 bars indique un problème de pompe ou de soupape de décharge.
+
+## Hivernage et stockage
+
+Pour un stockage de plus de 4 semaines :
+
+1. Vidange moteur complète (l'huile usée est acide et attaque les joints)
+2. Vérifier l'antigel (protection -25 °C recommandée)
+3. Remplir le réservoir de carburant à 100 % (évite la condensation)
+4. Graisser abondamment toutes les articulations
+5. Rétracter les tiges des vérins (anti-corrosion)
+6. Poser la machine sur cales (soulage les chenilles)
+7. Déconnecter la batterie ou utiliser un mainteneur de charge
+8. Couvrir d'une bâche respirante
+
+Au redémarrage : reconnecter la batterie, vérifier les niveaux, laisser tourner 5 min au ralenti, puis mouvements lents du bras pour réchauffer l'huile.
+
+## Entretien des chenilles
+
+Les chenilles caoutchouc sont des pièces d'usure (1 500 à 3 000 heures selon le terrain). Une chenille bien tendue présente un **affaissement de 10 à 15 mm** au point le plus bas. Réglage via la valve de graissage (ajouter pour tendre, purger pour détendre). Indicateurs d'usure : crampons sous 5 mm, fissures longitudinales profondes, câbles acier visibles (remplacement urgent). Coût d'une paire : **300 à 800 €** selon la taille.
+
+## Entretien du circuit hydraulique
+
+Un suivi rigoureux évite 80 % des pannes hydrauliques. L'huile doit rester **propre, ambre clair** : noire = surchauffe/mélange, laiteuse = présence d'eau. En cas de claquements (cavitation) ou mouvements saccadés, purgez l'air en actionnant lentement tous les mouvements moteur au ralenti. Un flexible en bon état dure 4 à 6 ans : remplacez tout flexible gonflé, fissuré, abrasé ou qui fuit, sans attendre qu'il éclate.
+
+## Remplacement des filtres
+
+**Filtre à huile moteur** : moteur réchauffé, vidange complète, dévissage, joint neuf lubrifié, vissage main + 3/4 de tour (jamais à la clé), remplissage, vérification d'étanchéité. **Filtre à air** : ne pas utiliser d'air comprimé dans le boîtier, respecter l'orientation de la cartouche. **Filtre hydraulique de retour** : machine froide, circuit dépressurisé, joint lubrifié, vissage main + 1/2 tour, vérification du niveau.
+
+## Coût de maintenance sur 3 ans
+
+Pour une mini-pelle à 400 h/an (usage artisanal régulier) :
+
+| Opération | Fréquence | Coût 3 ans |
+| --- | --- | --- |
+| Vidange moteur + filtre huile | 250 h | ~240 € |
+| Filtre à air | 200 h | ~80 € |
+| Filtre carburant | 250 h | ~80 € |
+| Filtre hydraulique | 500 h | ~130 € |
+| Huile hydraulique | 1 000 h | ~100 € |
+| Graisse | Continue | ~90 € |
+| Refroidissement | Annuel | ~60 € |
+| Imprévus | Variable | ~150 € |
+
+**Total estimé : 900 à 1 200 € HT sur 3 ans** en pièces (hors main d'œuvre si vous faites l'entretien vous-même), soit ~25 à 35 €/mois. CZN livre chaque machine avec un **kit de démarrage** (filtres de premier entretien + graisse) offert.
+
+#### Une question technique sur l'entretien ?
+
+Notre SAV à Toulouse vous accompagne par téléphone et fournit un carnet d'entretien adapté à votre modèle.
+
+[Contacter le SAV →](https://czn-machinery.com/contact/)
+
+## Notre accompagnement SAV
+
+Chaque machine est livrée avec un carnet d'entretien détaillé (intervalles et spécifications adaptés au modèle). L'équipe technique de Toulouse accompagne par téléphone. En cas de panne, intervention dans toute la France avec stock permanent de pièces — la majorité des interventions sont résolues en moins de 5 jours ouvrés. Sous garantie (24 mois), déplacement et main d'œuvre pris en charge intégralement. Au-delà, des contrats d'entretien annuels sont disponibles.
+
+Sommaire
+
+* [Planning par intervalles](#planning)
+* [Huiles & lubrifiants](#huiles)
+* [Dépannage courant](#problemes)
+* [Hivernage & stockage](#hivernage)
+* [Entretien des chenilles](#chenilles)
+* [Circuit hydraulique](#hydraulique)
+* [Remplacement des filtres](#filtres)
+* [Coût sur 3 ans](#cout)
+* [Accompagnement SAV](#sav)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Réglementation
+CACES mini-pelle : quelle certification ?
+Formation R482 catégorie A : durée, prix, validité, usage privé vs professionnel.](https://czn-machinery.com/guides/caces-mini-pelle/)
+[Fondamentaux
+Qu'est-ce qu'une mini-pelle ?
+Définition, catégories par tonnage (800 kg à 6 T), composants clés et fonctionnement.](https://czn-machinery.com/guides/quest-ce-quune-mini-pelle/)
+[Achat
+Mini-pelle : acheter ou louer ?
+Comparatif détaillé des coûts. L'achat est rentable dès 15 jours d'utilisation par an.](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mini-chargeur (chargeuse compacte) : guide complet | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Fondamentaux
+
+Fondamentaux
+
+# Guide complet du mini-chargeur
+
+Chargeuse compacte / skid steer : fonctionnement, choix roues vs chenilles, usages, accessoires, sécurité, entretien et financement. 6 modèles CZN dès 6 336 € HT.
+
+⏱ 11 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Un **mini-chargeur** — aussi appelé chargeuse compacte, skid steer ou chargeur compact — est un engin polyvalent conçu pour charger, déplacer et manipuler des matériaux dans des espaces restreints. Pesant entre **700 et 1 800 kg**, il se distingue par sa maniabilité et sa capacité à pivoter sur lui-même grâce à la direction par glissement.
+
+Contrairement à une mini-pelle qui creuse, le mini-chargeur est avant tout une machine de **transport et de manutention**. Les deux sont complémentaires : la pelle creuse et charge, le chargeur déplace et répartit.
+
+## Comment fonctionne un mini-chargeur ?
+
+### La direction par glissement (skid steering)
+
+Les deux côtés sont entraînés indépendamment : pour tourner, on ralentit un côté tout en maintenant l'autre. La machine pivote sur place (rotation 360°) sans rayon de braquage — son principal atout en espace confiné.
+
+### Le système hydraulique de levage
+
+Le bras est actionné par des vérins double-effet (150 à 250 bars). Les modèles haut de gamme ont un **débit hydraulique auxiliaire** pour alimenter des accessoires (balayeuse, broyeur, compacteur).
+
+### La transmission hydrostatique
+
+Le moteur entraîne une pompe qui alimente des moteurs hydrauliques aux roues/chenilles : pas de boîte de vitesses, variation continue, forte traction à basse vitesse — idéal pour pousser ou travailler en pente.
+
+## Roues ou chenilles : quel type choisir ?
+
+**Sur roues** : vitesse supérieure (jusqu'à 5,5 km/h), idéal sur sol dur (béton, asphalte), n'abîme pas les surfaces revêtues, entretien simple, dès 6 336 € HT. **Sur chenilles** : traction et stabilité supérieures sur terrain meuble, excellente adhérence en pente et sur sol humide, pression au sol réduite, dès 7 500 € HT.
+
+En règle générale : **roues** pour le béton, l'asphalte et les bâtiments ; **chenilles** pour le boueux, le sableux, l'herbe ou la pente.
+
+## Les principaux usages
+
+* **BTP et construction** : chargement de gravats, approvisionnement, nettoyage de chantier
+* **Agriculture et élevage** : fourrage, curage d'étables, manutention de balles
+* **Aménagement paysager** : terre végétale, gravillons
+* **Communes** : déneigement, entretien de voirie
+* **Industrie et logistique** : palettes, nettoyage d'entrepôts
+
+## Comment bien choisir son mini-chargeur
+
+1. **Capacité de charge** : 150 à 380 kg
+2. **Capacité du godet** : 0,08 à 0,15 m³
+3. **Hauteur de levée** : jusqu'à 2,47 m
+4. **Type de terrain** : roues (dur) ou chenilles (meuble)
+5. **Puissance moteur** : 9,7 à 15 kW
+6. **Largeur de passage** : dès 950 mm
+
+## Comparatif des 6 modèles CZN
+
+| Modèle | Type | Charge | Godet | Levée | Prix HT |
+| --- | --- | --- | --- | --- | --- |
+| LTH 280 W (LEITE) | Roues | 150 kg | 0,08 m³ | 1,80 m | 6 336 € |
+| SJ-460 W (SONCA) | Roues | 400 kg | 0,12 m³ | 2,45 m | 7 500 € |
+| SJ-460 T (SONCA) | Chenilles | 400 kg | 0,12 m³ | 2,45 m | 7 500 € |
+| LTH 380 W (LEITE) | Roues | 300 kg | 0,12 m³ | 2,35 m | 9 250 € |
+| SJ-490 W (SONCA) | Roues | 350 kg | 0,13 m³ | 2,47 m | 9 500 € |
+| LTH 380 T (LEITE) | Chenilles | 380 kg | 0,15 m³ | 2,40 m | 9 750 € |
+
+Le **LTH 280 W** convient au particulier et au paysagiste (charges légères). Le **LTH 380 T** sur chenilles (380 kg, 15 kW) vise l'usage professionnel intensif tous terrains.
+
+## Accessoires disponibles
+
+**Godet de chargement** (de série), **fourches à palettes** (transforme la machine en chariot élévateur), **balayeuse rotative** hydraulique (voies, parkings), **godet à dents** (décompactage léger, mélange), **lame de déneigement/nivellement**.
+
+## Sécurité et bonnes pratiques
+
+**Avant de démarrer** : vérifiez les niveaux, l'état des roues/chenilles, dégagez la zone. **Pendant le travail** : circulez godet à 20-30 cm du sol, ne dépassez jamais la capacité nominale, montez/descendez perpendiculairement aux pentes, attention aux lignes aériennes, ne transportez jamais de personnes. **CACES** : R482 catégorie F (conducteur à pied) ou C1 (conducteur porté) en professionnel ; rien en usage privé.
+
+#### 6 mini-chargeurs dès 6 336 € HT
+
+Roues ou chenilles, garantie 24 mois, SAV France, financement 12 à 60 mois.
+
+[Voir la gamme →](https://czn-machinery.com/mini-chargeurs/)
+
+## Les bases de l'entretien
+
+* Vidange moteur : toutes les 200 à 250 h
+* Filtres (air, huile, carburant) : vérification toutes les 50 h
+* Graissage des articulations : toutes les 8 à 10 h
+* Niveau hydraulique : avant chaque utilisation
+* Pneus (roues) : hebdomadaire ; tension chenilles : mensuelle
+
+Bien entretenu, un mini-chargeur atteint **5 000 à 8 000 heures**. Carnet d'entretien français livré avec chaque machine.
+
+## Financement et calcul de ROI
+
+**Scénario paysagiste :** location de 60 jours/an × 300 € = 18 000 €/an. Achat du LTH 380 W (9 250 € HT) en leasing 48 mois ≈ 210 €/mois (2 520 €/an) + 400 € d'entretien = 2 920 €/an. **Économie de 15 080 € dès la 1re année**, rentabilisé en moins de 8 mois.
+
+| Modèle | Prix HT | 36 mois | 48 mois |
+| --- | --- | --- | --- |
+| LTH 280 W | 6 336 € | ~197 € | ~153 € |
+| SJ-460 W/T | 7 500 € | ~233 € | ~181 € |
+| LTH 380 W | 9 250 € | ~288 € | ~223 € |
+| SJ-490 W | 9 500 € | ~295 € | ~229 € |
+| LTH 380 T | 9 750 € | ~303 € | ~235 € |
+
+Pour les professionnels assujettis, les loyers de leasing sont intégralement déductibles.
+
+## FAQ mini-chargeur
+
+### Quelle différence avec une mini-pelle ?
+
+Le mini-chargeur *déplace* les matériaux en surface avec son godet frontal ; la mini-pelle *creuse* avec son bras articulé. Ils sont complémentaires.
+
+### Peut-on l'utiliser à l'intérieur d'un bâtiment ?
+
+Oui, si dimensions et plancher le permettent. Les modèles sur roues sont préférables. Le LTH 280 W (950 mm) entre dans la plupart des espaces accessibles.
+
+### Faut-il un permis spécial ?
+
+En professionnel, CACES R482 selon la configuration. En usage privé, aucune certification. Formation de prise en main incluse.
+
+### Un mini-chargeur peut-il remplacer une mini-pelle pour creuser ?
+
+Non. Il décape les premiers centimètres mais ne creuse pas en profondeur. Au-delà de 20-30 cm, la mini-pelle est indispensable.
+
+### Quelle durée de vie ?
+
+Plus de 5 000 à 8 000 heures avec un entretien régulier, soit 12 à 20 ans à 400 h/an.
+
+Sommaire
+
+* [Comment ça fonctionne](#fonctionnement)
+* [Roues ou chenilles ?](#roues-chenilles)
+* [Les usages](#usages)
+* [Comment choisir](#choisir)
+* [Comparatif 6 modèles](#comparatif)
+* [Accessoires](#accessoires)
+* [Sécurité](#securite)
+* [Entretien](#entretien)
+* [Financement & ROI](#roi)
+* [FAQ](#faq)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Achat
+Mini-dumper : le guide d'achat
+Types, capacités, prix dès 3 894 € HT. Comparatif des 7 modèles CZN avec garantie 24 mois.](https://czn-machinery.com/guides/mini-dumper-guide-achat/)
+[Achat
+Mini-pelle : acheter ou louer ?
+Comparatif détaillé des coûts. L'achat est rentable dès 15 jours d'utilisation par an.](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Micro-pelle : tout savoir sur la mini-pelle < 1 T | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Fondamentaux
+
+Fondamentaux
+
+# Micro-pelle : tout savoir avant d'acheter
+
+Définition, avantages, usages, transport au permis B, entretien et prix de la mini-pelle de moins d'une tonne. Comparatif détaillé des 3 micro-pelles CZN dès 5 250 € HT.
+
+⏱ 12 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Une **micro-pelle** — aussi appelée micro-pelleteuse ou mini-pelle de moins de 1 tonne — est un engin compact sur chenilles dont le poids opérationnel ne dépasse pas **1 000 kg**. C'est la catégorie la plus légère, conçue pour les travaux en espaces très restreints, transportable avec un simple permis B.
+
+Elle se distingue par sa **compacité extrême** (dès 754 mm de largeur), son poids plume qui préserve les sols fragiles, et sa facilité de transport sur petite remorque.
+
+## Les avantages d'une micro-pelle
+
+* **Ultra-compacte** : dès 754 mm, passe tous les portails standards
+* **Transportable sur petite remorque** : 800 à 995 kg, tractable avec permis B
+* **Accessible aux particuliers** : prise en main en 30 min
+* **Préserve les sols** : faible pression (moins de 0,5 kg/cm²)
+* **Stockage facile** : se range dans un garage standard
+* **Prix accessible** : dès 4 125 € HT
+* **Usage intérieur** : la CL08 (754 mm) passe une porte standard
+
+## À quoi sert une micro-pelle ?
+
+* **Aménagement de jardin** : massifs, plantation d'arbres, bassins, modelage
+* **Tranchées** : eau, électricité, fibre, drainage jusqu'à 1,70 m
+* **Terrassement léger** : terrasse, dalle, fondations d'abri, décapage
+* **Espaces confinés** : cours intérieures, jardins enclavés
+* **Assainissement** : fossés, regards, drains
+* **Pose de clôtures** : trous de poteaux à la tarière
+
+Au-delà de 1,70 m de profondeur, orientez-vous vers une mini-pelle de 1,2 à 2 tonnes.
+
+## Critères clés de comparaison
+
+* **Poids opérationnel** : 800 à 995 kg (portance et transport)
+* **Largeur hors tout** : dès 754 mm (accès au chantier)
+* **Profondeur d'excavation** : 1,41 m (CL08) à 1,73 m (CL10S)
+* **Puissance moteur** : 10 à 10,2 CV diesel KOOP
+* **Flèche orientable** : creuser le long d'un mur (CL10S, SJW-12F)
+* **Force d'arrachage** : capacité dans les sols compactés
+
+## Comparatif des 3 micro-pelles CZN
+
+| Caractéristique | CL08 | CL10S | SJW-12F |
+| --- | --- | --- | --- |
+| Marque | LEITE | LEITE | SONCA |
+| Poids | 800 kg | 860 kg | 995 kg |
+| Largeur | **754 mm** | 930 mm | 1 000 mm |
+| Profondeur max | 1 410 mm | **1 725 mm** | 1 650 mm |
+| Déversement | 1 900 mm | 2 400 mm | 2 350 mm |
+| Puissance | 10,2 CV | 10 CV | 10 CV |
+| Force d'arrachage | 5,2 kN | 6,1 kN | 5,8 kN |
+| Flèche orientable | Non | Oui | Oui |
+| Usage intérieur | **Oui** | Limite (93 cm) | Non |
+| Prix HT | **5 250 €** | 6 100 € | 6 425 € |
+
+La **CL08** pour les passages très étroits ou l'intérieur. La **CL10S** pour plus de profondeur et la flèche orientable. La **SJW-12F** pour les sols un peu plus compactés.
+
+## Scénarios réels d'utilisation
+
+### Tranchée fibre optique
+
+Fibre posée à 40-60 cm dans une tranchée de 15-20 cm : cas d'usage idéal. Un artisan pose 50 à 80 m/jour en terrain meuble contre 15 à 20 m à la main, sans détruire le jardin.
+
+### Mini-terrassement jardin
+
+Terrasse béton de 30 m² (décaper 25 cm, ~8 m³) : 2-3 jours à la main, 3-4 heures avec une CL08, accès par un portail de 75 cm sans abîmer la pelouse.
+
+### Pose de clôture
+
+50 m de clôture (25 trous tous les 2 m) : avec une tarière hydraulique, la CL10S fait les trous en une demi-journée, alignés et à profondeur constante.
+
+## Ce qu'une micro-pelle ne peut pas faire
+
+* **Profondeur > 1,70 m** : passez à une 1,5-2 T
+* **Terrains rocheux/très argileux** : puissance hydraulique insuffisante
+* **Volumes > 30-40 m³** : godet trop petit (~40 L)
+* **Gros travaux de démolition** : masse insuffisante
+* **Pentes > 20°** : instabilité (empattement réduit)
+* **Levage lourd** : capacité de 150 à 250 kg seulement
+
+## Transport : choisir la bonne remorque
+
+800 à 995 kg = **transportable au permis B** (PTAC tracteur + remorque chargée < 3 500 kg). Il faut une **remorque porte-engins** : PTAC min 1 500 kg, plateau bas (< 35 cm), largeur ≥ 1,20 m, rampes solides (min 1 200 kg, angle max 15°), 4 sangles d'arrimage. Chargez à la translation en 1re vitesse, centrez, verrouillez godet et lame, sanglez en croix, revérifiez après 10 km.
+
+## Entretien spécifique
+
+Particularités liées à la taille : **graissage strict toutes les 8 h** (petits axes plus sollicités), tension des chenilles toutes les 10 h en argile, filtre à air toutes les 50 h (impact disproportionné sur 10 CV), vidange toutes les 200-250 h, lavage après chaque usage en argile. Durée de vie : **4 000 à 6 000 heures** — soit 10 à 15 ans à 400 h/an.
+
+#### La micro-pelle dès 5 250 € HT
+
+3 modèles compacts, livrés montés avec formation, garantie 24 mois et SAV France.
+
+[Voir les micro-pelles →](https://czn-machinery.com/mini-pelles/)
+
+## Assurance et responsabilité
+
+**Particuliers** : généralement couverte par la multirisque habitation (vérifiez les engins motorisés) ; sinon assurance engin de chantier (100 à 200 €/an). **Professionnels** : RC Pro + idéalement tout risque chantier. **Transport** : déclarez la remorque à votre assureur (immatriculation obligatoire si > 750 kg de PTAC).
+
+## Acheter ou louer ?
+
+Location : 200 à 350 €/jour. Achat : dès 4 125 € HT. **Moins de 10 jours/an** : location possible. **10 à 15 jours/an** : achat rentabilisé en 2-3 ans. **Plus de 15 jours/an** : achat systématiquement plus économique. Une CL08 à 5 250 € vaut encore 3 500 à 4 000 € après 3 ans (à déduire du coût réel).
+
+## Nos micro-pelles CZN
+
+3 modèles avec garantie 24 mois et SAV France : **CL08** (754 mm, 5 250 €) pour les accès très étroits et l'intérieur, **CL10S** (6 100 €) pour plus de profondeur et la flèche orientable (meilleur rapport polyvalence/prix), **SJW-12F** (6 425 €) la plus lourde. Toutes livrées montées avec formation de 30 min, financement 12 à 60 mois disponible.
+
+## FAQ micro-pelle
+
+### Peut-on l'utiliser sur pelouse sans l'abîmer ?
+
+Oui, les chenilles caoutchouc exercent ~0,3 à 0,5 kg/cm² (comme un adulte qui marche). Sur pelouse sèche, dégâts minimes ; sur sol détrempé, posez des plaques de roulage.
+
+### Peut-elle passer par une porte de maison ?
+
+Seule la CL08 (754 mm) passe une porte standard (83-93 cm). Vérifiez aussi la hauteur bras replié et la charge admissible du plancher.
+
+### Faut-il un permis spécial ?
+
+Usage privé : aucun. Usage professionnel : CACES R482 catégorie A obligatoire quel que soit le tonnage.
+
+### Peut-elle creuser dans un sol gelé ?
+
+Non, pas efficacement : le gel durcit le sol et surcharge le circuit hydraulique. Attendez le dégel (un gel superficiel peut être décollé au brise-roche léger).
+
+### Peut-on monter un brise-roche ?
+
+Techniquement oui (classe 50-80 kg sur CL10S/SJW-12F), mais la puissance limite l'efficacité aux bordures et dalles minces, pas à la roche dense.
+
+### Quelle consommation de carburant ?
+
+Un moteur KOOP 10 CV consomme ~1 à 2 L/h, soit 8 à 15 L sur une journée de 8 h (10 à 20 €) — un atout majeur des micro-pelles.
+
+Sommaire
+
+* [Les avantages](#avantages)
+* [À quoi ça sert](#usages)
+* [Critères de choix](#criteres)
+* [Comparatif 3 modèles](#comparatif)
+* [Scénarios réels](#scenarios)
+* [Les limites](#limitations)
+* [Transport & remorque](#transport)
+* [Entretien](#entretien)
+* [Assurance](#assurance)
+* [Acheter ou louer ?](#acheter-louer)
+* [Nos micro-pelles](#modeles)
+* [FAQ](#faq)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Comparatifs
+Comparatif des mini-pelles 2026
+19 modèles de 600 kg à 4 T dès 4 125 € HT. La meilleure mini-pelle selon votre usage.](https://czn-machinery.com/guides/comparatif-mini-pelles-2026/)
+[Achat
+Mini-pelle : acheter ou louer ?
+Comparatif détaillé des coûts. L'achat est rentable dès 15 jours d'utilisation par an.](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mini-dumper (mini-tombereau) : guide d'achat complet 2026 | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Achat
+
+Achat
+
+# Mini-dumper : le guide d'achat complet
+
+Mini-tombereau sur chenilles : fonctionnement, capacités terrain, critères de choix, comparatif des 7 modèles CZN dès 3 894 € HT, et le duo gagnant avec la mini-pelle.
+
+⏱ 12 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Un **mini-dumper** — aussi appelé mini-tombereau, dumper compact ou transporteur à chenilles — est un engin motorisé conçu pour le **transport de matériaux en vrac** sur terrains difficiles. Monté sur chenilles caoutchouc, il combine une benne basculante hydraulique et un moteur diesel compact (400 à 800 kg).
+
+Ce n'est pas un engin de creusement : c'est un engin de **transport**, conçu pour travailler en complément d'une mini-pelle ou d'un mini-chargeur, en navettant entre chargement et déchargement.
+
+## Comment fonctionne un mini-dumper ?
+
+### Transmission et traction
+
+Transmission mécanique à 1 ou 2 vitesses. La 1re (~1,7 km/h) offre une traction maximale (montées chargées, terrain meuble), la 2e (jusqu'à 5 km/h) pour les trajets à vide. Direction par différentiel de chenilles via deux leviers.
+
+### Basculement hydraulique de la benne
+
+La benne se lève via un vérin simple effet (3 à 5 secondes). Les modèles à benne télescopique atteignent une hauteur de déversement de 1,75 m — de quoi charger directement un camion.
+
+### Moteur diesel
+
+Monocylindres de 6,5 à 13,5 CV, refroidis par air (entretien simplifié). Consommation : 0,8 à 1,5 L/h.
+
+## À quoi sert un mini-dumper ?
+
+* **Transport de matériaux** : sable, gravier, ciment, parpaings, béton
+* **Évacuation de terre et déblais** : souvent en complément d'une mini-pelle
+* **Évacuation de gravats** : démolition, rénovation
+* **Aménagement paysager** : terre végétale, compost, pierres
+* **Travaux agricoles** : récoltes, foin, engrais
+* **Espaces verts** : collecte de déchets verts
+
+Grâce à ses chenilles, il excelle sur terrains accidentés, boueux ou en pente (jusqu'à 20°).
+
+## Capacités terrain et limitations
+
+**Points forts :** terrains meubles et boueux (pression au sol inférieure à celle d'un homme), pentes jusqu'à 20° en charge, espaces étroits (largeur 870 mm, braquage < 1 m), distances courtes à moyennes (50 à 200 m).
+
+**Limitations :** vitesse max 5 km/h (un camion-benne reste plus efficace au-delà de 500 m), protection des revêtements fins, et au-delà de 20° en charge la stabilité n'est plus garantie — réduisez le chargement de 30 à 40 % en forte pente, et ne déversez jamais en bord de talus.
+
+## Comment bien choisir son mini-dumper
+
+1. **Capacité de chargement** : 500 à 800 kg (benne 0,15 à 0,22 m³)
+2. **Puissance moteur** : 6,5 à 13,5 CV (privilégiez 10 CV+ en terrain pentu)
+3. **Nombre de vitesses** : 1 (~1,7 km/h) ou 2 (1,7 à 5 km/h)
+4. **Type de démarrage** : électrique (pratique) ou manuel (économique)
+5. **Dimensions** : largeur 870 mm, braquage 0,95 m
+
+## Nos 7 modèles : comparatif et prix
+
+| Modèle | Marque | Capacité | Puissance | Vitesses | Prix HT |
+| --- | --- | --- | --- | --- | --- |
+| CL-05MS | LEITE | 500 kg | 6,5 CV | 1 | 3 894 € |
+| MT4000 | SONCA | 500 kg | 6,5 CV | 1 | 4 125 € |
+| CL-05ED | LEITE | 500 kg | 6,5 CV | 2 | 4 356 € |
+| LTD-05A | LEITE | 500 kg | 13,5 CV | 1 | 4 658 € |
+| MT2000 | SONCA | 500 kg | 6,5 CV | 2 | 5 700 € |
+| MT3000 | SONCA | 500 kg | 10 CV | 2 | 5 700 € |
+| MT1000 | SONCA | 800 kg | 10 CV | 2 | 6 950 € |
+
+## Sécurité et bonnes pratiques
+
+* **Ne jamais transporter de personnes** dans la benne ou sur la machine
+* **Benne abaissée et verrouillée** avant tout déplacement (jamais benne haute)
+* **Réduisez la charge en pente** (> 15° : −30 à 40 %)
+* **Déversement** sur terrain plat et stable uniquement
+* **Communiquez** avec l'opérateur de pelle, hors rayon de rotation
+
+EPI de base : chaussures de sécurité, casque, gants.
+
+## Mini-pelle + mini-dumper : le duo gagnant
+
+La pelle creuse et charge la benne ; pendant que le dumper transporte, la pelle continue à creuser. Ce cycle continu **élimine les temps d'attente**.
+
+Sur un chantier de piscine (30 m³) : mini-pelle seule + brouettes = 2 à 3 jours pour 2 personnes ; mini-pelle + mini-dumper = 1 à 1,5 jour. **Gain de 40 à 60 %.** Dimensionnement : un godet de 400 mm (0,10 à 0,15 m³) correspond à un dumper de 500 kg ; pour une pelle de 3 T à grand godet, le MT1000 (800 kg).
+
+#### Pack mini-pelle + mini-dumper
+
+Financez les deux engins sur le même contrat, avec des conditions préférentielles.
+
+[Demander un devis pack →](https://czn-machinery.com/contact/)
+
+## Entretien et durée de vie
+
+* Vidange moteur : toutes les 200 h
+* Filtre à air : vérification toutes les 50 h
+* Niveau hydraulique : avant chaque utilisation
+* Tension des chenilles : mensuelle ; graissage : toutes les 10 h
+
+Bien entretenu, un mini-dumper dure **8 000 à 10 000 heures**. Pièces d'usure : chenilles (2 000 à 3 000 h), joints de vérin (1 500 à 2 000 h). Stock de pièces permanent chez CZN.
+
+## Mini-dumper vs transport manuel
+
+Capacité de 500 kg par voyage contre 40-60 kg à la brouette (**10 fois plus**). Pour 20 m³ : 2 heures au dumper vs une journée à la brouette. Avec un prix d'entrée à **3 894 € HT**, l'investissement est amorti en quelques chantiers.
+
+## Options de financement
+
+| Modèle | Prix HT | 24 mois | 48 mois |
+| --- | --- | --- | --- |
+| CL-05MS | 3 894 € | ~175 € | ~94 € |
+| CL-05ED / MT4000 | 4 125-4 356 € | ~185-196 € | ~100-105 € |
+| MT2000 / MT3000 | 5 700 € | ~256 € | ~138 € |
+| MT1000 (800 kg) | 6 950 € | ~312 € | ~168 € |
+
+Pour les professionnels, les loyers de leasing sont déductibles et la TVA récupérable.
+
+## FAQ mini-dumper
+
+### Quelle différence avec une brouette motorisée ?
+
+Une brouette motorisée (1 roue, 100-200 kg) est poussée par l'opérateur. Un mini-dumper est autonome sur chenilles (500 à 800 kg, benne hydraulique), 3 à 5 fois plus capacitaire et adapté aux terrains difficiles.
+
+### Peut-il circuler sur la voie publique ?
+
+Non, ce sont des engins de chantier sans homologation route. Transport sur remorque porte-engins entre sites.
+
+### Quelle capacité pour une mini-pelle 2 tonnes ?
+
+Un godet de 400-500 mm déplace 0,12 à 0,18 m³ : un dumper de 500 kg convient. Pour une pelle de 3 T ou grand godet, le MT1000 (800 kg).
+
+### Est-il difficile à conduire ?
+
+Non, 15 à 30 minutes suffisent. Deux leviers de chenilles et un levier de benne. Formation incluse à la livraison.
+
+Sommaire
+
+* [Comment ça fonctionne](#fonctionnement)
+* [À quoi ça sert](#usages)
+* [Capacités & limites](#capacites)
+* [Comment choisir](#choisir)
+* [Comparatif 7 modèles](#comparatif)
+* [Sécurité](#securite)
+* [Le duo gagnant](#duo)
+* [Entretien](#entretien)
+* [Vs transport manuel](#rentabilite)
+* [Financement](#financement)
+* [FAQ](#faq)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Fondamentaux
+Guide complet du mini-chargeur
+Chargeuse compacte / skid steer : types, usages, roues vs chenilles, entretien et avantages.](https://czn-machinery.com/guides/guide-complet-mini-chargeur/)
+[Usages
+Mini-pelle pour terrassement
+Tonnage par type de sol, accessoires, techniques et coûts au m³. Le guide complet.](https://czn-machinery.com/guides/mini-pelle-terrassement/)
+[Usages
+Creuser une piscine avec une mini-pelle
+Tonnage recommandé, étapes de terrassement, dimensions, coût et modèles adaptés.](https://czn-machinery.com/guides/creuser-piscine-mini-pelle/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mini-pelle : acheter ou louer ? Comparatif 2026 | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Achat
+
+Achat
+
+# Mini-pelle : acheter ou louer ?
+
+Comparatif détaillé des coûts, avantages et inconvénients. L'achat devient rentable dès 15 jours d'utilisation par an — on vous montre le calcul par profil.
+
+⏱ 8 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Le choix entre **achat et location** dépend essentiellement de la fréquence d'utilisation et du budget. La règle simple : en dessous de 5 jours d'utilisation par an, la location peut se justifier ; dès 15 jours par an, l'achat devient le choix rationnel. On détaille les vrais coûts et le calcul de rentabilité par profil.
+
+## Acheter ou louer : le comparatif
+
+### Acheter une mini-pelle
+
+* Rentable dès 15-20 jours d'utilisation par an
+* Disponible immédiatement, pas de réservation
+* Revente possible avec bonne valeur résiduelle
+* Financement possible sur 12 à 60 mois
+* Dès 4 125 € HT en neuf
+
+### Louer une mini-pelle
+
+* Idéal pour un usage ponctuel (1 à 5 jours)
+* Pas d'entretien ni de stockage à gérer
+* Coût élevé sur la durée (200-400 €/jour)
+* Disponibilité non garantie en haute saison
+
+## Les vrais coûts de la location
+
+Le **tarif journalier affiché** n'est que la partie visible de l'iceberg. Voici le détail complet des coûts à intégrer :
+
+| Poste de coût | Mini-pelle 1,5 T | Mini-pelle 2,5 T |
+| --- | --- | --- |
+| Tarif journalier (hors week-end) | 200 à 280 € HT | 280 à 400 € HT |
+| Transport aller-retour | 80 à 200 € HT | 120 à 250 € HT |
+| Assurance dommages | 20 à 40 €/jour | 30 à 60 €/jour |
+| Caution bloquée | 500 à 1 500 € | 1 000 à 3 000 € |
+| Carburant (non inclus) | 4 à 8 L/h | 5 à 10 L/h |
+| Accessoires (si non fournis) | 30 à 80 €/jour | 40 à 100 €/jour |
+
+En réalité, une journée de location d'une mini-pelle 1,5 T revient à **350 à 550 € HT tout compris**. Une semaine complète : **1 750 à 2 750 € HT** — on approche déjà du prix d'une micro-pelle CZN neuve avec garantie 24 mois. En haute saison (avril à octobre), les tarifs grimpent de 20 à 40 % et les machines exigent une réservation 2 à 4 semaines à l'avance.
+
+## Calcul de rentabilité par profil
+
+### Paysagiste professionnel — 30 jours/an
+
+**Location :** 30 jours × 400 €/jour = **12 000 €/an**. **Achat :** une 1,8 T à 11 666 € HT + 1 000 € d'accessoires + 300 €/an d'entretien = 12 666 € la première année, puis 300 €/an. L'achat est rentabilisé **dès la première année**, avec ~22 700 € d'économies sur 3 ans, sans compter la revente (~7 500 € après 3 ans).
+
+### Particulier — projet maison + entretien
+
+Pour un gros projet (piscine ou fondations) puis 5 à 10 jours/an d'entretien : location ~1 350 € pour le projet puis 2 450 €/an. Achat d'une 1,2 T à 6 875 € HT + 400 € d'accessoires = 7 275 €. **Point mort en 2,5 à 3 ans**, la machine vaut encore 4 000 à 5 000 € après 5 ans.
+
+### Artisan BTP — usage quotidien
+
+190 jours × 380 €/jour = **72 200 €/an** en location, ce qui n'a aucun sens économique. En achat-leasing, une 3 T revient à ~750 €/mois + 1 000 €/an d'entretien = 10 000 €/an. L'achat est **7 fois moins cher**, rentabilisé en 5 mois.
+
+#### Simulez votre financement
+
+Mensualités souvent inférieures au coût d'une seule journée de location.
+
+[Voir le financement →](https://czn-machinery.com/entreprise/financement/)
+
+## Dépréciation et valeur de revente
+
+Contrairement à un loyer de location qui disparaît, l'achat constitue un actif revendable. Courbes observées sur le marché de l'occasion :
+
+* **Après 1 an (< 200 h)** : 80 à 85 % du prix d'achat
+* **Après 2 ans (200 à 500 h)** : 70 à 75 %
+* **Après 3 ans (500 à 1 000 h)** : 60 à 70 %
+* **Après 5 ans (1 000 à 2 000 h)** : 45 à 55 %
+
+Les machines avec carnet d'entretien complet se revendent 10 à 20 % plus cher que celles sans historique documenté.
+
+## Options de financement
+
+### Crédit classique (12 à 60 mois)
+
+La formule la plus simple : vous devenez propriétaire dès la livraison, mensualités fixes. Une 1,8 T à 11 666 € HT financée sur 48 mois avec 20 % d'apport revient à environ 230 à 280 €/mois — à comparer aux 350-400 €/jour de location.
+
+### LOA — Location avec Option d'Achat
+
+Loyers mensuels réduits avec possibilité de lever l'option d'achat. Idéal si vous souhaitez renouveler régulièrement votre machine.
+
+### Leasing (crédit-bail)
+
+Réservé aux professionnels. Les loyers sont **intégralement déductibles du résultat fiscal**. Une 3 T à 29 854 € HT en leasing 48 mois revient à ~650 à 750 €/mois HT, déductibles à 100 %.
+
+## Avantages fiscaux pour les professionnels
+
+**Récupération de la TVA :** pour tout professionnel assujetti, la TVA (20 %) est récupérable. Sur une 2 T à 14 963 € HT, cela représente 2 993 € récupérés.
+
+**Amortissement :** une mini-pelle s'amortit sur 5 ans. Sur une machine à 11 666 € HT, c'est 2 333 € déduits du résultat imposable chaque année. L'économie fiscale totale représente 30 à 40 % du prix HT. Consultez votre expert-comptable pour votre situation exacte.
+
+## Matrice de décision
+
+| Fréquence d'utilisation | Profil | Recommandation |
+| --- | --- | --- |
+| 1 à 3 jours ponctuels | Particulier projet unique | Louer |
+| 5 à 10 jours/an | Particulier avec terrain | Achat rentable en 3 ans |
+| 15 à 30 jours/an | Particulier actif, artisan débutant | Acheter (rentable dès an 1) |
+| 30 à 80 jours/an | Artisan indépendant régulier | Acheter impérativement |
+| 80 à 200 jours/an | Pro BTP, paysagiste établi | Acheter + leasing fiscal |
+| 200+ jours/an | Entreprise BTP intensif | Flotte de machines |
+
+## Notre verdict
+
+Les mini-pelles neuves CZN démarrent à **4 125 € HT** avec garantie 24 mois et livraison incluse, ce qui rend l'achat très compétitif face à la location dès quelques semaines d'utilisation annuelle. La règle simple : **moins de 5 jours par an, la location se justifie ; dès 15 jours par an, l'achat est le choix rationnel**. Avec les prix CZN, ce seuil de rentabilité est encore plus bas que pour les marques européennes.
+
+Sommaire
+
+* [Le comparatif](#comparatif)
+* [Les vrais coûts de location](#couts-location)
+* [Rentabilité par profil](#roi)
+* [Valeur de revente](#depreciation)
+* [Options de financement](#financement)
+* [Avantages fiscaux](#fiscalite)
+* [Matrice de décision](#matrice)
+* [Notre verdict](#verdict)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Prix d'une mini-pelle neuve en 2026
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](https://czn-machinery.com/guides/prix-mini-pelle/)
+[Achat
+Mini-pelle neuve ou occasion ?
+Comparatif complet : prix, garantie, risques de l'occasion, avantages du neuf.](https://czn-machinery.com/guides/mini-pelle-neuve-ou-occasion/)
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mini-pelle neuve ou occasion : que choisir ? | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Achat
+
+Achat
+
+# Mini-pelle neuve ou occasion : que choisir ?
+
+Comparatif complet : coûts réels, coûts cachés de l'occasion, fraude au compteur d'heures, checklist d'inspection et coût total de possession sur 5 ans.
+
+⏱ 11 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Le marché de la **mini-pelle d'occasion** est actif en France (renouvellements de flotte, liquidations, imports d'Europe du Nord). Les prix vont de **5 000 à 35 000 €** selon le tonnage, les heures et l'état. En apparence un bon plan — la réalité est plus nuancée une fois le coût réel de possession analysé.
+
+## Le marché de l'occasion
+
+Trois types d'occasions : l'**occasion européenne de marque** (Kubota, Yanmar, Bobcat — la plus fiable mais la plus chère, 15 000 à 40 000 €), l'**occasion chinoise de première génération** (6 000 à 15 000 €, sans garantie ni pièces en France), et l'**occasion révisée par un importateur sérieux** (contrôlée, garantie 3 à 6 mois — la meilleure option en occasion).
+
+## Comparatif des coûts réels (1,5-2 T)
+
+| Critère | Neuf CZN | Occasion européenne | Occasion chinoise |
+| --- | --- | --- | --- |
+| Prix d'achat | 11 666 € HT | 15 000 à 25 000 € | 7 000 à 12 000 € |
+| Heures à la livraison | 0 h | 1 500 à 5 000 h | Invérifiables |
+| Garantie | 24 mois P+MO | Aucune (ou 3 mois) | Aucune |
+| Pièces en France | Stock permanent | Réseau concessionnaire | Non (commande Chine) |
+| Pièces d'usure à prévoir | Aucune | 1 500 à 4 000 € | Difficiles à trouver |
+| Remise en état | 0 € | 500 à 3 000 € | Imprévisible |
+| **Coût réel acquisition** | **11 666 €** | 17 000 à 30 500 € | 9 000 à 15 500 € |
+
+Constat fréquent de nos clients : **une mini-pelle CZN neuve est souvent moins chère qu'une occasion européenne** une fois tous les frais comptés, avec une fiabilité supérieure.
+
+## Les coûts cachés de l'occasion
+
+**Pièces d'usure** : à 2 000-4 000 h, chenilles (800 à 2 500 €), flexibles (200 à 800 €), godet (100 à 400 €). **Hydraulique vieillissante** : un vérin qui fuit = 300-600 € par vérin ; une pompe à reconditionner = 1 000 à 3 000 €. **Immobilisation sur panne** : sans garantie, 300 à 600 € de manque à gagner par jour d'arrêt. **Transport** : 500 à 1 500 € (inclus chez CZN).
+
+## La fraude du compteur d'heures
+
+La manipulation du **compteur horaire** est courante : à état égal, une machine à 1 500 h vaut 30 à 50 % de plus qu'à 4 000 h. Il n'existe pas de registre officiel des heures en France. Pour détecter une manipulation : exigez des **factures de maintenance documentées** (12 à 15 factures de vidange sur 3 ans), observez l'**usure réelle** (siège, joysticks, peinture), inspectez les **chenilles**, et faites **analyser l'huile hydraulique** (200 à 400 €) pour estimer l'usure indépendamment du compteur.
+
+## Checklist d'inspection avant achat
+
+### Inspection visuelle
+
+* Chenilles : usure des crampons, rouleaux, pignon
+* Vérins : rayures sur les tiges, fuites aux joints
+* Flexibles : craquèlements, suintements
+* Structure : fissures, soudures de réparation (signe d'accident)
+* Godet : usure des dents, lame de fond
+* Huile hydraulique : une huile noire = absence d'entretien
+
+### Au démarrage et en fonctionnement
+
+* Démarrage à froid sans fumée blanche excessive
+* Fumée : noire = surcharge/injecteurs ; blanche persistante = joint de culasse
+* Pas de cognements, sifflements, cliquetis
+* Mouvements hydrauliques fluides, rotation 360° régulière
+* Déplacements : chenilles synchrones, pas de dérive
+
+### Documentation à réclamer
+
+* Carnet d'entretien daté et signé, factures de révision
+* Certificat de conformité CE (obligatoire)
+* Manuel original, historique de propriété
+
+## Courbes de dépréciation
+
+Les deux types se déprécient au même rythme relatif, mais la valeur absolue diffère :
+
+| Âge | Européenne (achetée 30 000 €) | CZN (achetée 12 000 €) |
+| --- | --- | --- |
+| Neuve | 30 000 € | 12 000 € |
+| 1 an / ~400 h | 24 000 € (−20 %) | 9 600 € (−20 %) |
+| 3 ans / ~1 200 h | 18 000 € (−40 %) | 7 200 € (−40 %) |
+| 5 ans / ~2 000 h | 15 000 € (−50 %) | 6 000 € (−50 %) |
+| 8 ans / ~3 200 h | 9 000 € (−70 %) | 3 600 € (−70 %) |
+
+Une CZN à 12 000 € ne perd que 4 800 € en 3 ans, contre 12 000 € pour une européenne à 30 000 €.
+
+## Coût total de possession sur 5 ans
+
+| Poste (5 ans) | CZN neuve (12 000 €) | Occasion européenne (20 000 €) |
+| --- | --- | --- |
+| Prix d'achat | 12 000 € | 20 000 € |
+| Transport | Inclus | 800 € |
+| Remise en état | 0 € | 1 500 € |
+| Entretien courant | 1 200 € | 1 200 € |
+| Pièces d'usure | 1 500 € | 3 000 € |
+| Réparations hors garantie | 0 € | 2 500 € |
+| Valeur résiduelle | −6 000 € | −15 000 € |
+| **Coût net 5 ans** | **8 700 €** | **13 000 €** |
+
+La mini-pelle neuve CZN coûte environ **33 % moins cher sur 5 ans** que l'occasion européenne, sans compter la tranquillité d'esprit de la garantie 24 mois.
+
+#### Le neuf souvent moins cher que l'occasion
+
+Mini-pelles neuves dès 4 125 € HT, garantie 24 mois, financement 12 à 60 mois.
+
+[Voir la gamme →](https://czn-machinery.com/mini-pelles/)
+
+## L'offre CZN : neuf et occasion révisée
+
+Les mini-pelles neuves démarrent à **4 125 € HT** avec garantie 24 mois — souvent moins cher qu'une occasion européenne sans garantie. Toutes livrées montées, testées, avec formation et documentation française. CZN dispose aussi d'un stock limité d'**occasions révisées** (garantie 6 mois) : machines contrôlées par les mécaniciens, pièces d'usure remplacées, rapport d'inspection détaillé fourni — la meilleure option si le budget ne permet pas le neuf.
+
+Sommaire
+
+* [Le marché de l'occasion](#marche)
+* [Comparatif des coûts](#comparatif)
+* [Coûts cachés de l'occasion](#couts-caches)
+* [Fraude au compteur](#fraude-compteur)
+* [Checklist d'inspection](#checklist)
+* [Dépréciation](#depreciation)
+* [Coût sur 5 ans](#tco)
+* [L'offre CZN](#offre-czn)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Prix d'une mini-pelle neuve en 2026
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](https://czn-machinery.com/guides/prix-mini-pelle/)
+[Achat
+Mini-pelle : acheter ou louer ?
+Comparatif détaillé des coûts. L'achat est rentable dès 15 jours d'utilisation par an.](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+[Achat
+Mini-pelle chinoise : avis & pièges
+Fiabilité, marquage CE, droits de douane et pièges à éviter. Comment acheter en sécurité.](https://czn-machinery.com/guides/acheter-mini-pelle-chinoise/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mini-pelle pour terrassement : guide complet 2026 | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Usages
+
+Usages
+
+# Mini-pelle pour terrassement : le guide complet
+
+Tonnage par type de sol, accessoires, techniques de creusement, sécurité en pente et coûts au m³ : tout pour réussir vos travaux de terrassement en mini-pelle.
+
+⏱ 12 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Le **terrassement** est l'un des travaux les plus courants dans le BTP et l'aménagement paysager. La **mini-pelle** s'impose comme l'engin de référence : compacte, maniable et puissante, elle réalise en quelques heures ce qui prendrait plusieurs journées de travail manuel. Tonnage, accessoires, techniques, coûts : le guide complet pour réussir vos travaux.
+
+## Qu'est-ce que le terrassement ?
+
+Le terrassement désigne l'ensemble des opérations qui modifient le relief d'un terrain pour le préparer à recevoir une construction ou un aménagement. Elles conditionnent la stabilité des ouvrages, le drainage et la solidité des fondations :
+
+* **Le décapage** : retrait de la couche végétale (20 à 30 cm), indispensable car la terre végétale est compressible et instable
+* **Le déblai** : extraction de terre pour atteindre le niveau souhaité ou creuser fondations, tranchées et piscines
+* **Le remblai** : apport de matériaux (tout-venant, GNT, grave) pour combler ou surélever
+* **Le nivellement** : mise à niveau selon les cotes du plan
+* **Le creusement de tranchées** : fouilles étroites pour canalisations, câbles, fibre, drains
+
+## Pourquoi une mini-pelle pour le terrassement ?
+
+* **Accès aux zones étroites** : dès 75 cm de large, elle passe tous les portails
+* **Précision** : commandes hydrauliques proportionnelles pour des mouvements millimétriques
+* **Polyvalence** : décape, creuse, nivelle et charge en changeant de godet
+* **Transport simplifié** : 800 kg à 2,5 T sur remorque standard
+* **Productivité** : une 1,8 T déplace 30 à 50 m³/jour, soit 3 à 5 jours de travail manuel
+* **Coût maîtrisé** : dès 4 125 € HT, rentabilisée dès 15 jours d'utilisation par an
+
+## Types de sol et impact
+
+La nature du sol est le facteur le plus déterminant pour choisir le bon tonnage.
+
+### Sol argileux
+
+Le plus difficile : plastique et collant humide, dur comme du béton à sec. Optez pour une **mini-pelle de 2 tonnes minimum** (20 CV+), de préférence après quelques jours sans pluie. Les volumes de déblai en argile compacte sont 30 à 40 % inférieurs au sol meuble.
+
+### Sol sableux
+
+Facile à creuser mais risque d'éboulement : blindage ou talutage indispensable pour les tranchées de plus de 60 cm, même sous le seuil légal de 1,30 m.
+
+### Roche et terrain caillouteux
+
+Nécessite un brise-roche hydraulique et une **mini-pelle de 2,5 à 4 tonnes** pour absorber les vibrations (marteaux classe 200 à 500 kg).
+
+### Remblai existant
+
+Complexe (déchets, blocs, ferraillage, vides) : reconnaissance à la tarière ou avec un géotechnicien recommandée.
+
+## Préparation du chantier
+
+**Étude de sol** : étude géotechnique recommandée, obligatoire pour les constructions neuves en zone argileuse/sismique depuis la loi ELAN 2018 (G1 : 500 à 2 000 €). **Bornage et implantation** : matérialisez les contours avec piquets et cordeaux — une erreur de 20 cm a des conséquences. **DICT** : déclaration obligatoire avant tout creusement via reseaux-et-canalisations.ineris.fr — gratuite, elle protège votre responsabilité. **Accès** : mesurez le portail, vérifiez la portance du chemin, prévoyez l'emplacement de dépôt (10 m³ de fouille = 13 à 15 m³ de déblais avec le foisonnement).
+
+## Types de travaux et tonnage recommandé
+
+| Type de terrassement | Tonnage | Accessoires |
+| --- | --- | --- |
+| Tranchées réseaux (sol meuble) | 800 kg à 1,5 T | Godet tranchée, curage |
+| Tranchées compact/argileux | 1,5 à 2,5 T | Godet renforcé, brise-roche |
+| Terrassement de jardin | 1,5 à 2,5 T | Godet terrassement, lame |
+| Fondations de maison | 2,5 à 3,5 T | Godet large, lame |
+| Décapage / VRD | 2,5 à 4 T | Godet curage large, lame |
+| Terrassement en pente | 2 à 3,5 T | Chenilles larges |
+| Piscine (sol meuble) | 1,8 à 2,5 T | Godet, attache rapide |
+| Piscine (terrain dur) | 2,5 à 4 T | Brise-roche, godet |
+| Terrain rocheux | 2,5 à 4 T | Brise-roche indispensable |
+
+## Accessoires indispensables
+
+* **Godet terrassement** : dents trempées, 200 à 800 mm selon le tonnage
+* **Godet curage** : sans dents, large, pour nivellement et finition aux cotes
+* **Lame de remblai** : pour pousser, remblayer, niveler
+* **Attache rapide** : changement de godet en 30 s, 30 à 40 min économisées/jour
+* **Brise-roche hydraulique** : pour terrains durs, compactés, rocheux
+
+## Les étapes d'un terrassement réussi
+
+1. **Étude du terrain et DICT** : réseaux, analyse du sol, bornage
+2. **Implantation** : piquets et cordeaux
+3. **Préparation de l'accès** : portail, plaques de roulage, dépôt des déblais
+4. **Décapage** : 20 à 30 cm au godet curage, terre végétale stockée à part
+5. **Creusement / déblai** : passes de 40 à 50 cm, du centre vers les bords
+6. **Nettoyage du fond** : godet curage, contrôle au niveau laser
+7. **Remblaiement et compactage** : couches de 20 à 30 cm max, chacune compactée
+8. **Nivellement final** : ajustement au millimètre
+
+## Terrassement en pente : sécurité
+
+Déplacez-vous toujours **perpendiculairement à la pente** (chenilles en travers), jamais parallèlement. Au-delà de 15°, réduisez la charge et posez la lame au sol côté aval. Pour les pentes fortes (> 20°), créez des **banquettes horizontales successives** en gradins. Respectez les angles de talus : ~45° en terrain cohésif sec, 30° en sableux humide, < 20° en argileux saturé. Préférez les modèles à chenilles larges et voie variable (2 à 3,5 T).
+
+## Compactage et finitions
+
+Un sol non compacté se tasse : une dalle posée dessus se fissure. **Toute couche supérieure à 20-30 cm doit être compactée** avant la suivante. Outils : plaque vibrante (surfaces accessibles), rouleau compacteur (grandes surfaces), damage hydraulique (fond de fouille étroit). Le godet curage sans dents est l'outil de finition par excellence — certains ajoutent un guidage laser pour un nivellement à ±1 cm.
+
+## Erreurs courantes
+
+* **Négliger la DICT** : l'erreur la plus dangereuse et la plus sanctionnée
+* **Sous-dimensionner la machine** : une 800 kg sur 200 m² d'argile peine et s'use
+* **Travailler godet trop plein** : 70-80 % de capacité est plus productif et précis
+* **Oublier le compactage des remblais** : fissuration inévitable
+* **Travailler en pente sans précautions** : jamais latéralement sans lame au sol
+* **Sous-estimer le volume des déblais** : foisonnement de 30 à 50 %
+* **Creuser trop près des fondations existantes** : risque sous 2 m d'un bâtiment
+
+## Coûts au m³ selon le terrain
+
+| Type de terrain | Difficulté | Prix indicatif / m³ |
+| --- | --- | --- |
+| Terre végétale, sol meuble | Facile | 15 à 25 € |
+| Sol argileux compact | Moyenne | 25 à 45 € |
+| Sol caillouteux / gravier | Moyenne | 30 à 50 € |
+| Roche tendre (calcaire) | Difficile | 50 à 100 € |
+| Roche dure (granit, grès) | Très difficile | 100 à 200 € et + |
+| Remblai hétérogène | Variable | 40 à 80 € |
+
+*Hors frais de décharge (5 à 20 €/m³ selon distance).* En réalisant le terrassement vous-même, les coûts se réduisent au carburant (3 à 6 €/h) et à l'amortissement. Sur un chantier de 50 m³, l'économie peut dépasser 1 000 à 2 000 €.
+
+#### Un projet de terrassement ?
+
+Nos experts vous orientent vers le bon tonnage et le pack accessoires adapté à votre terrain.
+
+[Voir la gamme →](https://czn-machinery.com/mini-pelles/)
+
+## Professionnel ou faire soi-même ?
+
+**Faire appel à un pro** : terrain rocheux, fouilles > 2 m, zone bâtie dense, grands chantiers (> 200 m³). **Faire soi-même** : terrassement de jardin, tranchées en terrain meuble, plusieurs projets à venir (piscine, fondations), usage professionnel régulier (paysagiste, artisan, agriculteur).
+
+## Les mini-pelles CZN pour le terrassement
+
+19 modèles de 600 kg à 4 tonnes, moteurs diesel fiables et chenilles caoutchouc. Parmi les références : la **CL18S** (1,8 T, 12 450 €) polyvalente, la **XC18S Pro** (1,8 T, 11 666 €) avec 2,60 m de profondeur, la **CL20S** (2 T, 14 963 €) à voie variable, la **CL30S** (3 T, 29 854 €) à moteur Kubota, et la **CL40S2C** (4 T, 45 080 €) à cabine climatisée. Chaque machine peut recevoir un pack terrassement complet (attache rapide + godet curage + brise-roche).
+
+Sommaire
+
+* [Qu'est-ce que le terrassement ?](#definition)
+* [Pourquoi une mini-pelle ?](#pourquoi)
+* [Types de sol](#sols)
+* [Préparation du chantier](#preparation)
+* [Travaux & tonnage](#tonnage)
+* [Accessoires](#accessoires)
+* [Les étapes](#etapes)
+* [Terrassement en pente](#pente)
+* [Compactage & finitions](#compactage)
+* [Erreurs courantes](#erreurs)
+* [Coûts au m³](#couts)
+* [Pro ou soi-même ?](#pro-ou-soi)
+* [Les modèles CZN](#modeles)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Usages
+Creuser une piscine avec une mini-pelle
+Tonnage recommandé, étapes de terrassement, dimensions, coût et modèles adaptés.](https://czn-machinery.com/guides/creuser-piscine-mini-pelle/)
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Comparatifs
+Comparatif des mini-pelles 2026
+19 modèles de 600 kg à 4 T dès 4 125 € HT. La meilleure mini-pelle selon votre usage.](https://czn-machinery.com/guides/comparatif-mini-pelles-2026/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Prix mini-pelle neuve 2026 : tarifs par tonnage | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Achat
+
+Achat
+
+# Prix d'une mini-pelle neuve en 2026
+
+De 4 125 € à 45 080 € HT selon le tonnage. Grille tarifaire complète, comparatif avec les marques européennes et japonaises, et simulations de financement.
+
+⏱ 10 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Le prix d'une **mini-pelle neuve** varie fortement selon la marque, le tonnage et les équipements. En France en 2026, la fourchette va de **4 125 € HT** pour une micro-pelle d'entrée de gamme à plus de **80 000 € HT** pour une mini-pelle de 5-6 tonnes d'une marque japonaise haut de gamme. On détaille toute la grille tarifaire et la comparaison avec les marques traditionnelles.
+
+## Quel prix pour une mini-pelle neuve en 2026 ?
+
+Pour la catégorie la plus courante — les mini-pelles de 1 à 3 tonnes — les prix des grandes marques européennes et japonaises (Kubota, Yanmar, Caterpillar, Bobcat, Volvo, Komatsu) démarrent généralement à 18 000 € HT pour atteindre 55 000 € HT. Cette différence par rapport aux marques CZN s'explique par des structures de coût très différentes : réseau de concessionnaires, royalties de marque, coûts salariaux européens.
+
+## Grille tarifaire complète CZN Machinery
+
+Voici les modèles de la gamme CZN avec leurs caractéristiques clés :
+
+| Modèle | Marque | Tonnage | Prof. fouille | Prix HT |
+| --- | --- | --- | --- | --- |
+| CL08 | LEITE | 800 kg | 1,41 m | 5 250 € |
+| CL10S | LEITE | 1 T | 1,73 m | 6 100 € |
+| XC12S | XCAVATOR | 1,2 T | 1,65 m | 6 425 € |
+| CL12S | LEITE | 1,2 T | 1,67 m | 6 875 € |
+| XC18S Pro | XCAVATOR | 1,8 T | 2,60 m | 11 666 € |
+| CL18S | LEITE | 1,8 T | 2,15 m | 12 450 € |
+| CL20S | LEITE | 2 T | 2,27 m | 14 963 € |
+| SJW-25 | SONCA | 2,5 T | 2,60 m | 19 625 € |
+| XC25S | XCAVATOR | 2,5 T | 2,60 m | 23 399 € |
+| CL30S | LEITE | 3 T | 3,16 m | 29 854 € |
+| CL40S2C | LEITE | 4 T | 3,16 m | 45 080 € |
+
+Tous ces prix sont **HT, livraison incluse** en France métropolitaine, avec garantie 24 mois. La TVA à 20 % s'applique pour les particuliers.
+
+## Comparaison avec les marques européennes
+
+Pour contextualiser, voici la comparaison avec les modèles équivalents des marques de référence :
+
+| Marque / Modèle | Prix indicatif HT | Équivalent CZN | Prix CZN | Économie |
+| --- | --- | --- | --- | --- |
+| Kubota U10-5 (1 T) | 20 000 à 24 000 € | CL10S | 6 100 € | ~70 % |
+| Cat 301.7 (1,7 T) | 28 000 à 33 000 € | XC18S Pro | 11 666 € | ~60 % |
+| Bobcat E20 (2 T) | 30 000 à 38 000 € | CL20S | 14 963 € | ~55 % |
+| Kubota KX027-4 (2,7 T) | 40 000 à 48 000 € | XC25S | 23 399 € | ~50 % |
+| Kubota KX030-4 (3 T) | 50 000 à 60 000 € | CL30S | 29 854 € | ~45 % |
+| Cat 304 CR (4 T) | 65 000 à 80 000 € | CL40S2C | 45 080 € | ~40 % |
+
+## Ce qui est inclus dans le prix CZN
+
+La transparence tarifaire est un engagement fondamental : le prix affiché est le prix réel, sans frais cachés.
+
+* **Livraison France entière incluse**, avec déchargement sur site
+* **Garantie 24 mois** pièces et main d'œuvre, sans franchise cachée
+* **Mise en service sur site** à la réception
+* **Formation de 30 minutes** à la prise en main
+* **Documentation en français** : manuel, carnet d'entretien
+* **Godet de terrassement standard** inclus
+* **SAV France** avec déplacement sous garantie
+
+## Les coûts cachés chez les concessionnaires
+
+L'achat chez un concessionnaire de marque européenne génère souvent des frais annexes qui font grimper la facture finale :
+
+* **Frais de PDI** (préparation avant livraison) : 300 à 800 €
+* **Transport / livraison** : 500 à 1 500 € selon la distance
+* **Options imposées** en "packs" : 1 000 à 3 000 €
+* **Frais de dossier financement** : 200 à 500 €
+* **Contrat d'entretien obligatoire** : 800 à 2 000 €/an
+
+Une machine affichée à 30 000 € peut revenir à **32 000 à 35 000 €** une fois toutes les options et frais intégrés — alors que le prix CZN Machinery est un prix tout compris.
+
+## Évolution des prix de 2020 à 2026
+
+**2020-2021 :** forte demande post-Covid, délais allongés, prix +15 à 25 % sur deux ans. **2021-2022 :** crise des semi-conducteurs et matières premières, +8 à 12 % supplémentaires. **2023-2024 :** stabilisation, délais revenus à la normale. **2025-2026 :** marché équilibré. Les prix CZN ont augmenté de 8 à 12 % depuis 2020, contre 25 à 40 % pour les marques européennes — ce qui a accentué l'écart de compétitivité.
+
+## Simulations de financement
+
+Le financement permet d'acquérir une machine sans décaisser la totalité. CZN propose des solutions en 12 à 60 mensualités (TAEG indicatif 4,5 à 6,5 % selon profil) :
+
+| Modèle | Prix HT | 36 mois | 48 mois | 60 mois |
+| --- | --- | --- | --- | --- |
+| CL08 (800 kg) | 5 250 € | ~163 € | ~127 € | ~106 € |
+| CL12S (1,2 T) | 6 875 € | ~214 € | ~166 € | ~139 € |
+| XC18S Pro (1,8 T) | 11 666 € | ~362 € | ~281 € | ~235 € |
+| CL20S (2 T) | 14 963 € | ~465 € | ~361 € | ~302 € |
+| SJW-25 (2,5 T) | 19 625 € | ~610 € | ~473 € | ~396 € |
+| CL30S (3 T) | 29 854 € | ~928 € | ~720 € | ~603 € |
+| CL40S2C (4 T) | 45 080 € | ~1 402 € | ~1 088 € | ~910 € |
+
+Pour un artisan qui facture ses chantiers, **2 à 3 jours de travail par mois suffisent à couvrir la mensualité** de la plupart des modèles.
+
+#### Obtenez une simulation personnalisée
+
+Mensualités sur 12 à 60 mois, particuliers et professionnels.
+
+[Financement →](https://czn-machinery.com/entreprise/financement/)
+
+## Le coût total de possession sur 5 ans
+
+Le prix d'achat n'est qu'une partie du coût réel. Le **TCO sur 5 ans** intègre tous les postes :
+
+| Poste | CZN 2 T (14 963 €) | Européenne 2 T (32 000 €) |
+| --- | --- | --- |
+| Prix d'achat | 14 963 € | 32 000 € |
+| Livraison / PDI | Inclus | +1 200 € |
+| Entretien (5 ans) | 2 500 € | 4 000 € |
+| Réparations hors garantie | 500 € | 1 500 € |
+| Valeur résiduelle à 5 ans | −7 500 € | −16 000 € |
+| **Coût net sur 5 ans** | **10 463 €** | **22 700 €** |
+| **Coût / heure (2 000 h)** | **5,23 €/h** | **11,35 €/h** |
+
+Le coût horaire réel d'une mini-pelle CZN est environ **2 fois inférieur** à celui d'une marque européenne équivalente.
+
+## Comment obtenir le meilleur prix ?
+
+### Choisir le bon tonnage
+
+Ne surdimensionnez pas. Une 1,8 tonne couvre 85 % des besoins des artisans généralistes. Chaque tonne supplémentaire représente 3 000 à 10 000 € d'investissement en plus.
+
+### Comparer le prix tout compris
+
+Demandez un devis détaillé incluant livraison, PDI, garantie complète, premier godet, documentation. Chez CZN, tout est inclus dans le prix affiché.
+
+### Profiter du financement
+
+Le financement en 36 ou 48 mois permet d'acquérir du neuf garanti pour une mensualité similaire à une occasion sans garantie.
+
+### Anticiper les accessoires
+
+Un kit (attache rapide + godet curage + brise-roche) acheté simultanément est souvent 10 à 15 % moins cher que séparément.
+
+### Commander en basse saison
+
+Les meilleurs délais sont en automne-hiver (octobre à février). Pour un chantier au printemps, commandez en hiver.
+
+Sommaire
+
+* [Prix en 2026](#prix-2026)
+* [Grille tarifaire CZN](#grille)
+* [vs marques européennes](#comparaison)
+* [Ce qui est inclus](#inclus)
+* [Coûts cachés concessionnaires](#couts-caches)
+* [Évolution 2020-2026](#evolution)
+* [Simulations financement](#financement)
+* [Coût total sur 5 ans](#tco)
+* [Obtenir le meilleur prix](#meilleur-prix)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Mini-pelle : acheter ou louer ?
+Comparatif détaillé des coûts. L'achat est rentable dès 15 jours d'utilisation par an.](https://czn-machinery.com/guides/mini-pelle-acheter-ou-louer/)
+[Achat
+Mini-pelle neuve ou occasion ?
+Comparatif complet : prix, garantie, risques de l'occasion, avantages du neuf.](https://czn-machinery.com/guides/mini-pelle-neuve-ou-occasion/)
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Qu'est-ce qu'une mini-pelle ? Définition & catégories | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Fondamentaux
+
+Fondamentaux
+
+# Qu'est-ce qu'une mini-pelle ?
+
+Définition, fonctionnement du système hydraulique, catégories par tonnage (de la micro-pelle à la midi-pelle), composants clés, grands fabricants et usages par secteur.
+
+⏱ 11 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Une **mini-pelle** — aussi appelée mini-pelleteuse, micro-pelle, excavatrice compacte ou pelle compacte — est un engin de chantier compact sur chenilles, pesant entre **800 kg et 10 tonnes**. Conçue pour travailler dans des espaces restreints inaccessibles à une pelleteuse classique, la mini-pelle hydraulique est devenue un outil incontournable des chantiers modernes.
+
+Grâce à son **bras articulé hydraulique**, sa tourelle rotative et sa compacité, elle réalise une grande variété de travaux : tranchées, terrassement, aménagement paysager, pose de canalisations, fondations, et bien plus.
+
+## Histoire et évolution
+
+La mini-pelle est née dans les années 1960, quand des ingénieurs japonais et américains ont miniaturisé les pelles hydrauliques pour les zones urbaines denses. **Yanmar** commercialise dès 1971 les premières mini-excavatrices compactes. Dans les années 1980-1990, elle conquiert les chantiers européens (rénovation urbaine, réseaux souterrains). Les années 2000 apportent deux révolutions : les **chenilles caoutchouc** (pour surfaces revêtues) et les **attaches rapides**. Avec l'émergence des fabricants chinois dans les années 2010, le marché s'est démocratisé : des machines neuves fiables dès 4 125 € HT, contre 15 000-20 000 € il y a vingt ans.
+
+## Comment fonctionne le système hydraulique ?
+
+Le principe repose sur la loi de Pascal : une pression sur un fluide incompressible se transmet intégralement.
+
+### La pompe hydraulique
+
+Entraînée par le moteur diesel, elle met l'huile sous haute pression (200 à 350 bars). Sa qualité est déterminante — les meilleures machines utilisent des pompes japonaises (Shimadzu, Kawasaki, Parker).
+
+### Les distributeurs et vérins
+
+L'huile circule via les flexibles vers des distributeurs commandés par les joysticks, qui dirigent l'huile vers les **vérins double-effet** actionnant flèche, balancier et godet.
+
+### Moteurs hydrauliques et circuit de retour
+
+Translation et rotation sont assurées par des moteurs hydrauliques. L'huile repart au réservoir via un **filtre de retour** qui retient les particules — son remplacement régulier est un point d'entretien essentiel.
+
+## Micro, mini, midi pelle : les différences
+
+| Catégorie | Poids | Profondeur | Usage typique | Prix indicatif |
+| --- | --- | --- | --- | --- |
+| Micro-pelle | < 1 tonne | 1,1 à 1,8 m | Jardins, espaces confinés | Dès 4 125 € HT |
+| Mini-pelle compacte | 1 à 2,5 T | 1,7 à 2,7 m | Particuliers, artisans | 6 100 à 23 400 € |
+| Mini-pelle moyenne | 2,5 à 4 T | 2,5 à 3,2 m | Terrassement pro, VRD | 19 600 à 45 000 € |
+| Midi-pelle | 4 à 10 T | 3 à 5 m | Chantiers lourds | 50 000 €+ |
+
+En France, on parle de **micro-pelle sous 1 tonne** et de mini-pelle pour 1 à 6 tonnes. La midi-pelle désigne les 6 à 10 tonnes.
+
+## Composants clés
+
+* **Le châssis sur chenilles** : mobilité et stabilité sur tous terrains
+* **La tourelle rotative** : rotation à 360°
+* **Le bras articulé (flèche + balancier)** : portée et profondeur de fouille
+* **Le godet** : outil principal, interchangeable
+* **Le moteur diesel** : Kubota, Laidong, Yanmar
+* **La lame de remblayage** : stabilité et nivellement
+
+## Les grands fabricants mondiaux
+
+**Japonais et européens historiques** : Kubota (référence mondiale, U-series zéro débordement), Yanmar, Komatsu, Caterpillar, Bobcat, Volvo, Doosan, Liebherr. **Chinois émergents** : XCMG, SANY, Liugong, Zoomlion produisent des millions d'engins par an. Des fabricants spécialisés export comme **LEITE, SONCA et XCAVATOR** (les trois marques CZN) visent les standards occidentaux.
+
+## La révolution de la fabrication chinoise
+
+Le paradigme a changé : les usines chinoises ont investi dans des robots de soudure, des contrôles qualité ISO et des lignes automatisées. Les fabricants sérieux embarquent des moteurs **Kubota** ou **Yanmar** et des pompes **Parker** ou **Shimadzu**. Résultat : des machines neuves de 4 125 € HT (660 kg) à 45 080 € HT (4 T cabine climatisée), soit **30 à 50 % moins cher** que les équivalents japonais ou européens.
+
+## Le marché de la mini-pelle en France
+
+L'un des plus dynamiques d'Europe, porté par trois tendances : le **boom de la rénovation énergétique** (PAC, géothermie), l'**essor du marché particuliers** (machines neuves dès 5 000 €) et le **développement de la fibre** (plan France THD, milliers de km de tranchées).
+
+## Usages par secteur
+
+### BTP et travaux publics
+
+Usage historique : fondations, tranchées (eau, assainissement, gaz), terrassement, VRD. Une 1,5 à 3 T couvre 90 % des besoins d'un artisan polyvalent.
+
+### Aménagement paysager
+
+Bassins, plantation de grands sujets, modelage de reliefs : les chenilles caoutchouc et la faible pression au sol sont décisives. Les 1 à 2 T sont idéales.
+
+### Agriculture et viticulture
+
+Entretien des fossés, curage de mares, drains, plantation de vignes, chemins ruraux — la compacité permet de travailler entre les rangs.
+
+### Particuliers
+
+L'accès à des machines sous 10 000 € a ouvert le marché : aménager un jardin, creuser une piscine, poser des canalisations, sans frais de location.
+
+### Collectivités
+
+Entretien des espaces verts, réfection de trottoirs, interventions sur réseaux — un outil apprécié des services techniques.
+
+#### Trouvez la mini-pelle adaptée à votre usage
+
+19 modèles de 600 kg à 4 tonnes, dès 4 125 € HT, garantie 24 mois et livraison incluse.
+
+[Voir la gamme →](https://czn-machinery.com/mini-pelles/)
+
+## Débuter avec une mini-pelle
+
+### Vérifications avant démarrage
+
+Lisez le manuel, puis vérifiez : huile moteur, huile hydraulique, liquide de refroidissement, état et tension des chenilles. CZN effectue ces contrôles avant livraison et inclut une formation de 30 min.
+
+### Prendre en main les commandes
+
+Deux joysticks et deux pédales (standard ISO ou SAE). Exercez-vous sur terrain plat avec des mouvements simples avant d'enchaîner les mouvements combinés. Comptez 2 à 4 h pour une prise en main fonctionnelle, 2 à 3 jours pour être productif.
+
+### Réglementation et CACES
+
+Usage privé sur son terrain : aucun permis requis. Usage professionnel : CACES R482 catégorie A obligatoire (2 à 5 jours, 800 à 1 500 €).
+
+### Entretenir pour durer
+
+Bien entretenue, une mini-pelle dure 8 000 à 12 000 heures (15 à 20 ans). Graissage (8 h), vérification des niveaux (quotidien), vidange (200-250 h) et remplacement des filtres constituent le socle.
+
+Sommaire
+
+* [Histoire & évolution](#histoire)
+* [Système hydraulique](#hydraulique)
+* [Micro, mini, midi](#categories)
+* [Composants clés](#composants)
+* [Grands fabricants](#fabricants)
+* [Fabrication chinoise](#revolution)
+* [Marché en France](#marche-france)
+* [Usages par secteur](#usages)
+* [Débuter](#debuter)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Usages
+À quoi sert une mini-pelle ?
+Les 6 principaux usages : terrassement, tranchées, paysagisme, piscine, démolition, agriculture.](https://czn-machinery.com/guides/utilisation-mini-pelle/)
+[Achat
+Prix d'une mini-pelle neuve en 2026
+De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](https://czn-machinery.com/guides/prix-mini-pelle/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# À quoi sert une mini-pelle ? 8 usages principaux | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/[Guides](https://czn-machinery.com/guides/)/Usages
+
+Usages
+
+# À quoi sert une mini-pelle ?
+
+Terrassement, tranchées, VRD, aménagement paysager, piscine, démolition, travaux intérieurs, agriculture : tous les usages d'une mini-pelle avec le tonnage adapté.
+
+⏱ 11 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Polyvalente, compacte et puissante, la **mini-pelle** sert à une multitude de travaux. Voici ses usages principaux — du terrassement à l'agriculture — avec le tonnage et les accessoires recommandés pour chacun.
+
+## Terrassement & nivellement
+
+L'usage le plus fréquent. Le terrassement enchaîne **décapage** (20 à 30 cm de terre végétale), **déblai**, **remblai** et **nivellement** — la mini-pelle réalise les quatre en changeant de godet. Pour un jardin ou des fondations légères, une **1,5 à 2,5 T** est idéale ; pour des surfaces > 500 m² ou de l'argile compacte, montez à 3-4 T.
+
+**Accessoires :** godet à dents (400 à 600 mm), godet curage pour le nivellement, lame de remblai, attache rapide. **Conseil :** creusez toujours avec la lame de stabilisation au sol.
+
+## Tranchées & canalisations
+
+Creuser des tranchées (eau, assainissement, gaz, électricité, fibre) est l'une des applications phares chez les plombiers, électriciens et entreprises de VRD. La mini-pelle offre une **tranchée nette et précise**, aux cotes exactes, là où une pelle manuelle peine. Sous 1 m en terrain meuble, une **800 kg à 1,5 T** suffit ; pour 1 à 2 m ou en terrain compact, une **1,5 à 2,5 T**.
+
+**Rappel réglementaire :** toute tranchée de plus de 1,30 m de profondeur nécessite un blindage (plaque, palplanches ou étayage) contre les éboulements. C'est une obligation légale.
+
+## VRD & réseaux
+
+Les entreprises de Voirie et Réseaux Divers sont parmi les plus gros utilisateurs : voiries, caniveaux, bordures, réseaux enterrés. Tonnage recommandé : **1,5 à 3 T**. Les modèles à **voie variable** (CL20S, SJW-25) sont prisés : rétrécis pour circuler, élargis pour la stabilité. Équipement type (godet tranchée, godet curage, brise-roche, attache rapide) : 1 500 à 3 000 € d'accessoires.
+
+## Aménagement paysager
+
+Les paysagistes l'utilisent pour les **bassins ornementaux** (creusement précis aux profils variables), la **pose de rochers décoratifs** (pouce de manutention pour saisir des blocs de plusieurs tonnes) et la **plantation de grands sujets** (fosses profondes en quelques minutes). Tonnage idéal : **1 à 2 T**, assez compact pour évoluer entre les plantations. Les modèles à flèche orientable creusent le long des murs.
+
+## Espaces verts & collectivités
+
+Marché en forte croissance (renaturation urbaine) : curage de fossés, réfection de chemins ruraux, création de noues, plantation de haies, aménagement de parcs. Les mini-pelles CZN permettent d'équiper les services techniques pour un budget très inférieur aux marques européennes — rentable dès la première année au-delà de 20 jours d'intervention par an.
+
+## Piscine & fondations
+
+Le creusement de piscine motive souvent l'achat : un bassin 8×4 m à 1,50 m = 30 à 50 m³ de terre, quelques jours à la mini-pelle contre plusieurs semaines à la main. Pour coques et kits (jusqu'à 8×4 m), une **1,8 à 2,5 T** est optimale ; au-delà ou en terrain rocheux, 3 T. Les **fondations de maison** (semelles 60-80 cm, fondations jusqu'à 2 m) sont une autre application majeure (2 à 3 T).
+
+#### Un usage précis en tête ?
+
+Nos experts vous orientent vers le bon tonnage et les accessoires adaptés à votre application.
+
+[Demander conseil →](https://czn-machinery.com/contact/)
+
+## Démolition légère
+
+Équipée d'un **brise-roche hydraulique**, la mini-pelle casse béton, roche, brique : déconstruction sélective, réfection de voirie, fraisage de roche. Marteau de classe 100-200 kg pour les 1,5 à 2,5 T, 300-500 kg pour les 3 à 4 T. **Ne montez jamais un brise-roche surdimensionné** — cela endommage flèche et tourelle. Le duo mini-pelle + mini-tombereau excelle sur ces chantiers.
+
+## Travaux intérieurs en bâtiment
+
+Pour casser une chape, déposer un carrelage épais ou creuser un vide sanitaire, la mini-pelle est parfois la seule solution. Contraintes sévères : hauteur sous plafond (2,20 à 2,50 m), largeur de passage (portes 80-90 cm), charge admissible du plancher. La **CL08** (800 kg, 754 mm) passe une porte standard ; vérifiez la résistance du plancher (plaques de répartition sur bois ancien).
+
+## Agriculture & viticulture
+
+Secteur historique : entretien des fossés (une 1,5 à 2,5 T cure 1 km/jour), drains, mares, génie rural. En **viticulture**, la mini-pelle équipée d'une **tarière** creuse 200 à 400 trous de plantation par jour, et arrache les vieux ceps. Tonnage idéal : 1,5 à 2,5 T, avec chenilles larges pour préserver les sols.
+
+## Conseils pratiques pour débutants
+
+### Avant de démarrer
+
+* Lisez le manuel (schémas de contrôle et maintenance)
+* Tour de machine : niveaux, chenilles, flexibles
+* Effectuez une DICT avant tout creusement
+* Repérez les lignes aériennes (distance de sécurité 3 m)
+
+### Pendant le travail
+
+* Commencez lentement (commandes progressives)
+* Stabilisez avec la lame avant de creuser
+* Travaillez en rotation minimale (90° max)
+* Ne surchargez pas le godet
+* Personne dans le rayon de rotation
+
+### Entretien quotidien
+
+* Graissez les articulations toutes les 8-10 h (geste le plus important)
+* Nettoyez le godet, surtout en argile
+* Vérifiez la tension des chenilles
+
+Chaque livraison CZN inclut une formation de 30 minutes sur site.
+
+Sommaire
+
+* [Terrassement](#terrassement)
+* [Tranchées](#tranchees)
+* [VRD & réseaux](#vrd)
+* [Aménagement paysager](#paysager)
+* [Collectivités](#collectivites)
+* [Piscine & fondations](#piscine)
+* [Démolition légère](#demolition)
+* [Travaux intérieurs](#interieur)
+* [Agriculture & viticulture](#agriculture)
+* [Conseils débutants](#conseils)
+
+À lire aussi
+
+## Articles *associés*.
+
+[Fondamentaux
+Qu'est-ce qu'une mini-pelle ?
+Définition, catégories par tonnage, composants clés et fonctionnement hydraulique.](https://czn-machinery.com/guides/quest-ce-quune-mini-pelle/)
+[Achat
+Comment choisir une mini-pelle ?
+Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](https://czn-machinery.com/guides/comment-choisir-mini-pelle/)
+[Usages
+Mini-pelle pour terrassement
+Tonnage par type de sol, accessoires, techniques et coûts au m³. Le guide complet.](https://czn-machinery.com/guides/mini-pelle-terrassement/)
+
+## Besoin d'un *conseil personnalisé* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](https://czn-machinery.com/contact/)
+[Voir les mini-pelles](https://czn-machinery.com/mini-pelles/)
+
+
+---
+
+# Mentions légales | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+Informations légales
+
+# Mentions légales
+
+Éditeur, hébergeur, propriété intellectuelle et traitement des données du site CZN Machinery.
+
+Dernière mise à jour : 30 mai 2026
+
+## Éditeur du site
+
+**CZE France SAS** — nom commercial : CZN Machinery
+
+11 impasse Pierre Camo, 31200 Toulouse, France
+
+SIRET : 824 356 513 00021 · RCS Toulouse 824 356 513
+
+Téléphone : [05 31 60 51 61](tel:+33531605161)
+
+Email : [contact@czn-machinery.com](mailto:contact@czn-machinery.com)
+
+Directeur de la publication : le représentant légal de CZE France SAS.
+
+## Hébergeur
+
+Le site est hébergé par **Vercel Inc.**, 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — [vercel.com](https://vercel.com).
+
+## Propriété intellectuelle
+
+L'ensemble du contenu de ce site (textes, images, logos, vidéos, mises en page) est la propriété exclusive de CZE France SAS ou de ses partenaires. Toute reproduction, représentation ou diffusion, même partielle, est interdite sans autorisation écrite préalable.
+
+## Données personnelles
+
+Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, d'opposition et de suppression de vos données personnelles. Pour l'exercer, écrivez-nous à [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
+
+Pour en savoir plus sur le traitement de vos données, consultez notre [politique de confidentialité](https://czn-machinery.com/politique-confidentialite/).
+
+## Liens & responsabilité
+
+Ce site peut contenir des liens vers des sites tiers. CZE France SAS n'exerce aucun contrôle sur ces sites et décline toute responsabilité quant à leur contenu. Les informations produits (caractéristiques, prix, disponibilités) sont fournies à titre indicatif et peuvent évoluer.
+
+Conception & développement : [PMC Marketing](https://www.agence-pmc-marketing.com/), Toulouse.
+
+
+---
+
+# Mini-chargeurs neufs — importation directe | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+02 — Manutention
+
+# Mini-chargeurs *neufs*
+
+Sur commande
+
+Sonca
+
+### Mini-chargeur SJ-460W
+
+À partir de
+7 500€
+HT · hors livraison
+
+Sur commande
+
+Sonca
+
+### Mini-chargeur SJ-460T
+
+À partir de
+7 500€
+HT · hors livraison
+
+Sur commande
+
+Sonca
+
+### Mini-chargeur SJ-490W
+
+À partir de
+9 500€
+HT · hors livraison
+
+Continuer la visite
+
+## Explorez le reste de *la gamme*.
+
+[Mini-pelles→](https://czn-machinery.com/mini-pelles/)
+[Mini-tombereaux→](https://czn-machinery.com/mini-tombereaux/)
+[Accessoires→](https://czn-machinery.com/accessoires/)
+
+Ce que vous obtenez avec CZN
+
+## L'assurance d'un *partenaire sérieux*.
+
+01
+
+### Importateur *direct*
+
+Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.
+
+02
+
+### Garantie *2 ans*
+
+Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.
+
+03
+
+### Livraison *France*
+
+Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.
+
+04
+
+### Financement *Sofinco*
+
+De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+
+05
+
+### Contrôle *50 points*
+
+Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.
+
+06
+
+### *148+* avis 5★
+
+Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.
+
+## Besoin d'un conseil *avant d'acheter* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter notre équipe](https://czn-machinery.com/contact/)
+[Consulter les guides](https://czn-machinery.com/guides/)
+
+
+---
+
+# Mini-pelles neufs — importation directe | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+01 — Terrassement
+
+# Mini-pelles *neuves*
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-06
+
+À partir de
+4 125€
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-12 F
+
+À partir de
+6 425€
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-12 P
+
+À partir de
+7 250€
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-18 PRO
+
+À partir de
+11 250€
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-25
+
+À partir de
+19 625€
+HT · hors livraison
+
+Continuer la visite
+
+## Explorez le reste de *la gamme*.
+
+[Mini-chargeurs→](https://czn-machinery.com/mini-chargeurs/)
+[Mini-tombereaux→](https://czn-machinery.com/mini-tombereaux/)
+[Accessoires→](https://czn-machinery.com/accessoires/)
+
+Ce que vous obtenez avec CZN
+
+## L'assurance d'un *partenaire sérieux*.
+
+01
+
+### Importateur *direct*
+
+Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.
+
+02
+
+### Garantie *2 ans*
+
+Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.
+
+03
+
+### Livraison *France*
+
+Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.
+
+04
+
+### Financement *Sofinco*
+
+De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+
+05
+
+### Contrôle *50 points*
+
+Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.
+
+06
+
+### *148+* avis 5★
+
+Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.
+
+## Besoin d'un conseil *avant d'acheter* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter notre équipe](https://czn-machinery.com/contact/)
+[Consulter les guides](https://czn-machinery.com/guides/)
+
+
+---
+
+# Mini-tombereaux neufs — importation directe | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+03 — Transport
+
+# Mini-tombereaux *neufs*
+
+Sur commande
+
+Sonca
+
+### Mini-tombereau SJ-05M
+
+À partir de
+4 125€
+HT · hors livraison
+
+Sur commande
+
+Sonca
+
+### Mini-tombereau SJ-05E
+
+À partir de
+4 500€
+HT · hors livraison
+
+Sur commande
+
+Sonca
+
+### Mini-tombereau SJ-05EL
+
+À partir de
+5 700€
+HT · hors livraison
+
+Sur commande
+
+Sonca
+
+### Mini-tombereau SJ-08EL
+
+À partir de
+6 950€
+HT · hors livraison
+
+Continuer la visite
+
+## Explorez le reste de *la gamme*.
+
+[Mini-pelles→](https://czn-machinery.com/mini-pelles/)
+[Mini-chargeurs→](https://czn-machinery.com/mini-chargeurs/)
+[Accessoires→](https://czn-machinery.com/accessoires/)
+
+Ce que vous obtenez avec CZN
+
+## L'assurance d'un *partenaire sérieux*.
+
+01
+
+### Importateur *direct*
+
+Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.
+
+02
+
+### Garantie *2 ans*
+
+Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.
+
+03
+
+### Livraison *France*
+
+Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.
+
+04
+
+### Financement *Sofinco*
+
+De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+
+05
+
+### Contrôle *50 points*
+
+Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.
+
+06
+
+### *148+* avis 5★
+
+Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.
+
+## Besoin d'un conseil *avant d'acheter* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter notre équipe](https://czn-machinery.com/contact/)
+[Consulter les guides](https://czn-machinery.com/guides/)
+
+
+---
+
+# Mini-pelles occasion révisées et garanties 6 mois | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+[Accueil](https://czn-machinery.com/)/Occasion
+
+Catalogue occasion
+
+# Machines d'occasion, *révisées et garanties*.
+
+Toutes nos machines d'occasion passent un contrôle en 50 points avant mise en vente et sont garanties 6 mois. Documents complets, historique transparent, livraison France.
+
+*50 pts*
+
+Modèles disponibles
+
+*Contrôle systématique*
+
+Gamme
+
+*2 ans*
+
+Garantie incluse
+
+*5 j.*
+
+Délai livraison
+
+⏳ Catalogue en ligne bientôt
+
+## Fiches produit *disponibles prochainement*.
+
+Nous finalisons la migration des fiches produit avec photos HD, spécifications techniques complètes et configurateur en ligne. En attendant, appelez-nous ou écrivez-nous pour un devis personnalisé.
+
+[Demander un devis](https://czn-machinery.com/contact/)
+[05 31 60 51 61](tel:+33531605161)
+
+Ce que vous obtenez avec CZN
+
+## L'assurance d'un *partenaire sérieux*.
+
+01
+
+### Importateur *direct*
+
+Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.
+
+02
+
+### Garantie *2 ans*
+
+Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.
+
+03
+
+### Livraison *France*
+
+Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.
+
+04
+
+### Financement *Sofinco*
+
+De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+
+05
+
+### Contrôle *50 points*
+
+Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.
+
+06
+
+### *148+* avis 5★
+
+Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.
+
+## Besoin d'un conseil *avant d'acheter* ?
+
+Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter notre équipe](https://czn-machinery.com/contact/)
+[Consulter les guides](https://czn-machinery.com/guides/)
+
+
+---
+
+# Politique de confidentialité | CZN Machinery
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](https://czn-machinery.com/)
+[EN](https://czn-machinery.com/en/)
+
+Informations légales
+
+# Politique de confidentialité
+
+Comment nous collectons, utilisons et protégeons vos données personnelles, conformément au RGPD.
+
+Dernière mise à jour : 30 mai 2026
+
+## Collecte des données
+
+CZN Machinery collecte des données personnelles uniquement dans le cadre de demandes de devis, de commandes et de formulaires de contact. Les informations collectées peuvent inclure : nom, prénom, adresse email, numéro de téléphone et adresse postale.
+
+## Utilisation des données
+
+Vos données sont utilisées exclusivement pour :
+
+* traiter vos demandes de devis et vos commandes ;
+* assurer le suivi commercial et le service après-vente ;
+* vous informer sur nos produits et offres, avec votre consentement.
+
+## Conservation des données
+
+Vos données sont conservées pendant une durée maximale de **3 ans** après le dernier contact, conformément à la réglementation en vigueur.
+
+## Cookies
+
+Ce site utilise :
+
+* **Cookies essentiels** — nécessaires au fonctionnement du site (session, panier). Toujours actifs, sans consentement requis.
+* **Cookies analytiques** — mesure d'audience (Google Analytics), données anonymisées. Soumis à votre consentement.
+* **Cookies marketing** — suivi des conversions publicitaires (Meta Pixel). Soumis à votre consentement.
+
+Les cookies sont conservés 13 mois maximum. Vous pouvez accepter ou refuser les cookies non essentiels à tout moment.
+
+## Vos droits
+
+Conformément au RGPD, vous disposez des droits suivants : accès, rectification, suppression, portabilité, opposition et limitation du traitement. Pour les exercer, contactez-nous à [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
+
+## Contact
+
+Pour toute question relative à la protection de vos données personnelles : [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
+
+
+---
+
+# Mini-chargeur SJ-460T Sonca — Mini-chargeur dès 7 500 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-chargeur
+
+# Mini-chargeur SJ-460T
+
+Mini-chargeur sur chenilles, tout-terrain.
+
+Sur commande
+
+7 500 €HT
+
+soit 9 000 € TTC
+
+ou à partir de **152 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1 000 kg
+
+Poids total
+
+400 kg
+
+Charge maximale
+
+0,12 m³
+
+Capacité godet
+
+30 %
+
+Pente franchissable
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-chargeur%20SJ-460T%20(r%C3%A9f.%20SMC-SJ-460T).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-460 T est la version chenillée du mini-chargeur compact : meilleure motricité et stabilité sur sols meubles ou difficiles, pour la manutention et le chargement sur tous terrains. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Chenilles tout-terrain et moteur KOOP 23 CV
+
+Version chenillée du chargeur compact : chenilles de 720 mm (18×72) pour une adhérence exceptionnelle sur sols meubles, boueux ou accidentés, avec une pente franchissable de 30 %.
+
+#### Moteur KOOP bicylindre
+
+23 CV, 639 cc, 3600 tr/min, Euro 5.
+
+#### Chenilles 720 mm
+
+Adhérence maximale, pente franchissable de 30 %.
+
+#### Godet 0,12 m³
+
+Charge max 400 kg, hauteur de travail 2,45 m.
+
+## Compact et endurant
+
+Format 2,2 × 1,1 × 1,28 m et composants robustes pour les espaces étroits et les chantiers exigeants, avec hydraulique de 17-21 Bar et force de levage de 4,5 kN.
+
+#### Dimensions compactes
+
+2,2 m × 1,1 m × 1,28 m, garde au sol 150 mm.
+
+#### Force de levage 4,5 kN
+
+Hauteur de déchargement 1,51 m.
+
+#### Robustesse
+
+Composants renforcés pour une longévité accrue.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids total
+:   1 000 kg
+
+Hauteur de la machine
+:   1 280 mm
+
+Longueur totale
+:   1 680 mm
+
+Longueur avec godet standard
+:   2 206 mm
+
+Largeur
+:   1 100 mm
+
+Largeur des chenilles
+:   720 mm
+
+Taille des chenilles
+:   18×72
+
+Largeur du godet
+:   1 000 mm
+
+Empattement
+:   850 mm
+
+Garde au sol
+:   150 mm
+
+### Performances de travail
+
+Charge maximale
+:   400 kg
+
+Capacité du godet
+:   0,12 m³
+
+Force de levage max.
+:   4,5 kN
+
+Hauteur de travail max.
+:   2 450 mm
+
+Hauteur de déchargement max.
+:   1 510 mm
+
+Angle d'inclinaison (position basse)
+:   38°
+
+Angle d'ouverture (position haute)
+:   82°
+
+Pente max. franchissable
+:   30 %
+
+### Mécanique
+
+Moteur
+:   KOOP bicylindre
+
+Puissance nominale
+:   23 CV
+
+Cylindrée
+:   639 cc
+
+Vitesse nominale
+:   3 600 tr/min
+
+Norme moteur
+:   Euro 5
+
+Pression
+:   17 - 21 Bar
+
+Réservoir carburant
+:   10 L
+
+## Intéressé par la Mini-chargeur SJ-460T ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-chargeur%20SJ-460T%20(r%C3%A9f.%20SMC-SJ-460T).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-chargeur SJ-460T
+
+Montant financé : **7 500 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-chargeur SJ-460W Sonca — Mini-chargeur dès 7 500 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-chargeur
+
+# Mini-chargeur SJ-460W
+
+Mini-chargeur sur roues, compact et puissant.
+
+Sur commande
+
+7 500 €HT
+
+soit 9 000 € TTC
+
+ou à partir de **152 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1 000 kg
+
+Poids total
+
+400 kg
+
+Charge maximale
+
+0,12 m³
+
+Capacité godet
+
+2,45 m
+
+Hauteur de levée
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-chargeur%20SJ-460W%20(r%C3%A9f.%20SMC-SJ-460W).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-460 W est un mini-chargeur articulé sur roues, idéal pour la manutention, le chargement et les travaux d'aménagement. Compact, il se faufile partout et accepte de nombreux accessoires (godet, fourches…). Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Moteur KOOP 23 CV et système à roues
+
+Moteur KOOP bicylindre de 23 CV (639 cc) Euro 5 et roues 18×8.5×8 offrant une excellente adhérence et une mobilité rapide sur terrains variés, réguliers ou accidentés.
+
+#### Moteur KOOP bicylindre
+
+23 CV, 639 cc, 3600 tr/min, norme Euro 5.
+
+#### Système à roues
+
+Roues 18×8.5×8 pour une mobilité fluide et rapide.
+
+#### Godet 0,12 m³
+
+Charge max 400 kg, hauteur de travail 2,45 m.
+
+## Compact et hydraulique performant
+
+Format 2,2 × 1,1 × 1,28 m pour les espaces restreints, avec un système hydraulique de 17-21 Bar et une force de levage de 4,5 kN.
+
+#### Dimensions compactes
+
+2,2 m × 1,1 m × 1,28 m, garde au sol 150 mm.
+
+#### Force de levage 4,5 kN
+
+Hauteur de déchargement 1,51 m.
+
+#### Angles de travail
+
+Inclinaison 38°, ouverture 82°, déversement 34°.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids total
+:   1 000 kg
+
+Hauteur de la machine
+:   1 280 mm
+
+Longueur totale
+:   1 680 mm
+
+Longueur avec godet standard
+:   2 206 mm
+
+Largeur
+:   1 100 mm
+
+Largeur du godet
+:   1 000 mm
+
+Empattement
+:   850 mm
+
+Garde au sol
+:   150 mm
+
+Dimensions roues
+:   18×8.5×8
+
+### Performances de travail
+
+Charge maximale
+:   400 kg
+
+Capacité du godet
+:   0,12 m³
+
+Force de levage max.
+:   4,5 kN
+
+Vitesse maximale
+:   0 - 6 km/h
+
+Hauteur de travail max.
+:   2 450 mm
+
+Hauteur de déchargement max.
+:   1 510 mm
+
+Angle d'inclinaison (position basse)
+:   38°
+
+Angle d'ouverture (position haute)
+:   82°
+
+Angle max. de déversement
+:   34°
+
+### Mécanique
+
+Moteur
+:   KOOP bicylindre
+
+Puissance nominale
+:   23 CV
+
+Cylindrée
+:   639 cc
+
+Vitesse nominale
+:   3 600 tr/min
+
+Norme moteur
+:   Euro 5
+
+Pression
+:   17 - 21 Bar
+
+Réservoir carburant
+:   10 L
+
+## Intéressé par la Mini-chargeur SJ-460W ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-chargeur%20SJ-460W%20(r%C3%A9f.%20SMC-SJ-460W).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-chargeur SJ-460W
+
+Montant financé : **7 500 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-chargeur SJ-490W Sonca — Mini-chargeur dès 9 500 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-chargeur
+
+# Mini-chargeur SJ-490W
+
+Mini-chargeur sur roues, montée en puissance.
+
+Sur commande
+
+9 500 €HT
+
+soit 11 400 € TTC
+
+ou à partir de **192 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1 100 kg
+
+Poids total
+
+250 kg
+
+Charge nominale
+
+0,12 m³
+
+Capacité godet
+
+2,47 m
+
+Hauteur de levée
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-chargeur%20SJ-490W%20(r%C3%A9f.%20SMC-SJ-490W).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-490 W est un mini-chargeur articulé sur roues plus puissant, pour les travaux de manutention et de chargement plus intensifs tout en restant compact et maniable. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Moteur KOOP 15 kW et siège opérateur
+
+Chargeur sur pneus avec siège intégré pour le confort lors des longues sessions. Moteur KOOP de 15 kW (639 cc) Euro 5 pour une bonne mobilité sur tous terrains.
+
+#### Moteur KOOP 15 kW
+
+639 cc, 3600 tr/min, norme Euro 5.
+
+#### Siège opérateur intégré
+
+Confort et ergonomie pour les sessions prolongées.
+
+#### Godet 0,12 m³
+
+Hauteur de travail 2,47 m, déchargement 1,38 m.
+
+## Compact et hydraulique 18 MPa
+
+Format 2,75 × 1,1 × 1,28 m avec siège, pression hydraulique nominale de 18 MPa et mobilité sur pneus pour une bonne polyvalence.
+
+#### Dimensions compactes
+
+2,75 m × 1,1 m × 1,28 m, garde au sol 170 mm.
+
+#### Pression 18 MPa
+
+Mouvements fluides et réactifs.
+
+#### Vitesse 0-5,5 km/h
+
+Contrôle précis sur tous terrains.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Longueur sans godet
+:   2 222 mm
+
+Longueur avec godet
+:   2 750 mm
+
+Largeur
+:   1 100 mm
+
+Hauteur
+:   1 280 mm
+
+Largeur du godet
+:   1 050 mm
+
+Distance entre roues
+:   623 mm
+
+Garde au sol
+:   170 mm
+
+Poids total
+:   1 100 kg
+
+Capacité de charge nominale
+:   250 kg
+
+### Performances de travail
+
+Capacité du godet
+:   0,12 m³
+
+Hauteur de travail max.
+:   2 466 mm
+
+Hauteur de déchargement max.
+:   1 382 mm
+
+Hauteur jusqu'au pivot du godet
+:   1 877 mm
+
+Vitesse
+:   0 - 5,5 km/h
+
+Angle d'inclinaison (position basse)
+:   20°
+
+Angle d'ouverture (position haute)
+:   35°
+
+### Mécanique
+
+Moteur
+:   KOOP
+
+Puissance nominale
+:   15 kW
+
+Cylindrée
+:   639 cc
+
+Vitesse nominale
+:   3 600 tr/min
+
+Norme moteur
+:   Euro 5
+
+Pression nominale
+:   18 MPa
+
+Réservoir carburant
+:   15 L
+
+## Intéressé par la Mini-chargeur SJ-490W ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-chargeur%20SJ-490W%20(r%C3%A9f.%20SMC-SJ-490W).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-chargeur SJ-490W
+
+Montant financé : **9 500 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-pelle SJW-18 PRO Sonca — Mini-pelle dès 11 250 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-pelle
+
+# Mini-pelle SJW-18 PRO
+
+Mini-pelle 1,8 t, le bon compromis taille/puissance.
+
+En stock
+
+11 250 €HT
+
+soit 13 500 € TTC
+
+ou à partir de **228 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1,8 t
+
+Force d'excavation
+
+24 CV
+
+Puissance moteur
+
+1 271 kg
+
+Poids opérationnel
+
+2,2 m
+
+Profondeur d'excavation
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-18%20PRO%20(r%C3%A9f.%20SMP-SJW-18-PRO).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La SONCA SJW-18 PRO est une mini-pelle 1,8 tonne polyvalente, taillée pour les chantiers de terrassement plus exigeants tout en restant facilement transportable. Robuste et confortable, elle accepte une large gamme d'accessoires. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Conception renforcée pour usage intensif
+
+Moteur Laidong 385 renforcé de 24 CV et pompe hydraulique Shimadzu haute durabilité : une excavatrice de 1,8 tonne aux composants renforcés pour les chantiers les plus exigeants (BTP, travaux publics, terrassement intensif).
+
+#### Moteur Laidong 385
+
+24 CV tricylindre refroidi par liquide, composants durcis pour un fonctionnement continu.
+
+#### Pompe Shimadzu 25 l/min
+
+Vérins surdimensionnés et joints haute résistance pour une durabilité maximale.
+
+#### Capacités d'excavation
+
+Hauteur d'excavation 2,9 m et profondeur 2,2 m maintenues même en usage intensif.
+
+## Structure ultra-robuste
+
+Châssis en acier haute résistance, points de pivot renforcés et largeur de 1,1 m conservant la maniabilité tout en offrant une stabilité accrue.
+
+#### Châssis renforcé
+
+Acier haute résistance, soudures renforcées et protections additionnelles.
+
+#### Pack pro complet
+
+Godet 40 cm, canopy, boîte à outils et kit de maintenance inclus.
+
+#### Réservoirs
+
+Carburant 10 L, hydraulique 16 L.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Force d'excavation
+:   1 800 kg
+
+Longueur totale
+:   2 250 mm
+
+Largeur totale
+:   1 100 mm
+
+Hauteur totale
+:   2 200 mm
+
+Longueur du bras
+:   2 560 mm
+
+Largeur de la voie
+:   230 mm
+
+Longueur de la voie
+:   1 500 mm
+
+Poids opérationnel
+:   1 271 kg
+
+Largeur du godet
+:   400 mm
+
+### Dimensions de travail
+
+Hauteur d'excavation max.
+:   2 900 mm
+
+Hauteur de déversement max.
+:   2 400 mm
+
+Profondeur de creusement max. au sol
+:   2 200 mm
+
+Rayon de creusement max. au sol
+:   2 600 mm
+
+Rayon de rotation max.
+:   1 190 mm
+
+### Mécanique
+
+Moteur
+:   Laidong 385 renforcé
+
+Puissance
+:   24 CV
+
+Énergie
+:   Diesel Euro 5
+
+Refroidissement
+:   Liquide
+
+Type de moteur
+:   Tricylindre renforcé
+
+Pompe hydraulique
+:   Shimadzu
+
+Débit pompe
+:   25 l/min
+
+Réservoir carburant
+:   10 L
+
+Réservoir hydraulique
+:   16 L
+
+## Intéressé par la Mini-pelle SJW-18 PRO ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-18%20PRO%20(r%C3%A9f.%20SMP-SJW-18-PRO).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-pelle SJW-18 PRO
+
+Montant financé : **11 250 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-pelle SJW-25 Sonca — Mini-pelle dès 19 625 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-pelle
+
+# Mini-pelle SJW-25
+
+Mini-pelle 2,5 t pour les gros travaux.
+
+En stock
+
+19 625 €HT
+
+soit 23 550 € TTC
+
+ou à partir de **397 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+2,5 t
+
+Force d'excavation
+
+29 CV
+
+Puissance moteur
+
+1 725 kg
+
+Poids opérationnel
+
+2,6 m
+
+Profondeur d'excavation
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-25%20(r%C3%A9f.%20SMP-SJW-25-).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La SONCA SJW-25 est la plus puissante des mini-pelles Sonca avec ses 2,5 tonnes : profondeur d'excavation accrue et force d'arrachage supérieure pour s'attaquer aux chantiers de terrassement les plus ambitieux. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Voies variables et moteur Changchai 29 CV
+
+Système exclusif d'ajustement de la largeur des chenilles (1080-1520 mm) pour passer les accès étroits puis se stabiliser sur terrain difficile. Moteur Changchai 390 de 29 CV refroidi par liquide, fiable et sobre.
+
+#### Voies variables 1080-1520 mm
+
+Chenilles étroites pour les passages, larges pour la stabilité maximale.
+
+#### Moteur Changchai 390
+
+29 CV (20 kW), 4 temps refroidi par liquide, Euro 5.
+
+#### Flèche orientable
+
+Atteint les zones difficiles d'accès sans repositionner la machine.
+
+## Maniabilité et moteur de translation protégé
+
+Rayon de pivotement arrière réduit à 756 mm et moteur de translation plat intégré au châssis, protégé des chocs pour une durabilité accrue sur terrains difficiles.
+
+#### Rayon arrière 756 mm
+
+Manœuvre dans les espaces les plus exigus.
+
+#### Moteur de translation protégé
+
+Intégré au châssis, à l'abri des obstacles.
+
+#### Option pouce manipulateur
+
+Dispositif de 225 mm pour saisir bois, béton, roches.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Force d'excavation
+:   2 500 kg
+
+Longueur totale
+:   2 700 mm
+
+Largeur totale
+:   1 300 mm
+
+Hauteur totale
+:   2 550 mm
+
+Largeur des patins
+:   250 mm
+
+Largeur du godet
+:   420 mm
+
+Longueur de la voie
+:   1 800 mm
+
+Hauteur de la voie
+:   320 mm
+
+Poids opérationnel
+:   1 725 kg
+
+### Dimensions de travail
+
+Hauteur d'excavation max.
+:   3 400 mm
+
+Hauteur de déversement max.
+:   2 673 mm
+
+Profondeur d'excavation max.
+:   2 600 mm
+
+Rayon de rotation arrière
+:   756 mm
+
+Rayon de creusement max.
+:   4 163 mm
+
+Voies variables
+:   1 080 - 1 520 mm
+
+### Mécanique
+
+Moteur
+:   Changchai 390
+
+Puissance
+:   29 CV (20 kW)
+
+Énergie
+:   Diesel Euro 5
+
+Refroidissement
+:   Liquide
+
+Réservoir carburant
+:   12 L
+
+Réservoir hydraulique
+:   18 L
+
+## Intéressé par la Mini-pelle SJW-25 ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-25%20(r%C3%A9f.%20SMP-SJW-25-).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-pelle SJW-25
+
+Montant financé : **19 625 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-pelle SJW-06 Sonca — Mini-pelle dès 4 125 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-pelle
+
+# Mini-pelle SJW-06
+
+Micro pelle ultra-compacte, transportable en permis B.
+
+En stock
+
+4 125 €HT
+
+soit 4 950 € TTC
+
+ou à partir de **87 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 9,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+660 kg
+
+Poids opérationnel
+
+Poste ouvert
+
+Type de cabine
+
+8,5 CV
+
+Puissance moteur
+
+1,09 m
+
+Profondeur d'excavation
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-06%20(r%C3%A9f.%20SMP06).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La mini pelleteuse SJW-06 est la micro pelle la plus compacte de la gamme SONCA avec seulement 700 mm de largeur et 660 kg. Elle se faufile partout : portails de jardin, passages étroits, cours intérieures. Équipée du moteur Longxin G300FD Euro 5 de 8,5 CV, elle offre une puissance suffisante pour les travaux de terrassement léger, l'aménagement paysager et le creusement de tranchées.
+
+## Compacte, légère et transportable facilement
+
+La SJW-06 pèse seulement 660 kg, ce qui la rend transportable sur une simple remorque avec un véhicule de permis B. Son châssis compact et ses chenilles de 150 mm offrent stabilité et maniabilité sur tous types de sols. Le poste de conduite ouvert assure une visibilité totale à 360° (canopy disponible en option).
+
+#### Transportable permis B
+
+Avec 660 kg, elle se charge sur une remorque standard. Aucun permis spécial nécessaire pour le transport.
+
+#### Poste de conduite ouvert
+
+Visibilité optimale à 360° et commandes ergonomiques accessibles, même dans les espaces réduits.
+
+#### Chenilles tout terrain
+
+Chenilles caoutchouc de 150 mm pour une bonne adhérence sans abîmer pelouses et surfaces fragiles.
+
+## Système hydraulique performant et précis
+
+Le système hydraulique utilise une pompe Gear 3+3 délivrant 21,6 L/min à 16 MPa. Ce débit généreux pour cette classe de machine assure des mouvements fluides et précis du bras, du balancier et du godet. Le réservoir hydraulique de 11,4 L garantit une autonomie de travail confortable.
+
+#### Pompe Gear 3+3
+
+Pompe à engrenages double flux assurant un débit de 21,6 L/min pour des mouvements simultanés fluides.
+
+#### Pression 16 MPa
+
+Force d'excavation de 3,5 kN au balancier, suffisante pour creuser dans la plupart des sols courants.
+
+#### Entretien simplifié
+
+Accès facile aux points de maintenance, intervalles d'entretien espacés pour réduire les coûts.
+
+## Pour particuliers comme professionnels
+
+Choix idéal pour les particuliers réalisant eux-mêmes leurs travaux (jardin, terrasse, piscine hors-sol, tranchées) comme pour les paysagistes et artisans intervenant dans des espaces restreints. Sa facilité de transport et sa simplicité d'utilisation en font une micro pelle accessible à tous.
+
+#### Idéale aménagement paysager
+
+Massifs, tranchées d'arrosage, fondations de murets, plantation d'arbres : elle simplifie les travaux pénibles à la main.
+
+#### Prix imbattable + garantie 2 ans
+
+Dès 4 125 € HT, garantie pièces 24 mois et SAV basé en France avec stock de pièces détachées.
+
+#### Accessoires dédiés
+
+Attache rapide, godet de curage, dent ripper, pouce de manutention, râteau : adaptez la machine à vos besoins.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids opérationnel
+:   660 kg
+
+Longueur totale
+:   2 287 mm
+
+Largeur totale
+:   700 mm
+
+Hauteur totale
+:   1 350 mm
+
+Largeur chenille
+:   150 mm
+
+Largeur du godet standard
+:   300 mm
+
+Type de cabine
+:   Poste ouvert (canopy en option)
+
+### Dimensions de travail
+
+Profondeur de fouille max.
+:   1 091 mm
+
+Profondeur de fouille verticale max.
+:   1 018 mm
+
+Hauteur d'excavation max.
+:   2 114 mm
+
+Hauteur de déversement max.
+:   1 386 mm
+
+Rayon d'excavation horizontal max.
+:   2 254 mm
+
+Force d'excavation (balancier)
+:   3,5 kN
+
+### Mécanique
+
+Moteur
+:   Longxin G300FD
+
+Puissance
+:   6,8 kW (8,5 CV)
+
+Énergie
+:   Diesel Euro 5
+
+Pompe hydraulique
+:   Gear Pump 3+3
+
+Débit pompe
+:   21,6 L/min
+
+Pression système
+:   16 MPa
+
+Réservoir carburant
+:   6 L
+
+Réservoir hydraulique
+:   11,4 L
+
+### Déplacement & chenilles
+
+Vitesse de déplacement
+:   1,5 km/h
+
+Vitesse de rotation
+:   9,5 tr/min
+
+Chenilles
+:   150 × 72 × 34
+
+## Intéressé par la Mini-pelle SJW-06 ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-06%20(r%C3%A9f.%20SMP06).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-pelle SJW-06
+
+Montant financé : **4 125 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-pelle SJW-12 F Sonca — Mini-pelle dès 6 425 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-pelle
+
+# Mini-pelle SJW-12 F
+
+Mini-pelle 1,2 t à flèche orientable de série.
+
+En stock
+
+6 425 €HT
+
+soit 7 710 € TTC
+
+ou à partir de **130 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1,00 m
+
+Largeur totale
+
+10 CV
+
+Puissance moteur
+
+1,65 m
+
+Profondeur d'excavation
+
+1,49 m
+
+Rayon de pivotement
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-12%20F%20(r%C3%A9f.%20SMP12F).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La SONCA SJW-12 F est la mini-pelle 1,2 tonne polyvalente à flèche orientable de série. Cette fonctionnalité permet d'atteindre des angles impossibles avec une flèche fixe et d'intervenir dans les zones difficiles d'accès sans repositionner la machine. Avec sa largeur d'un mètre et son rayon de pivotement réduit, elle navigue aisément dans les espaces restreints — l'outil idéal pour le terrassement et l'aménagement résidentiel. Moteur KOOP KD192F 10 CV refroidi par air. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Flèche orientable de série
+
+La flèche orientable permet d'atteindre des angles inaccessibles avec une flèche fixe et augmente considérablement la zone de travail sans déplacer la machine. Le cache moteur protège les flexibles hydrauliques pour une plus grande longévité et une maintenance simplifiée.
+
+#### Maniabilité exceptionnelle
+
+Intervention efficace dans toutes les zones difficiles d'accès, sans repositionner la machine.
+
+#### Cache moteur protecteur
+
+Protège efficacement les flexibles hydrauliques des éléments extérieurs pour une durabilité accrue.
+
+#### Moteur KOOP 10 CV
+
+Moteur KOOP KD192F refroidi par air, équilibre entre puissance, fiabilité et facilité d'entretien.
+
+## Compacte et maniable
+
+Avec une largeur de seulement 1 mètre et un rayon de pivotement minimal de 1 490 mm à l'avant, la SJW-12 F navigue aisément autour des obstacles dans les espaces les plus restreints, tout en maximisant la productivité sur les chantiers résidentiels.
+
+#### Largeur 1 mètre
+
+Passe les accès étroits et les portails de jardin standard.
+
+#### Pivotement 1 490 mm
+
+Navigation précise autour des obstacles, idéale en milieu résidentiel.
+
+#### Godet 40 cm inclus
+
+Livrée prête à l'emploi pour les travaux de terrassement courants.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Largeur totale
+:   1 000 mm
+
+Largeur du godet
+:   400 mm
+
+### Dimensions de travail
+
+Profondeur d'excavation max.
+:   1 650 mm
+
+Rayon de pivotement min. (avant)
+:   1 490 mm
+
+### Mécanique
+
+Moteur
+:   KOOP KD192F
+
+Puissance
+:   10 CV
+
+Refroidissement
+:   Air
+
+Énergie
+:   Diesel Euro 5
+
+## Intéressé par la Mini-pelle SJW-12 F ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-12%20F%20(r%C3%A9f.%20SMP12F).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-pelle SJW-12 F
+
+Montant financé : **6 425 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-pelle SJW-12 P Sonca — Mini-pelle dès 7 250 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-pelle
+
+# Mini-pelle SJW-12 P
+
+La 1,2 t à flèche orientable, finitions haut de gamme.
+
+En stock
+
+7 250 €HT
+
+soit 8 700 € TTC
+
+ou à partir de **147 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1 015 kg
+
+Poids opérationnel
+
+1,00 m
+
+Largeur totale
+
+10 CV
+
+Puissance moteur
+
+1,65 m
+
+Profondeur d'excavation
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-12%20P%20(r%C3%A9f.%20SMP12P).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La SONCA SJW-12 P est la version aboutie de la gamme compacte 1,2 tonne : flèche orientable, finitions soignées et joysticks hydrauliques intégrés aux accoudoirs du siège pour une ergonomie et une précision optimales. Son rayon de pivotement de 1 490 mm et sa largeur d'un mètre permettent de naviguer dans les espaces les plus restreints. Destinée aux particuliers exigeants et aux chantiers résidentiels soignés, elle conjugue performance technique et esthétique. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Flèche orientable et finitions soignées
+
+La SJW-12 P se distingue par sa flèche orientable et ses finitions de qualité. Le système d'orientation renforcé offre maniabilité et précision dans tous les espaces exigus, tandis que le cache moteur esthétique protège l'ensemble des composants.
+
+#### Flèche orientable renforcée
+
+Système d'orientation durable et précis pour travailler dans les espaces les plus exigus.
+
+#### Joysticks intégrés
+
+Commandes hydrauliques intégrées aux accoudoirs du siège pour une ergonomie optimale.
+
+#### Moteur KOOP optimisé
+
+Moteur KOOP KD192F, équilibre entre puissance, fiabilité et facilité d'entretien.
+
+## Compacte et précise
+
+Avec un rayon de pivotement minimal de 1 490 mm et une largeur de seulement 1 mètre, la SJW-12 P se déplace avec une grande précision autour des obstacles. Idéale pour les jardins, cours intérieures et aménagements résidentiels soignés.
+
+#### Largeur 1 mètre
+
+Accès facilité aux espaces restreints et passages étroits.
+
+#### Pivotement 1 490 mm
+
+Navigation ultra-précise autour des obstacles.
+
+#### Pack complet
+
+Livrée avec godet 40 cm, canopy, boîte à outils et filtres.
+
+## Système hydraulique optimisé
+
+Le système hydraulique, renforcé pour supporter la flèche orientable, conserve une grande précision. La pompe Tianjin de 20 L et le godet de terrassement de 40 cm assurent des mouvements fluides et parfaitement contrôlés, même lors des manœuvres d'orientation.
+
+#### Pompe Tianjin 20 L
+
+Débit généreux pour des mouvements fluides et une bonne productivité.
+
+#### Godet 40 cm renforcé
+
+Inclus, dimensionné pour les travaux de terrassement courants.
+
+#### Option pouce manipulateur
+
+Dispositif optionnel sur le balancier, pour saisir tous types de matériaux.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids opérationnel
+:   1 015 kg
+
+Force d'excavation
+:   1 200 kg
+
+Longueur totale
+:   2 200 mm
+
+Largeur totale
+:   1 000 mm
+
+Hauteur totale
+:   2 240 mm
+
+Largeur des patins
+:   170 mm
+
+Largeur du godet
+:   400 mm
+
+Hauteur de voie
+:   320 mm
+
+### Dimensions de travail
+
+Profondeur d'excavation max.
+:   1 650 mm
+
+Hauteur d'excavation max.
+:   2 580 mm
+
+Hauteur de déversement max.
+:   1 750 mm
+
+Rayon de creusement au sol
+:   2 500 mm
+
+Rayon de rotation max.
+:   1 100 mm
+
+Rayon de pivotement min. (avant)
+:   1 490 mm
+
+### Mécanique
+
+Moteur
+:   KOOP KD192F
+
+Puissance
+:   10,3 / 11,7 CV
+
+Régime nominal
+:   3 600 tr/min
+
+Cylindrée
+:   499 cc
+
+Énergie
+:   Diesel Euro 5
+
+Refroidissement
+:   Air
+
+Type de moteur
+:   Monocylindre
+
+Consommation
+:   275–280 g/kWh
+
+Pompe hydraulique
+:   Tianjin
+
+Débit pompe
+:   20 L
+
+Réservoir carburant
+:   5,5 L
+
+## Intéressé par la Mini-pelle SJW-12 P ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-pelle%20SJW-12%20P%20(r%C3%A9f.%20SMP12P).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-pelle SJW-12 P
+
+Montant financé : **7 250 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-tombereau SJ-05E Sonca — Mini-tombereau dès 4 500 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-tombereau
+
+# Mini-tombereau SJ-05E
+
+Mini-tombereau chenillé compact.
+
+Sur commande
+
+4 500 €HT
+
+soit 5 400 € TTC
+
+ou à partir de **95 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 9,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+500 kg
+
+Charge maximale
+
+0,22 m³
+
+Capacité benne
+
+6,5 CV
+
+Puissance moteur
+
+0,95 m
+
+Rayon de braquage
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05E%20(r%C3%A9f.%20SMT-SJ-05E).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-05E est un mini-tombereau sur chenilles compact à benne basculante, idéal pour transporter des matériaux dans les espaces restreints et sur sols meubles. Maniable et endurant. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Ultra-compact et maniable
+
+Mini-dumper de 500 kg de charge au rayon de braquage exceptionnel de 0,95 m. Moteur KD292F diesel de 6,5 CV (200 cc) à double démarrage manuel et électrique.
+
+#### Moteur KD292F 6,5 CV
+
+200 cc, démarrage manuel et électrique.
+
+#### Rayon de braquage 0,95 m
+
+Agilité maximale dans les espaces étroits.
+
+#### Chenilles caoutchouc
+
+Charge 500 kg, pente franchissable 20°.
+
+## Vitesse variable et hydraulique Northern
+
+Deux vitesses (1,7 / 3,5 km/h) et soupape de commande multidirectionnelle Northern Hydraulics pour des manœuvres précises et contrôlées.
+
+#### 2 vitesses
+
+1,7 / 3,5 km/h selon les besoins du chantier.
+
+#### Commande Northern
+
+Manœuvrabilité précise et sécurité accrue.
+
+#### Réservoir hydraulique 7 L
+
+Mouvements fluides même en usage intensif.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids
+:   500 kg
+
+Longueur hors tout
+:   1 517 mm
+
+Largeur hors tout
+:   870 mm
+
+Hauteur totale
+:   1 278 mm
+
+Rayon de braquage min.
+:   950 mm
+
+Entraxe de piste
+:   520 mm
+
+Garde au sol min.
+:   85 mm
+
+### Performances de travail
+
+Capacité de chargement max.
+:   500 kg
+
+Volume de chargement benne
+:   0,22 m³
+
+Dimensions benne
+:   1040 × 730 × 590 mm
+
+Pente max. franchissable
+:   20°
+
+Vitesse de marche
+:   1,7 / 3,5 km/h
+
+Nombre de vitesses
+:   2 vitesses
+
+### Mécanique
+
+Moteur
+:   KD292F Diesel 6,5 CV
+
+Puissance
+:   6,5 CV
+
+Cylindrée
+:   200 cc
+
+Énergie
+:   Diesel
+
+Poids moteur
+:   16 kg
+
+Démarrage
+:   Manuel et électrique
+
+Réservoir carburant
+:   3,1 L
+
+Réservoir hydraulique
+:   7 L
+
+## Intéressé par la Mini-tombereau SJ-05E ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05E%20(r%C3%A9f.%20SMT-SJ-05E).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-tombereau SJ-05E
+
+Montant financé : **4 500 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-tombereau SJ-05EL Sonca — Mini-tombereau dès 5 700 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-tombereau
+
+# Mini-tombereau SJ-05EL
+
+Mini-tombereau chenillé, benne relevable.
+
+Sur commande
+
+5 700 €HT
+
+soit 6 840 € TTC
+
+ou à partir de **121 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 9,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+500 kg
+
+Charge maximale
+
+0,15 m³
+
+Capacité benne
+
+10 CV
+
+Puissance moteur
+
+1,35 m
+
+Hauteur de déchargement
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05EL%20(r%C3%A9f.%20SMT-SJ-05EL).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-05EL est un mini-tombereau sur chenilles à benne relevable, pour décharger en hauteur (remorque, big-bag, conteneur). Compact et tout-terrain, il facilite l'évacuation des matériaux sur chantier. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Dumper télescopique 10 CV
+
+Mini-tombereau télescopique au moteur KD292F diesel de 10 CV, benne de 0,15 m³ (volume total 0,22 m³) et capacité de 500 kg pour un transport efficace sur chantier.
+
+#### Moteur KD292F 10 CV
+
+Diesel, démarrage électrique, 2 vitesses (1,7-3,5 km/h).
+
+#### Système télescopique
+
+Hauteur de déchargement 1,35 m, idéal en espace restreint.
+
+#### Benne 0,15 m³
+
+Volume total 0,22 m³, charge 500 kg.
+
+## Tout-terrain et facile d'entretien
+
+Chenilles pour une traction stable sur sols accidentés, boueux ou glissants. Capot moteur à grand angle d'ouverture pour un entretien quotidien simplifié.
+
+#### Traction tous terrains
+
+Chenilles, pente franchissable 20°.
+
+#### Entretien facilité
+
+Capot à grande ouverture, refroidisseur d'huile.
+
+#### Compact
+
+1,57 m × 0,87 m × 1,66 m, rayon de braquage 0,95 m.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids opérationnel
+:   500 kg
+
+Poids net
+:   430 kg
+
+Longueur de la machine
+:   1 566 mm
+
+Largeur de la machine
+:   870 mm
+
+Hauteur de la machine
+:   1 660 mm
+
+Rayon de braquage min.
+:   950 mm
+
+Distance entre centres chenilles
+:   520 mm
+
+Garde au sol min.
+:   85 mm
+
+### Performances de travail
+
+Capacité de chargement max.
+:   500 kg
+
+Capacité de chargement benne
+:   0,15 m³
+
+Volume total benne
+:   0,22 m³
+
+Dimensions benne
+:   1040 × 730 × 590 mm
+
+Hauteur de déchargement
+:   1 350 mm
+
+Capacité de pente
+:   20°
+
+Vitesse
+:   1,7 - 3,5 km/h
+
+Nombre de vitesses
+:   2 vitesses
+
+### Mécanique
+
+Moteur
+:   KD292F Diesel 10 CV
+
+Puissance
+:   10 CV
+
+Énergie
+:   Diesel
+
+Démarrage
+:   Électrique
+
+Refroidissement
+:   Air
+
+## Intéressé par la Mini-tombereau SJ-05EL ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05EL%20(r%C3%A9f.%20SMT-SJ-05EL).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-tombereau SJ-05EL
+
+Montant financé : **5 700 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-tombereau SJ-05M Sonca — Mini-tombereau dès 4 125 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-tombereau
+
+# Mini-tombereau SJ-05M
+
+Mini-tombereau chenillé maniable.
+
+Sur commande
+
+4 125 €HT
+
+soit 4 950 € TTC
+
+ou à partir de **87 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 9,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+500 kg
+
+Charge maximale
+
+0,22 m³
+
+Capacité benne
+
+6,5 CV
+
+Puissance moteur
+
+0,95 m
+
+Rayon de braquage
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05M%20(r%C3%A9f.%20SMT-SJ-05M).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-05M est un mini-tombereau sur chenilles à benne basculante, pensé pour la maniabilité et la simplicité d'utilisation sur les petits et moyens chantiers. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Le dumper essentiel, simple et fiable
+
+Version essentielle du mini-tombereau : moteur KD292F diesel de 6,5 CV (200 cc), une vitesse de 1,7 km/h et un rayon de braquage de 0,95 m. Capacité de charge de 500 kg pour le transport sur terrains difficiles.
+
+#### Moteur KD292F 6,5 CV
+
+200 cc, démarrage manuel, performances constantes.
+
+#### Rayon de braquage 0,95 m
+
+Se glisse dans les endroits difficiles d'accès.
+
+#### Chenilles caoutchouc
+
+Charge 500 kg, pente franchissable 20°.
+
+## Benne compacte et transmission Northern
+
+Benne de 1040 × 730 × 590 mm (0,22 m³) et transmission hydraulique Northern Hydraulics réputée pour sa robustesse et sa précision.
+
+#### Benne 0,22 m³
+
+Gravier, terre, pierres, compost transportés sans effort.
+
+#### Transmission Northern
+
+Manœuvres fluides et contrôlées, durabilité accrue.
+
+#### Réservoir hydraulique 7 L
+
+Mouvements fluides pour une efficacité maximale.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids
+:   400 kg
+
+Longueur hors tout
+:   1 517 mm
+
+Largeur hors tout
+:   870 mm
+
+Hauteur totale
+:   1 278 mm
+
+Rayon de braquage min.
+:   950 mm
+
+Entraxe de piste
+:   520 mm
+
+Garde au sol min.
+:   85 mm
+
+### Performances de travail
+
+Capacité de chargement max.
+:   500 kg
+
+Volume de chargement benne
+:   0,22 m³
+
+Dimensions benne
+:   1040 × 730 × 590 mm
+
+Pente max. franchissable
+:   20°
+
+Vitesse de marche
+:   1,7 km/h
+
+Nombre de vitesses
+:   1 vitesse
+
+### Mécanique
+
+Moteur
+:   KD292F Diesel 6,5 CV
+
+Puissance
+:   6,5 CV
+
+Cylindrée
+:   200 cc
+
+Énergie
+:   Diesel
+
+Démarrage
+:   Manuel
+
+Réservoir carburant
+:   3,1 L
+
+Réservoir hydraulique
+:   7 L
+
+## Intéressé par la Mini-tombereau SJ-05M ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-05M%20(r%C3%A9f.%20SMT-SJ-05M).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-tombereau SJ-05M
+
+Montant financé : **4 125 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-tombereau SJ-08EL Sonca — Mini-tombereau dès 6 950 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Sonca · Mini-tombereau
+
+# Mini-tombereau SJ-08EL
+
+Mini-tombereau chenillé, grande capacité.
+
+Sur commande
+
+6 950 €HT
+
+soit 8 340 € TTC
+
+ou à partir de **141 €** / mois\*
+Simuler mon financement
+
+\* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+800 kg
+
+Poids opérationnel
+
+0,22 m³
+
+Capacité benne
+
+10 CV
+
+Puissance moteur
+
+1,75 m
+
+Hauteur de basculement
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-08EL%20(r%C3%A9f.%20SMT-SJ-08EL).%20Merci%20de%20me%20recontacter.) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+Le SONCA SJ-08EL est un mini-tombereau (mini-dumper) sur chenilles à benne basculante, conçu pour transporter terre, gravats et matériaux sur les terrains les plus difficiles. Sa large capacité en fait un allié des chantiers d'évacuation et d'aménagement. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Moteur diesel 10 CV et chenilles tout-terrain
+
+Moteur KD292F diesel de 10 CV (306 cc) à démarrage électrique et chenilles robustes pour transporter des charges lourdes sur terrains accidentés, boueux ou en pente jusqu'à 20°.
+
+#### Moteur KD292F 10 CV
+
+306 cc, démarrage électrique, couple élevé.
+
+#### Chenilles robustes
+
+Stabilité et adhérence sur tous terrains, pente 20°.
+
+#### Benne 0,22 m³
+
+Volume total 0,26 m³, hauteur de basculement 1,75 m.
+
+## Compact, télescopique et facile d'entretien
+
+Format 1,98 × 0,87 × 1,68 m et conception télescopique pour les espaces confinés. Conception sans capot facilitant l'accès aux composants et l'entretien.
+
+#### Dimensions compactes
+
+1,98 m × 0,87 m × 1,68 m, 2 vitesses (2,1-4,2 km/h).
+
+#### Refroidisseur d'huile
+
+Dissipation thermique optimisée pour l'usage intensif.
+
+#### Entretien simplifié
+
+Réservoir hydraulique 7 L, accès facilité aux composants.
+
+## Caractéristiques techniques
+
+### Caractéristiques générales
+
+Poids opérationnel
+:   800 kg
+
+Longueur de la machine
+:   1 982 mm
+
+Largeur de la machine
+:   870 mm
+
+Hauteur de la machine
+:   1 680 mm
+
+Distance entre centres chenilles
+:   620 mm
+
+Dimensions de la benne
+:   1235 × 730 × 590 mm
+
+Capacité de montée
+:   20°
+
+### Performances de travail
+
+Volume de la benne
+:   0,26 m³
+
+Capacité de chargement
+:   0,22 m³
+
+Hauteur de levage et basculement
+:   1 750 mm
+
+Vitesse de déplacement
+:   2,1 - 4,2 km/h
+
+Nombre de vitesses
+:   2 vitesses
+
+Système de déplacement
+:   Chenilles
+
+### Mécanique
+
+Moteur
+:   KD292F Diesel 10 CV
+
+Cylindrée
+:   306 cc
+
+Puissance
+:   10 CV
+
+Énergie
+:   Diesel
+
+Démarrage
+:   Électrique
+
+Réservoir carburant
+:   5,3 L
+
+Réservoir hydraulique
+:   7 L
+
+## Intéressé par la Mini-tombereau SJ-08EL ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Mini-tombereau%20SJ-08EL%20(r%C3%A9f.%20SMT-SJ-08EL).%20Merci%20de%20me%20recontacter.)
+
+×
+
+Simulation de financement
+
+### Mini-tombereau SJ-08EL
+
+Montant financé : **6 950 €** HT
+
+—€/mois
+
+—
+
+Durée du financement **60 mois**
+
+060120
+
+Coût total du crédit**—**
+
+Montant total dû**—**
+
+Un crédit vous engage et doit être remboursé. Vérifiez vos capacités de remboursement avant de vous engager. Cette simulation est purement indicative, hors assurance facultative, et n'a aucune valeur contractuelle. Toute demande est soumise à étude et à l'acceptation préalable du dossier par l'organisme de financement.
+
+[Demander un financement](https://czn-machinery.com/contact/?topic=financement)
+
+
+---
+
+# Mini-pelle XC12JS Xcavator — Mini-pelle dès 7 250 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Xcavator · Mini-pelle
+
+# Mini-pelle XC12JS
+
+Mini-pelle 1,2 t, maniable et endurante.
+
+Sur commande
+
+7 250 €HT
+
+soit 8 700 € TTC
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC12JS&ref=XMP-XC-12-JS) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La XCAVATOR XC12JS est une mini-pelle 1,2 tonne compacte et maniable, pensée pour le terrassement et l'aménagement dans les espaces restreints. Fiable et facile à prendre en main. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Caractéristiques techniques
+
+Fiche technique détaillée disponible sur demande — [contactez-nous](https://czn-machinery.com/contact/).
+
+## Intéressé par la Mini-pelle XC12JS ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC12JS&ref=XMP-XC-12-JS)
+
+
+---
+
+# Mini-pelle XC12S Xcavator — Mini-pelle dès 6 425 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Xcavator · Mini-pelle
+
+# Mini-pelle XC12S
+
+Mini-pelle 1,2 t polyvalente.
+
+Sur commande
+
+6 425 €HT
+
+soit 7 710 € TTC
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC12S&ref=XMP-XC-12-S) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La XCAVATOR XC12S est une mini-pelle 1,2 tonne polyvalente, idéale pour les particuliers et artisans cherchant une machine compacte et performante pour le terrassement courant. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Caractéristiques techniques
+
+Fiche technique détaillée disponible sur demande — [contactez-nous](https://czn-machinery.com/contact/).
+
+## Intéressé par la Mini-pelle XC12S ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC12S&ref=XMP-XC-12-S)
+
+
+---
+
+# Mini-pelle XC18SPRO Xcavator — Mini-pelle dès 11 666 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Xcavator · Mini-pelle
+
+# Mini-pelle XC18SPRO
+
+Mini-pelle 1,8 t, performance et confort.
+
+Sur commande
+
+11 666 €HT
+
+soit 13 999 € TTC
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC18SPRO&ref=XMP-XC-18-PRO) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La XCAVATOR XC18S PRO est une mini-pelle 1,8 tonne qui allie puissance hydraulique et confort de conduite pour les chantiers de terrassement intensifs. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Caractéristiques techniques
+
+Fiche technique détaillée disponible sur demande — [contactez-nous](https://czn-machinery.com/contact/).
+
+## Intéressé par la Mini-pelle XC18SPRO ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC18SPRO&ref=XMP-XC-18-PRO)
+
+
+---
+
+# Mini-pelle XC25S Xcavator — Mini-pelle dès 23 400 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+‹›
+
+Xcavator · Mini-pelle
+
+# Mini-pelle XC25S
+
+Mini-pelle 2,5 t avec canopy de série.
+
+Sur commande
+
+23 400 €HT
+
+soit 28 080 € TTC
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC25S&ref=XMP-XC-25-S-C) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La XCAVATOR XC25S est une mini-pelle 2,5 tonnes équipée d'un canopy de protection de série. Conçue pour les gros travaux de terrassement, elle conjugue puissance, stabilité et sécurité de l'opérateur. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Caractéristiques techniques
+
+Fiche technique détaillée disponible sur demande — [contactez-nous](https://czn-machinery.com/contact/).
+
+## Intéressé par la Mini-pelle XC25S ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC25S&ref=XMP-XC-25-S-C)
+
+
+---
+
+# Mini-pelle XC06S Xcavator — Mini-pelle dès 5 125 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+XcavatorVisuels à venir
+
+Xcavator · Mini-pelle
+
+# Mini-pelle XC06S
+
+Mini-pelle compacte d'entrée de gamme.
+
+Sur commande
+
+5 125 €HT
+
+soit 6 150 € TTC
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC06S&ref=XMP-XC06S) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La XCAVATOR XC06S est une mini-pelle compacte d'entrée de gamme, pensée pour le terrassement léger et l'aménagement extérieur. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Caractéristiques techniques
+
+Fiche technique détaillée disponible sur demande — [contactez-nous](https://czn-machinery.com/contact/).
+
+## Intéressé par la Mini-pelle XC06S ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC06S&ref=XMP-XC06S)
+
+
+---
+
+# Mini-pelle XC25U-2C Xcavator — Mini-pelle dès 27 525 € HT | CZN Machinery
+
+📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+XcavatorVisuels à venir
+
+Xcavator · Mini-pelle
+
+# Mini-pelle XC25U-2C
+
+Mini-pelle 2,5 t, la plus capable de la gamme.
+
+Sur commande
+
+27 525 €HT
+
+soit 33 030 € TTC
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC25U-2C&ref=XMP-XC25-2C) 
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans✓ Livraison France✓ Importateur direct
+
+La XCAVATOR XC25U-2C est l'une des mini-pelles les plus performantes du catalogue, destinée aux chantiers de terrassement exigeants. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+## Caractéristiques techniques
+
+Fiche technique détaillée disponible sur demande — [contactez-nous](https://czn-machinery.com/contact/).
+
+## Intéressé par la Mini-pelle XC25U-2C ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](https://czn-machinery.com/contact/?modele=Mini-pelle%20XC25U-2C&ref=XMP-XC25-2C)
+
+
+---
