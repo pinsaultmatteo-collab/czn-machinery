@@ -76,6 +76,7 @@
       loaded = true;
     }
     overlay.classList.add('open');
+    if(typeof gtag==='function'){gtag('event','rdv_open',{method:'axonaut'});}
     document.body.classList.add('rdv-lock');
     closeBtn.focus();
   }

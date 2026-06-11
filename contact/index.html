@@ -445,6 +445,7 @@
       .then(function(res){
         if (res.ok) {
           showMessage(true);
+          if(typeof gtag==='function'){gtag('event','generate_lead',{form_name:'contact',value:1});}
         } else {
           res.json().then(function(data){
             var detail = (data && data.errors)
