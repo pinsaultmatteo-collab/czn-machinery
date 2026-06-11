@@ -105,7 +105,7 @@
       '</div>' +
       '<ul class="mobile-drawer-links">' + linksHTML + '</ul>' +
       '<div class="mobile-drawer-foot">' +
-        '<a href="/contact/" class="mobile-drawer-cta">' + (isEN ? 'Book an appointment' : 'Prendre un RDV') +
+        '<a href="/contact/" data-rdv class="mobile-drawer-cta">' + (isEN ? 'Book an appointment' : 'Prendre un RDV') +
           ' <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>' +
         '<a href="tel:+33531605161" class="mobile-drawer-phone">' +
           '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg>' +

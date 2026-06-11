@@ -2582,6 +2582,43 @@
 @media (max-width: 960px) { .pillar-grid { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 600px) { .pillar-grid { grid-template-columns: 1fr; } }
 
+/* ── CROSS-NAV (fin des pages catégories : continuer la visite) ── */
+.cross-nav-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+.cross-nav-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 26px 28px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 4px;
+  font-family: var(--f-display);
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--ink);
+  text-decoration: none;
+  box-shadow: var(--shadow-sm);
+  transition: transform 0.25s var(--ease-quart), border-color 0.25s var(--ease-quart), box-shadow 0.25s var(--ease-quart);
+}
+.cross-nav-card:hover {
+  border-color: var(--orange);
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-md);
+}
+.cross-nav-card .cn-arrow {
+  color: var(--orange);
+  font-size: 22px;
+  line-height: 1;
+  transition: transform 0.25s var(--ease-quart);
+}
+.cross-nav-card:hover .cn-arrow { transform: translateX(4px); }
+@media (max-width: 720px) { .cross-nav-grid { grid-template-columns: 1fr; } }
+
 /* ── EDITORIAL STORY (À propos) ── */
 .story-grid {
   display: grid;
@@ -5484,4 +5521,32 @@ body.drawer-locked { overflow: hidden; }
   .page-home .pq-number { display: inline-block; vertical-align: middle; margin: 0 12px 0 0; }
   .page-home .pq-icon   { display: inline-block; vertical-align: middle; margin: 0; }
   .page-home .pq-title  { margin-top: 16px; }
+}
+
+/* ═══════════════ PAGES INTÉRIEURES — Réglages mobile ═══════════════ */
+@media (max-width: 720px) {
+  /* — Accessoires : héro empilé, contenu centré, espace du haut réduit — */
+  .page-accessoires .page-hero { padding-top: 28px; }
+  .page-accessoires .page-hero--media .hero-split-grid { grid-template-columns: 1fr; }
+  .page-accessoires .hero-split-content { padding-top: 18px; text-align: center; }
+  .page-accessoires .hero-stat { text-align: center; }
+
+  /* — Guides : héro centré + 4 stats (2 colonnes) centrées — */
+  .page-guides .page-hero { text-align: center; }
+  .page-guides .hero-stat { text-align: center; }
+
+  /* — Contact : héro centré + 4 stats (2 colonnes) centrées — */
+  .page-contact .page-hero { text-align: center; }
+  .page-contact .hero-stat { text-align: center; }
+
+  /* — Entreprise : espaces du haut réduits sur le héro + tous les blocs — */
+  .page-entreprise .page-hero { padding-top: 28px; }
+  .page-entreprise .hero-split-content { padding-top: 18px; }
+  .page-entreprise .sec-cream,
+  .page-entreprise .sec-paper { padding-top: 44px; }
+  /* Informations légales : infos centrées */
+  .page-entreprise .company-cell { text-align: center; }
+  /* Sur les réseaux : bouton « Suivre » pleine largeur dans la carte */
+  .page-entreprise .ig-head { flex-direction: column; align-items: stretch; }
+  .page-entreprise .ig-follow { width: 100%; text-align: center; }
 }

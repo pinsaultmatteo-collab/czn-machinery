@@ -420,6 +420,60 @@ ${FINANCE_JS}
 }
 
 /* ── generation ── */
+/* Blocs de fin de page catégorie : navigation croisée + arguments CZN + CTA conseil.
+   Pas de classe .reveal ici : les pages catégories n'embarquent pas l'observer d'animation. */
+function categoryEndBlocks(slug) {
+  const cats = [
+    { href: "/mini-pelles/", label: "Mini-pelles" },
+    { href: "/mini-chargeurs/", label: "Mini-chargeurs" },
+    { href: "/mini-tombereaux/", label: "Mini-tombereaux" },
+    { href: "/accessoires/", label: "Accessoires" },
+  ];
+  const cross = cats
+    .filter((c) => c.href !== CAT_PATH[slug])
+    .map((c) => `      <a href="${c.href}" class="cross-nav-card"><span>${c.label}</span><span class="cn-arrow">→</span></a>`)
+    .join("\n");
+  return `<section class="sec-cream">
+  <div class="container">
+    <div class="inner-header centered">
+      <div class="eyebrow">Continuer la visite</div>
+      <h2 class="section-title">Explorez le reste de <em>la gamme</em>.</h2>
+    </div>
+    <div class="cross-nav-grid">
+${cross}
+    </div>
+  </div>
+</section>
+<section class="sec-paper">
+  <div class="container">
+    <div class="inner-header centered">
+      <div class="eyebrow">Ce que vous obtenez avec CZN</div>
+      <h2 class="section-title">L'assurance d'un <em>partenaire sérieux</em>.</h2>
+    </div>
+    <div class="pillar-grid">
+      <div class="pillar-card"><div class="pillar-num">01</div><h3 class="pillar-title">Importateur <em>direct</em></h3><p class="pillar-body">Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.</p></div>
+      <div class="pillar-card"><div class="pillar-num">02</div><h3 class="pillar-title">Garantie <em>2 ans</em></h3><p class="pillar-body">Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.</p></div>
+      <div class="pillar-card"><div class="pillar-num">03</div><h3 class="pillar-title">Livraison <em>France</em></h3><p class="pillar-body">Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.</p></div>
+      <div class="pillar-card"><div class="pillar-num">04</div><h3 class="pillar-title">Financement <em>Sofinco</em></h3><p class="pillar-body">De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.</p></div>
+      <div class="pillar-card"><div class="pillar-num">05</div><h3 class="pillar-title">Contrôle <em>50 points</em></h3><p class="pillar-body">Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.</p></div>
+      <div class="pillar-card"><div class="pillar-num">06</div><h3 class="pillar-title"><em>148+</em> avis 5★</h3><p class="pillar-body">Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.</p></div>
+    </div>
+  </div>
+</section>
+<section class="inner-cta">
+  <div class="container">
+    <div class="inner-cta-inner">
+      <h2>Besoin d'un conseil <em>avant d'acheter</em> ?</h2>
+      <p>Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.</p>
+      <div class="cta-btns">
+        <a href="/contact/" class="btn-orange">Contacter notre équipe</a>
+        <a href="/guides/" class="btn-ghost">Consulter les guides</a>
+      </div>
+    </div>
+  </div>
+</section>`;
+}
+
 function categoryShellHTML(page) {
   const name = CAT_NAME[page.slug] || page.label + "s";
   return `<!DOCTYPE html>
@@ -451,6 +505,7 @@ ${NAV}
 <!-- PRODUCTS:END -->
   </div>
 </div></section>
+${categoryEndBlocks(page.slug)}
 ${FOOTER}
 </body>
 </html>`;

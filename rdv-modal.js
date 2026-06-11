@@ -95,12 +95,14 @@
   });
 
   // ---------- Init ----------
+  // Délégation sur document : ouvre la popup pour tout .nav-cta / [data-rdv],
+  // y compris les éléments injectés plus tard (ex. bouton du menu burger mobile).
   function init() {
     document.body.appendChild(overlay);
-    var triggers = document.querySelectorAll('.nav-cta, [data-rdv]');
-    for (var i = 0; i < triggers.length; i++) {
-      triggers[i].addEventListener('click', open);
-    }
+    document.addEventListener('click', function (e) {
+      var t = e.target && e.target.closest ? e.target.closest('.nav-cta, [data-rdv]') : null;
+      if (t) open(e);
+    });
   }
 
   if (document.readyState === 'loading') {
