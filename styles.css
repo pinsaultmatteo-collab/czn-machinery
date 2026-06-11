@@ -5539,9 +5539,11 @@ body.drawer-locked { overflow: hidden; }
   .page-contact .page-hero { text-align: center; }
   .page-contact .hero-stat { text-align: center; }
 
-  /* — Entreprise : espaces du haut réduits sur le héro + tous les blocs — */
+  /* — Entreprise : héro centré, espaces réduits (haut + stats↔photo) — */
   .page-entreprise .page-hero { padding-top: 28px; }
-  .page-entreprise .hero-split-content { padding-top: 18px; }
+  .page-entreprise .hero-split-content { padding-top: 18px; padding-bottom: 14px; text-align: center; }
+  .page-entreprise .hero-stat { text-align: center; }
+  .page-entreprise .page-hero--media .hero-split-img { padding: 8px 0 0; }
   .page-entreprise .sec-cream,
   .page-entreprise .sec-paper { padding-top: 44px; }
   /* Informations légales : infos centrées */
