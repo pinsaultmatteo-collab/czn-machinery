@@ -5550,3 +5550,9 @@ body.drawer-locked { overflow: hidden; }
   .page-entreprise .ig-head { flex-direction: column; align-items: stretch; }
   .page-entreprise .ig-follow { width: 100%; text-align: center; }
 }
+
+/* Entreprise : réafficher la photo des bureaux sous le contenu du héros sur mobile/tablette
+   (les héros média masquent l'image ≤900px — on la réautorise pour cette page). */
+@media (max-width: 900px) {
+  .page-entreprise .page-hero--media .hero-split-img { display: block; }
+}
