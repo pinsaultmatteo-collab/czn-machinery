@@ -5020,13 +5020,7 @@ a.contact-item-val:hover { color: var(--orange); }
 
 /* ═══════════════ CATALOGUE — animated SVG showcase ═══════════════ */
 .catv2-showcase {
-  position: relative;
-  margin: 18px 0 56px;
-  padding: 32px 24px 0;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  overflow: hidden;
+  display: none;  /* mini-pelle animée retirée (web + mobile) + suppression de son espace vide */
 }
 .catv2-showcase-bg {
   position: absolute;
