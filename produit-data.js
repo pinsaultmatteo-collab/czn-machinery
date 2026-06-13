@@ -460,6 +460,7 @@ module.exports = {
       { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-profil-avant-droit.webp",   alt: "Mini-tombereau Sonca SJ-08EL profil avant droit" },
       { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-profil-avant-deplie.webp",  alt: "Sonca SJ-08EL benne déployée" },
       { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-moteur.webp",               alt: "Sonca SJ-08EL moteur" },
+      { src: "/images/SJ-08EL/mini-tombereau-sonca-sj-08el-manettes.webp",             alt: "Sonca SJ-08EL commandes" },
     ],
   },
 
