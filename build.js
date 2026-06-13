@@ -1,31 +1,26 @@
 // 📁 /build.js — génère les fiches produit + le catalogue depuis Axonaut + produit-data.js
+// Bilingue FR + EN.
 //
 // Axonaut → titre / prix / stock UNIQUEMENT.
-// produit-data.js → descriptions, sections, caractéristiques, photos (tout le contenu riche).
-// E-commerce retiré : pas de panier ni paiement, CTA = « Demander un devis ».
+// produit-data.js (FR) / produit-data.en.js (EN) → descriptions, sections, caractéristiques, photos.
+// E-commerce retiré : pas de panier ni paiement, CTA = « Demander un devis » / « Request a quote ».
 //
-// Lancement :  AXONAUT_API_KEY='ta_cle' node build.js
+// Lancement :  AXONAUT_API_KEY='ta_cle' node build.js   → génère FR + EN + rafraîchit le cache.
+// Sans clé : si .axonaut-cache.json existe, le build tourne depuis le cache (FR + EN).
 
 const fs = require("fs");
 const path = require("path");
 
-let DATA = {};
-try { DATA = require("./produit-data.js"); } catch (e) { DATA = {}; }
+let DATA_FR = {};
+try { DATA_FR = require("./produit-data.js"); } catch (e) { DATA_FR = {}; }
+let DATA_EN = {};
+try { DATA_EN = require("./produit-data.en.js"); } catch (e) { DATA_EN = {}; }
 
 const SITE = "https://czn-machinery.com";
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
-const PAGES = [
-  { slug: "mini-pelles",     file: "mini-pelles/index.html",     label: "Mini-pelle",     eyebrow: "01 — Terrassement", h1: "Mini-pelles <em>neuves</em>" },
-  { slug: "mini-chargeurs",  file: "mini-chargeurs/index.html",  label: "Mini-chargeur",  eyebrow: "02 — Manutention",  h1: "Mini-chargeurs <em>neufs</em>" },
-  { slug: "mini-tombereaux", file: "mini-tombereaux/index.html", label: "Mini-tombereau", eyebrow: "03 — Transport",    h1: "Mini-tombereaux <em>neufs</em>" },
-];
-const LABELS = { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "accessoires": "Accessoire" };
-const CAT_PATH = { "mini-pelles": "/mini-pelles/", "mini-chargeurs": "/mini-chargeurs/", "mini-tombereaux": "/mini-tombereaux/", "accessoires": "/accessoires/" };
-const CAT_NAME = { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "accessoires": "Accessoires" };
+const CACHE_FILE = path.join(process.cwd(), ".axonaut-cache.json");
 
-/* ── Axonaut → routage par CATÉGORIE (page) + MARQUE lue dans le titre ──
-   Indépendant du format des références : changer une réf ne casse rien.
-   Les produits sans catégorie reconnue (SAV, pièces…) sont exclus. */
+/* ── Axonaut → routage par CATÉGORIE (page) + MARQUE lue dans le titre ── */
 function categoryToSlug(category) {
   const c = (category || "").toLowerCase();
   if (c.includes("pelle")) return "mini-pelles";
@@ -66,44 +61,142 @@ function normalize(p) {
   };
 }
 
+/* ── locales ──
+   Tout ce qui dépend de la langue passe par l'objet L. FR = comportement historique. */
+const TYPEMAP_FR = [[/mini\s*-?\s*pelle/i, "Mini-pelle"], [/mini\s*-?\s*chargeur/i, "Mini-chargeur"], [/mini\s*-?\s*tombereau/i, "Mini-tombereau"]];
+const TYPEMAP_EN = [[/mini\s*-?\s*pelle/i, "Mini excavator"], [/mini\s*-?\s*chargeur/i, "Mini loader"], [/mini\s*-?\s*tombereau/i, "Mini dumper"]];
+
+const LOCALES = {
+  fr: {
+    lang: "fr", ogLocale: "fr_FR", prefix: "", out: "",
+    DATA: DATA_FR, typeMap: TYPEMAP_FR, finance: true,
+    LABELS: { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "accessoires": "Accessoire" },
+    CAT_NAME: { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "accessoires": "Accessoires" },
+    PAGES: [
+      { slug: "mini-pelles", file: "mini-pelles/index.html", label: "Mini-pelle", eyebrow: "01 — Terrassement", h1: "Mini-pelles <em>neuves</em>" },
+      { slug: "mini-chargeurs", file: "mini-chargeurs/index.html", label: "Mini-chargeur", eyebrow: "02 — Manutention", h1: "Mini-chargeurs <em>neufs</em>" },
+      { slug: "mini-tombereaux", file: "mini-tombereaux/index.html", label: "Mini-tombereau", eyebrow: "03 — Transport", h1: "Mini-tombereaux <em>neufs</em>" },
+    ],
+    ui: {
+      home: "Accueil", breadcrumb: "Fil d'Ariane", search: "Recherche", navCta: "Demander un devis",
+      logoAria: "CZN Machinery - Accueil", hours: "Showroom Lun–Ven · 9h–12h / 14h–18h",
+      open: "Actuellement ouvert", closed: "Actuellement fermé",
+      tagFr: "Français", tagEn: "English",
+      navLinks: [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/accessoires/", "Accessoires"], ["/entreprise/", "Entreprise"], ["/guides/", "Guides"], ["/contact/", "Contact"]],
+      footTagline: "Engins de chantier importés en direct depuis 2019. Toulouse, France.",
+      footCols: [
+        ["Catalogue", [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/accessoires/", "Accessoires"], ["/occasion/", "Occasion"]]],
+        ["Acheter", [["/entreprise/financement/", "Financement"], ["/contact/", "Demander un devis"], ["/#livraison", "Livraison France"], ["/#avis", "Avis clients"]]],
+        ["Ressources", [["/guides/", "Tous les guides"], ["/guides/comment-choisir-mini-pelle/", "Comment choisir"], ["/guides/prix-mini-pelle/", "Prix mini-pelle"], ["/guides/caces-mini-pelle/", "CACES & permis"]]],
+        ["Entreprise", [["/entreprise/", "À propos"], ["/entreprise/financement/", "Financement"], ["/contact/", "Contact"], ["mailto:contact@czn-machinery.com", "contact@czn-machinery.com"], ["tel:+33531605161", "05 31 60 51 61"]]],
+      ],
+      footLegal: [["/mentions-legales/", "Mentions légales"], ["/cgv/", "CGV"], ["/politique-confidentialite/", "Politique de confidentialité"]],
+      inStock: "En stock", onOrder: "Sur commande", from: "À partir de", priceSuffix: "HT · hors livraison",
+      priceWord: "Prix", onQuote: "Sur devis", cardAria: "Voir la fiche ",
+      ht: "HT", ttcWord: (v) => `soit ${v} € TTC`, titleFrom: (p) => ` dès ${p} € HT`,
+      requestQuote: "Demander un devis", warranty2y: "✓ Garantie 2 ans", deliveryFr: "✓ Livraison France", directImporter: "✓ Importateur direct",
+      techSpecs: "Caractéristiques techniques", specsEmpty: 'Fiche technique détaillée disponible sur demande — <a href="/contact/">contactez-nous</a>.',
+      ctaInterested: (n) => `Intéressé par la ${n} ?`, ctaBody: "Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.",
+      itemListName: (label) => `${label}s CZN Machinery`,
+      devisMsg: (name, ref) => `Bonjour, je voudrais un devis pour la ${name}${ref ? ` (réf. ${ref})` : ""}. Merci de me recontacter.`,
+      introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} importée en direct par CZN Machinery. Garantie 2 ans, livraison dans toute la France.`,
+      continueVisit: "Continuer la visite", exploreRange: "Explorez le reste de <em>la gamme</em>.",
+      photoSoon: "Photo à venir", visualsSoon: "Visuels à venir",
+      finMonthlyLine: (m) => `ou à partir de <strong>${m} €</strong> / mois<sup>*</sup>`,
+      finBtn: "Simuler mon financement",
+      finNote: (months, rate) => `* Estimation indicative sur ${months} mois, TAEG fixe ${rate} %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.`,
+    },
+  },
+  en: {
+    lang: "en", ogLocale: "en_GB", prefix: "/en", out: "en",
+    DATA: DATA_EN, typeMap: TYPEMAP_EN, finance: false,
+    LABELS: { "mini-pelles": "Mini excavator", "mini-chargeurs": "Mini loader", "mini-tombereaux": "Mini dumper", "accessoires": "Attachment" },
+    CAT_NAME: { "mini-pelles": "Mini excavators", "mini-chargeurs": "Mini loaders", "mini-tombereaux": "Mini dumpers", "accessoires": "Attachments" },
+    PAGES: [
+      { slug: "mini-pelles", file: "en/mini-pelles/index.html", label: "Mini excavator", eyebrow: "01 — Earthworks", h1: "New <em>mini excavators</em>" },
+      { slug: "mini-chargeurs", file: "en/mini-chargeurs/index.html", label: "Mini loader", eyebrow: "02 — Handling", h1: "New <em>mini loaders</em>" },
+      { slug: "mini-tombereaux", file: "en/mini-tombereaux/index.html", label: "Mini dumper", eyebrow: "03 — Transport", h1: "New <em>mini dumpers</em>" },
+    ],
+    ui: {
+      home: "Home", breadcrumb: "Breadcrumb", search: "Search", navCta: "Request a quote",
+      logoAria: "CZN Machinery - Home", hours: "Showroom Mon–Fri · 9am–12pm / 2pm–6pm",
+      open: "Currently open", closed: "Currently closed",
+      tagFr: "Français", tagEn: "English",
+      navLinks: [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/accessoires/", "Attachments"], ["/en/entreprise/", "Company"], ["/en/guides/", "Guides"], ["/en/contact/", "Contact"]],
+      footTagline: "Construction machines imported directly since 2019. Toulouse, France.",
+      footCols: [
+        ["Catalogue", [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/accessoires/", "Attachments"], ["/en/occasion/", "Used"]]],
+        ["Buy", [["/en/entreprise/financement/", "Financing"], ["/en/contact/", "Request a quote"], ["/en/#livraison", "Delivery in France"], ["/en/#avis", "Customer reviews"]]],
+        ["Resources", [["/en/guides/", "All guides"], ["/en/guides/comment-choisir-mini-pelle/", "How to choose"], ["/en/guides/prix-mini-pelle/", "Mini excavator prices"], ["/en/guides/caces-mini-pelle/", "CACES & licences"]]],
+        ["Company", [["/en/entreprise/", "About"], ["/en/entreprise/financement/", "Financing"], ["/en/contact/", "Contact"], ["mailto:contact@czn-machinery.com", "contact@czn-machinery.com"], ["tel:+33531605161", "05 31 60 51 61"]]],
+      ],
+      footLegal: [["/mentions-legales/", "Legal notice"], ["/cgv/", "Terms of sale"], ["/politique-confidentialite/", "Privacy policy"]],
+      inStock: "In stock", onOrder: "On order", from: "From", priceSuffix: "excl. VAT · delivery not included",
+      priceWord: "Price", onQuote: "On quote", cardAria: "View the ",
+      ht: "excl. VAT", ttcWord: (v) => `i.e. ${v} € incl. VAT`, titleFrom: (p) => ` from ${p} € excl. VAT`,
+      requestQuote: "Request a quote", warranty2y: "✓ 2-year warranty", deliveryFr: "✓ Delivery across France", directImporter: "✓ Direct importer",
+      techSpecs: "Technical specifications", specsEmpty: 'Detailed spec sheet available on request — <a href="/en/contact/">get in touch</a>.',
+      ctaInterested: (n) => `Interested in the ${n}?`, ctaBody: "Request your personalised quote — fast reply, advice with no obligation.",
+      itemListName: (label) => `${label}s CZN Machinery`,
+      devisMsg: (name, ref) => `Hello, I would like a quote for the ${name}${ref ? ` (ref. ${ref})` : ""}. Please get back to me.`,
+      introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} imported directly by CZN Machinery. 2-year warranty, delivery across France.`,
+      continueVisit: "Continue the tour", exploreRange: "Explore the rest of <em>the range</em>.",
+      photoSoon: "Photo coming soon", visualsSoon: "Photos coming soon",
+    },
+  },
+};
+function catPath(L, slug) { return L.prefix + "/" + slug + "/"; }
+
 /* ── utils ── */
-function cleanName(name, brand) {
+function cleanName(name, brand, L) {
   let n = (name || "").trim();
   if (brand) n = n.replace(new RegExp("^" + brand + "\\s+", "i"), "");
-  n = n.replace(/mini\s*-?\s*pelle/i, "Mini-pelle")
-       .replace(/mini\s*-?\s*chargeur/i, "Mini-chargeur")
-       .replace(/mini\s*-?\s*tombereau/i, "Mini-tombereau");
+  for (const [re, rep] of L.typeMap) n = n.replace(re, rep);
   return n.trim();
 }
 const euro = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, "&thinsp;");
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const slugUrl = (ref) => "/produit/" + encodeURIComponent(ref) + "/";
+const slugUrl = (ref, L) => L.prefix + "/produit/" + encodeURIComponent(ref) + "/";
+const altSlugUrl = (ref, prefix) => prefix + "/produit/" + encodeURIComponent(ref) + "/";
 
-/* ── shell (sans panier — e-commerce retiré) ── */
-const UTILITY_BAR = `<div class="utility-bar"><div class="container">
-  <div class="utility-left"><span>📍 Toulouse, France</span><span class="util-divider"></span><span class="util-hours">Showroom Lun–Ven · 9h–12h / 14h–18h</span><span class="status-pill is-closed" id="openStatus" aria-live="polite"><span class="status-dot"></span><span class="status-text">—</span></span></div>
-  <div class="utility-right"><a href="tel:+33531605161" class="util-phone"><svg class="util-phone-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg><span>+33 5 31 60 51 61</span></a></div>
+/* ── chrome (sans panier — e-commerce retiré) ── */
+const FLAG_FR = `<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#0055A4"/><rect x="2" width="1" height="2" fill="#EF4135"/></svg>`;
+const FLAG_EN = `<svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="ukc"><rect width="60" height="30"/></clipPath><clipPath id="uks"><path d="M30 15 60 0v0h-4L30 12.5zM30 15 0 30h4L30 17.5zM30 15 0 0h4L30 12.5zM30 15 60 30h-4L30 17.5z"/></clipPath><g clip-path="url(#ukc)"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" clip-path="url(#uks)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg>`;
+function langSwitch(L, frUrl, enUrl) {
+  const frA = `<a href="${frUrl}" class="lang${L.lang === "fr" ? " active" : ""}" hreflang="fr" aria-label="${L.ui.tagFr}">${FLAG_FR}<span>FR</span></a>`;
+  const enA = `<a href="${enUrl}" class="lang${L.lang === "en" ? " active" : ""}" hreflang="en" aria-label="${L.ui.tagEn}">${FLAG_EN}<span>EN</span></a>`;
+  return `<span class="util-langs">${frA}${enA}</span>`;
+}
+function utilityBar(L, frUrl, enUrl) {
+  return `<div class="utility-bar"><div class="container">
+  <div class="utility-left"><span>📍 Toulouse, France</span><span class="util-divider"></span><span class="util-hours">${L.ui.hours}</span><span class="status-pill is-closed" id="openStatus" aria-live="polite"><span class="status-dot"></span><span class="status-text">—</span></span></div>
+  <div class="utility-right"><a href="tel:+33531605161" class="util-phone"><svg class="util-phone-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg><span>+33 5 31 60 51 61</span></a><span class="util-divider"></span>${langSwitch(L, frUrl, enUrl)}</div>
 </div></div>
-<script>(function(){function r(){var el=document.getElementById('openStatus');if(!el)return;var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());var m={};p.forEach(function(x){m[x.type]=x.value;});var mn=parseInt(m.hour,10)*60+parseInt(m.minute,10);var o=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0&&(mn>=540&&mn<1080);el.classList.toggle('is-open',o);el.classList.toggle('is-closed',!o);var t=el.querySelector('.status-text');if(t)t.textContent=o?'Actuellement ouvert':'Actuellement fermé';}r();setInterval(r,60000);})();</script>`;
+<script>(function(){function r(){var el=document.getElementById('openStatus');if(!el)return;var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());var m={};p.forEach(function(x){m[x.type]=x.value;});var mn=parseInt(m.hour,10)*60+parseInt(m.minute,10);var o=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0&&(mn>=540&&mn<1080);el.classList.toggle('is-open',o);el.classList.toggle('is-closed',!o);var t=el.querySelector('.status-text');if(t)t.textContent=o?'${L.ui.open}':'${L.ui.closed}';}r();setInterval(r,60000);})();</script>`;
+}
 
 const LOGO = (ink) => `<svg viewBox="0 0 720 320" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><g><text x="400" y="240" text-anchor="middle" font-family="'Archivo Black', sans-serif" font-size="192" font-weight="900" letter-spacing="-8" fill="${ink}" transform="skewX(-11)">CZN</text><polygon points="344,212 390,212 379,239 333,239" fill="#F2811C"/><polygon points="590,246 624,206 624,246" fill="#F2811C"/></g><g><line x1="128" y1="292" x2="236" y2="292" stroke="${ink}" stroke-width="3"/><line x1="246" y1="292" x2="262" y2="292" stroke="#F2811C" stroke-width="3"/><text x="371" y="300" text-anchor="middle" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="600" letter-spacing="10" fill="#F2811C">MACHINERY</text><line x1="480" y1="292" x2="496" y2="292" stroke="#F2811C" stroke-width="3"/><line x1="506" y1="292" x2="614" y2="292" stroke="${ink}" stroke-width="3"/></g></svg>`;
 
-const NAV = `<nav id="mainNav"><div class="nav-inner">
-  <a href="/" class="site-logo site-logo--nav" aria-label="CZN Machinery - Accueil">${LOGO("#212A35")}</a>
+function nav(L) {
+  const links = L.ui.navLinks.map(([h, t]) => `<li><a href="${h}">${t}</a></li>`).join("");
+  return `<nav id="mainNav"><div class="nav-inner">
+  <a href="${L.prefix ? L.prefix + "/" : "/"}" class="site-logo site-logo--nav" aria-label="${L.ui.logoAria}">${LOGO("#212A35")}</a>
   <ul class="nav-links">
-    <li><a href="/mini-pelles/">Mini-pelles</a></li><li><a href="/mini-chargeurs/">Mini-chargeurs</a></li>
-    <li><a href="/mini-tombereaux/">Mini-tombereaux</a></li><li><a href="/accessoires/">Accessoires</a></li>
-    <li><a href="/entreprise/">Entreprise</a></li><li><a href="/guides/">Guides</a></li><li><a href="/contact/">Contact</a></li>
+    ${links}
   </ul>
   <div class="nav-actions">
-    <a href="#" class="nav-icon" aria-label="Recherche"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></a>
-    <a href="/contact/" class="nav-cta">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
+    <a href="#" class="nav-icon" aria-label="${L.ui.search}"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="m21 21-4.3-4.3"/></svg></a>
+    <a href="${L.prefix}/contact/" class="nav-cta">${L.ui.navCta} <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
   </div></div></nav>
 <script>(function(){var path=window.location.pathname.replace(/\\/$/,'')||'/';document.querySelectorAll('.nav-links a').forEach(function(a){var h=a.getAttribute('href').replace(/\\/$/,'')||'/';if(path===h||(h!==''&&h!=='/'&&path.indexOf(h)===0))a.classList.add('nav-active');});})();</script>`;
+}
 
-const FOOTER = `<footer><div class="container"><div class="footer-top">
-  <div class="footer-brand"><a href="/" class="site-logo site-logo--footer" aria-label="CZN Machinery - Accueil">${LOGO("#F4F1EC")}</a>
-    <p class="footer-tagline">Engins de chantier importés en direct depuis 2019. Toulouse, France.</p>
+function footer(L) {
+  const cols = L.ui.footCols.map(([h, items]) => `  <div class="footer-col"><h4>${h}</h4><ul>${items.map(([href, t]) => `<li><a href="${href}">${t}</a></li>`).join("")}</ul></div>`).join("\n");
+  const legal = L.ui.footLegal.map(([href, t]) => `<a href="${href}">${t}</a>`).join("");
+  return `<footer><div class="container"><div class="footer-top">
+  <div class="footer-brand"><a href="${L.prefix ? L.prefix + "/" : "/"}" class="site-logo site-logo--footer" aria-label="${L.ui.logoAria}">${LOGO("#F4F1EC")}</a>
+    <p class="footer-tagline">${L.ui.footTagline}</p>
     <div class="footer-social">
       <a href="#" aria-label="Facebook"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M22 12a10 10 0 1 0-11.6 9.9v-7H8v-2.9h2.4V9.8c0-2.4 1.4-3.7 3.6-3.7 1 0 2.1.2 2.1.2v2.3h-1.2c-1.2 0-1.5.7-1.5 1.5V12h2.6l-.4 2.9h-2.2v7A10 10 0 0 0 22 12z"/></svg></a>
       <a href="#" aria-label="Instagram"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.4A4 4 0 1 1 12.6 8a4 4 0 0 1 3.4 3.4z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg></a>
@@ -111,41 +204,43 @@ const FOOTER = `<footer><div class="container"><div class="footer-top">
       <a href="#" aria-label="LinkedIn"><svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93-.86 0-1.62.65-1.62 2v4.67h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg></a>
     </div>
   </div>
-  <div class="footer-col"><h4>Catalogue</h4><ul><li><a href="/mini-pelles/">Mini-pelles</a></li><li><a href="/mini-chargeurs/">Mini-chargeurs</a></li><li><a href="/mini-tombereaux/">Mini-tombereaux</a></li><li><a href="/accessoires/">Accessoires</a></li><li><a href="/occasion/">Occasion</a></li></ul></div>
-  <div class="footer-col"><h4>Acheter</h4><ul><li><a href="/entreprise/financement/">Financement</a></li><li><a href="/contact/">Demander un devis</a></li><li><a href="#livraison">Livraison France</a></li><li><a href="#avis">Avis clients</a></li></ul></div>
-  <div class="footer-col"><h4>Ressources</h4><ul><li><a href="/guides/">Tous les guides</a></li><li><a href="/guides/comment-choisir-mini-pelle/">Comment choisir</a></li><li><a href="/guides/prix-mini-pelle/">Prix mini-pelle</a></li><li><a href="/guides/caces-mini-pelle/">CACES & permis</a></li></ul></div>
-  <div class="footer-col"><h4>Entreprise</h4><ul><li><a href="/entreprise/">À propos</a></li><li><a href="/entreprise/financement/">Financement</a></li><li><a href="/contact/">Contact</a></li><li><a href="mailto:contact@czn-machinery.com">contact@czn-machinery.com</a></li><li><a href="tel:+33531605161">05 31 60 51 61</a></li></ul></div>
+${cols}
 </div>
-<div class="footer-bottom"><div>© 2026 CZE France SAS · 11 impasse Pierre Camo, 31200 Toulouse · SIRET 824 356 513 00021</div><div class="footer-legal"><a href="/mentions-legales/">Mentions légales</a><a href="/cgv/">CGV</a><a href="/politique-confidentialite/">Politique de confidentialité</a></div></div>
+<div class="footer-bottom"><div>© 2026 CZE France SAS · 11 impasse Pierre Camo, 31200 Toulouse · SIRET 824 356 513 00021</div><div class="footer-legal">${legal}</div></div>
 </div></footer>`;
+}
 
 const HEAD_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">`;
 const FAVICONS = `<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">`;
+function hreflangLinks(frUrl, enUrl) {
+  return `<link rel="alternate" hreflang="fr" href="${SITE}${frUrl}"><link rel="alternate" hreflang="en" href="${SITE}${enUrl}"><link rel="alternate" hreflang="x-default" href="${SITE}${frUrl}">`;
+}
 
 /* ── catalogue (cartes + JSON-LD entre marqueurs) ── */
-function cardHTML(p) {
-  const tag = p.inStock ? '<span class="product-tag stock">En stock</span>' : '<span class="product-tag">Sur commande</span>';
-  const d = DATA[p.reference] || {};
+function cardHTML(p, L) {
+  const tag = p.inStock ? `<span class="product-tag stock">${L.ui.inStock}</span>` : `<span class="product-tag">${L.ui.onOrder}</span>`;
+  const d = L.DATA[p.reference] || {};
   const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im } : im));
   const photo = imgs[0] ? imgs[0].src : p.image;
+  const name = cleanName(p.name, p.brand, L);
   const img = photo
-    ? '<img class="product-photo" src="' + esc(photo) + '" alt="' + esc(cleanName(p.name, p.brand)) + '" loading="lazy">'
-    : '<div class="product-photo" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:100%;height:100%;background:var(--cream-2);color:var(--muted);font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;"><span style="font-size:15px;letter-spacing:.04em;">' + esc(p.brand || "CZN") + '</span><span>Photo à venir</span></div>';
+    ? '<img class="product-photo" src="' + esc(photo) + '" alt="' + esc(name) + '" loading="lazy">'
+    : '<div class="product-photo" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:100%;height:100%;background:var(--cream-2);color:var(--muted);font-family:var(--f-mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;"><span style="font-size:15px;letter-spacing:.04em;">' + esc(p.brand || "CZN") + "</span><span>" + esc(L.ui.photoSoon) + "</span></div>";
   const price = (p.priceHT && p.priceHT > 0)
-    ? '<span class="price-label">À partir de</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">HT · hors livraison</span>'
-    : '<span class="price-label">Prix</span>\n              <span class="price-val" style="font-size:22px;">Sur devis</span>';
+    ? '<span class="price-label">' + L.ui.from + '</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">' + L.ui.priceSuffix + "</span>"
+    : '<span class="price-label">' + L.ui.priceWord + '</span>\n              <span class="price-val" style="font-size:22px;">' + L.ui.onQuote + "</span>";
   return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '" style="position:relative;">',
-    '        <a class="card-link" href="' + slugUrl(p.reference) + '" aria-label="Voir la fiche ' + esc(cleanName(p.name, p.brand)) + '" style="position:absolute;inset:0;z-index:2;"></a>',
+    '        <a class="card-link" href="' + slugUrl(p.reference, L) + '" aria-label="' + esc(L.ui.cardAria + name) + '" style="position:absolute;inset:0;z-index:2;"></a>',
     '        <div class="product-img" style="aspect-ratio:1/1;">' + tag + img + "</div>",
     '        <div class="product-info"><div class="product-brand">' + esc(p.brand || "CZN") + "</div>",
-    '          <h3 class="product-name">' + esc(cleanName(p.name, p.brand)) + "</h3>",
+    '          <h3 class="product-name">' + esc(name) + "</h3>",
     '          <div class="product-footer"><div class="product-price">', "              " + price, "            </div>",
     '            <span class="product-cta" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>',
     "          </div></div>", "      </article>"].join("\n");
 }
-function itemListJsonLd(products, label) {
-  const items = products.map((p, i) => ({ "@type": "ListItem", position: i + 1, item: productNode(p, label) }));
-  return '<script type="application/ld+json">\n' + JSON.stringify({ "@context": "https://schema.org", "@type": "ItemList", name: label + "s CZN Machinery", itemListElement: items }) + "\n</" + "script>";
+function itemListJsonLd(products, label, L) {
+  const items = products.map((p, i) => ({ "@type": "ListItem", position: i + 1, item: productNode(p, label, L) }));
+  return '<script type="application/ld+json">\n' + JSON.stringify({ "@context": "https://schema.org", "@type": "ItemList", name: L.ui.itemListName(label), itemListElement: items }) + "\n</" + "script>";
 }
 function replaceBetween(content, start, end, inner) {
   const s = content.indexOf(start), e = content.indexOf(end);
@@ -161,12 +256,12 @@ function flatSpecs(d) {
 }
 
 /* ── JSON-LD produit ── */
-function productNode(p, label) {
-  const d = DATA[p.reference] || {};
+function productNode(p, label, L) {
+  const d = L.DATA[p.reference] || {};
   const node = {
-    "@type": "Product", name: cleanName(p.name, p.brand), sku: p.reference,
+    "@type": "Product", name: cleanName(p.name, p.brand, L), sku: p.reference,
     brand: { "@type": "Brand", name: p.brand || "CZN" }, category: label,
-    offers: { "@type": "Offer", price: String(p.priceHT || 0), priceCurrency: "EUR", availability: p.inStock ? "https://schema.org/InStock" : "https://schema.org/PreOrder", url: SITE + slugUrl(p.reference) },
+    offers: { "@type": "Offer", price: String(p.priceHT || 0), priceCurrency: "EUR", availability: p.inStock ? "https://schema.org/InStock" : "https://schema.org/PreOrder", url: SITE + slugUrl(p.reference, L) },
   };
   const desc = d.intro || d.description;
   if (desc) node.description = desc;
@@ -178,12 +273,12 @@ function productNode(p, label) {
 }
 
 /* ── rendu fiche ── */
-function galleryHTML(p, d) {
+function galleryHTML(p, d, L) {
   const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im, alt: "" } : im));
-  if (!imgs.length) return `<div class="pdp-gallery pdp-gallery--empty"><div class="pdp-noimg"><span>${esc(p.brand || "CZN")}</span><small>Visuels à venir</small></div></div>`;
+  if (!imgs.length) return `<div class="pdp-gallery pdp-gallery--empty"><div class="pdp-noimg"><span>${esc(p.brand || "CZN")}</span><small>${esc(L.ui.visualsSoon)}</small></div></div>`;
   const thumbs = imgs.map((im, i) => `<button class="pdp-thumb${i === 0 ? " active" : ""}" data-src="${esc(im.src)}" aria-label="Photo ${i + 1}"><img src="${esc(im.src)}" alt="${esc(im.alt || "")}" loading="lazy"></button>`).join("");
-  const arrows = imgs.length > 1 ? `<button class="pdp-nav pdp-prev" aria-label="Photo précédente">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo suivante">&#8250;</button>` : "";
-  return `<div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="${esc(imgs[0].src)}" alt="${esc(imgs[0].alt || cleanName(p.name, p.brand))}">${arrows}</div>${imgs.length > 1 ? `<div class="pdp-thumbs">${thumbs}</div>` : ""}</div>`;
+  const arrows = imgs.length > 1 ? `<button class="pdp-nav pdp-prev" aria-label="Photo ${L.lang === "fr" ? "précédente" : "previous"}">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo ${L.lang === "fr" ? "suivante" : "next"}">&#8250;</button>` : "";
+  return `<div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="${esc(imgs[0].src)}" alt="${esc(imgs[0].alt || cleanName(p.name, p.brand, L))}">${arrows}</div>${imgs.length > 1 ? `<div class="pdp-thumbs">${thumbs}</div>` : ""}</div>`;
 }
 function statsHTML(d) {
   if (!Array.isArray(d.stats) || !d.stats.length) return "";
@@ -196,8 +291,8 @@ function sectionsHTML(d) {
     return `<section class="pdp-block"><h2>${esc(sec.title)}</h2>${sec.body ? `<p class="pdp-block-body">${esc(sec.body)}</p>` : ""}${feats ? `<div class="pdp-feats">${feats}</div>` : ""}</section>`;
   }).join("\n");
 }
-function specsHTML(d) {
-  if (!Array.isArray(d.specs) || !d.specs.length) return `<div class="pdp-specs-empty">Fiche technique détaillée disponible sur demande — <a href="/contact/">contactez-nous</a>.</div>`;
+function specsHTML(d, L) {
+  if (!Array.isArray(d.specs) || !d.specs.length) return `<div class="pdp-specs-empty">${L.ui.specsEmpty}</div>`;
   const grouped = d.specs[0] && d.specs[0].rows;
   const groups = grouped ? d.specs : [{ group: null, rows: d.specs }];
   return groups.map((g) => {
@@ -206,20 +301,20 @@ function specsHTML(d) {
   }).join("\n");
 }
 
-/* ── Financement (estimation — aucun organisme nommé) ── */
-const FIN_DEFAULT_MONTHS = 60;     // durée de l'exemple affiché sous le prix
-const FIN_USE_TTC = false;         // base de calcul : true = prix TTC, false = prix HT
+/* ── Financement (estimation — FR uniquement, aucun organisme nommé) ── */
+const FIN_DEFAULT_MONTHS = 60;
+const FIN_USE_TTC = false;
 function finBase(p) {
   if (FIN_USE_TTC) return p.priceTTC && p.priceTTC > 0 ? Math.round(p.priceTTC) : (p.priceHT ? Math.round(p.priceHT * (1 + (p.vat || 20) / 100)) : 0);
   return p.priceHT || 0;
 }
-function finRate(base) { return base < 6000 ? 0.099 : 0.079; }   // TAEG fixe
+function finRate(base) { return base < 6000 ? 0.099 : 0.079; }
 function finMonthly(base, months) {
   if (!base || months <= 0) return null;
   const i = finRate(base) / 12;
   return base * i / (1 - Math.pow(1 + i, -months));
 }
-function finModalHTML(p, name, devisUrl) {
+function finModalHTML(p, name) {
   const base = finBase(p);
   if (!base) return "";
   return `
@@ -283,45 +378,49 @@ const FINANCE_CSS = `
   .fin-cta{width:100%;justify-content:center;}`;
 const FINANCE_JS = `(function(){var root=document.getElementById('finCalc'),modal=document.getElementById('finModal');if(!root||!modal)return;var base=parseFloat(root.dataset.base)||0;var name=root.dataset.name||'',ref=root.dataset.ref||'',cta=document.getElementById('finCta');function setCta(msg){if(cta)cta.href='/contact/?topic=financement&msg='+encodeURIComponent(msg);}var range=document.getElementById('finRange'),eM=document.getElementById('finMonths'),eMon=document.getElementById('finMonthly'),eT=document.getElementById('finTaeg'),eC=document.getElementById('finCost'),eTot=document.getElementById('finTotal');var f0=new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}),f2=new Intl.NumberFormat('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2});function rate(b){return b<6000?0.099:0.079;}function calc(){var n=parseInt(range.value,10);eM.textContent=n;var r=rate(base);if(n<=0){eMon.textContent=f0.format(base);eT.textContent='Paiement comptant';eC.textContent='0 €';eTot.textContent=f0.format(base)+' €';setCta('Bonjour, je souhaite acheter la '+name+(ref?' (réf. '+ref+')':'')+' au comptant ('+f0.format(base)+' € HT). Merci de me recontacter.');return;}var i=r/12,m=base*i/(1-Math.pow(1+i,-n)),tot=m*n;eMon.textContent=f2.format(m);eT.textContent='TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %';eC.textContent=f0.format(tot-base)+' €';eTot.textContent=f0.format(tot)+' €';setCta('Bonjour, je souhaite un financement pour la '+name+(ref?' (réf. '+ref+')':'')+'.\\n\\nSimulation : montant '+f0.format(base)+' € HT, durée '+n+' mois, mensualité estimée '+f2.format(m)+' €/mois, TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %, coût total du crédit '+f0.format(tot-base)+' €, montant total dû '+f0.format(tot)+' €.\\n\\nMerci de me recontacter.');}range.addEventListener('input',calc);calc();function op(){modal.hidden=false;document.body.style.overflow='hidden';}function cl(){modal.hidden=true;document.body.style.overflow='';}document.querySelectorAll('[data-fin-open]').forEach(function(b){b.addEventListener('click',op);});modal.querySelectorAll('[data-fin-close]').forEach(function(b){b.addEventListener('click',cl);});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!modal.hidden)cl();});})();`;
 
-function productPageHTML(p) {
-  const d = DATA[p.reference] || {};
-  const name = cleanName(p.name, p.brand);
-  const label = LABELS[p.pageSlug] || "Produit";
-  const catPath = CAT_PATH[p.pageSlug] || "/";
-  const catName = CAT_NAME[p.pageSlug] || "Catalogue";
+function productPageHTML(p, L) {
+  const d = L.DATA[p.reference] || {};
+  const name = cleanName(p.name, p.brand, L);
+  const label = L.LABELS[p.pageSlug] || "Produit";
+  const cPath = catPath(L, p.pageSlug);
+  const catName = L.CAT_NAME[p.pageSlug] || "Catalogue";
   const tagline = d.tagline || `${label} ${p.brand || ""}`.trim();
-  const intro = d.intro || d.description || `${name} — ${label.toLowerCase()} ${p.brand || ""} importée en direct par CZN Machinery. Garantie 2 ans, livraison dans toute la France.`;
-  const stockBadge = p.inStock ? '<span class="pdp-stock in">En stock</span>' : '<span class="pdp-stock pre">Sur commande</span>';
+  const intro = d.intro || d.description || L.ui.introDefault(name, label, p.brand);
+  const stockBadge = p.inStock ? `<span class="pdp-stock in">${L.ui.inStock}</span>` : `<span class="pdp-stock pre">${L.ui.onOrder}</span>`;
   const priceHTML = (p.priceHT && p.priceHT > 0)
-    ? `<div class="pdp-price"><span class="pdp-price-val">${euro(p.priceHT)} €</span><span class="pdp-price-ht">HT</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">soit ${euro(p.priceTTC)} € TTC</div>` : ""}`
-    : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">Sur devis</span></div>`;
+    ? `<div class="pdp-price"><span class="pdp-price-val">${euro(p.priceHT)} €</span><span class="pdp-price-ht">${L.ui.ht}</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">${L.ui.ttcWord(euro(p.priceTTC))}</div>` : ""}`
+    : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">${L.ui.onQuote}</span></div>`;
   const metaDesc = intro.slice(0, 158);
-  const devisMsg = `Bonjour, je voudrais un devis pour la ${name}${p.reference ? ` (réf. ${p.reference})` : ""}. Merci de me recontacter.`;
-  const devisUrl = "/contact/?topic=devis&msg=" + encodeURIComponent(devisMsg);
-  const finB = finBase(p);
-  const finM = finMonthly(finB, FIN_DEFAULT_MONTHS);
+  const devisUrl = L.prefix + "/contact/?topic=devis&msg=" + encodeURIComponent(L.ui.devisMsg(name, p.reference));
+  const frUrl = altSlugUrl(p.reference, ""), enUrl = altSlugUrl(p.reference, "/en");
+  const finB = L.finance ? finBase(p) : 0;
+  const finM = finB ? finMonthly(finB, FIN_DEFAULT_MONTHS) : null;
   const finBlock = (finB > 0 && finM) ? `
       <div class="pdp-fin">
-        <span class="pdp-fin-monthly">ou à partir de <strong>${euro(Math.round(finM))} €</strong> / mois<sup>*</sup></span>
-        <button type="button" class="pdp-fin-btn" data-fin-open>Simuler mon financement</button>
+        <span class="pdp-fin-monthly">${L.ui.finMonthlyLine(euro(Math.round(finM)))}</span>
+        <button type="button" class="pdp-fin-btn" data-fin-open>${L.ui.finBtn}</button>
       </div>
-      <p class="pdp-fin-note">* Estimation indicative sur ${FIN_DEFAULT_MONTHS} mois, TAEG fixe ${(finRate(finB) * 100).toLocaleString("fr-FR")} %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.</p>` : "";
+      <p class="pdp-fin-note">${L.ui.finNote(FIN_DEFAULT_MONTHS, (finRate(finB) * 100).toLocaleString("fr-FR"))}</p>` : "";
+  const finCss = (finB > 0 && finM) ? FINANCE_CSS : "";
+  const finModal = (finB > 0 && finM) ? finModalHTML(p, name) : "";
+  const finScript = (finB > 0 && finM) ? FINANCE_JS : "";
 
   return `<!DOCTYPE html>
-<html lang="fr">
+<html lang="${L.lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(name)} ${esc(p.brand || "")} — ${label}${p.priceHT ? ` dès ${euro(p.priceHT)} € HT` : ""} | CZN Machinery</title>
+<title>${esc(name)} ${esc(p.brand || "")} — ${label}${p.priceHT ? L.ui.titleFrom(euro(p.priceHT)) : ""} | CZN Machinery</title>
 <meta name="description" content="${esc(metaDesc)}">
 ${FAVICONS}
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="${SITE}${slugUrl(p.reference)}">
-<meta property="og:title" content="${esc(name)} ${esc(p.brand || "")} | CZN Machinery"><meta property="og:description" content="${esc(metaDesc)}"><meta property="og:type" content="product"><meta property="og:url" content="${SITE}${slugUrl(p.reference)}"><meta property="og:locale" content="fr_FR"><meta property="og:site_name" content="CZN Machinery">
+<link rel="canonical" href="${SITE}${slugUrl(p.reference, L)}">
+${hreflangLinks(frUrl, enUrl)}
+<meta property="og:title" content="${esc(name)} ${esc(p.brand || "")} | CZN Machinery"><meta property="og:description" content="${esc(metaDesc)}"><meta property="og:type" content="product"><meta property="og:url" content="${SITE}${slugUrl(p.reference, L)}"><meta property="og:locale" content="${L.ogLocale}"><meta property="og:site_name" content="CZN Machinery">
 ${HEAD_FONTS}
 <link rel="stylesheet" href="/styles.css">
-<script type="application/ld+json">${JSON.stringify(productNode(p, label))}</script>
-<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: "Accueil", item: SITE + "/" }, { "@type": "ListItem", position: 2, name: catName, item: SITE + catPath }, { "@type": "ListItem", position: 3, name: name, item: SITE + slugUrl(p.reference) }] })}</script>
+<script type="application/ld+json">${JSON.stringify(productNode(p, label, L))}</script>
+<script type="application/ld+json">${JSON.stringify({ "@context": "https://schema.org", "@type": "BreadcrumbList", itemListElement: [{ "@type": "ListItem", position: 1, name: L.ui.home, item: SITE + (L.prefix || "") + "/" }, { "@type": "ListItem", position: 2, name: catName, item: SITE + cPath }, { "@type": "ListItem", position: 3, name: name, item: SITE + slugUrl(p.reference, L) }] })}</script>
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
@@ -370,7 +469,7 @@ ${HEAD_FONTS}
   .pdp-cta-band h2{font-family:var(--f-display);font-weight:500;font-size:28px;color:var(--cream-pure,#faf6ec);margin-bottom:10px;}
   .pdp-cta-band p{color:rgba(244,239,228,.7);margin-bottom:24px;}
   @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
-${FINANCE_CSS}
+${finCss}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -382,12 +481,12 @@ ${FINANCE_CSS}
 </script>
 </head>
 <body>
-${UTILITY_BAR}
-${NAV}
+${utilityBar(L, frUrl, enUrl)}
+${nav(L)}
 <main class="pdp"><div class="container">
-  <nav class="pdp-crumbs" aria-label="Fil d'Ariane"><a href="/">Accueil</a> &nbsp;/&nbsp; <a href="${catPath}">${catName}</a> &nbsp;/&nbsp; <span>${esc(name)}</span></nav>
+  <nav class="pdp-crumbs" aria-label="${L.ui.breadcrumb}"><a href="${L.prefix ? L.prefix + "/" : "/"}">${L.ui.home}</a> &nbsp;/&nbsp; <a href="${cPath}">${catName}</a> &nbsp;/&nbsp; <span>${esc(name)}</span></nav>
   <div class="pdp-grid">
-    ${galleryHTML(p, d)}
+    ${galleryHTML(p, d, L)}
     <div class="pdp-info">
       <div class="pdp-eyebrow">${esc(p.brand || "CZN")} · ${label}</div>
       <h1 class="pdp-title">${esc(name)}</h1>
@@ -397,29 +496,29 @@ ${NAV}
       ${finBlock}
       ${statsHTML(d)}
       <div class="pdp-actions">
-        <a href="${devisUrl}" class="btn btn-primary">Demander un devis <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
+        <a href="${devisUrl}" class="btn btn-primary">${L.ui.requestQuote} <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
         <a href="tel:+33531605161" class="btn btn-outline">05 31 60 51 61</a>
       </div>
-      <div class="pdp-trust"><span>✓ Garantie 2 ans</span><span>✓ Livraison France</span><span>✓ Importateur direct</span></div>
+      <div class="pdp-trust"><span>${L.ui.warranty2y}</span><span>${L.ui.deliveryFr}</span><span>${L.ui.directImporter}</span></div>
     </div>
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">${esc(intro)}</div></section>
   ${sectionsHTML(d)}
 
-  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Caractéristiques techniques</h2>${specsHTML(d)}</section>
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">${L.ui.techSpecs}</h2>${specsHTML(d, L)}</section>
 
   <section class="pdp-cta-band">
-    <h2>Intéressé par la ${esc(name)} ?</h2>
-    <p>Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.</p>
-    <a href="${devisUrl}" class="btn btn-primary">Demander un devis</a>
+    <h2>${esc(L.ui.ctaInterested(name))}</h2>
+    <p>${L.ui.ctaBody}</p>
+    <a href="${devisUrl}" class="btn btn-primary">${L.ui.requestQuote}</a>
   </section>
 </div></main>
-${finModalHTML(p, name, devisUrl)}
-${FOOTER}
+${finModal}
+${footer(L)}
 <script>
 (function(){var main=document.getElementById('pdpMain');var th=Array.prototype.slice.call(document.querySelectorAll('.pdp-thumb'));if(!main||!th.length)return;var i=0;function show(n){i=(n+th.length)%th.length;main.src=th[i].dataset.src;th.forEach(function(x,k){x.classList.toggle('active',k===i);});}th.forEach(function(b,k){b.addEventListener('click',function(){show(k);});});var prev=document.querySelector('.pdp-prev');var next=document.querySelector('.pdp-next');if(prev)prev.addEventListener('click',function(){show(i-1);});if(next)next.addEventListener('click',function(){show(i+1);});})();
-${FINANCE_JS}
+${finScript}
 </script>
   <script src="/rdv-modal.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
@@ -428,72 +527,45 @@ ${FINANCE_JS}
 }
 
 /* ── generation ── */
-/* Blocs de fin de page catégorie : navigation croisée + arguments CZN + CTA conseil.
-   Pas de classe .reveal ici : les pages catégories n'embarquent pas l'observer d'animation. */
-function categoryEndBlocks(slug) {
+function categoryEndBlocks(L, slug) {
   const cats = [
-    { href: "/mini-pelles/", label: "Mini-pelles" },
-    { href: "/mini-chargeurs/", label: "Mini-chargeurs" },
-    { href: "/mini-tombereaux/", label: "Mini-tombereaux" },
-    { href: "/accessoires/", label: "Accessoires" },
+    [catPath(L, "mini-pelles"), L.CAT_NAME["mini-pelles"]],
+    [catPath(L, "mini-chargeurs"), L.CAT_NAME["mini-chargeurs"]],
+    [catPath(L, "mini-tombereaux"), L.CAT_NAME["mini-tombereaux"]],
+    [catPath(L, "accessoires"), L.CAT_NAME["accessoires"]],
   ];
   const cross = cats
-    .filter((c) => c.href !== CAT_PATH[slug])
-    .map((c) => `      <a href="${c.href}" class="cross-nav-card"><span>${c.label}</span><span class="cn-arrow">→</span></a>`)
+    .filter(([href]) => href !== catPath(L, slug))
+    .map(([href, label]) => `      <a href="${href}" class="cross-nav-card"><span>${label}</span><span class="cn-arrow">→</span></a>`)
     .join("\n");
   return `<section class="sec-cream">
   <div class="container">
     <div class="inner-header centered">
-      <div class="eyebrow">Continuer la visite</div>
-      <h2 class="section-title">Explorez le reste de <em>la gamme</em>.</h2>
+      <div class="eyebrow">${L.ui.continueVisit}</div>
+      <h2 class="section-title">${L.ui.exploreRange}</h2>
     </div>
     <div class="cross-nav-grid">
 ${cross}
     </div>
   </div>
-</section>
-<section class="sec-paper">
-  <div class="container">
-    <div class="inner-header centered">
-      <div class="eyebrow">Ce que vous obtenez avec CZN</div>
-      <h2 class="section-title">L'assurance d'un <em>partenaire sérieux</em>.</h2>
-    </div>
-    <div class="pillar-grid">
-      <div class="pillar-card"><div class="pillar-num">01</div><h3 class="pillar-title">Importateur <em>direct</em></h3><p class="pillar-body">Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.</p></div>
-      <div class="pillar-card"><div class="pillar-num">02</div><h3 class="pillar-title">Garantie <em>2 ans</em></h3><p class="pillar-body">Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.</p></div>
-      <div class="pillar-card"><div class="pillar-num">03</div><h3 class="pillar-title">Livraison <em>France</em></h3><p class="pillar-body">Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.</p></div>
-      <div class="pillar-card"><div class="pillar-num">04</div><h3 class="pillar-title">Financement <em>Sofinco</em></h3><p class="pillar-body">De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.</p></div>
-      <div class="pillar-card"><div class="pillar-num">05</div><h3 class="pillar-title">Contrôle <em>50 points</em></h3><p class="pillar-body">Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.</p></div>
-      <div class="pillar-card"><div class="pillar-num">06</div><h3 class="pillar-title"><em>148+</em> avis 5★</h3><p class="pillar-body">Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.</p></div>
-    </div>
-  </div>
-</section>
-<section class="inner-cta">
-  <div class="container">
-    <div class="inner-cta-inner">
-      <h2>Besoin d'un conseil <em>avant d'acheter</em> ?</h2>
-      <p>Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.</p>
-      <div class="cta-btns">
-        <a href="/contact/" class="btn-orange">Contacter notre équipe</a>
-        <a href="/guides/" class="btn-ghost">Consulter les guides</a>
-      </div>
-    </div>
-  </div>
 </section>`;
 }
 
-function categoryShellHTML(page) {
-  const name = CAT_NAME[page.slug] || page.label + "s";
+function categoryShellHTML(page, L) {
+  const name = L.CAT_NAME[page.slug] || page.label + "s";
+  const cPath = catPath(L, page.slug);
+  const frUrl = "/" + page.slug + "/", enUrl = "/en/" + page.slug + "/";
   return `<!DOCTYPE html>
-<html lang="fr">
+<html lang="${L.lang}">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${esc(name)} neufs — importation directe | CZN Machinery</title>
-<meta name="description" content="${esc(name)} neufs importés en direct par CZN Machinery. Garantie 2 ans, livraison France. Découvrez la gamme et les prix.">
+<title>${esc(name)} — CZN Machinery</title>
+<meta name="description" content="${esc(name)} — CZN Machinery.">
 ${FAVICONS}
 <meta name="robots" content="index, follow">
-<link rel="canonical" href="${SITE}${CAT_PATH[page.slug]}">
+<link rel="canonical" href="${SITE}${cPath}">
+${hreflangLinks(frUrl, enUrl)}
 ${HEAD_FONTS}
 <link rel="stylesheet" href="/styles.css">
 <!-- JSONLD:START --><!-- JSONLD:END -->
@@ -507,8 +579,8 @@ ${HEAD_FONTS}
 </script>
 </head>
 <body>
-${UTILITY_BAR}
-${NAV}
+${utilityBar(L, frUrl, enUrl)}
+${nav(L)}
 <section class="featured"><div class="container">
   <div class="featured-header">
     <div>
@@ -521,14 +593,14 @@ ${NAV}
 <!-- PRODUCTS:END -->
   </div>
 </div></section>
-${categoryEndBlocks(page.slug)}
-${FOOTER}
+${categoryEndBlocks(L, page.slug)}
+${footer(L)}
 </body>
 </html>`;
 }
 
-function generateCatalog(all) {
-  for (const page of PAGES) {
+function generateCatalog(all, L) {
+  for (const page of L.PAGES) {
     const list = all.filter((p) => p.pageSlug === page.slug).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
     const file = path.join(process.cwd(), page.file);
     let html;
@@ -536,38 +608,51 @@ function generateCatalog(all) {
       html = fs.readFileSync(file, "utf8");          // page existante avec marqueurs : on garde le shell
     } else {
       fs.mkdirSync(path.dirname(file), { recursive: true });
-      html = categoryShellHTML(page);                 // page absente / sans marqueurs : on crée le shell
+      html = categoryShellHTML(page, L);              // page absente / sans marqueurs : on crée le shell
     }
+    const empty = L.lang === "fr" ? "Nouveaux modèles bientôt disponibles." : "New models coming soon.";
     const cards = list.length
-      ? list.map(cardHTML).join("\n")
-      : '      <p style="grid-column:1/-1;text-align:center;padding:70px 0;color:var(--muted);font-family:var(--f-mono);font-size:13px;letter-spacing:.04em;">Nouveaux modèles bientôt disponibles.</p>';
+      ? list.map((p) => cardHTML(p, L)).join("\n")
+      : '      <p style="grid-column:1/-1;text-align:center;padding:70px 0;color:var(--muted);font-family:var(--f-mono);font-size:13px;letter-spacing:.04em;">' + empty + "</p>";
     html = replaceBetween(html, "<!-- PRODUCTS:START -->", "<!-- PRODUCTS:END -->", cards);
-    html = replaceBetween(html, "<!-- JSONLD:START -->", "<!-- JSONLD:END -->", itemListJsonLd(list, page.label));
+    html = replaceBetween(html, "<!-- JSONLD:START -->", "<!-- JSONLD:END -->", itemListJsonLd(list, page.label, L));
     fs.writeFileSync(file, html);
-    console.log("✓ catalogue " + page.slug + " : " + list.length + " produits");
+    console.log(`✓ catalogue ${L.lang} ${page.slug} : ${list.length} produits`);
   }
 }
-function generateProductPages(all) {
+function generateProductPages(all, L) {
   for (const p of all) {
-    const dir = path.join(process.cwd(), "produit", p.reference);
+    const dir = path.join(process.cwd(), L.out, "produit", p.reference);
     fs.mkdirSync(dir, { recursive: true });
-    fs.writeFileSync(path.join(dir, "index.html"), productPageHTML(p));
-    console.log("✓ fiche /produit/" + p.reference + "/");
+    fs.writeFileSync(path.join(dir, "index.html"), productPageHTML(p, L));
+    console.log(`✓ fiche ${L.lang} ${L.prefix}/produit/${p.reference}/`);
   }
 }
-/* ── Marques masquées temporairement (pas de stock / pas de commandes).
-   Pour réafficher une marque : la retirer de cette liste puis relancer node build.js. ── */
+
+/* ── Marques masquées temporairement (pas de stock / pas de commandes). ── */
 const HIDDEN_BRANDS = ["Xcavator"];
 
 async function main() {
   const apiKey = process.env.AXONAUT_API_KEY;
-  if (!apiKey) { console.error("❌ AXONAUT_API_KEY manquante"); process.exit(1); }
-  const raw = await fetchAllProducts(apiKey);
-  const hidden = HIDDEN_BRANDS.map((b) => b.toLowerCase());
-  const all = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled && !hidden.includes((p.brand || "").toLowerCase()));
-  generateCatalog(all);
-  generateProductPages(all);
-  console.log("Terminé : " + all.length + " produits." + (HIDDEN_BRANDS.length ? " (masqué : " + HIDDEN_BRANDS.join(", ") + ")" : ""));
+  let all;
+  if (apiKey) {
+    const raw = await fetchAllProducts(apiKey);
+    const hidden = HIDDEN_BRANDS.map((b) => b.toLowerCase());
+    all = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled && !hidden.includes((p.brand || "").toLowerCase()));
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(all, null, 2));   // rafraîchit le cache
+    console.log("Axonaut OK — cache rafraîchi (" + all.length + " produits).");
+  } else if (fs.existsSync(CACHE_FILE)) {
+    all = JSON.parse(fs.readFileSync(CACHE_FILE, "utf8"));
+    console.log("⚠ Pas de clé Axonaut — build depuis le cache (" + all.length + " produits).");
+  } else {
+    console.error("❌ AXONAUT_API_KEY manquante et aucun cache (.axonaut-cache.json).");
+    process.exit(1);
+  }
+  for (const L of [LOCALES.fr, LOCALES.en]) {
+    generateCatalog(all, L);
+    generateProductPages(all, L);
+  }
+  console.log("Terminé : " + all.length + " produits × FR/EN." + (HIDDEN_BRANDS.length ? " (masqué : " + HIDDEN_BRANDS.join(", ") + ")" : ""));
 }
-module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages };
+module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages, LOCALES };
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
