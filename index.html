@@ -1731,7 +1731,7 @@
   <script src="/mobile-nav.js" defer></script>
 <script data-id="js-greviews-fetch">
 (function(){
-  fetch('/api/reviews').then(function(r){return r.ok?r.json():null;}).then(function(d){
+  fetch('/api/reviews/').then(function(r){return r.ok?r.json():null;}).then(function(d){
     if(!d||d.error)return;
     if(d.total!=null){document.querySelectorAll('.js-greviews-count').forEach(function(el){el.textContent=d.total;});}
     if(d.rating!=null){document.querySelectorAll('.js-greviews-score').forEach(function(el){el.textContent=Number(d.rating).toFixed(1);});}
