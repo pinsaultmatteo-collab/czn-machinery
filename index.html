@@ -184,7 +184,7 @@
       <span class="m-sep">◆</span>
       <span class="m-item">SAV atelier <strong>Toulouse</strong> · 31200</span>
       <span class="m-sep">◆</span>
-      <span class="m-item"><strong>148+</strong> avis clients 5★</span>
+      <span class="m-item"><strong class="js-greviews-count">148+</strong> avis clients 5★</span>
       <span class="m-sep">◆</span>
       <span class="m-item">Acompte <strong>30%</strong> sécurisé Stripe</span>
       <span class="m-sep">◆</span>
@@ -201,7 +201,7 @@
       <span class="m-sep">◆</span>
       <span class="m-item">SAV atelier <strong>Toulouse</strong> · 31200</span>
       <span class="m-sep">◆</span>
-      <span class="m-item"><strong>148+</strong> avis clients 5★</span>
+      <span class="m-item"><strong class="js-greviews-count">148+</strong> avis clients 5★</span>
       <span class="m-sep">◆</span>
       <span class="m-item">Acompte <strong>30%</strong> sécurisé Stripe</span>
       <span class="m-sep">◆</span>
@@ -359,7 +359,7 @@
         <div class="hv2-panel-year">2026</div>
         <div class="hv2-panel-body">
           <h3 class="hv2-panel-title">Plus de 1 500 machines</h3>
-          <p>20 modèles au catalogue, 148+ avis 5★, paiement en ligne. Plus de 1 500 machines tournent sur les chantiers de France — chacune accompagnée d'une garantie 2 ans pièces et main d'œuvre, et d'un SAV toujours joignable.</p>
+          <p>20 modèles au catalogue, <span class="js-greviews-count">148+</span> avis 5★, paiement en ligne. Plus de 1 500 machines tournent sur les chantiers de France — chacune accompagnée d'une garantie 2 ans pièces et main d'œuvre, et d'un SAV toujours joignable.</p>
         </div>
         <div class="hv2-panel-stat"><span class="hv2-stat-num">1 500<span style="font-size:.6em">+</span></span><span class="hv2-stat-label">Machines livrées</span></div>
       </div>
@@ -1023,7 +1023,7 @@
             <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/>
           </svg>
         </div>
-        <h3 class="pq-title"><em>148+</em> avis 5★</h3>
+        <h3 class="pq-title"><em class="js-greviews-count">148+</em> avis 5★</h3>
         <p class="pq-desc">Sur Google, vérifiables. Les artisans, paysagistes et entreprises BTP racontent leur expérience CZN sans filtre.</p>
       </div>
     </div>
@@ -1193,7 +1193,7 @@
     </div>
 
     <div class="reviews-meta">
-      <div class="reviews-score">5.0</div>
+      <div class="reviews-score js-greviews-score">5.0</div>
       <div class="stars">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
@@ -1202,7 +1202,7 @@
         <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
       </div>
       <div class="reviews-info">
-        <strong>148+</strong> avis · Google Verified
+        <strong class="js-greviews-count">148+</strong> avis · Google Verified
       </div>
     </div>
 
@@ -1729,5 +1729,30 @@
 </script>
   <script src="/rdv-modal.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
+<script data-id="js-greviews-fetch">
+(function(){
+  fetch('/api/reviews').then(function(r){return r.ok?r.json():null;}).then(function(d){
+    if(!d||d.error)return;
+    if(d.total!=null){document.querySelectorAll('.js-greviews-count').forEach(function(el){el.textContent=d.total;});}
+    if(d.rating!=null){document.querySelectorAll('.js-greviews-score').forEach(function(el){el.textContent=Number(d.rating).toFixed(1);});}
+    var grid=document.querySelector('.testimonials-grid');
+    var revs=(d.reviews||[]).filter(function(x){return x.rating>=4&&x.text;}).slice(0,3);
+    if(grid&&revs.length){
+      function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+      var star='<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
+      grid.innerHTML=revs.map(function(rv){
+        var ini=(rv.author||'?').split(/\s+/).map(function(w){return w[0]||'';}).join('').slice(0,2).toUpperCase();
+        return '<article class="testimonial"><div class="test-stars">'+star.repeat(5)+'</div>'+
+          '<p class="test-text">« '+esc(rv.text)+' »</p>'+
+          '<div class="test-author"><div class="test-avatar">'+esc(ini)+'</div>'+
+          '<div class="test-info"><div class="test-name">'+esc(rv.author)+'</div>'+
+          '<div class="test-role">'+esc(rv.when||'Avis Google')+'</div></div>'+
+          '<span class="test-badge">Google</span></div></article>';
+      }).join('');
+    }
+  }).catch(function(){});
+})();
+</script>
+
 </body>
 </html>
