@@ -213,10 +213,10 @@
 <!-- ═══════════════ VUE ÉCLATÉE (scroll) ═══════════════ -->
 <section class="decompose" id="decompose" aria-label="Vue éclatée d'une mini-pelle CZN Machinery">
   <style>
-    .decompose{position:relative;background:radial-gradient(circle at 50% 42%, #d8d5cf 0%, #bdbab4 80%);}
-    .decompose-track{height:340vh;position:relative;}
+    .decompose{position:relative;background:transparent;}
+    .decompose-track{height:215vh;position:relative;}
     .decompose-pin{position:sticky;top:0;height:100vh;display:flex;align-items:center;justify-content:center;overflow:hidden;}
-    .decompose-canvas{width:auto;height:auto;max-width:min(94vw,1080px);max-height:84vh;display:block;}
+    .decompose-canvas{width:auto;height:auto;max-width:min(82vw,720px);max-height:66vh;display:block;}
     .decompose-overlay{position:absolute;left:max(22px,5vw);top:13vh;max-width:min(86vw,430px);pointer-events:none;transition:opacity .15s linear;}
     .decompose-overlay .eyebrow{color:var(--orange);}
     .decompose-title{font-family:var(--f-display);font-weight:500;font-size:clamp(28px,4.2vw,48px);line-height:1.03;letter-spacing:-.02em;color:var(--ink);margin:10px 0 12px;}
@@ -225,14 +225,14 @@
     .decompose-hint{position:absolute;bottom:5vh;left:50%;font-family:var(--f-mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#45433e;transition:opacity .15s linear;animation:dcHint 1.8s ease-in-out infinite;}
     @keyframes dcHint{0%,100%{transform:translate(-50%,0);}50%{transform:translate(-50%,7px);}}
     @media(max-width:760px){
-      .decompose-track{height:300vh;}
+      .decompose-track{height:190vh;}
       .decompose-overlay{left:50%;right:auto;top:auto;bottom:13vh;transform:translateX(-50%);text-align:center;max-width:88vw;}
       .decompose-sub{display:none;}
     }
   </style>
   <div class="decompose-track">
     <div class="decompose-pin">
-      <canvas id="decomposeCanvas" class="decompose-canvas" width="1000" height="782"></canvas>
+      <canvas id="decomposeCanvas" class="decompose-canvas" width="860" height="673"></canvas>
       <div class="decompose-overlay">
         <div class="eyebrow">Ingénierie</div>
         <h2 class="decompose-title">Jusqu'à la <em>dernière pièce</em>.</h2>
