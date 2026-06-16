@@ -37,6 +37,7 @@ module.exports = async function handler(req, res) {
       author: (rv.authorAttribution && rv.authorAttribution.displayName) || "",
       when: rv.relativePublishTimeDescription || "",
       publishTime: rv.publishTime || "",
+      lang: (rv.originalText && rv.originalText.languageCode) || (rv.text && rv.text.languageCode) || "",
       text: (rv.originalText && rv.originalText.text) || (rv.text && rv.text.text) || "",
     }));
 

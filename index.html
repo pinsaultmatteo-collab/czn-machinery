@@ -1739,7 +1739,7 @@
     if(d.total!=null){document.querySelectorAll('.js-greviews-count').forEach(function(el){el.textContent=d.total;});}
     if(d.rating!=null){document.querySelectorAll('.js-greviews-score').forEach(function(el){el.textContent=Number(d.rating).toFixed(1);});}
     var grid=document.querySelector('.testimonials-grid');
-    var revs=(d.reviews||[]).filter(function(x){return x.rating>=4&&x.text;}).slice(0,3);
+    var pool=(d.reviews||[]).filter(function(x){return x.rating>=4&&x.text;});pool.sort(function(a,b){var fa=(a.lang==='fr')?0:1,fb=(b.lang==='fr')?0:1;if(fa!==fb)return fa-fb;return (b.publishTime||'').localeCompare(a.publishTime||'');});var revs=pool.slice(0,3);
     if(grid&&revs.length){
       function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
       var star='<svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>';
