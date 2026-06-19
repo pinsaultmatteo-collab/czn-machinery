@@ -44,8 +44,11 @@
   gtag('config', 'G-G0HZD8F8BK');
 </script>
 <script>
-(function(){try{var g=new URLSearchParams(location.search).get('gclid');if(g){localStorage.setItem('czn_gclid',JSON.stringify({value:g,expires:Date.now()+90*24*60*60*1000}));}}catch(e){}})();
-function getStoredGclid(){try{var raw=localStorage.getItem('czn_gclid');if(!raw)return '';var r=JSON.parse(raw);if(Date.now()>r.expires){localStorage.removeItem('czn_gclid');return '';}return r.value||'';}catch(e){return '';}}
+(function(){try{var p=new URLSearchParams(location.search);['gclid','gbraid','wbraid'].forEach(function(k){var v=p.get(k);if(v){localStorage.setItem('czn_'+k,JSON.stringify({value:v,expires:Date.now()+90*24*60*60*1000}));}});}catch(e){}})();
+function getStored(k){try{var raw=localStorage.getItem('czn_'+k);if(!raw)return '';var r=JSON.parse(raw);if(Date.now()>r.expires){localStorage.removeItem('czn_'+k);return '';}return r.value||'';}catch(e){return '';}}
+function getStoredGclid(){return getStored('gclid');}
+function getStoredGbraid(){return getStored('gbraid');}
+function getStoredWbraid(){return getStored('wbraid');}
 </script>
 </head>
 <body class="page-accessoires">
