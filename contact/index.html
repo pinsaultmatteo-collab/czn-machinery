@@ -458,7 +458,7 @@ function getStoredWbraid(){return getStored('wbraid');}
       .then(function(res){
         if (res.ok) {
           showMessage(true);
-          if(typeof gtag==='function'){gtag('event','generate_lead',{form_name:'contact',value:1});}
+          if(typeof gtag==='function'){gtag('event','generate_lead',{form_name:'contact',value:1,currency:'EUR'});}
         } else {
           res.json().then(function(data){
             var detail = (data && data.errors)
