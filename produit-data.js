@@ -1155,9 +1155,8 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-godet-droite.webp",        alt: "Mini-pelle Xcavator XC17 PRO V2 1,45 t, vue latérale bras déployé, godet à droite" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-godet-droite.webp",        alt: "Mini-pelle Xcavator XC17 PRO V2 1,45 t, vue latérale flanc droit, godet à droite, gyrophare et toit ROPS" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-avant-droite.webp",  alt: "Mini-pelle Xcavator XC17 PRO V2, vue trois-quarts avant droite, bras déployé" },
-      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-droit-gyrophare.webp",     alt: "Mini-pelle Xcavator XC17 PRO V2, profil droit avec gyrophare et toit ROPS" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-arriere-gauche.webp",alt: "Mini-pelle Xcavator XC17 PRO V2, vue trois-quarts arrière gauche" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-poste-conduite-toit-rops.webp",   alt: "Mini-pelle Xcavator XC17 PRO V2, poste de conduite et toit de protection 4 montants ROPS" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-vue-avant-bras-releve.webp",      alt: "Mini-pelle Xcavator XC17 PRO V2, vue de face bras relevé" },

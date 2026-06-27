@@ -1155,9 +1155,8 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-godet-droite.webp",        alt: "Xcavator XC17 PRO V2 1.45 t mini excavator, side view with boom extended, bucket to the right" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-godet-droite.webp",        alt: "Xcavator XC17 PRO V2 1.45 t mini excavator, right side view, bucket to the right, beacon and ROPS canopy" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-avant-droite.webp",  alt: "Xcavator XC17 PRO V2 mini excavator, front three-quarter right view, boom extended" },
-      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-droit-gyrophare.webp",     alt: "Xcavator XC17 PRO V2 mini excavator, right side view with beacon and ROPS canopy" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-arriere-gauche.webp",alt: "Xcavator XC17 PRO V2 mini excavator, rear three-quarter left view" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-poste-conduite-toit-rops.webp",   alt: "Xcavator XC17 PRO V2 mini excavator, operator station and 4-post ROPS canopy" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-vue-avant-bras-releve.webp",      alt: "Xcavator XC17 PRO V2 mini excavator, front view with boom raised" },
