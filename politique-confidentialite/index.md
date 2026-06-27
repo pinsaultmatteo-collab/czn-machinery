@@ -1,4 +1,6 @@
-# Politique de confidentialité | CZN Machinery
+# Politique de confidentialité
+
+> Politique de confidentialité CZN Machinery : collecte, utilisation, conservation et protection de vos données personnelles conformément au RGPD.
 
 📍 Toulouse, France
 
@@ -7,8 +9,8 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](https://czn-machinery.com/)
-[EN](https://czn-machinery.com/en/)
+[FR](/)
+[EN](/en/)
 
 Informations légales
 
@@ -26,21 +28,25 @@ CZN Machinery collecte des données personnelles uniquement dans le cadre de dem
 
 Vos données sont utilisées exclusivement pour :
 
-* traiter vos demandes de devis et vos commandes ;
-* assurer le suivi commercial et le service après-vente ;
-* vous informer sur nos produits et offres, avec votre consentement.
+- traiter vos demandes de devis et vos commandes ;
+
+- assurer le suivi commercial et le service après-vente ;
+
+- vous informer sur nos produits et offres, avec votre consentement.
 
 ## Conservation des données
 
-Vos données sont conservées pendant une durée maximale de **3 ans** après le dernier contact, conformément à la réglementation en vigueur.
+Vos données sont conservées pendant une durée maximale de 3 ans après le dernier contact, conformément à la réglementation en vigueur.
 
 ## Cookies
 
 Ce site utilise :
 
-* **Cookies essentiels** — nécessaires au fonctionnement du site (session, panier). Toujours actifs, sans consentement requis.
-* **Cookies analytiques** — mesure d'audience (Google Analytics), données anonymisées. Soumis à votre consentement.
-* **Cookies marketing** — suivi des conversions publicitaires (Meta Pixel). Soumis à votre consentement.
+- Cookies essentiels — nécessaires au fonctionnement du site (session, panier). Toujours actifs, sans consentement requis.
+
+- Cookies analytiques — mesure d'audience (Google Analytics), données anonymisées. Soumis à votre consentement.
+
+- Cookies marketing — suivi des conversions publicitaires (Meta Pixel). Soumis à votre consentement.
 
 Les cookies sont conservés 13 mois maximum. Vous pouvez accepter ou refuser les cookies non essentiels à tout moment.
 

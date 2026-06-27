@@ -1,104 +1,100 @@
-# Mini-tombereaux neufs — importation directe | CZN Machinery
+# Mini-tombereaux neufs — importation directe
 
-📍 Toulouse, FranceShowroom Lun–Ven · 9h–12h / 14h–18h—
+> Mini-tombereaux neufs importés en direct par CZN Machinery. Garantie 2 ans, livraison France. Découvrez la gamme et les prix.
+
+📍 Toulouse, France Showroom Lun–Ven · 9h–12h / 14h–18h —
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
 03 — Transport
 
-# Mini-tombereaux *neufs*
+# Mini-tombereaux neufs
 
-Sur commande
+En stock
 
 Sonca
 
 ### Mini-tombereau SJ-05M
 
 À partir de
-4 125€
+4 125 €
 HT · hors livraison
 
-Sur commande
+En stock
 
 Sonca
 
 ### Mini-tombereau SJ-05E
 
 À partir de
-4 500€
+4 500 €
 HT · hors livraison
 
-Sur commande
+En stock
 
 Sonca
 
 ### Mini-tombereau SJ-05EL
 
 À partir de
-5 700€
+5 700 €
 HT · hors livraison
 
-Sur commande
+En stock
 
 Sonca
 
 ### Mini-tombereau SJ-08EL
 
 À partir de
-6 950€
+6 950 €
 HT · hors livraison
 
 Continuer la visite
 
-## Explorez le reste de *la gamme*.
+## Explorez le reste de la gamme.
 
-[Mini-pelles→](https://czn-machinery.com/mini-pelles/)
-[Mini-chargeurs→](https://czn-machinery.com/mini-chargeurs/)
-[Accessoires→](https://czn-machinery.com/accessoires/)
+[Mini-pelles→](/mini-pelles/)
+[Mini-chargeurs→](/mini-chargeurs/)
+[Accessoires→](/accessoires/)
 
 Ce que vous obtenez avec CZN
 
-## L'assurance d'un *partenaire sérieux*.
+## L'assurance d'un partenaire sérieux.
 
 01
 
-### Importateur *direct*
-
+### Importateur direct
 Prix 30 à 50 % inférieurs au marché européen. Sans intermédiaire, sans surcoût distributeur.
 
 02
 
-### Garantie *2 ans*
-
+### Garantie 2 ans
 Constructeur, pièces et main d'œuvre incluses. SAV France joignable en français.
 
 03
 
-### Livraison *France*
-
+### Livraison France
 Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ouvrés.
 
 04
 
-### Financement *Sofinco*
-
+### Financement Sofinco
 De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 
-### Contrôle *50 points*
-
+### Contrôle 50 points
 Chaque machine contrôlée et testée en atelier avant expédition. Zéro surprise à la livraison.
 
 06
 
-### *148+* avis 5★
-
+### 148+ avis 5★
 Sur Google, vérifiables. Artisans, paysagistes, entreprises BTP — sans filtre.
 
-## Besoin d'un conseil *avant d'acheter* ?
+## Besoin d'un conseil avant d'acheter ?
 
 Notre équipe technique vous oriente vers la machine adaptée à votre usage et votre budget. Devis gratuit, sans engagement.
 
-[Contacter notre équipe](https://czn-machinery.com/contact/)
-[Consulter les guides](https://czn-machinery.com/guides/)
+[Contacter notre équipe](/contact/)
+[Consulter les guides](/guides/)

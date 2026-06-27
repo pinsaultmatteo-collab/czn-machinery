@@ -1,4 +1,6 @@
-# Conditions générales de vente | CZN Machinery
+# Conditions générales de vente
+
+> Conditions générales de vente CZN Machinery — 22 articles couvrant commandes, tarifs, paiement, livraison, garanties légales et contractuelles, droit de rétractation et règlement des litiges.
 
 📍 Toulouse, France
 
@@ -7,8 +9,8 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](https://czn-machinery.com/)
-[EN](https://czn-machinery.com/en/)
+[FR](/)
+[EN](/en/)
 
 Informations légales
 
@@ -20,13 +22,15 @@ Dernière mise à jour : 30 mai 2026
 
 ## Art. 1Désignation du Vendeur — Champ d'application — Définitions
 
-Les présentes Conditions Générales de Vente s'appliquent, sans restriction ni réserve, à l'ensemble des ventes conclues par la société **CZE France SAS**, au capital de 5 000 €, dont le siège est situé **11 impasse Pierre Camo, 31200 Toulouse**, immatriculée au RCS de Toulouse sous le numéro 824 356 513, auprès de consommateurs, d'acheteurs non professionnels et professionnels âgés de plus de 18 ans et bénéficiant d'une pleine capacité juridique (ci-après « le(s) Client(s) »), désirant acquérir des équipements mécaniques (ci-après les « Produits ») proposés à la vente par CZE France SAS (ci-après « le Vendeur ») sur son site Internet ou directement en magasin.
+Les présentes Conditions Générales de Vente s'appliquent, sans restriction ni réserve, à l'ensemble des ventes conclues par la société CZE France SAS , au capital de 5 000 €, dont le siège est situé 11 impasse Pierre Camo, 31200 Toulouse , immatriculée au RCS de Toulouse sous le numéro 824 356 513, auprès de consommateurs, d'acheteurs non professionnels et professionnels âgés de plus de 18 ans et bénéficiant d'une pleine capacité juridique (ci-après « le(s) Client(s) »), désirant acquérir des équipements mécaniques (ci-après les « Produits ») proposés à la vente par CZE France SAS (ci-après « le Vendeur ») sur son site Internet ou directement en magasin.
 
 On entend par :
 
-* **Consommateur :** toute personne physique qui agit à des fins qui n'entrent pas dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole.
-* **Non professionnel :** toute personne morale qui n'agit pas à des fins professionnelles.
-* **Professionnel :** toute personne physique ou morale, publique ou privée, qui agit à des fins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole, y compris lorsqu'elle agit au nom ou pour le compte d'un autre professionnel.
+- Consommateur : toute personne physique qui agit à des fins qui n'entrent pas dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole.
+
+- Non professionnel : toute personne morale qui n'agit pas à des fins professionnelles.
+
+- Professionnel : toute personne physique ou morale, publique ou privée, qui agit à des fins entrant dans le cadre de son activité commerciale, industrielle, artisanale, libérale ou agricole, y compris lorsqu'elle agit au nom ou pour le compte d'un autre professionnel.
 
 Lorsque le Client est un professionnel, les présentes Conditions Générales de Vente constituent, conformément à l'article L 441-1 du Code du Commerce, le socle unique de la relation commerciale entre les parties. Toute commande implique l'acceptation des présentes CGV. Le Vendeur se réserve le droit de les réviser à tout moment.
 
@@ -38,16 +42,17 @@ Les produits présentés sur le Site peuvent être achetés en ligne lorsque le 
 
 Le Client sélectionne le(s) Produit(s), choisit les quantités, les insère dans son Panier et valide. Il est alors invité à créer un compte ou à se connecter. Les informations nécessaires à l'ouverture d'un compte incluent : civilité, nom, prénom, adresse de facturation, numéro de téléphone et adresse e-mail valide.
 
-Après renseignement des informations, le Client peut choisir son mode de livraison, compléter ou modifier son Panier, puis valider sa commande en cliquant sur *« Valider mon panier »*. La vente est définitive après :
+Après renseignement des informations, le Client peut choisir son mode de livraison, compléter ou modifier son Panier, puis valider sa commande en cliquant sur « Valider mon panier » . La vente est définitive après :
 
-* l'envoi au Client de la confirmation de commande par email dans un délai maximum de 24 heures ;
-* l'encaissement par le Vendeur de l'intégralité du montant dû (ou validation du financement Sofinco).
+- l'envoi au Client de la confirmation de commande par email dans un délai maximum de 24 heures ;
+
+- l'encaissement par le Vendeur de l'intégralité du montant dû (ou validation du financement Sofinco).
 
 Les informations enregistrées par le système informatique du Vendeur constituent la preuve de la commande (contenu et date).
 
 ## Art. 3Tarifs
 
-Les Produits sont fournis aux tarifs en vigueur figurant sur le Site au jour de l'enregistrement de la commande. Les prix sont exprimés en euros, **toutes taxes comprises (TTC)**. Les frais de livraison, déterminés en fonction du poids, des dimensions des Produits et du mode de livraison choisi, s'ajoutent au prix des marchandises et sont indiqués avant validation de la commande.
+Les Produits sont fournis aux tarifs en vigueur figurant sur le Site au jour de l'enregistrement de la commande. Les prix sont exprimés en euros, toutes taxes comprises (TTC) . Les frais de livraison, déterminés en fonction du poids, des dimensions des Produits et du mode de livraison choisi, s'ajoutent au prix des marchandises et sont indiqués avant validation de la commande.
 
 Le Vendeur se réserve le droit de modifier ses tarifs à tout moment par simple modification du site. Le prix applicable est celui affiché au moment de l'enregistrement de la commande.
 
@@ -55,11 +60,15 @@ Le Vendeur se réserve le droit de modifier ses tarifs à tout moment par simple
 
 Le prix est payable au comptant, en totalité, au jour de la passation de la commande, selon l'un des moyens suivants :
 
-* Carte bancaire (CB, Visa, Mastercard, American Express)
-* PayPal
-* Virement bancaire
-* Chèque bancaire
-* Financement via notre partenaire **Sofinco** (sous réserve d'acceptation)
+- Carte bancaire (CB, Visa, Mastercard, American Express)
+
+- PayPal
+
+- Virement bancaire
+
+- Chèque bancaire
+
+- Financement via notre partenaire Sofinco (sous réserve d'acceptation)
 
 ### 4.1 Solution de financement Sofinco
 
@@ -69,7 +78,7 @@ En cliquant sur « Financement » lors de la configuration de la machine, le Cli
 
 Les Clients professionnels peuvent également solliciter un financement. Ils sont invités à contacter CZN Machinery pour toute information complémentaire.
 
-**Offre réservée aux particuliers résidant en France métropolitaine, sous réserve d'acceptation définitive par CA Consumer Finance, prêteur dont Sofinco est une marque**, S.A. au capital de 629 480 046 € — 1 rue Victor Basch, CS 70001, 91068 Massy Cedex — RCS Évry 542 097 522. Intermédiaire d'assurance immatriculé à l'ORIAS n° 07 008 079 (www.orias.fr). Assurances facultatives souscrites auprès de CACI Life Dac (Décès), CACI non Life Dac (Perte totale et irréversible d'autonomie) et Fidelia Assistance (Assistance Santé).
+Offre réservée aux particuliers résidant en France métropolitaine, sous réserve d'acceptation définitive par CA Consumer Finance, prêteur dont Sofinco est une marque , S.A. au capital de 629 480 046 € — 1 rue Victor Basch, CS 70001, 91068 Massy Cedex — RCS Évry 542 097 522. Intermédiaire d'assurance immatriculé à l'ORIAS n° 07 008 079 (www.orias.fr). Assurances facultatives souscrites auprès de CACI Life Dac (Décès), CACI non Life Dac (Perte totale et irréversible d'autonomie) et Fidelia Assistance (Assistance Santé).
 
 Cette publicité est diffusée par CZE France SAS, au capital de 5 000 €, 11 impasse Pierre Camo, 31200 Toulouse, RCS Toulouse 824 356 513, intermédiaire de crédit non exclusif de CA Consumer Finance, immatriculée à l'ORIAS sous le n° 24 007 411 (www.orias.fr), qui apporte son concours à la réalisation d'opérations de crédit à la consommation sans agir en qualité de prêteur.
 
@@ -87,7 +96,7 @@ Le montant des frais d'expédition est indiqué dans le Panier. Les produits son
 
 Le Client s'engage à transmettre toutes les informations nécessaires à la livraison, notamment un numéro de téléphone accessible dans la journée. En cas d'absence, le transporteur laisse un avis de passage. À défaut de réception dans le délai communiqué par le transporteur, les produits sont automatiquement retournés au Vendeur.
 
-Le Client est tenu de vérifier l'état des Produits à la livraison. En cas de problème (colis fracturé, produits manquants), les réserves doivent être notifiées au transporteur et au Vendeur par lettre recommandée avec accusé de réception dans les **3 jours** suivant la réception. En cas d'avarie, le Client doit refuser le produit endommagé en indiquant « refus pour avarie » sur la feuille d'émargement.
+Le Client est tenu de vérifier l'état des Produits à la livraison. En cas de problème (colis fracturé, produits manquants), les réserves doivent être notifiées au transporteur et au Vendeur par lettre recommandée avec accusé de réception dans les 3 jours suivant la réception. En cas d'avarie, le Client doit refuser le produit endommagé en indiquant « refus pour avarie » sur la feuille d'émargement.
 
 En cas de livraison non conforme, le Client contacte le Vendeur au [05 31 60 51 61](tel:+33531605161) du lundi au vendredi de 9h à 12h et de 14h à 18h, ou par email à [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
 
@@ -97,15 +106,15 @@ Si les Produits commandés par un Client consommateur ou non professionnel n'ont
 
 ## Art. 6Transfert de propriété — Transfert des risques
 
-Le transfert de propriété des Produits ne sera réalisé qu'après **complet paiement du prix**, quelle que soit la date de délivrance. Sauf lorsque le Client fait appel à un transporteur qu'il a lui-même choisi, le transfert des risques de perte et de détérioration ne s'opère qu'au moment où le Client prend physiquement possession des Produits.
+Le transfert de propriété des Produits ne sera réalisé qu'après complet paiement du prix , quelle que soit la date de délivrance. Sauf lorsque le Client fait appel à un transporteur qu'il a lui-même choisi, le transfert des risques de perte et de détérioration ne s'opère qu'au moment où le Client prend physiquement possession des Produits.
 
 ## Art. 7Droit de rétractation — Client consommateur ou non professionnel
 
-Le Client dispose d'un délai de **15 jours calendaires** à compter de la livraison pour exercer son droit de rétractation, sans avoir à justifier de motifs ni payer de pénalités (à l'exception des frais de retour). Il dispose ensuite de 14 jours pour retourner le(s) produit(s) au Vendeur.
+Le Client dispose d'un délai de 15 jours calendaires à compter de la livraison pour exercer son droit de rétractation, sans avoir à justifier de motifs ni payer de pénalités (à l'exception des frais de retour). Il dispose ensuite de 14 jours pour retourner le(s) produit(s) au Vendeur.
 
-Les produits doivent être retournés à : **CZN Machinery — 11 impasse Pierre Camo, 31200 Toulouse**, dans leur emballage d'origine, en parfait état, accompagnés de tous accessoires, notices et de la facture. Les articles retournés incomplets, abîmés ou salis ne peuvent être repris.
+Les produits doivent être retournés à : CZN Machinery — 11 impasse Pierre Camo, 31200 Toulouse , dans leur emballage d'origine, en parfait état, accompagnés de tous accessoires, notices et de la facture. Les articles retournés incomplets, abîmés ou salis ne peuvent être repris.
 
-En cas de respect de ces conditions, le Vendeur rembourse le Client au plus tard dans les **14 jours** suivant la réception du produit retourné, par crédit sur la carte bancaire utilisée pour le règlement.
+En cas de respect de ces conditions, le Vendeur rembourse le Client au plus tard dans les 14 jours suivant la réception du produit retourné, par crédit sur la carte bancaire utilisée pour le règlement.
 
 ## Art. 8Responsabilité du Vendeur — Garanties
 
@@ -113,19 +122,19 @@ Le Client bénéficie de plein droit de la garantie légale de conformité et de
 
 ### 8.1 Garantie contractuelle
 
-Les produits livrés bénéficient d'une **garantie contractuelle de 24 mois** à compter de la date de facture, couvrant les vices de fonctionnement. En cas de retard, la garantie est prolongée de la durée de celui-ci, dans la limite de 6 mois. Le Vendeur remplace gratuitement les pièces reconnues défectueuses ou rembourse leur prix sur la base de la facture d'achat. Le remboursement éventuel de pièces de réparation ne peut excéder 1/3 de la valeur de la pièce vendue à l'origine.
+Les produits livrés bénéficient d'une garantie contractuelle de 24 mois à compter de la date de facture, couvrant les vices de fonctionnement. En cas de retard, la garantie est prolongée de la durée de celui-ci, dans la limite de 6 mois. Le Vendeur remplace gratuitement les pièces reconnues défectueuses ou rembourse leur prix sur la base de la facture d'achat. Le remboursement éventuel de pièces de réparation ne peut excéder 1/3 de la valeur de la pièce vendue à l'origine.
 
 La garantie ne s'applique pas en cas d'usage anormal, de non-respect de la notice, de choc, chute, négligence, défaut d'entretien ou transformation du Produit.
 
 ### 8.2 Garantie légale de conformité (consommateurs et non professionnels)
 
-Conformément aux articles L 217-1 à L 217-32 du Code de la consommation, le Vendeur répond des défauts de conformité existant au moment de la délivrance, qui apparaissent dans un délai de **2 ans**. En cas de défaut, le Client peut exiger la réparation ou le remplacement dans un délai de 30 jours, sans frais. À défaut, il peut obtenir une réduction du prix ou la résolution de la vente. Le Client bénéficie également de la garantie légale des vices cachés (articles 1641 à 1649 du Code civil) pendant 2 ans à compter de la découverte du défaut.
+Conformément aux articles L 217-1 à L 217-32 du Code de la consommation, le Vendeur répond des défauts de conformité existant au moment de la délivrance, qui apparaissent dans un délai de 2 ans . En cas de défaut, le Client peut exiger la réparation ou le remplacement dans un délai de 30 jours, sans frais. À défaut, il peut obtenir une réduction du prix ou la résolution de la vente. Le Client bénéficie également de la garantie légale des vices cachés (articles 1641 à 1649 du Code civil) pendant 2 ans à compter de la découverte du défaut.
 
 Le vendeur qui fait obstacle de mauvaise foi à la mise en œuvre de la garantie légale de conformité encourt une amende civile pouvant aller jusqu'à 300 000 € (article L. 241-5 du Code de la consommation).
 
 ## Art. 9Données à caractère personnel
 
-Les données personnelles recueillies auprès des Clients font l'objet d'un traitement informatique réalisé par le Vendeur, enregistrées dans son fichier Clients, indispensables au traitement des commandes. Elles sont conservées aussi longtemps que nécessaire à l'exécution des commandes et des garanties applicables. Conformément au RGPD, le Client dispose de droits d'accès, de rectification, d'effacement et de portabilité, exercés à [contact@czn-machinery.com](mailto:contact@czn-machinery.com). Consultez notre [politique de confidentialité](https://czn-machinery.com/politique-confidentialite/) complète.
+Les données personnelles recueillies auprès des Clients font l'objet d'un traitement informatique réalisé par le Vendeur, enregistrées dans son fichier Clients, indispensables au traitement des commandes. Elles sont conservées aussi longtemps que nécessaire à l'exécution des commandes et des garanties applicables. Conformément au RGPD, le Client dispose de droits d'accès, de rectification, d'effacement et de portabilité, exercés à [contact@czn-machinery.com](mailto:contact@czn-machinery.com). Consultez notre [politique de confidentialité](/politique-confidentialite/) complète.
 
 ## Art. 10Propriété intellectuelle
 
@@ -171,13 +180,13 @@ Pour toute réclamation, le Client contacte le Service Relations Clients au [05 
 
 En cas d'échec, conformément aux articles L 612-1 et suivants du Code de la consommation, le Client peut saisir gratuitement un médiateur agréé. Requête à adresser par écrit à Madame Isabelle Faivre — 17 rue du Languedoc, 31000 Toulouse.
 
-Le Client peut également accéder à la plateforme européenne de règlement en ligne des litiges : <https://ec.europa.eu/consumers/odr/>.
+Le Client peut également accéder à la plateforme européenne de règlement en ligne des litiges : [https://ec.europa.eu/consumers/odr/](https://ec.europa.eu/consumers/odr/).
 
-En cas de litige avec des professionnels ou commerçants, le **Tribunal de Commerce de Toulouse** sera compétent.
+En cas de litige avec des professionnels ou commerçants, le Tribunal de Commerce de Toulouse sera compétent.
 
 ## Art. 18Langue du contrat — Droit applicable
 
-Les présentes CGV et les opérations qui en découlent sont régies par le **droit français**. Elles sont rédigées en langue française. En cas de traduction, seul le texte français fait foi en cas de litige.
+Les présentes CGV et les opérations qui en découlent sont régies par le droit français . Elles sont rédigées en langue française. En cas de traduction, seul le texte français fait foi en cas de litige.
 
 ## Art. 19Acceptation du Client
 
@@ -195,12 +204,18 @@ La nullité d'une clause contractuelle n'entraîne pas la nullité des présente
 
 Le Client reconnaît avoir été informé par le Vendeur, de manière lisible et compréhensible, préalablement à son achat, conformément à l'article L111-1 du Code de la consommation, notamment sur :
 
-* les caractéristiques essentielles des Produits (spécifications, dimensions, conditions d'utilisation) ;
-* le prix TTC et les frais de livraison ;
-* les modalités de paiement, de livraison et d'exécution du contrat ;
-* l'identité et les coordonnées du Vendeur ;
-* l'existence et les modalités de mise en œuvre des garanties légales et contractuelles ;
-* la possibilité de recourir à un médiateur de la consommation ;
-* les moyens de paiement acceptés.
+- les caractéristiques essentielles des Produits (spécifications, dimensions, conditions d'utilisation) ;
+
+- le prix TTC et les frais de livraison ;
+
+- les modalités de paiement, de livraison et d'exécution du contrat ;
+
+- l'identité et les coordonnées du Vendeur ;
+
+- l'existence et les modalités de mise en œuvre des garanties légales et contractuelles ;
+
+- la possibilité de recourir à un médiateur de la consommation ;
+
+- les moyens de paiement acceptés.
 
 Le fait d'effectuer un achat emporte adhésion pleine et entière aux présentes CGV et obligation au paiement des Produits commandés.

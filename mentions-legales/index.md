@@ -1,4 +1,6 @@
-# Mentions légales | CZN Machinery
+# Mentions légales
+
+> Mentions légales du site CZN Machinery (CZE France SAS) : éditeur, hébergeur, propriété intellectuelle et données personnelles.
 
 📍 Toulouse, France
 
@@ -7,8 +9,8 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](https://czn-machinery.com/)
-[EN](https://czn-machinery.com/en/)
+[FR](/)
+[EN](/en/)
 
 Informations légales
 
@@ -20,7 +22,7 @@ Dernière mise à jour : 30 mai 2026
 
 ## Éditeur du site
 
-**CZE France SAS** — nom commercial : CZN Machinery
+CZE France SAS — nom commercial : CZN Machinery
 
 11 impasse Pierre Camo, 31200 Toulouse, France
 
@@ -34,7 +36,7 @@ Directeur de la publication : le représentant légal de CZE France SAS.
 
 ## Hébergeur
 
-Le site est hébergé par **Vercel Inc.**, 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — [vercel.com](https://vercel.com).
+Le site est hébergé par Vercel Inc. , 440 N Barranca Avenue #4133, Covina, CA 91723, États-Unis — [vercel.com](https://vercel.com).
 
 ## Propriété intellectuelle
 
@@ -44,7 +46,7 @@ L'ensemble du contenu de ce site (textes, images, logos, vidéos, mises en page)
 
 Conformément au Règlement Général sur la Protection des Données (RGPD) et à la loi Informatique et Libertés, vous disposez d'un droit d'accès, de rectification, d'opposition et de suppression de vos données personnelles. Pour l'exercer, écrivez-nous à [contact@czn-machinery.com](mailto:contact@czn-machinery.com).
 
-Pour en savoir plus sur le traitement de vos données, consultez notre [politique de confidentialité](https://czn-machinery.com/politique-confidentialite/).
+Pour en savoir plus sur le traitement de vos données, consultez notre [politique de confidentialité](/politique-confidentialite/).
 
 ## Liens & responsabilité
 

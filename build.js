@@ -19,6 +19,9 @@ try { DATA_EN = require("./produit-data.en.js"); } catch (e) { DATA_EN = {}; }
 const SITE = "https://czn-machinery.com";
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
 const CACHE_FILE = path.join(process.cwd(), ".axonaut-cache.json");
+/* Afficher tous les produits « En stock » quel que soit le stock Axonaut (choix Mattéo). */
+const FORCE_IN_STOCK = true;
+const inStockOf = (p) => FORCE_IN_STOCK || p.inStock;
 
 /* ── Axonaut → routage par CATÉGORIE (page) + MARQUE lue dans le titre ── */
 function categoryToSlug(category) {
@@ -244,7 +247,7 @@ function hreflangLinks(frUrl, enUrl) {
 
 /* ── catalogue (cartes + JSON-LD entre marqueurs) ── */
 function cardHTML(p, L) {
-  const tag = p.inStock ? `<span class="product-tag stock">${L.ui.inStock}</span>` : `<span class="product-tag">${L.ui.onOrder}</span>`;
+  const tag = inStockOf(p) ? `<span class="product-tag stock">${L.ui.inStock}</span>` : `<span class="product-tag">${L.ui.onOrder}</span>`;
   const d = L.DATA[p.reference] || {};
   const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im } : im));
   const photo = imgs[0] ? imgs[0].src : p.image;
@@ -287,7 +290,7 @@ function productNode(p, label, L) {
   const node = {
     "@type": "Product", name: cleanName(p.name, p.brand, L), sku: p.reference,
     brand: { "@type": "Brand", name: p.brand || "CZN" }, category: label,
-    offers: { "@type": "Offer", price: String(p.priceHT || 0), priceCurrency: "EUR", availability: p.inStock ? "https://schema.org/InStock" : "https://schema.org/PreOrder", url: SITE + slugUrl(p.reference, L) },
+    offers: { "@type": "Offer", price: String(p.priceHT || 0), priceCurrency: "EUR", availability: inStockOf(p) ? "https://schema.org/InStock" : "https://schema.org/PreOrder", url: SITE + slugUrl(p.reference, L) },
   };
   const desc = d.intro || d.description;
   if (desc) node.description = desc;
@@ -412,7 +415,7 @@ function productPageHTML(p, L) {
   const catName = L.CAT_NAME[p.pageSlug] || "Catalogue";
   const tagline = d.tagline || `${label} ${p.brand || ""}`.trim();
   const intro = d.intro || d.description || L.ui.introDefault(name, label, p.brand);
-  const stockBadge = p.inStock ? `<span class="pdp-stock in">${L.ui.inStock}</span>` : `<span class="pdp-stock pre">${L.ui.onOrder}</span>`;
+  const stockBadge = inStockOf(p) ? `<span class="pdp-stock in">${L.ui.inStock}</span>` : `<span class="pdp-stock pre">${L.ui.onOrder}</span>`;
   const priceHTML = (p.priceHT && p.priceHT > 0)
     ? `<div class="pdp-price"><span class="pdp-price-val" id="pdpPrice">${euro(p.priceHT)} €</span><span class="pdp-price-ht">${L.ui.ht}</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">${L.ui.ttcWord(euro(p.priceTTC))}</div>` : ""}`
     : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">${L.ui.onQuote}</span></div>`;

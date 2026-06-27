@@ -1,5 +1,7 @@
 # CZN Machinery — Direct importer of mini excavators, loaders & dumpers | Toulouse
 
+> Since 2019, CZN Machinery has imported, factory-direct, the construction machines that equip French tradespeople. 20 models, 2-year warranty, Sofinco financing, delivery across France.
+
 📍 Toulouse, France
 
 Showroom Mon–Fri · 9am–12pm / 2pm–6pm
@@ -7,21 +9,21 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](https://czn-machinery.com/)
-[EN](https://czn-machinery.com/en/)
+[FR](/)
+[EN](/en/)
 
 Direct importer · Toulouse · Since 2019
 
-# Construction site *machines,* at a fair price.
+# Construction site machines, at a fair price.
 
 Mini excavators, loaders and dumpers imported directly from the manufacturers, delivered anywhere in France. The same quality as premium brands, without the distributor markup.
 
-[View the catalogue](https://czn-machinery.com/en/mini-pelles/)
-[Buy online](https://czn-machinery.com/en/entreprise/financement/)
+[View the catalogue](/en/mini-pelles/)
+[Buy online](/en/entreprise/financement/)
 
 In stock · shipped within 5 days
 
-5 500+
+5 500+
 
 Clients equipped
 
@@ -29,53 +31,53 @@ Clients equipped
 
 5★ Google reviews
 
-6 years
+6 years
 
 Of experience
 
-2 years
+2 years
 
 Warranty included
 
-**Importer** factory-direct
+Importer factory-direct
 ◆
-Warranty **2 ans** · parts & labour
+Warranty 2 ans · parts & labour
 ◆
-Financing **Sofinco** · up to 60 months
+Financing Sofinco · up to 60 months
 ◆
-**20 models** in the catalogue
+20 models in the catalogue
 ◆
-Delivery in France · lead time **5 jours**
+Delivery in France · lead time 5 jours
 ◆
-Workshop after-sales **Toulouse** · 31200
+Workshop after-sales Toulouse · 31200
 ◆
-**148+** 5★ customer reviews
+148+ 5★ customer reviews
 ◆
-Acompte **30%** secured by Stripe
+Acompte 30% secured by Stripe
 ◆
 
-**Importer** factory-direct
+Importer factory-direct
 ◆
-Warranty **2 ans** · parts & labour
+Warranty 2 ans · parts & labour
 ◆
-Financing **Sofinco** · up to 60 months
+Financing Sofinco · up to 60 months
 ◆
-**20 models** in the catalogue
+20 models in the catalogue
 ◆
-Delivery in France · lead time **5 jours**
+Delivery in France · lead time 5 jours
 ◆
-Workshop after-sales **Toulouse** · 31200
+Workshop after-sales Toulouse · 31200
 ◆
-**148+** 5★ customer reviews
+148+ 5★ customer reviews
 ◆
-Acompte **30%** secured by Stripe
+Acompte 30% secured by Stripe
 ◆
 
 Best seller
 
 Sonca
 
-## SJW-12 F
+## SJW-12 F
 
 1.2 t mini excavator with swing boom as standard.
 
@@ -91,19 +93,19 @@ Engine power
 24 months
 Warranty
 
-6 425 € excl. VAT
+6 425 € excl. VAT
 
 Delivery in France included · Sofinco financing available
 
-[View details complète →](https://czn-machinery.com/en/produit/SMP12F/)
-[Simulate financing](https://czn-machinery.com/en/entreprise/financement/)
+[View details complète →](/en/produit/SMP12F/)
+[Simulate financing](/en/entreprise/financement/)
 
 No.1
 in sales
 
 Our story
 
-## Six years *equipping* French job sites.
+## Six years equippingFrench job sites.
 
 HQ · Toulouse
 
@@ -129,15 +131,15 @@ Today
 
 In 2019 the situation was simple: French tradespeople were paying three times the real price for their machines, caught between overpriced European brands and opaque platforms with no after-sales support. CZN Machinery was born of that frustration — first container imported directly, from Toulouse.
 
-1First container
+1 First container
 
 2021
 
 ### The range takes shape
 
-Launch of the range **Sonca** and structuring of the catalogue. Partnership with Sofinco to make ownership accessible without tying up cash flow. The first machines go to work on job sites — and the first 5★ reviews come in.
+Launch of the range Sonca and structuring of the catalogue. Partnership with Sofinco to make ownership accessible without tying up cash flow. The first machines go to work on job sites — and the first 5★ reviews come in.
 
-3Ranges launched
+3 Ranges launched
 
 2023
 
@@ -145,7 +147,7 @@ Launch of the range **Sonca** and structuring of the catalogue. Partnership with
 
 Opening of the France after-sales service, reachable in French. Assembly workshop and spare-parts stock in Toulouse. Common parts available within 48 h — the promise is no longer only price, but operational continuity.
 
-48hSpare parts
+48h Spare parts
 
 2026
 
@@ -153,61 +155,32 @@ Opening of the France after-sales service, reachable in French. Assembly worksho
 
 20 models in the catalogue, 148+ 5★ reviews, online payment. Over 1 500 machines are at work on France's job sites — each backed by a 2-year parts-and-labour warranty, and after-sales support that always answers.
 
-1 500+Machines delivered
+1 500 + Machines delivered
 
-“ Selling the same machine, *at a fair price.* ”
-
+“ Selling the same machine, at a fair price. ”
 Our founding principle
 
 The catalogue
 
-## Two ranges, *one standard.*
+## Two ranges,one standard.
 
 Excavators, mini excavators and loaders split into two distinct families — clear positioning for every use.
 
 20
 
-Models  
-in the catalogue
+Models in the catalogue
 
-600kg→4T
+600kg → 4T
 
-Weight  
-range
+Weight range
 
-[01
+[01 Built tough for earthworks. Mini excavators, mini loaders and mini dumpers for professional earthworks, light demolition, landscaping and public works. 14Models 0,6&ndash;4TWeight 4 125 €From, excl. VAT Discover Sonca](/en/mini-pelles/)
 
-Built tough for earthworks.
-
-Mini excavators, mini loaders and mini dumpers for professional earthworks, light demolition, landscaping and public works.
-
-**14**Models
-
-**0,6–4T**Weight
-
-**4 125 €**From, excl. VAT
-
-Discover Sonca](https://czn-machinery.com/en/mini-pelles/) 
-
-[02
-
-Uncompromising construction performance.
-
-Large-format excavators and loaders for construction firms, quarries, major job sites and heavy demolition. The top tier of the catalogue.
-
-**6**Models
-
-**9T+**Weight
-
-**28 000 €**From, excl. VAT
-
-Discover Xcavator](https://czn-machinery.com/en/mini-pelles/)
-
-xml version="1.0" encoding="UTF-8"?
+[02 Uncompromising construction performance. Large-format excavators and loaders for construction firms, quarries, major job sites and heavy demolition. The top tier of the catalogue. 6Models 9T+Weight 28 000 €From, excl. VAT Discover Xcavator](/en/mini-pelles/)
 
 Best-sellers
 
-## The most-loved *models*.
+## The most-loved models.
 
 All
 Sonca
@@ -232,7 +205,7 @@ Yanmar
 Engine
 
 From
-4 125€
+4 125 €
 excl. VAT · delivery extra
 
 Top seller
@@ -254,7 +227,7 @@ Yanmar
 Engine
 
 From
-7 250€
+7 250 €
 excl. VAT · delivery extra
 
 In stock
@@ -276,27 +249,27 @@ Dig depth
 Engine
 
 From
-11 250€
+11 250 €
 excl. VAT · delivery extra
 
 [Explore all 20 models](#)
 
 Real-time configurator
 
-## Your machine, *made to measure.*
+## Your machine, made to measure.
 
 Select the options that match your job site. The price updates live, with deposit and balance calculated automatically. No more vague quotes, no more waiting.
 
-**2 minutes**
+2 minutes
 Full configuration
 
-**Live pricing**
+Live pricing
 excl. VAT, incl. VAT, deposit, balance
 
-**Save**
+Save
 Resume whenever you want
 
-**Sofinco financing**
+Sofinco financing
 Monthly payment calculated
 
 [Configure a machine](#)
@@ -326,55 +299,55 @@ Bucket kit (3 sizes)
 + 890 €
 
 Total excl. VAT
-11 500€
+11 500 €
 
-30% deposit: **3 450 €** · Balance before delivery: **8 050 €**
+30% deposit: 3 450 € · Balance before delivery: 8 050 €
 
 Six reasons to choose CZN
 
-## Why us, *not them.*
+## Why us, not them.
 
-Over **5 500** clients equipped
+Over 5 500 clients equipped
 
 01
 
-### Importer *direct*
+### Importer direct
 
 Since 2019, with no middleman between the factory and your job site. That's what explains our prices.
 
 02
 
-### Warranty *2 ans*
+### Warranty 2 ans
 
 Manufacturer warranty, no asterisks. Parts and labour included, handled by our France after-sales team.
 
 03
 
-### Financing *Sofinco*
+### Financing Sofinco
 
 Up to 60 months with no down payment. Online simulation, fast approval, perfect for preserving your cash flow.
 
 04
 
-### After-sales *Toulouse*
+### After-sales Toulouse
 
 A team reachable in French, Monday to Friday. On-site service available, or return to workshop.
 
 05
 
-### Delivery *5 jours*
+### Delivery 5 jours
 
 Anywhere in mainland France, on a specialised plant trailer. Fixed, transparent pricing across 6 zones, from €500 excl. VAT.
 
 06
 
-### *148+* 5★ reviews
+### 148+ 5★ reviews
 
 On Google, verifiable. Tradespeople, landscapers and construction firms share their CZN experience, unfiltered.
 
 New · Secure online payment
 
-## Buy online. *In three steps.*
+## Buy online. In three steps.
 
 A single platform, from choosing your machine to final payment. Secure deposit at order, balance paid once your machine is prepared in the workshop, before shipping.
 
@@ -412,11 +385,11 @@ No commitment before deposit
 
 Delivery in France
 
-## From Toulouse, *to every one of your job sites.*
+## From Toulouse, to every one of your job sites.
 
 Our logistics team delivers throughout mainland France on a specialised plant trailer. Average lead time of 5 working days after workshop preparation. Clear, fixed pricing by geographic zone.
 
-*5* days
+5 days
 
 Average lead time
 
@@ -424,11 +397,11 @@ Average lead time
 
 Mainland France
 
-6 *zones*
+6 zones
 
 Fixed price
 
-Plant*trailer*
+Plant trailer
 
 Specialised
 
@@ -436,31 +409,31 @@ Specialised
 
 Delivery price by zone
 
-**+ €180 excl. VAT** for mountain zones
++ €180 excl. VAT for mountain zones
 
 Zone 1
 
-500 € excl. VAT
+500 € excl. VAT
 
 Zone 2
 
-700 € excl. VAT
+700 € excl. VAT
 
 Zone 3
 
-900 € excl. VAT
+900 € excl. VAT
 
 Zone 4
 
-960 € excl. VAT
+960 € excl. VAT
 
 Zone 5
 
-880 € excl. VAT
+880 € excl. VAT
 
 Zone 6
 
-960 € excl. VAT
+960 € excl. VAT
 
 Corsica & other European countries
 
@@ -470,13 +443,13 @@ Our partners
 
 Verified reviews
 
-## What *the job sites say.*
+## What the job sites say.
 
-Over **5 500** clients equipped
+Over 5 500 clients equipped
 
 5.0
 
-**148+** reviews · Google Verified
+148+ reviews · Google Verified
 
 “Order placed on a Monday, machine delivered the following Friday in Bordeaux. Perfect setup, quick to get going. I recommend without hesitation.”
 
@@ -512,19 +485,17 @@ Verified
 
 Showroom & after-sales
 
-## Come and *visit us.*
+## Come and visit us.
 
 Our Toulouse showroom welcomes tradespeople, landscapers and businesses Monday to Friday. Come and see the machines in person, ask your questions and leave with everything you need to make the right choice.
 
 Address
 
-11 Impasse Pierre Camo  
-31200 Toulouse
+11 Impasse Pierre Camo 31200 Toulouse
 
 Opening hours
 
-Monday – Friday  
-9am – 6pm
+Monday – Friday 9am – 6pm
 
 Closed Saturday & Sunday
 
@@ -536,7 +507,7 @@ Phone
 
 Frequently asked questions
 
-## What *you want* to know.
+## What you want to know.
 
 Answers to the questions that come up most often. A question that's not listed? Our team answers directly on 05 31 60 51 61.
 
@@ -564,11 +535,11 @@ Can I try the machine before buying?
 
 Our Toulouse showroom (11 impasse Pierre Camo, 31200) welcomes visitors by appointment, Monday to Friday. Demonstrations on in-stock machines are possible. Book on 05 31 60 51 61 or via the contact form.
 
-## Ready to equip *your job site?*
+## Ready to equip your job site?
 
 Configure your machine in two minutes, or talk to our team. We reply within 24 working hours, detailed quote included.
 
-[View the catalogue](https://czn-machinery.com/en/mini-pelles/)
+[View the catalogue](/en/mini-pelles/)
 [Request a quote](#)
 
 Phone
