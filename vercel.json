@@ -1,16 +1,190 @@
 {
   "trailingSlash": true,
   "redirects": [
-    { "source": "/leite/", "destination": "/mini-pelles/", "permanent": true },
-    { "source": "/leite", "destination": "/mini-pelles/", "permanent": true },
-    { "source": "/sonca/", "destination": "/mini-pelles/", "permanent": true },
-    { "source": "/sonca", "destination": "/mini-pelles/", "permanent": true },
-    { "source": "/xcavator/", "destination": "/mini-pelles/", "permanent": true },
-    { "source": "/xcavator", "destination": "/mini-pelles/", "permanent": true },
-
-    { "source": "/financement/", "destination": "/entreprise/financement/", "permanent": true },
-    { "source": "/financement", "destination": "/entreprise/financement/", "permanent": true },
-
-    { "source": "/modeles/:path(.*)", "destination": "/mini-pelles/", "permanent": true }
+    {
+      "source": "/produit/SMP06/",
+      "destination": "/produit/SMPSJW06/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP06/",
+      "destination": "/en/produit/SMPSJW06/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMP12F/",
+      "destination": "/produit/SMPSJW12F/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP12F/",
+      "destination": "/en/produit/SMPSJW12F/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMP12P/",
+      "destination": "/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP12P/",
+      "destination": "/en/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMP-SJW-18-PRO/",
+      "destination": "/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP-SJW-18-PRO/",
+      "destination": "/en/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMP-SJW-25-/",
+      "destination": "/produit/SMPSJW25/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP-SJW-25-/",
+      "destination": "/en/produit/SMPSJW25/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMT-SJ-08EL/",
+      "destination": "/produit/SMTSJ08EL/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-08EL/",
+      "destination": "/en/produit/SMTSJ08EL/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMT-SJ-05E/",
+      "destination": "/produit/SMTSJ05E/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-05E/",
+      "destination": "/en/produit/SMTSJ05E/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMT-SJ-05EL/",
+      "destination": "/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-05EL/",
+      "destination": "/en/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMT-SJ-05M/",
+      "destination": "/produit/SMTSJ05M/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-05M/",
+      "destination": "/en/produit/SMTSJ05M/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMC-SJ-460W/",
+      "destination": "/produit/SMCSJ460W/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMC-SJ-460W/",
+      "destination": "/en/produit/SMCSJ460W/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMC-SJ-460T/",
+      "destination": "/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMC-SJ-460T/",
+      "destination": "/en/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/SMC-SJ-490W/",
+      "destination": "/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMC-SJ-490W/",
+      "destination": "/en/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/REM-1.5T/",
+      "destination": "/produit/REM-1-5T/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/REM-1.5T/",
+      "destination": "/en/produit/REM-1-5T/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/REM-2.7T/",
+      "destination": "/produit/REM-2-7T/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/REM-2.7T/",
+      "destination": "/en/produit/REM-2-7T/",
+      "permanent": true
+    },
+    {
+      "source": "/leite/",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/leite",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/sonca/",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/sonca",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/xcavator/",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/xcavator",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/financement/",
+      "destination": "/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/financement",
+      "destination": "/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/:path(.*)",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    }
   ]
 }

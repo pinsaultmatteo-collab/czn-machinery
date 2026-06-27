@@ -8,7 +8,7 @@
 module.exports = {
 
   // ───────────────────────── SONCA SJW-06 ─────────────────────────
-  "SMP06": {
+  "SMPSJW06": {
     tagline: `Ultra-compact micro excavator, transportable on a category B licence.`,
     intro: `The SJW-06 mini excavator is the most compact micro excavator in the SONCA range, at just 700 mm wide and 660 kg. It slips in everywhere: garden gates, narrow passages, inner courtyards. Powered by the 8.5 hp Longxin G300FD Euro 5 engine, it offers ample power for light earthworks, landscaping and trench digging.`,
     stats: [
@@ -84,7 +84,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-12 F ─────────────────────────
-  "SMP12F": {
+  "SMPSJW12F": {
     tagline: `1.2 t mini excavator with offset boom as standard.`,
     intro: `The SONCA SJW-12 F is the versatile 1.2-tonne mini excavator with an offset boom as standard. This feature reaches angles impossible with a fixed boom and lets you work in hard-to-access areas without repositioning the machine. With its one-metre width and reduced tail swing radius, it moves easily through tight spaces — the ideal tool for earthworks and residential landscaping. Air-cooled 10 hp KOOP KD192F engine. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -135,7 +135,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-12 P ─────────────────────────
-  "SMP12P": {
+  "SMPSJW12P": {
     tagline: `The 1.2 t with offset boom and premium finish.`,
     intro: `The SONCA SJW-12 P is the refined version of the compact 1.2-tonne range: offset boom, careful finish and hydraulic joysticks built into the seat armrests for optimal ergonomics and precision. Its 1,490 mm tail swing radius and one-metre width let it navigate the tightest spaces. Designed for demanding private individuals and well-finished residential sites, it combines technical performance with aesthetics. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -209,7 +209,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-18 PRO ─────────────────────────
-  "SMP-SJW-18-PRO": {
+  "SMPSJW18PRO": {
     tagline: `1.8 t mini excavator, the right size-to-power balance.`,
     intro: `The SONCA SJW-18 PRO is a versatile 1.8-tonne mini excavator, built for more demanding earthworks while remaining easy to transport. Rugged and comfortable, it accepts a wide range of attachments. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -274,7 +274,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-25 ─────────────────────────
-  "SMP-SJW-25-": {
+  "SMPSJW25": {
     tagline: `2.5 t mini excavator for heavy work.`,
     intro: `The SONCA SJW-25 is the most powerful of the Sonca mini excavators at 2.5 tonnes: greater digging depth and superior breakout force to tackle the most ambitious earthworks. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -403,7 +403,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-08EL (dumper) ─────────────────────────
-  "SMT-SJ-08EL": {
+  "SMTSJ08EL": {
     tagline: `Tracked mini dumper, high capacity.`,
     intro: `The SONCA SJ-08EL is a tracked mini dumper with a tipping skip, designed to carry soil, rubble and materials over the most difficult terrain. Its large capacity makes it a valuable ally for clearance and landscaping sites. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -465,7 +465,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-05E (dumper) ─────────────────────────
-  "SMT-SJ-05E": {
+  "SMTSJ05E": {
     tagline: `Compact tracked mini dumper.`,
     intro: `The SONCA SJ-05E is a compact tracked mini dumper with a tipping skip, ideal for carrying materials in tight spaces and over soft ground. Manoeuvrable and hard-wearing. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -528,7 +528,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-05EL (dumper) ─────────────────────────
-  "SMT-SJ-05EL": {
+  "SMTSJ05EL": {
     tagline: `Tracked mini dumper with high-lift skip.`,
     intro: `The SONCA SJ-05EL is a tracked mini dumper with a high-lift skip, for tipping at height (trailer, bulk bag, container). Compact and all-terrain, it makes clearing materials on site easier. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -592,7 +592,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-05M (dumper) ─────────────────────────
-  "SMT-SJ-05M": {
+  "SMTSJ05M": {
     tagline: `Manoeuvrable tracked mini dumper.`,
     intro: `The SONCA SJ-05M is a tracked mini dumper with a tipping skip, designed for manoeuvrability and ease of use on small and medium-sized sites. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -654,7 +654,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-460 W (loader) ─────────────────────────
-  "SMC-SJ-460W": {
+  "SMCSJ460W": {
     tagline: `Wheeled mini loader, compact and powerful.`,
     intro: `The SONCA SJ-460 W is an articulated wheeled mini loader, ideal for handling, loading and landscaping work. Compact, it slips in everywhere and accepts many attachments (bucket, forks and more). Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -722,7 +722,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-460 T (tracked loader) ─────────────────────────
-  "SMC-SJ-460T": {
+  "SMCSJ460T": {
     tagline: `Tracked mini loader, all-terrain.`,
     intro: `The SONCA SJ-460 T is the tracked version of the compact mini loader: better traction and stability on soft or difficult ground, for handling and loading on all terrain. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [
@@ -789,7 +789,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-490 W (loader) ─────────────────────────
-  "SMC-SJ-490W": {
+  "SMCSJ490W": {
     tagline: `Wheeled mini loader, stepped-up power.`,
     intro: `The SONCA SJ-490 W is a more powerful articulated wheeled mini loader, for more intensive handling and loading work while remaining compact and manoeuvrable. Imported directly by CZN Machinery, 2-year warranty, delivery across France.`,
     stats: [

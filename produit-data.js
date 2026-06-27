@@ -8,7 +8,7 @@
 module.exports = {
 
   // ───────────────────────── SONCA SJW-06 ─────────────────────────
-  "SMP06": {
+  "SMPSJW06": {
     tagline: `Micro pelle ultra-compacte, transportable en permis B.`,
     intro: `La mini pelleteuse SJW-06 est la micro pelle la plus compacte de la gamme SONCA avec seulement 700 mm de largeur et 660 kg. Elle se faufile partout : portails de jardin, passages étroits, cours intérieures. Équipée du moteur Longxin G300FD Euro 5 de 8,5 CV, elle offre une puissance suffisante pour les travaux de terrassement léger, l'aménagement paysager et le creusement de tranchées.`,
     stats: [
@@ -84,7 +84,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-12 F ─────────────────────────
-  "SMP12F": {
+  "SMPSJW12F": {
     tagline: `Mini-pelle 1,2 t à flèche orientable de série.`,
     intro: `La SONCA SJW-12 F est la mini-pelle 1,2 tonne polyvalente à flèche orientable de série. Cette fonctionnalité permet d'atteindre des angles impossibles avec une flèche fixe et d'intervenir dans les zones difficiles d'accès sans repositionner la machine. Avec sa largeur d'un mètre et son rayon de pivotement réduit, elle navigue aisément dans les espaces restreints — l'outil idéal pour le terrassement et l'aménagement résidentiel. Moteur KOOP KD192F 10 CV refroidi par air. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -135,7 +135,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-12 P ─────────────────────────
-  "SMP12P": {
+  "SMPSJW12P": {
     tagline: `La 1,2 t à flèche orientable, finitions haut de gamme.`,
     intro: `La SONCA SJW-12 P est la version aboutie de la gamme compacte 1,2 tonne : flèche orientable, finitions soignées et joysticks hydrauliques intégrés aux accoudoirs du siège pour une ergonomie et une précision optimales. Son rayon de pivotement de 1 490 mm et sa largeur d'un mètre permettent de naviguer dans les espaces les plus restreints. Destinée aux particuliers exigeants et aux chantiers résidentiels soignés, elle conjugue performance technique et esthétique. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -209,7 +209,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-18 PRO ─────────────────────────
-  "SMP-SJW-18-PRO": {
+  "SMPSJW18PRO": {
     tagline: `Mini-pelle 1,8 t, le bon compromis taille/puissance.`,
     intro: `La SONCA SJW-18 PRO est une mini-pelle 1,8 tonne polyvalente, taillée pour les chantiers de terrassement plus exigeants tout en restant facilement transportable. Robuste et confortable, elle accepte une large gamme d'accessoires. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -274,7 +274,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJW-25 ─────────────────────────
-  "SMP-SJW-25-": {
+  "SMPSJW25": {
     tagline: `Mini-pelle 2,5 t pour les gros travaux.`,
     intro: `La SONCA SJW-25 est la plus puissante des mini-pelles Sonca avec ses 2,5 tonnes : profondeur d'excavation accrue et force d'arrachage supérieure pour s'attaquer aux chantiers de terrassement les plus ambitieux. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -403,7 +403,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-08EL (tombereau) ─────────────────────────
-  "SMT-SJ-08EL": {
+  "SMTSJ08EL": {
     tagline: `Mini-tombereau chenillé, grande capacité.`,
     intro: `Le SONCA SJ-08EL est un mini-tombereau (mini-dumper) sur chenilles à benne basculante, conçu pour transporter terre, gravats et matériaux sur les terrains les plus difficiles. Sa large capacité en fait un allié des chantiers d'évacuation et d'aménagement. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -465,7 +465,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-05E (tombereau) ─────────────────────────
-  "SMT-SJ-05E": {
+  "SMTSJ05E": {
     tagline: `Mini-tombereau chenillé compact.`,
     intro: `Le SONCA SJ-05E est un mini-tombereau sur chenilles compact à benne basculante, idéal pour transporter des matériaux dans les espaces restreints et sur sols meubles. Maniable et endurant. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -528,7 +528,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-05EL (tombereau) ─────────────────────────
-  "SMT-SJ-05EL": {
+  "SMTSJ05EL": {
     tagline: `Mini-tombereau chenillé, benne relevable.`,
     intro: `Le SONCA SJ-05EL est un mini-tombereau sur chenilles à benne relevable, pour décharger en hauteur (remorque, big-bag, conteneur). Compact et tout-terrain, il facilite l'évacuation des matériaux sur chantier. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -592,7 +592,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-05M (tombereau) ─────────────────────────
-  "SMT-SJ-05M": {
+  "SMTSJ05M": {
     tagline: `Mini-tombereau chenillé maniable.`,
     intro: `Le SONCA SJ-05M est un mini-tombereau sur chenilles à benne basculante, pensé pour la maniabilité et la simplicité d'utilisation sur les petits et moyens chantiers. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -654,7 +654,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-460 W (chargeur) ─────────────────────────
-  "SMC-SJ-460W": {
+  "SMCSJ460W": {
     tagline: `Mini-chargeur sur roues, compact et puissant.`,
     intro: `Le SONCA SJ-460 W est un mini-chargeur articulé sur roues, idéal pour la manutention, le chargement et les travaux d'aménagement. Compact, il se faufile partout et accepte de nombreux accessoires (godet, fourches…). Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -722,7 +722,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-460 T (chargeur chenillé) ─────────────────────────
-  "SMC-SJ-460T": {
+  "SMCSJ460T": {
     tagline: `Mini-chargeur sur chenilles, tout-terrain.`,
     intro: `Le SONCA SJ-460 T est la version chenillée du mini-chargeur compact : meilleure motricité et stabilité sur sols meubles ou difficiles, pour la manutention et le chargement sur tous terrains. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [
@@ -789,7 +789,7 @@ module.exports = {
   },
 
   // ───────────────────────── SONCA SJ-490 W (chargeur) ─────────────────────────
-  "SMC-SJ-490W": {
+  "SMCSJ490W": {
     tagline: `Mini-chargeur sur roues, montée en puissance.`,
     intro: `Le SONCA SJ-490 W est un mini-chargeur articulé sur roues plus puissant, pour les travaux de manutention et de chargement plus intensifs tout en restant compact et maniable. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.`,
     stats: [

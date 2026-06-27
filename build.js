@@ -682,16 +682,24 @@ function generateProductPages(all, L) {
   }
 }
 
-/* ── Marques masquées temporairement (pas de stock / pas de commandes). ── */
-const HIDDEN_BRANDS = ["Xcavator"];
+/* ── LISTE BLANCHE : seules ces références sont publiées (cartes + fiches).
+   ⚠️ Axonaut contient bien plus de produits (brouillons, nouvelles réfs, etc.) ;
+   on ne publie QUE ceux-ci. Pour ajouter un produit au site : l'ajouter ici. ── */
+const PUBLISH_REFS = [
+  "SMPSJW06", "SMPSJW12F", "SMPSJW12P", "SMPSJW18PRO", "SMPSJW25",
+  "SMCSJ460T", "SMCSJ460W", "SMCSJ490W",
+  "SMTSJ05M", "SMTSJ05E", "SMTSJ05EL", "SMTSJ08EL",
+  "REM-1.5T", "REM-2.7T",
+];
+/* on garde aussi les composants d'option (roue/support) dans `all` pour calculer le prix de l'option. */
+function isPublished(ref) { return PUBLISH_REFS.includes(ref) || isOptionComponent(ref); }
 
 async function main() {
   const apiKey = process.env.AXONAUT_API_KEY;
   let all;
   if (apiKey) {
     const raw = await fetchAllProducts(apiKey);
-    const hidden = HIDDEN_BRANDS.map((b) => b.toLowerCase());
-    all = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled && !hidden.includes((p.brand || "").toLowerCase()));
+    all = raw.map(normalize).filter((p) => p.pageSlug && !p.disabled && isPublished(p.reference));
     fs.writeFileSync(CACHE_FILE, JSON.stringify(all, null, 2));   // rafraîchit le cache
     console.log("Axonaut OK — cache rafraîchi (" + all.length + " produits).");
   } else if (fs.existsSync(CACHE_FILE)) {
@@ -707,7 +715,7 @@ async function main() {
     generateCatalog(all, L);
     generateProductPages(all, L);
   }
-  console.log("Terminé : " + all.length + " produits × FR/EN." + (HIDDEN_BRANDS.length ? " (masqué : " + HIDDEN_BRANDS.join(", ") + ")" : ""));
+  console.log("Terminé : " + all.length + " produits × FR/EN (liste blanche : " + PUBLISH_REFS.length + " réfs).");
 }
 module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages, LOCALES };
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
