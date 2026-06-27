@@ -4684,6 +4684,10 @@ Notre équipe technique vous oriente vers la machine adaptée à votre usage et 
 
 # Mini-pelles neuves
 
+Toutes
+Sonca
+Xcavator
+
 En stock
 
 Sonca
@@ -4716,6 +4720,26 @@ HT · hors livraison
 
 En stock
 
+Sonca
+
+### Mini-pelle SJW-18 PRO
+
+À partir de
+11 250 €
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-25
+
+À partir de
+19 625 €
+HT · hors livraison
+
+En stock
+
 Xcavator
 
 ### Mini-pelle XC13P
@@ -4736,32 +4760,12 @@ HT · hors livraison
 
 En stock
 
-Sonca
-
-### Mini-pelle SJW-18 PRO
-
-À partir de
-11 250 €
-HT · hors livraison
-
-En stock
-
 Xcavator
 
 ### XC17 PRO V2
 
 À partir de
 14 472 €
-HT · hors livraison
-
-En stock
-
-Sonca
-
-### Mini-pelle SJW-25
-
-À partir de
-19 625 €
 HT · hors livraison
 
 En stock

@@ -674,7 +674,9 @@ ${footer(L)}
 
 function generateCatalog(all, L) {
   for (const page of L.PAGES) {
-    const list = all.filter((p) => p.pageSlug === page.slug && !isOptionComponent(p.reference)).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
+    // Tri : on groupe par marque (Sonca d'abord, puis Xcavator, puis le reste), et par prix croissant à l'intérieur de chaque marque.
+    const brandRank = (p) => { const b = (p.brand || "").toLowerCase(); if (b === "sonca") return 0; if (b === "xcavator") return 1; return 2; };
+    const list = all.filter((p) => p.pageSlug === page.slug && !isOptionComponent(p.reference)).sort((a, b) => brandRank(a) - brandRank(b) || (a.priceHT || 0) - (b.priceHT || 0));
     const file = path.join(process.cwd(), page.file);
     let html;
     if (fs.existsSync(file) && fs.readFileSync(file, "utf8").includes("<!-- PRODUCTS:START -->")) {
