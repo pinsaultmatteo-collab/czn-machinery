@@ -102,7 +102,7 @@ Garantie
 
 Livraison France incluse · Financement Sofinco dispo
 
-[Voir la fiche complète →](https://czn-machinery.com/produit/SMP12F/)
+[Voir la fiche complète →](https://czn-machinery.com/produit/SMPSJW12F/)
 [Simuler un financement](https://czn-machinery.com/entreprise/financement/)
 
 N°1
@@ -1219,7 +1219,7 @@ Warranty
 
 Delivery in France included · Sofinco financing available
 
-[View details complète →](https://czn-machinery.com/en/produit/SMP12F/)
+[View details complète →](https://czn-machinery.com/en/produit/SMPSJW12F/)
 [Simulate financing](https://czn-machinery.com/en/entreprise/financement/)
 
 No.1

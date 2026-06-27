@@ -108,6 +108,7 @@ const LOCALES = {
       introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} importée en direct par CZN Machinery. Garantie 2 ans, livraison dans toute la France.`,
       continueVisit: "Continuer la visite", exploreRange: "Explorez le reste de <em>la gamme</em>.",
       photoSoon: "Photo à venir", visualsSoon: "Visuels à venir", optionTitle: "Option à ajouter",
+      pmcPrefix: "Site conçu &amp; développé par", pmcSub: "Agence digitale &amp; IA · Toulouse", pmcAria: "PMC Marketing — Agence digitale &amp; IA, Toulouse",
       finMonthlyLine: (m) => `ou à partir de <strong>${m} €</strong> / mois<sup>*</sup>`,
       finBtn: "Simuler mon financement",
       finNote: (months, rate) => `* Estimation indicative sur ${months} mois, TAEG fixe ${rate} %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.`,
@@ -149,6 +150,7 @@ const LOCALES = {
       introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} imported directly by CZN Machinery. 2-year warranty, delivery across France.`,
       continueVisit: "Continue the tour", exploreRange: "Explore the rest of <em>the range</em>.",
       photoSoon: "Photo coming soon", visualsSoon: "Photos coming soon", optionTitle: "Optional add-on",
+      pmcPrefix: "Website designed &amp; built by", pmcSub: "Digital &amp; AI agency · Toulouse", pmcAria: "PMC Marketing — Digital &amp; AI agency, Toulouse",
     },
   },
 };
@@ -204,6 +206,19 @@ function nav(L) {
 function footer(L) {
   const cols = L.ui.footCols.map(([h, items]) => `  <div class="footer-col"><h4>${h}</h4><ul>${items.map(([href, t]) => `<li><a href="${href}">${t}</a></li>`).join("")}</ul></div>`).join("\n");
   const legal = L.ui.footLegal.map(([href, t]) => `<a href="${href}">${t}</a>`).join("");
+  const pmc = `
+    <div class="pmc-watermark">
+      <span class="pmc-prefix">${L.ui.pmcPrefix}</span>
+      <a href="https://www.agence-pmc-marketing.com/" class="pmc-link" target="_blank" rel="noopener" aria-label="${L.ui.pmcAria}">
+        <svg class="pmc-icon" width="34" height="34" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <path d="M 18 8 L 6 8 L 6 52 L 18 52" stroke="#A855F7" stroke-width="4" stroke-linecap="square" fill="none"/>
+          <path d="M 42 8 L 54 8 L 54 52 L 42 52" stroke="#A855F7" stroke-width="4" stroke-linecap="square" fill="none"/>
+          <path d="M 20 22 L 30 30 L 20 38" stroke="#A855F7" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+          <rect x="33" y="27" width="6" height="6" fill="#A855F7"/>
+        </svg>
+        <span class="pmc-text"><span class="pmc-name">PMC Marketing</span><span class="pmc-sub">${L.ui.pmcSub}</span></span>
+      </a>
+    </div>`;
   return `<footer><div class="container"><div class="footer-top">
   <div class="footer-brand"><a href="${L.prefix ? L.prefix + "/" : "/"}" class="site-logo site-logo--footer" aria-label="${L.ui.logoAria}">${LOGO("#F4F1EC")}</a>
     <p class="footer-tagline">${L.ui.footTagline}</p>
@@ -217,6 +232,7 @@ function footer(L) {
 ${cols}
 </div>
 <div class="footer-bottom"><div>© 2026 CZE France SAS · 11 impasse Pierre Camo, 31200 Toulouse · SIRET 824 356 513 00021</div><div class="footer-legal">${legal}</div></div>
+${pmc}
 </div></footer>`;
 }
 

@@ -134,11 +134,11 @@
     grid-template-columns: auto 1fr auto;
     align-items: center;
     padding: 22px 0;
-    gap: 64px;
-    max-width: 1360px;
+    gap: 28px;
+    max-width: 1480px;
     margin: 0 auto;
-    padding-left: 48px;
-    padding-right: 48px;
+    padding-left: 40px;
+    padding-right: 40px;
   }
   /* ── Site logo: positive (cream bg) for nav, reverse (dark bg) for footer ── */
   .site-logo {
@@ -159,11 +159,12 @@
   .nav-links {
     display: flex;
     justify-content: center;
-    gap: 38px;
+    gap: 22px;
     list-style: none;
   }
   .nav-links a {
-    font-size: 13px;
+    font-size: 12.5px;
+    white-space: nowrap;
     color: var(--ink);
     font-weight: 500;
     position: relative;
