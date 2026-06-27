@@ -163,8 +163,11 @@ function cleanName(name, brand, L) {
 }
 const euro = (n) => String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g, "&thinsp;");
 const esc = (s) => String(s == null ? "" : s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-const slugUrl = (ref, L) => L.prefix + "/produit/" + encodeURIComponent(ref) + "/";
-const altSlugUrl = (ref, prefix) => prefix + "/produit/" + encodeURIComponent(ref) + "/";
+/* slug d'URL : on retire les '.' (Vercel les prend pour une extension de fichier → casse le trailing slash).
+   La référence Axonaut d'origine reste inchangée pour les données ; seule l'URL/le dossier est assaini. */
+const urlSlug = (ref) => encodeURIComponent(String(ref).replace(/\./g, "-"));
+const slugUrl = (ref, L) => L.prefix + "/produit/" + urlSlug(ref) + "/";
+const altSlugUrl = (ref, prefix) => prefix + "/produit/" + urlSlug(ref) + "/";
 
 /* ── chrome (sans panier — e-commerce retiré) ── */
 const FLAG_FR = `<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#0055A4"/><rect x="2" width="1" height="2" fill="#EF4135"/></svg>`;
@@ -672,7 +675,7 @@ function generateCatalog(all, L) {
 function generateProductPages(all, L) {
   for (const p of all) {
     if (isOptionComponent(p.reference)) continue;   // composants d'option : pas de fiche
-    const dir = path.join(process.cwd(), L.out, "produit", p.reference);
+    const dir = path.join(process.cwd(), L.out, "produit", String(p.reference).replace(/\./g, "-"));
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, "index.html"), productPageHTML(p, L));
     console.log(`✓ fiche ${L.lang} ${L.prefix}/produit/${p.reference}/`);
