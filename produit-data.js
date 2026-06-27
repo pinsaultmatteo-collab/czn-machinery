@@ -854,4 +854,114 @@ module.exports = {
     ],
   },
 
+  // ───────────────────────── REMORQUE 1.5T (Temared MultiTransporter 3318 C) ─────────────────────────
+  "REM-1.5T": {
+    tagline: `Remorque plateau basculante 1,5 T pour engins et matériaux.`,
+    intro: `La remorque CZN 1,5 T (Temared MultiTransporter 3318 C) est une remorque plateau polyvalente pour le transport de mini-engins, motos, quads et matériaux. Plateau en contreplaqué antidérapant de 3,30 × 1,84 m, châssis en acier galvanisé boulonné et système basculant pour un chargement facilité. PTAC 1 500 kg : idéale pour transporter une micro-pelle ou un mini-chargeur. Importée et garantie par CZN Machinery, livraison dans toute la France.`,
+    stats: [
+      { value: "1 500 kg", label: "PTAC" },
+      { value: "1 160 kg", label: "Charge utile" },
+      { value: "3,30 × 1,84 m", label: "Plateau" },
+      { value: "340 kg", label: "Poids à vide" },
+    ],
+    sections: [
+      { title: "Plateau basculant, chargement facile",
+        body: `Le système basculant incline le plateau pour charger un engin sans rampe externe. Le plancher en contreplaqué imperméable et antidérapant de 3,30 m × 1,84 m accueille mini-pelles, motos, quads et matériel de chantier.`,
+        features: [
+          { title: "Plateau 3,30 × 1,84 m", text: "Surface généreuse pour les engins compacts et le matériel." },
+          { title: "Contreplaqué antidérapant", text: "Plancher imperméable, robuste et sûr pour l'arrimage." },
+          { title: "Basculement intégré", text: "Inclinaison du plateau pour un chargement sans rampe additionnelle." },
+        ] },
+      { title: "Châssis galvanisé, durable",
+        body: `Châssis en sections d'acier galvanisé boulonnées : résistance à la corrosion et longévité, même en usage intensif et par tous les temps.`,
+        features: [
+          { title: "Acier galvanisé", text: "Protection anticorrosion pour une durée de vie prolongée." },
+          { title: "Construction boulonnée", text: "Entretien et remplacement de pièces simplifiés." },
+          { title: "PTAC 1 500 kg", text: "Tractable avec un véhicule et un permis adaptés." },
+        ] },
+    ],
+    specs: [
+      { group: "Capacités", rows: [
+        { label: "PTAC", value: "1 500 kg" },
+        { label: "Charge utile", value: "~1 160 kg" },
+        { label: "Poids à vide", value: "~340 kg" },
+      ]},
+      { group: "Dimensions", rows: [
+        { label: "Longueur plateau", value: "3 300 mm" },
+        { label: "Largeur plateau", value: "1 840 mm" },
+      ]},
+      { group: "Construction", rows: [
+        { label: "Châssis", value: "Acier galvanisé boulonné" },
+        { label: "Plateau", value: "Contreplaqué imperméable antidérapant" },
+        { label: "Type", value: "Basculant" },
+      ]},
+      { group: "Roulement", rows: [
+        { label: "Pneus", value: "185 R14C" },
+      ]},
+    ],
+    option: { label: "Roue de secours + support", desc: "Roue 185 R14C + support de fixation complet", refs: ["REM-ROUE-185-R14C", "REM-SUPPORT-ROUE-DE-SECOURS-COMPLET"] },
+    images: [
+      { src: "/images/remorques/REM-1.5T/remorque-1-5t-avant.webp",   alt: "Remorque CZN Machinery 1,5 T basculante, vue avant 3/4" },
+      { src: "/images/remorques/REM-1.5T/remorque-1-5t-arriere.webp", alt: "Remorque CZN 1,5 T MultiTransporter, vue arrière" },
+    ],
+  },
+
+  // ───────────────────────── REMORQUE 2.7T (Temared Builder 3 2615/2 S) ─────────────────────────
+  "REM-2.7T": {
+    tagline: `Remorque double essieu 2,7 T pour engins et charges lourdes.`,
+    intro: `La remorque CZN 2,7 T (Temared Builder 3 2615/2 S) est une remorque robuste à châssis soudé pour le transport de mini-pelles, mini-chargeurs et matériaux lourds. Plateau contreplaqué antidérapant de 2,60 × 1,50 m, timon en V renforcé, roue jockey à pliage automatique et rampes d'encastrement pour le chargement d'engins. PTAC 2 700 kg, double essieu. Importée et garantie par CZN Machinery, livraison France.`,
+    stats: [
+      { value: "2 700 kg", label: "PTAC" },
+      { value: "2 178 kg", label: "Charge utile" },
+      { value: "2,60 × 1,50 m", label: "Plateau" },
+      { value: "Double essieu", label: "Configuration" },
+    ],
+    sections: [
+      { title: "Conçue pour les charges lourdes",
+        body: `Châssis porteur soudé en profilés d'acier fermés : la remorque encaisse le transport de mini-engins et de matériaux très lourds, jusqu'à 2,7 tonnes de PTAC.`,
+        features: [
+          { title: "Châssis soudé", text: "Profilés acier fermés pour une rigidité maximale." },
+          { title: "Charge utile ~2 178 kg", text: "De quoi transporter une mini-pelle de 2 à 2,5 t." },
+          { title: "Double essieu", text: "Stabilité et répartition de charge sur les longs trajets." },
+        ] },
+      { title: "Chargement d'engins facilité",
+        body: `Rampes d'encastrement et marche sur les côtés pour charger une mini-pelle ou un mini-chargeur en sécurité. Timon en V extrêmement robuste et roue jockey à pliage automatique.`,
+        features: [
+          { title: "Rampes d'encastrement", text: "Montée des engins en douceur, ressorts d'assistance au relevage." },
+          { title: "Timon en V renforcé", text: "Robustesse et tenue de route, supports stabilisateurs." },
+          { title: "Plancher antidérapant", text: "Contreplaqué imperméable avec clips de sécurisation." },
+        ] },
+    ],
+    specs: [
+      { group: "Capacités", rows: [
+        { label: "PTAC", value: "2 700 kg" },
+        { label: "Charge utile", value: "~2 178 kg" },
+        { label: "Poids à vide", value: "~522 kg" },
+      ]},
+      { group: "Dimensions", rows: [
+        { label: "Longueur plateau", value: "2 600 mm" },
+        { label: "Largeur plateau", value: "1 503 mm" },
+      ]},
+      { group: "Construction", rows: [
+        { label: "Châssis", value: "Acier soudé (profilés fermés)" },
+        { label: "Plateau", value: "Contreplaqué imperméable antidérapant" },
+        { label: "Timon", value: "En V renforcé + roue jockey à pliage automatique" },
+        { label: "Chargement", value: "Rampes d'encastrement" },
+      ]},
+      { group: "Roulement", rows: [
+        { label: "Essieux", value: "Double essieu" },
+        { label: "Pneus", value: "195/50 R13C" },
+        { label: "Entraxe", value: "5 × 112" },
+      ]},
+    ],
+    option: { label: "Roue de secours + support", desc: "Roue 195/50 R13C + support de fixation complet", refs: ["REM-ROUE-195/50", "REM-SUPPORT-ROUE-DE-SECOURS-COMPLET"] },
+    images: [
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-avant.webp",          alt: "Remorque CZN Machinery 2,7 T double essieu, vue avant 3/4" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-face.webp",           alt: "Remorque CZN 2,7 T Builder, vue de face" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere.webp",        alt: "Remorque CZN 2,7 T, vue arrière" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-rampe.webp",          alt: "Remorque CZN 2,7 T avec rampes d'encastrement ouvertes" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere-fermee.webp", alt: "Remorque CZN 2,7 T plateau fermé, vue arrière" },
+    ],
+  },
+
 };

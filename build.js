@@ -26,8 +26,13 @@ function categoryToSlug(category) {
   if (c.includes("pelle")) return "mini-pelles";
   if (c.includes("chargeur")) return "mini-chargeurs";
   if (c.includes("tombereau") || c.includes("dumper")) return "mini-tombereaux";
+  if (c.includes("remorque") || c.includes("trailer")) return "remorques";
   return null;
 }
+/* Composants d'option (roue de secours + support) : présents dans Axonaut (cat. remorques)
+   mais ne doivent PAS générer de carte/fiche — ils servent uniquement au prix de l'option. */
+function isOptionComponent(ref) { return /^REM-(ROUE|SUPPORT)/i.test(ref || ""); }
+let PRICE_BY_REF = {};
 function brandFromName(name) {
   const n = (name || "").toUpperCase();
   if (n.includes("SONCA")) return "Sonca";
@@ -63,29 +68,30 @@ function normalize(p) {
 
 /* ── locales ──
    Tout ce qui dépend de la langue passe par l'objet L. FR = comportement historique. */
-const TYPEMAP_FR = [[/mini\s*-?\s*pelle/i, "Mini-pelle"], [/mini\s*-?\s*chargeur/i, "Mini-chargeur"], [/mini\s*-?\s*tombereau/i, "Mini-tombereau"]];
-const TYPEMAP_EN = [[/mini\s*-?\s*pelle/i, "Mini excavator"], [/mini\s*-?\s*chargeur/i, "Mini loader"], [/mini\s*-?\s*tombereau/i, "Mini dumper"]];
+const TYPEMAP_FR = [[/mini\s*-?\s*pelle/i, "Mini-pelle"], [/mini\s*-?\s*chargeur/i, "Mini-chargeur"], [/mini\s*-?\s*tombereau/i, "Mini-tombereau"], [/remorque/i, "Remorque"]];
+const TYPEMAP_EN = [[/mini\s*-?\s*pelle/i, "Mini excavator"], [/mini\s*-?\s*chargeur/i, "Mini loader"], [/mini\s*-?\s*tombereau/i, "Mini dumper"], [/remorque/i, "Trailer"]];
 
 const LOCALES = {
   fr: {
     lang: "fr", ogLocale: "fr_FR", prefix: "", out: "",
     DATA: DATA_FR, typeMap: TYPEMAP_FR, finance: true,
-    LABELS: { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "accessoires": "Accessoire" },
-    CAT_NAME: { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "accessoires": "Accessoires" },
+    LABELS: { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "remorques": "Remorque", "accessoires": "Accessoire" },
+    CAT_NAME: { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "remorques": "Remorques", "accessoires": "Accessoires" },
     PAGES: [
       { slug: "mini-pelles", file: "mini-pelles/index.html", label: "Mini-pelle", eyebrow: "01 — Terrassement", h1: "Mini-pelles <em>neuves</em>" },
       { slug: "mini-chargeurs", file: "mini-chargeurs/index.html", label: "Mini-chargeur", eyebrow: "02 — Manutention", h1: "Mini-chargeurs <em>neufs</em>" },
       { slug: "mini-tombereaux", file: "mini-tombereaux/index.html", label: "Mini-tombereau", eyebrow: "03 — Transport", h1: "Mini-tombereaux <em>neufs</em>" },
+      { slug: "remorques", file: "remorques/index.html", label: "Remorque", eyebrow: "04 — Transport", h1: "Remorques <em>pro</em>" },
     ],
     ui: {
       home: "Accueil", breadcrumb: "Fil d'Ariane", search: "Recherche", navCta: "Demander un devis",
       logoAria: "CZN Machinery - Accueil", hours: "Showroom Lun–Ven · 9h–12h / 14h–18h",
       open: "Actuellement ouvert", closed: "Actuellement fermé",
       tagFr: "Français", tagEn: "English",
-      navLinks: [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/accessoires/", "Accessoires"], ["/entreprise/", "Entreprise"], ["/guides/", "Guides"], ["/contact/", "Contact"]],
+      navLinks: [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/remorques/", "Remorques"], ["/accessoires/", "Accessoires"], ["/entreprise/", "Entreprise"], ["/guides/", "Guides"], ["/contact/", "Contact"]],
       footTagline: "Engins de chantier importés en direct depuis 2019. Toulouse, France.",
       footCols: [
-        ["Catalogue", [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/accessoires/", "Accessoires"], ["/occasion/", "Occasion"]]],
+        ["Catalogue", [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/remorques/", "Remorques"], ["/accessoires/", "Accessoires"], ["/occasion/", "Occasion"]]],
         ["Acheter", [["/entreprise/financement/", "Financement"], ["/contact/", "Demander un devis"], ["/#livraison", "Livraison France"], ["/#avis", "Avis clients"]]],
         ["Ressources", [["/guides/", "Tous les guides"], ["/guides/comment-choisir-mini-pelle/", "Comment choisir"], ["/guides/prix-mini-pelle/", "Prix mini-pelle"], ["/guides/caces-mini-pelle/", "CACES & permis"]]],
         ["Entreprise", [["/entreprise/", "À propos"], ["/entreprise/financement/", "Financement"], ["/contact/", "Contact"], ["mailto:contact@czn-machinery.com", "contact@czn-machinery.com"], ["tel:+33531605161", "05 31 60 51 61"]]],
@@ -101,7 +107,7 @@ const LOCALES = {
       devisMsg: (name, ref) => `Bonjour, je voudrais un devis pour la ${name}${ref ? ` (réf. ${ref})` : ""}. Merci de me recontacter.`,
       introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} importée en direct par CZN Machinery. Garantie 2 ans, livraison dans toute la France.`,
       continueVisit: "Continuer la visite", exploreRange: "Explorez le reste de <em>la gamme</em>.",
-      photoSoon: "Photo à venir", visualsSoon: "Visuels à venir",
+      photoSoon: "Photo à venir", visualsSoon: "Visuels à venir", optionTitle: "Option à ajouter",
       finMonthlyLine: (m) => `ou à partir de <strong>${m} €</strong> / mois<sup>*</sup>`,
       finBtn: "Simuler mon financement",
       finNote: (months, rate) => `* Estimation indicative sur ${months} mois, TAEG fixe ${rate} %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.`,
@@ -110,22 +116,23 @@ const LOCALES = {
   en: {
     lang: "en", ogLocale: "en_GB", prefix: "/en", out: "en",
     DATA: DATA_EN, typeMap: TYPEMAP_EN, finance: false,
-    LABELS: { "mini-pelles": "Mini excavator", "mini-chargeurs": "Mini loader", "mini-tombereaux": "Mini dumper", "accessoires": "Attachment" },
-    CAT_NAME: { "mini-pelles": "Mini excavators", "mini-chargeurs": "Mini loaders", "mini-tombereaux": "Mini dumpers", "accessoires": "Attachments" },
+    LABELS: { "mini-pelles": "Mini excavator", "mini-chargeurs": "Mini loader", "mini-tombereaux": "Mini dumper", "remorques": "Trailer", "accessoires": "Attachment" },
+    CAT_NAME: { "mini-pelles": "Mini excavators", "mini-chargeurs": "Mini loaders", "mini-tombereaux": "Mini dumpers", "remorques": "Trailers", "accessoires": "Attachments" },
     PAGES: [
       { slug: "mini-pelles", file: "en/mini-pelles/index.html", label: "Mini excavator", eyebrow: "01 — Earthworks", h1: "New <em>mini excavators</em>" },
       { slug: "mini-chargeurs", file: "en/mini-chargeurs/index.html", label: "Mini loader", eyebrow: "02 — Handling", h1: "New <em>mini loaders</em>" },
       { slug: "mini-tombereaux", file: "en/mini-tombereaux/index.html", label: "Mini dumper", eyebrow: "03 — Transport", h1: "New <em>mini dumpers</em>" },
+      { slug: "remorques", file: "en/remorques/index.html", label: "Trailer", eyebrow: "04 — Transport", h1: "Pro <em>trailers</em>" },
     ],
     ui: {
       home: "Home", breadcrumb: "Breadcrumb", search: "Search", navCta: "Request a quote",
       logoAria: "CZN Machinery - Home", hours: "Showroom Mon–Fri · 9am–12pm / 2pm–6pm",
       open: "Currently open", closed: "Currently closed",
       tagFr: "Français", tagEn: "English",
-      navLinks: [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/accessoires/", "Attachments"], ["/en/entreprise/", "Company"], ["/en/guides/", "Guides"], ["/en/contact/", "Contact"]],
+      navLinks: [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/remorques/", "Trailers"], ["/en/accessoires/", "Attachments"], ["/en/entreprise/", "Company"], ["/en/guides/", "Guides"], ["/en/contact/", "Contact"]],
       footTagline: "Construction machines imported directly since 2019. Toulouse, France.",
       footCols: [
-        ["Catalogue", [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/accessoires/", "Attachments"], ["/en/occasion/", "Used"]]],
+        ["Catalogue", [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/remorques/", "Trailers"], ["/en/accessoires/", "Attachments"], ["/en/occasion/", "Used"]]],
         ["Buy", [["/en/entreprise/financement/", "Financing"], ["/en/contact/", "Request a quote"], ["/en/#livraison", "Delivery in France"], ["/en/#avis", "Customer reviews"]]],
         ["Resources", [["/en/guides/", "All guides"], ["/en/guides/comment-choisir-mini-pelle/", "How to choose"], ["/en/guides/prix-mini-pelle/", "Mini excavator prices"], ["/en/guides/caces-mini-pelle/", "CACES & licences"]]],
         ["Company", [["/en/entreprise/", "About"], ["/en/entreprise/financement/", "Financing"], ["/en/contact/", "Contact"], ["mailto:contact@czn-machinery.com", "contact@czn-machinery.com"], ["tel:+33531605161", "05 31 60 51 61"]]],
@@ -141,7 +148,7 @@ const LOCALES = {
       devisMsg: (name, ref) => `Hello, I would like a quote for the ${name}${ref ? ` (ref. ${ref})` : ""}. Please get back to me.`,
       introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} imported directly by CZN Machinery. 2-year warranty, delivery across France.`,
       continueVisit: "Continue the tour", exploreRange: "Explore the rest of <em>the range</em>.",
-      photoSoon: "Photo coming soon", visualsSoon: "Photos coming soon",
+      photoSoon: "Photo coming soon", visualsSoon: "Photos coming soon", optionTitle: "Optional add-on",
     },
   },
 };
@@ -388,8 +395,31 @@ function productPageHTML(p, L) {
   const intro = d.intro || d.description || L.ui.introDefault(name, label, p.brand);
   const stockBadge = p.inStock ? `<span class="pdp-stock in">${L.ui.inStock}</span>` : `<span class="pdp-stock pre">${L.ui.onOrder}</span>`;
   const priceHTML = (p.priceHT && p.priceHT > 0)
-    ? `<div class="pdp-price"><span class="pdp-price-val">${euro(p.priceHT)} €</span><span class="pdp-price-ht">${L.ui.ht}</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">${L.ui.ttcWord(euro(p.priceTTC))}</div>` : ""}`
+    ? `<div class="pdp-price"><span class="pdp-price-val" id="pdpPrice">${euro(p.priceHT)} €</span><span class="pdp-price-ht">${L.ui.ht}</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">${L.ui.ttcWord(euro(p.priceTTC))}</div>` : ""}`
     : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">${L.ui.onQuote}</span></div>`;
+  /* Option configurable (ex. roue de secours + support) — prix = somme des composants Axonaut */
+  const optRefs = (d.option && Array.isArray(d.option.refs)) ? d.option.refs : [];
+  const optPrice = optRefs.reduce((s, r) => s + (PRICE_BY_REF[r] || 0), 0);
+  const hasOption = !!(d.option && optPrice > 0 && p.priceHT > 0);
+  const optionBlock = hasOption ? `
+      <div class="pdp-option" data-base="${p.priceHT}" data-opt="${optPrice}">
+        <div class="pdp-option-head">${L.ui.optionTitle}</div>
+        <label class="pdp-option-row">
+          <input type="checkbox" class="pdp-option-check" id="pdpOptCheck">
+          <span class="pdp-option-main"><span class="pdp-option-name">${esc(d.option.label)}</span>${d.option.desc ? `<span class="pdp-option-desc">${esc(d.option.desc)}</span>` : ""}</span>
+          <span class="pdp-option-price">+&thinsp;${euro(optPrice)} €</span>
+        </label>
+      </div>` : "";
+  const optionCss = hasOption ? `
+  .pdp-option{margin-top:22px;border:1px solid rgba(33,42,53,.14);border-radius:14px;background:var(--cream-2,#faf6ec);overflow:hidden;}
+  .pdp-option-head{font-family:var(--f-mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);padding:13px 16px 0;}
+  .pdp-option-row{display:flex;align-items:center;gap:14px;padding:12px 16px;cursor:pointer;margin:0;}
+  .pdp-option-check{width:20px;height:20px;accent-color:var(--orange);cursor:pointer;flex-shrink:0;}
+  .pdp-option-main{display:flex;flex-direction:column;flex:1;}
+  .pdp-option-name{font-weight:600;color:var(--ink);font-size:15px;}
+  .pdp-option-desc{font-size:13px;color:var(--muted);margin-top:2px;}
+  .pdp-option-price{font-family:var(--f-display);font-weight:600;color:var(--orange);white-space:nowrap;}` : "";
+  const optionScript = hasOption ? `(function(){var o=document.querySelector('.pdp-option');if(!o)return;var base=parseFloat(o.dataset.base)||0,add=parseFloat(o.dataset.opt)||0;var c=document.getElementById('pdpOptCheck'),v=document.getElementById('pdpPrice');function f(n){return String(Math.round(n)).replace(/\\B(?=(\\d{3})+(?!\\d))/g,'\\u2009');}function u(){if(v)v.textContent=f(base+(c.checked?add:0))+' \\u20ac';}c.addEventListener('change',u);})();` : "";
   const metaDesc = intro.slice(0, 158);
   const devisUrl = L.prefix + "/contact/?topic=devis&msg=" + encodeURIComponent(L.ui.devisMsg(name, p.reference));
   const frUrl = altSlugUrl(p.reference, ""), enUrl = altSlugUrl(p.reference, "/en");
@@ -470,6 +500,7 @@ ${HEAD_FONTS}
   .pdp-cta-band p{color:rgba(244,239,228,.7);margin-bottom:24px;}
   @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
 ${finCss}
+${optionCss}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -502,6 +533,7 @@ ${nav(L)}
       ${stockBadge}
       ${priceHTML}
       ${finBlock}
+      ${optionBlock}
       ${statsHTML(d)}
       <div class="pdp-actions">
         <a href="${devisUrl}" class="btn btn-primary">${L.ui.requestQuote} <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
@@ -527,6 +559,7 @@ ${footer(L)}
 <script>
 (function(){var main=document.getElementById('pdpMain');var th=Array.prototype.slice.call(document.querySelectorAll('.pdp-thumb'));if(!main||!th.length)return;var i=0;function show(n){i=(n+th.length)%th.length;main.src=th[i].dataset.src;th.forEach(function(x,k){x.classList.toggle('active',k===i);});}th.forEach(function(b,k){b.addEventListener('click',function(){show(k);});});var prev=document.querySelector('.pdp-prev');var next=document.querySelector('.pdp-next');if(prev)prev.addEventListener('click',function(){show(i-1);});if(next)next.addEventListener('click',function(){show(i+1);});})();
 ${finScript}
+${optionScript}
 </script>
   <script src="/rdv-modal.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
@@ -617,7 +650,7 @@ ${footer(L)}
 
 function generateCatalog(all, L) {
   for (const page of L.PAGES) {
-    const list = all.filter((p) => p.pageSlug === page.slug).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
+    const list = all.filter((p) => p.pageSlug === page.slug && !isOptionComponent(p.reference)).sort((a, b) => (a.priceHT || 0) - (b.priceHT || 0));
     const file = path.join(process.cwd(), page.file);
     let html;
     if (fs.existsSync(file) && fs.readFileSync(file, "utf8").includes("<!-- PRODUCTS:START -->")) {
@@ -638,6 +671,7 @@ function generateCatalog(all, L) {
 }
 function generateProductPages(all, L) {
   for (const p of all) {
+    if (isOptionComponent(p.reference)) continue;   // composants d'option : pas de fiche
     const dir = path.join(process.cwd(), L.out, "produit", p.reference);
     fs.mkdirSync(dir, { recursive: true });
     fs.writeFileSync(path.join(dir, "index.html"), productPageHTML(p, L));
@@ -664,6 +698,8 @@ async function main() {
     console.error("❌ AXONAUT_API_KEY manquante et aucun cache (.axonaut-cache.json).");
     process.exit(1);
   }
+  PRICE_BY_REF = {};
+  all.forEach((p) => { PRICE_BY_REF[p.reference] = p.priceHT || 0; });
   for (const L of [LOCALES.fr, LOCALES.en]) {
     generateCatalog(all, L);
     generateProductPages(all, L);

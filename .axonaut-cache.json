@@ -154,5 +154,83 @@
     "inStock": false,
     "image": null,
     "disabled": false
+  },
+  {
+    "id": "REM-1.5T",
+    "name": "REMORQUE 1.5T",
+    "reference": "REM-1.5T",
+    "brand": null,
+    "pageSlug": "remorques",
+    "priceHT": 2490,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": "REM-2.7T",
+    "name": "REMORQUE 2.7T",
+    "reference": "REM-2.7T",
+    "brand": null,
+    "pageSlug": "remorques",
+    "priceHT": 3490,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": "REM-ROUE-185-R14C",
+    "name": "ROUE REMORQUE 185 R14C",
+    "reference": "REM-ROUE-185-R14C",
+    "brand": null,
+    "pageSlug": "remorques",
+    "priceHT": 190,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": "REM-ROUE-195/50",
+    "name": "ROUE REMORQUE 195/50",
+    "reference": "REM-ROUE-195/50",
+    "brand": null,
+    "pageSlug": "remorques",
+    "priceHT": 186,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": "REM-SUPPORT-ROUE-DE-SECOURS-COMPLET",
+    "name": "SUPPORT ROUE DE SECOURS COMPLET",
+    "reference": "REM-SUPPORT-ROUE-DE-SECOURS-COMPLET",
+    "brand": null,
+    "pageSlug": "remorques",
+    "priceHT": 52,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": "REM-SUPPORT-ROUE-DE-SECOURS-UNIVERSEL-COMPLET",
+    "name": "SUPPORT ROUE DE SECOURS UNIVERSEL COMPLET",
+    "reference": "REM-SUPPORT-ROUE-DE-SECOURS-UNIVERSEL-COMPLET",
+    "brand": null,
+    "pageSlug": "remorques",
+    "priceHT": 52,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
   }
 ]

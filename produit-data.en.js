@@ -854,4 +854,114 @@ module.exports = {
     ],
   },
 
+  // ───────────────────────── TRAILER 1.5T (Temared MultiTransporter 3318 C) ─────────────────────────
+  "REM-1.5T": {
+    tagline: `Tilting flatbed trailer, 1.5 t, for machines and materials.`,
+    intro: `The CZN 1.5 t trailer (Temared MultiTransporter 3318 C) is a versatile flatbed trailer for transporting compact machines, motorcycles, quads and materials. Anti-slip plywood deck of 3.30 × 1.84 m, bolted galvanised-steel chassis and a tilting system for easy loading. 1,500 kg gross weight — ideal for moving a micro excavator or a mini loader. Imported and warranted by CZN Machinery, delivery across France.`,
+    stats: [
+      { value: "1,500 kg", label: "Gross weight" },
+      { value: "1,160 kg", label: "Payload" },
+      { value: "3.30 × 1.84 m", label: "Deck" },
+      { value: "340 kg", label: "Unladen weight" },
+    ],
+    sections: [
+      { title: "Tilting deck, easy loading",
+        body: `The tilting system lowers the deck so you can load a machine without an external ramp. The waterproof, anti-slip plywood floor of 3.30 m × 1.84 m takes mini excavators, motorcycles, quads and site equipment.`,
+        features: [
+          { title: "Deck 3.30 × 1.84 m", text: "Generous surface for compact machines and equipment." },
+          { title: "Anti-slip plywood", text: "Waterproof, sturdy floor that is safe for lashing down loads." },
+          { title: "Built-in tilt", text: "The deck tilts for loading without an extra ramp." },
+        ] },
+      { title: "Galvanised chassis, built to last",
+        body: `Chassis made of bolted galvanised-steel sections: corrosion resistance and long life, even with intensive use and in all weathers.`,
+        features: [
+          { title: "Galvanised steel", text: "Anti-corrosion protection for a longer service life." },
+          { title: "Bolted construction", text: "Simpler maintenance and parts replacement." },
+          { title: "1,500 kg gross weight", text: "Towable with a suitable vehicle and licence." },
+        ] },
+    ],
+    specs: [
+      { group: "Capacities", rows: [
+        { label: "Gross weight", value: "1,500 kg" },
+        { label: "Payload", value: "~1,160 kg" },
+        { label: "Unladen weight", value: "~340 kg" },
+      ]},
+      { group: "Dimensions", rows: [
+        { label: "Deck length", value: "3,300 mm" },
+        { label: "Deck width", value: "1,840 mm" },
+      ]},
+      { group: "Construction", rows: [
+        { label: "Chassis", value: "Bolted galvanised steel" },
+        { label: "Deck", value: "Waterproof anti-slip plywood" },
+        { label: "Type", value: "Tilting" },
+      ]},
+      { group: "Running gear", rows: [
+        { label: "Tyres", value: "185 R14C" },
+      ]},
+    ],
+    option: { label: "Spare wheel + bracket", desc: "185 R14C wheel + complete mounting bracket", refs: ["REM-ROUE-185-R14C", "REM-SUPPORT-ROUE-DE-SECOURS-COMPLET"] },
+    images: [
+      { src: "/images/remorques/REM-1.5T/remorque-1-5t-avant.webp",   alt: "CZN Machinery 1.5 t tilting trailer, front three-quarter view" },
+      { src: "/images/remorques/REM-1.5T/remorque-1-5t-arriere.webp", alt: "CZN 1.5 t MultiTransporter trailer, rear view" },
+    ],
+  },
+
+  // ───────────────────────── TRAILER 2.7T (Temared Builder 3 2615/2 S) ─────────────────────────
+  "REM-2.7T": {
+    tagline: `Twin-axle 2.7 t trailer for machines and heavy loads.`,
+    intro: `The CZN 2.7 t trailer (Temared Builder 3 2615/2 S) is a heavy-duty welded-chassis trailer for transporting mini excavators, mini loaders and heavy materials. Anti-slip plywood deck of 2.60 × 1.50 m, reinforced V-drawbar, self-folding jockey wheel and load ramps for machine loading. 2,700 kg gross weight, twin axle. Imported and warranted by CZN Machinery, delivery across France.`,
+    stats: [
+      { value: "2,700 kg", label: "Gross weight" },
+      { value: "2,178 kg", label: "Payload" },
+      { value: "2.60 × 1.50 m", label: "Deck" },
+      { value: "Twin axle", label: "Configuration" },
+    ],
+    sections: [
+      { title: "Built for heavy loads",
+        body: `Welded load-bearing chassis made of closed steel profiles: the trailer handles the transport of compact machines and very heavy materials, up to a 2.7-tonne gross weight.`,
+        features: [
+          { title: "Welded chassis", text: "Closed steel profiles for maximum rigidity." },
+          { title: "Payload ~2,178 kg", text: "Enough to carry a 2 to 2.5 t mini excavator." },
+          { title: "Twin axle", text: "Stability and load distribution over long journeys." },
+        ] },
+      { title: "Easy machine loading",
+        body: `Load ramps and side steps to load a mini excavator or mini loader safely. Extremely robust V-drawbar and self-folding jockey wheel.`,
+        features: [
+          { title: "Load ramps", text: "Smooth machine loading, springs assist with raising." },
+          { title: "Reinforced V-drawbar", text: "Strength and road holding, with stabiliser supports." },
+          { title: "Anti-slip floor", text: "Waterproof plywood with securing clips." },
+        ] },
+    ],
+    specs: [
+      { group: "Capacities", rows: [
+        { label: "Gross weight", value: "2,700 kg" },
+        { label: "Payload", value: "~2,178 kg" },
+        { label: "Unladen weight", value: "~522 kg" },
+      ]},
+      { group: "Dimensions", rows: [
+        { label: "Deck length", value: "2,600 mm" },
+        { label: "Deck width", value: "1,503 mm" },
+      ]},
+      { group: "Construction", rows: [
+        { label: "Chassis", value: "Welded steel (closed profiles)" },
+        { label: "Deck", value: "Waterproof anti-slip plywood" },
+        { label: "Drawbar", value: "Reinforced V + self-folding jockey wheel" },
+        { label: "Loading", value: "Load ramps" },
+      ]},
+      { group: "Running gear", rows: [
+        { label: "Axles", value: "Twin axle" },
+        { label: "Tyres", value: "195/50 R13C" },
+        { label: "PCD", value: "5 × 112" },
+      ]},
+    ],
+    option: { label: "Spare wheel + bracket", desc: "195/50 R13C wheel + complete mounting bracket", refs: ["REM-ROUE-195/50", "REM-SUPPORT-ROUE-DE-SECOURS-COMPLET"] },
+    images: [
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-avant.webp",          alt: "CZN Machinery 2.7 t twin-axle trailer, front three-quarter view" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-face.webp",           alt: "CZN 2.7 t Builder trailer, front view" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere.webp",        alt: "CZN 2.7 t trailer, rear view" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-rampe.webp",          alt: "CZN 2.7 t trailer with load ramps open" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere-fermee.webp", alt: "CZN 2.7 t trailer, deck closed, rear view" },
+    ],
+  },
+
 };
