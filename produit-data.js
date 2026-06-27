@@ -1021,8 +1021,8 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-avant-droite.webp",   alt: "Mini-pelle Xcavator XC13P 1,15 t, vue trois-quarts avant droite, bras déporté" },
-      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-profil-bras-deporte-deploye.webp", alt: "Mini-pelle Xcavator XC13P, profil avec bras déporté déployé et godet" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-profil-bras-deporte-deploye.webp", alt: "Mini-pelle Xcavator XC13P 1,15 t, vue latérale bras déporté déployé, godet à droite" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-avant-droite.webp",   alt: "Mini-pelle Xcavator XC13P, vue trois-quarts avant droite, bras déporté" },
       { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-arriere-droite.webp", alt: "Mini-pelle Xcavator XC13P, vue trois-quarts arrière droite sur chenilles caoutchouc" },
       { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-vue-arriere-trois-quarts.webp",    alt: "Mini-pelle Xcavator XC13P, vue arrière trois-quarts, bras replié" },
       { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-poste-conduite-toit-rops.webp",    alt: "Mini-pelle Xcavator XC13P, poste de conduite ouvert et toit de protection 4 montants ROPS" },
@@ -1087,8 +1087,8 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-avant-droite.webp",   alt: "Mini-pelle Xcavator XC15P 1,25 t, vue trois-quarts avant droite" },
-      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-profil-bras-deporte-deploye.webp", alt: "Mini-pelle Xcavator XC15P, profil avec bras déporté déployé" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-profil-bras-deporte-deploye.webp", alt: "Mini-pelle Xcavator XC15P 1,25 t, vue latérale bras déporté déployé, godet à droite" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-avant-droite.webp",   alt: "Mini-pelle Xcavator XC15P, vue trois-quarts avant droite" },
       { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-arriere-droite.webp", alt: "Mini-pelle Xcavator XC15P, vue trois-quarts arrière droite" },
       { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-vue-arriere-trois-quarts.webp",    alt: "Mini-pelle Xcavator XC15P, vue arrière trois-quarts, bras replié" },
       { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-poste-conduite-toit-rops.webp",    alt: "Mini-pelle Xcavator XC15P, poste de conduite et toit 4 montants ROPS" },
@@ -1155,8 +1155,8 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-avant-droite.webp",  alt: "Mini-pelle Xcavator XC17 PRO V2 1,45 t, vue trois-quarts avant droite, bras déployé" },
-      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-gauche-bras-deploye.webp", alt: "Mini-pelle Xcavator XC17 PRO V2, profil gauche avec bras déployé et godet au sol" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-godet-droite.webp",        alt: "Mini-pelle Xcavator XC17 PRO V2 1,45 t, vue latérale bras déployé, godet à droite" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-avant-droite.webp",  alt: "Mini-pelle Xcavator XC17 PRO V2, vue trois-quarts avant droite, bras déployé" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-droit-gyrophare.webp",     alt: "Mini-pelle Xcavator XC17 PRO V2, profil droit avec gyrophare et toit ROPS" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-arriere-gauche.webp",alt: "Mini-pelle Xcavator XC17 PRO V2, vue trois-quarts arrière gauche" },
       { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-poste-conduite-toit-rops.webp",   alt: "Mini-pelle Xcavator XC17 PRO V2, poste de conduite et toit de protection 4 montants ROPS" },
