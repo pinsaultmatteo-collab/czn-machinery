@@ -964,4 +964,271 @@ module.exports = {
     ],
   },
 
+  // ───────────────────────── XCAVATOR XC13P (1,15 t) ─────────────────────────
+  "XMPXC13P": {
+    tagline: `Mini-pelle 1,15 t à bras déporté — l'essentiel performant, transportable en permis B.`,
+    intro: `La mini-pelle Xcavator XC13P est la mini-pelle 1,15 tonne d'entrée de gamme idéale pour les particuliers et les artisans. Avec son poids à vide de seulement 1 150 kg, elle se transporte sur une remorque standard avec un véhicule de permis B. Son bras déporté (swing boom) de série permet de creuser le long des murs et des clôtures sans déplacer la machine. Motorisation Koop 192F mono-cylindre Euro 5, commande hydraulique au joystick (pilot) et toit de protection 4 montants (ROPS). Importée en direct par CZN Machinery : garantie constructeur 2 ans, livraison dans toute la France.`,
+    stats: [
+      { value: "1 150 kg", label: "Poids à vide" },
+      { value: "Koop 192F", label: "Moteur Euro 5" },
+      { value: "Bras déporté", label: "Swing boom de série" },
+      { value: "40 cm", label: "Godet standard" },
+    ],
+    sections: [
+      { title: "Compacte et transportable en permis B",
+        body: `Avec 1 150 kg sur la balance, la XC13P se charge sur une remorque classique tractée par un véhicule de permis B : aucun convoi spécial, aucun poids lourd. Ses chenilles caoutchouc ménagent les sols fragiles (pelouses, dallages) tout en assurant l'adhérence sur terrain meuble. La machine idéale pour les accès étroits, les jardins clos et les chantiers de rénovation.`,
+        features: [
+          { title: "Transport facile", text: "1 150 kg : remorque standard + permis B suffisent. Chargement par rampes, pas de logistique lourde." },
+          { title: "Chenilles caoutchouc", text: "Bonne accroche sur terrain meuble sans abîmer pelouses, terrasses et surfaces délicates." },
+          { title: "Toit 4 montants (ROPS)", text: "Structure de protection au retournement homologuée, pour travailler en sécurité." },
+        ] },
+      { title: "Bras déporté et hydraulique prête à travailler",
+        body: `Le bras déporté (swing boom) pivote pour creuser au plus près des murs, fondations et clôtures sans repositionner la machine. La commande hydraulique au joystick (pilot) offre des mouvements doux et précis. Le moteur de rotation renforcé apporte un couple supérieur pour les travaux les plus exigeants, et le pouce hydraulique (grappin de tri) est livré de série.`,
+        features: [
+          { title: "Swing boom de série", text: "Creusez le long des murs et en limite de propriété sans déplacer l'engin." },
+          { title: "Pouce hydraulique inclus", text: "Grappin de tri livré de série pour manipuler pierres, souches et gravats." },
+          { title: "Pack sécurité complet", text: "Arrêt d'urgence, siège à contacteur de présence, rétroviseur et alarme de recul de série." },
+        ] },
+      { title: "Pour les particuliers comme les pros",
+        body: `Terrassement léger, tranchées, aménagement paysager, fondations de murets, plantation : la XC13P abat le travail manuel pénible à un prix d'entrée de gamme. Garantie 2 ans, SAV et stock de pièces en France. Délai indicatif de livraison : 20 à 25 jours.`,
+        features: [
+          { title: "Polyvalente", text: "Idéale pour le jardin, la rénovation et les petits chantiers de terrassement." },
+          { title: "Garantie 2 ans", text: "Garantie constructeur 24 mois, pièces détachées et SAV basés en France." },
+          { title: "Accessoires en option", text: "Attache rapide semi-automatique, godets dédiés (20 cm à dents, 100 cm de curage) disponibles en supplément." },
+        ] },
+    ],
+    specs: [
+      { group: "Caractéristiques générales", rows: [
+        { label: "Poids à vide", value: "1 150 kg" },
+        { label: "Godet standard", value: "40 cm" },
+        { label: "Train de roulement", value: "Chenilles caoutchouc" },
+        { label: "Protection", value: "Toit 4 montants (ROPS)" },
+        { label: "Délai indicatif", value: "20 à 25 jours" },
+      ]},
+      { group: "Motorisation & commande", rows: [
+        { label: "Moteur", value: "Koop 192F – mono-cylindre" },
+        { label: "Norme antipollution", value: "Euro 5" },
+        { label: "Commande", value: "Hydraulique (joystick pilot)" },
+        { label: "Bras", value: "Déporté (swing boom)" },
+        { label: "Moteur de translation", value: "Caché – simple vitesse" },
+      ]},
+      { group: "Équipements inclus", rows: [
+        { label: "Vérin sur le dessus du bras", value: "Oui" },
+        { label: "Moteur de rotation", value: "Renforcé (couple supérieur)" },
+        { label: "Pouce hydraulique", value: "Grappin de tri (de série)" },
+        { label: "Sécurité", value: "Pack échappement / arrêt d'urgence" },
+        { label: "Confort & sécurité", value: "Siège à contacteur de présence, rétroviseur, alarme de recul" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-avant-droite.webp",   alt: "Mini-pelle Xcavator XC13P 1,15 t, vue trois-quarts avant droite, bras déporté" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-profil-bras-deporte-deploye.webp", alt: "Mini-pelle Xcavator XC13P, profil avec bras déporté déployé et godet" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-arriere-droite.webp", alt: "Mini-pelle Xcavator XC13P, vue trois-quarts arrière droite sur chenilles caoutchouc" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-vue-arriere-trois-quarts.webp",    alt: "Mini-pelle Xcavator XC13P, vue arrière trois-quarts, bras replié" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-poste-conduite-toit-rops.webp",    alt: "Mini-pelle Xcavator XC13P, poste de conduite ouvert et toit de protection 4 montants ROPS" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-vue-avant-bras-releve.webp",       alt: "Mini-pelle Xcavator XC13P, vue de face bras relevé, godet 40 cm" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC15P (1,25 t) ─────────────────────────
+  "XMPXC15P": {
+    tagline: `Mini-pelle 1,25 t bi-cylindre — la polyvalence chantier.`,
+    intro: `La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B bi-cylindre Euro 5 offre un surcroît de couple et de souplesse, tandis que ses chenilles 230 × 72 × 44 et sa largeur de 1 160 mm assurent stabilité et passage dans la plupart des accès. Bras déporté (swing boom) de série, commande hydraulique au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
+    stats: [
+      { value: "1 250 kg", label: "Poids à vide" },
+      { value: "Bi-cylindre", label: "Laidong KM385B Euro 5" },
+      { value: "1 160 mm", label: "Largeur machine" },
+      { value: "Bras déporté", label: "Swing boom de série" },
+    ],
+    sections: [
+      { title: "Moteur bi-cylindre, plus de couple",
+        body: `Le moteur Laidong KM385B bi-cylindre Euro 5 apporte davantage de couple et de douceur que les motorisations mono-cylindre de la classe inférieure. Résultat : des mouvements plus fluides, une meilleure tenue en charge et un confort de travail supérieur sur les longues journées de chantier.`,
+        features: [
+          { title: "Laidong KM385B", text: "Bi-cylindre Euro 5 : couple généreux et fonctionnement plus souple qu'un mono-cylindre." },
+          { title: "Chenilles 230 × 72 × 44", text: "Largeur de semelle généreuse pour une bonne stabilité et une faible pression au sol." },
+          { title: "Commande joystick pilot", text: "Pilotage hydraulique précis du bras, du balancier et du godet." },
+        ] },
+      { title: "Compacte mais stable",
+        body: `Avec 1 160 mm de largeur, la XC15P passe la plupart des accès tout en offrant une assise stable. Le bras déporté (swing boom) permet de creuser en limite de mur ou de clôture. Le pouce hydraulique (grappin de tri) est livré de série pour le tri et la manutention.`,
+        features: [
+          { title: "Largeur 1 160 mm", text: "Compromis idéal entre stabilité au travail et passage dans les accès de chantier." },
+          { title: "Swing boom de série", text: "Excavation au plus près des obstacles sans repositionner la machine." },
+          { title: "Pouce hydraulique inclus", text: "Grappin de tri de série pour pierres, souches et gravats." },
+        ] },
+      { title: "Équipée et garantie",
+        body: `Vérin sur le dessus du bras, moteur de translation caché, pack échappement et arrêt d'urgence, siège à contacteur de présence, rétroviseur et alarme de recul : la XC15P est livrée prête à travailler. Garantie constructeur 2 ans, SAV et pièces en France. Délai indicatif de livraison : environ 30 jours.`,
+        features: [
+          { title: "Prête à l'emploi", text: "Équipements de sécurité et de confort de série, godet 40 cm inclus." },
+          { title: "Garantie 2 ans", text: "Garantie 24 mois, pièces détachées et SAV basés en France." },
+          { title: "Accessoires en option", text: "Attache rapide semi-automatique, godets 20 cm à dents et 120 cm de curage disponibles en supplément." },
+        ] },
+    ],
+    specs: [
+      { group: "Caractéristiques générales", rows: [
+        { label: "Poids à vide", value: "1 250 kg" },
+        { label: "Largeur machine", value: "1 160 mm" },
+        { label: "Godet standard", value: "40 cm" },
+        { label: "Chenilles", value: "230 × 72 × 44" },
+        { label: "Protection", value: "Toit 4 montants (ROPS)" },
+        { label: "Délai indicatif", value: "≈ 30 jours" },
+      ]},
+      { group: "Motorisation & commande", rows: [
+        { label: "Moteur", value: "Laidong KM385B – bi-cylindre" },
+        { label: "Norme antipollution", value: "Euro 5" },
+        { label: "Commande", value: "Hydraulique (joystick pilot)" },
+        { label: "Bras", value: "Déporté (swing boom)" },
+        { label: "Moteur de translation", value: "Caché – simple vitesse" },
+      ]},
+      { group: "Équipements inclus", rows: [
+        { label: "Vérin sur le dessus du bras", value: "Oui" },
+        { label: "Pouce hydraulique", value: "Grappin de tri (de série)" },
+        { label: "Sécurité", value: "Pack échappement / arrêt d'urgence" },
+        { label: "Confort & sécurité", value: "Siège à contacteur de présence, rétroviseur, alarme de recul" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-avant-droite.webp",   alt: "Mini-pelle Xcavator XC15P 1,25 t, vue trois-quarts avant droite" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-profil-bras-deporte-deploye.webp", alt: "Mini-pelle Xcavator XC15P, profil avec bras déporté déployé" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-arriere-droite.webp", alt: "Mini-pelle Xcavator XC15P, vue trois-quarts arrière droite" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-vue-arriere-trois-quarts.webp",    alt: "Mini-pelle Xcavator XC15P, vue arrière trois-quarts, bras replié" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-poste-conduite-toit-rops.webp",    alt: "Mini-pelle Xcavator XC15P, poste de conduite et toit 4 montants ROPS" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-vue-avant-bras-releve.webp",       alt: "Mini-pelle Xcavator XC15P, vue de face bras relevé" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC17 PRO V2 (1,45 t) ─────────────────────────
+  "XMPXC17PROV2": {
+    tagline: `Mini-pelle 1,45 t PRO — voie variable et 2 vitesses de translation.`,
+    intro: `La mini-pelle Xcavator XC17 PRO V2 est la version PRO de 1,45 tonne, dotée d'un train de roulement à voie variable (90 à 120 cm) et d'une translation à 2 vitesses. La voie se rétracte pour passer les accès étroits, puis s'élargit pour une stabilité maximale au travail. Hydraulique avancée (3ᵉ circuit / hydraulic advance) pour piloter les accessoires, moteur Laidong KM385B bi-cylindre Euro 5, commande au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
+    stats: [
+      { value: "1 450 kg", label: "Poids à vide" },
+      { value: "90–120 cm", label: "Voie variable" },
+      { value: "2 vitesses", label: "Translation" },
+      { value: "3ᵉ circuit", label: "Hydraulique avancée" },
+    ],
+    sections: [
+      { title: "Voie variable : étroite pour passer, large pour travailler",
+        body: `Le train de roulement à voie variable se rétracte à 90 cm pour franchir les portails et les accès les plus serrés, puis s'élargit jusqu'à 120 cm pour offrir une stabilité maximale lors du terrassement. Un avantage décisif sur les chantiers en milieu contraint où l'accès et la stabilité semblent incompatibles.`,
+        features: [
+          { title: "Châssis 90–120 cm", text: "Passe les accès étroits replié, travaille en grande stabilité une fois élargi." },
+          { title: "Translation 2 vitesses", text: "Vitesse lente pour la précision, vitesse rapide pour les déplacements sur le chantier." },
+          { title: "Moteur de translation caché", text: "Mécanisme protégé des chocs et des projections pour une meilleure longévité." },
+        ] },
+      { title: "Hydraulique avancée et bras déporté",
+        body: `La XC17 PRO V2 reçoit un 3ᵉ circuit hydraulique (hydraulic advance) pour alimenter les accessoires hydrauliques (pouce, tarière, etc.). Le pouce hydraulique (grappin de tri) est livré de série, et le vérin sur le dessus du bras renforce la précision et la force de cavage.`,
+        features: [
+          { title: "3ᵉ circuit hydraulique", text: "Alimente les accessoires hydrauliques : pouce, tarière, brise-roche léger…" },
+          { title: "Pouce hydraulique inclus", text: "Grappin de tri de série pour le tri et la manutention." },
+          { title: "Vérin sur le dessus du bras", text: "Meilleure visibilité sur le godet et géométrie de cavage optimisée." },
+        ] },
+      { title: "PRO, équipée et garantie",
+        body: `Pack échappement et arrêt d'urgence, siège à contacteur de présence, rétroviseur et alarme de recul : la XC17 PRO V2 est livrée complète. Garantie constructeur 2 ans, SAV et pièces détachées en France. Délai indicatif de livraison : environ 30 jours.`,
+        features: [
+          { title: "Version PRO", text: "Voie variable, 2 vitesses et hydraulique avancée pour les utilisateurs exigeants." },
+          { title: "Garantie 2 ans", text: "Garantie 24 mois, pièces et SAV basés en France." },
+          { title: "Accessoires en option", text: "Attache rapide semi-automatique, godets 20 cm à dents et 120 cm de curage en supplément." },
+        ] },
+    ],
+    specs: [
+      { group: "Caractéristiques générales", rows: [
+        { label: "Poids à vide", value: "1 450 kg" },
+        { label: "Largeur machine", value: "1 160 mm" },
+        { label: "Voie variable", value: "90 – 120 cm" },
+        { label: "Godet standard", value: "40 cm" },
+        { label: "Chenilles", value: "230 × 72 × 44" },
+        { label: "Protection", value: "Toit 4 montants (ROPS)" },
+        { label: "Délai indicatif", value: "≈ 30 jours" },
+      ]},
+      { group: "Motorisation & commande", rows: [
+        { label: "Moteur", value: "Laidong KM385B – bi-cylindre" },
+        { label: "Norme antipollution", value: "Euro 5" },
+        { label: "Commande", value: "Hydraulique (joystick pilot)" },
+        { label: "Hydraulique", value: "Avancée — 3ᵉ circuit (hydraulic advance)" },
+        { label: "Translation", value: "Moteur caché – 2 vitesses" },
+      ]},
+      { group: "Équipements inclus", rows: [
+        { label: "Vérin sur le dessus du bras", value: "Oui" },
+        { label: "Train élargissable", value: "90 – 120 cm (voie variable)" },
+        { label: "Pouce hydraulique", value: "Grappin de tri (de série)" },
+        { label: "Sécurité", value: "Pack échappement / arrêt d'urgence" },
+        { label: "Confort & sécurité", value: "Siège à contacteur de présence, rétroviseur, alarme de recul" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-avant-droite.webp",  alt: "Mini-pelle Xcavator XC17 PRO V2 1,45 t, vue trois-quarts avant droite, bras déployé" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-gauche-bras-deploye.webp", alt: "Mini-pelle Xcavator XC17 PRO V2, profil gauche avec bras déployé et godet au sol" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-droit-gyrophare.webp",     alt: "Mini-pelle Xcavator XC17 PRO V2, profil droit avec gyrophare et toit ROPS" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-arriere-gauche.webp",alt: "Mini-pelle Xcavator XC17 PRO V2, vue trois-quarts arrière gauche" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-poste-conduite-toit-rops.webp",   alt: "Mini-pelle Xcavator XC17 PRO V2, poste de conduite et toit de protection 4 montants ROPS" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-vue-avant-bras-releve.webp",      alt: "Mini-pelle Xcavator XC17 PRO V2, vue de face bras relevé" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC22 PRO V2 (2 t) ─────────────────────────
+  "XMPXC22PROV2": {
+    tagline: `Mini-pelle 2 t — la plus robuste de la gamme, hydraulique 3 pompes.`,
+    intro: `La mini-pelle Xcavator XC22 PRO V2 est la mini-pelle 2 tonnes la plus robuste de la gamme. Son système hydraulique à trois pompes délivre puissance et fluidité pour enchaîner les mouvements simultanés, tandis que la translation à 2 vitesses et la voie variable (110 à 140 cm) en font une machine aussi à l'aise dans les accès serrés que sur les gros chantiers de terrassement. Moteur Laidong KM385B bi-cylindre Euro 5, bras déporté (swing boom), commande au joystick hydraulique et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
+    stats: [
+      { value: "2 000 kg", label: "Poids à vide" },
+      { value: "3 pompes", label: "Hydraulique" },
+      { value: "110–140 cm", label: "Voie variable" },
+      { value: "2 vitesses", label: "Translation" },
+    ],
+    sections: [
+      { title: "Hydraulique 3 pompes, puissance et fluidité",
+        body: `Le système hydraulique à trois pompes alimente simultanément le bras, la rotation et la translation sans perte de débit. Les mouvements combinés restent fluides et puissants, même en charge : un atout majeur pour la productivité sur les chantiers de terrassement les plus exigeants.`,
+        features: [
+          { title: "Trois pompes", text: "Mouvements simultanés fluides et puissants, sans à-coups, même sous charge." },
+          { title: "Translation 2 vitesses", text: "Précision à basse vitesse, déplacements rapides sur le chantier en vitesse haute." },
+          { title: "Bras déporté (swing boom)", text: "Creusez en limite de mur et de clôture sans déplacer la machine." },
+        ] },
+      { title: "Voie variable 110–140 cm, stabilité maximale",
+        body: `Le train de roulement élargissable passe de 110 cm (accès) à 140 cm (travail) pour offrir la meilleure stabilité de la gamme lors des opérations de cavage et de levage. La machine de 2 tonnes qui ne recule devant aucun chantier.`,
+        features: [
+          { title: "Châssis 110–140 cm", text: "Replié pour l'accès, élargi pour une stabilité maximale au travail." },
+          { title: "2 tonnes robustes", text: "La machine la plus capable de la gamme pour le terrassement intensif." },
+          { title: "Moteur de translation caché", text: "Protégé des chocs et projections pour une fiabilité accrue." },
+        ] },
+      { title: "Équipée et garantie",
+        body: `Vérin sur le dessus du bras, pouce hydraulique (grappin de tri), pack échappement et arrêt d'urgence, siège à contacteur de présence, rétroviseur et alarme de recul : la XC22 PRO V2 est livrée prête à travailler. Garantie constructeur 2 ans, SAV et pièces en France. Délai indicatif de livraison : environ 30 jours.`,
+        features: [
+          { title: "Pouce hydraulique inclus", text: "Grappin de tri de série pour pierres, souches et gravats." },
+          { title: "Garantie 2 ans", text: "Garantie 24 mois, pièces détachées et SAV basés en France." },
+          { title: "Accessoires en option", text: "Attache rapide hydraulique, godets 20 cm à dents et 120 cm de curage disponibles en supplément." },
+        ] },
+    ],
+    specs: [
+      { group: "Caractéristiques générales", rows: [
+        { label: "Poids à vide", value: "2 000 kg" },
+        { label: "Voie variable", value: "110 – 140 cm" },
+        { label: "Godet standard", value: "40 cm" },
+        { label: "Protection", value: "Toit 4 montants (ROPS)" },
+        { label: "Délai indicatif", value: "≈ 30 jours" },
+      ]},
+      { group: "Motorisation & commande", rows: [
+        { label: "Moteur", value: "Laidong KM385B – bi-cylindre" },
+        { label: "Norme antipollution", value: "Euro 5" },
+        { label: "Hydraulique", value: "Trois pompes" },
+        { label: "Commande", value: "Joystick hydraulique" },
+        { label: "Bras", value: "Déporté (swing boom)" },
+        { label: "Translation", value: "Moteur caché – 2 vitesses" },
+      ]},
+      { group: "Équipements inclus", rows: [
+        { label: "Vérin sur le dessus du bras", value: "Oui" },
+        { label: "Train élargissable", value: "110 – 140 cm (voie variable)" },
+        { label: "Pouce hydraulique", value: "Grappin de tri (de série)" },
+        { label: "Sécurité", value: "Pack échappement / arrêt d'urgence" },
+        { label: "Confort & sécurité", value: "Siège à contacteur de présence, rétroviseur, alarme de recul" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-avant-droite-lame.webp", alt: "Mini-pelle Xcavator XC22 PRO V2 2 t, vue trois-quarts avant droite avec lame" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-profil-gauche-bras-deploye.webp",     alt: "Mini-pelle Xcavator XC22 PRO V2, profil gauche avec bras déporté déployé" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-arriere-droite.webp",    alt: "Mini-pelle Xcavator XC22 PRO V2, vue trois-quarts arrière droite" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-arriere-gauche.webp",    alt: "Mini-pelle Xcavator XC22 PRO V2, vue trois-quarts arrière gauche" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-vue-arriere.webp",                    alt: "Mini-pelle Xcavator XC22 PRO V2, vue arrière sur chenilles" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-vue-avant-lame.webp",                 alt: "Mini-pelle Xcavator XC22 PRO V2, vue de face avec lame et bras relevé" },
+    ],
+  },
+
 };

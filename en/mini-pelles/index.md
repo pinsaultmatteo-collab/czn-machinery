@@ -42,6 +42,26 @@ excl. VAT · delivery not included
 
 In stock
 
+Xcavator
+
+### Mini excavator XC13P
+
+From
+7 381 €
+excl. VAT · delivery not included
+
+In stock
+
+Xcavator
+
+### Mini excavator XC15P
+
+From
+10 699 €
+excl. VAT · delivery not included
+
+In stock
+
 Sonca
 
 ### Mini excavator SJW-18 PRO
@@ -52,12 +72,32 @@ excl. VAT · delivery not included
 
 In stock
 
+Xcavator
+
+### XC17 PRO V2
+
+From
+14 472 €
+excl. VAT · delivery not included
+
+In stock
+
 Sonca
 
 ### Mini excavator SJW-25
 
 From
 19 625 €
+excl. VAT · delivery not included
+
+In stock
+
+Xcavator
+
+### Mini excavator XC22 PRO V2
+
+From
+21 153 €
 excl. VAT · delivery not included
 
 Continue exploring

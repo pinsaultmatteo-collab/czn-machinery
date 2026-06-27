@@ -39,7 +39,9 @@ let PRICE_BY_REF = {};
 function brandFromName(name) {
   const n = (name || "").toUpperCase();
   if (n.includes("SONCA")) return "Sonca";
-  if (n.includes("XCAVATOR")) return "Xcavator";
+  // « XCAVATOR » (+ tolérance faute « XACAVATOR ») ou un nom de modèle type « XC17 PRO V2 »
+  // (certaines fiches Axonaut omettent le mot Xcavator, ex. XMPXC17PROV2 nommée « XC17 PRO V2 »).
+  if (n.includes("XCAVATOR") || n.includes("XACAVATOR") || /\bXC\s?\d/.test(n)) return "Xcavator";
   if (n.includes("LEITE")) return "Leite";
   return null;
 }
@@ -709,6 +711,7 @@ const PUBLISH_REFS = [
   "SMCSJ460T", "SMCSJ460W", "SMCSJ490W",
   "SMTSJ05M", "SMTSJ05E", "SMTSJ05EL", "SMTSJ08EL",
   "REM-1.5T", "REM-2.7T",
+  "XMPXC13P", "XMPXC15P", "XMPXC17PROV2", "XMPXC22PROV2",
 ];
 /* on garde aussi les composants d'option (roue/support) dans `all` pour calculer le prix de l'option. */
 function isPublished(ref) { return PUBLISH_REFS.includes(ref) || isOptionComponent(ref); }

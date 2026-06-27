@@ -78,6 +78,58 @@
     "disabled": false
   },
   {
+    "id": 36823186,
+    "name": "XCAVATOR MINI PELLE XC22 PRO V2 ",
+    "reference": "XMPXC22PROV2",
+    "brand": "Xcavator",
+    "pageSlug": "mini-pelles",
+    "priceHT": 21153,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": 36823156,
+    "name": "XC17 PRO V2 ",
+    "reference": "XMPXC17PROV2",
+    "brand": "Xcavator",
+    "pageSlug": "mini-pelles",
+    "priceHT": 14472,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": 36822958,
+    "name": "XCAVATOR MINI PELLE XC15P ",
+    "reference": "XMPXC15P",
+    "brand": "Xcavator",
+    "pageSlug": "mini-pelles",
+    "priceHT": 10699,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": 36822938,
+    "name": "XCAVATOR MINI PELLE XC13P",
+    "reference": "XMPXC13P",
+    "brand": "Xcavator",
+    "pageSlug": "mini-pelles",
+    "priceHT": 7381,
+    "priceTTC": null,
+    "vat": 20,
+    "inStock": false,
+    "image": null,
+    "disabled": false
+  },
+  {
     "id": 35938690,
     "name": "SONCA MINI PELLE SJW-06",
     "reference": "SMPSJW06",

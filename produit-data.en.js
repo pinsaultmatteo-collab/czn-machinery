@@ -964,4 +964,271 @@ module.exports = {
     ],
   },
 
+  // ───────────────────────── XCAVATOR XC13P (1.15 t) ─────────────────────────
+  "XMPXC13P": {
+    tagline: `1.15 t swing-boom mini excavator — the performant essential, towable on a car licence.`,
+    intro: `The Xcavator XC13P is the entry-level 1.15-tonne mini excavator, ideal for homeowners and tradespeople. At just 1,150 kg, it loads onto a standard trailer behind a car-licence vehicle. Its standard swing boom lets you dig along walls and fences without moving the machine. Koop 192F single-cylinder Euro 5 engine, hydraulic pilot joystick control and a 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year manufacturer warranty, delivery across France.`,
+    stats: [
+      { value: "1,150 kg", label: "Operating weight" },
+      { value: "Koop 192F", label: "Euro 5 engine" },
+      { value: "Swing boom", label: "Standard" },
+      { value: "40 cm", label: "Standard bucket" },
+    ],
+    sections: [
+      { title: "Compact and towable on a car licence",
+        body: `At 1,150 kg, the XC13P loads onto a standard trailer towed by a car-licence vehicle: no special convoy, no HGV. Its rubber tracks protect delicate ground (lawns, paving) while gripping loose terrain. The ideal machine for tight access, enclosed gardens and renovation sites.`,
+        features: [
+          { title: "Easy transport", text: "1,150 kg: a standard trailer and a car licence are enough. Ramp loading, no heavy logistics." },
+          { title: "Rubber tracks", text: "Good grip on loose ground without damaging lawns, patios and delicate surfaces." },
+          { title: "4-post ROPS canopy", text: "Certified roll-over protective structure for safe operation." },
+        ] },
+      { title: "Swing boom and ready-to-work hydraulics",
+        body: `The swing boom pivots to dig close to walls, foundations and fences without repositioning the machine. The hydraulic pilot joystick control delivers smooth, precise movements. The reinforced slew motor provides extra torque for demanding work, and a hydraulic thumb (sorting grapple) is supplied as standard.`,
+        features: [
+          { title: "Standard swing boom", text: "Dig along walls and boundaries without moving the machine." },
+          { title: "Hydraulic thumb included", text: "Sorting grapple supplied as standard to handle stones, stumps and rubble." },
+          { title: "Full safety pack", text: "Emergency stop, seat presence switch, mirror and reversing alarm as standard." },
+        ] },
+      { title: "For homeowners and pros alike",
+        body: `Light earthworks, trenching, landscaping, low-wall foundations, planting: the XC13P clears tough manual work at an entry-level price. 2-year warranty, after-sales service and parts stock in France. Indicative lead time: 20 to 25 days.`,
+        features: [
+          { title: "Versatile", text: "Ideal for the garden, renovation and small earthworks projects." },
+          { title: "2-year warranty", text: "24-month manufacturer warranty, spare parts and after-sales service based in France." },
+          { title: "Optional attachments", text: "Semi-automatic quick hitch, dedicated buckets (20 cm toothed, 100 cm grading) available at extra cost." },
+        ] },
+    ],
+    specs: [
+      { group: "General specifications", rows: [
+        { label: "Operating weight", value: "1,150 kg" },
+        { label: "Standard bucket", value: "40 cm" },
+        { label: "Undercarriage", value: "Rubber tracks" },
+        { label: "Protection", value: "4-post canopy (ROPS)" },
+        { label: "Indicative lead time", value: "20 to 25 days" },
+      ]},
+      { group: "Powertrain & controls", rows: [
+        { label: "Engine", value: "Koop 192F – single-cylinder" },
+        { label: "Emission standard", value: "Euro 5" },
+        { label: "Control", value: "Hydraulic (pilot joystick)" },
+        { label: "Boom", value: "Swing boom" },
+        { label: "Travel motor", value: "Concealed – single speed" },
+      ]},
+      { group: "Standard equipment", rows: [
+        { label: "Cylinder on top of the boom", value: "Yes" },
+        { label: "Slew motor", value: "Reinforced (higher torque)" },
+        { label: "Hydraulic thumb", value: "Sorting grapple (standard)" },
+        { label: "Safety", value: "Exhaust pack / emergency stop" },
+        { label: "Comfort & safety", value: "Seat presence switch, mirror, reversing alarm" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-avant-droite.webp",   alt: "Xcavator XC13P 1.15 t mini excavator, front three-quarter right view, swing boom" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-profil-bras-deporte-deploye.webp", alt: "Xcavator XC13P mini excavator, side view with swing boom extended and bucket" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-trois-quarts-arriere-droite.webp", alt: "Xcavator XC13P mini excavator, rear three-quarter right view on rubber tracks" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-vue-arriere-trois-quarts.webp",    alt: "Xcavator XC13P mini excavator, rear three-quarter view, boom folded" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-poste-conduite-toit-rops.webp",    alt: "Xcavator XC13P mini excavator, open operator station and 4-post ROPS canopy" },
+      { src: "/images/XCAVATOR/XC13P/mini-pelle-xcavator-xc13p-vue-avant-bras-releve.webp",       alt: "Xcavator XC13P mini excavator, front view with boom raised, 40 cm bucket" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC15P (1.25 t) ─────────────────────────
+  "XMPXC15P": {
+    tagline: `1.25 t twin-cylinder mini excavator — jobsite versatility.`,
+    intro: `The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B twin-cylinder Euro 5 engine delivers extra torque and smoothness, while its 230 × 72 × 44 tracks and 1,160 mm width provide stability and access. Standard swing boom, hydraulic pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
+    stats: [
+      { value: "1,250 kg", label: "Operating weight" },
+      { value: "Twin-cylinder", label: "Laidong KM385B Euro 5" },
+      { value: "1,160 mm", label: "Machine width" },
+      { value: "Swing boom", label: "Standard" },
+    ],
+    sections: [
+      { title: "Twin-cylinder engine, more torque",
+        body: `The Laidong KM385B twin-cylinder Euro 5 engine delivers more torque and smoothness than the single-cylinder units of the class below. The result: smoother movements, better performance under load and greater comfort over long working days.`,
+        features: [
+          { title: "Laidong KM385B", text: "Twin-cylinder Euro 5: generous torque and smoother running than a single-cylinder." },
+          { title: "230 × 72 × 44 tracks", text: "Generous shoe width for good stability and low ground pressure." },
+          { title: "Pilot joystick control", text: "Precise hydraulic control of boom, dipper and bucket." },
+        ] },
+      { title: "Compact yet stable",
+        body: `At 1,160 mm wide, the XC15P fits through most access points while offering a stable base. The swing boom lets you dig right up to walls and fences. The hydraulic thumb (sorting grapple) is supplied as standard for sorting and handling.`,
+        features: [
+          { title: "1,160 mm width", text: "Ideal balance between working stability and jobsite access." },
+          { title: "Standard swing boom", text: "Dig close to obstacles without repositioning the machine." },
+          { title: "Hydraulic thumb included", text: "Sorting grapple as standard for stones, stumps and rubble." },
+        ] },
+      { title: "Equipped and warranted",
+        body: `Cylinder on top of the boom, concealed travel motor, exhaust pack and emergency stop, seat presence switch, mirror and reversing alarm: the XC15P arrives ready to work. 2-year manufacturer warranty, after-sales service and parts in France. Indicative lead time: around 30 days.`,
+        features: [
+          { title: "Ready to use", text: "Safety and comfort equipment as standard, 40 cm bucket included." },
+          { title: "2-year warranty", text: "24-month warranty, spare parts and after-sales service based in France." },
+          { title: "Optional attachments", text: "Semi-automatic quick hitch, 20 cm toothed and 120 cm grading buckets available at extra cost." },
+        ] },
+    ],
+    specs: [
+      { group: "General specifications", rows: [
+        { label: "Operating weight", value: "1,250 kg" },
+        { label: "Machine width", value: "1,160 mm" },
+        { label: "Standard bucket", value: "40 cm" },
+        { label: "Tracks", value: "230 × 72 × 44" },
+        { label: "Protection", value: "4-post canopy (ROPS)" },
+        { label: "Indicative lead time", value: "≈ 30 days" },
+      ]},
+      { group: "Powertrain & controls", rows: [
+        { label: "Engine", value: "Laidong KM385B – twin-cylinder" },
+        { label: "Emission standard", value: "Euro 5" },
+        { label: "Control", value: "Hydraulic (pilot joystick)" },
+        { label: "Boom", value: "Swing boom" },
+        { label: "Travel motor", value: "Concealed – single speed" },
+      ]},
+      { group: "Standard equipment", rows: [
+        { label: "Cylinder on top of the boom", value: "Yes" },
+        { label: "Hydraulic thumb", value: "Sorting grapple (standard)" },
+        { label: "Safety", value: "Exhaust pack / emergency stop" },
+        { label: "Comfort & safety", value: "Seat presence switch, mirror, reversing alarm" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-avant-droite.webp",   alt: "Xcavator XC15P 1.25 t mini excavator, front three-quarter right view" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-profil-bras-deporte-deploye.webp", alt: "Xcavator XC15P mini excavator, side view with swing boom extended" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-trois-quarts-arriere-droite.webp", alt: "Xcavator XC15P mini excavator, rear three-quarter right view" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-vue-arriere-trois-quarts.webp",    alt: "Xcavator XC15P mini excavator, rear three-quarter view, boom folded" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-poste-conduite-toit-rops.webp",    alt: "Xcavator XC15P mini excavator, operator station and 4-post ROPS canopy" },
+      { src: "/images/XCAVATOR/XC15P/mini-pelle-xcavator-xc15p-vue-avant-bras-releve.webp",       alt: "Xcavator XC15P mini excavator, front view with boom raised" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC17 PRO V2 (1.45 t) ─────────────────────────
+  "XMPXC17PROV2": {
+    tagline: `1.45 t PRO mini excavator — variable track width and 2-speed travel.`,
+    intro: `The Xcavator XC17 PRO V2 is the 1.45-tonne PRO version, with a variable-width undercarriage (90 to 120 cm) and 2-speed travel. The track retracts to clear tight access, then widens for maximum working stability. Advanced hydraulics (3rd circuit / hydraulic advance) to power attachments, Laidong KM385B twin-cylinder Euro 5 engine, pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
+    stats: [
+      { value: "1,450 kg", label: "Operating weight" },
+      { value: "90–120 cm", label: "Variable track" },
+      { value: "2-speed", label: "Travel" },
+      { value: "3rd circuit", label: "Advanced hydraulics" },
+    ],
+    sections: [
+      { title: "Variable track: narrow to pass, wide to work",
+        body: `The variable-width undercarriage retracts to 90 cm to clear gates and the tightest access, then widens to 120 cm for maximum stability when digging. A decisive advantage on constrained sites where access and stability seem incompatible.`,
+        features: [
+          { title: "90–120 cm chassis", text: "Passes tight access retracted, works with great stability once widened." },
+          { title: "2-speed travel", text: "Low speed for precision, high speed for moving around the site." },
+          { title: "Concealed travel motor", text: "Mechanism protected from impacts and debris for greater longevity." },
+        ] },
+      { title: "Advanced hydraulics and swing boom",
+        body: `The XC17 PRO V2 features a 3rd hydraulic circuit (hydraulic advance) to power hydraulic attachments (thumb, auger, etc.). The hydraulic thumb (sorting grapple) is supplied as standard, and the cylinder on top of the boom improves precision and digging force.`,
+        features: [
+          { title: "3rd hydraulic circuit", text: "Powers hydraulic attachments: thumb, auger, light breaker…" },
+          { title: "Hydraulic thumb included", text: "Sorting grapple as standard for sorting and handling." },
+          { title: "Cylinder on top of the boom", text: "Better visibility over the bucket and optimised digging geometry." },
+        ] },
+      { title: "PRO, equipped and warranted",
+        body: `Exhaust pack and emergency stop, seat presence switch, mirror and reversing alarm: the XC17 PRO V2 arrives fully equipped. 2-year manufacturer warranty, after-sales service and spare parts in France. Indicative lead time: around 30 days.`,
+        features: [
+          { title: "PRO version", text: "Variable track, 2-speed travel and advanced hydraulics for demanding users." },
+          { title: "2-year warranty", text: "24-month warranty, parts and after-sales service based in France." },
+          { title: "Optional attachments", text: "Semi-automatic quick hitch, 20 cm toothed and 120 cm grading buckets at extra cost." },
+        ] },
+    ],
+    specs: [
+      { group: "General specifications", rows: [
+        { label: "Operating weight", value: "1,450 kg" },
+        { label: "Machine width", value: "1,160 mm" },
+        { label: "Variable track", value: "90 – 120 cm" },
+        { label: "Standard bucket", value: "40 cm" },
+        { label: "Tracks", value: "230 × 72 × 44" },
+        { label: "Protection", value: "4-post canopy (ROPS)" },
+        { label: "Indicative lead time", value: "≈ 30 days" },
+      ]},
+      { group: "Powertrain & controls", rows: [
+        { label: "Engine", value: "Laidong KM385B – twin-cylinder" },
+        { label: "Emission standard", value: "Euro 5" },
+        { label: "Control", value: "Hydraulic (pilot joystick)" },
+        { label: "Hydraulics", value: "Advanced — 3rd circuit (hydraulic advance)" },
+        { label: "Travel", value: "Concealed motor – 2-speed" },
+      ]},
+      { group: "Standard equipment", rows: [
+        { label: "Cylinder on top of the boom", value: "Yes" },
+        { label: "Expandable track", value: "90 – 120 cm (variable width)" },
+        { label: "Hydraulic thumb", value: "Sorting grapple (standard)" },
+        { label: "Safety", value: "Exhaust pack / emergency stop" },
+        { label: "Comfort & safety", value: "Seat presence switch, mirror, reversing alarm" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-avant-droite.webp",  alt: "Xcavator XC17 PRO V2 1.45 t mini excavator, front three-quarter right view, boom extended" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-gauche-bras-deploye.webp", alt: "Xcavator XC17 PRO V2 mini excavator, left side view with boom extended and bucket on the ground" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-profil-droit-gyrophare.webp",     alt: "Xcavator XC17 PRO V2 mini excavator, right side view with beacon and ROPS canopy" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-trois-quarts-arriere-gauche.webp",alt: "Xcavator XC17 PRO V2 mini excavator, rear three-quarter left view" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-poste-conduite-toit-rops.webp",   alt: "Xcavator XC17 PRO V2 mini excavator, operator station and 4-post ROPS canopy" },
+      { src: "/images/XCAVATOR/XC17PROV2/mini-pelle-xcavator-xc17-pro-v2-vue-avant-bras-releve.webp",      alt: "Xcavator XC17 PRO V2 mini excavator, front view with boom raised" },
+    ],
+  },
+
+  // ───────────────────────── XCAVATOR XC22 PRO V2 (2 t) ─────────────────────────
+  "XMPXC22PROV2": {
+    tagline: `2 t mini excavator — the toughest in the range, 3-pump hydraulics.`,
+    intro: `The Xcavator XC22 PRO V2 is the toughest 2-tonne mini excavator in the range. Its three-pump hydraulic system delivers power and smoothness for combined movements, while 2-speed travel and a variable track (110 to 140 cm) make it as comfortable in tight access as on large earthworks sites. Laidong KM385B twin-cylinder Euro 5 engine, swing boom, hydraulic joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
+    stats: [
+      { value: "2,000 kg", label: "Operating weight" },
+      { value: "3 pumps", label: "Hydraulics" },
+      { value: "110–140 cm", label: "Variable track" },
+      { value: "2-speed", label: "Travel" },
+    ],
+    sections: [
+      { title: "3-pump hydraulics, power and smoothness",
+        body: `The three-pump hydraulic system simultaneously feeds the boom, slew and travel with no loss of flow. Combined movements stay smooth and powerful, even under load: a major asset for productivity on the most demanding earthworks sites.`,
+        features: [
+          { title: "Three pumps", text: "Smooth, powerful simultaneous movements with no jerks, even under load." },
+          { title: "2-speed travel", text: "Precision at low speed, fast site travel at high speed." },
+          { title: "Swing boom", text: "Dig along walls and fences without moving the machine." },
+        ] },
+      { title: "110–140 cm variable track, maximum stability",
+        body: `The expandable undercarriage moves from 110 cm (access) to 140 cm (work) to deliver the best stability in the range when digging and lifting. The 2-tonne machine that backs down from no jobsite.`,
+        features: [
+          { title: "110–140 cm chassis", text: "Retracted for access, widened for maximum working stability." },
+          { title: "Tough 2 tonnes", text: "The most capable machine in the range for intensive earthworks." },
+          { title: "Concealed travel motor", text: "Protected from impacts and debris for added reliability." },
+        ] },
+      { title: "Equipped and warranted",
+        body: `Cylinder on top of the boom, hydraulic thumb (sorting grapple), exhaust pack and emergency stop, seat presence switch, mirror and reversing alarm: the XC22 PRO V2 arrives ready to work. 2-year manufacturer warranty, after-sales service and parts in France. Indicative lead time: around 30 days.`,
+        features: [
+          { title: "Hydraulic thumb included", text: "Sorting grapple as standard for stones, stumps and rubble." },
+          { title: "2-year warranty", text: "24-month warranty, spare parts and after-sales service based in France." },
+          { title: "Optional attachments", text: "Hydraulic quick hitch, 20 cm toothed and 120 cm grading buckets available at extra cost." },
+        ] },
+    ],
+    specs: [
+      { group: "General specifications", rows: [
+        { label: "Operating weight", value: "2,000 kg" },
+        { label: "Variable track", value: "110 – 140 cm" },
+        { label: "Standard bucket", value: "40 cm" },
+        { label: "Protection", value: "4-post canopy (ROPS)" },
+        { label: "Indicative lead time", value: "≈ 30 days" },
+      ]},
+      { group: "Powertrain & controls", rows: [
+        { label: "Engine", value: "Laidong KM385B – twin-cylinder" },
+        { label: "Emission standard", value: "Euro 5" },
+        { label: "Hydraulics", value: "Three pumps" },
+        { label: "Control", value: "Hydraulic joystick" },
+        { label: "Boom", value: "Swing boom" },
+        { label: "Travel", value: "Concealed motor – 2-speed" },
+      ]},
+      { group: "Standard equipment", rows: [
+        { label: "Cylinder on top of the boom", value: "Yes" },
+        { label: "Expandable track", value: "110 – 140 cm (variable width)" },
+        { label: "Hydraulic thumb", value: "Sorting grapple (standard)" },
+        { label: "Safety", value: "Exhaust pack / emergency stop" },
+        { label: "Comfort & safety", value: "Seat presence switch, mirror, reversing alarm" },
+      ]},
+    ],
+    images: [
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-avant-droite-lame.webp", alt: "Xcavator XC22 PRO V2 2 t mini excavator, front three-quarter right view with dozer blade" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-profil-gauche-bras-deploye.webp",     alt: "Xcavator XC22 PRO V2 mini excavator, left side view with swing boom extended" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-arriere-droite.webp",    alt: "Xcavator XC22 PRO V2 mini excavator, rear three-quarter right view" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-arriere-gauche.webp",    alt: "Xcavator XC22 PRO V2 mini excavator, rear three-quarter left view" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-vue-arriere.webp",                    alt: "Xcavator XC22 PRO V2 mini excavator, rear view on tracks" },
+      { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-vue-avant-lame.webp",                 alt: "Xcavator XC22 PRO V2 mini excavator, front view with dozer blade and boom raised" },
+    ],
+  },
+
 };
