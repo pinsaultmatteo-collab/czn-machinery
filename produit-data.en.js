@@ -75,8 +75,8 @@ module.exports = {
       ]},
     ],
     images: [
+      { src: "/images/SONCA/SJW-06/sjw-06-profil.webp",       alt: "Sonca SJW-06 mini excavator, side view, bucket to the right" },
       { src: "/images/SONCA/SJW-06/sjw-06-3-4-avant.webp",    alt: "Sonca SJW-06 mini excavator, front 3/4 view" },
-      { src: "/images/SONCA/SJW-06/sjw-06-profil.webp",       alt: "Sonca SJW-06 side view" },
       { src: "/images/SONCA/SJW-06/sjw-06-3-4-arriere.webp",  alt: "Sonca SJW-06, rear 3/4 view" },
       { src: "/images/SONCA/SJW-06/sjw-06-bras-leve.webp",    alt: "Sonca SJW-06 with boom raised" },
       { src: "/images/SONCA/SJW-06/sjw-06-arriere-droit.webp",alt: "Sonca SJW-06, right rear view" },
@@ -127,8 +127,8 @@ module.exports = {
       ]},
     ],
     images: [
+      { src: "/images/SONCA/SJW-12-F/mini-pelle-sonca-sjw-12-f-profil-godet-droite.webp", alt: "Sonca SJW-12 F mini excavator with offset boom, side view, bucket to the right" },
       { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-avant-droit.webp",    alt: "Sonca SJW-12 F mini excavator with offset boom, front right view" },
-      { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-biais-gauche.webp",    alt: "SJW-12 F angled left view" },
       { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-arriere-gauche.webp",  alt: "SJW-12 F left rear view" },
       { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-moteur.webp",          alt: "SJW-12 F engine cover" },
     ],
@@ -201,8 +201,8 @@ module.exports = {
       ]},
     ],
     images: [
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-godet-droite.webp", alt: "Sonca SJW-12 P mini excavator with offset boom, side view, bucket to the right" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Sonca SJW-12 P mini excavator with offset boom, front right view" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "SJW-12 P left side view" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P left rear view, hydraulic system" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp",        alt: "SJW-12 P engine cover and finish" },
     ],
@@ -266,8 +266,8 @@ module.exports = {
       ]},
     ],
     images: [
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil.webp",  alt: "Sonca SJW-18 PRO mini excavator, side view, bucket to the right" },
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-avant.webp",   alt: "Sonca SJW-18 PRO mini excavator, front view" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil.webp",  alt: "Sonca SJW-18 PRO side view" },
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-moteur.webp",  alt: "Sonca SJW-18 PRO engine" },
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-pedales.webp", alt: "Sonca SJW-18 PRO pedals and controls" },
     ],
@@ -329,8 +329,8 @@ module.exports = {
       ]},
     ],
     images: [
+      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp",          alt: "Sonca SJW-25 mini excavator, side view, bucket to the right" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-3-4-avant.webp",      alt: "Sonca SJW-25 mini excavator, front 3/4 view" },
-      { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp",          alt: "Sonca SJW-25 mini excavator, side view" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-cabine-joysticks.webp", alt: "Sonca SJW-25 cab and joysticks" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-leviers-pedales.webp",  alt: "Sonca SJW-25 levers and pedals" },
       { src: "/images/SJW-25/mini-pelle-sonca-sjw-25-moteur.webp",           alt: "Sonca SJW-25 engine" },
