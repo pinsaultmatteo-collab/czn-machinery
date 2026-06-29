@@ -909,7 +909,7 @@ module.exports = {
   // ───────────────────────── REMORQUE 2.7T (Temared Builder 3 2615/2 S) ─────────────────────────
   "REM-2.7T": {
     tagline: `Remorque double essieu 2,7 T pour engins et charges lourdes.`,
-    intro: `La remorque CZN 2,7 T (Temared Builder 3 2615/2 S) est une remorque robuste à châssis soudé pour le transport de mini-pelles, mini-chargeurs et matériaux lourds. Plateau contreplaqué antidérapant de 2,60 × 1,50 m, timon en V renforcé, roue jockey à pliage automatique et rampes d'encastrement pour le chargement d'engins. PTAC 2 700 kg, double essieu. Importée et garantie par CZN Machinery, livraison France.`,
+    intro: `La remorque CZN 2,7 T (Temared Builder 3 2615/2 S) est une remorque robuste à châssis soudé pour le transport de mini-pelles, mini-chargeurs et matériaux lourds. Plateau contreplaqué antidérapant de 2,60 × 1,50 m, timon en V renforcé, roue jockey à pliage automatique et rampe basculante pour le chargement d'engins. PTAC 2 700 kg, double essieu. Importée et garantie par CZN Machinery, livraison France.`,
     stats: [
       { value: "2 700 kg", label: "PTAC" },
       { value: "2 178 kg", label: "Charge utile" },
@@ -925,9 +925,9 @@ module.exports = {
           { title: "Double essieu", text: "Stabilité et répartition de charge sur les longs trajets." },
         ] },
       { title: "Chargement d'engins facilité",
-        body: `Rampes d'encastrement et marche sur les côtés pour charger une mini-pelle ou un mini-chargeur en sécurité. Timon en V extrêmement robuste et roue jockey à pliage automatique.`,
+        body: `Rampe basculante et marche sur les côtés pour charger une mini-pelle ou un mini-chargeur en sécurité. Timon en V extrêmement robuste et roue jockey à pliage automatique.`,
         features: [
-          { title: "Rampes d'encastrement", text: "Montée des engins en douceur, ressorts d'assistance au relevage." },
+          { title: "Rampe basculante", text: "Montée des engins en douceur, ressorts d'assistance au relevage." },
           { title: "Timon en V renforcé", text: "Robustesse et tenue de route, supports stabilisateurs." },
           { title: "Plancher antidérapant", text: "Contreplaqué imperméable avec clips de sécurisation." },
         ] },
@@ -946,7 +946,7 @@ module.exports = {
         { label: "Châssis", value: "Acier soudé (profilés fermés)" },
         { label: "Plateau", value: "Contreplaqué imperméable antidérapant" },
         { label: "Timon", value: "En V renforcé + roue jockey à pliage automatique" },
-        { label: "Chargement", value: "Rampes d'encastrement" },
+        { label: "Chargement", value: "Rampe basculante" },
       ]},
       { group: "Roulement", rows: [
         { label: "Essieux", value: "Double essieu" },
@@ -959,7 +959,7 @@ module.exports = {
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-avant.webp",          alt: "Remorque CZN Machinery 2,7 T double essieu, vue avant 3/4" },
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-face.webp",           alt: "Remorque CZN 2,7 T Builder, vue de face" },
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere.webp",        alt: "Remorque CZN 2,7 T, vue arrière" },
-      { src: "/images/remorques/REM-2.7T/remorque-2-7t-rampe.webp",          alt: "Remorque CZN 2,7 T avec rampes d'encastrement ouvertes" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-rampe.webp",          alt: "Remorque CZN 2,7 T avec rampe basculante ouverte" },
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere-fermee.webp", alt: "Remorque CZN 2,7 T plateau fermé, vue arrière" },
     ],
   },

@@ -38,7 +38,7 @@ Configuration
 
 ✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
 
-La remorque CZN 2,7 T (Temared Builder 3 2615/2 S) est une remorque robuste à châssis soudé pour le transport de mini-pelles, mini-chargeurs et matériaux lourds. Plateau contreplaqué antidérapant de 2,60 × 1,50 m, timon en V renforcé, roue jockey à pliage automatique et rampes d'encastrement pour le chargement d'engins. PTAC 2 700 kg, double essieu. Importée et garantie par CZN Machinery, livraison France.
+La remorque CZN 2,7 T (Temared Builder 3 2615/2 S) est une remorque robuste à châssis soudé pour le transport de mini-pelles, mini-chargeurs et matériaux lourds. Plateau contreplaqué antidérapant de 2,60 × 1,50 m, timon en V renforcé, roue jockey à pliage automatique et rampe basculante pour le chargement d'engins. PTAC 2 700 kg, double essieu. Importée et garantie par CZN Machinery, livraison France.
 
 ## Conçue pour les charges lourdes
 Châssis porteur soudé en profilés d'acier fermés : la remorque encaisse le transport de mini-engins et de matériaux très lourds, jusqu'à 2,7 tonnes de PTAC.
@@ -53,9 +53,9 @@ De quoi transporter une mini-pelle de 2 à 2,5 t.
 Stabilité et répartition de charge sur les longs trajets.
 
 ## Chargement d'engins facilité
-Rampes d'encastrement et marche sur les côtés pour charger une mini-pelle ou un mini-chargeur en sécurité. Timon en V extrêmement robuste et roue jockey à pliage automatique.
+Rampe basculante et marche sur les côtés pour charger une mini-pelle ou un mini-chargeur en sécurité. Timon en V extrêmement robuste et roue jockey à pliage automatique.
 
-#### Rampes d'encastrement
+#### Rampe basculante
 Montée des engins en douceur, ressorts d'assistance au relevage.
 
 #### Timon en V renforcé
@@ -88,7 +88,7 @@ Contreplaqué imperméable avec clips de sécurisation.
 
 **Timon** : En V renforcé + roue jockey à pliage automatique
 
-**Chargement** : Rampes d'encastrement
+**Chargement** : Rampe basculante
 
 ### Roulement
 

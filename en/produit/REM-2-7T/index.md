@@ -33,7 +33,7 @@ Configuration
 
 ✓ 2-year warranty ✓ Delivery across France ✓ Direct importer
 
-The CZN 2.7 t trailer (Temared Builder 3 2615/2 S) is a heavy-duty welded-chassis trailer for transporting mini excavators, mini loaders and heavy materials. Anti-slip plywood deck of 2.60 × 1.50 m, reinforced V-drawbar, self-folding jockey wheel and load ramps for machine loading. 2,700 kg gross weight, twin axle. Imported and warranted by CZN Machinery, delivery across France.
+The CZN 2.7 t trailer (Temared Builder 3 2615/2 S) is a heavy-duty welded-chassis trailer for transporting mini excavators, mini loaders and heavy materials. Anti-slip plywood deck of 2.60 × 1.50 m, reinforced V-drawbar, self-folding jockey wheel and a tilting ramp for machine loading. 2,700 kg gross weight, twin axle. Imported and warranted by CZN Machinery, delivery across France.
 
 ## Built for heavy loads
 Welded load-bearing chassis made of closed steel profiles: the trailer handles the transport of compact machines and very heavy materials, up to a 2.7-tonne gross weight.
@@ -48,9 +48,9 @@ Enough to carry a 2 to 2.5 t mini excavator.
 Stability and load distribution over long journeys.
 
 ## Easy machine loading
-Load ramps and side steps to load a mini excavator or mini loader safely. Extremely robust V-drawbar and self-folding jockey wheel.
+Tilting ramp and side steps to load a mini excavator or mini loader safely. Extremely robust V-drawbar and self-folding jockey wheel.
 
-#### Load ramps
+#### Tilting ramp
 Smooth machine loading, springs assist with raising.
 
 #### Reinforced V-drawbar
@@ -83,7 +83,7 @@ Waterproof plywood with securing clips.
 
 **Drawbar** : Reinforced V + self-folding jockey wheel
 
-**Loading** : Load ramps
+**Loading** : Tilting ramp
 
 ### Running gear
 

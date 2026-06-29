@@ -909,7 +909,7 @@ module.exports = {
   // ───────────────────────── TRAILER 2.7T (Temared Builder 3 2615/2 S) ─────────────────────────
   "REM-2.7T": {
     tagline: `Twin-axle 2.7 t trailer for machines and heavy loads.`,
-    intro: `The CZN 2.7 t trailer (Temared Builder 3 2615/2 S) is a heavy-duty welded-chassis trailer for transporting mini excavators, mini loaders and heavy materials. Anti-slip plywood deck of 2.60 × 1.50 m, reinforced V-drawbar, self-folding jockey wheel and load ramps for machine loading. 2,700 kg gross weight, twin axle. Imported and warranted by CZN Machinery, delivery across France.`,
+    intro: `The CZN 2.7 t trailer (Temared Builder 3 2615/2 S) is a heavy-duty welded-chassis trailer for transporting mini excavators, mini loaders and heavy materials. Anti-slip plywood deck of 2.60 × 1.50 m, reinforced V-drawbar, self-folding jockey wheel and a tilting ramp for machine loading. 2,700 kg gross weight, twin axle. Imported and warranted by CZN Machinery, delivery across France.`,
     stats: [
       { value: "2,700 kg", label: "Gross weight" },
       { value: "2,178 kg", label: "Payload" },
@@ -925,9 +925,9 @@ module.exports = {
           { title: "Twin axle", text: "Stability and load distribution over long journeys." },
         ] },
       { title: "Easy machine loading",
-        body: `Load ramps and side steps to load a mini excavator or mini loader safely. Extremely robust V-drawbar and self-folding jockey wheel.`,
+        body: `Tilting ramp and side steps to load a mini excavator or mini loader safely. Extremely robust V-drawbar and self-folding jockey wheel.`,
         features: [
-          { title: "Load ramps", text: "Smooth machine loading, springs assist with raising." },
+          { title: "Tilting ramp", text: "Smooth machine loading, springs assist with raising." },
           { title: "Reinforced V-drawbar", text: "Strength and road holding, with stabiliser supports." },
           { title: "Anti-slip floor", text: "Waterproof plywood with securing clips." },
         ] },
@@ -946,7 +946,7 @@ module.exports = {
         { label: "Chassis", value: "Welded steel (closed profiles)" },
         { label: "Deck", value: "Waterproof anti-slip plywood" },
         { label: "Drawbar", value: "Reinforced V + self-folding jockey wheel" },
-        { label: "Loading", value: "Load ramps" },
+        { label: "Loading", value: "Tilting ramp" },
       ]},
       { group: "Running gear", rows: [
         { label: "Axles", value: "Twin axle" },
@@ -959,7 +959,7 @@ module.exports = {
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-avant.webp",          alt: "CZN Machinery 2.7 t twin-axle trailer, front three-quarter view" },
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-face.webp",           alt: "CZN 2.7 t Builder trailer, front view" },
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere.webp",        alt: "CZN 2.7 t trailer, rear view" },
-      { src: "/images/remorques/REM-2.7T/remorque-2-7t-rampe.webp",          alt: "CZN 2.7 t trailer with load ramps open" },
+      { src: "/images/remorques/REM-2.7T/remorque-2-7t-rampe.webp",          alt: "CZN 2.7 t trailer with tilting ramp lowered" },
       { src: "/images/remorques/REM-2.7T/remorque-2-7t-arriere-fermee.webp", alt: "CZN 2.7 t trailer, deck closed, rear view" },
     ],
   },
