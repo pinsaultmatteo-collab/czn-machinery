@@ -409,8 +409,129 @@ const FINANCE_CSS = `
   .fin-cta{width:100%;justify-content:center;}`;
 const FINANCE_JS = `(function(){var root=document.getElementById('finCalc'),modal=document.getElementById('finModal');if(!root||!modal)return;var base=parseFloat(root.dataset.base)||0;var name=root.dataset.name||'',ref=root.dataset.ref||'',cta=document.getElementById('finCta');function setCta(msg){if(cta)cta.href='/contact/?topic=financement&msg='+encodeURIComponent(msg);}var range=document.getElementById('finRange'),eM=document.getElementById('finMonths'),eMon=document.getElementById('finMonthly'),eT=document.getElementById('finTaeg'),eC=document.getElementById('finCost'),eTot=document.getElementById('finTotal');var f0=new Intl.NumberFormat('fr-FR',{maximumFractionDigits:0}),f2=new Intl.NumberFormat('fr-FR',{minimumFractionDigits:2,maximumFractionDigits:2});function rate(b){return b<6000?0.099:0.079;}function calc(){var n=parseInt(range.value,10);eM.textContent=n;var r=rate(base);if(n<=0){eMon.textContent=f0.format(base);eT.textContent='Paiement comptant';eC.textContent='0 €';eTot.textContent=f0.format(base)+' €';setCta('Bonjour, je souhaite acheter la '+name+(ref?' (réf. '+ref+')':'')+' au comptant ('+f0.format(base)+' € HT). Merci de me recontacter.');return;}var i=r/12,m=base*i/(1-Math.pow(1+i,-n)),tot=m*n;eMon.textContent=f2.format(m);eT.textContent='TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %';eC.textContent=f0.format(tot-base)+' €';eTot.textContent=f0.format(tot)+' €';setCta('Bonjour, je souhaite un financement pour la '+name+(ref?' (réf. '+ref+')':'')+'.\\n\\nSimulation : montant '+f0.format(base)+' € HT, durée '+n+' mois, mensualité estimée '+f2.format(m)+' €/mois, TAEG fixe '+(r*100).toLocaleString('fr-FR')+' %, coût total du crédit '+f0.format(tot-base)+' €, montant total dû '+f0.format(tot)+' €.\\n\\nMerci de me recontacter.');}range.addEventListener('input',calc);calc();function op(){modal.hidden=false;document.body.style.overflow='hidden';}function cl(){modal.hidden=true;document.body.style.overflow='';}document.querySelectorAll('[data-fin-open]').forEach(function(b){b.addEventListener('click',op);});modal.querySelectorAll('[data-fin-close]').forEach(function(b){b.addEventListener('click',cl);});document.addEventListener('keydown',function(e){if(e.key==='Escape'&&!modal.hidden)cl();});})();`;
 
+/* ── Guide « Quel permis pour tracter cette remorque ? » (fiches remorques uniquement) ── */
+const PERMIS_CSS = `
+  .permis h2{font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:10px;}
+  .permis-intro{font-size:16px;line-height:1.7;color:var(--muted);max-width:66ch;margin-bottom:24px;}
+  .permis-sub{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:34px 0 14px;}
+  .permis-clair{display:flex;gap:14px;align-items:flex-start;background:rgba(242,129,28,.08);border:1px solid rgba(242,129,28,.28);border-radius:14px;padding:18px 20px;font-size:15px;line-height:1.6;color:var(--ink);max-width:780px;}
+  .permis-clair svg{flex-shrink:0;margin-top:1px;}
+  .permis-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid rgba(33,42,53,.12);border-radius:14px;}
+  .permis-table{width:100%;border-collapse:collapse;min-width:520px;font-size:14.5px;}
+  .permis-table th,.permis-table td{padding:14px 18px;text-align:left;border-bottom:1px solid rgba(33,42,53,.09);}
+  .permis-table thead th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--cream-2,#faf6ec);font-weight:500;}
+  .permis-table tbody tr:last-child td{border-bottom:none;}
+  .permis-table tbody tr:hover{background:rgba(242,129,28,.04);}
+  .permis-table td:first-child{font-weight:500;color:var(--ink);}
+  .permis-table .pcell{text-align:right;white-space:nowrap;}
+  .permis-pill{display:inline-block;font-family:var(--f-display);font-weight:600;font-size:13px;padding:5px 13px;border-radius:100px;white-space:nowrap;}
+  .permis-pill.b{background:rgba(34,140,80,.15);color:#1f7a45;}
+  .permis-pill.b96{background:rgba(242,129,28,.18);color:#b3590a;}
+  .permis-pill.be{background:rgba(33,42,53,.1);color:var(--ink);}
+  .permis-pill.c1e{background:rgba(178,42,42,.13);color:#a52828;}
+  .permis-legend{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px;}
+  .permis-leg{background:var(--cream-2,#faf6ec);border:1px solid rgba(33,42,53,.08);border-radius:12px;padding:15px 17px;}
+  .permis-leg-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .permis-leg p{font-size:13px;line-height:1.55;color:var(--muted);}
+  .permis-cg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .permis-cg{background:var(--cream-2,#faf6ec);border:1px solid rgba(33,42,53,.08);border-radius:12px;padding:16px 17px;}
+  .permis-cg-code{display:inline-block;font-family:var(--f-mono);font-weight:500;font-size:12px;letter-spacing:.05em;color:#fff;background:var(--ink);padding:4px 10px;border-radius:6px;margin-bottom:10px;}
+  .permis-cg-name{font-family:var(--f-display);font-weight:600;font-size:14px;color:var(--ink);margin-bottom:4px;}
+  .permis-cg p{font-size:13px;line-height:1.5;color:var(--muted);}
+  .permis-note{margin-top:30px;background:var(--oak);color:var(--cream-pure,#faf6ec);border-radius:16px;padding:26px 28px;max-width:840px;}
+  .permis-note h4{font-family:var(--f-display);font-weight:600;font-size:18px;color:var(--cream-pure,#faf6ec);margin-bottom:8px;}
+  .permis-note p{font-size:14.5px;line-height:1.65;color:rgba(244,239,228,.82);}
+  .permis-example{margin-top:14px;background:rgba(255,255,255,.06);border-left:3px solid var(--orange);border-radius:0 10px 10px 0;padding:13px 16px;font-size:13.5px;line-height:1.6;color:rgba(244,239,228,.9);}
+  .permis-example b{color:#fff;}
+  .permis-disclaimer{margin-top:18px;font-size:12.5px;line-height:1.55;color:var(--muted);font-style:italic;max-width:780px;}
+  @media(max-width:760px){.permis-legend{grid-template-columns:1fr;}.permis-cg-grid{grid-template-columns:1fr;}}
+`;
+function permisGuideHTML(L) {
+  const fr = L.lang === "fr";
+  const t = fr ? {
+    title: "Quel permis pour tracter cette remorque ?",
+    intro: "Beaucoup de clients nous posent la question. Le permis nécessaire dépend du poids de la remorque (son PTAC) et du poids total de l'attelage (voiture + remorque, chargées). Voici un rappel clair pour rouler en toute sécurité et conformément au code de la route.",
+    clair: "<b>En clair :</b> cette remorque a un PTAC compris entre 750 et 3 500 kg. Avec un simple <b>permis B</b>, vous pouvez la tracter tant que l'ensemble voiture + remorque chargées reste sous <b>3 500 kg</b>. Au-delà, il faut le <b>B96</b> (jusqu'à 4 250 kg), puis le <b>BE</b>.",
+    subTable: "Le permis selon le poids",
+    thRem: "PTAC remorque", thTot: "PTAC total (voiture + remorque)", thPermis: "Permis",
+    rows: [
+      ["≤ 750 kg", "Peu importe", "B", "b"],
+      ["750 – 3 500 kg", "≤ 3 500 kg", "B", "b"],
+      ["750 – 3 500 kg", "3 500 – 4 250 kg", "B96", "b96"],
+      ["750 – 3 500 kg", "&gt; 4 250 kg", "BE", "be"],
+      ["&gt; 3 500 kg", "Peu importe", "C1E", "c1e"],
+    ],
+    legend: [
+      ["B", "b", "Remorque ≤ 750 kg, ou ensemble voiture + remorque ≤ 3 500 kg."],
+      ["B96", "b96", "Remorque &gt; 750 kg et ensemble jusqu'à 4 250 kg. Formation de 7 h (sans examen)."],
+      ["BE", "be", "Remorque &gt; 750 kg et ensemble &gt; 4 250 kg."],
+      ["C1E", "c1e", "Remorque dont le PTAC dépasse 3 500 kg (permis poids lourd)."],
+    ],
+    subCg: "Repères sur la carte grise",
+    cg: [
+      ["G.1", "Poids à vide", "Poids à vide du véhicule."],
+      ["F.2", "PTAC", "Poids Total Autorisé en Charge : poids à vide + chargement."],
+      ["F.3", "PTRA", "Poids Total Roulant Autorisé : véhicule chargé + remorque chargée."],
+    ],
+    noteTitle: "Et la limite du PTRA ?",
+    noteBody: "En plus du permis, l'ensemble roulant (voiture + chargement + remorque + chargement) doit toujours rester sous le PTRA indiqué sur la carte grise du véhicule tracteur (repère F.3). Cette limite garantit des distances de freinage sûres.",
+    exLabel: "Exemple",
+    exBody: "Voiture 2 200 kg + remorque 530 kg + mini-pelle 1 200 kg = <b>3 930 kg</b>. L'attelage est conforme si le PTRA de la voiture (repère F.3) est <b>≥ 3 930 kg</b>.",
+    disclaimer: "Information donnée à titre indicatif, sous réserve de la réglementation en vigueur et des mentions portées sur votre carte grise. En cas de doute, rapprochez-vous de votre auto-école ou des services de l'État.",
+  } : {
+    title: "Which licence do you need to tow this trailer?",
+    intro: "Many customers ask us. The licence you need depends on the trailer's gross weight (its GVW / PTAC) and on the total weight of the combination (car + trailer, loaded). Here is a clear reminder of the French rules to tow safely and legally.",
+    clair: "<b>In short:</b> this trailer's GVW is between 750 and 3,500 kg. With a standard <b>category B</b> licence you can tow it as long as the loaded car + trailer combination stays under <b>3,500 kg</b>. Above that you need <b>B96</b> (up to 4,250 kg), then <b>BE</b>.",
+    subTable: "Licence by weight",
+    thRem: "Trailer GVW", thTot: "Combination GVW (car + trailer)", thPermis: "Licence",
+    rows: [
+      ["≤ 750 kg", "Any", "B", "b"],
+      ["750 – 3,500 kg", "≤ 3,500 kg", "B", "b"],
+      ["750 – 3,500 kg", "3,500 – 4,250 kg", "B96", "b96"],
+      ["750 – 3,500 kg", "&gt; 4,250 kg", "BE", "be"],
+      ["&gt; 3,500 kg", "Any", "C1E", "c1e"],
+    ],
+    legend: [
+      ["B", "b", "Trailer ≤ 750 kg, or car + trailer combination ≤ 3,500 kg."],
+      ["B96", "b96", "Trailer &gt; 750 kg and combination up to 4,250 kg. Requires a 7-hour training (no exam)."],
+      ["BE", "be", "Trailer &gt; 750 kg and combination &gt; 4,250 kg."],
+      ["C1E", "c1e", "Trailer with a GVW above 3,500 kg (HGV licence)."],
+    ],
+    subCg: "Where to read it on the registration document",
+    cg: [
+      ["G.1", "Unladen weight", "Unladen weight of the vehicle."],
+      ["F.2", "GVW (PTAC)", "Maximum authorised laden weight: unladen + load."],
+      ["F.3", "GTW (PTRA)", "Maximum authorised train weight: laden vehicle + laden trailer."],
+    ],
+    noteTitle: "What about the PTRA (train weight) limit?",
+    noteBody: "On top of the licence, the whole combination (car + load + trailer + load) must always stay under the GTW (PTRA) shown on the towing vehicle's registration document (field F.3). This limit keeps braking distances safe.",
+    exLabel: "Example",
+    exBody: "Car 2,200 kg + trailer 530 kg + mini excavator 1,200 kg = <b>3,930 kg</b>. The combination is compliant if the car's GTW (field F.3) is <b>≥ 3,930 kg</b>.",
+    disclaimer: "Provided for information only, subject to the regulations in force and to the details shown on your vehicle registration document. If in doubt, check with your driving school or the relevant authorities.",
+  };
+  const rows = t.rows.map((r) => `<tr><td>${r[0]}</td><td>${r[1]}</td><td class="pcell"><span class="permis-pill ${r[3]}">${r[2]}</span></td></tr>`).join("");
+  const legend = t.legend.map((l) => `<div class="permis-leg"><div class="permis-leg-top"><span class="permis-pill ${l[1]}">${l[0]}</span></div><p>${l[2]}</p></div>`).join("");
+  const cg = t.cg.map((c) => `<div class="permis-cg"><span class="permis-cg-code">${c[0]}</span><div class="permis-cg-name">${c[1]}</div><p>${c[2]}</p></div>`).join("");
+  return `
+  <section class="pdp-section permis">
+    <h2>${t.title}</h2>
+    <p class="permis-intro">${t.intro}</p>
+    <div class="permis-clair"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg><div>${t.clair}</div></div>
+    <h3 class="permis-sub">${t.subTable}</h3>
+    <div class="permis-table-wrap"><table class="permis-table"><thead><tr><th>${t.thRem}</th><th>${t.thTot}</th><th class="pcell">${t.thPermis}</th></tr></thead><tbody>${rows}</tbody></table></div>
+    <div class="permis-legend">${legend}</div>
+    <h3 class="permis-sub">${t.subCg}</h3>
+    <div class="permis-cg-grid">${cg}</div>
+    <div class="permis-note"><h4>${t.noteTitle}</h4><p>${t.noteBody}</p><div class="permis-example"><b>${t.exLabel} :</b> ${t.exBody}</div></div>
+    <p class="permis-disclaimer">${t.disclaimer}</p>
+  </section>`;
+}
+
 function productPageHTML(p, L) {
   const d = L.DATA[p.reference] || {};
+  const isRemorque = p.pageSlug === "remorques";
+  const permisBlock = isRemorque ? permisGuideHTML(L) : "";
+  const permisCss = isRemorque ? PERMIS_CSS : "";
   const name = cleanName(p.name, p.brand, L);
   const label = L.LABELS[p.pageSlug] || "Produit";
   const cPath = catPath(L, p.pageSlug);
@@ -525,6 +646,7 @@ ${HEAD_FONTS}
   @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
 ${finCss}
 ${optionCss}
+${permisCss}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -571,6 +693,7 @@ ${nav(L)}
   ${sectionsHTML(d)}
 
   <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">${L.ui.techSpecs}</h2>${specsHTML(d, L)}</section>
+${permisBlock}
 
   <section class="pdp-cta-band">
     <h2>${esc(L.ui.ctaInterested(name))}</h2>

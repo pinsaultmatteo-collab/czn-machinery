@@ -72,6 +72,42 @@
   .pdp-option-name{font-weight:600;color:var(--ink);font-size:15px;}
   .pdp-option-desc{font-size:13px;color:var(--muted);margin-top:2px;}
   .pdp-option-price{font-family:var(--f-display);font-weight:600;color:var(--orange);white-space:nowrap;}
+
+  .permis h2{font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:10px;}
+  .permis-intro{font-size:16px;line-height:1.7;color:var(--muted);max-width:66ch;margin-bottom:24px;}
+  .permis-sub{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--orange);margin:34px 0 14px;}
+  .permis-clair{display:flex;gap:14px;align-items:flex-start;background:rgba(242,129,28,.08);border:1px solid rgba(242,129,28,.28);border-radius:14px;padding:18px 20px;font-size:15px;line-height:1.6;color:var(--ink);max-width:780px;}
+  .permis-clair svg{flex-shrink:0;margin-top:1px;}
+  .permis-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch;border:1px solid rgba(33,42,53,.12);border-radius:14px;}
+  .permis-table{width:100%;border-collapse:collapse;min-width:520px;font-size:14.5px;}
+  .permis-table th,.permis-table td{padding:14px 18px;text-align:left;border-bottom:1px solid rgba(33,42,53,.09);}
+  .permis-table thead th{font-family:var(--f-mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);background:var(--cream-2,#faf6ec);font-weight:500;}
+  .permis-table tbody tr:last-child td{border-bottom:none;}
+  .permis-table tbody tr:hover{background:rgba(242,129,28,.04);}
+  .permis-table td:first-child{font-weight:500;color:var(--ink);}
+  .permis-table .pcell{text-align:right;white-space:nowrap;}
+  .permis-pill{display:inline-block;font-family:var(--f-display);font-weight:600;font-size:13px;padding:5px 13px;border-radius:100px;white-space:nowrap;}
+  .permis-pill.b{background:rgba(34,140,80,.15);color:#1f7a45;}
+  .permis-pill.b96{background:rgba(242,129,28,.18);color:#b3590a;}
+  .permis-pill.be{background:rgba(33,42,53,.1);color:var(--ink);}
+  .permis-pill.c1e{background:rgba(178,42,42,.13);color:#a52828;}
+  .permis-legend{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:16px;}
+  .permis-leg{background:var(--cream-2,#faf6ec);border:1px solid rgba(33,42,53,.08);border-radius:12px;padding:15px 17px;}
+  .permis-leg-top{display:flex;align-items:center;gap:10px;margin-bottom:8px;}
+  .permis-leg p{font-size:13px;line-height:1.55;color:var(--muted);}
+  .permis-cg-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .permis-cg{background:var(--cream-2,#faf6ec);border:1px solid rgba(33,42,53,.08);border-radius:12px;padding:16px 17px;}
+  .permis-cg-code{display:inline-block;font-family:var(--f-mono);font-weight:500;font-size:12px;letter-spacing:.05em;color:#fff;background:var(--ink);padding:4px 10px;border-radius:6px;margin-bottom:10px;}
+  .permis-cg-name{font-family:var(--f-display);font-weight:600;font-size:14px;color:var(--ink);margin-bottom:4px;}
+  .permis-cg p{font-size:13px;line-height:1.5;color:var(--muted);}
+  .permis-note{margin-top:30px;background:var(--oak);color:var(--cream-pure,#faf6ec);border-radius:16px;padding:26px 28px;max-width:840px;}
+  .permis-note h4{font-family:var(--f-display);font-weight:600;font-size:18px;color:var(--cream-pure,#faf6ec);margin-bottom:8px;}
+  .permis-note p{font-size:14.5px;line-height:1.65;color:rgba(244,239,228,.82);}
+  .permis-example{margin-top:14px;background:rgba(255,255,255,.06);border-left:3px solid var(--orange);border-radius:0 10px 10px 0;padding:13px 16px;font-size:13.5px;line-height:1.6;color:rgba(244,239,228,.9);}
+  .permis-example b{color:#fff;}
+  .permis-disclaimer{margin-top:18px;font-size:12.5px;line-height:1.55;color:var(--muted);font-style:italic;max-width:780px;}
+  @media(max-width:760px){.permis-legend{grid-template-columns:1fr;}.permis-cg-grid{grid-template-columns:1fr;}}
+
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -143,6 +179,19 @@ function getStoredWbraid(){return getStored('wbraid');}
 <h3 class="pdp-spec-group">Dimensions</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Deck length</dt><dd>3,300 mm</dd></div><div class="pdp-spec"><dt>Deck width</dt><dd>1,840 mm</dd></div></dl>
 <h3 class="pdp-spec-group">Construction</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Chassis</dt><dd>Bolted galvanised steel</dd></div><div class="pdp-spec"><dt>Deck</dt><dd>Waterproof anti-slip plywood</dd></div><div class="pdp-spec"><dt>Type</dt><dd>Tilting</dd></div></dl>
 <h3 class="pdp-spec-group">Running gear</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Tyres</dt><dd>185 R14C</dd></div></dl></section>
+
+  <section class="pdp-section permis">
+    <h2>Which licence do you need to tow this trailer?</h2>
+    <p class="permis-intro">Many customers ask us. The licence you need depends on the trailer's gross weight (its GVW / PTAC) and on the total weight of the combination (car + trailer, loaded). Here is a clear reminder of the French rules to tow safely and legally.</p>
+    <div class="permis-clair"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--orange)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg><div><b>In short:</b> this trailer's GVW is between 750 and 3,500 kg. With a standard <b>category B</b> licence you can tow it as long as the loaded car + trailer combination stays under <b>3,500 kg</b>. Above that you need <b>B96</b> (up to 4,250 kg), then <b>BE</b>.</div></div>
+    <h3 class="permis-sub">Licence by weight</h3>
+    <div class="permis-table-wrap"><table class="permis-table"><thead><tr><th>Trailer GVW</th><th>Combination GVW (car + trailer)</th><th class="pcell">Licence</th></tr></thead><tbody><tr><td>≤ 750 kg</td><td>Any</td><td class="pcell"><span class="permis-pill b">B</span></td></tr><tr><td>750 – 3,500 kg</td><td>≤ 3,500 kg</td><td class="pcell"><span class="permis-pill b">B</span></td></tr><tr><td>750 – 3,500 kg</td><td>3,500 – 4,250 kg</td><td class="pcell"><span class="permis-pill b96">B96</span></td></tr><tr><td>750 – 3,500 kg</td><td>&gt; 4,250 kg</td><td class="pcell"><span class="permis-pill be">BE</span></td></tr><tr><td>&gt; 3,500 kg</td><td>Any</td><td class="pcell"><span class="permis-pill c1e">C1E</span></td></tr></tbody></table></div>
+    <div class="permis-legend"><div class="permis-leg"><div class="permis-leg-top"><span class="permis-pill b">B</span></div><p>Trailer ≤ 750 kg, or car + trailer combination ≤ 3,500 kg.</p></div><div class="permis-leg"><div class="permis-leg-top"><span class="permis-pill b96">B96</span></div><p>Trailer &gt; 750 kg and combination up to 4,250 kg. Requires a 7-hour training (no exam).</p></div><div class="permis-leg"><div class="permis-leg-top"><span class="permis-pill be">BE</span></div><p>Trailer &gt; 750 kg and combination &gt; 4,250 kg.</p></div><div class="permis-leg"><div class="permis-leg-top"><span class="permis-pill c1e">C1E</span></div><p>Trailer with a GVW above 3,500 kg (HGV licence).</p></div></div>
+    <h3 class="permis-sub">Where to read it on the registration document</h3>
+    <div class="permis-cg-grid"><div class="permis-cg"><span class="permis-cg-code">G.1</span><div class="permis-cg-name">Unladen weight</div><p>Unladen weight of the vehicle.</p></div><div class="permis-cg"><span class="permis-cg-code">F.2</span><div class="permis-cg-name">GVW (PTAC)</div><p>Maximum authorised laden weight: unladen + load.</p></div><div class="permis-cg"><span class="permis-cg-code">F.3</span><div class="permis-cg-name">GTW (PTRA)</div><p>Maximum authorised train weight: laden vehicle + laden trailer.</p></div></div>
+    <div class="permis-note"><h4>What about the PTRA (train weight) limit?</h4><p>On top of the licence, the whole combination (car + load + trailer + load) must always stay under the GTW (PTRA) shown on the towing vehicle's registration document (field F.3). This limit keeps braking distances safe.</p><div class="permis-example"><b>Example :</b> Car 2,200 kg + trailer 530 kg + mini excavator 1,200 kg = <b>3,930 kg</b>. The combination is compliant if the car's GTW (field F.3) is <b>≥ 3,930 kg</b>.</div></div>
+    <p class="permis-disclaimer">Provided for information only, subject to the regulations in force and to the details shown on your vehicle registration document. If in doubt, check with your driving school or the relevant authorities.</p>
+  </section>
 
   <section class="pdp-cta-band">
     <h2>Interested in the Trailer 1.5T?</h2>

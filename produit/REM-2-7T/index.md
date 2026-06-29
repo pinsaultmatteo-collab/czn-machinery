@@ -98,6 +98,50 @@ Contreplaqué imperméable avec clips de sécurisation.
 
 **Entraxe** : 5 × 112
 
+## Quel permis pour tracter cette remorque ?
+
+Beaucoup de clients nous posent la question. Le permis nécessaire dépend du poids de la remorque (son PTAC) et du poids total de l'attelage (voiture + remorque, chargées). Voici un rappel clair pour rouler en toute sécurité et conformément au code de la route.
+
+En clair : cette remorque a un PTAC compris entre 750 et 3 500 kg. Avec un simple permis B , vous pouvez la tracter tant que l'ensemble voiture + remorque chargées reste sous 3 500 kg . Au-delà, il faut le B96 (jusqu'à 4 250 kg), puis le BE .
+
+### Le permis selon le poids
+
+PTAC remorque PTAC total (voiture + remorque) Permis
+≤ 750 kg Peu importe B
+750 – 3 500 kg ≤ 3 500 kg B
+750 – 3 500 kg 3 500 – 4 250 kg B96
+750 – 3 500 kg > 4 250 kg BE
+> 3 500 kg Peu importe C1E
+
+B
+Remorque ≤ 750 kg, ou ensemble voiture + remorque ≤ 3 500 kg.
+
+B96
+Remorque > 750 kg et ensemble jusqu'à 4 250 kg. Formation de 7 h (sans examen).
+
+BE
+Remorque > 750 kg et ensemble > 4 250 kg.
+
+C1E
+Remorque dont le PTAC dépasse 3 500 kg (permis poids lourd).
+
+### Repères sur la carte grise
+
+G.1 Poids à vide
+Poids à vide du véhicule.
+
+F.2 PTAC
+Poids Total Autorisé en Charge : poids à vide + chargement.
+
+F.3 PTRA
+Poids Total Roulant Autorisé : véhicule chargé + remorque chargée.
+
+#### Et la limite du PTRA ?
+En plus du permis, l'ensemble roulant (voiture + chargement + remorque + chargement) doit toujours rester sous le PTRA indiqué sur la carte grise du véhicule tracteur (repère F.3). Cette limite garantit des distances de freinage sûres.
+Exemple : Voiture 2 200 kg + remorque 530 kg + mini-pelle 1 200 kg = 3 930 kg . L'attelage est conforme si le PTRA de la voiture (repère F.3) est ≥ 3 930 kg .
+
+Information donnée à titre indicatif, sous réserve de la réglementation en vigueur et des mentions portées sur votre carte grise. En cas de doute, rapprochez-vous de votre auto-école ou des services de l'État.
+
 ## Intéressé par la Remorque 2.7T ?
 
 Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
