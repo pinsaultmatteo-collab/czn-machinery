@@ -127,7 +127,6 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SONCA/SJW-12-F/mini-pelle-sonca-sjw-12-f-profil-godet-droite.webp", alt: "Mini-pelle Sonca SJW-12 F à flèche orientable, vue latérale godet à droite" },
       { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-avant-droit.webp",    alt: "Mini-pelle Sonca SJW-12 F à flèche orientable, vue avant droit" },
       { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-arriere-gauche.webp",  alt: "SJW-12 F arrière gauche" },
       { src: "/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-moteur.webp",          alt: "SJW-12 F, cache moteur" },
@@ -201,7 +200,6 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-godet-droite.webp", alt: "Mini-pelle Sonca SJW-12 P à flèche orientable, vue latérale godet à droite" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Mini-pelle Sonca SJW-12 P à flèche orientable, vue avant droit" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P arrière gauche, système hydraulique" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp",        alt: "SJW-12 P, cache moteur et finitions" },
