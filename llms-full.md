@@ -1396,7 +1396,7 @@ Contactez-nous pour une simulation personnalisée ou consultez directement notre
 
 # Guides mini-pelle : conseils, entretien & réglementation
 
-> 15 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
+> 18 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -1414,9 +1414,9 @@ Guides & ressources
 
 # Tout savoir avantd'acheter votre engin.
 
-15 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+18 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
 
-15
+18
 Guides pratiques
 
 6 ans
@@ -1443,6 +1443,9 @@ Langage commercial
 [13Comparatifs Comparatif mini-pelles 2026 19 modèles de 600 kg à 4 T dès 4 125 € HT. La meilleure selon votre usage et budget. Lire le guide →](/guides/comparatif-mini-pelles-2026/)
 [14Usages Mini-pelle pour terrassement Tonnage, accessoires, techniques : guide complet pour réussir vos travaux. Lire le guide →](/guides/mini-pelle-terrassement/)
 [15Fondamentaux Micro-pelle : tout savoir avant d'acheter Définition, avantages, prix. Mini-pelle de moins de 1 tonne, transportable permis B. Lire le guide →](/guides/micro-pelle-tout-savoir/)
+[16Comparatifs Moteur Laidong ou Kubota sur mini-pelle ? Comparatif objectif des deux motorisations : fiabilité, entretien, pièces, coût. Chez CZN, les deux sont disponibles. Lire le guide →](/guides/moteur-laidong-ou-kubota-mini-pelle/)
+[17Occasion Revendre sa mini-pelle d'occasion Estimer la cote, fixer le juste prix, où vendre et comment donner une seconde vie à votre machine. Lire le guide →](/guides/revendre-mini-pelle-occasion/)
+[18Location Location de mini-pelle : le guide complet Tarifs journaliers, ce qui est inclus, permis, transport — et le seuil où l'achat devient plus malin. Lire le guide →](/guides/location-mini-pelle/)
 
 ## Une question technique ?
 
@@ -2918,6 +2921,158 @@ Notre équipe technique vous oriente vers la machine adaptée à votre usage et 
 
 ---
 
+<!-- /guides/location-mini-pelle/ -->
+
+# Location de mini-pelle : prix, durées et guide complet 2026
+
+> Location de mini-pelle : tarifs journaliers, ce qui est inclus, permis, transport et alternatives. Le guide complet pour louer une mini-pelle en 2026.
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](/guides/location-mini-pelle/)
+[EN](/en/guides/location-mini-pelle/)
+
+[Accueil](/) / [Guides](/guides/) / Location
+
+Location
+
+# Location de mini-pelle : le guide complet
+
+Tarifs journaliers, ce qui est vraiment inclus, permis, transport et durée idéale. Tout ce qu'il faut savoir pour louer une mini-pelle en 2026 — et le seuil à partir duquel l'achat devient plus malin.
+
+⏱ 8 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+La location de mini-pelle est la solution naturelle pour un chantier ponctuel : creuser une tranchée, préparer une terrasse, arracher des souches ou déblayer un terrain sur un week-end. Ce guide détaille les tarifs réels , ce qui est inclus ou non, les questions de permis et de transport, la durée pertinente — et le moment où la location cesse d'être la bonne affaire.
+
+## Prix de location d'une mini-pelle
+
+Le tarif dépend surtout du tonnage et de la durée. Voici les fourchettes constatées en France (hors options) :
+
+Tonnage Journée Week-end Semaine
+
+Micro-pelle (< 1 T) 130 à 190 € HT 200 à 300 € HT 500 à 750 € HT
+
+Mini-pelle 1,5 T 200 à 280 € HT 300 à 420 € HT 750 à 1 100 € HT
+
+Mini-pelle 2,5 T 280 à 400 € HT 420 à 600 € HT 1 100 à 1 600 € HT
+
+Mini-pelle 3,5 T et + 350 à 500 € HT 520 à 750 € HT 1 400 à 2 000 € HT
+
+Attention : ce tarif n'est que la partie visible. En haute saison (avril à octobre), les prix grimpent de 20 à 40 % et les machines se réservent 2 à 4 semaines à l'avance.
+
+## Ce qui est inclus (et ce qui ne l'est pas)
+
+Le tarif journalier affiché couvre rarement tout. À budgéter en plus :
+
+- Transport aller-retour : 80 à 250 € HT selon la distance et le tonnage. Souvent le premier poste caché.
+
+- Carburant : à votre charge, comptez 4 à 10 L/h de gasoil selon la machine.
+
+- Assurance dommages : 20 à 60 €/jour, quasi indispensable.
+
+- Caution : 500 à 3 000 € bloqués pendant la location.
+
+- Accessoires : godets spécifiques, marteau hydraulique ou tarière souvent facturés 30 à 100 €/jour.
+
+Résultat : une journée de location d'une 1,5 T revient en réalité à 350 à 550 € HT tout compris , et une semaine complète à 1 750 à 2 750 € HT .
+
+## Où louer une mini-pelle
+
+### Les loueurs nationaux
+
+Enseignes présentes partout en France (type Kiloutou, Loxam…). Large parc, machines récentes et bien entretenues, mais tarifs plus élevés et transport souvent facturé.
+
+### Les loueurs locaux et agricoles
+
+Négociants de matériel, coopératives ou entreprises de TP de proximité. Souvent plus souples sur les prix et les durées, mais disponibilité variable.
+
+### La location entre particuliers
+
+Des plateformes mettent en relation propriétaires et locataires. Tarifs attractifs et proximité, à condition de bien vérifier l'assurance et l'état de la machine.
+
+#### Vous louez plus de quelques jours par an ?
+
+Une mini-pelle neuve démarre à 4 125 € HT — soit à peine plus qu'une semaine de location.
+
+[Voir les mini-pelles →](/mini-pelles/)
+
+## Faut-il un permis ou une formation ?
+
+Pour conduire une mini-pelle en usage strictement privé (chez soi), aucun permis n'est légalement obligatoire, mais une formation ou une prise en main est vivement recommandée pour la sécurité. En usage professionnel (ou salarié), le CACES R482 catégorie A est requis. Côté transport , tracter une remorque chargée d'une mini-pelle dépend du PTAC de l'ensemble : au-delà de certains seuils, le permis BE ou une remorque adaptée s'impose. On détaille tout ça dans nos guides [CACES mini-pelle](/guides/caces-mini-pelle/) et transport.
+
+## Combien de temps louer ? La règle des seuils
+
+La location est pertinente sur de courtes durées . Repères simples :
+
+- 1 à 5 jours : la location se justifie pleinement — pas d'entretien, pas de stockage.
+
+- 1 à 2 semaines cumulées par an : la location reste possible mais l'addition monte vite.
+
+- Au-delà de 15 jours par an : l'achat devient le choix rationnel (voir notre calcul détaillé dans [acheter ou louer](/guides/mini-pelle-acheter-ou-louer/)).
+
+## Ce qu'il faut vérifier avant de louer
+
+- L'état général : chenilles, absence de fuites hydrauliques, démarrage.
+
+- Les accessoires fournis : quels godets, présence d'un attache-rapide, marteau si besoin.
+
+- L'assurance : ce qu'elle couvre exactement, franchise, conditions.
+
+- Les conditions de restitution : niveau de carburant, nettoyage, horaires, pénalités de retard.
+
+- Le transport : livré/récupéré par le loueur, ou à votre charge ?
+
+## L'alternative : acheter dès 4 125 € HT
+
+Une semaine de location tout compris (1 750 à 2 750 € HT) approche déjà le prix d'une micro-pelle neuve avec garantie 24 mois. Chez CZN, les [mini-pelles neuves](/mini-pelles/) démarrent à 4 125 € HT , importées en direct, avec livraison France et SAV. Financée sur 48 mois, la mensualité est souvent inférieure au coût d'une seule journée de location — et la machine reste un actif revendable. Si vous hésitez, notre équipe calcule avec vous le seuil de rentabilité selon votre usage.
+
+## Notre verdict
+
+Pour un chantier unique de quelques jours, la location de mini-pelle reste la solution la plus simple : pensez simplement à intégrer transport, assurance et caution dans votre budget réel. Mais dès que l'usage devient récurrent — même quelques jours répartis dans l'année — l' achat reprend l'avantage, financièrement comme en disponibilité. Faites le calcul avant de réserver : la bascule arrive plus vite qu'on ne le pense.
+
+Sommaire
+
+- [Prix de location](#prix)
+
+- [Ce qui est inclus](#inclus)
+
+- [Où louer](#ou)
+
+- [Permis et formation](#permis)
+
+- [Combien de temps louer](#duree)
+
+- [Ce qu'il faut vérifier](#verifier)
+
+- [L'alternative : acheter](#alternative)
+
+- [Notre verdict](#verdict)
+
+À lire aussi
+
+## Articles associés.
+
+[Achat Mini-pelle : acheter ou louer ? Comparatif coûts détaillé. L'achat est rentable dès 15 jours d'utilisation par an.](/guides/mini-pelle-acheter-ou-louer/)
+[Achat Prix d'une mini-pelle neuve en 2026 De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](/guides/prix-mini-pelle/)
+[Achat Comment choisir une mini-pelle ? Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](/guides/comment-choisir-mini-pelle/)
+
+## Louer ou acheter : on fait le calcul ?
+
+Notre équipe compare avec vous le coût d'une location et celui d'un achat selon votre usage réel. Devis gratuit, sans engagement.
+
+[Contacter nos experts](/contact/)
+[Voir les mini-pelles](/mini-pelles/)
+
+
+---
+
 <!-- /guides/micro-pelle-tout-savoir/ -->
 
 # 
@@ -3957,6 +4112,124 @@ Notre équipe technique vous oriente vers la machine adaptée à votre usage et 
 
 ---
 
+<!-- /guides/moteur-laidong-ou-kubota-mini-pelle/ -->
+
+# Moteur Laidong ou Kubota sur mini-pelle : que choisir ?
+
+> Laidong ou Kubota pour votre mini-pelle ? Comparatif objectif des deux motorisations : fiabilité, entretien, pièces, coût. Chez CZN, les deux sont disponibles.
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](/guides/moteur-laidong-ou-kubota-mini-pelle/)
+[EN](/en/guides/moteur-laidong-ou-kubota-mini-pelle/)
+
+[Accueil](/) / [Guides](/guides/) / Comparatifs
+
+Comparatifs
+
+# Moteur Laidong ou Kubota sur mini-pelle : que choisir ?
+
+Deux motorisations diesel de référence sur les mini-pelles. On compare origine, fiabilité, entretien, pièces et coût — sans parti pris. Chez CZN, les deux sont disponibles.
+
+⏱ 7 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Sur une mini-pelle, le moteur diesel est le cœur de la machine : c'est lui qui entraîne la pompe hydraulique et détermine puissance, consommation et longévité. Deux noms reviennent souvent quand on compare les mini-pelles : Laidong et Kubota . Ce guide compare objectivement les deux motorisations, sans en privilégier une. Bonne nouvelle : chez CZN Machinery, les mini-pelles sont équipées de série d'un moteur Laidong , et le Kubota est disponible sur commande — vous n'êtes donc pas obligé de choisir votre fournisseur en fonction du moteur.
+
+## Laidong et Kubota : deux références du diesel compact
+
+### Le moteur Laidong
+
+Laidong est un motoriste chinois spécialisé dans les moteurs diesel compacts (mono et bi-cylindre) pour l'agricole et les engins de chantier légers. Sur les mini-pelles CZN de 1,25 à 2 tonnes, on retrouve le Laidong KM385B bi-cylindre, norme Euro 5 : il apporte davantage de couple et de souplesse qu'un mono-cylindre de la classe inférieure, pour des mouvements plus fluides et une meilleure tenue en charge sur les longues journées.
+
+### Le moteur Kubota
+
+Kubota est un constructeur japonais, référence mondiale du moteur diesel compact . On le retrouve sur une large part des mini-pelles européennes et japonaises. Sa réputation repose sur des décennies de fiabilité, un réseau de pièces mondial et une longévité éprouvée. C'est le moteur « premium » du secteur, avec un coût de revient supérieur qui se répercute sur le prix final de la machine.
+
+## Comparatif Laidong vs Kubota
+
+Critère Laidong Kubota
+
+Origine Chine Japon
+
+Motorisation (mini-pelle 1–2,5 T) Mono / bi-cylindre diesel Bi / tri-cylindre diesel
+
+Norme antipollution Euro 5 / Stage V Stage V
+
+Réputation Fiable, simple, économique Référence fiabilité & longévité
+
+Pièces détachées Disponibles, coût modéré Réseau mondial, coût plus élevé
+
+Coût du moteur Accessible Premium
+
+Impact sur le prix machine Plus compétitif Supérieur
+
+## Fiabilité et durée de vie
+
+Kubota reste la référence historique en matière de fiabilité et de longévité — c'est un argument fort pour un usage intensif quotidien. De son côté, le Laidong moderne aux normes Euro 5 a nettement progressé : mécanique simple, robuste et facile à entretenir, il assure sans difficulté un usage régulier de particulier, d'artisan ou de paysagiste. Dans les deux cas, la durée de vie dépend surtout de l'entretien : une machine négligée s'use vite quelle que soit la marque du moteur, tandis qu'un moteur bien suivi tient plusieurs milliers d'heures.
+
+## Entretien et pièces détachées
+
+Les opérations de maintenance sont identiques pour les deux moteurs : vidange, filtre à huile, filtre à air, filtre à carburant, contrôle du refroidissement. La différence se joue sur les pièces : Kubota bénéficie d'un réseau mondial très dense (mais des tarifs plus élevés), tandis que les pièces Laidong sont disponibles à un coût modéré — chez CZN, le SAV France assure l'approvisionnement des consommables et des pièces d'usure. Pour aller plus loin, consultez notre [guide d'entretien de la mini-pelle](/guides/entretien-mini-pelle/).
+
+#### Laidong ou Kubota : les deux chez CZN
+
+Nos mini-pelles sont livrées avec un moteur Laidong. Le Kubota est disponible sur commande.
+
+[Voir les mini-pelles →](/mini-pelles/)
+
+## Impact sur le prix de la machine
+
+Le choix du moteur pèse directement sur le prix final. Un Kubota renchérit la machine : c'est un composant premium, avec la valeur de marque qui va avec. Le Laidong permet de conserver un tarif très compétitif à performances comparables sur la plupart des usages. Pour un particulier ou un artisan qui travaille quelques dizaines de jours par an, le Laidong offre le meilleur rapport qualité/prix. Pour un professionnel en usage intensif qui privilégie la marque et la valeur de revente, le Kubota se justifie.
+
+## Chez CZN, vous choisissez
+
+Toutes les mini-pelles [de notre catalogue](/mini-pelles/) sont équipées de série d'un moteur Laidong Euro 5 , avec garantie 2 ans et SAV France . Si vous préférez un moteur Kubota , il est disponible sur commande : parlez-en à notre équipe, qui vous indiquera le délai et le tarif selon le modèle. L'objectif est simple : vous laisser choisir la motorisation qui correspond à votre budget et à vos priorités, sans compromis sur le reste de la machine.
+
+## Notre verdict
+
+Il n'y a pas de « mauvais » moteur entre les deux. Le Kubota est la référence premium : fiabilité éprouvée, réseau mondial, forte valeur de marque — idéal pour l'usage intensif et la revente. Le Laidong offre le meilleur rapport qualité/prix : moderne, robuste et économique à l'achat comme à l'entretien, il couvre parfaitement les besoins de la grande majorité des utilisateurs. Le bon choix dépend de votre usage et de votre budget — et chez CZN, vous n'avez pas à trancher entre les deux au moment de choisir votre fournisseur.
+
+Sommaire
+
+- [Deux références du diesel](#panorama)
+
+- [Comparatif Laidong vs Kubota](#tableau)
+
+- [Fiabilité et durée de vie](#fiabilite)
+
+- [Entretien et pièces](#entretien)
+
+- [Impact sur le prix](#cout)
+
+- [Chez CZN, vous choisissez](#czn)
+
+- [Notre verdict](#verdict)
+
+À lire aussi
+
+## Articles associés.
+
+[Achat Comment choisir une mini-pelle ? Les 6 critères essentiels : tonnage, profondeur, largeur, motorisation, accessoires, transport.](/guides/comment-choisir-mini-pelle/)
+[Comparatifs Comparatif mini-pelles 2026 19 modèles de 600 kg à 4 T dès 4 125 € HT. La meilleure selon votre usage et budget.](/guides/comparatif-mini-pelles-2026/)
+[Entretien Entretien mini-pelle : guide pratique Vidange, filtres, graissage, chenilles, hydraulique. Planning maintenance complet.](/guides/entretien-mini-pelle/)
+
+## Une question sur la motorisation ?
+
+Notre équipe technique vous conseille sur le choix Laidong ou Kubota selon votre usage et votre budget. Devis gratuit, sans engagement.
+
+[Contacter nos experts](/contact/)
+[Voir les mini-pelles](/mini-pelles/)
+
+
+---
+
 <!-- /guides/prix-mini-pelle/ -->
 
 # Prix mini-pelle neuve 2026 : tarifs par tonnage
@@ -4359,6 +4632,156 @@ Notre équipe technique vous oriente vers la machine adaptée à votre usage et 
 
 [Contacter nos experts](/contact/)
 [Voir les mini-pelles](/mini-pelles/)
+
+
+---
+
+<!-- /guides/revendre-mini-pelle-occasion/ -->
+
+# Revendre sa mini-pelle d'occasion : cote, prix et où vendre
+
+> Revendre sa mini-pelle d'occasion : estimer la cote, fixer le bon prix, où vendre et comment donner une seconde vie à votre machine. Le guide CZN Machinery.
+
+📍 Toulouse, France
+
+Showroom Lun–Ven · 9h–12h / 14h–18h
+—
+
+[+33 5 31 60 51 61](tel:+33531605161)
+
+[FR](/guides/revendre-mini-pelle-occasion/)
+[EN](/en/guides/revendre-mini-pelle-occasion/)
+
+[Accueil](/) / [Guides](/guides/) / Occasion
+
+Occasion
+
+# Revendre sa mini-pelle d'occasion : cote, prix et où vendre
+
+Une mini-pelle bien entretenue garde une belle valeur sur le marché de l'occasion. Estimer la cote, fixer le juste prix, choisir le bon canal — et l'alternative maligne : la faire travailler avant de la vendre.
+
+⏱ 8 min de lecture
+✓ Conseils CZN Machinery
+↻ Mis à jour 2026
+
+Le marché de la mini-pelle d'occasion est particulièrement dynamique en France : la demande est forte, les machines compactes se revendent vite et, contrairement à beaucoup d'équipements, une mini-pelle bien suivie conserve une valeur résiduelle élevée . Que vous ayez terminé vos travaux ou que vous souhaitiez changer de machine, voici comment estimer sa cote, fixer le bon prix, choisir où vendre — et une piste souvent négligée pour l'amortir encore mieux avant la revente.
+
+## Combien vaut une mini-pelle d'occasion ? (la cote)
+
+La décote d'une mini-pelle dépend surtout de deux facteurs : l'âge et le nombre d'heures au compteur. Voici les fourchettes observées sur le marché français, en pourcentage du prix d'achat neuf :
+
+Ancienneté Heures indicatives Valeur résiduelle
+
+Après 1 an < 200 h 80 à 85 %
+
+Après 2 ans 200 à 500 h 70 à 75 %
+
+Après 3 ans 500 à 1 000 h 60 à 70 %
+
+Après 5 ans 1 000 à 2 000 h 45 à 55 %
+
+Après 8 ans et + 2 000 à 4 000 h 25 à 40 %
+
+À titre d'exemple, une mini-pelle 1,8 T achetée neuve autour de 11 700 € HT et revendue après 3 ans avec un carnet d'entretien complet se négocie généralement entre 7 000 et 8 200 € HT . Les machines sans historique documenté se vendent 10 à 20 % moins cher .
+
+## Les facteurs qui font le prix
+
+- Les heures au compteur : le critère n°1. Une machine à faible horamètre inspire confiance et se vend plus cher.
+
+- L'entretien documenté : carnet à jour, factures de vidange et de pièces. C'est le meilleur argument de prix.
+
+- L'état des chenilles : caoutchouc craquelé ou usé = poste de coût immédiat pour l'acheteur, donc décote.
+
+- Le moteur et l'hydraulique : absence de fuites, démarrage franc, pas de fumée anormale.
+
+- Les accessoires fournis : godets multiples, marteau hydraulique, tarière valorisent nettement l'ensemble.
+
+- La marque et la disponibilité des pièces : une machine dont les pièces se trouvent facilement se revend mieux.
+
+## Comment estimer le juste prix
+
+Il n'existe pas de « cote officielle » type Argus pour les mini-pelles, mais trois méthodes se recoupent :
+
+- Partir du prix neuf actuel × le coefficient de valeur résiduelle du tableau ci-dessus.
+
+- Comparer les annonces de modèles équivalents (même tonnage, heures et âge proches) sur les plateformes spécialisées.
+
+- Ajuster selon l'état réel : chenilles, accessoires, historique. Un prix légèrement sous le marché avec un dossier d'entretien complet se vend beaucoup plus vite.
+
+Le piège classique est de surévaluer par attachement : une annonce trop chère reste en ligne des mois, tandis qu'un prix juste part en quelques jours.
+
+#### Vous cherchez plutôt à acheter ?
+
+Nos mini-pelles d'occasion sont révisées en 50 points et garanties 6 mois.
+
+[Voir l'occasion CZN →](/occasion/)
+
+## Où revendre sa mini-pelle d'occasion
+
+### Les plateformes de petites annonces
+
+Sites généralistes et places de marché spécialisées dans le matériel agricole et de chantier : c'est le canal le plus large. Vous fixez votre prix et vendez en direct, mais gérez vous-même les visites, la négociation et le paiement.
+
+### La vente entre particuliers ou entre pros
+
+Le bouche-à-oreille local (artisans, paysagistes, agriculteurs) fonctionne très bien pour une machine en bon état. Transaction directe, mais réseau plus restreint.
+
+### La reprise ou le dépôt-vente professionnel
+
+Un revendeur peut reprendre votre machine ou la vendre en dépôt. Vous gagnez du temps et de la sécurité, en échange d'une marge sur le prix final.
+
+## Donner une seconde vie : la faire travailler avant de vendre
+
+Beaucoup de propriétaires l'ignorent : plutôt que de laisser dormir la machine entre deux chantiers ou de la revendre immédiatement après leurs travaux, il est possible de la mettre en location pour l'amortir davantage. Une mini-pelle qui reste au garage ne rapporte rien ; louée quelques jours par mois à des artisans, voisins ou paysagistes locaux, elle génère un revenu complémentaire tout en conservant sa valeur d'actif.
+
+Cette « seconde vie » permet souvent de rentabiliser l'achat une deuxième fois avant la revente. À surveiller toutefois : les heures s'accumulent (et pèsent sur la cote), il faut prévoir une assurance adaptée et un contrat clair. C'est une stratégie intéressante pour une machine récente et bien entretenue, à mettre en balance avec l'usure supplémentaire.
+
+## Préparer sa machine pour la vente
+
+- Nettoyage complet : une machine propre inspire confiance et se photographie mieux.
+
+- Petite révision : vidange récente, niveaux, graissage — quelques dizaines d'euros qui rassurent l'acheteur.
+
+- Dossier d'entretien : rassemblez factures et carnet. C'est votre meilleur levier de prix.
+
+- Photos soignées : plusieurs angles, moteur, chenilles, compteur d'heures bien visible.
+
+- Annonce honnête et détaillée : tonnage, heures, année, accessoires, défauts éventuels. La transparence évite les négociations à rallonge.
+
+## En résumé
+
+Une mini-pelle d'occasion se revend d'autant mieux qu'elle affiche peu d'heures, un entretien documenté et des chenilles en bon état . Estimez la cote à partir du prix neuf et des annonces comparables, fixez un prix juste, soignez la présentation — et pensez à la faire travailler en location pour l'amortir avant de la céder. Et si vous êtes de l'autre côté du marché, à la recherche d'une machine fiable, découvrez notre [sélection d'occasion révisée et garantie 6 mois](/occasion/) — ou comparez avec le neuf dans notre guide [Mini-pelle neuve ou occasion ?](/guides/mini-pelle-neuve-ou-occasion/)
+
+Sommaire
+
+- [La cote d'occasion](#cote)
+
+- [Ce qui fait le prix](#facteurs)
+
+- [Estimer le juste prix](#estimer)
+
+- [Où revendre](#ou-vendre)
+
+- [La faire travailler](#seconde-vie)
+
+- [Préparer la vente](#preparer)
+
+- [En résumé](#verdict)
+
+À lire aussi
+
+## Articles associés.
+
+[Achat Mini-pelle neuve ou occasion ? Comparatif complet : prix, garantie, risques de l'occasion, avantages du neuf.](/guides/mini-pelle-neuve-ou-occasion/)
+[Achat Prix d'une mini-pelle neuve en 2026 De 4 125 € à 45 080 € HT selon le tonnage. Comparatif marques européennes vs importation directe.](/guides/prix-mini-pelle/)
+[Achat Mini-pelle : acheter ou louer ? Comparatif coûts détaillé. L'achat est rentable dès 15 jours d'utilisation par an.](/guides/mini-pelle-acheter-ou-louer/)
+
+## Acheter ou vendre une occasion fiable ?
+
+Notre équipe vous conseille sur la valeur de votre machine ou vous oriente vers une occasion révisée et garantie. Devis gratuit, sans engagement.
+
+[Contacter nos experts](/contact/)
+[Voir les occasions](/occasion/)
 
 
 ---

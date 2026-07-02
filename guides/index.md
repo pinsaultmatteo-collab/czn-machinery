@@ -1,6 +1,6 @@
 # Guides mini-pelle : conseils, entretien & réglementation
 
-> 15 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
+> 18 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -18,9 +18,9 @@ Guides & ressources
 
 # Tout savoir avantd'acheter votre engin.
 
-15 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+18 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
 
-15
+18
 Guides pratiques
 
 6 ans
@@ -47,6 +47,9 @@ Langage commercial
 [13Comparatifs Comparatif mini-pelles 2026 19 modèles de 600 kg à 4 T dès 4 125 € HT. La meilleure selon votre usage et budget. Lire le guide →](/guides/comparatif-mini-pelles-2026/)
 [14Usages Mini-pelle pour terrassement Tonnage, accessoires, techniques : guide complet pour réussir vos travaux. Lire le guide →](/guides/mini-pelle-terrassement/)
 [15Fondamentaux Micro-pelle : tout savoir avant d'acheter Définition, avantages, prix. Mini-pelle de moins de 1 tonne, transportable permis B. Lire le guide →](/guides/micro-pelle-tout-savoir/)
+[16Comparatifs Moteur Laidong ou Kubota sur mini-pelle ? Comparatif objectif des deux motorisations : fiabilité, entretien, pièces, coût. Chez CZN, les deux sont disponibles. Lire le guide →](/guides/moteur-laidong-ou-kubota-mini-pelle/)
+[17Occasion Revendre sa mini-pelle d'occasion Estimer la cote, fixer le juste prix, où vendre et comment donner une seconde vie à votre machine. Lire le guide →](/guides/revendre-mini-pelle-occasion/)
+[18Location Location de mini-pelle : le guide complet Tarifs journaliers, ce qui est inclus, permis, transport — et le seuil où l'achat devient plus malin. Lire le guide →](/guides/location-mini-pelle/)
 
 ## Une question technique ?
 

@@ -1,6 +1,6 @@
 # Mini excavator guides: advice, maintenance & regulations
 
-> 15 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
+> 18 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -18,9 +18,9 @@ Guides & resources
 
 # Everything to know beforebuying your machine.
 
-15 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
+18 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
 
-15
+18
 Practical guides
 
 6 years
@@ -47,6 +47,9 @@ Sales jargon
 [13Comparisons Mini excavator comparison 2026 19 models from 600 kg to 4 t, from €4,125 excl. VAT. The best one for your use and budget. Read the guide →](/en/guides/comparatif-mini-pelles-2026/)
 [14Uses Mini excavator for earthworks Weight, attachments, techniques: a complete guide to get your job done right. Read the guide →](/en/guides/mini-pelle-terrassement/)
 [15Fundamentals Micro excavator: all you need to know before buying Definition, advantages, price. A mini excavator under 1 tonne, transportable on a standard licence. Read the guide →](/en/guides/micro-pelle-tout-savoir/)
+[16Comparisons Laidong or Kubota engine on a mini excavator? An objective comparison of both engines: reliability, maintenance, parts, cost. At CZN, both are available. Read the guide →](/en/guides/moteur-laidong-ou-kubota-mini-pelle/)
+[17Used Selling a used mini excavator Estimate its value, set the right price, where to sell and how to give your machine a second life. Read the guide →](/en/guides/revendre-mini-pelle-occasion/)
+[18Rental Mini excavator rental: the complete guide Daily rates, what's included, licences, transport — and the point where buying becomes smarter. Read the guide →](/en/guides/location-mini-pelle/)
 
 ## A technical question?
 
