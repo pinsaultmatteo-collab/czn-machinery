@@ -475,6 +475,9 @@ function getFbp(){return getCookie('_fbp');}
       var fb = document.getElementById('fbclid-field'); if (fb) fb.value = getStoredFbclid();
       var fc = document.getElementById('fbc-field'); if (fc) fc.value = getFbc();
       var fp = document.getElementById('fbp-field'); if (fp) fp.value = getFbp();
+      var _leadEmail=(document.getElementById('email')||{}).value||'';
+      var _leadPhone=(document.getElementById('phone')||{}).value||'';
+      var _leadName=(document.getElementById('name')||{}).value||'';
 
       fetch(form.action, {
         method: 'POST',
@@ -485,7 +488,9 @@ function getFbp(){return getCookie('_fbp');}
         if (res.ok) {
           showMessage(true);
           if(typeof gtag==='function'){gtag('event','generate_lead',{form_name:'contact',value:1,currency:'EUR'});}
-          if(typeof fbq==='function'){fbq('track','Lead',{value:1,currency:'EUR'});}
+          var eid='lead.'+Date.now()+'.'+Math.random().toString(36).slice(2);
+          if(typeof fbq==='function'){fbq('track','Lead',{value:1,currency:'EUR'},{eventID:eid});}
+          try{fetch('/api/lead-capi/',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({event_id:eid,event_source_url:location.href,fbc:getFbc(),fbp:getFbp(),fbclid:getStoredFbclid(),email:_leadEmail,phone:_leadPhone,name:_leadName})}).catch(function(){});}catch(e){}
         } else {
           res.json().then(function(data){
             var detail = (data && data.errors)
