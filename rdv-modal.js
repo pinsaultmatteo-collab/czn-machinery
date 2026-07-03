@@ -77,6 +77,7 @@
     }
     overlay.classList.add('open');
     if(typeof gtag==='function'){gtag('event','rdv_open',{method:'axonaut'});}
+    if(typeof fbq==='function'){fbq('trackCustom','RdvOpen');}
     document.body.classList.add('rdv-lock');
     closeBtn.focus();
   }
@@ -103,6 +104,11 @@
     document.addEventListener('click', function (e) {
       var t = e.target && e.target.closest ? e.target.closest('.nav-cta, [data-rdv]') : null;
       if (t) open(e);
+      var tel = e.target && e.target.closest ? e.target.closest('a[href^="tel:"]') : null;
+      if (tel) {
+        if (typeof gtag === 'function') gtag('event', 'click_phone', { phone: (tel.getAttribute('href') || '').replace('tel:', '') });
+        if (typeof fbq === 'function') fbq('track', 'Contact');
+      }
     });
   }
 

@@ -39,6 +39,33 @@ module.exports = async (req, res) => {
       return res.status(200).json({ ok: true, ignored: topic || "unknown" });
     }
 
+    // 3bis) Meta CAPI — événement "Schedule" (RDV réellement pris en ligne)
+    try {
+      const MPX = process.env.META_PIXEL_ID, MTOK = process.env.META_CAPI_TOKEN;
+      if (MPX && MTOK) {
+        const crypto = require("crypto");
+        const sha = (v) => crypto.createHash("sha256").update(String(v).trim().toLowerCase()).digest("hex");
+        const raw = JSON.stringify(data || {});
+        const mail = raw.match(/[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}/);
+        const user_data = {};
+        if (data && data.id) user_data.external_id = [sha(String(data.id))];
+        if (mail) user_data.em = [sha(mail[0])];
+        const ev = {
+          event_name: "Schedule",
+          event_time: Math.floor(Date.now() / 1000),
+          action_source: "system_generated",
+          event_id: "rdv." + ((data && data.id) || Date.now()),
+          user_data
+        };
+        const pl = { data: [ev] };
+        if (process.env.META_TEST_EVENT_CODE) pl.test_event_code = process.env.META_TEST_EVENT_CODE;
+        await fetch(
+          `https://graph.facebook.com/v23.0/${MPX}/events?access_token=${encodeURIComponent(MTOK)}`,
+          { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(pl) }
+        );
+      }
+    } catch (e) { /* n'affecte jamais le flux GA4 */ }
+
     // 3) Envoi de l'événement à GA4 (Measurement Protocol)
     const MID = process.env.GA4_MEASUREMENT_ID;
     const SECRET = process.env.GA4_API_SECRET;
