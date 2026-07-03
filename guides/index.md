@@ -30,7 +30,7 @@ D'expérience terrain
 Clients équipés
 
 100 %
-Langage commercial
+Conseils pratiques
 
 [01Fondamentaux Qu'est-ce qu'une mini-pelle ? Définition, catégories par tonnage (800 kg à 6 T), composants clés et différences avec une pelleteuse classique. Lire le guide →](/guides/quest-ce-quune-mini-pelle/)
 [02Achat Comment choisir une mini-pelle ? Les 6 critères essentiels : tonnage, profondeur de fouille, largeur, motorisation, accessoires et transport. Lire le guide →](/guides/comment-choisir-mini-pelle/)

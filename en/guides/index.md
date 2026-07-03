@@ -30,7 +30,7 @@ Field experience
 Customers equipped
 
 100 %
-Sales jargon
+Practical advice
 
 [01Fundamentals What is a mini excavator? Definition, categories by weight (800 kg to 6 t), key components and differences from a standard excavator. Read the guide →](/en/guides/quest-ce-quune-mini-pelle/)
 [02Buying How to choose a mini excavator? The 6 essential criteria: weight, digging depth, width, engine, attachments and transport. Read the guide →](/en/guides/comment-choisir-mini-pelle/)
