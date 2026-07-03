@@ -116,6 +116,23 @@ function getStoredGclid(){return getStored('gclid');}
 function getStoredGbraid(){return getStored('gbraid');}
 function getStoredWbraid(){return getStored('wbraid');}
 </script>
+<!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','3745808205722674');
+fbq('init','27438719989102942');
+fbq('track','PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=3745808205722674&ev=PageView&noscript=1"/></noscript>
+<!-- End Meta Pixel Code -->
+<!-- Capture fbclid Meta Ads (tracking lead) -->
+<script>
+(function(){try{var p=new URLSearchParams(location.search);var f=p.get('fbclid');if(f){localStorage.setItem('czn_fbclid',JSON.stringify({value:f,expires:Date.now()+90*24*60*60*1000}));}}catch(e){}})();
+function getStoredFbclid(){return getStored('fbclid');}
+function getCookie(n){try{var m=document.cookie.match(new RegExp('(^|; )'+n+'=([^;]*)'));return m?decodeURIComponent(m[2]):'';}catch(e){return '';}}
+function getFbc(){var c=getCookie('_fbc');if(c)return c;var f=getStoredFbclid();return f?('fb.1.'+Date.now()+'.'+f):'';}
+function getFbp(){return getCookie('_fbp');}
+</script>
 </head>
 <body class="page-contact">
 
@@ -252,6 +269,12 @@ function getStoredWbraid(){return getStored('wbraid');}
               <span>I agree that my data may be used to process my request. <a href="/politique-confidentialite/">Privacy policy</a></span>
             </label>
           </div>
+          <input type="hidden" name="gclid" id="gclid-field" value="">
+          <input type="hidden" name="gbraid" id="gbraid-field" value="">
+          <input type="hidden" name="wbraid" id="wbraid-field" value="">
+          <input type="hidden" name="fbclid" id="fbclid-field" value="">
+          <input type="hidden" name="fbc" id="fbc-field" value="">
+          <input type="hidden" name="fbp" id="fbp-field" value="">
           <button type="submit" class="form-submit-btn">Send my request</button>
           <p class="form-note-text">Response within 24 business hours · Free quotes and advice</p>
         </form>
@@ -446,6 +469,12 @@ function getStoredWbraid(){return getStored('wbraid');}
       var btn = form.querySelector('.form-submit-btn');
       var originalLabel = btn ? btn.textContent : '';
       if (btn) { btn.disabled = true; btn.textContent = 'Sending…'; }
+      var gf = document.getElementById('gclid-field'); if (gf) gf.value = getStoredGclid();
+      var gb = document.getElementById('gbraid-field'); if (gb) gb.value = getStoredGbraid();
+      var wb = document.getElementById('wbraid-field'); if (wb) wb.value = getStoredWbraid();
+      var fb = document.getElementById('fbclid-field'); if (fb) fb.value = getStoredFbclid();
+      var fc = document.getElementById('fbc-field'); if (fc) fc.value = getFbc();
+      var fp = document.getElementById('fbp-field'); if (fp) fp.value = getFbp();
 
       fetch(form.action, {
         method: 'POST',
@@ -456,6 +485,7 @@ function getStoredWbraid(){return getStored('wbraid');}
         if (res.ok) {
           showMessage(true);
           if(typeof gtag==='function'){gtag('event','generate_lead',{form_name:'contact',value:1,currency:'EUR'});}
+          if(typeof fbq==='function'){fbq('track','Lead',{value:1,currency:'EUR'});}
         } else {
           res.json().then(function(data){
             var detail = (data && data.errors)
