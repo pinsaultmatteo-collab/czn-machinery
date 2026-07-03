@@ -29,7 +29,7 @@ D'expérience terrain
 5500 +
 Clients équipés
 
-0
+100 %
 Langage commercial
 
 [01Fondamentaux Qu'est-ce qu'une mini-pelle ? Définition, catégories par tonnage (800 kg à 6 T), composants clés et différences avec une pelleteuse classique. Lire le guide →](/guides/quest-ce-quune-mini-pelle/)

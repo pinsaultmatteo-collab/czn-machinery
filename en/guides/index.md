@@ -29,7 +29,7 @@ Field experience
 5500 +
 Customers equipped
 
-0
+100 %
 Sales jargon
 
 [01Fundamentals What is a mini excavator? Definition, categories by weight (800 kg to 6 t), key components and differences from a standard excavator. Read the guide →](/en/guides/quest-ce-quune-mini-pelle/)
