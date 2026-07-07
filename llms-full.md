@@ -972,6 +972,8 @@ Lun– Ven
 
 Décrivez votre projet et nous revenons vers vous sous 24 h ouvrées avec un devis personnalisé.
 
+Laissez ce champ vide
+
 Nom complet *
 
 Société (facultatif)

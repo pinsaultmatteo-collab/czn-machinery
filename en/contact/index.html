@@ -241,6 +241,11 @@ function getFbp(){return getCookie('_fbp');}
           <p class="contact-form-intro">Describe your project and we'll get back to you within 24 business hours with a tailored quote.</p>
         </div>
         <form class="czn-form" action="https://formspree.io/f/mdavzjkz" method="POST">
+          <!-- Honeypot anti-spam: hidden from humans, filled by bots. Formspree ignores any submission where _gotcha is set. -->
+          <div class="hp-field" aria-hidden="true" style="position:absolute;left:-9999px;top:-9999px;height:0;width:0;overflow:hidden;">
+            <label for="site-url-hp">Leave this field empty</label>
+            <input type="text" id="site-url-hp" name="_gotcha" tabindex="-1" autocomplete="off">
+          </div>
           <div class="form-row">
             <div class="form-field"><label for="name">Full name *</label><input type="text" id="name" name="name" required></div>
             <div class="form-field"><label for="company">Company (optional)</label><input type="text" id="company" name="company"></div>
