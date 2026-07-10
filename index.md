@@ -104,6 +104,88 @@ Livraison France incluse · Financement Sofinco dispo
 N°1
 des ventes
 
+Nouveautés
+
+## Nos dernières nouveautés.
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-06
+
+660 kg
+Poids
+
+Permis B
+Transport
+
+8,5 CV
+Moteur
+
+À partir de
+4 125 €
+HT · hors livraison
+
+Nouveau
+
+Sonca
+
+### Broyeur forestier
+
+1 000 mm
+Coupe
+
+346 kg
+Poids
+
+15 CV
+Moteur
+
+À partir de
+4 900 €
+HT · hors livraison
+
+Nouveau
+
+Sonca
+
+### Concasseur
+
+Chenilles
+Mobilité
+
+Trémie
+Alimentation
+
+Euro 5
+Moteur diesel
+
+À partir de
+13 250 €
+HT · hors livraison
+
+En stock
+
+Remorque
+
+### Remorque 2,7 T
+
+2 700 kg
+PTAC
+
+2 178 kg
+Charge utile
+
+Double
+Essieu
+
+À partir de
+3 490 €
+HT · hors livraison
+
+[Voir les autres engins](/autres-engins/)
+
 Notre histoire
 
 ## Six ans à équiperles chantiers français.

@@ -106,6 +106,88 @@ Livraison France incluse · Financement Sofinco dispo
 N°1
 des ventes
 
+Nouveautés
+
+## Nos dernières nouveautés.
+
+En stock
+
+Sonca
+
+### Mini-pelle SJW-06
+
+660 kg
+Poids
+
+Permis B
+Transport
+
+8,5 CV
+Moteur
+
+À partir de
+4 125 €
+HT · hors livraison
+
+Nouveau
+
+Sonca
+
+### Broyeur forestier
+
+1 000 mm
+Coupe
+
+346 kg
+Poids
+
+15 CV
+Moteur
+
+À partir de
+4 900 €
+HT · hors livraison
+
+Nouveau
+
+Sonca
+
+### Concasseur
+
+Chenilles
+Mobilité
+
+Trémie
+Alimentation
+
+Euro 5
+Moteur diesel
+
+À partir de
+13 250 €
+HT · hors livraison
+
+En stock
+
+Remorque
+
+### Remorque 2,7 T
+
+2 700 kg
+PTAC
+
+2 178 kg
+Charge utile
+
+Double
+Essieu
+
+À partir de
+3 490 €
+HT · hors livraison
+
+[Voir les autres engins](/autres-engins/)
+
 Notre histoire
 
 ## Six ans à équiperles chantiers français.
@@ -668,6 +750,52 @@ Notre équipe technique vous oriente vers la machine adaptée à votre usage et 
 
 [Contacter notre équipe](/contact/)
 [Consulter les guides](/guides/)
+
+
+---
+
+<!-- /autres-engins/ -->
+
+# Autres engins — CZN Machinery
+
+> Autres engins — CZN Machinery.
+
+📍 Toulouse, France Showroom Lun–Ven · 9h–12h / 14h–18h —
+
+[+33 5 31 60 51 61](tel:+33531605161) [FR](/autres-engins/)[EN](/en/autres-engins/)
+
+05 — Divers
+
+# Autres engins
+
+En stock
+
+Sonca
+
+### Broyeur forestier
+
+À partir de
+4 900 €
+HT · hors livraison
+
+En stock
+
+Sonca
+
+### Concasseur
+
+À partir de
+13 250 €
+HT · hors livraison
+
+Continuer la visite
+
+## Explorez le reste de la gamme.
+
+[Mini-pelles→](/mini-pelles/)
+[Mini-chargeurs→](/mini-chargeurs/)
+[Mini-tombereaux→](/mini-tombereaux/)
+[Accessoires→](/accessoires/)
 
 
 ---
@@ -5722,6 +5850,107 @@ Pour toute question relative à la protection de vos données personnelles : [co
 
 ---
 
+<!-- /produit/CONC-SONCA/ -->
+
+# Concasseur Sonca — Engin dès 13 250 € HT
+
+> Le concasseur à mâchoires Sonca est une unité de concassage compacte et mobile, montée sur chenilles, qui recycle vos gravats directement sur le chantier : bé
+
+Sonca · Engin
+
+# Concasseur
+
+Concasseur à mâchoires compact sur chenilles, moteur Koop diesel Euro 5.
+
+En stock
+13 250 € HT
+soit 15 900 € TTC
+
+ou à partir de 268 € / mois *
+Simuler mon financement
+
+* Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+Sur chenilles
+Mobile sur chantier
+
+Trémie
+Alimentation
+
+Diesel Euro 5
+Motorisation
+
+24 mois
+Garantie
+
+[Demander un devis](/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Concasseur%20(r%C3%A9f.%20CONC-SONCA).%20Merci%20de%20me%20recontacter.)
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
+
+Le concasseur à mâchoires Sonca est une unité de concassage compacte et mobile, montée sur chenilles, qui recycle vos gravats directement sur le chantier : béton, briques, parpaings, pierre et déblais sont transformés en granulat réutilisable, sans coûts de transport ni de mise en décharge. Alimentation par trémie, commandes hydrauliques à leviers et moteur diesel Koop KD1100F conforme à la norme Euro 5. Importé en direct par CZN Machinery : garantie 24 mois. Spécifications techniques détaillées (capacité, ouverture des mâchoires, dimensions) communiquées sur demande.
+
+## Recyclez vos gravats directement sur le chantier
+Plutôt que d'évacuer et d'acheter du granulat, concassez sur place vos déchets inertes — béton, briques, parpaings, pierre naturelle — et réutilisez le matériau en remblai, sous-couche ou drainage. Vous économisez le transport, la décharge et l'achat de matériaux neufs, tout en réduisant l'empreinte du chantier.
+
+#### Béton, brique, pierre
+Transforme les déblais inertes en granulat réutilisable.
+
+#### Économies immédiates
+Moins de transport, moins de décharge, moins d'achat de granulat.
+
+#### Alimentation par trémie
+Chargement simple à la pelle ou au godet.
+
+## Compact, chenillé et autonome
+Monté sur chenilles caoutchouc, le concasseur se déplace au plus près de la zone de travail, y compris dans les accès étroits. Les commandes hydrauliques à leviers pilotent le déplacement et le fonctionnement, entraînés par un moteur diesel Koop KD1100F Euro 5 fiable et autonome sur le terrain.
+
+#### Châssis chenillé
+Mobilité et stabilité sur sol accidenté.
+
+#### Commandes hydrauliques
+Pilotage par leviers, prise en main directe.
+
+#### Moteur Koop KD1100F
+Diesel, norme Euro 5.
+
+## Caractéristiques techniques
+
+### Moteur
+
+**Marque** : Koop KD1100F
+
+**Énergie** : Diesel
+
+**Norme** : Euro 5
+
+### Caractéristiques générales
+
+**Type** : Concasseur à mâchoires
+
+**Mobilité** : Chenilles caoutchouc
+
+**Alimentation** : Trémie
+
+**Commande** : Hydraulique à leviers
+
+### Garantie
+
+**Garantie** : 24 mois
+
+**Pièces détachées** : Disponibles
+
+**Spécifications complètes** : Capacité, ouverture des mâchoires et dimensions sur demande
+
+## Intéressé par la Concasseur ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Concasseur%20(r%C3%A9f.%20CONC-SONCA).%20Merci%20de%20me%20recontacter.)
+
+
+---
+
 <!-- /produit/REM-1-5T/ -->
 
 # Remorque 1.5T  — Remorque dès 2 490 € HT
@@ -6022,6 +6251,151 @@ Information donnée à titre indicatif, sous réserve de la réglementation en v
 Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
 
 [Demander un devis](/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Remorque%202.7T%20(r%C3%A9f.%20REM-2.7T).%20Merci%20de%20me%20recontacter.)
+
+
+---
+
+<!-- /produit/SMCBF/ -->
+
+# Broyeur forestier Sonca — Engin dès 4 900 € HT
+
+> Le broyeur forestier Sonca est une machine chenillée entièrement radiocommandée, conçue pour débroussailler et broyer la végétation là où l'homme ne peut pas
+
+Sonca · Engin
+
+# Broyeur forestier
+
+Broyeur forestier radiocommandé sur chenilles, moteur KOOP 15 CV diesel.
+
+En stock
+4 900 € HT
+soit 5 880 € TTC
+
+ou à partir de 104 € / mois *
+Simuler mon financement
+
+* Estimation indicative sur 60 mois, TAEG fixe 9,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
+
+1 000 mm
+Largeur de coupe
+
+346 kg
+Poids net
+
+15 CV
+Moteur KOOP diesel
+
+600 m
+Portée radiocommande
+
+[Demander un devis](/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Broyeur%20forestier%20(r%C3%A9f.%20SMCBF).%20Merci%20de%20me%20recontacter.)
+[05 31 60 51 61](tel:+33531605161)
+
+✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
+
+Le broyeur forestier Sonca est une machine chenillée entièrement radiocommandée, conçue pour débroussailler et broyer la végétation là où l'homme ne peut pas — ou ne devrait pas — intervenir : talus, fortes pentes, friches, sous-bois et fermes solaires. Piloté à distance jusqu'à 600 m, il tient l'opérateur à l'écart du danger. Son moteur diesel KOOP KD195F de 15 CV à démarrage électrique entraîne un rotor de coupe flottant de 1 000 mm équipé de couteaux type fléaux. Importé en direct par CZN Machinery : garantie 24 mois et pièces détachées disponibles 10 ans.
+
+## Radiocommandé jusqu'à 600 m, en toute sécurité
+La radiocommande longue portée (jusqu'à 600 m, incluse) permet de travailler à distance des projections et des zones dangereuses. Le moteur diesel KOOP à démarrage électrique et l'alternateur intégré rechargent automatiquement la batterie 24 V de commande en fonctionnement : pas de recharge manuelle entre deux sessions.
+
+#### Radiocommande incluse
+Portée longue distance jusqu'à 600 m, opérateur à l'écart du danger.
+
+#### Moteur KOOP KD195F
+Monocylindre diesel 15 CV, démarrage électrique.
+
+#### Recharge automatique
+Alternateur intégré, batterie de commande 24 V rechargée en marche.
+
+## Coupe flottante 1 000 mm à couteaux type fléaux
+Le rotor de 1 000 mm est équipé de 20 jeux de couteaux Y suspendus (40 pièces), efficaces sur l'herbe haute, les ronces et les jeunes ligneux. La hauteur de coupe se règle manuellement de 20 à 200 mm, et le mécanisme flottant suit le relief du terrain pour une coupe régulière sans scalper le sol.
+
+#### Largeur de coupe 1 000 mm
+Hauteur réglable de 20 à 200 mm (réglage manuel).
+
+#### Couteaux type fléaux
+Couteaux Y suspendus, 20 jeux / 40 pièces.
+
+#### Mécanisme flottant
+Le groupe de coupe suit le relief pour une coupe homogène.
+
+## Chenilles tous terrains, spécialiste des pentes
+Les chenilles caoutchouc de 150 mm assurent l'adhérence sur sol meuble, humide ou accidenté. La machine travaille jusqu'à 30° de pente (et se déplace jusqu'à 45°), pour un rendement d'environ 0,5 ha/h — idéale pour l'entretien des talus, vergers, parcs et fermes photovoltaïques.
+
+#### Chenilles 150 mm
+Adhérence et stabilité sur terrains difficiles.
+
+#### Pentes fortes
+Travail jusqu'à 30°, déplacement jusqu'à 45°.
+
+#### Rendement ~0,5 ha/h
+Vitesse de déplacement 0 à 5 km/h.
+
+## Caractéristiques techniques
+
+### Coupe
+
+**Largeur de coupe** : 1 000 mm
+
+**Hauteur de coupe** : 20 – 200 mm (réglage manuel)
+
+**Type de couteaux** : Couteaux Y suspendus (type fléaux)
+
+**Nombre de couteaux** : 20 jeux / 40 pièces
+
+**Mécanisme** : Flottant (suit le relief)
+
+### Moteur
+
+**Marque** : KOOP KD195F – monocylindre
+
+**Puissance** : 15 CV
+
+**Énergie** : Diesel
+
+**Démarrage** : Électrique
+
+### Déplacement & performances
+
+**Largeur de chenille** : 150 mm
+
+**Vitesse de déplacement** : 0 – 5 km/h
+
+**Pente max. en travail** : 30° (déplacement jusqu'à 45°)
+
+**Rendement** : ≈ 0,5 ha/h (7,5 mu/h)
+
+**Portée de la radiocommande** : Jusqu'à 600 m
+
+### Dimensions & commande
+
+**Dimensions (L × l × H)** : 1 560 × 1 170 × 820 mm
+
+**Poids net** : ≈ 346 kg
+
+**Mode de commande** : Radiocommande
+
+**Tension de commande** : 24 V
+
+**Recharge** : Alternateur intégré (automatique en marche)
+
+### Équipement & garantie
+
+**Télécommande longue portée** : Incluse (jusqu'à 600 m)
+
+**Chargeur** : Inclus
+
+**Kit d'outillage** : Offert (tournevis, clés, clés six pans)
+
+**Garantie** : 24 mois
+
+**Pièces détachées** : Disponibles 10 ans
+
+## Intéressé par la Broyeur forestier ?
+
+Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
+
+[Demander un devis](/contact/?topic=devis&msg=Bonjour%2C%20je%20voudrais%20un%20devis%20pour%20la%20Broyeur%20forestier%20(r%C3%A9f.%20SMCBF).%20Merci%20de%20me%20recontacter.)
 
 
 ---

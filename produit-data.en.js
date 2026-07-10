@@ -1228,4 +1228,150 @@ module.exports = {
     ],
   },
 
+  // ───────────────────────── SONCA FORESTRY MULCHER (SMCBF) ─────────────────────────
+  "SMCBF": {
+    tagline: `Radio-controlled tracked forestry mulcher, 15 hp KOOP diesel engine.`,
+    intro: `The Sonca forestry mulcher is a fully radio-controlled tracked machine, built to clear and mulch vegetation where people cannot — or should not — go: embankments, steep slopes, brush, undergrowth and solar farms. Operated remotely up to 600 m away, it keeps the operator clear of danger. Its 15 hp KOOP KD195F diesel engine with electric start drives a floating 1,000 mm cutting rotor fitted with flail-type blades. Imported directly by CZN Machinery: 24-month warranty and spare parts available for 10 years.`,
+    stats: [
+      { value: "1,000 mm", label: "Cutting width" },
+      { value: "346 kg", label: "Net weight" },
+      { value: "15 hp", label: "KOOP diesel engine" },
+      { value: "600 m", label: "Remote range" },
+    ],
+    sections: [
+      {
+        title: "Radio-controlled up to 600 m, safely",
+        body: `The long-range remote control (up to 600 m, included) lets you work well clear of flying debris and hazardous areas. The electric-start KOOP diesel engine and its built-in alternator automatically recharge the 24 V control battery while running — no manual charging between sessions.`,
+        features: [
+          { title: "Remote control included", text: "Long range up to 600 m, operator clear of danger." },
+          { title: "KOOP KD195F engine", text: "Single-cylinder 15 hp diesel, electric start." },
+          { title: "Automatic recharge", text: "Built-in alternator, 24 V control battery charged on the move." },
+        ],
+      },
+      {
+        title: "Floating 1,000 mm cut with flail-type blades",
+        body: `The 1,000 mm rotor carries 20 sets of suspended Y-blades (40 pieces), effective on tall grass, brambles and young saplings. Cutting height is manually adjustable from 20 to 200 mm, and the floating mechanism follows the ground contour for an even cut without scalping the soil.`,
+        features: [
+          { title: "1,000 mm cutting width", text: "Height adjustable from 20 to 200 mm (manual)." },
+          { title: "Flail-type blades", text: "Suspended Y-blades, 20 sets / 40 pieces." },
+          { title: "Floating mechanism", text: "The cutting unit follows the terrain for an even finish." },
+        ],
+      },
+      {
+        title: "All-terrain tracks, built for slopes",
+        body: `The 150 mm rubber tracks grip loose, wet or uneven ground. The machine works on slopes up to 30° (and travels up to 45°), for an output of around 0.5 ha/h — ideal for maintaining embankments, orchards, parks and solar farms.`,
+        features: [
+          { title: "150 mm tracks", text: "Grip and stability on difficult ground." },
+          { title: "Steep slopes", text: "Works up to 30°, travels up to 45°." },
+          { title: "~0.5 ha/h output", text: "Travel speed 0 to 5 km/h." },
+        ],
+      },
+    ],
+    specs: [
+      { group: "Cutting", rows: [
+        { label: "Cutting width", value: "1,000 mm" },
+        { label: "Cutting height", value: "20 – 200 mm (manual adjustment)" },
+        { label: "Blade type", value: "Suspended Y-blades (flail type)" },
+        { label: "Number of blades", value: "20 sets / 40 pieces" },
+        { label: "Mechanism", value: "Floating (follows the ground)" },
+      ]},
+      { group: "Engine", rows: [
+        { label: "Brand", value: "KOOP KD195F – single-cylinder" },
+        { label: "Power", value: "15 hp" },
+        { label: "Fuel", value: "Diesel" },
+        { label: "Starting", value: "Electric" },
+      ]},
+      { group: "Travel & performance", rows: [
+        { label: "Track width", value: "150 mm" },
+        { label: "Travel speed", value: "0 – 5 km/h" },
+        { label: "Max. working slope", value: "30° (travels up to 45°)" },
+        { label: "Output", value: "≈ 0.5 ha/h" },
+        { label: "Remote range", value: "Up to 600 m" },
+      ]},
+      { group: "Dimensions & control", rows: [
+        { label: "Dimensions (L × W × H)", value: "1,560 × 1,170 × 820 mm" },
+        { label: "Net weight", value: "≈ 346 kg" },
+        { label: "Control mode", value: "Radio remote" },
+        { label: "Control voltage", value: "24 V" },
+        { label: "Recharge", value: "Built-in alternator (automatic while running)" },
+      ]},
+      { group: "Equipment & warranty", rows: [
+        { label: "Long-range remote", value: "Included (up to 600 m)" },
+        { label: "Charger", value: "Included" },
+        { label: "Tool kit", value: "Free (screwdrivers, spanners, hex keys)" },
+        { label: "Warranty", value: "24 months" },
+        { label: "Spare parts", value: "Available for 10 years" },
+      ]},
+    ],
+    images: [
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-4.webp", alt: "Sonca radio-controlled forestry mulcher — front three-quarter view, cutting head and KOOP engine" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-1.webp", alt: "Sonca radio-controlled forestry mulcher — rear three-quarter view on tracks" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-2.webp", alt: "Sonca radio-controlled forestry mulcher — overall view" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-3.webp", alt: "Sonca radio-controlled forestry mulcher — KOOP KD195F engine detail" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-5.webp", alt: "Sonca radio-controlled forestry mulcher — side view" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-6.webp", alt: "Sonca radio-controlled forestry mulcher — cutting head and tracks" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-7.webp", alt: "Sonca radio-controlled forestry mulcher — close-up of the mulching rotor" },
+    ],
+  },
+
+  // ───────────────────────── SONCA JAW CRUSHER (CONC-SONCA) ─────────────────────────
+  "CONC-SONCA": {
+    tagline: `Compact tracked jaw crusher, Koop diesel Euro 5 engine.`,
+    intro: `The Sonca jaw crusher is a compact, mobile crushing unit on tracks that recycles rubble straight on site: concrete, bricks, blocks, stone and spoil are turned into reusable aggregate, with no haulage or landfill costs. Hopper feed, hydraulic lever controls and a Koop KD1100F diesel engine compliant with the Euro 5 standard. Imported directly by CZN Machinery: 24-month warranty. Detailed technical specifications (capacity, jaw opening, dimensions) available on request.`,
+    stats: [
+      { value: "On tracks", label: "Mobile on site" },
+      { value: "Hopper", label: "Feed" },
+      { value: "Diesel Euro 5", label: "Engine" },
+      { value: "24 months", label: "Warranty" },
+    ],
+    sections: [
+      {
+        title: "Recycle your rubble straight on site",
+        body: `Instead of hauling waste away and buying fresh aggregate, crush inert waste on site — concrete, bricks, blocks, natural stone — and reuse the material as fill, sub-base or drainage. You save on haulage, landfill and new material, while reducing the footprint of the job.`,
+        features: [
+          { title: "Concrete, brick, stone", text: "Turns inert spoil into reusable aggregate." },
+          { title: "Immediate savings", text: "Less haulage, less landfill, less aggregate to buy." },
+          { title: "Hopper feed", text: "Simple loading by shovel or bucket." },
+        ],
+      },
+      {
+        title: "Compact, tracked and self-contained",
+        body: `Mounted on rubber tracks, the crusher moves right up to the work area, including tight access. Hydraulic lever controls drive travel and operation, powered by a reliable, self-contained Koop KD1100F Euro 5 diesel engine.`,
+        features: [
+          { title: "Tracked chassis", text: "Mobility and stability on rough ground." },
+          { title: "Hydraulic controls", text: "Lever operation, direct handling." },
+          { title: "Koop KD1100F engine", text: "Diesel, Euro 5 standard." },
+        ],
+      },
+    ],
+    specs: [
+      { group: "Engine", rows: [
+        { label: "Brand", value: "Koop KD1100F" },
+        { label: "Fuel", value: "Diesel" },
+        { label: "Standard", value: "Euro 5" },
+      ]},
+      { group: "General", rows: [
+        { label: "Type", value: "Jaw crusher" },
+        { label: "Mobility", value: "Rubber tracks" },
+        { label: "Feed", value: "Hopper" },
+        { label: "Control", value: "Hydraulic levers" },
+      ]},
+      { group: "Warranty", rows: [
+        { label: "Warranty", value: "24 months" },
+        { label: "Spare parts", value: "Available" },
+        { label: "Full specifications", value: "Capacity, jaw opening and dimensions on request" },
+      ]},
+    ],
+    images: [
+      { src: "/images/CONCASSEUR/concasseur-sonca-2.webp", alt: "Sonca jaw crusher — three-quarter view on tracks with discharge chute" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-1.webp", alt: "Sonca jaw crusher — front view, feed hopper" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-3.webp", alt: "Sonca jaw crusher — overall view" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-4.webp", alt: "Sonca jaw crusher — side view" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-5.webp", alt: "Sonca jaw crusher — tracked chassis detail" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-6.webp", alt: "Sonca jaw crusher — hydraulic lever controls" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-7.webp", alt: "Sonca jaw crusher — hydraulic block and engine" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-8.webp", alt: "Sonca jaw crusher — close-up of the jaw" },
+    ],
+  },
+
 };

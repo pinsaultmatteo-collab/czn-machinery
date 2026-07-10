@@ -2,11 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://czn-machinery.com/</loc><priority>1.0</priority></url>
   <url><loc>https://czn-machinery.com/accessoires/</loc><priority>0.9</priority></url>
+  <url><loc>https://czn-machinery.com/autres-engins/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/boutique/</loc><priority>0.3</priority></url>
   <url><loc>https://czn-machinery.com/cgv/</loc><priority>0.3</priority></url>
   <url><loc>https://czn-machinery.com/contact/</loc><priority>0.7</priority></url>
   <url><loc>https://czn-machinery.com/en/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/accessoires/</loc><priority>0.5</priority></url>
+  <url><loc>https://czn-machinery.com/en/autres-engins/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/cgv/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/contact/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/entreprise/</loc><priority>0.5</priority></url>
@@ -36,8 +38,10 @@
   <url><loc>https://czn-machinery.com/en/mini-tombereaux/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/occasion/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/politique-confidentialite/</loc><priority>0.5</priority></url>
+  <url><loc>https://czn-machinery.com/en/produit/CONC-SONCA/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/produit/REM-1-5T/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/produit/REM-2-7T/</loc><priority>0.5</priority></url>
+  <url><loc>https://czn-machinery.com/en/produit/SMCBF/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/produit/SMCSJ460T/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/produit/SMCSJ460W/</loc><priority>0.5</priority></url>
   <url><loc>https://czn-machinery.com/en/produit/SMCSJ490W/</loc><priority>0.5</priority></url>
@@ -82,8 +86,10 @@
   <url><loc>https://czn-machinery.com/mini-tombereaux/</loc><priority>0.9</priority></url>
   <url><loc>https://czn-machinery.com/occasion/</loc><priority>0.7</priority></url>
   <url><loc>https://czn-machinery.com/politique-confidentialite/</loc><priority>0.3</priority></url>
+  <url><loc>https://czn-machinery.com/produit/CONC-SONCA/</loc><priority>0.8</priority></url>
   <url><loc>https://czn-machinery.com/produit/REM-1-5T/</loc><priority>0.8</priority></url>
   <url><loc>https://czn-machinery.com/produit/REM-2-7T/</loc><priority>0.8</priority></url>
+  <url><loc>https://czn-machinery.com/produit/SMCBF/</loc><priority>0.8</priority></url>
   <url><loc>https://czn-machinery.com/produit/SMCSJ460T/</loc><priority>0.8</priority></url>
   <url><loc>https://czn-machinery.com/produit/SMCSJ460W/</loc><priority>0.8</priority></url>
   <url><loc>https://czn-machinery.com/produit/SMCSJ490W/</loc><priority>0.8</priority></url>

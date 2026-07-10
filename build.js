@@ -73,27 +73,28 @@ function normalize(p) {
 
 /* ── locales ──
    Tout ce qui dépend de la langue passe par l'objet L. FR = comportement historique. */
-const TYPEMAP_FR = [[/mini\s*-?\s*pelle/i, "Mini-pelle"], [/mini\s*-?\s*chargeur/i, "Mini-chargeur"], [/mini\s*-?\s*tombereau/i, "Mini-tombereau"], [/remorque/i, "Remorque"]];
-const TYPEMAP_EN = [[/mini\s*-?\s*pelle/i, "Mini excavator"], [/mini\s*-?\s*chargeur/i, "Mini loader"], [/mini\s*-?\s*tombereau/i, "Mini dumper"], [/remorque/i, "Trailer"]];
+const TYPEMAP_FR = [[/broyeur\s*forestier/i, "Broyeur forestier"], [/concasseur/i, "Concasseur"], [/mini\s*-?\s*pelle/i, "Mini-pelle"], [/mini\s*-?\s*chargeur/i, "Mini-chargeur"], [/mini\s*-?\s*tombereau/i, "Mini-tombereau"], [/remorque/i, "Remorque"]];
+const TYPEMAP_EN = [[/broyeur\s*forestier/i, "Forestry mulcher"], [/concasseur/i, "Jaw crusher"], [/mini\s*-?\s*pelle/i, "Mini excavator"], [/mini\s*-?\s*chargeur/i, "Mini loader"], [/mini\s*-?\s*tombereau/i, "Mini dumper"], [/remorque/i, "Trailer"]];
 
 const LOCALES = {
   fr: {
     lang: "fr", ogLocale: "fr_FR", prefix: "", out: "",
     DATA: DATA_FR, typeMap: TYPEMAP_FR, finance: true,
-    LABELS: { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "remorques": "Remorque", "accessoires": "Accessoire" },
-    CAT_NAME: { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "remorques": "Remorques", "accessoires": "Accessoires" },
+    LABELS: { "mini-pelles": "Mini-pelle", "mini-chargeurs": "Mini-chargeur", "mini-tombereaux": "Mini-tombereau", "remorques": "Remorque", "accessoires": "Accessoire", "autres-engins": "Engin" },
+    CAT_NAME: { "mini-pelles": "Mini-pelles", "mini-chargeurs": "Mini-chargeurs", "mini-tombereaux": "Mini-tombereaux", "remorques": "Remorques", "accessoires": "Accessoires", "autres-engins": "Autres engins" },
     PAGES: [
       { slug: "mini-pelles", file: "mini-pelles/index.html", label: "Mini-pelle", eyebrow: "01 — Terrassement", h1: "Mini-pelles <em>neuves</em>" },
       { slug: "mini-chargeurs", file: "mini-chargeurs/index.html", label: "Mini-chargeur", eyebrow: "02 — Manutention", h1: "Mini-chargeurs <em>neufs</em>" },
       { slug: "mini-tombereaux", file: "mini-tombereaux/index.html", label: "Mini-tombereau", eyebrow: "03 — Transport", h1: "Mini-tombereaux <em>neufs</em>" },
       { slug: "remorques", file: "remorques/index.html", label: "Remorque", eyebrow: "04 — Transport", h1: "Remorques <em>pro</em>" },
+      { slug: "autres-engins", file: "autres-engins/index.html", label: "Engin", eyebrow: "05 — Divers", h1: "Autres <em>engins</em>" },
     ],
     ui: {
       home: "Accueil", breadcrumb: "Fil d'Ariane", search: "Recherche", navCta: "Demander un devis",
       logoAria: "CZN Machinery - Accueil", hours: "Showroom Lun–Ven · 9h–12h / 14h–18h",
       open: "Actuellement ouvert", closed: "Actuellement fermé",
       tagFr: "Français", tagEn: "English",
-      navLinks: [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/remorques/", "Remorques"], ["/accessoires/", "Accessoires"], ["/entreprise/", "Entreprise"], ["/guides/", "Guides"], ["/contact/", "Contact"]],
+      navLinks: [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/remorques/", "Remorques"], ["/autres-engins/", "Autres engins"], ["/accessoires/", "Accessoires"], ["/entreprise/", "Entreprise"], ["/guides/", "Guides"], ["/contact/", "Contact"]],
       footTagline: "Engins de chantier importés en direct depuis 2019. Toulouse, France.",
       footCols: [
         ["Catalogue", [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/remorques/", "Remorques"], ["/accessoires/", "Accessoires"], ["/occasion/", "Occasion"]]],
@@ -122,20 +123,21 @@ const LOCALES = {
   en: {
     lang: "en", ogLocale: "en_GB", prefix: "/en", out: "en",
     DATA: DATA_EN, typeMap: TYPEMAP_EN, finance: false,
-    LABELS: { "mini-pelles": "Mini excavator", "mini-chargeurs": "Mini loader", "mini-tombereaux": "Mini dumper", "remorques": "Trailer", "accessoires": "Attachment" },
-    CAT_NAME: { "mini-pelles": "Mini excavators", "mini-chargeurs": "Mini loaders", "mini-tombereaux": "Mini dumpers", "remorques": "Trailers", "accessoires": "Attachments" },
+    LABELS: { "mini-pelles": "Mini excavator", "mini-chargeurs": "Mini loader", "mini-tombereaux": "Mini dumper", "remorques": "Trailer", "accessoires": "Attachment", "autres-engins": "Machine" },
+    CAT_NAME: { "mini-pelles": "Mini excavators", "mini-chargeurs": "Mini loaders", "mini-tombereaux": "Mini dumpers", "remorques": "Trailers", "accessoires": "Attachments", "autres-engins": "Other machines" },
     PAGES: [
       { slug: "mini-pelles", file: "en/mini-pelles/index.html", label: "Mini excavator", eyebrow: "01 — Earthworks", h1: "New <em>mini excavators</em>" },
       { slug: "mini-chargeurs", file: "en/mini-chargeurs/index.html", label: "Mini loader", eyebrow: "02 — Handling", h1: "New <em>mini loaders</em>" },
       { slug: "mini-tombereaux", file: "en/mini-tombereaux/index.html", label: "Mini dumper", eyebrow: "03 — Transport", h1: "New <em>mini dumpers</em>" },
       { slug: "remorques", file: "en/remorques/index.html", label: "Trailer", eyebrow: "04 — Transport", h1: "Pro <em>trailers</em>" },
+      { slug: "autres-engins", file: "en/autres-engins/index.html", label: "Machine", eyebrow: "05 — Various", h1: "Other <em>machines</em>" },
     ],
     ui: {
       home: "Home", breadcrumb: "Breadcrumb", search: "Search", navCta: "Request a quote",
       logoAria: "CZN Machinery - Home", hours: "Showroom Mon–Fri · 9am–12pm / 2pm–6pm",
       open: "Currently open", closed: "Currently closed",
       tagFr: "Français", tagEn: "English",
-      navLinks: [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/remorques/", "Trailers"], ["/en/accessoires/", "Attachments"], ["/en/entreprise/", "Company"], ["/en/guides/", "Guides"], ["/en/contact/", "Contact"]],
+      navLinks: [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/remorques/", "Trailers"], ["/en/autres-engins/", "Other machines"], ["/en/accessoires/", "Attachments"], ["/en/entreprise/", "Company"], ["/en/guides/", "Guides"], ["/en/contact/", "Contact"]],
       footTagline: "Construction machines imported directly since 2019. Toulouse, France.",
       footCols: [
         ["Catalogue", [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/remorques/", "Trailers"], ["/en/accessoires/", "Attachments"], ["/en/occasion/", "Used"]]],
@@ -873,6 +875,7 @@ const PUBLISH_REFS = [
   "SMTSJ05M", "SMTSJ05E", "SMTSJ05EL", "SMTSJ08EL",
   "REM-1.5T", "REM-2.7T",
   "XMPXC13P", "XMPXC15P", "XMPXC17PROV2", "XMPXC22PROV2",
+  "SMCBF", "CONC-SONCA",
 ];
 /* on garde aussi les composants d'option (roue/support) dans `all` pour calculer le prix de l'option. */
 function isPublished(ref) { return PUBLISH_REFS.includes(ref) || isOptionComponent(ref); }

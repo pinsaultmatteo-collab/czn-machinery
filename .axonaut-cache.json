@@ -284,5 +284,31 @@
     "inStock": false,
     "image": null,
     "disabled": false
+  },
+  {
+    "id": 99000001,
+    "name": "SONCA BROYEUR FORESTIER",
+    "reference": "SMCBF",
+    "brand": "Sonca",
+    "pageSlug": "autres-engins",
+    "priceHT": 4900,
+    "priceTTC": 5880,
+    "vat": 20,
+    "inStock": true,
+    "image": null,
+    "disabled": false
+  },
+  {
+    "id": 99000002,
+    "name": "SONCA CONCASSEUR",
+    "reference": "CONC-SONCA",
+    "brand": "Sonca",
+    "pageSlug": "autres-engins",
+    "priceHT": 13250,
+    "priceTTC": 15900,
+    "vat": 20,
+    "inStock": true,
+    "image": null,
+    "disabled": false
   }
 ]

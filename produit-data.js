@@ -1228,4 +1228,150 @@ module.exports = {
     ],
   },
 
+  // ───────────────────────── SONCA BROYEUR FORESTIER (SMCBF) ─────────────────────────
+  "SMCBF": {
+    tagline: `Broyeur forestier radiocommandé sur chenilles, moteur KOOP 15 CV diesel.`,
+    intro: `Le broyeur forestier Sonca est une machine chenillée entièrement radiocommandée, conçue pour débroussailler et broyer la végétation là où l'homme ne peut pas — ou ne devrait pas — intervenir : talus, fortes pentes, friches, sous-bois et fermes solaires. Piloté à distance jusqu'à 600 m, il tient l'opérateur à l'écart du danger. Son moteur diesel KOOP KD195F de 15 CV à démarrage électrique entraîne un rotor de coupe flottant de 1 000 mm équipé de couteaux type fléaux. Importé en direct par CZN Machinery : garantie 24 mois et pièces détachées disponibles 10 ans.`,
+    stats: [
+      { value: "1 000 mm", label: "Largeur de coupe" },
+      { value: "346 kg", label: "Poids net" },
+      { value: "15 CV", label: "Moteur KOOP diesel" },
+      { value: "600 m", label: "Portée radiocommande" },
+    ],
+    sections: [
+      {
+        title: "Radiocommandé jusqu'à 600 m, en toute sécurité",
+        body: `La radiocommande longue portée (jusqu'à 600 m, incluse) permet de travailler à distance des projections et des zones dangereuses. Le moteur diesel KOOP à démarrage électrique et l'alternateur intégré rechargent automatiquement la batterie 24 V de commande en fonctionnement : pas de recharge manuelle entre deux sessions.`,
+        features: [
+          { title: "Radiocommande incluse", text: "Portée longue distance jusqu'à 600 m, opérateur à l'écart du danger." },
+          { title: "Moteur KOOP KD195F", text: "Monocylindre diesel 15 CV, démarrage électrique." },
+          { title: "Recharge automatique", text: "Alternateur intégré, batterie de commande 24 V rechargée en marche." },
+        ],
+      },
+      {
+        title: "Coupe flottante 1 000 mm à couteaux type fléaux",
+        body: `Le rotor de 1 000 mm est équipé de 20 jeux de couteaux Y suspendus (40 pièces), efficaces sur l'herbe haute, les ronces et les jeunes ligneux. La hauteur de coupe se règle manuellement de 20 à 200 mm, et le mécanisme flottant suit le relief du terrain pour une coupe régulière sans scalper le sol.`,
+        features: [
+          { title: "Largeur de coupe 1 000 mm", text: "Hauteur réglable de 20 à 200 mm (réglage manuel)." },
+          { title: "Couteaux type fléaux", text: "Couteaux Y suspendus, 20 jeux / 40 pièces." },
+          { title: "Mécanisme flottant", text: "Le groupe de coupe suit le relief pour une coupe homogène." },
+        ],
+      },
+      {
+        title: "Chenilles tous terrains, spécialiste des pentes",
+        body: `Les chenilles caoutchouc de 150 mm assurent l'adhérence sur sol meuble, humide ou accidenté. La machine travaille jusqu'à 30° de pente (et se déplace jusqu'à 45°), pour un rendement d'environ 0,5 ha/h — idéale pour l'entretien des talus, vergers, parcs et fermes photovoltaïques.`,
+        features: [
+          { title: "Chenilles 150 mm", text: "Adhérence et stabilité sur terrains difficiles." },
+          { title: "Pentes fortes", text: "Travail jusqu'à 30°, déplacement jusqu'à 45°." },
+          { title: "Rendement ~0,5 ha/h", text: "Vitesse de déplacement 0 à 5 km/h." },
+        ],
+      },
+    ],
+    specs: [
+      { group: "Coupe", rows: [
+        { label: "Largeur de coupe", value: "1 000 mm" },
+        { label: "Hauteur de coupe", value: "20 – 200 mm (réglage manuel)" },
+        { label: "Type de couteaux", value: "Couteaux Y suspendus (type fléaux)" },
+        { label: "Nombre de couteaux", value: "20 jeux / 40 pièces" },
+        { label: "Mécanisme", value: "Flottant (suit le relief)" },
+      ]},
+      { group: "Moteur", rows: [
+        { label: "Marque", value: "KOOP KD195F – monocylindre" },
+        { label: "Puissance", value: "15 CV" },
+        { label: "Énergie", value: "Diesel" },
+        { label: "Démarrage", value: "Électrique" },
+      ]},
+      { group: "Déplacement & performances", rows: [
+        { label: "Largeur de chenille", value: "150 mm" },
+        { label: "Vitesse de déplacement", value: "0 – 5 km/h" },
+        { label: "Pente max. en travail", value: "30° (déplacement jusqu'à 45°)" },
+        { label: "Rendement", value: "≈ 0,5 ha/h (7,5 mu/h)" },
+        { label: "Portée de la radiocommande", value: "Jusqu'à 600 m" },
+      ]},
+      { group: "Dimensions & commande", rows: [
+        { label: "Dimensions (L × l × H)", value: "1 560 × 1 170 × 820 mm" },
+        { label: "Poids net", value: "≈ 346 kg" },
+        { label: "Mode de commande", value: "Radiocommande" },
+        { label: "Tension de commande", value: "24 V" },
+        { label: "Recharge", value: "Alternateur intégré (automatique en marche)" },
+      ]},
+      { group: "Équipement & garantie", rows: [
+        { label: "Télécommande longue portée", value: "Incluse (jusqu'à 600 m)" },
+        { label: "Chargeur", value: "Inclus" },
+        { label: "Kit d'outillage", value: "Offert (tournevis, clés, clés six pans)" },
+        { label: "Garantie", value: "24 mois" },
+        { label: "Pièces détachées", value: "Disponibles 10 ans" },
+      ]},
+    ],
+    images: [
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-4.webp", alt: "Broyeur forestier radiocommandé Sonca — vue 3/4 avant, tête de broyage et moteur KOOP" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-1.webp", alt: "Broyeur forestier radiocommandé Sonca — vue 3/4 arrière sur chenilles" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-2.webp", alt: "Broyeur forestier radiocommandé Sonca — vue d'ensemble" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-3.webp", alt: "Broyeur forestier radiocommandé Sonca — détail du moteur KOOP KD195F" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-5.webp", alt: "Broyeur forestier radiocommandé Sonca — vue de profil" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-6.webp", alt: "Broyeur forestier radiocommandé Sonca — tête de coupe et chenilles" },
+      { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-7.webp", alt: "Broyeur forestier radiocommandé Sonca — vue rapprochée du rotor de broyage" },
+    ],
+  },
+
+  // ───────────────────────── SONCA CONCASSEUR (CONC-SONCA) ─────────────────────────
+  "CONC-SONCA": {
+    tagline: `Concasseur à mâchoires compact sur chenilles, moteur Koop diesel Euro 5.`,
+    intro: `Le concasseur à mâchoires Sonca est une unité de concassage compacte et mobile, montée sur chenilles, qui recycle vos gravats directement sur le chantier : béton, briques, parpaings, pierre et déblais sont transformés en granulat réutilisable, sans coûts de transport ni de mise en décharge. Alimentation par trémie, commandes hydrauliques à leviers et moteur diesel Koop KD1100F conforme à la norme Euro 5. Importé en direct par CZN Machinery : garantie 24 mois. Spécifications techniques détaillées (capacité, ouverture des mâchoires, dimensions) communiquées sur demande.`,
+    stats: [
+      { value: "Sur chenilles", label: "Mobile sur chantier" },
+      { value: "Trémie", label: "Alimentation" },
+      { value: "Diesel Euro 5", label: "Motorisation" },
+      { value: "24 mois", label: "Garantie" },
+    ],
+    sections: [
+      {
+        title: "Recyclez vos gravats directement sur le chantier",
+        body: `Plutôt que d'évacuer et d'acheter du granulat, concassez sur place vos déchets inertes — béton, briques, parpaings, pierre naturelle — et réutilisez le matériau en remblai, sous-couche ou drainage. Vous économisez le transport, la décharge et l'achat de matériaux neufs, tout en réduisant l'empreinte du chantier.`,
+        features: [
+          { title: "Béton, brique, pierre", text: "Transforme les déblais inertes en granulat réutilisable." },
+          { title: "Économies immédiates", text: "Moins de transport, moins de décharge, moins d'achat de granulat." },
+          { title: "Alimentation par trémie", text: "Chargement simple à la pelle ou au godet." },
+        ],
+      },
+      {
+        title: "Compact, chenillé et autonome",
+        body: `Monté sur chenilles caoutchouc, le concasseur se déplace au plus près de la zone de travail, y compris dans les accès étroits. Les commandes hydrauliques à leviers pilotent le déplacement et le fonctionnement, entraînés par un moteur diesel Koop KD1100F Euro 5 fiable et autonome sur le terrain.`,
+        features: [
+          { title: "Châssis chenillé", text: "Mobilité et stabilité sur sol accidenté." },
+          { title: "Commandes hydrauliques", text: "Pilotage par leviers, prise en main directe." },
+          { title: "Moteur Koop KD1100F", text: "Diesel, norme Euro 5." },
+        ],
+      },
+    ],
+    specs: [
+      { group: "Moteur", rows: [
+        { label: "Marque", value: "Koop KD1100F" },
+        { label: "Énergie", value: "Diesel" },
+        { label: "Norme", value: "Euro 5" },
+      ]},
+      { group: "Caractéristiques générales", rows: [
+        { label: "Type", value: "Concasseur à mâchoires" },
+        { label: "Mobilité", value: "Chenilles caoutchouc" },
+        { label: "Alimentation", value: "Trémie" },
+        { label: "Commande", value: "Hydraulique à leviers" },
+      ]},
+      { group: "Garantie", rows: [
+        { label: "Garantie", value: "24 mois" },
+        { label: "Pièces détachées", value: "Disponibles" },
+        { label: "Spécifications complètes", value: "Capacité, ouverture des mâchoires et dimensions sur demande" },
+      ]},
+    ],
+    images: [
+      { src: "/images/CONCASSEUR/concasseur-sonca-2.webp", alt: "Concasseur à mâchoires Sonca — vue 3/4 sur chenilles avec goulotte d'évacuation" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-1.webp", alt: "Concasseur à mâchoires Sonca — vue de face, trémie d'alimentation" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-3.webp", alt: "Concasseur à mâchoires Sonca — vue d'ensemble" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-4.webp", alt: "Concasseur à mâchoires Sonca — vue latérale" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-5.webp", alt: "Concasseur à mâchoires Sonca — détail du châssis chenillé" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-6.webp", alt: "Concasseur à mâchoires Sonca — commandes hydrauliques à leviers" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-7.webp", alt: "Concasseur à mâchoires Sonca — bloc hydraulique et moteur" },
+      { src: "/images/CONCASSEUR/concasseur-sonca-8.webp", alt: "Concasseur à mâchoires Sonca — vue rapprochée de la mâchoire" },
+    ],
+  },
+
 };
