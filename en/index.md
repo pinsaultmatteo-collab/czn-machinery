@@ -103,6 +103,88 @@ Delivery in France included · Sofinco financing available
 No.1
 in sales
 
+New arrivals
+
+## Our latest arrivals.
+
+In stock
+
+Sonca
+
+### SJW-06 mini excavator
+
+660 kg
+Weight
+
+Car licence
+Transport
+
+8.5 hp
+Engine
+
+From
+4 125 €
+excl. VAT · delivery extra
+
+New
+
+Sonca
+
+### Forestry mulcher
+
+1,000 mm
+Cut
+
+346 kg
+Weight
+
+15 hp
+Engine
+
+From
+4 900 €
+excl. VAT · delivery extra
+
+New
+
+Sonca
+
+### Jaw crusher
+
+Tracks
+Mobility
+
+Hopper
+Feed
+
+Euro 5
+Diesel engine
+
+From
+13 250 €
+excl. VAT · delivery extra
+
+In stock
+
+Trailer
+
+### 2.7 t trailer
+
+2,700 kg
+GVW
+
+2,178 kg
+Payload
+
+Twin
+Axle
+
+From
+3 490 €
+excl. VAT · delivery extra
+
+[See other machines](/en/autres-engins/)
+
 Our story
 
 ## Six years equippingFrench job sites.
