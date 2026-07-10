@@ -11,6 +11,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 const ROOT = process.cwd();
 const SITE = "https://czn-machinery.com";
 
@@ -80,9 +81,28 @@ const pages = findPages(ROOT)
   .sort((a, b) => a.url.localeCompare(b.url));
 
 /* ── 5. sitemap.xml ── */
+/* lastmod : date du dernier commit git de la page (signal de fraîcheur pour Google).
+   Les fichiers modifiés/non commités renvoient la date du jour ; fallback = mtime. */
+const TODAY = new Date().toISOString().slice(0, 10);
+const DIRTY = (() => {
+  try {
+    return new Set(execSync("git status --porcelain", { encoding: "utf8" })
+      .split("\n").map((l) => l.slice(3).trim()).filter(Boolean)
+      .map((rel) => path.resolve(ROOT, rel)));
+  } catch { return new Set(); }
+})();
+function lastmod(file) {
+  if (DIRTY.has(path.resolve(file))) return TODAY;
+  try {
+    const d = execSync(`git log -1 --format=%cs -- "${path.relative(ROOT, file)}"`,
+      { encoding: "utf8", stdio: ["pipe", "pipe", "ignore"] }).trim();
+    if (d) return d;
+  } catch { /* fichier non suivi : on retombe sur mtime */ }
+  try { return new Date(fs.statSync(file).mtime).toISOString().slice(0, 10); } catch { return TODAY; }
+}
 function priority(u) {
   if (u === "/") return "1.0";
-  if (/^\/(mini-pelles|mini-chargeurs|mini-tombereaux|remorques|accessoires)\/$/.test(u)) return "0.9";
+  if (/^\/(mini-pelles|mini-chargeurs|mini-tombereaux|remorques|accessoires|autres-engins)\/$/.test(u)) return "0.9";
   if (/^\/produit\//.test(u)) return "0.8";
   if (u === "/guides/") return "0.7";
   if (/^\/guides\//.test(u)) return "0.6";
@@ -92,7 +112,7 @@ function priority(u) {
   return "0.5";
 }
 const sitemap = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n`
-  + pages.map((p) => `  <url><loc>${SITE}${p.url}</loc><priority>${priority(p.url)}</priority></url>`).join("\n")
+  + pages.map((p) => `  <url><loc>${SITE}${p.url}</loc><lastmod>${lastmod(p.file)}</lastmod><priority>${priority(p.url)}</priority></url>`).join("\n")
   + `\n</urlset>\n`;
 fs.writeFileSync("sitemap.xml", sitemap);
 
