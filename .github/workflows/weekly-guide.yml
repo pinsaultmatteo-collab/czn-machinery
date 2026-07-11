@@ -1,0 +1,69 @@
+# 📁 /.github/workflows/weekly-guide.yml
+#
+# Publie automatiquement 1 guide SEO (FR) sur /guides/ chaque MARDI à 09:00 (heure de Paris).
+# Rédaction par l'API Claude, assemblage dans le template du site, MAJ index + sitemap, puis push.
+# Vercel redéploie automatiquement après le push.
+#
+# ⚠️ Prérequis — ajouter la clé API Anthropic en secret :
+#    GitHub → Settings → Secrets and variables → Actions → New repository secret
+#    Nom : ANTHROPIC_API_KEY   Valeur : ta clé (sk-ant-...)
+#
+# Sujets : gérés dans scripts/guides-queue.json (le script prend le 1er non publié).
+# Test manuel : onglet Actions → "Guide SEO hebdomadaire" → Run workflow.
+
+name: Guide SEO hebdomadaire
+
+on:
+  schedule:
+    # GitHub cron est en UTC. Double horaire pour couvrir l'heure d'été/hiver :
+    - cron: "0 7 * * 2"   # 09:00 Paris en été (CEST)
+    - cron: "0 8 * * 2"   # 09:00 Paris en hiver (CET)
+  workflow_dispatch: {}    # bouton "Run workflow" pour tester à la main
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Garde 09:00 Paris (une seule exécution par mardi)
+        id: guard
+        run: |
+          H=$(TZ=Europe/Paris date +%H)
+          echo "Heure Paris : $H"
+          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$H" != "09" ]; then
+            echo "Pas 09h à Paris — on saute cette exécution."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.guard.outputs.skip != 'true'
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        if: steps.guard.outputs.skip != 'true'
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Générer le guide
+        if: steps.guard.outputs.skip != 'true'
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-guide.mjs
+
+      - name: Committer & pousser
+        if: steps.guard.outputs.skip != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Rien à publier."
+          else
+            git commit -m "Guides : nouveau guide hebdomadaire (auto, $(TZ=Europe/Paris date +%Y-%m-%d))"
+            git push
+          fi
