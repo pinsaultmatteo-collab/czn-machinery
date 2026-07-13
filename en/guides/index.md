@@ -1,6 +1,6 @@
 # Mini excavator guides: advice, maintenance & regulations
 
-> 18 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
+> 19 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -18,9 +18,9 @@ Guides & resources
 
 # Everything to know beforebuying your machine.
 
-18 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
+19 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
 
-18
+19
 Practical guides
 
 6 years
@@ -50,6 +50,7 @@ Practical advice
 [16Comparisons Laidong or Kubota engine on a mini excavator? An objective comparison of both engines: reliability, maintenance, parts, cost. At CZN, both are available. Read the guide →](/en/guides/moteur-laidong-ou-kubota-mini-pelle/)
 [17Used Selling a used mini excavator Estimate its value, set the right price, where to sell and how to give your machine a second life. Read the guide →](/en/guides/revendre-mini-pelle-occasion/)
 [18Rental Mini excavator rental: the complete guide Daily rates, what's included, licences, transport — and the point where buying becomes smarter. Read the guide →](/en/guides/location-mini-pelle/)
+[19Uses Digging a service trench with a mini excavator How to dig a trench with a mini excavator: bucket width, depth by utility (water, power, drainage), recommended weight and safety. A CZN Machinery guide. Read the guide →](/en/guides/mini-pelle-tranchee-reseaux/)
 
 ## A technical question?
 
