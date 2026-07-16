@@ -5553,3 +5553,20 @@ body.drawer-locked { overflow: hidden; }
 @media (max-width: 900px) {
   .page-entreprise .page-hero--media .hero-split-img { display: block; }
 }
+
+/* ── Numéros de téléphone cliquables (bloc showroom/SAV + FAQ) : affordance "bouton" ── */
+.phone-cta{
+  display:inline-block;
+  color:var(--orange);
+  text-decoration:none;
+  font-weight:600;
+  white-space:nowrap;
+  transition:transform .16s ease, color .16s ease;
+}
+.phone-cta:hover, .phone-cta:focus-visible{
+  transform:scale(1.06);
+  color:#c9640f;
+}
+/* Dans le bloc Showroom (valeur "Téléphone") : couleur héritée au repos, orange au survol */
+.loc-value .phone-cta{ color:inherit; font-weight:inherit; }
+.loc-value .phone-cta:hover, .loc-value .phone-cta:focus-visible{ color:var(--orange); }
