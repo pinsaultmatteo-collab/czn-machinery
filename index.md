@@ -421,7 +421,7 @@ Une équipe joignable en français, du lundi au vendredi. Intervention sur site 
 
 ### Livraison 5 jours
 
-Partout en France métropolitaine, sur porte-engin spécialisé. Tarif fixe et transparent selon 6 zones, dès 500 € HT.
+Partout en France métropolitaine, sur porte-engin spécialisé. Tarif fixe et transparent selon 6 zones, dès 250 € HT.
 
 06
 
@@ -495,31 +495,31 @@ Spécialisé
 
 Tarif livraison par zone
 
-+ 180 € HT pour les zones de montagne
++ 90 € HT pour les zones de montagne
 
 Zone 1
 
-500 € HT
+250 € HT
 
 Zone 2
 
-700 € HT
+350 € HT
 
 Zone 3
 
-900 € HT
+450 € HT
 
 Zone 4
 
-960 € HT
+480 € HT
 
 Zone 5
 
-880 € HT
+440 € HT
 
 Zone 6
 
-960 € HT
+480 € HT
 
 Corse & autres pays européens
 

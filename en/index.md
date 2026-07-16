@@ -419,7 +419,7 @@ A team reachable in French, Monday to Friday. On-site service available, or retu
 
 ### Delivery 5 jours
 
-Anywhere in mainland France, on a specialised plant trailer. Fixed, transparent pricing across 6 zones, from €500 excl. VAT.
+Anywhere in mainland France, on a specialised plant trailer. Fixed, transparent pricing across 6 zones, from €250 excl. VAT.
 
 06
 
@@ -491,31 +491,31 @@ Specialised
 
 Delivery price by zone
 
-+ €180 excl. VAT for mountain zones
++ €90 excl. VAT for mountain zones
 
 Zone 1
 
-500 € excl. VAT
+250 € excl. VAT
 
 Zone 2
 
-700 € excl. VAT
+350 € excl. VAT
 
 Zone 3
 
-900 € excl. VAT
+450 € excl. VAT
 
 Zone 4
 
-960 € excl. VAT
+480 € excl. VAT
 
 Zone 5
 
-880 € excl. VAT
+440 € excl. VAT
 
 Zone 6
 
-960 € excl. VAT
+480 € excl. VAT
 
 Corsica & other European countries
 
