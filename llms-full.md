@@ -600,7 +600,7 @@ Fermé samedi & dimanche
 
 Téléphone
 
-+33 5 31 60 51 61
+[+33 5 31 60 51 61](tel:+33531605161)
 
 [Ouvrir dans Google Maps](https://maps.google.com/?q=11+Impasse+Pierre+Camo,+31200+Toulouse)
 
@@ -609,7 +609,7 @@ Questions fréquentes
 ## Ce que vous voulez savoir.
 
 Les réponses aux questions qui reviennent le plus souvent. Une question hors liste ?
-Notre équipe répond directement au 05 31 60 51 61.
+Notre équipe répond directement au [05 31 60 51 61](tel:+33531605161).
 
 Quel est le délai de livraison après commande ?
 
@@ -640,7 +640,7 @@ Pour le même travail, vous payez 35 à 50% moins cher.
 Puis-je essayer la machine avant d'acheter ?
 
 Notre showroom de Toulouse (11 impasse Pierre Camo, 31200) accueille sur rendez-vous, du lundi au vendredi.
-Démonstration sur les machines en stock possible. Réservation au 05 31 60 51 61 ou par formulaire de contact.
+Démonstration sur les machines en stock possible. Réservation au [05 31 60 51 61](tel:+33531605161) ou par formulaire de contact.
 
 ## Prêt à équiper votre chantier ?
 

@@ -583,7 +583,7 @@ Closed Saturday & Sunday
 
 Phone
 
-+33 5 31 60 51 61
+[+33 5 31 60 51 61](tel:+33531605161)
 
 [Open in Google Maps](https://maps.google.com/?q=11+Impasse+Pierre+Camo,+31200+Toulouse)
 
@@ -591,7 +591,7 @@ Frequently asked questions
 
 ## What you want to know.
 
-Answers to the questions that come up most often. A question that's not listed? Our team answers directly on 05 31 60 51 61.
+Answers to the questions that come up most often. A question that's not listed? Our team answers directly on [05 31 60 51 61](tel:+33531605161).
 
 What is the delivery lead time after ordering?
 
@@ -615,7 +615,7 @@ Our machines are fitted with proven engines (Yanmar, Kubota, Cummins) and top-ti
 
 Can I try the machine before buying?
 
-Our Toulouse showroom (11 impasse Pierre Camo, 31200) welcomes visitors by appointment, Monday to Friday. Demonstrations on in-stock machines are possible. Book on 05 31 60 51 61 or via the contact form.
+Our Toulouse showroom (11 impasse Pierre Camo, 31200) welcomes visitors by appointment, Monday to Friday. Demonstrations on in-stock machines are possible. Book on [05 31 60 51 61](tel:+33531605161) or via the contact form.
 
 ## Ready to equip your job site?
 
