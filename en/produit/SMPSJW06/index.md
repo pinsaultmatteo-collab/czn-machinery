@@ -105,7 +105,7 @@ Quick hitch, ditching bucket, ripper tooth, grab thumb, rake: adapt the machine 
 
 **Power** : 6.8 kW (8.5 hp)
 
-**Fuel** : Diesel Euro 5
+**Fuel** : Petrol Euro 5
 
 **Hydraulic pump** : Gear Pump 3+3
 

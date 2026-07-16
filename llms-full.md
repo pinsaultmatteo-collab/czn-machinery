@@ -7034,7 +7034,7 @@ Attache rapide, godet de curage, dent ripper, pouce de manutention, râteau : ad
 
 **Puissance** : 6,8 kW (8,5 CV)
 
-**Énergie** : Diesel Euro 5
+**Énergie** : Essence Euro 5
 
 **Pompe hydraulique** : Gear Pump 3+3
 

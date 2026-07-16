@@ -61,7 +61,7 @@ module.exports = {
       { group: "Drivetrain & engine", rows: [
         { label: "Engine", value: "Longxin G300FD" },
         { label: "Power", value: "6.8 kW (8.5 hp)" },
-        { label: "Fuel", value: "Diesel Euro 5" },
+        { label: "Fuel", value: "Petrol Euro 5" },
         { label: "Hydraulic pump", value: "Gear Pump 3+3" },
         { label: "Pump flow rate", value: "21.6 L/min" },
         { label: "System pressure", value: "16 MPa" },
