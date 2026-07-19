@@ -15,6 +15,8 @@ let DATA_FR = {};
 try { DATA_FR = require("./produit-data.js"); } catch (e) { DATA_FR = {}; }
 let DATA_EN = {};
 try { DATA_EN = require("./produit-data.en.js"); } catch (e) { DATA_EN = {}; }
+let DATA_ES = {};
+try { DATA_ES = require("./produit-data.es.js"); } catch (e) { DATA_ES = {}; }
 
 const SITE = "https://czn-machinery.com";
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
@@ -75,6 +77,7 @@ function normalize(p) {
    Tout ce qui dépend de la langue passe par l'objet L. FR = comportement historique. */
 const TYPEMAP_FR = [[/broyeur\s*forestier/i, "Broyeur forestier"], [/concasseur/i, "Concasseur"], [/mini\s*-?\s*pelle/i, "Mini-pelle"], [/mini\s*-?\s*chargeur/i, "Mini-chargeur"], [/mini\s*-?\s*tombereau/i, "Mini-tombereau"], [/remorque/i, "Remorque"]];
 const TYPEMAP_EN = [[/broyeur\s*forestier/i, "Forestry mulcher"], [/concasseur/i, "Jaw crusher"], [/mini\s*-?\s*pelle/i, "Mini excavator"], [/mini\s*-?\s*chargeur/i, "Mini loader"], [/mini\s*-?\s*tombereau/i, "Mini dumper"], [/remorque/i, "Trailer"]];
+const TYPEMAP_ES = [[/broyeur\s*forestier/i, "Trituradora forestal"], [/concasseur/i, "Trituradora de mandíbulas"], [/mini\s*-?\s*pelle/i, "Miniexcavadora"], [/mini\s*-?\s*chargeur/i, "Minicargadora"], [/mini\s*-?\s*tombereau/i, "Minidúmper"], [/remorque/i, "Remolque"]];
 
 const LOCALES = {
   fr: {
@@ -93,7 +96,7 @@ const LOCALES = {
       home: "Accueil", breadcrumb: "Fil d'Ariane", search: "Recherche", navCta: "Demander un devis",
       logoAria: "CZN Machinery - Accueil", hours: "Showroom Lun–Ven · 9h–12h / 14h–18h",
       open: "Actuellement ouvert", closed: "Actuellement fermé",
-      tagFr: "Français", tagEn: "English",
+      tagFr: "Français", tagEn: "English", tagEs: "Español",
       navLinks: [["/mini-pelles/", "Mini-pelles"], ["/mini-chargeurs/", "Mini-chargeurs"], ["/mini-tombereaux/", "Mini-tombereaux"], ["/remorques/", "Remorques"], ["/autres-engins/", "Autres engins"], ["/accessoires/", "Accessoires"], ["/entreprise/", "Entreprise"], ["/guides/", "Guides"], ["/contact/", "Contact"]],
       footTagline: "Engins de chantier importés en direct depuis 2019. Toulouse, France.",
       footCols: [
@@ -136,7 +139,7 @@ const LOCALES = {
       home: "Home", breadcrumb: "Breadcrumb", search: "Search", navCta: "Request a quote",
       logoAria: "CZN Machinery - Home", hours: "Showroom Mon–Fri · 9am–12pm / 2pm–6pm",
       open: "Currently open", closed: "Currently closed",
-      tagFr: "Français", tagEn: "English",
+      tagFr: "Français", tagEn: "English", tagEs: "Español",
       navLinks: [["/en/mini-pelles/", "Mini excavators"], ["/en/mini-chargeurs/", "Mini loaders"], ["/en/mini-tombereaux/", "Mini dumpers"], ["/en/remorques/", "Trailers"], ["/en/autres-engins/", "Other machines"], ["/en/accessoires/", "Attachments"], ["/en/entreprise/", "Company"], ["/en/guides/", "Guides"], ["/en/contact/", "Contact"]],
       footTagline: "Construction machines imported directly since 2019. Toulouse, France.",
       footCols: [
@@ -160,6 +163,46 @@ const LOCALES = {
       pmcPrefix: "Website designed &amp; built by", pmcSub: "Digital &amp; AI agency · Toulouse", pmcAria: "PMC Marketing — Digital &amp; AI agency, Toulouse",
     },
   },
+  es: {
+    lang: "es", ogLocale: "es_ES", prefix: "/es", out: "es",
+    DATA: DATA_ES, typeMap: TYPEMAP_ES, finance: false,
+    LABELS: { "mini-pelles": "Miniexcavadora", "mini-chargeurs": "Minicargadora", "mini-tombereaux": "Minidúmper", "remorques": "Remolque", "accessoires": "Accesorio", "autres-engins": "Máquina" },
+    CAT_NAME: { "mini-pelles": "Miniexcavadoras", "mini-chargeurs": "Minicargadoras", "mini-tombereaux": "Minidúmpers", "remorques": "Remolques", "accessoires": "Accesorios", "autres-engins": "Otras máquinas" },
+    PAGES: [
+      { slug: "mini-pelles", file: "es/mini-pelles/index.html", label: "Miniexcavadora", eyebrow: "01 — Movimiento de tierras", h1: "Miniexcavadoras <em>nuevas</em>" },
+      { slug: "mini-chargeurs", file: "es/mini-chargeurs/index.html", label: "Minicargadora", eyebrow: "02 — Manipulación", h1: "Minicargadoras <em>nuevas</em>" },
+      { slug: "mini-tombereaux", file: "es/mini-tombereaux/index.html", label: "Minidúmper", eyebrow: "03 — Transporte", h1: "Minidúmpers <em>nuevos</em>" },
+      { slug: "remorques", file: "es/remorques/index.html", label: "Remolque", eyebrow: "04 — Transporte", h1: "Remolques <em>profesionales</em>" },
+      { slug: "autres-engins", file: "es/autres-engins/index.html", label: "Máquina", eyebrow: "05 — Varios", h1: "Otras <em>máquinas</em>" },
+    ],
+    ui: {
+      home: "Inicio", breadcrumb: "Ruta de navegación", search: "Buscar", navCta: "Solicitar presupuesto",
+      logoAria: "CZN Machinery - Inicio", hours: "Showroom Lun–Vie · 9h–12h / 14h–18h",
+      open: "Abierto ahora", closed: "Cerrado ahora",
+      tagFr: "Français", tagEn: "English", tagEs: "Español",
+      navLinks: [["/es/mini-pelles/", "Miniexcavadoras"], ["/es/mini-chargeurs/", "Minicargadoras"], ["/es/mini-tombereaux/", "Minidúmpers"], ["/es/remorques/", "Remolques"], ["/es/autres-engins/", "Otras máquinas"], ["/es/accessoires/", "Accesorios"], ["/es/entreprise/", "Empresa"], ["/es/guides/", "Guías"], ["/es/contact/", "Contacto"]],
+      footTagline: "Maquinaria de construcción importada directamente desde 2019. Toulouse, Francia.",
+      footCols: [
+        ["Catálogo", [["/es/mini-pelles/", "Miniexcavadoras"], ["/es/mini-chargeurs/", "Minicargadoras"], ["/es/mini-tombereaux/", "Minidúmpers"], ["/es/remorques/", "Remolques"], ["/es/accessoires/", "Accesorios"], ["/es/occasion/", "Ocasión"]]],
+        ["Comprar", [["/es/entreprise/financement/", "Financiación"], ["/es/contact/", "Solicitar presupuesto"], ["/es/#livraison", "Envíos en Francia"], ["/es/#avis", "Opiniones de clientes"]]],
+        ["Recursos", [["/es/guides/", "Todas las guías"], ["/es/guides/comment-choisir-mini-pelle/", "Cómo elegir"], ["/es/guides/prix-mini-pelle/", "Precio miniexcavadora"], ["/es/guides/caces-mini-pelle/", "CACES y permisos"]]],
+        ["Empresa", [["/es/entreprise/", "Quiénes somos"], ["/es/entreprise/financement/", "Financiación"], ["/es/contact/", "Contacto"], ["mailto:contact@czn-machinery.com", "contact@czn-machinery.com"], ["tel:+33531605161", "05 31 60 51 61"]]],
+      ],
+      footLegal: [["/es/mentions-legales/", "Aviso legal"], ["/es/cgv/", "Condiciones de venta"], ["/es/politique-confidentialite/", "Política de privacidad"]],
+      inStock: "En stock", onOrder: "Bajo pedido", from: "Desde", priceSuffix: "sin IVA · envío no incluido",
+      priceWord: "Precio", onQuote: "Bajo presupuesto", cardAria: "Ver la ficha ",
+      ht: "sin IVA", ttcWord: (v) => `es decir ${v} € con IVA`, titleFrom: (p) => ` desde ${p} € sin IVA`,
+      requestQuote: "Solicitar presupuesto", warranty2y: "✓ Garantía 2 años", deliveryFr: "✓ Envíos en Francia", directImporter: "✓ Importador directo",
+      techSpecs: "Características técnicas", specsEmpty: 'Ficha técnica detallada disponible bajo petición — <a href="/es/contact/">contáctenos</a>.',
+      ctaInterested: (n) => `¿Le interesa la ${n}?`, ctaBody: "Solicite su presupuesto personalizado — respuesta rápida, asesoramiento sin compromiso.",
+      itemListName: (label) => `${label}s CZN Machinery`,
+      devisMsg: (name, ref) => `Hola, quisiera un presupuesto para la ${name}${ref ? ` (ref. ${ref})` : ""}. Gracias por ponerse en contacto conmigo.`,
+      introDefault: (name, label, brand) => `${name} — ${label.toLowerCase()} ${brand || ""} de importación directa de CZN Machinery. Garantía de 2 años, envíos a toda Francia.`,
+      continueVisit: "Continuar la visita", exploreRange: "Explore el resto de <em>la gama</em>.",
+      photoSoon: "Foto próximamente", visualsSoon: "Imágenes próximamente", optionTitle: "Opción para añadir",
+      pmcPrefix: "Sitio web diseñado &amp; desarrollado por", pmcSub: "Agencia digital &amp; IA · Toulouse", pmcAria: "PMC Marketing — Agencia digital &amp; IA, Toulouse",
+    },
+  },
 };
 function catPath(L, slug) { return L.prefix + "/" + slug + "/"; }
 
@@ -181,15 +224,17 @@ const altSlugUrl = (ref, prefix) => prefix + "/produit/" + urlSlug(ref) + "/";
 /* ── chrome (sans panier — e-commerce retiré) ── */
 const FLAG_FR = `<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#0055A4"/><rect x="2" width="1" height="2" fill="#EF4135"/></svg>`;
 const FLAG_EN = `<svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><clipPath id="ukc"><rect width="60" height="30"/></clipPath><clipPath id="uks"><path d="M30 15 60 0v0h-4L30 12.5zM30 15 0 30h4L30 17.5zM30 15 0 0h4L30 12.5zM30 15 60 30h-4L30 17.5z"/></clipPath><g clip-path="url(#ukc)"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M0 0 60 30M60 0 0 30" clip-path="url(#uks)" stroke="#C8102E" stroke-width="4"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></g></svg>`;
-function langSwitch(L, frUrl, enUrl) {
+const FLAG_ES = `<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#AA151B"/><rect y=".5" width="3" height="1" fill="#F1BF00"/></svg>`;
+function langSwitch(L, frUrl, enUrl, esUrl) {
   const frA = `<a href="${frUrl}" class="lang${L.lang === "fr" ? " active" : ""}" hreflang="fr" aria-label="${L.ui.tagFr}">${FLAG_FR}<span>FR</span></a>`;
   const enA = `<a href="${enUrl}" class="lang${L.lang === "en" ? " active" : ""}" hreflang="en" aria-label="${L.ui.tagEn}">${FLAG_EN}<span>EN</span></a>`;
-  return `<span class="util-langs">${frA}${enA}</span>`;
+  const esA = `<a href="${esUrl}" class="lang${L.lang === "es" ? " active" : ""}" hreflang="es-ES" aria-label="${L.ui.tagEs}">${FLAG_ES}<span>ES</span></a>`;
+  return `<span class="util-langs">${frA}${enA}${esA}</span>`;
 }
-function utilityBar(L, frUrl, enUrl) {
+function utilityBar(L, frUrl, enUrl, esUrl) {
   return `<div class="utility-bar"><div class="container">
   <div class="utility-left"><span>📍 Toulouse, France</span><span class="util-divider"></span><span class="util-hours">${L.ui.hours}</span><span class="status-pill is-closed" id="openStatus" aria-live="polite"><span class="status-dot"></span><span class="status-text">—</span></span></div>
-  <div class="utility-right"><a href="tel:+33531605161" class="util-phone"><svg class="util-phone-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg><span>+33 5 31 60 51 61</span></a><span class="util-divider"></span>${langSwitch(L, frUrl, enUrl)}</div>
+  <div class="utility-right"><a href="tel:+33531605161" class="util-phone"><svg class="util-phone-ic" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg><span>+33 5 31 60 51 61</span></a><span class="util-divider"></span>${langSwitch(L, frUrl, enUrl, esUrl)}</div>
 </div></div>
 <script>(function(){function r(){var el=document.getElementById('openStatus');if(!el)return;var p=new Intl.DateTimeFormat('en-GB',{timeZone:'Europe/Paris',weekday:'short',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());var m={};p.forEach(function(x){m[x.type]=x.value;});var mn=parseInt(m.hour,10)*60+parseInt(m.minute,10);var o=['Mon','Tue','Wed','Thu','Fri'].indexOf(m.weekday)>=0&&(mn>=540&&mn<1080);el.classList.toggle('is-open',o);el.classList.toggle('is-closed',!o);var t=el.querySelector('.status-text');if(t)t.textContent=o?'${L.ui.open}':'${L.ui.closed}';}r();setInterval(r,60000);})();</script>`;
 }
@@ -245,8 +290,8 @@ ${pmc}
 
 const HEAD_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">`;
 const FAVICONS = `<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">`;
-function hreflangLinks(frUrl, enUrl) {
-  return `<link rel="alternate" hreflang="fr" href="${SITE}${frUrl}"><link rel="alternate" hreflang="en" href="${SITE}${enUrl}"><link rel="alternate" hreflang="x-default" href="${SITE}${frUrl}">`;
+function hreflangLinks(frUrl, enUrl, esUrl) {
+  return `<link rel="alternate" hreflang="fr" href="${SITE}${frUrl}"><link rel="alternate" hreflang="en" href="${SITE}${enUrl}"><link rel="alternate" hreflang="es-ES" href="${SITE}${esUrl}"><link rel="alternate" hreflang="x-default" href="${SITE}${frUrl}">`;
 }
 
 /* ── catalogue (cartes + JSON-LD entre marqueurs) ── */
@@ -569,7 +614,7 @@ function productPageHTML(p, L) {
   const optionScript = hasOption ? `(function(){var o=document.querySelector('.pdp-option');if(!o)return;var base=parseFloat(o.dataset.base)||0,add=parseFloat(o.dataset.opt)||0;var c=document.getElementById('pdpOptCheck'),v=document.getElementById('pdpPrice');function f(n){return String(Math.round(n)).replace(/\\B(?=(\\d{3})+(?!\\d))/g,'\\u2009');}function u(){if(v)v.textContent=f(base+(c.checked?add:0))+' \\u20ac';}c.addEventListener('change',u);})();` : "";
   const metaDesc = intro.slice(0, 158);
   const devisUrl = L.prefix + "/contact/?topic=devis&msg=" + encodeURIComponent(L.ui.devisMsg(name, p.reference));
-  const frUrl = altSlugUrl(p.reference, ""), enUrl = altSlugUrl(p.reference, "/en");
+  const frUrl = altSlugUrl(p.reference, ""), enUrl = altSlugUrl(p.reference, "/en"), esUrl = altSlugUrl(p.reference, "/es");
   const finB = L.finance ? finBase(p) : 0;
   const finM = finB ? finMonthly(finB, FIN_DEFAULT_MONTHS) : null;
   const finBlock = (finB > 0 && finM) ? `
@@ -592,7 +637,7 @@ function productPageHTML(p, L) {
 ${FAVICONS}
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}${slugUrl(p.reference, L)}">
-${hreflangLinks(frUrl, enUrl)}
+${hreflangLinks(frUrl, enUrl, esUrl)}
 <meta property="og:title" content="${esc(name)} ${esc(p.brand || "")} | CZN Machinery"><meta property="og:description" content="${esc(metaDesc)}"><meta property="og:type" content="product"><meta property="og:url" content="${SITE}${slugUrl(p.reference, L)}"><meta property="og:locale" content="${L.ogLocale}"><meta property="og:site_name" content="CZN Machinery">
 ${HEAD_FONTS}
 <link rel="stylesheet" href="/styles.css">
@@ -686,7 +731,7 @@ function getFbp(){return getCookie('_fbp');}
 </script>
 </head>
 <body>
-${utilityBar(L, frUrl, enUrl)}
+${utilityBar(L, frUrl, enUrl, esUrl)}
 ${nav(L)}
 <main class="pdp"><div class="container">
   <nav class="pdp-crumbs" aria-label="${L.ui.breadcrumb}"><a href="${L.prefix ? L.prefix + "/" : "/"}">${L.ui.home}</a> &nbsp;/&nbsp; <a href="${cPath}">${catName}</a> &nbsp;/&nbsp; <span>${esc(name)}</span></nav>
@@ -762,7 +807,7 @@ ${cross}
 function categoryShellHTML(page, L) {
   const name = L.CAT_NAME[page.slug] || page.label + "s";
   const cPath = catPath(L, page.slug);
-  const frUrl = "/" + page.slug + "/", enUrl = "/en/" + page.slug + "/";
+  const frUrl = "/" + page.slug + "/", enUrl = "/en/" + page.slug + "/", esUrl = "/es/" + page.slug + "/";
   return `<!DOCTYPE html>
 <html lang="${L.lang}">
 <head>
@@ -773,7 +818,7 @@ function categoryShellHTML(page, L) {
 ${FAVICONS}
 <meta name="robots" content="index, follow">
 <link rel="canonical" href="${SITE}${cPath}">
-${hreflangLinks(frUrl, enUrl)}
+${hreflangLinks(frUrl, enUrl, esUrl)}
 ${HEAD_FONTS}
 <link rel="stylesheet" href="/styles.css">
 <!-- JSONLD:START --><!-- JSONLD:END -->
@@ -813,7 +858,7 @@ function getFbp(){return getCookie('_fbp');}
 </script>
 </head>
 <body>
-${utilityBar(L, frUrl, enUrl)}
+${utilityBar(L, frUrl, enUrl, esUrl)}
 ${nav(L)}
 <section class="featured"><div class="container">
   <div class="featured-header">
@@ -899,11 +944,11 @@ async function main() {
   }
   PRICE_BY_REF = {};
   all.forEach((p) => { PRICE_BY_REF[p.reference] = p.priceHT || 0; });
-  for (const L of [LOCALES.fr, LOCALES.en]) {
+  for (const L of [LOCALES.fr, LOCALES.en, LOCALES.es]) {
     generateCatalog(all, L);
     generateProductPages(all, L);
   }
-  console.log("Terminé : " + all.length + " produits × FR/EN (liste blanche : " + PUBLISH_REFS.length + " réfs).");
+  console.log("Terminé : " + all.length + " produits × FR/EN/ES (liste blanche : " + PUBLISH_REFS.length + " réfs).");
 }
 module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages, LOCALES };
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });

@@ -4,31 +4,41 @@
 (function () {
   var isEN = (document.documentElement.lang || '').toLowerCase().indexOf('en') === 0
           || window.location.pathname.indexOf('/en') === 0;
+  var isES = (document.documentElement.lang || '').toLowerCase().indexOf('es') === 0
+          || window.location.pathname.indexOf('/es') === 0;
+  var prefix = isES ? '/es' : isEN ? '/en' : '';
+  var t = function (fr, en, es) { return isES ? es : isEN ? en : fr; };
 
   /* ───────────────── 1. DROPDOWN LANGUE (top bar) ───────────────── */
   var utilRight = document.querySelector('.utility-bar .utility-right');
   if (utilRight) {
     var existing = utilRight.querySelector('.util-langs');
-    var frHref = '/', enHref = '/en/';
+    var frHref = '/', enHref = '/en/', esHref = '/es/';
     if (existing) {
       var frA = existing.querySelector('a[hreflang="fr"]');
       var enA = existing.querySelector('a[hreflang="en"]');
+      var esA = existing.querySelector('a[hreflang="es-ES"], a[hreflang="es"]');
       if (frA) frHref = frA.getAttribute('href');
       if (enA) enHref = enA.getAttribute('href');
+      if (esA) esHref = esA.getAttribute('href');
     }
     var FLAG_FR = '<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#fff"/><rect width="1" height="2" fill="#0055A4"/><rect x="2" width="1" height="2" fill="#EF4135"/></svg>';
     var FLAG_EN = '<svg class="flag" viewBox="0 0 60 30" aria-hidden="true"><rect width="60" height="30" fill="#012169"/><path d="M0 0 60 30M60 0 0 30" stroke="#fff" stroke-width="6"/><path d="M30 0v30M0 15h60" stroke="#fff" stroke-width="10"/><path d="M30 0v30M0 15h60" stroke="#C8102E" stroke-width="6"/></svg>';
+    var FLAG_ES = '<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect width="3" height="2" fill="#AA151B"/><rect y=".5" width="3" height="1" fill="#F1BF00"/></svg>';
 
+    var curFlag = isES ? FLAG_ES : isEN ? FLAG_EN : FLAG_FR;
+    var curLabel = isES ? 'ES' : isEN ? 'EN' : 'FR';
     var dd = document.createElement('div');
     dd.className = 'lang-dd';
     dd.innerHTML =
-      '<button type="button" class="lang-dd-btn" aria-haspopup="true" aria-expanded="false" aria-label="' + (isEN ? 'Choose language' : 'Choisir la langue') + '">' +
-        (isEN ? FLAG_EN + '<span>EN</span>' : FLAG_FR + '<span>FR</span>') +
+      '<button type="button" class="lang-dd-btn" aria-haspopup="true" aria-expanded="false" aria-label="' + t('Choisir la langue', 'Choose language', 'Elegir idioma') + '">' +
+        curFlag + '<span>' + curLabel + '</span>' +
         '<svg class="lang-dd-caret" width="9" height="6" viewBox="0 0 9 6" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l3.5 3.5L8 1"/></svg>' +
       '</button>' +
       '<div class="lang-dd-menu" role="menu">' +
-        '<a role="menuitem" href="' + frHref + '" hreflang="fr"' + (!isEN ? ' class="active"' : '') + '>' + FLAG_FR + '<span>Français</span></a>' +
+        '<a role="menuitem" href="' + frHref + '" hreflang="fr"' + (!isEN && !isES ? ' class="active"' : '') + '>' + FLAG_FR + '<span>Français</span></a>' +
         '<a role="menuitem" href="' + enHref + '" hreflang="en"' + (isEN ? ' class="active"' : '') + '>' + FLAG_EN + '<span>English</span></a>' +
+        '<a role="menuitem" href="' + esHref + '" hreflang="es-ES"' + (isES ? ' class="active"' : '') + '>' + FLAG_ES + '<span>Español</span></a>' +
       '</div>';
     utilRight.appendChild(dd);
 
@@ -75,7 +85,7 @@
   var burger = document.createElement('button');
   burger.type = 'button';
   burger.className = 'nav-burger';
-  burger.setAttribute('aria-label', isEN ? 'Open menu' : 'Ouvrir le menu');
+  burger.setAttribute('aria-label', t('Ouvrir le menu', 'Open menu', 'Abrir el menú'));
   burger.setAttribute('aria-expanded', 'false');
   burger.setAttribute('aria-controls', 'mobileDrawer');
   burger.innerHTML = '<span></span><span></span><span></span>';
@@ -96,16 +106,16 @@
   drawer.setAttribute('aria-hidden', 'true');
   drawer.innerHTML =
     '<div class="mobile-drawer-backdrop"></div>' +
-    '<div class="mobile-drawer-panel" role="dialog" aria-modal="true" aria-label="' + (isEN ? 'Navigation menu' : 'Menu de navigation') + '">' +
+    '<div class="mobile-drawer-panel" role="dialog" aria-modal="true" aria-label="' + t('Menu de navigation', 'Navigation menu', 'Menú de navegación') + '">' +
       '<div class="mobile-drawer-head">' +
-        '<span class="mobile-drawer-title">Menu</span>' +
-        '<button type="button" class="mobile-drawer-close" aria-label="' + (isEN ? 'Close menu' : 'Fermer le menu') + '">' +
+        '<span class="mobile-drawer-title">' + t('Menu', 'Menu', 'Menú') + '</span>' +
+        '<button type="button" class="mobile-drawer-close" aria-label="' + t('Fermer le menu', 'Close menu', 'Cerrar el menú') + '">' +
           '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M18 6L6 18"/></svg>' +
         '</button>' +
       '</div>' +
       '<ul class="mobile-drawer-links">' + linksHTML + '</ul>' +
       '<div class="mobile-drawer-foot">' +
-        '<a href="/contact/" data-rdv class="mobile-drawer-cta">' + (isEN ? 'Book an appointment' : 'Prendre un RDV') +
+        '<a href="' + prefix + '/contact/" data-rdv class="mobile-drawer-cta">' + t('Prendre un RDV', 'Book an appointment', 'Reservar una cita') +
           ' <svg width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>' +
         '<a href="tel:+33531605161" class="mobile-drawer-phone">' +
           '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg>' +
