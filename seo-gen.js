@@ -108,6 +108,7 @@ function priority(u) {
   if (/^\/guides\//.test(u)) return "0.6";
   if (/^\/(entreprise|contact|occasion)\b/.test(u)) return "0.7";
   if (/^\/en\//.test(u)) return "0.5";
+  if (/^\/es\//.test(u)) return "0.5";
   if (/(cgv|mentions-legales|politique|boutique)/.test(u)) return "0.3";
   return "0.5";
 }
@@ -123,7 +124,7 @@ const curated = {};                                                      // url 
 for (const m of oldLlms.matchAll(/^- \[[^\]]*\]\((https?:\/\/[^)]+)\)(?::\s*(.*))?$/gm)) {
   const u = m[1].replace(SITE, ""); if (m[2]) curated[u] = m[2].trim();
 }
-const fr = pages.filter((p) => !p.url.startsWith("/en/"));
+const fr = pages.filter((p) => !p.url.startsWith("/en/") && !p.url.startsWith("/es/"));
 const desc = (p) => curated[p.url] || p.desc;
 const isGamme = (u) => /^\/(mini-pelles|mini-chargeurs|mini-tombereaux|remorques|accessoires|occasion|boutique)\/$/.test(u);
 const isProduit = (u) => /^\/produit\//.test(u);
@@ -139,7 +140,10 @@ let llms = intro + "\n\n"
   + section("Guides", fr.filter((p) => isGuide(p.url)), lineFull) + "\n"
   + section("Entreprise", fr.filter((p) => isEnt(p.url)), lineFull) + "\n"
   + section("Optional",
-      fr.filter((p) => isOpt(p.url)).concat([{ cleanTitle: "CZN Machinery (English)", url: "/en/", desc: "English version of the website" }]),
+      fr.filter((p) => isOpt(p.url)).concat([
+        { cleanTitle: "CZN Machinery (English)", url: "/en/", desc: "English version of the website" },
+        { cleanTitle: "CZN Machinery (Español)", url: "/es/", desc: "Versión en español del sitio web" },
+      ]),
       lineFull);
 fs.writeFileSync("llms.txt", llms.replace(/\n{3,}/g, "\n\n").trimEnd() + "\n");
 
@@ -148,7 +152,7 @@ const full = [];
 for (const p of pages) {
   const md = `# ${p.cleanTitle}\n\n${p.desc ? "> " + p.desc + "\n\n" : ""}${toMarkdown(p.html)}\n`;
   fs.writeFileSync(path.join(path.dirname(p.file), "index.md"), md);
-  if (!p.url.startsWith("/en/")) full.push(`<!-- ${p.url} -->\n\n` + md);
+  if (!p.url.startsWith("/en/") && !p.url.startsWith("/es/")) full.push(`<!-- ${p.url} -->\n\n` + md);
 }
 fs.writeFileSync("llms-full.md", full.join("\n\n---\n\n"));
 

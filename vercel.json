@@ -185,6 +185,76 @@
       "source": "/modeles/:path(.*)",
       "destination": "/mini-pelles/",
       "permanent": true
+    },
+    {
+      "source": "/es/produit/SMP06/",
+      "destination": "/es/produit/SMPSJW06/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMP12F/",
+      "destination": "/es/produit/SMPSJW12F/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMP12P/",
+      "destination": "/es/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMP-SJW-18-PRO/",
+      "destination": "/es/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMP-SJW-25-/",
+      "destination": "/es/produit/SMPSJW25/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMT-SJ-08EL/",
+      "destination": "/es/produit/SMTSJ08EL/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMT-SJ-05E/",
+      "destination": "/es/produit/SMTSJ05E/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMT-SJ-05EL/",
+      "destination": "/es/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMT-SJ-05M/",
+      "destination": "/es/produit/SMTSJ05M/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMC-SJ-460W/",
+      "destination": "/es/produit/SMCSJ460W/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMC-SJ-460T/",
+      "destination": "/es/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/SMC-SJ-490W/",
+      "destination": "/es/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/REM-1.5T/",
+      "destination": "/es/produit/REM-1-5T/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/REM-2.7T/",
+      "destination": "/es/produit/REM-2-7T/",
+      "permanent": true
     }
   ]
 }

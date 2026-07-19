@@ -11,8 +11,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/)[EN](/en/)[ES](/es/)
 
 Importateur direct · Toulouse · Depuis 2019
 
@@ -678,8 +677,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/accessoires/)[EN](/en/accessoires/)[ES](/es/accessoires/)
 
 [Accueil](/) / Accessoires
 
@@ -762,7 +760,7 @@ Notre équipe technique vous oriente vers la machine adaptée à votre usage et 
 
 📍 Toulouse, France Showroom Lun–Ven · 9h–12h / 14h–18h —
 
-[+33 5 31 60 51 61](tel:+33531605161) [FR](/autres-engins/)[EN](/en/autres-engins/)
+[+33 5 31 60 51 61](tel:+33531605161) [FR](/autres-engins/)[EN](/en/autres-engins/)[ES](/es/autres-engins/)
 
 05 — Divers
 
@@ -846,8 +844,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/cgv/)[EN](/en/cgv/)[ES](/es/cgv/)
 
 Informations légales
 
@@ -1073,8 +1070,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/contact/)[EN](/en/contact/)[ES](/es/contact/)
 
 [Accueil](/) / Contact
 
@@ -1174,8 +1170,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/entreprise/)[EN](/en/entreprise/)[ES](/es/entreprise/)
 
 [Accueil](/) / Entreprise
 
@@ -1391,8 +1386,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/entreprise/financement/)[EN](/en/entreprise/financement/)[ES](/es/entreprise/financement/)
 
 [Accueil](/) / [Entreprise](/entreprise/) / Financement
 
@@ -1535,8 +1529,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/)[EN](/en/guides/)[ES](/es/guides/)
 
 [Accueil](/) / Guides
 
@@ -1601,8 +1594,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/acheter-mini-pelle-chinoise/)[EN](/en/guides/acheter-mini-pelle-chinoise/)[ES](/es/guides/acheter-mini-pelle-chinoise/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 
@@ -1789,8 +1781,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/caces-mini-pelle/)[EN](/en/guides/caces-mini-pelle/)[ES](/es/guides/caces-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Réglementation
 
@@ -1969,8 +1960,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/comment-choisir-mini-pelle/)[EN](/en/guides/comment-choisir-mini-pelle/)[ES](/es/guides/comment-choisir-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 
@@ -2223,8 +2213,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/comparatif-mini-pelles-2026/)[EN](/en/guides/comparatif-mini-pelles-2026/)[ES](/es/guides/comparatif-mini-pelles-2026/)
 
 [Accueil](/) / [Guides](/guides/) / Comparatifs
 
@@ -2423,8 +2412,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/creuser-piscine-mini-pelle/)[EN](/en/guides/creuser-piscine-mini-pelle/)[ES](/es/guides/creuser-piscine-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Usages
 
@@ -2615,8 +2603,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/entretien-mini-pelle/)[EN](/en/guides/entretien-mini-pelle/)[ES](/es/guides/entretien-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Entretien
 
@@ -2861,8 +2848,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/guide-complet-mini-chargeur/)[EN](/en/guides/guide-complet-mini-chargeur/)[ES](/es/guides/guide-complet-mini-chargeur/)
 
 [Accueil](/) / [Guides](/guides/) / Fondamentaux
 
@@ -3065,8 +3051,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/location-mini-pelle/)
-[EN](/en/guides/location-mini-pelle/)
+[FR](/guides/location-mini-pelle/)[EN](/en/guides/location-mini-pelle/)[ES](/es/guides/location-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Location
 
@@ -3217,8 +3202,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/micro-pelle-tout-savoir/)[EN](/en/guides/micro-pelle-tout-savoir/)[ES](/es/guides/micro-pelle-tout-savoir/)
 
 [Accueil](/) / [Guides](/guides/) / Fondamentaux
 
@@ -3445,8 +3429,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/mini-dumper-guide-achat/)[EN](/en/guides/mini-dumper-guide-achat/)[ES](/es/guides/mini-dumper-guide-achat/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 
@@ -3659,8 +3642,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/mini-pelle-acheter-ou-louer/)[EN](/en/guides/mini-pelle-acheter-ou-louer/)[ES](/es/guides/mini-pelle-acheter-ou-louer/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 
@@ -3836,8 +3818,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/mini-pelle-neuve-ou-occasion/)[EN](/en/guides/mini-pelle-neuve-ou-occasion/)[ES](/es/guides/mini-pelle-neuve-ou-occasion/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 
@@ -4020,8 +4001,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/mini-pelle-terrassement/)[EN](/en/guides/mini-pelle-terrassement/)[ES](/es/guides/mini-pelle-terrassement/)
 
 [Accueil](/) / [Guides](/guides/) / Usages
 
@@ -4256,8 +4236,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/mini-pelle-tranchee-reseaux/)
-[EN](/en/guides/mini-pelle-tranchee-reseaux/)
+[FR](/guides/mini-pelle-tranchee-reseaux/)[EN](/en/guides/mini-pelle-tranchee-reseaux/)[ES](/es/guides/mini-pelle-tranchee-reseaux/)
 
 [Accueil](/) / [Guides](/guides/) / Usages
 
@@ -4386,8 +4365,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/moteur-laidong-ou-kubota-mini-pelle/)
-[EN](/en/guides/moteur-laidong-ou-kubota-mini-pelle/)
+[FR](/guides/moteur-laidong-ou-kubota-mini-pelle/)[EN](/en/guides/moteur-laidong-ou-kubota-mini-pelle/)[ES](/es/guides/moteur-laidong-ou-kubota-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Comparatifs
 
@@ -4504,8 +4482,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/prix-mini-pelle/)[EN](/en/guides/prix-mini-pelle/)[ES](/es/guides/prix-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 
@@ -4734,8 +4711,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/quest-ce-quune-mini-pelle/)[EN](/en/guides/quest-ce-quune-mini-pelle/)[ES](/es/guides/quest-ce-quune-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Fondamentaux
 
@@ -4910,8 +4886,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/revendre-mini-pelle-occasion/)
-[EN](/en/guides/revendre-mini-pelle-occasion/)
+[FR](/guides/revendre-mini-pelle-occasion/)[EN](/en/guides/revendre-mini-pelle-occasion/)[ES](/es/guides/revendre-mini-pelle-occasion/)
 
 [Accueil](/) / [Guides](/guides/) / Occasion
 
@@ -5060,8 +5035,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/utilisation-mini-pelle/)[EN](/en/guides/utilisation-mini-pelle/)[ES](/es/guides/utilisation-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Usages
 
@@ -5210,8 +5184,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/mentions-legales/)[EN](/en/mentions-legales/)[ES](/es/mentions-legales/)
 
 Informations légales
 
@@ -5840,8 +5813,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/occasion/)[EN](/en/occasion/)[ES](/es/occasion/)
 
 [Accueil](/) / Occasion
 
@@ -5929,8 +5901,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/politique-confidentialite/)[EN](/en/politique-confidentialite/)[ES](/es/politique-confidentialite/)
 
 Informations légales
 
@@ -8543,7 +8514,7 @@ Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
 
 📍 Toulouse, France Showroom Lun–Ven · 9h–12h / 14h–18h —
 
-[+33 5 31 60 51 61](tel:+33531605161) [FR](/remorques/)[EN](/en/remorques/)
+[+33 5 31 60 51 61](tel:+33531605161) [FR](/remorques/)[EN](/en/remorques/)[ES](/es/remorques/)
 
 04 — Transport
 

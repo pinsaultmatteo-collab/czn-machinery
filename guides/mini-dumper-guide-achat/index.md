@@ -9,8 +9,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/mini-dumper-guide-achat/)[EN](/en/guides/mini-dumper-guide-achat/)[ES](/es/guides/mini-dumper-guide-achat/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 

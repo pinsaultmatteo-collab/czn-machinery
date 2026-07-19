@@ -9,8 +9,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/entretien-mini-pelle/)
-[EN](/en/guides/entretien-mini-pelle/)
+[FR](/guides/entretien-mini-pelle/)[EN](/en/guides/entretien-mini-pelle/)[ES](/es/guides/entretien-mini-pelle/)
 
 [Home](/en/) / [Guides](/en/guides/) / Maintenance
 

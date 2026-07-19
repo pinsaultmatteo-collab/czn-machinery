@@ -9,8 +9,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/acheter-mini-pelle-chinoise/)[EN](/en/guides/acheter-mini-pelle-chinoise/)[ES](/es/guides/acheter-mini-pelle-chinoise/)
 
 [Accueil](/) / [Guides](/guides/) / Achat
 

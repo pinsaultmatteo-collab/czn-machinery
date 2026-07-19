@@ -9,8 +9,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/comparatif-mini-pelles-2026/)
-[EN](/en/guides/comparatif-mini-pelles-2026/)
+[FR](/guides/comparatif-mini-pelles-2026/)[EN](/en/guides/comparatif-mini-pelles-2026/)[ES](/es/guides/comparatif-mini-pelles-2026/)
 
 [Home](/en/) / [Guides](/en/guides/) / Comparisons
 

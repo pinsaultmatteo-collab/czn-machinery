@@ -9,8 +9,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/entreprise/financement/)
-[EN](/en/entreprise/financement/)
+[FR](/entreprise/financement/)[EN](/en/entreprise/financement/)[ES](/es/entreprise/financement/)
 
 [Home](/en/) / [Company](/en/entreprise/) / Financing
 

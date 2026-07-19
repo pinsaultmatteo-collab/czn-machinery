@@ -4,7 +4,7 @@
 
 📍 Toulouse, France Showroom Lun–Ven · 9h–12h / 14h–18h —
 
-[+33 5 31 60 51 61](tel:+33531605161) [FR](/autres-engins/)[EN](/en/autres-engins/)
+[+33 5 31 60 51 61](tel:+33531605161) [FR](/autres-engins/)[EN](/en/autres-engins/)[ES](/es/autres-engins/)
 
 05 — Divers
 

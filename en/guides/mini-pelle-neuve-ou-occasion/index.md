@@ -9,8 +9,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/mini-pelle-neuve-ou-occasion/)
-[EN](/en/guides/mini-pelle-neuve-ou-occasion/)
+[FR](/guides/mini-pelle-neuve-ou-occasion/)[EN](/en/guides/mini-pelle-neuve-ou-occasion/)[ES](/es/guides/mini-pelle-neuve-ou-occasion/)
 
 [Home](/en/) / [Guides](/en/guides/) / Buying
 

@@ -9,8 +9,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/guides/guide-complet-mini-chargeur/)
-[EN](/en/guides/guide-complet-mini-chargeur/)
+[FR](/guides/guide-complet-mini-chargeur/)[EN](/en/guides/guide-complet-mini-chargeur/)[ES](/es/guides/guide-complet-mini-chargeur/)
 
 [Home](/en/) / [Guides](/en/guides/) / Fundamentals
 

@@ -1,5 +1,5 @@
 // 📁 scripts/generate-guide.mjs
-// Publie automatiquement UN guide SEO, en FR **et** en EN (miroir), sur /guides/ et /en/guides/.
+// Publie automatiquement UN guide SEO, en FR, EN **et** ES (miroir), sur /guides/, /en/guides/ et /es/guides/.
 // Lancé par le workflow GitHub Actions "weekly-guide" (mardi 9h Paris) ou en manuel.
 //
 //   node scripts/generate-guide.mjs
@@ -25,6 +25,7 @@ const REF_SLUG = "location-mini-pelle"; // gabarit bilingue (hreflang + liens de
 
 const CATEGORIES = ["Fondamentaux", "Achat", "Usages", "Entretien", "Réglementation", "Comparatifs", "Occasion", "Location"];
 const CAT_EN = { "Fondamentaux": "Fundamentals", "Achat": "Buying", "Usages": "Uses", "Entretien": "Maintenance", "Réglementation": "Regulations", "Comparatifs": "Comparisons", "Occasion": "Used", "Location": "Rental" };
+const CAT_ES = { "Fondamentaux": "Fundamentos", "Achat": "Compra", "Usages": "Usos", "Entretien": "Mantenimiento", "Réglementation": "Normativa", "Comparatifs": "Comparativas", "Occasion": "Ocasión", "Location": "Alquiler" };
 
 const GUIDE_SLUGS = fs.readdirSync(path.join(ROOT, "guides"), { withFileTypes: true }).filter((e) => e.isDirectory()).map((e) => e.name);
 const ALLOWED_LINKS = [
@@ -50,6 +51,9 @@ const fail = (m) => { console.error("❌ " + m); process.exit(1); };
 // préfixe /en aux liens internes absolus (ne touche pas /en/… ni #ancre ni externe)
 const enHref = (h) => (typeof h === "string" && h.startsWith("/") && !h.startsWith("/en/")) ? "/en" + h : h;
 const enPrefixBody = (html) => html.replace(/href="(\/(?!en\/)[^"]*)"/g, (m, h) => `href="/en${h}"`);
+// idem pour /es
+const esHref = (h) => (typeof h === "string" && h.startsWith("/") && !h.startsWith("/es/")) ? "/es" + h : h;
+const esPrefixBody = (html) => html.replace(/href="(\/(?!es\/)[^"]*)"/g, (m, h) => `href="/es${h}"`);
 
 /* ── appel API Claude ── */
 async function callClaude({ schema, system, user }) {
@@ -191,6 +195,36 @@ const artEn = {
 };
 art.heroAlt = heroAlt;
 
+/* ── 3 bis. Traduction ES (même schéma que EN) ── */
+const SYSTEM_ES = `Traduces las guías del blog de CZN Machinery del francés a un español de España (es-ES) natural, para un blog SEO. CZN Machinery importa maquinaria de construcción compacta (miniexcavadoras desde 4.125 € sin IVA, minicargadoras, minidúmperes, remolques, una trituradora forestal y una trituradora de mandíbulas, accesorios); Toulouse, Francia; garantía de 2 años; servicio posventa en Francia; importación directa.
+REGLAS:
+- Traduce con fidelidad y fluidez; mismo significado, sin añadir afirmaciones ni inventar cifras. Formato de precios "4.125 € sin IVA" (separador de miles con punto).
+- En bodyHtml: conserva TODAS las etiquetas HTML y TODOS los valores de atributos (href, id, class) EXACTAMENTE como se dan — traduce solo el texto visible y el texto del CTA. No añadas ni elimines etiquetas ni enlaces.
+- tocLabels: las etiquetas en español de cada elemento del índice, MISMO número y MISMO orden que los proporcionados.
+- related: MISMO número y orden que los proporcionados; traduce solo cat/title/desc.
+- title: sin el sufijo " | CZN Machinery".`;
+const USER_ES = `Traduce esta guía al español (es-ES).
+Título FR: ${art.title}
+Meta FR: ${art.metaDescription}
+Lede FR: ${art.lede}
+tocLabels FR (respeta el orden): ${JSON.stringify(art.toc.map((t) => t.label))}
+related FR (respeta el orden): ${JSON.stringify(art.related.map((r) => ({ cat: r.cat, title: r.title, desc: r.desc })))}
+
+bodyHtml FR (conserva todas las etiquetas y atributos href/id idénticos):
+${art.bodyHtml}`;
+
+console.log("🌍 Traduction ES…");
+const es = await callClaude({ schema: SCHEMA_EN, system: SYSTEM_ES, user: USER_ES });
+if (!es.title || !es.bodyHtml || es.bodyHtml.length < 700) fail("Traduction ES trop courte/incomplète.");
+const artEs = {
+  title: es.title, metaDescription: es.metaDescription, lede: es.lede,
+  category: CAT_ES[art.category] || art.category, readingTime,
+  heroImage: heroImg, heroAlt,
+  toc: art.toc.map((t, i) => ({ id: t.id, label: (es.tocLabels && es.tocLabels[i]) || t.label })),
+  bodyHtml: esPrefixBody(es.bodyHtml),
+  related: art.related.map((r, i) => ({ href: esHref(r.href), cat: (es.related && es.related[i] && es.related[i].cat) || CAT_ES[r.cat] || r.cat, title: (es.related && es.related[i] && es.related[i].title) || r.title, desc: (es.related && es.related[i] && es.related[i].desc) || r.desc })),
+};
+
 /* ── 4. Assemblage d'une page depuis un gabarit ── */
 function buildGuide(L, a) {
   let html = fs.readFileSync(path.join(ROOT, L.refPath), "utf8");
@@ -263,8 +297,9 @@ ${relCards}
 /* ── config par langue ── */
 const L_FR = { refPath: "guides/location-mini-pelle/index.html", outDir: `guides/${slug}`, homeRel: "/", guidesRel: "/guides/", homeUrl: `${SITE}/`, guidesUrl: `${SITE}/guides/`, urlBase: `${SITE}/guides/`, jsonldLang: "fr-FR", breadHome: "Accueil", tocTitle: "Sommaire", metaRead: (n) => `⏱ ${n} min de lecture`, metaAdvice: "✓ Conseils CZN Machinery", metaUpd: (y) => `↻ Mis à jour ${y}`, relEyebrow: "À lire aussi", relTitle: "Articles <em>associés</em>.", indexPath: "guides/index.html", countLabel: "Guides pratiques", countPhrase: "guides pratiques", readMore: "Lire le guide →" };
 const L_EN = { refPath: "en/guides/location-mini-pelle/index.html", outDir: `en/guides/${slug}`, homeRel: "/en/", guidesRel: "/en/guides/", homeUrl: `${SITE}/en/`, guidesUrl: `${SITE}/en/guides/`, urlBase: `${SITE}/en/guides/`, jsonldLang: "en-GB", breadHome: "Home", tocTitle: "Contents", metaRead: (n) => `⏱ ${n} min read`, metaAdvice: "✓ CZN Machinery advice", metaUpd: (y) => `↻ Updated ${y}`, relEyebrow: "Further reading", relTitle: "Related <em>articles</em>.", indexPath: "en/guides/index.html", countLabel: "Practical guides", countPhrase: "practical guides", readMore: "Read the guide →" };
+const L_ES = { refPath: "es/guides/location-mini-pelle/index.html", outDir: `es/guides/${slug}`, homeRel: "/es/", guidesRel: "/es/guides/", homeUrl: `${SITE}/es/`, guidesUrl: `${SITE}/es/guides/`, urlBase: `${SITE}/es/guides/`, jsonldLang: "es-ES", breadHome: "Inicio", tocTitle: "Índice", metaRead: (n) => `⏱ ${n} min de lectura`, metaAdvice: "✓ Consejos de CZN Machinery", metaUpd: (y) => `↻ Actualizado ${y}`, relEyebrow: "Leer también", relTitle: "Artículos <em>relacionados</em>.", indexPath: "es/guides/index.html", countLabel: "Guías prácticas", countPhrase: "guías prácticas", readMore: "Leer la guía →" };
 
-for (const [L, a] of [[L_FR, art], [L_EN, artEn]]) {
+for (const [L, a] of [[L_FR, art], [L_EN, artEn], [L_ES, artEs]]) {
   const dir = path.join(ROOT, L.outDir);
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, "index.html"), buildGuide(L, a));
@@ -294,6 +329,7 @@ function addCard(L, a) {
 }
 addCard(L_FR, art);
 addCard(L_EN, artEn);
+addCard(L_ES, artEs);
 
 /* ── 6. Marque publié ── */
 topic.published = true; topic.publishedAt = today();
@@ -302,4 +338,4 @@ fs.writeFileSync(path.join(ROOT, QUEUE_FILE), JSON.stringify(queue, null, 2));
 /* ── 7. SEO ── */
 console.log("🔄 seo-gen.js…");
 execSync("node seo-gen.js", { cwd: ROOT, stdio: "inherit" });
-console.log(`🎉 Publié FR + EN : ${art.title}`);
+console.log(`🎉 Publié FR + EN + ES : ${art.title}`);

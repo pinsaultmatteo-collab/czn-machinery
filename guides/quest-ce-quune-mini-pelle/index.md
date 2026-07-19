@@ -9,8 +9,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/)
-[EN](/en/)
+[FR](/guides/quest-ce-quune-mini-pelle/)[EN](/en/guides/quest-ce-quune-mini-pelle/)[ES](/es/guides/quest-ce-quune-mini-pelle/)
 
 [Accueil](/) / [Guides](/guides/) / Fondamentaux
 

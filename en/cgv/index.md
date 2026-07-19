@@ -9,8 +9,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 [+33 5 31 60 51 61](tel:+33531605161)
 
-[FR](/cgv/)
-[EN](/en/cgv/)
+[FR](/cgv/)[EN](/en/cgv/)[ES](/es/cgv/)
 
 Legal information
 
