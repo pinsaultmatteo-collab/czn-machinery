@@ -913,10 +913,13 @@ function generateProductPages(all, L) {
   }
 }
 
-/* ── LISTE BLANCHE : seules ces références sont publiées (cartes + fiches).
-   ⚠️ Axonaut contient bien plus de produits (brouillons, nouvelles réfs, etc.) ;
-   on ne publie QUE ceux-ci. Pour ajouter un produit au site : l'ajouter ici. ── */
-const PUBLISH_REFS = [
+/* ── LISTE BLANCHE DE REPLI ──
+   La liste des produits publiés vient désormais du back-office CZE
+   (rubrique Produits → toggle publier/dépublier), lue au build via
+   fetchBackoffice(). Cette liste-ci ne sert QUE de filet : si le back-office
+   est injoignable, le build repart dessus et le site ne se vide pas.
+   Elle reflète l'état publié au moment de la bascule. ── */
+const PUBLISH_REFS_FALLBACK = [
   "SMPSJW06", "SMPSJW12F", "SMPSJW12P", "SMPSJW18PRO", "SMPSJW25",
   "SMCSJ460T", "SMCSJ460W", "SMCSJ490W",
   "SMTSJ05M", "SMTSJ05E", "SMTSJ05EL", "SMTSJ08EL",
@@ -924,10 +927,91 @@ const PUBLISH_REFS = [
   "XMPXC13P", "XMPXC15P", "XMPXC17PROV2", "XMPXC22PROV2",
   "SMCBF", "CONC-SONCA",
 ];
+
+/* Peuplés au runtime par fetchBackoffice(). PUBLISH_REFS = liste effective. */
+let PUBLISH_REFS = PUBLISH_REFS_FALLBACK;
+let WEB_BY_REF = {};   // ref → { titre_web, description_web, prix_affiche, categorie_web, images, mise_en_avant }
+
 /* on garde aussi les composants d'option (roue/support) dans `all` pour calculer le prix de l'option. */
 function isPublished(ref) { return PUBLISH_REFS.includes(ref) || isOptionComponent(ref); }
 
+/**
+ * Lit la liste des produits publiés + leur habillage web depuis le back-office.
+ *
+ * Renvoie { refs, web } en cas de succès, ou null en cas d'échec — auquel
+ * cas le build retombe sur PUBLISH_REFS_FALLBACK (le site se construit
+ * toujours, même back-office éteint : exigence du cahier des charges).
+ *
+ * ⚠️ Un habillage à champ VIDE n'écrase RIEN : le build garde alors le
+ * comportement historique (nom Axonaut, prix Axonaut, produit-data.js). Ce
+ * choix rend la bascule sans effet visible tant qu'aucun champ n'est saisi.
+ */
+async function fetchBackoffice() {
+  const token = process.env.BACKOFFICE_EXPORT_TOKEN;
+  const base = process.env.BACKOFFICE_URL || "https://cze-backoffice.vercel.app";
+  if (!token) {
+    console.log("⚠ BACKOFFICE_EXPORT_TOKEN absent — liste blanche de repli utilisée.");
+    return null;
+  }
+  try {
+    const res = await fetch(base + "/api/export/products/czn", {
+      headers: { Authorization: "Bearer " + token },
+    });
+    if (!res.ok) {
+      console.log("⚠ Back-office HTTP " + res.status + " — liste blanche de repli utilisée.");
+      return null;
+    }
+    const data = await res.json();
+    const web = {};
+    for (const p of data.products || []) web[p.axonaut_ref] = p;
+    console.log("Back-office OK — " + (data.products || []).length + " produit(s) publié(s).");
+    return { refs: (data.products || []).map((p) => p.axonaut_ref), web };
+  } catch (e) {
+    console.log("⚠ Back-office injoignable (" + e.message + ") — liste blanche de repli utilisée.");
+    return null;
+  }
+}
+
+/**
+ * Applique l'habillage back-office à un produit normalisé.
+ * Chaque champ n'est appliqué que s'il est renseigné — sinon on ne touche
+ * à rien (garantie « champ vide = aucun changement »).
+ */
+function appliquerHabillage(p) {
+  const w = WEB_BY_REF[p.reference];
+  if (!w) return p;
+  if (w.titre_web && w.titre_web.trim()) p.name = w.titre_web.trim();
+  if (w.prix_affiche != null) {
+    p.priceHT = w.prix_affiche;
+    p.priceTTC = Math.round(w.prix_affiche * (1 + (p.vat || 20) / 100) * 100) / 100;
+  }
+  return p;
+}
+
+/**
+ * Fusionne l'habillage back-office dans l'objet DATA (produit-data.js) d'une
+ * fiche : description et photos si le back-office en fournit. Vide = on garde
+ * produit-data.js tel quel.
+ */
+function fusionnerData(data, ref) {
+  const w = WEB_BY_REF[ref];
+  if (!w) return data;
+  const d = { ...(data || {}) };
+  if (w.description_web && w.description_web.trim()) d.intro = w.description_web.trim();
+  if (Array.isArray(w.images) && w.images.length) {
+    d.images = w.images.map((im) => ({ src: im.url, alt: im.alt || "" }));
+  }
+  return d;
+}
+
 async function main() {
+  // Liste publiée + habillage : back-office d'abord, repli sinon.
+  const bo = await fetchBackoffice();
+  if (bo) {
+    PUBLISH_REFS = bo.refs;
+    WEB_BY_REF = bo.web;
+  }
+
   const apiKey = process.env.AXONAUT_API_KEY;
   let all;
   if (apiKey) {
@@ -942,13 +1026,21 @@ async function main() {
     console.error("❌ AXONAUT_API_KEY manquante et aucun cache (.axonaut-cache.json).");
     process.exit(1);
   }
+
+  // Habillage back-office : nom et prix sur le produit (champ vide = no-op).
+  all.forEach(appliquerHabillage);
+
   PRICE_BY_REF = {};
   all.forEach((p) => { PRICE_BY_REF[p.reference] = p.priceHT || 0; });
   for (const L of [LOCALES.fr, LOCALES.en, LOCALES.es]) {
+    // Description et photos back-office fusionnées dans DATA (vide = no-op).
+    for (const ref of Object.keys(WEB_BY_REF)) {
+      if (L.DATA[ref] || WEB_BY_REF[ref]) L.DATA[ref] = fusionnerData(L.DATA[ref], ref);
+    }
     generateCatalog(all, L);
     generateProductPages(all, L);
   }
-  console.log("Terminé : " + all.length + " produits × FR/EN/ES (liste blanche : " + PUBLISH_REFS.length + " réfs).");
+  console.log("Terminé : " + all.length + " produits × FR/EN/ES (publiés : " + PUBLISH_REFS.length + " réfs).");
 }
 module.exports = { productPageHTML, cardHTML, itemListJsonLd, cleanName, normalize, generateCatalog, generateProductPages, LOCALES };
 if (require.main === module) main().catch((e) => { console.error(e); process.exit(1); });
