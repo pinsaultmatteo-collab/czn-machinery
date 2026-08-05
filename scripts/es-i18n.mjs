@@ -5,7 +5,7 @@
 //                          préfixe /es/ sur les liens internes de PAGES, sélecteur 3 langues ES actif).
 //                          => le texte reste EN FRANÇAIS ; la traduction est faite ensuite (agents).
 //   2. patchOriginal(f,l): met à jour une page FR ou EN existante -> sélecteur 3 langues (page-spécifique)
-//                          + bloc hreflang (fr / en / es-ES / x-default).
+//                          + bloc hreflang (fr / en / es / x-default).
 // Usage : node scripts/es-i18n.mjs <fichier-FR>       (traite 1 page : scaffold ES + patch FR + patch EN)
 //         node scripts/es-i18n.mjs --all              (toutes les pages « à la main »)
 //         node scripts/es-i18n.mjs --list             (affiche la liste des pages traitées)
@@ -72,7 +72,7 @@ function prefixEs(html) {
 function switcherHTML(active, frPath) {
   const hrefs = { fr: frPath, en: "/en" + frPath, es: "/es" + frPath };
   const a = (lang, flag, label, txt) =>
-    `<a href="${hrefs[lang]}" class="lang${active === lang ? " active" : ""}" hreflang="${lang === "es" ? "es-ES" : lang}" aria-label="${label}">${flag}<span>${txt}</span></a>`;
+    `<a href="${hrefs[lang]}" class="lang${active === lang ? " active" : ""}" hreflang="${lang}" aria-label="${label}">${flag}<span>${txt}</span></a>`;
   return `<span class="util-langs">${a("fr", FLAG_FR, "Français", "FR")}${a("en", FLAG_EN, "English", "EN")}${a("es", FLAG_ES, "Español", "ES")}</span>`;
 }
 const SWITCHER_RE = /<span class="util-langs">\s*(?:<a\b[\s\S]*?<\/a>\s*)+<\/span>/;
@@ -87,7 +87,7 @@ function hreflangBlock(frPath) {
   return (
     `<link rel="alternate" hreflang="fr" href="${SITE}${frPath}">` +
     `<link rel="alternate" hreflang="en" href="${SITE}/en${frPath}">` +
-    `<link rel="alternate" hreflang="es-ES" href="${SITE}/es${frPath}">` +
+    `<link rel="alternate" hreflang="es" href="${SITE}/es${frPath}">` +
     `<link rel="alternate" hreflang="x-default" href="${SITE}${frPath}">`
   );
 }

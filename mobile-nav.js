@@ -17,7 +17,7 @@
     if (existing) {
       var frA = existing.querySelector('a[hreflang="fr"]');
       var enA = existing.querySelector('a[hreflang="en"]');
-      var esA = existing.querySelector('a[hreflang="es-ES"], a[hreflang="es"]');
+      var esA = existing.querySelector('a[hreflang="es"], a[hreflang="es"]');
       if (frA) frHref = frA.getAttribute('href');
       if (enA) enHref = enA.getAttribute('href');
       if (esA) esHref = esA.getAttribute('href');
@@ -38,7 +38,7 @@
       '<div class="lang-dd-menu" role="menu">' +
         '<a role="menuitem" href="' + frHref + '" hreflang="fr"' + (!isEN && !isES ? ' class="active"' : '') + '>' + FLAG_FR + '<span>Français</span></a>' +
         '<a role="menuitem" href="' + enHref + '" hreflang="en"' + (isEN ? ' class="active"' : '') + '>' + FLAG_EN + '<span>English</span></a>' +
-        '<a role="menuitem" href="' + esHref + '" hreflang="es-ES"' + (isES ? ' class="active"' : '') + '>' + FLAG_ES + '<span>Español</span></a>' +
+        '<a role="menuitem" href="' + esHref + '" hreflang="es"' + (isES ? ' class="active"' : '') + '>' + FLAG_ES + '<span>Español</span></a>' +
       '</div>';
     utilRight.appendChild(dd);
 

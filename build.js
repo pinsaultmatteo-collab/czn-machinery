@@ -228,7 +228,7 @@ const FLAG_ES = `<svg class="flag" viewBox="0 0 3 2" aria-hidden="true"><rect wi
 function langSwitch(L, frUrl, enUrl, esUrl) {
   const frA = `<a href="${frUrl}" class="lang${L.lang === "fr" ? " active" : ""}" hreflang="fr" aria-label="${L.ui.tagFr}">${FLAG_FR}<span>FR</span></a>`;
   const enA = `<a href="${enUrl}" class="lang${L.lang === "en" ? " active" : ""}" hreflang="en" aria-label="${L.ui.tagEn}">${FLAG_EN}<span>EN</span></a>`;
-  const esA = `<a href="${esUrl}" class="lang${L.lang === "es" ? " active" : ""}" hreflang="es-ES" aria-label="${L.ui.tagEs}">${FLAG_ES}<span>ES</span></a>`;
+  const esA = `<a href="${esUrl}" class="lang${L.lang === "es" ? " active" : ""}" hreflang="es" aria-label="${L.ui.tagEs}">${FLAG_ES}<span>ES</span></a>`;
   return `<span class="util-langs">${frA}${enA}${esA}</span>`;
 }
 function utilityBar(L, frUrl, enUrl, esUrl) {
@@ -291,7 +291,7 @@ ${pmc}
 const HEAD_FONTS = `<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Bricolage+Grotesque:opsz,wght@12..96,300;12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,300;1,9..144,400&family=Inter:wght@300;400;500;600&family=DM+Mono:wght@400;500&family=Space+Grotesk:wght@600&display=swap" rel="stylesheet">`;
 const FAVICONS = `<link rel="icon" type="image/x-icon" href="/favicon.ico"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="192x192" href="/favicon-192x192.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">`;
 function hreflangLinks(frUrl, enUrl, esUrl) {
-  return `<link rel="alternate" hreflang="fr" href="${SITE}${frUrl}"><link rel="alternate" hreflang="en" href="${SITE}${enUrl}"><link rel="alternate" hreflang="es-ES" href="${SITE}${esUrl}"><link rel="alternate" hreflang="x-default" href="${SITE}${frUrl}">`;
+  return `<link rel="alternate" hreflang="fr" href="${SITE}${frUrl}"><link rel="alternate" hreflang="en" href="${SITE}${enUrl}"><link rel="alternate" hreflang="es" href="${SITE}${esUrl}"><link rel="alternate" hreflang="x-default" href="${SITE}${frUrl}">`;
 }
 
 /* ── catalogue (cartes + JSON-LD entre marqueurs) ── */

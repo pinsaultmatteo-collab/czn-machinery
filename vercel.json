@@ -7,18 +7,8 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/SMP06/",
-      "destination": "/en/produit/SMPSJW06/",
-      "permanent": true
-    },
-    {
       "source": "/produit/SMP12F/",
       "destination": "/produit/SMPSJW12F/",
-      "permanent": true
-    },
-    {
-      "source": "/en/produit/SMP12F/",
-      "destination": "/en/produit/SMPSJW12F/",
       "permanent": true
     },
     {
@@ -27,18 +17,8 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/SMP12P/",
-      "destination": "/en/produit/SMPSJW12P/",
-      "permanent": true
-    },
-    {
       "source": "/produit/SMP-SJW-18-PRO/",
       "destination": "/produit/SMPSJW18PRO/",
-      "permanent": true
-    },
-    {
-      "source": "/en/produit/SMP-SJW-18-PRO/",
-      "destination": "/en/produit/SMPSJW18PRO/",
       "permanent": true
     },
     {
@@ -47,18 +27,8 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/SMP-SJW-25-/",
-      "destination": "/en/produit/SMPSJW25/",
-      "permanent": true
-    },
-    {
       "source": "/produit/SMT-SJ-08EL/",
       "destination": "/produit/SMTSJ08EL/",
-      "permanent": true
-    },
-    {
-      "source": "/en/produit/SMT-SJ-08EL/",
-      "destination": "/en/produit/SMTSJ08EL/",
       "permanent": true
     },
     {
@@ -67,18 +37,8 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/SMT-SJ-05E/",
-      "destination": "/en/produit/SMTSJ05E/",
-      "permanent": true
-    },
-    {
       "source": "/produit/SMT-SJ-05EL/",
       "destination": "/produit/SMTSJ05EL/",
-      "permanent": true
-    },
-    {
-      "source": "/en/produit/SMT-SJ-05EL/",
-      "destination": "/en/produit/SMTSJ05EL/",
       "permanent": true
     },
     {
@@ -87,18 +47,8 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/SMT-SJ-05M/",
-      "destination": "/en/produit/SMTSJ05M/",
-      "permanent": true
-    },
-    {
       "source": "/produit/SMC-SJ-460W/",
       "destination": "/produit/SMCSJ460W/",
-      "permanent": true
-    },
-    {
-      "source": "/en/produit/SMC-SJ-460W/",
-      "destination": "/en/produit/SMCSJ460W/",
       "permanent": true
     },
     {
@@ -107,18 +57,8 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/SMC-SJ-460T/",
-      "destination": "/en/produit/SMCSJ460T/",
-      "permanent": true
-    },
-    {
       "source": "/produit/SMC-SJ-490W/",
       "destination": "/produit/SMCSJ490W/",
-      "permanent": true
-    },
-    {
-      "source": "/en/produit/SMC-SJ-490W/",
-      "destination": "/en/produit/SMCSJ490W/",
       "permanent": true
     },
     {
@@ -127,13 +67,103 @@
       "permanent": true
     },
     {
-      "source": "/en/produit/REM-1.5T/",
-      "destination": "/en/produit/REM-1-5T/",
+      "source": "/produit/REM-2.7T/",
+      "destination": "/produit/REM-2-7T/",
       "permanent": true
     },
     {
-      "source": "/produit/REM-2.7T/",
-      "destination": "/produit/REM-2-7T/",
+      "source": "/produit/XMP-XC06S/",
+      "destination": "/produit/SMPSJW06/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/XMP-XC-12-S/",
+      "destination": "/produit/XMPXC13P/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/XMP-XC-12-JS/",
+      "destination": "/produit/XMPXC15P/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/XMP-XC-18-PRO/",
+      "destination": "/produit/XMPXC17PROV2/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/XMP-XC-25-S-C/",
+      "destination": "/produit/XMPXC22PROV2/",
+      "permanent": true
+    },
+    {
+      "source": "/produit/XMP-XC25-2C/",
+      "destination": "/produit/XMPXC22PROV2/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP06/",
+      "destination": "/en/produit/SMPSJW06/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP12F/",
+      "destination": "/en/produit/SMPSJW12F/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP12P/",
+      "destination": "/en/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP-SJW-18-PRO/",
+      "destination": "/en/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMP-SJW-25-/",
+      "destination": "/en/produit/SMPSJW25/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-08EL/",
+      "destination": "/en/produit/SMTSJ08EL/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-05E/",
+      "destination": "/en/produit/SMTSJ05E/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-05EL/",
+      "destination": "/en/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMT-SJ-05M/",
+      "destination": "/en/produit/SMTSJ05M/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMC-SJ-460W/",
+      "destination": "/en/produit/SMCSJ460W/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMC-SJ-460T/",
+      "destination": "/en/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/SMC-SJ-490W/",
+      "destination": "/en/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/en/produit/REM-1.5T/",
+      "destination": "/en/produit/REM-1-5T/",
       "permanent": true
     },
     {
@@ -142,48 +172,33 @@
       "permanent": true
     },
     {
-      "source": "/leite/",
-      "destination": "/mini-pelles/",
+      "source": "/en/produit/XMP-XC06S/",
+      "destination": "/en/produit/SMPSJW06/",
       "permanent": true
     },
     {
-      "source": "/leite",
-      "destination": "/mini-pelles/",
+      "source": "/en/produit/XMP-XC-12-S/",
+      "destination": "/en/produit/XMPXC13P/",
       "permanent": true
     },
     {
-      "source": "/sonca/",
-      "destination": "/mini-pelles/",
+      "source": "/en/produit/XMP-XC-12-JS/",
+      "destination": "/en/produit/XMPXC15P/",
       "permanent": true
     },
     {
-      "source": "/sonca",
-      "destination": "/mini-pelles/",
+      "source": "/en/produit/XMP-XC-18-PRO/",
+      "destination": "/en/produit/XMPXC17PROV2/",
       "permanent": true
     },
     {
-      "source": "/xcavator/",
-      "destination": "/mini-pelles/",
+      "source": "/en/produit/XMP-XC-25-S-C/",
+      "destination": "/en/produit/XMPXC22PROV2/",
       "permanent": true
     },
     {
-      "source": "/xcavator",
-      "destination": "/mini-pelles/",
-      "permanent": true
-    },
-    {
-      "source": "/financement/",
-      "destination": "/entreprise/financement/",
-      "permanent": true
-    },
-    {
-      "source": "/financement",
-      "destination": "/entreprise/financement/",
-      "permanent": true
-    },
-    {
-      "source": "/modeles/:path(.*)",
-      "destination": "/mini-pelles/",
+      "source": "/en/produit/XMP-XC25-2C/",
+      "destination": "/en/produit/XMPXC22PROV2/",
       "permanent": true
     },
     {
@@ -254,6 +269,511 @@
     {
       "source": "/es/produit/REM-2.7T/",
       "destination": "/es/produit/REM-2-7T/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/XMP-XC06S/",
+      "destination": "/es/produit/SMPSJW06/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/XMP-XC-12-S/",
+      "destination": "/es/produit/XMPXC13P/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/XMP-XC-12-JS/",
+      "destination": "/es/produit/XMPXC15P/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/XMP-XC-18-PRO/",
+      "destination": "/es/produit/XMPXC17PROV2/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/XMP-XC-25-S-C/",
+      "destination": "/es/produit/XMPXC22PROV2/",
+      "permanent": true
+    },
+    {
+      "source": "/es/produit/XMP-XC25-2C/",
+      "destination": "/es/produit/XMPXC22PROV2/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-pelle-sjw-18pro/",
+      "destination": "/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-pelle-sjw-12p/",
+      "destination": "/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-chargeur-sj-460t/",
+      "destination": "/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-chargeur-sj-490w/",
+      "destination": "/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-tombereau-sj-05el/",
+      "destination": "/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/mini-chargeur-sj-460-t/",
+      "destination": "/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/mini-chargeur-sj-490w/",
+      "destination": "/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-pelle-sjw-18pro/",
+      "destination": "/en/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-pelle-sjw-12p/",
+      "destination": "/en/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-chargeur-sj-460t/",
+      "destination": "/en/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-chargeur-sj-490w/",
+      "destination": "/en/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-tombereau-sj-05el/",
+      "destination": "/en/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/en/modeles/mini-chargeur-sj-460-t/",
+      "destination": "/en/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/en/modeles/mini-chargeur-sj-490w/",
+      "destination": "/en/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-pelle-sjw-18pro/",
+      "destination": "/es/produit/SMPSJW18PRO/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-pelle-sjw-12p/",
+      "destination": "/es/produit/SMPSJW12P/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-chargeur-sj-460t/",
+      "destination": "/es/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-chargeur-sj-490w/",
+      "destination": "/es/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-tombereau-sj-05el/",
+      "destination": "/es/produit/SMTSJ05EL/",
+      "permanent": true
+    },
+    {
+      "source": "/es/modeles/mini-chargeur-sj-460-t/",
+      "destination": "/es/produit/SMCSJ460T/",
+      "permanent": true
+    },
+    {
+      "source": "/es/modeles/mini-chargeur-sj-490w/",
+      "destination": "/es/produit/SMCSJ490W/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/mini-pelle-:p(.*)",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/mini-chargeur-:p(.*)",
+      "destination": "/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/mini-tombereau-:p(.*)",
+      "destination": "/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/modeles/:p(.*)",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-pelle-:p(.*)",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-chargeur-:p(.*)",
+      "destination": "/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/config/mini-tombereau-:p(.*)",
+      "destination": "/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/config/:p(.*)",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/modeles/mini-pelle-:p(.*)",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/modeles/mini-chargeur-:p(.*)",
+      "destination": "/en/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/en/modeles/mini-tombereau-:p(.*)",
+      "destination": "/en/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/en/modeles/:p(.*)",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-pelle-:p(.*)",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-chargeur-:p(.*)",
+      "destination": "/en/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/mini-tombereau-:p(.*)",
+      "destination": "/en/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/en/config/:p(.*)",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/modeles/mini-pelle-:p(.*)",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/modeles/mini-chargeur-:p(.*)",
+      "destination": "/es/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/es/modeles/mini-tombereau-:p(.*)",
+      "destination": "/es/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/es/modeles/:p(.*)",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-pelle-:p(.*)",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-chargeur-:p(.*)",
+      "destination": "/es/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/mini-tombereau-:p(.*)",
+      "destination": "/es/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/es/config/:p(.*)",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/accessoires/:p(.+)",
+      "destination": "/accessoires/",
+      "permanent": true
+    },
+    {
+      "source": "/mini-pelles/:p(.+)",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/mini-chargeurs/:p(.+)",
+      "destination": "/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/mini-tombereaux/:p(.+)",
+      "destination": "/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/occasion/:p(.+)",
+      "destination": "/occasion/",
+      "permanent": true
+    },
+    {
+      "source": "/en/accessoires/:p(.+)",
+      "destination": "/en/accessoires/",
+      "permanent": true
+    },
+    {
+      "source": "/en/mini-pelles/:p(.+)",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/mini-chargeurs/:p(.+)",
+      "destination": "/en/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/en/mini-tombereaux/:p(.+)",
+      "destination": "/en/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/en/occasion/:p(.+)",
+      "destination": "/en/occasion/",
+      "permanent": true
+    },
+    {
+      "source": "/es/accessoires/:p(.+)",
+      "destination": "/es/accessoires/",
+      "permanent": true
+    },
+    {
+      "source": "/es/mini-pelles/:p(.+)",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/mini-chargeurs/:p(.+)",
+      "destination": "/es/mini-chargeurs/",
+      "permanent": true
+    },
+    {
+      "source": "/es/mini-tombereaux/:p(.+)",
+      "destination": "/es/mini-tombereaux/",
+      "permanent": true
+    },
+    {
+      "source": "/es/occasion/:p(.+)",
+      "destination": "/es/occasion/",
+      "permanent": true
+    },
+    {
+      "source": "/leite/",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/leite",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/sonca/",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/sonca",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/xcavator/",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/xcavator",
+      "destination": "/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/financement/",
+      "destination": "/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/financement",
+      "destination": "/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/conditions-generales-vente/",
+      "destination": "/cgv/",
+      "permanent": true
+    },
+    {
+      "source": "/conditions-generales-vente",
+      "destination": "/cgv/",
+      "permanent": true
+    },
+    {
+      "source": "/en/leite/",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/leite",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/sonca/",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/sonca",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/xcavator/",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/xcavator",
+      "destination": "/en/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/en/financement/",
+      "destination": "/en/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/en/financement",
+      "destination": "/en/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/en/conditions-generales-vente/",
+      "destination": "/en/cgv/",
+      "permanent": true
+    },
+    {
+      "source": "/en/conditions-generales-vente",
+      "destination": "/en/cgv/",
+      "permanent": true
+    },
+    {
+      "source": "/es/leite/",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/leite",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/sonca/",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/sonca",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/xcavator/",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/xcavator",
+      "destination": "/es/mini-pelles/",
+      "permanent": true
+    },
+    {
+      "source": "/es/financement/",
+      "destination": "/es/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/es/financement",
+      "destination": "/es/entreprise/financement/",
+      "permanent": true
+    },
+    {
+      "source": "/es/conditions-generales-vente/",
+      "destination": "/es/cgv/",
+      "permanent": true
+    },
+    {
+      "source": "/es/conditions-generales-vente",
+      "destination": "/es/cgv/",
+      "permanent": true
+    },
+    {
+      "source": "/location/",
+      "destination": "/guides/location-mini-pelle/",
+      "permanent": true
+    },
+    {
+      "source": "/location",
+      "destination": "/guides/location-mini-pelle/",
+      "permanent": true
+    },
+    {
+      "source": "/lutilisation-des-mini-pelles-sur-differents-types-de-terrain/",
+      "destination": "/guides/utilisation-mini-pelle/",
+      "permanent": true
+    },
+    {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:path(.*)/index.html",
+      "destination": "/:path/",
       "permanent": true
     }
   ]
