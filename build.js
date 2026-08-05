@@ -369,10 +369,17 @@ function sectionsHTML(d) {
     return `<section class="pdp-block"><h2>${esc(sec.title)}</h2>${sec.body ? `<p class="pdp-block-body">${esc(sec.body)}</p>` : ""}${feats ? `<div class="pdp-feats">${feats}</div>` : ""}</section>`;
   }).join("\n");
 }
-function specsHTML(d, L) {
+function specsHTML(d, L, v2) {
   if (!Array.isArray(d.specs) || !d.specs.length) return `<div class="pdp-specs-empty">${L.ui.specsEmpty}</div>`;
   const grouped = d.specs[0] && d.specs[0].rows;
   const groups = grouped ? d.specs : [{ group: null, rows: d.specs }];
+  if (v2) {
+    const cards = groups.map((g) => {
+      const rows = (g.rows || []).map((r) => `<div class="pdp-spec"><dt>${esc(r.label)}</dt><dd>${esc(r.value)}</dd></div>`).join("");
+      return `<div class="pdp-spec-card">${g.group ? `<h3 class="pdp-spec-group">${esc(g.group)}</h3>` : ""}<dl class="pdp-specs">${rows}</dl></div>`;
+    }).join("");
+    return `<div class="pdp-spec-cards">${cards}</div>`;
+  }
   return groups.map((g) => {
     const rows = (g.rows || []).map((r) => `<div class="pdp-spec"><dt>${esc(r.label)}</dt><dd>${esc(r.value)}</dd></div>`).join("");
     return `${g.group ? `<h3 class="pdp-spec-group">${esc(g.group)}</h3>` : ""}<dl class="pdp-specs">${rows}</dl>`;
@@ -574,8 +581,57 @@ function permisGuideHTML(L) {
   </section>`;
 }
 
+/* ── Refonte fiche produit (v2) — déploiement progressif ──
+   Seules les références listées ici reçoivent le nouveau design (classe `.pdp-v2`
+   + surcharges CSS ci-dessous). Les autres fiches restent identiques au bit près.
+   Une fois le design validé, ajouter toutes les réfs (ou remplacer par `true`) et,
+   à terme, fondre ces surcharges dans le CSS de base pour nettoyer. */
+const PDP_REDESIGN = new Set(["SMPSJW06"]);
+const PDP_V2_CSS = `
+  /* ── PDP v2 : surcharges scopées .pdp-v2 (contenu inchangé, style/mise en page uniquement) ── */
+  .pdp-v2{counter-reset:pdpblock;}
+  .pdp-v2 .pdp-section{margin-top:64px;}
+  .pdp-v2 .pdp-lead{position:relative;font-size:19px;line-height:1.72;color:var(--ink);max-width:68ch;padding:4px 0 4px 26px;border-left:3px solid var(--orange);}
+  .pdp-v2 .pdp-block{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr);column-gap:56px;row-gap:22px;margin-top:60px;padding-top:46px;border-top:1px solid rgba(33,42,53,.11);align-items:start;counter-increment:pdpblock;}
+  .pdp-v2 .pdp-block>h2{grid-column:1;grid-row:1;position:sticky;top:118px;font-family:var(--f-display);font-weight:500;font-size:25px;line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin:0;}
+  .pdp-v2 .pdp-block>h2::before{content:counter(pdpblock,decimal-leading-zero);display:block;font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.14em;color:var(--orange);margin-bottom:12px;}
+  .pdp-v2 .pdp-block-body{grid-column:2;grid-row:1;font-size:16.5px;line-height:1.78;color:var(--ink);max-width:66ch;margin:0;}
+  .pdp-v2 .pdp-feats{grid-column:2;grid-row:2;display:grid;grid-template-columns:repeat(auto-fit,minmax(198px,1fr));gap:16px;margin:0;}
+  .pdp-v2 .pdp-feat{position:relative;background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:22px 20px 20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+  .pdp-v2 .pdp-feat:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(23,30,39,.09);border-color:rgba(242,129,28,.4);}
+  .pdp-v2 .pdp-feat::before{content:"";display:block;width:36px;height:36px;border-radius:10px;margin-bottom:15px;background:var(--orange-dim,rgba(242,129,28,.12)) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23F2811C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>") center/20px no-repeat;}
+  .pdp-v2 .pdp-feat h4{font-family:var(--f-display);font-weight:600;font-size:15.5px;color:var(--ink);margin-bottom:7px;}
+  .pdp-v2 .pdp-feat p{font-size:13.5px;line-height:1.62;color:var(--muted);}
+  .pdp-v2 .pdp-spec-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px;}
+  .pdp-v2 .pdp-spec-card{background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:6px 22px 12px;}
+  .pdp-v2 .pdp-spec-group{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin:0;padding:16px 0 4px;}
+  .pdp-v2 .pdp-specs{display:flex;flex-direction:column;max-width:none;gap:0;}
+  .pdp-v2 .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(33,42,53,.08);}
+  .pdp-v2 .pdp-spec-card .pdp-spec:last-child{border-bottom:none;}
+  .pdp-v2 .pdp-spec dt{color:var(--muted);font-size:14px;}
+  .pdp-v2 .pdp-spec dd{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-size:13px;text-align:right;}
+  .pdp-v2 .pdp-cta-band{position:relative;overflow:hidden;margin-top:80px;background:linear-gradient(135deg,#1b232e 0%,var(--oak,#171E27) 55%,#12181f 100%);border-radius:24px;padding:56px 44px;}
+  .pdp-v2 .pdp-cta-band::before{content:"";position:absolute;top:-42%;left:50%;transform:translateX(-50%);width:520px;height:520px;background:radial-gradient(circle,rgba(242,129,28,.22),transparent 62%);pointer-events:none;}
+  .pdp-v2 .pdp-cta-band>*{position:relative;}
+  .pdp-v2 .pdp-cta-band h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:-.02em;margin-bottom:12px;}
+  .pdp-v2 .pdp-cta-band p{color:rgba(244,239,228,.72);margin-bottom:26px;font-size:15.5px;}
+  @media(max-width:900px){
+    .pdp-v2 .pdp-block{display:block;margin-top:44px;padding-top:34px;}
+    .pdp-v2 .pdp-block>h2{position:static;font-size:23px;margin-bottom:16px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-top:22px;}
+    .pdp-v2 .pdp-spec-cards{grid-template-columns:1fr;}
+  }
+  @media(max-width:600px){
+    .pdp-v2.pdp{padding-top:104px;}
+    .pdp-v2 .pdp-lead{font-size:17px;padding-left:18px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:1fr;}
+    .pdp-v2 .pdp-cta-band{padding:40px 22px;border-radius:20px;}
+    .pdp-v2 .pdp-section{margin-top:52px;}
+  }`;
+
 function productPageHTML(p, L) {
   const d = L.DATA[p.reference] || {};
+  const v2 = PDP_REDESIGN.has(p.reference);
   const isRemorque = p.pageSlug === "remorques";
   const permisBlock = isRemorque ? permisGuideHTML(L) : "";
   const permisCss = isRemorque ? PERMIS_CSS : "";
@@ -693,7 +749,7 @@ ${HEAD_FONTS}
   @media(max-width:900px){.pdp-grid{grid-template-columns:1fr;gap:30px;}.pdp-gallery{position:static;}.pdp-feats{grid-template-columns:1fr;}.pdp-specs{grid-template-columns:1fr;}}
 ${finCss}
 ${optionCss}
-${permisCss}
+${permisCss}${v2 ? PDP_V2_CSS : ""}
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -733,7 +789,7 @@ function getFbp(){return getCookie('_fbp');}
 <body>
 ${utilityBar(L, frUrl, enUrl, esUrl)}
 ${nav(L)}
-<main class="pdp"><div class="container">
+<main class="pdp${v2 ? " pdp-v2" : ""}"><div class="container">
   <nav class="pdp-crumbs" aria-label="${L.ui.breadcrumb}"><a href="${L.prefix ? L.prefix + "/" : "/"}">${L.ui.home}</a> &nbsp;/&nbsp; <a href="${cPath}">${catName}</a> &nbsp;/&nbsp; <span>${esc(name)}</span></nav>
   <div class="pdp-grid">
     ${galleryHTML(p, d, L)}
@@ -757,7 +813,7 @@ ${nav(L)}
   <section class="pdp-section"><div class="pdp-lead">${esc(intro)}</div></section>
   ${sectionsHTML(d)}
 
-  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">${L.ui.techSpecs}</h2>${specsHTML(d, L)}</section>
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">${L.ui.techSpecs}</h2>${specsHTML(d, L, v2)}</section>
 ${permisBlock}
 
   <section class="pdp-cta-band">
