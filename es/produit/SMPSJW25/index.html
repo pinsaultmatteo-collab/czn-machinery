@@ -65,6 +65,46 @@
 
 
 
+  /* ── PDP v2 : surcharges scopées .pdp-v2 (contenu inchangé, style/mise en page uniquement) ── */
+  .pdp-v2{counter-reset:pdpblock;}
+  .pdp-v2 .pdp-section{margin-top:64px;}
+  .pdp-v2 .pdp-lead{position:relative;font-size:19px;line-height:1.72;color:var(--ink);max-width:68ch;padding:4px 0 4px 26px;border-left:3px solid var(--orange);}
+  .pdp-v2 .pdp-block{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr);column-gap:56px;row-gap:22px;margin-top:60px;padding-top:46px;border-top:1px solid rgba(33,42,53,.11);align-items:start;counter-increment:pdpblock;}
+  .pdp-v2 .pdp-block>h2{grid-column:1;grid-row:1;position:sticky;top:118px;font-family:var(--f-display);font-weight:500;font-size:25px;line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin:0;}
+  .pdp-v2 .pdp-block>h2::before{content:counter(pdpblock,decimal-leading-zero);display:block;font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.14em;color:var(--orange);margin-bottom:12px;}
+  .pdp-v2 .pdp-block-body{grid-column:2;grid-row:1;font-size:16.5px;line-height:1.78;color:var(--ink);max-width:66ch;margin:0;}
+  .pdp-v2 .pdp-feats{grid-column:2;grid-row:2;display:grid;grid-template-columns:repeat(auto-fit,minmax(198px,1fr));gap:16px;margin:0;}
+  .pdp-v2 .pdp-feat{position:relative;background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:22px 20px 20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+  .pdp-v2 .pdp-feat:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(23,30,39,.09);border-color:rgba(242,129,28,.4);}
+  .pdp-v2 .pdp-feat::before{content:"";display:block;width:36px;height:36px;border-radius:10px;margin-bottom:15px;background:var(--orange-dim,rgba(242,129,28,.12)) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23F2811C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>") center/20px no-repeat;}
+  .pdp-v2 .pdp-feat h4{font-family:var(--f-display);font-weight:600;font-size:15.5px;color:var(--ink);margin-bottom:7px;}
+  .pdp-v2 .pdp-feat p{font-size:13.5px;line-height:1.62;color:var(--muted);}
+  .pdp-v2 .pdp-spec-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px;}
+  .pdp-v2 .pdp-spec-card{background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:6px 22px 12px;}
+  .pdp-v2 .pdp-spec-group{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin:0;padding:16px 0 4px;}
+  .pdp-v2 .pdp-specs{display:flex;flex-direction:column;max-width:none;gap:0;}
+  .pdp-v2 .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(33,42,53,.08);}
+  .pdp-v2 .pdp-spec-card .pdp-spec:last-child{border-bottom:none;}
+  .pdp-v2 .pdp-spec dt{color:var(--muted);font-size:14px;}
+  .pdp-v2 .pdp-spec dd{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-size:13px;text-align:right;}
+  .pdp-v2 .pdp-cta-band{position:relative;overflow:hidden;margin-top:80px;background:linear-gradient(135deg,#1b232e 0%,var(--oak,#171E27) 55%,#12181f 100%);border-radius:24px;padding:56px 44px;}
+  .pdp-v2 .pdp-cta-band::before{content:"";position:absolute;top:-42%;left:50%;transform:translateX(-50%);width:520px;height:520px;background:radial-gradient(circle,rgba(242,129,28,.22),transparent 62%);pointer-events:none;}
+  .pdp-v2 .pdp-cta-band>*{position:relative;}
+  .pdp-v2 .pdp-cta-band h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:-.02em;margin-bottom:12px;}
+  .pdp-v2 .pdp-cta-band p{color:rgba(244,239,228,.72);margin-bottom:26px;font-size:15.5px;}
+  @media(max-width:900px){
+    .pdp-v2 .pdp-block{display:block;margin-top:44px;padding-top:34px;}
+    .pdp-v2 .pdp-block>h2{position:static;font-size:23px;margin-bottom:16px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-top:22px;}
+    .pdp-v2 .pdp-spec-cards{grid-template-columns:1fr;}
+  }
+  @media(max-width:600px){
+    .pdp-v2.pdp{padding-top:104px;}
+    .pdp-v2 .pdp-lead{font-size:17px;padding-left:18px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:1fr;}
+    .pdp-v2 .pdp-cta-band{padding:40px 22px;border-radius:20px;}
+    .pdp-v2 .pdp-section{margin-top:52px;}
+  }
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -117,7 +157,7 @@ function getFbp(){return getCookie('_fbp');}
     <a href="/es/contact/" class="nav-cta">Solicitar presupuesto <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
   </div></div></nav>
 <script>(function(){var path=window.location.pathname.replace(/\/$/,'')||'/';document.querySelectorAll('.nav-links a').forEach(function(a){var h=a.getAttribute('href').replace(/\/$/,'')||'/';if(path===h||(h!==''&&h!=='/'&&path.indexOf(h)===0))a.classList.add('nav-active');});})();</script>
-<main class="pdp"><div class="container">
+<main class="pdp pdp-v2"><div class="container">
   <nav class="pdp-crumbs" aria-label="Ruta de navegación"><a href="/es/">Inicio</a> &nbsp;/&nbsp; <a href="/es/mini-pelles/">Miniexcavadoras</a> &nbsp;/&nbsp; <span>Miniexcavadora SJW-25</span></nav>
   <div class="pdp-grid">
     <div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp" alt="Miniexcavadora Sonca SJW-25, vista lateral con cazo a la derecha"><button class="pdp-nav pdp-prev" aria-label="Photo previous">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo next">&#8250;</button></div><div class="pdp-thumbs"><button class="pdp-thumb active" data-src="/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp" aria-label="Photo 1"><img src="/images/SJW-25/mini-pelle-sonca-sjw-25-profil.webp" alt="Miniexcavadora Sonca SJW-25, vista lateral con cazo a la derecha" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJW-25/mini-pelle-sonca-sjw-25-3-4-avant.webp" aria-label="Photo 2"><img src="/images/SJW-25/mini-pelle-sonca-sjw-25-3-4-avant.webp" alt="Miniexcavadora Sonca SJW-25, vista 3/4 delantera" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJW-25/mini-pelle-sonca-sjw-25-cabine-joysticks.webp" aria-label="Photo 3"><img src="/images/SJW-25/mini-pelle-sonca-sjw-25-cabine-joysticks.webp" alt="Sonca SJW-25 cabina y joysticks" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJW-25/mini-pelle-sonca-sjw-25-leviers-pedales.webp" aria-label="Photo 4"><img src="/images/SJW-25/mini-pelle-sonca-sjw-25-leviers-pedales.webp" alt="Sonca SJW-25 palancas y pedales" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJW-25/mini-pelle-sonca-sjw-25-moteur.webp" aria-label="Photo 5"><img src="/images/SJW-25/mini-pelle-sonca-sjw-25-moteur.webp" alt="Sonca SJW-25 motor" loading="lazy"></button></div></div>
@@ -142,9 +182,7 @@ function getFbp(){return getCookie('_fbp');}
   <section class="pdp-block"><h2>Vías variables y motor Changchai de 29 CV</h2><p class="pdp-block-body">Sistema exclusivo de ajuste de la anchura de las orugas (1080-1520 mm) para pasar por accesos estrechos y luego estabilizarse en terreno difícil. Motor Changchai 390 de 29 CV refrigerado por líquido, fiable y sobrio.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Vías variables 1080-1520 mm</h4><p>Orugas estrechas para los pasos, anchas para la máxima estabilidad.</p></div><div class="pdp-feat"><h4>Motor Changchai 390</h4><p>29 CV (20 kW), 4 tiempos refrigerado por líquido, Euro 5.</p></div><div class="pdp-feat"><h4>Pluma orientable</h4><p>Alcanza las zonas de difícil acceso sin reposicionar la máquina.</p></div></div></section>
 <section class="pdp-block"><h2>Maniobrabilidad y motor de traslación protegido</h2><p class="pdp-block-body">Radio de giro trasero reducido a 756 mm y motor de traslación plano integrado en el chasis, protegido de los impactos para una mayor durabilidad en terrenos difíciles.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Radio trasero de 756 mm</h4><p>Maniobra en los espacios más reducidos.</p></div><div class="pdp-feat"><h4>Motor de traslación protegido</h4><p>Integrado en el chasis, a resguardo de los obstáculos.</p></div><div class="pdp-feat"><h4>Opción de pulgar manipulador</h4><p>Dispositivo de 225 mm para agarrar madera, hormigón, rocas.</p></div></div></section>
 
-  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Características técnicas</h2><h3 class="pdp-spec-group">Características generales</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Fuerza de excavación</dt><dd>2.500 kg</dd></div><div class="pdp-spec"><dt>Longitud total</dt><dd>2.700 mm</dd></div><div class="pdp-spec"><dt>Anchura total</dt><dd>1.300 mm</dd></div><div class="pdp-spec"><dt>Altura total</dt><dd>2.550 mm</dd></div><div class="pdp-spec"><dt>Anchura de las zapatas</dt><dd>250 mm</dd></div><div class="pdp-spec"><dt>Anchura del cazo</dt><dd>420 mm</dd></div><div class="pdp-spec"><dt>Longitud de la vía</dt><dd>1.800 mm</dd></div><div class="pdp-spec"><dt>Altura de la vía</dt><dd>320 mm</dd></div><div class="pdp-spec"><dt>Peso operativo</dt><dd>1.725 kg</dd></div></dl>
-<h3 class="pdp-spec-group">Dimensiones de trabajo</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Altura de excavación máx.</dt><dd>3.400 mm</dd></div><div class="pdp-spec"><dt>Altura de descarga máx.</dt><dd>2.673 mm</dd></div><div class="pdp-spec"><dt>Profundidad de excavación máx.</dt><dd>2.600 mm</dd></div><div class="pdp-spec"><dt>Radio de giro trasero</dt><dd>756 mm</dd></div><div class="pdp-spec"><dt>Radio de excavación máx.</dt><dd>4.163 mm</dd></div><div class="pdp-spec"><dt>Vías variables</dt><dd>1.080 - 1.520 mm</dd></div></dl>
-<h3 class="pdp-spec-group">Mecánica</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Motor</dt><dd>Changchai 390</dd></div><div class="pdp-spec"><dt>Potencia</dt><dd>29 CV (20 kW)</dd></div><div class="pdp-spec"><dt>Energía</dt><dd>Diésel Euro 5</dd></div><div class="pdp-spec"><dt>Refrigeración</dt><dd>Líquido</dd></div><div class="pdp-spec"><dt>Depósito de combustible</dt><dd>12 L</dd></div><div class="pdp-spec"><dt>Depósito hidráulico</dt><dd>18 L</dd></div></dl></section>
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Características técnicas</h2><div class="pdp-spec-cards"><div class="pdp-spec-card"><h3 class="pdp-spec-group">Características generales</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Fuerza de excavación</dt><dd>2.500 kg</dd></div><div class="pdp-spec"><dt>Longitud total</dt><dd>2.700 mm</dd></div><div class="pdp-spec"><dt>Anchura total</dt><dd>1.300 mm</dd></div><div class="pdp-spec"><dt>Altura total</dt><dd>2.550 mm</dd></div><div class="pdp-spec"><dt>Anchura de las zapatas</dt><dd>250 mm</dd></div><div class="pdp-spec"><dt>Anchura del cazo</dt><dd>420 mm</dd></div><div class="pdp-spec"><dt>Longitud de la vía</dt><dd>1.800 mm</dd></div><div class="pdp-spec"><dt>Altura de la vía</dt><dd>320 mm</dd></div><div class="pdp-spec"><dt>Peso operativo</dt><dd>1.725 kg</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Dimensiones de trabajo</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Altura de excavación máx.</dt><dd>3.400 mm</dd></div><div class="pdp-spec"><dt>Altura de descarga máx.</dt><dd>2.673 mm</dd></div><div class="pdp-spec"><dt>Profundidad de excavación máx.</dt><dd>2.600 mm</dd></div><div class="pdp-spec"><dt>Radio de giro trasero</dt><dd>756 mm</dd></div><div class="pdp-spec"><dt>Radio de excavación máx.</dt><dd>4.163 mm</dd></div><div class="pdp-spec"><dt>Vías variables</dt><dd>1.080 - 1.520 mm</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Mecánica</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Motor</dt><dd>Changchai 390</dd></div><div class="pdp-spec"><dt>Potencia</dt><dd>29 CV (20 kW)</dd></div><div class="pdp-spec"><dt>Energía</dt><dd>Diésel Euro 5</dd></div><div class="pdp-spec"><dt>Refrigeración</dt><dd>Líquido</dd></div><div class="pdp-spec"><dt>Depósito de combustible</dt><dd>12 L</dd></div><div class="pdp-spec"><dt>Depósito hidráulico</dt><dd>18 L</dd></div></dl></div></div></section>
 
 
   <section class="pdp-cta-band">

@@ -65,6 +65,46 @@
 
 
 
+  /* ── PDP v2 : surcharges scopées .pdp-v2 (contenu inchangé, style/mise en page uniquement) ── */
+  .pdp-v2{counter-reset:pdpblock;}
+  .pdp-v2 .pdp-section{margin-top:64px;}
+  .pdp-v2 .pdp-lead{position:relative;font-size:19px;line-height:1.72;color:var(--ink);max-width:68ch;padding:4px 0 4px 26px;border-left:3px solid var(--orange);}
+  .pdp-v2 .pdp-block{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr);column-gap:56px;row-gap:22px;margin-top:60px;padding-top:46px;border-top:1px solid rgba(33,42,53,.11);align-items:start;counter-increment:pdpblock;}
+  .pdp-v2 .pdp-block>h2{grid-column:1;grid-row:1;position:sticky;top:118px;font-family:var(--f-display);font-weight:500;font-size:25px;line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin:0;}
+  .pdp-v2 .pdp-block>h2::before{content:counter(pdpblock,decimal-leading-zero);display:block;font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.14em;color:var(--orange);margin-bottom:12px;}
+  .pdp-v2 .pdp-block-body{grid-column:2;grid-row:1;font-size:16.5px;line-height:1.78;color:var(--ink);max-width:66ch;margin:0;}
+  .pdp-v2 .pdp-feats{grid-column:2;grid-row:2;display:grid;grid-template-columns:repeat(auto-fit,minmax(198px,1fr));gap:16px;margin:0;}
+  .pdp-v2 .pdp-feat{position:relative;background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:22px 20px 20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+  .pdp-v2 .pdp-feat:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(23,30,39,.09);border-color:rgba(242,129,28,.4);}
+  .pdp-v2 .pdp-feat::before{content:"";display:block;width:36px;height:36px;border-radius:10px;margin-bottom:15px;background:var(--orange-dim,rgba(242,129,28,.12)) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23F2811C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>") center/20px no-repeat;}
+  .pdp-v2 .pdp-feat h4{font-family:var(--f-display);font-weight:600;font-size:15.5px;color:var(--ink);margin-bottom:7px;}
+  .pdp-v2 .pdp-feat p{font-size:13.5px;line-height:1.62;color:var(--muted);}
+  .pdp-v2 .pdp-spec-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px;}
+  .pdp-v2 .pdp-spec-card{background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:6px 22px 12px;}
+  .pdp-v2 .pdp-spec-group{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin:0;padding:16px 0 4px;}
+  .pdp-v2 .pdp-specs{display:flex;flex-direction:column;max-width:none;gap:0;}
+  .pdp-v2 .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(33,42,53,.08);}
+  .pdp-v2 .pdp-spec-card .pdp-spec:last-child{border-bottom:none;}
+  .pdp-v2 .pdp-spec dt{color:var(--muted);font-size:14px;}
+  .pdp-v2 .pdp-spec dd{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-size:13px;text-align:right;}
+  .pdp-v2 .pdp-cta-band{position:relative;overflow:hidden;margin-top:80px;background:linear-gradient(135deg,#1b232e 0%,var(--oak,#171E27) 55%,#12181f 100%);border-radius:24px;padding:56px 44px;}
+  .pdp-v2 .pdp-cta-band::before{content:"";position:absolute;top:-42%;left:50%;transform:translateX(-50%);width:520px;height:520px;background:radial-gradient(circle,rgba(242,129,28,.22),transparent 62%);pointer-events:none;}
+  .pdp-v2 .pdp-cta-band>*{position:relative;}
+  .pdp-v2 .pdp-cta-band h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:-.02em;margin-bottom:12px;}
+  .pdp-v2 .pdp-cta-band p{color:rgba(244,239,228,.72);margin-bottom:26px;font-size:15.5px;}
+  @media(max-width:900px){
+    .pdp-v2 .pdp-block{display:block;margin-top:44px;padding-top:34px;}
+    .pdp-v2 .pdp-block>h2{position:static;font-size:23px;margin-bottom:16px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-top:22px;}
+    .pdp-v2 .pdp-spec-cards{grid-template-columns:1fr;}
+  }
+  @media(max-width:600px){
+    .pdp-v2.pdp{padding-top:104px;}
+    .pdp-v2 .pdp-lead{font-size:17px;padding-left:18px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:1fr;}
+    .pdp-v2 .pdp-cta-band{padding:40px 22px;border-radius:20px;}
+    .pdp-v2 .pdp-section{margin-top:52px;}
+  }
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -117,7 +157,7 @@ function getFbp(){return getCookie('_fbp');}
     <a href="/es/contact/" class="nav-cta">Solicitar presupuesto <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
   </div></div></nav>
 <script>(function(){var path=window.location.pathname.replace(/\/$/,'')||'/';document.querySelectorAll('.nav-links a').forEach(function(a){var h=a.getAttribute('href').replace(/\/$/,'')||'/';if(path===h||(h!==''&&h!=='/'&&path.indexOf(h)===0))a.classList.add('nav-active');});})();</script>
-<main class="pdp"><div class="container">
+<main class="pdp pdp-v2"><div class="container">
   <nav class="pdp-crumbs" aria-label="Ruta de navegación"><a href="/es/">Inicio</a> &nbsp;/&nbsp; <a href="/es/mini-pelles/">Miniexcavadoras</a> &nbsp;/&nbsp; <span>Miniexcavadora SJW-12 P</span></nav>
   <div class="pdp-grid">
     <div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp" alt="Miniexcavadora Sonca SJW-12 P con pluma orientable, vista delantera derecha"><button class="pdp-nav pdp-prev" aria-label="Photo previous">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo next">&#8250;</button></div><div class="pdp-thumbs"><button class="pdp-thumb active" data-src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp" aria-label="Photo 1"><img src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp" alt="Miniexcavadora Sonca SJW-12 P con pluma orientable, vista delantera derecha" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp" aria-label="Photo 2"><img src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp" alt="SJW-12 P trasera izquierda, sistema hidráulico" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp" aria-label="Photo 3"><img src="/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp" alt="SJW-12 P, capó del motor y acabados" loading="lazy"></button></div></div>
@@ -143,9 +183,7 @@ function getFbp(){return getCookie('_fbp');}
 <section class="pdp-block"><h2>Compacta y precisa</h2><p class="pdp-block-body">Con un radio de giro mínimo de 1.490 mm y una anchura de solo 1 metro, la SJW-12 P se desplaza con gran precisión alrededor de los obstáculos. Ideal para jardines, patios interiores y acondicionamientos residenciales cuidados.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Anchura de 1 metro</h4><p>Acceso facilitado a espacios reducidos y pasos estrechos.</p></div><div class="pdp-feat"><h4>Giro de 1.490 mm</h4><p>Navegación ultraprecisa alrededor de los obstáculos.</p></div><div class="pdp-feat"><h4>Pack completo</h4><p>Entregada con cazo de 40 cm, canopy, caja de herramientas y filtros.</p></div></div></section>
 <section class="pdp-block"><h2>Sistema hidráulico optimizado</h2><p class="pdp-block-body">El sistema hidráulico, reforzado para soportar la pluma orientable, conserva una gran precisión. La bomba Tianjin de 20 L y el cazo de movimiento de tierras de 40 cm aseguran movimientos fluidos y perfectamente controlados, incluso durante las maniobras de orientación.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Bomba Tianjin de 20 L</h4><p>Caudal generoso para movimientos fluidos y una buena productividad.</p></div><div class="pdp-feat"><h4>Cazo de 40 cm reforzado</h4><p>Incluido, dimensionado para los trabajos de movimiento de tierras habituales.</p></div><div class="pdp-feat"><h4>Opción de pulgar manipulador</h4><p>Dispositivo opcional en el balancín, para agarrar todo tipo de materiales.</p></div></div></section>
 
-  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Características técnicas</h2><h3 class="pdp-spec-group">Características generales</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Peso operativo</dt><dd>1.015 kg</dd></div><div class="pdp-spec"><dt>Fuerza de excavación</dt><dd>1.200 kg</dd></div><div class="pdp-spec"><dt>Longitud total</dt><dd>2.200 mm</dd></div><div class="pdp-spec"><dt>Anchura total</dt><dd>1.000 mm</dd></div><div class="pdp-spec"><dt>Altura total</dt><dd>2.240 mm</dd></div><div class="pdp-spec"><dt>Anchura de las zapatas</dt><dd>170 mm</dd></div><div class="pdp-spec"><dt>Anchura del cazo</dt><dd>400 mm</dd></div><div class="pdp-spec"><dt>Altura de vía</dt><dd>320 mm</dd></div></dl>
-<h3 class="pdp-spec-group">Dimensiones de trabajo</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Profundidad de excavación máx.</dt><dd>1.650 mm</dd></div><div class="pdp-spec"><dt>Altura de excavación máx.</dt><dd>2.580 mm</dd></div><div class="pdp-spec"><dt>Altura de descarga máx.</dt><dd>1.750 mm</dd></div><div class="pdp-spec"><dt>Radio de excavación a nivel del suelo</dt><dd>2.500 mm</dd></div><div class="pdp-spec"><dt>Radio de rotación máx.</dt><dd>1.100 mm</dd></div><div class="pdp-spec"><dt>Radio de giro mín. (delantero)</dt><dd>1.490 mm</dd></div></dl>
-<h3 class="pdp-spec-group">Mecánica</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Motor</dt><dd>KOOP KD192F</dd></div><div class="pdp-spec"><dt>Potencia</dt><dd>10,3 / 11,7 CV</dd></div><div class="pdp-spec"><dt>Régimen nominal</dt><dd>3.600 rpm</dd></div><div class="pdp-spec"><dt>Cilindrada</dt><dd>499 cc</dd></div><div class="pdp-spec"><dt>Energía</dt><dd>Diésel Euro 5</dd></div><div class="pdp-spec"><dt>Refrigeración</dt><dd>Aire</dd></div><div class="pdp-spec"><dt>Tipo de motor</dt><dd>Monocilíndrico</dd></div><div class="pdp-spec"><dt>Consumo</dt><dd>275–280 g/kWh</dd></div><div class="pdp-spec"><dt>Bomba hidráulica</dt><dd>Tianjin</dd></div><div class="pdp-spec"><dt>Caudal de la bomba</dt><dd>20 L</dd></div><div class="pdp-spec"><dt>Depósito de combustible</dt><dd>5,5 L</dd></div></dl></section>
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Características técnicas</h2><div class="pdp-spec-cards"><div class="pdp-spec-card"><h3 class="pdp-spec-group">Características generales</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Peso operativo</dt><dd>1.015 kg</dd></div><div class="pdp-spec"><dt>Fuerza de excavación</dt><dd>1.200 kg</dd></div><div class="pdp-spec"><dt>Longitud total</dt><dd>2.200 mm</dd></div><div class="pdp-spec"><dt>Anchura total</dt><dd>1.000 mm</dd></div><div class="pdp-spec"><dt>Altura total</dt><dd>2.240 mm</dd></div><div class="pdp-spec"><dt>Anchura de las zapatas</dt><dd>170 mm</dd></div><div class="pdp-spec"><dt>Anchura del cazo</dt><dd>400 mm</dd></div><div class="pdp-spec"><dt>Altura de vía</dt><dd>320 mm</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Dimensiones de trabajo</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Profundidad de excavación máx.</dt><dd>1.650 mm</dd></div><div class="pdp-spec"><dt>Altura de excavación máx.</dt><dd>2.580 mm</dd></div><div class="pdp-spec"><dt>Altura de descarga máx.</dt><dd>1.750 mm</dd></div><div class="pdp-spec"><dt>Radio de excavación a nivel del suelo</dt><dd>2.500 mm</dd></div><div class="pdp-spec"><dt>Radio de rotación máx.</dt><dd>1.100 mm</dd></div><div class="pdp-spec"><dt>Radio de giro mín. (delantero)</dt><dd>1.490 mm</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Mecánica</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Motor</dt><dd>KOOP KD192F</dd></div><div class="pdp-spec"><dt>Potencia</dt><dd>10,3 / 11,7 CV</dd></div><div class="pdp-spec"><dt>Régimen nominal</dt><dd>3.600 rpm</dd></div><div class="pdp-spec"><dt>Cilindrada</dt><dd>499 cc</dd></div><div class="pdp-spec"><dt>Energía</dt><dd>Diésel Euro 5</dd></div><div class="pdp-spec"><dt>Refrigeración</dt><dd>Aire</dd></div><div class="pdp-spec"><dt>Tipo de motor</dt><dd>Monocilíndrico</dd></div><div class="pdp-spec"><dt>Consumo</dt><dd>275–280 g/kWh</dd></div><div class="pdp-spec"><dt>Bomba hidráulica</dt><dd>Tianjin</dd></div><div class="pdp-spec"><dt>Caudal de la bomba</dt><dd>20 L</dd></div><div class="pdp-spec"><dt>Depósito de combustible</dt><dd>5,5 L</dd></div></dl></div></div></section>
 
 
   <section class="pdp-cta-band">

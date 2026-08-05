@@ -581,12 +581,13 @@ function permisGuideHTML(L) {
   </section>`;
 }
 
-/* ── Refonte fiche produit (v2) — déploiement progressif ──
-   Seules les références listées ici reçoivent le nouveau design (classe `.pdp-v2`
-   + surcharges CSS ci-dessous). Les autres fiches restent identiques au bit près.
-   Une fois le design validé, ajouter toutes les réfs (ou remplacer par `true`) et,
-   à terme, fondre ces surcharges dans le CSS de base pour nettoyer. */
-const PDP_REDESIGN = new Set(["SMPSJW06"]);
+/* ── Refonte fiche produit (v2) ──
+   Design validé sur SMPSJW06 puis déployé sur TOUT le catalogue (2026-08-05).
+   `PDP_V2_ALL = true` → chaque fiche reçoit la classe `.pdp-v2` + les surcharges
+   CSS ci-dessous. Pour revenir à l'ancien design d'une seule réf en cas de besoin,
+   repasser à un `Set` de références. À terme : fondre `PDP_V2_CSS` dans le CSS de
+   base et retirer le flag pour nettoyer. */
+const PDP_V2_ALL = true;
 const PDP_V2_CSS = `
   /* ── PDP v2 : surcharges scopées .pdp-v2 (contenu inchangé, style/mise en page uniquement) ── */
   .pdp-v2{counter-reset:pdpblock;}
@@ -631,7 +632,7 @@ const PDP_V2_CSS = `
 
 function productPageHTML(p, L) {
   const d = L.DATA[p.reference] || {};
-  const v2 = PDP_REDESIGN.has(p.reference);
+  const v2 = PDP_V2_ALL;
   const isRemorque = p.pageSlug === "remorques";
   const permisBlock = isRemorque ? permisGuideHTML(L) : "";
   const permisCss = isRemorque ? PERMIS_CSS : "";

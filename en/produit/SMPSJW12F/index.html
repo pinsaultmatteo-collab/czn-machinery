@@ -65,6 +65,46 @@
 
 
 
+  /* ── PDP v2 : surcharges scopées .pdp-v2 (contenu inchangé, style/mise en page uniquement) ── */
+  .pdp-v2{counter-reset:pdpblock;}
+  .pdp-v2 .pdp-section{margin-top:64px;}
+  .pdp-v2 .pdp-lead{position:relative;font-size:19px;line-height:1.72;color:var(--ink);max-width:68ch;padding:4px 0 4px 26px;border-left:3px solid var(--orange);}
+  .pdp-v2 .pdp-block{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr);column-gap:56px;row-gap:22px;margin-top:60px;padding-top:46px;border-top:1px solid rgba(33,42,53,.11);align-items:start;counter-increment:pdpblock;}
+  .pdp-v2 .pdp-block>h2{grid-column:1;grid-row:1;position:sticky;top:118px;font-family:var(--f-display);font-weight:500;font-size:25px;line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin:0;}
+  .pdp-v2 .pdp-block>h2::before{content:counter(pdpblock,decimal-leading-zero);display:block;font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.14em;color:var(--orange);margin-bottom:12px;}
+  .pdp-v2 .pdp-block-body{grid-column:2;grid-row:1;font-size:16.5px;line-height:1.78;color:var(--ink);max-width:66ch;margin:0;}
+  .pdp-v2 .pdp-feats{grid-column:2;grid-row:2;display:grid;grid-template-columns:repeat(auto-fit,minmax(198px,1fr));gap:16px;margin:0;}
+  .pdp-v2 .pdp-feat{position:relative;background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:22px 20px 20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+  .pdp-v2 .pdp-feat:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(23,30,39,.09);border-color:rgba(242,129,28,.4);}
+  .pdp-v2 .pdp-feat::before{content:"";display:block;width:36px;height:36px;border-radius:10px;margin-bottom:15px;background:var(--orange-dim,rgba(242,129,28,.12)) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23F2811C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>") center/20px no-repeat;}
+  .pdp-v2 .pdp-feat h4{font-family:var(--f-display);font-weight:600;font-size:15.5px;color:var(--ink);margin-bottom:7px;}
+  .pdp-v2 .pdp-feat p{font-size:13.5px;line-height:1.62;color:var(--muted);}
+  .pdp-v2 .pdp-spec-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px;}
+  .pdp-v2 .pdp-spec-card{background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:6px 22px 12px;}
+  .pdp-v2 .pdp-spec-group{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin:0;padding:16px 0 4px;}
+  .pdp-v2 .pdp-specs{display:flex;flex-direction:column;max-width:none;gap:0;}
+  .pdp-v2 .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(33,42,53,.08);}
+  .pdp-v2 .pdp-spec-card .pdp-spec:last-child{border-bottom:none;}
+  .pdp-v2 .pdp-spec dt{color:var(--muted);font-size:14px;}
+  .pdp-v2 .pdp-spec dd{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-size:13px;text-align:right;}
+  .pdp-v2 .pdp-cta-band{position:relative;overflow:hidden;margin-top:80px;background:linear-gradient(135deg,#1b232e 0%,var(--oak,#171E27) 55%,#12181f 100%);border-radius:24px;padding:56px 44px;}
+  .pdp-v2 .pdp-cta-band::before{content:"";position:absolute;top:-42%;left:50%;transform:translateX(-50%);width:520px;height:520px;background:radial-gradient(circle,rgba(242,129,28,.22),transparent 62%);pointer-events:none;}
+  .pdp-v2 .pdp-cta-band>*{position:relative;}
+  .pdp-v2 .pdp-cta-band h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:-.02em;margin-bottom:12px;}
+  .pdp-v2 .pdp-cta-band p{color:rgba(244,239,228,.72);margin-bottom:26px;font-size:15.5px;}
+  @media(max-width:900px){
+    .pdp-v2 .pdp-block{display:block;margin-top:44px;padding-top:34px;}
+    .pdp-v2 .pdp-block>h2{position:static;font-size:23px;margin-bottom:16px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-top:22px;}
+    .pdp-v2 .pdp-spec-cards{grid-template-columns:1fr;}
+  }
+  @media(max-width:600px){
+    .pdp-v2.pdp{padding-top:104px;}
+    .pdp-v2 .pdp-lead{font-size:17px;padding-left:18px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:1fr;}
+    .pdp-v2 .pdp-cta-band{padding:40px 22px;border-radius:20px;}
+    .pdp-v2 .pdp-section{margin-top:52px;}
+  }
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -117,7 +157,7 @@ function getFbp(){return getCookie('_fbp');}
     <a href="/en/contact/" class="nav-cta">Request a quote <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
   </div></div></nav>
 <script>(function(){var path=window.location.pathname.replace(/\/$/,'')||'/';document.querySelectorAll('.nav-links a').forEach(function(a){var h=a.getAttribute('href').replace(/\/$/,'')||'/';if(path===h||(h!==''&&h!=='/'&&path.indexOf(h)===0))a.classList.add('nav-active');});})();</script>
-<main class="pdp"><div class="container">
+<main class="pdp pdp-v2"><div class="container">
   <nav class="pdp-crumbs" aria-label="Breadcrumb"><a href="/en/">Home</a> &nbsp;/&nbsp; <a href="/en/mini-pelles/">Mini excavators</a> &nbsp;/&nbsp; <span>Mini excavator SJW-12 F</span></nav>
   <div class="pdp-grid">
     <div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-avant-droit.webp" alt="Sonca SJW-12 F mini excavator with offset boom, front right view"><button class="pdp-nav pdp-prev" aria-label="Photo previous">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo next">&#8250;</button></div><div class="pdp-thumbs"><button class="pdp-thumb active" data-src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-avant-droit.webp" aria-label="Photo 1"><img src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-avant-droit.webp" alt="Sonca SJW-12 F mini excavator with offset boom, front right view" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-arriere-gauche.webp" aria-label="Photo 2"><img src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-arriere-gauche.webp" alt="SJW-12 F left rear view" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-moteur.webp" aria-label="Photo 3"><img src="/images/SONCA/SJW-12-F/Mini-pelle-sonca-sjw-12-f-moteur.webp" alt="SJW-12 F engine cover" loading="lazy"></button></div></div>
@@ -142,9 +182,7 @@ function getFbp(){return getCookie('_fbp');}
   <section class="pdp-block"><h2>Offset boom as standard</h2><p class="pdp-block-body">The offset boom reaches angles inaccessible with a fixed boom and considerably increases the working area without moving the machine. The engine cover protects the hydraulic hoses for greater longevity and simpler maintenance.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Exceptional manoeuvrability</h4><p>Work efficiently in any hard-to-access area, without repositioning the machine.</p></div><div class="pdp-feat"><h4>Protective engine cover</h4><p>Effectively shields the hydraulic hoses from the elements for greater durability.</p></div><div class="pdp-feat"><h4>10 hp KOOP engine</h4><p>Air-cooled KOOP KD192F engine, balancing power, reliability and ease of maintenance.</p></div></div></section>
 <section class="pdp-block"><h2>Compact and manoeuvrable</h2><p class="pdp-block-body">With a width of just 1 metre and a minimum tail swing radius of 1,490 mm at the front, the SJW-12 F navigates easily around obstacles in the tightest spaces, while maximising productivity on residential sites.</p><div class="pdp-feats"><div class="pdp-feat"><h4>1-metre width</h4><p>Passes through narrow accesses and standard garden gates.</p></div><div class="pdp-feat"><h4>1,490 mm tail swing</h4><p>Precise navigation around obstacles, ideal in residential settings.</p></div><div class="pdp-feat"><h4>40 cm bucket included</h4><p>Delivered ready to use for everyday earthworks.</p></div></div></section>
 
-  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Technical specifications</h2><h3 class="pdp-spec-group">General specifications</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Overall width</dt><dd>1,000 mm</dd></div><div class="pdp-spec"><dt>Bucket width</dt><dd>400 mm</dd></div></dl>
-<h3 class="pdp-spec-group">Working dimensions</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Max. digging depth</dt><dd>1,650 mm</dd></div><div class="pdp-spec"><dt>Min. tail swing radius (front)</dt><dd>1,490 mm</dd></div></dl>
-<h3 class="pdp-spec-group">Drivetrain &amp; engine</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Engine</dt><dd>KOOP KD192F</dd></div><div class="pdp-spec"><dt>Power</dt><dd>10 hp</dd></div><div class="pdp-spec"><dt>Cooling</dt><dd>Air</dd></div><div class="pdp-spec"><dt>Fuel</dt><dd>Diesel Euro 5</dd></div></dl></section>
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Technical specifications</h2><div class="pdp-spec-cards"><div class="pdp-spec-card"><h3 class="pdp-spec-group">General specifications</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Overall width</dt><dd>1,000 mm</dd></div><div class="pdp-spec"><dt>Bucket width</dt><dd>400 mm</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Working dimensions</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Max. digging depth</dt><dd>1,650 mm</dd></div><div class="pdp-spec"><dt>Min. tail swing radius (front)</dt><dd>1,490 mm</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Drivetrain &amp; engine</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Engine</dt><dd>KOOP KD192F</dd></div><div class="pdp-spec"><dt>Power</dt><dd>10 hp</dd></div><div class="pdp-spec"><dt>Cooling</dt><dd>Air</dd></div><div class="pdp-spec"><dt>Fuel</dt><dd>Diesel Euro 5</dd></div></dl></div></div></section>
 
 
   <section class="pdp-cta-band">

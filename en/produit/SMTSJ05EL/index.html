@@ -65,6 +65,46 @@
 
 
 
+  /* ── PDP v2 : surcharges scopées .pdp-v2 (contenu inchangé, style/mise en page uniquement) ── */
+  .pdp-v2{counter-reset:pdpblock;}
+  .pdp-v2 .pdp-section{margin-top:64px;}
+  .pdp-v2 .pdp-lead{position:relative;font-size:19px;line-height:1.72;color:var(--ink);max-width:68ch;padding:4px 0 4px 26px;border-left:3px solid var(--orange);}
+  .pdp-v2 .pdp-block{display:grid;grid-template-columns:minmax(0,210px) minmax(0,1fr);column-gap:56px;row-gap:22px;margin-top:60px;padding-top:46px;border-top:1px solid rgba(33,42,53,.11);align-items:start;counter-increment:pdpblock;}
+  .pdp-v2 .pdp-block>h2{grid-column:1;grid-row:1;position:sticky;top:118px;font-family:var(--f-display);font-weight:500;font-size:25px;line-height:1.15;letter-spacing:-.02em;color:var(--ink);margin:0;}
+  .pdp-v2 .pdp-block>h2::before{content:counter(pdpblock,decimal-leading-zero);display:block;font-family:var(--f-mono);font-size:12px;font-weight:500;letter-spacing:.14em;color:var(--orange);margin-bottom:12px;}
+  .pdp-v2 .pdp-block-body{grid-column:2;grid-row:1;font-size:16.5px;line-height:1.78;color:var(--ink);max-width:66ch;margin:0;}
+  .pdp-v2 .pdp-feats{grid-column:2;grid-row:2;display:grid;grid-template-columns:repeat(auto-fit,minmax(198px,1fr));gap:16px;margin:0;}
+  .pdp-v2 .pdp-feat{position:relative;background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:22px 20px 20px;transition:transform .25s ease,box-shadow .25s ease,border-color .25s ease;}
+  .pdp-v2 .pdp-feat:hover{transform:translateY(-3px);box-shadow:0 14px 32px rgba(23,30,39,.09);border-color:rgba(242,129,28,.4);}
+  .pdp-v2 .pdp-feat::before{content:"";display:block;width:36px;height:36px;border-radius:10px;margin-bottom:15px;background:var(--orange-dim,rgba(242,129,28,.12)) url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='%23F2811C' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'><path d='M20 6 9 17l-5-5'/></svg>") center/20px no-repeat;}
+  .pdp-v2 .pdp-feat h4{font-family:var(--f-display);font-weight:600;font-size:15.5px;color:var(--ink);margin-bottom:7px;}
+  .pdp-v2 .pdp-feat p{font-size:13.5px;line-height:1.62;color:var(--muted);}
+  .pdp-v2 .pdp-spec-cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:10px;}
+  .pdp-v2 .pdp-spec-card{background:var(--cream-pure,#faf6ec);border:1px solid rgba(33,42,53,.09);border-radius:16px;padding:6px 22px 12px;}
+  .pdp-v2 .pdp-spec-group{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.09em;text-transform:uppercase;color:var(--orange);margin:0;padding:16px 0 4px;}
+  .pdp-v2 .pdp-specs{display:flex;flex-direction:column;max-width:none;gap:0;}
+  .pdp-v2 .pdp-spec{display:flex;justify-content:space-between;gap:16px;padding:12px 0;border-bottom:1px solid rgba(33,42,53,.08);}
+  .pdp-v2 .pdp-spec-card .pdp-spec:last-child{border-bottom:none;}
+  .pdp-v2 .pdp-spec dt{color:var(--muted);font-size:14px;}
+  .pdp-v2 .pdp-spec dd{font-family:var(--f-mono);font-weight:500;color:var(--ink);font-size:13px;text-align:right;}
+  .pdp-v2 .pdp-cta-band{position:relative;overflow:hidden;margin-top:80px;background:linear-gradient(135deg,#1b232e 0%,var(--oak,#171E27) 55%,#12181f 100%);border-radius:24px;padding:56px 44px;}
+  .pdp-v2 .pdp-cta-band::before{content:"";position:absolute;top:-42%;left:50%;transform:translateX(-50%);width:520px;height:520px;background:radial-gradient(circle,rgba(242,129,28,.22),transparent 62%);pointer-events:none;}
+  .pdp-v2 .pdp-cta-band>*{position:relative;}
+  .pdp-v2 .pdp-cta-band h2{font-size:clamp(24px,3.2vw,32px);letter-spacing:-.02em;margin-bottom:12px;}
+  .pdp-v2 .pdp-cta-band p{color:rgba(244,239,228,.72);margin-bottom:26px;font-size:15.5px;}
+  @media(max-width:900px){
+    .pdp-v2 .pdp-block{display:block;margin-top:44px;padding-top:34px;}
+    .pdp-v2 .pdp-block>h2{position:static;font-size:23px;margin-bottom:16px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:repeat(auto-fit,minmax(180px,1fr));margin-top:22px;}
+    .pdp-v2 .pdp-spec-cards{grid-template-columns:1fr;}
+  }
+  @media(max-width:600px){
+    .pdp-v2.pdp{padding-top:104px;}
+    .pdp-v2 .pdp-lead{font-size:17px;padding-left:18px;}
+    .pdp-v2 .pdp-feats{grid-template-columns:1fr;}
+    .pdp-v2 .pdp-cta-band{padding:40px 22px;border-radius:20px;}
+    .pdp-v2 .pdp-section{margin-top:52px;}
+  }
 </style>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-G0HZD8F8BK"></script>
@@ -117,7 +157,7 @@ function getFbp(){return getCookie('_fbp');}
     <a href="/en/contact/" class="nav-cta">Request a quote <svg class="arrow" width="14" height="10" viewBox="0 0 14 10" fill="none" stroke="currentColor" stroke-width="2"><path d="M1 5h12M8 1l4 4-4 4"/></svg></a>
   </div></div></nav>
 <script>(function(){var path=window.location.pathname.replace(/\/$/,'')||'/';document.querySelectorAll('.nav-links a').forEach(function(a){var h=a.getAttribute('href').replace(/\/$/,'')||'/';if(path===h||(h!==''&&h!=='/'&&path.indexOf(h)===0))a.classList.add('nav-active');});})();</script>
-<main class="pdp"><div class="container">
+<main class="pdp pdp-v2"><div class="container">
   <nav class="pdp-crumbs" aria-label="Breadcrumb"><a href="/en/">Home</a> &nbsp;/&nbsp; <a href="/en/mini-tombereaux/">Mini dumpers</a> &nbsp;/&nbsp; <span>Mini dumper SJ-05EL</span></nav>
   <div class="pdp-grid">
     <div class="pdp-gallery"><div class="pdp-main"><img id="pdpMain" src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-avant-droit.webp" alt="Sonca SJ-05EL mini dumper, front right side view"><button class="pdp-nav pdp-prev" aria-label="Photo previous">&#8249;</button><button class="pdp-nav pdp-next" aria-label="Photo next">&#8250;</button></div><div class="pdp-thumbs"><button class="pdp-thumb active" data-src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-avant-droit.webp" aria-label="Photo 1"><img src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-avant-droit.webp" alt="Sonca SJ-05EL mini dumper, front right side view" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-droit.webp" aria-label="Photo 2"><img src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-droit.webp" alt="Sonca SJ-05EL right side view" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-droit-releve.webp" aria-label="Photo 3"><img src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-profil-droit-releve.webp" alt="Sonca SJ-05EL with skip raised" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-moteur.webp" aria-label="Photo 4"><img src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-moteur.webp" alt="Sonca SJ-05EL engine" loading="lazy"></button><button class="pdp-thumb" data-src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-manettes.webp" aria-label="Photo 5"><img src="/images/SJ-05EL/mini-tombereau-sonca-sj-05el-manettes.webp" alt="Sonca SJ-05EL controls" loading="lazy"></button></div></div>
@@ -142,9 +182,7 @@ function getFbp(){return getCookie('_fbp');}
   <section class="pdp-block"><h2>10 hp telescopic dumper</h2><p class="pdp-block-body">Telescopic mini dumper with a 10 hp KD292F diesel engine, a 0.15 m³ skip (total volume 0.22 m³) and a 500 kg capacity for efficient on-site transport.</p><div class="pdp-feats"><div class="pdp-feat"><h4>10 hp KD292F engine</h4><p>Diesel, electric start, 2 speeds (1.7-3.5 km/h).</p></div><div class="pdp-feat"><h4>Telescopic system</h4><p>Discharge height 1.35 m, ideal in tight spaces.</p></div><div class="pdp-feat"><h4>0.15 m³ skip</h4><p>Total volume 0.22 m³, 500 kg load.</p></div></div></section>
 <section class="pdp-block"><h2>All-terrain and easy to service</h2><p class="pdp-block-body">Tracks for stable traction on rough, muddy or slippery ground. Wide-opening engine cover for simplified daily maintenance.</p><div class="pdp-feats"><div class="pdp-feat"><h4>All-terrain traction</h4><p>Tracks, climbable gradient 20°.</p></div><div class="pdp-feat"><h4>Easier servicing</h4><p>Wide-opening cover, oil cooler.</p></div><div class="pdp-feat"><h4>Compact</h4><p>1.57 m × 0.87 m × 1.66 m, turning radius 0.95 m.</p></div></div></section>
 
-  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Technical specifications</h2><h3 class="pdp-spec-group">General specifications</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Operating weight</dt><dd>500 kg</dd></div><div class="pdp-spec"><dt>Net weight</dt><dd>430 kg</dd></div><div class="pdp-spec"><dt>Machine length</dt><dd>1,566 mm</dd></div><div class="pdp-spec"><dt>Machine width</dt><dd>870 mm</dd></div><div class="pdp-spec"><dt>Machine height</dt><dd>1,660 mm</dd></div><div class="pdp-spec"><dt>Min. turning radius</dt><dd>950 mm</dd></div><div class="pdp-spec"><dt>Distance between track centres</dt><dd>520 mm</dd></div><div class="pdp-spec"><dt>Min. ground clearance</dt><dd>85 mm</dd></div></dl>
-<h3 class="pdp-spec-group">Working performance</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Max. loading capacity</dt><dd>500 kg</dd></div><div class="pdp-spec"><dt>Skip loading capacity</dt><dd>0.15 m³</dd></div><div class="pdp-spec"><dt>Total skip volume</dt><dd>0.22 m³</dd></div><div class="pdp-spec"><dt>Skip dimensions</dt><dd>1040 × 730 × 590 mm</dd></div><div class="pdp-spec"><dt>Discharge height</dt><dd>1,350 mm</dd></div><div class="pdp-spec"><dt>Gradient capacity</dt><dd>20°</dd></div><div class="pdp-spec"><dt>Speed</dt><dd>1.7 - 3.5 km/h</dd></div><div class="pdp-spec"><dt>Number of speeds</dt><dd>2 speeds</dd></div></dl>
-<h3 class="pdp-spec-group">Drivetrain &amp; engine</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Engine</dt><dd>KD292F Diesel 10 hp</dd></div><div class="pdp-spec"><dt>Power</dt><dd>10 hp</dd></div><div class="pdp-spec"><dt>Fuel</dt><dd>Diesel</dd></div><div class="pdp-spec"><dt>Start</dt><dd>Electric</dd></div><div class="pdp-spec"><dt>Cooling</dt><dd>Air</dd></div></dl></section>
+  <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">Technical specifications</h2><div class="pdp-spec-cards"><div class="pdp-spec-card"><h3 class="pdp-spec-group">General specifications</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Operating weight</dt><dd>500 kg</dd></div><div class="pdp-spec"><dt>Net weight</dt><dd>430 kg</dd></div><div class="pdp-spec"><dt>Machine length</dt><dd>1,566 mm</dd></div><div class="pdp-spec"><dt>Machine width</dt><dd>870 mm</dd></div><div class="pdp-spec"><dt>Machine height</dt><dd>1,660 mm</dd></div><div class="pdp-spec"><dt>Min. turning radius</dt><dd>950 mm</dd></div><div class="pdp-spec"><dt>Distance between track centres</dt><dd>520 mm</dd></div><div class="pdp-spec"><dt>Min. ground clearance</dt><dd>85 mm</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Working performance</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Max. loading capacity</dt><dd>500 kg</dd></div><div class="pdp-spec"><dt>Skip loading capacity</dt><dd>0.15 m³</dd></div><div class="pdp-spec"><dt>Total skip volume</dt><dd>0.22 m³</dd></div><div class="pdp-spec"><dt>Skip dimensions</dt><dd>1040 × 730 × 590 mm</dd></div><div class="pdp-spec"><dt>Discharge height</dt><dd>1,350 mm</dd></div><div class="pdp-spec"><dt>Gradient capacity</dt><dd>20°</dd></div><div class="pdp-spec"><dt>Speed</dt><dd>1.7 - 3.5 km/h</dd></div><div class="pdp-spec"><dt>Number of speeds</dt><dd>2 speeds</dd></div></dl></div><div class="pdp-spec-card"><h3 class="pdp-spec-group">Drivetrain &amp; engine</h3><dl class="pdp-specs"><div class="pdp-spec"><dt>Engine</dt><dd>KD292F Diesel 10 hp</dd></div><div class="pdp-spec"><dt>Power</dt><dd>10 hp</dd></div><div class="pdp-spec"><dt>Fuel</dt><dd>Diesel</dd></div><div class="pdp-spec"><dt>Start</dt><dd>Electric</dd></div><div class="pdp-spec"><dt>Cooling</dt><dd>Air</dd></div></dl></div></div></section>
 
 
   <section class="pdp-cta-band">
