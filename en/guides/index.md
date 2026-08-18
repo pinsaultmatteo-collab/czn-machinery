@@ -1,6 +1,6 @@
 # Mini excavator guides: advice, maintenance & regulations
 
-> 19 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
+> 20 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & resources
 
 # Everything to know beforebuying your machine.
 
-19 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
+20 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
 
-19
+20
 Practical guides
 
 6 years
@@ -50,6 +50,7 @@ Practical advice
 [17Used Selling a used mini excavator Estimate its value, set the right price, where to sell and how to give your machine a second life. Read the guide →](/en/guides/revendre-mini-pelle-occasion/)
 [18Rental Mini excavator rental: the complete guide Daily rates, what's included, licences, transport — and the point where buying becomes smarter. Read the guide →](/en/guides/location-mini-pelle/)
 [19Uses Digging a service trench with a mini excavator How to dig a trench with a mini excavator: bucket width, depth by utility (water, power, drainage), recommended weight and safety. A CZN Machinery guide. Read the guide →](/en/guides/mini-pelle-tranchee-reseaux/)
+[20Buying 1.5-Tonne Mini Excavator: The Right Compromise? Is the 1.5-tonne mini excavator the best compromise between versatility, transport and price? Capabilities, uses and budget for homeowners and tradespeople. Read the guide →](/en/guides/mini-pelle-1-5-tonne-guide/)
 
 ## A technical question?
 
