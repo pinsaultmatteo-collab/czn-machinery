@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "mcp-diagnostics",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8741", "-d", "/private/tmp/claude-501/-Users-matteo-Desktop-BUSINESS-PMC-MARKETING-clients-czn-machinery-site-internet/0e698751-5025-49d7-895e-0b6da2a3c8d6/scratchpad/mcp-preview"],
+      "port": 8741
+    }
+  ]
+}

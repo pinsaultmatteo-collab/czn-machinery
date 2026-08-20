@@ -408,7 +408,7 @@ Del fabricante, sin letra pequeña. Piezas y mano de obra incluidas, gestionadas
 
 ### Financiación Sofinco
 
-Hasta 60 meses sin entrada. Simulación en línea, aprobación rápida, ideal para preservar su tesorería.
+Hasta 120 meses sin entrada. Simulación en línea, aprobación rápida, ideal para preservar su tesorería.
 
 04
 

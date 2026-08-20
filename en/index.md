@@ -406,7 +406,7 @@ Manufacturer warranty, no asterisks. Parts and labour included, handled by our F
 
 ### Financing Sofinco
 
-Up to 60 months with no down payment. Online simulation, fast approval, perfect for preserving your cash flow.
+Up to 120 months with no down payment. Online simulation, fast approval, perfect for preserving your cash flow.
 
 04
 

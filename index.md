@@ -408,7 +408,7 @@ Constructeur, sans astérisque. Pièces et main d'œuvre incluses, prise en char
 
 ### Financement Sofinco
 
-Jusqu'à 60 mois sans apport. Simulation en ligne, accord rapide, parfait pour préserver votre trésorerie.
+Jusqu'à 120 mois sans apport. Simulation en ligne, accord rapide, parfait pour préserver votre trésorerie.
 
 04
 
