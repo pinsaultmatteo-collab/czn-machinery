@@ -114,7 +114,7 @@ Manufacturer warranty, no small print. Parts and labour included. 4-year extensi
 05
 
 ### Sofinco financing
-Sofinco partnership (Crédit Agricole). From 6 to 60 months, immediate decision in principle.
+Sofinco partnership (Crédit Agricole). From 6 to 120 months, immediate decision in principle.
 
 06
 

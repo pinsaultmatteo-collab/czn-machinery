@@ -121,7 +121,7 @@ XC25S 2,5 T 2,60 m 23 399 €
 
 ## Louer ou acheter pour la piscine ?
 
-Le terrassement par un pro coûte 1 500 à 4 000 €. La location d'une 2 T revient à 250-400 €/jour (500 à 1 200 € pour 2-3 jours). L'achat (dès 11 666 € HT, financement 12 à 60 mois) devient intéressant si vous avez d'autres travaux prévus, d'autant que la machine conserve 60 à 70 % de sa valeur après 3 ans.
+Le terrassement par un pro coûte 1 500 à 4 000 €. La location d'une 2 T revient à 250-400 €/jour (500 à 1 200 € pour 2-3 jours). L'achat (dès 11 666 € HT, financement 12 à 120 mois) devient intéressant si vous avez d'autres travaux prévus, d'autant que la machine conserve 60 à 70 % de sa valeur après 3 ans.
 
 ## FAQ piscine + mini-pelle
 

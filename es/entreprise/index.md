@@ -114,7 +114,7 @@ De fábrica, sin asteriscos. Piezas y mano de obra incluidas. Extensión a 4 añ
 05
 
 ### Financiación Sofinco
-Colaboración con Sofinco (Crédit Agricole). De 6 a 60 meses, respuesta previa inmediata.
+Colaboración con Sofinco (Crédit Agricole). De 6 a 120 meses, respuesta previa inmediata.
 
 06
 

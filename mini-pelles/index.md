@@ -134,7 +134,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 
@@ -337,7 +337,7 @@ Pour les zones plus éloignées, nous proposons une prise en charge avec partena
 
 Peut-on financer sa machine ?
 
-Oui, financement Sofinco jusqu'à 60 mois, avec ou sans apport. La simulation est disponible directement au checkout.
+Oui, financement Sofinco jusqu'à 120 mois, avec ou sans apport. La simulation est disponible directement au checkout.
 Vous obtenez une réponse de principe en quelques heures. Particuliers et professionnels éligibles.
 
 Quelle différence entre vos machines et celles des marques européennes ?

@@ -139,7 +139,7 @@ For a tradesperson billing their sites, 2 to 3 days of work a month are enough t
 
 #### Get a personalised simulation
 
-Monthly payments over 12 to 60 months, individuals and businesses.
+Monthly payments over 12 to 120 months, individuals and businesses.
 
 [Financing →](/en/entreprise/financement/)
 

@@ -139,7 +139,7 @@ Pour un artisan qui facture ses chantiers, 2 à 3 jours de travail par mois suff
 
 #### Obtenez une simulation personnalisée
 
-Mensualités sur 12 à 60 mois, particuliers et professionnels.
+Mensualités sur 12 à 120 mois, particuliers et professionnels.
 
 [Financement →](/entreprise/financement/)
 

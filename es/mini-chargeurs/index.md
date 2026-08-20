@@ -70,7 +70,7 @@ Por toda la Francia metropolitana en góndola portamáquinas especializada. De 5
 04
 
 ### Financiación Sofinco
-De 6 a 60 meses, para particulares y profesionales. Respuesta de principio inmediata.
+De 6 a 120 meses, para particulares y profesionales. Respuesta de principio inmediata.
 
 05
 

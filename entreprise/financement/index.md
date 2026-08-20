@@ -1,6 +1,6 @@
 # Financement mini-pelle : Crédit Sofinco en ligne
 
-> Financez votre mini-pelle en plusieurs fois avec Sofinco. De 200 € à 75 000 €, de 6 à 60 mois. Particuliers et professionnels. Réponse de principe immédiate.
+> Financez votre mini-pelle en plusieurs fois avec Sofinco. De 200 € à 75 000 €, de 6 à 120 mois. Particuliers et professionnels. Réponse de principe immédiate.
 
 📍 Toulouse, France
 
@@ -15,7 +15,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 Financement Sofinco
 
-# Étalez votre paiement,jusqu'à 60 mois.
+# Étalez votre paiement,jusqu'à 120 mois.
 
 En partenariat avec Sofinco (filiale du Crédit Agricole), nous proposons des solutions de financement adaptées aux particuliers comme aux professionnels. Simulation en ligne, réponse de principe immédiate.
 
@@ -75,7 +75,7 @@ Financez tout ou partie de votre équipement selon vos besoins.
 
 Durée
 
-6 à 60 mois
+6 à 120 mois
 
 Choisissez la durée adaptée à votre projet et à votre trésorerie.
 
@@ -99,7 +99,7 @@ Particuliers
 
 - 100 % en ligne, sans déplacement
 
-- Mensualités fixes sur 6 à 60 mois
+- Mensualités fixes sur 6 à 120 mois
 
 - Droit de rétractation 14 jours
 

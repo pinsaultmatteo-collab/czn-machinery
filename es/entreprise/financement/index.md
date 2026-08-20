@@ -1,6 +1,6 @@
 # Financiación de miniexcavadora: crédito Sofinco en línea
 
-> Financie su miniexcavadora a plazos con Sofinco. De 200 € a 75 000 €, de 6 a 60 meses. Particulares y profesionales. Respuesta previa inmediata.
+> Financie su miniexcavadora a plazos con Sofinco. De 200 € a 75 000 €, de 6 a 120 meses. Particulares y profesionales. Respuesta previa inmediata.
 
 📍 Toulouse, France
 
@@ -15,7 +15,7 @@ Showroom Lun–Vie · 9h–12h / 14h–18h
 
 Financiación Sofinco
 
-# Fraccione su pago,hasta en 60 meses.
+# Fraccione su pago,hasta en 120 meses.
 
 En colaboración con Sofinco (filial del Crédit Agricole), ofrecemos soluciones de financiación adaptadas tanto a particulares como a profesionales. Simulación en línea y respuesta previa inmediata.
 
@@ -75,7 +75,7 @@ Financie la totalidad o una parte de su equipo según sus necesidades.
 
 Plazo
 
-6 a 60 meses
+6 a 120 meses
 
 Elija el plazo adaptado a su proyecto y a su tesorería.
 
@@ -99,7 +99,7 @@ Fraccione el pago de su equipo en varios meses. Ideal para propietarios, aficion
 
 - 100 % en línea, sin desplazamientos
 
-- Cuotas fijas de 6 a 60 meses
+- Cuotas fijas de 6 a 120 meses
 
 - Derecho de desistimiento de 14 días
 

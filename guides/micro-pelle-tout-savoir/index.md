@@ -151,7 +151,7 @@ Location : 200 à 350 €/jour. Achat : dès 4 125 € HT. Moins de 10 jours/an 
 
 ## Nos micro-pelles CZN
 
-3 modèles avec garantie 24 mois et SAV France : CL08 (754 mm, 5 250 €) pour les accès très étroits et l'intérieur, CL10S (6 100 €) pour plus de profondeur et la flèche orientable (meilleur rapport polyvalence/prix), SJW-12F (6 425 €) la plus lourde. Toutes livrées montées avec formation de 30 min, financement 12 à 60 mois disponible.
+3 modèles avec garantie 24 mois et SAV France : CL08 (754 mm, 5 250 €) pour les accès très étroits et l'intérieur, CL10S (6 100 €) pour plus de profondeur et la flèche orientable (meilleur rapport polyvalence/prix), SJW-12F (6 425 €) la plus lourde. Toutes livrées montées avec formation de 30 min, financement 12 à 120 mois disponible.
 
 ## FAQ micro-pelle
 

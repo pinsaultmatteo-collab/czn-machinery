@@ -139,7 +139,7 @@ Para un profesional que factura sus obras, bastan de 2 a 3 días de trabajo al m
 
 #### Obtenga una simulación personalizada
 
-Mensualidades de 12 a 60 meses, para particulares y profesionales.
+Mensualidades de 12 a 120 meses, para particulares y profesionales.
 
 [Financiación →](/es/entreprise/financement/)
 

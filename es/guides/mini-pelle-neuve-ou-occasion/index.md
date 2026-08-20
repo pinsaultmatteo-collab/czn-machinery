@@ -135,7 +135,7 @@ La miniexcavadora nueva CZN cuesta alrededor de un 33 % menos a 5 años que la d
 
 #### Lo nuevo, a menudo más barato que la ocasión
 
-Miniexcavadoras nuevas desde 4.125 € sin IVA, garantía de 24 meses, financiación de 12 a 60 meses.
+Miniexcavadoras nuevas desde 4.125 € sin IVA, garantía de 24 meses, financiación de 12 a 120 meses.
 
 [Ver la gama →](/es/mini-pelles/)
 

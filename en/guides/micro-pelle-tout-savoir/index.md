@@ -151,7 +151,7 @@ Rental: €200 to €350/day. Purchase: from €4,125 excl. VAT. Fewer than 10 d
 
 ## Our CZN micro excavators
 
-3 models with a 24-month warranty and after-sales in France: CL08 (754 mm, €5,250) for very tight access and indoor work, CL10S (€6,100) for more depth and the offset boom (best versatility/price ratio), SJW-12F (€6,425) the heaviest. All delivered assembled with 30 min of training, financing over 12 to 60 months available.
+3 models with a 24-month warranty and after-sales in France: CL08 (754 mm, €5,250) for very tight access and indoor work, CL10S (€6,100) for more depth and the offset boom (best versatility/price ratio), SJW-12F (€6,425) the heaviest. All delivered assembled with 30 min of training, financing over 12 to 120 months available.
 
 ## Micro excavator FAQ
 

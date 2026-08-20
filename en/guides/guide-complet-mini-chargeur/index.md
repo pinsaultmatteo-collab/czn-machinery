@@ -101,7 +101,7 @@ Before starting : check the fluid levels and the condition of the wheels/tracks,
 
 #### 6 mini loaders from €6,336 excl. VAT
 
-Wheels or tracks, 24-month warranty, France-based after-sales, financing over 12 to 60 months.
+Wheels or tracks, 24-month warranty, France-based after-sales, financing over 12 to 120 months.
 
 [See the range →](/en/mini-chargeurs/)
 

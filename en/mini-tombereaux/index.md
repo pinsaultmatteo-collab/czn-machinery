@@ -80,7 +80,7 @@ Anywhere in mainland France on a specialised low-loader. 5 to 15 business days.
 04
 
 ### Sofinco financing
-From 6 to 60 months, individuals and businesses. Immediate decision in principle.
+From 6 to 120 months, individuals and businesses. Immediate decision in principle.
 
 05
 

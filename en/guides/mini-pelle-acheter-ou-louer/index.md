@@ -35,7 +35,7 @@ The choice between buying and renting mainly comes down to how often you use it 
 
 - Resale possible with good residual value
 
-- Financing available over 12 to 60 months
+- Financing available over 12 to 120 months
 
 - From €4,125 excl. VAT brand new
 
@@ -98,7 +98,7 @@ Machines with a complete service log resell for 10 to 20% more than those with n
 
 ## Financing options
 
-### Standard credit (12 to 60 months)
+### Standard credit (12 to 120 months)
 
 The simplest option: you own the machine from delivery, with fixed monthly payments. A 1.8 t at €11,666 excl. VAT financed over 48 months with a 20% deposit comes to about €230 to €280/month — compared with €350–400/day to rent.
 

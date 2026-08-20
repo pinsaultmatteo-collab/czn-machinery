@@ -114,7 +114,7 @@ Constructeur, sans astérisque. Pièces et main d'œuvre incluses. Extension 4 a
 05
 
 ### Financement Sofinco
-Partenariat Sofinco (Crédit Agricole). De 6 à 60 mois, réponse de principe immédiate.
+Partenariat Sofinco (Crédit Agricole). De 6 à 120 mois, réponse de principe immédiate.
 
 06
 

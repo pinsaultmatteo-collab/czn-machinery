@@ -43,7 +43,7 @@ Importateur direct constructeur
 ◆
 Garantie 2 ans · pièces & main d'œuvre
 ◆
-Financement Sofinco · jusqu'à 60 mois
+Financement Sofinco · jusqu'à 120 mois
 ◆
 20 modèles au catalogue
 ◆
@@ -60,7 +60,7 @@ Importateur direct constructeur
 ◆
 Garantie 2 ans · pièces & main d'œuvre
 ◆
-Financement Sofinco · jusqu'à 60 mois
+Financement Sofinco · jusqu'à 120 mois
 ◆
 20 modèles au catalogue
 ◆
@@ -625,7 +625,7 @@ Pour les zones plus éloignées, nous proposons une prise en charge avec partena
 
 Peut-on financer sa machine ?
 
-Oui, financement Sofinco jusqu'à 60 mois, avec ou sans apport. La simulation est disponible directement au checkout.
+Oui, financement Sofinco jusqu'à 120 mois, avec ou sans apport. La simulation est disponible directement au checkout.
 Vous obtenez une réponse de principe en quelques heures. Particuliers et professionnels éligibles.
 
 Quelle différence entre vos machines et celles des marques européennes ?

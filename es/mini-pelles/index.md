@@ -134,7 +134,7 @@ Por toda la Francia metropolitana en góndola portamáquinas especializada. De 5
 04
 
 ### Financiación Sofinco
-De 6 a 60 meses, para particulares y profesionales. Respuesta de principio inmediata.
+De 6 a 120 meses, para particulares y profesionales. Respuesta de principio inmediata.
 
 05
 
@@ -337,7 +337,7 @@ Para las zonas más alejadas, ofrecemos una cobertura con socios homologados. Ex
 
 ¿Se puede financiar la máquina ?
 
-Sí, financiación Sofinco de hasta 60 meses, con o sin entrada. La simulación está disponible directamente en el checkout.
+Sí, financiación Sofinco de hasta 120 meses, con o sin entrada. La simulación está disponible directamente en el checkout.
 Usted obtiene una respuesta de principio en unas horas. Particulares y profesionales elegibles.
 
 ¿Qué diferencia hay entre sus máquinas y las de las marcas europeas ?

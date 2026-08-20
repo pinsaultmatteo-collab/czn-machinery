@@ -101,7 +101,7 @@ Antes de arrancar : compruebe los niveles, el estado de las ruedas/orugas y desp
 
 #### 6 minicargadoras desde 6.336 € sin IVA
 
-Ruedas u orugas, garantía de 24 meses, servicio posventa en Francia, financiación de 12 a 60 meses.
+Ruedas u orugas, garantía de 24 meses, servicio posventa en Francia, financiación de 12 a 120 meses.
 
 [Ver la gama →](/es/mini-chargeurs/)
 

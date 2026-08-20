@@ -62,7 +62,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 

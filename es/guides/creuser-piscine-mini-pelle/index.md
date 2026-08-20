@@ -121,7 +121,7 @@ XC25S 2,5 T 2,60 m 23.399 €
 
 ## ¿Alquilar o comprar para la piscina?
 
-El movimiento de tierras por un profesional cuesta de 1.500 a 4.000 €. El alquiler de una de 2 T sale a entre 250 y 400 €/día (de 500 a 1.200 € por 2-3 días). La compra (desde 11.666 € sin IVA, financiación de 12 a 60 meses) resulta interesante si tiene otras obras previstas, sobre todo porque la máquina conserva del 60 al 70 % de su valor tras 3 años.
+El movimiento de tierras por un profesional cuesta de 1.500 a 4.000 €. El alquiler de una de 2 T sale a entre 250 y 400 €/día (de 500 a 1.200 € por 2-3 días). La compra (desde 11.666 € sin IVA, financiación de 12 a 120 meses) resulta interesante si tiene otras obras previstas, sobre todo porque la máquina conserva del 60 al 70 % de su valor tras 3 años.
 
 ## Preguntas frecuentes: piscina + miniexcavadora
 

@@ -35,7 +35,7 @@ La elección entre compra y alquiler depende esencialmente de la frecuencia de u
 
 - Reventa posible con buen valor residual
 
-- Financiación posible de 12 a 60 meses
+- Financiación posible de 12 a 120 meses
 
 - Desde 4.125 € sin IVA en nueva
 
@@ -98,7 +98,7 @@ Las máquinas con libro de mantenimiento completo se revenden de un 10 a un 20 %
 
 ## Opciones de financiación
 
-### Crédito clásico (12 a 60 meses)
+### Crédito clásico (12 a 120 meses)
 
 La fórmula más sencilla: usted pasa a ser propietario desde la entrega, con cuotas mensuales fijas. Una 1,8 T a 11.666 € sin IVA financiada a 48 meses con un 20 % de entrada cuesta unos 230 a 280 €/mes, frente a los 350-400 €/día de alquiler.
 

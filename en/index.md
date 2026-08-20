@@ -42,7 +42,7 @@ Importer factory-direct
 ◆
 Warranty 2 ans · parts & labour
 ◆
-Financing Sofinco · up to 60 months
+Financing Sofinco · up to 120 months
 ◆
 20 models in the catalogue
 ◆
@@ -59,7 +59,7 @@ Importer factory-direct
 ◆
 Warranty 2 ans · parts & labour
 ◆
-Financing Sofinco · up to 60 months
+Financing Sofinco · up to 120 months
 ◆
 20 models in the catalogue
 ◆
@@ -606,7 +606,7 @@ Yes. 2-year manufacturer warranty: parts, labour and call-out included within a 
 
 Can I finance my machine?
 
-Yes, Sofinco financing up to 60 months, with or without a down payment. The simulation is available directly at checkout. You get a provisional answer within a few hours. Both individuals and businesses are eligible.
+Yes, Sofinco financing up to 120 months, with or without a down payment. The simulation is available directly at checkout. You get a provisional answer within a few hours. Both individuals and businesses are eligible.
 
 What's the difference between your machines and those of European brands?
 

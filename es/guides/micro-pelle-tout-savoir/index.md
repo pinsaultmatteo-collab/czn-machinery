@@ -151,7 +151,7 @@ Alquiler: 200 a 350 €/día. Compra: desde 4.125 € sin IVA. Menos de 10 días
 
 ## Nuestras microexcavadoras CZN
 
-3 modelos con garantía de 24 meses y servicio posventa en Francia: CL08 (754 mm, 5.250 €) para los accesos muy estrechos y el interior, CL10S (6.100 €) para más profundidad y la pluma orientable (mejor relación versatilidad/precio), SJW-12F (6.425 €) la más pesada. Todas entregadas montadas con formación de 30 min, financiación de 12 a 60 meses disponible.
+3 modelos con garantía de 24 meses y servicio posventa en Francia: CL08 (754 mm, 5.250 €) para los accesos muy estrechos y el interior, CL10S (6.100 €) para más profundidad y la pluma orientable (mejor relación versatilidad/precio), SJW-12F (6.425 €) la más pesada. Todas entregadas montadas con formación de 30 min, financiación de 12 a 120 meses disponible.
 
 ## FAQ microexcavadora
 

@@ -121,7 +121,7 @@ XC25S 2.5 t 2.60 m €23,399
 
 ## Rent or buy for the pool?
 
-Excavation by a professional costs €1,500 to €4,000. Renting a 2 t comes to €250–400/day (€500 to €1,200 for 2–3 days). Buying (from €11,666 excl. VAT, financing over 12 to 60 months) becomes worthwhile if you have other work planned, all the more so since the machine keeps 60 to 70% of its value after 3 years.
+Excavation by a professional costs €1,500 to €4,000. Renting a 2 t comes to €250–400/day (€500 to €1,200 for 2–3 days). Buying (from €11,666 excl. VAT, financing over 12 to 120 months) becomes worthwhile if you have other work planned, all the more so since the machine keeps 60 to 70% of its value after 3 years.
 
 ## Pool + mini excavator FAQ
 

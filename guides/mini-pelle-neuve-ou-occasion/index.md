@@ -135,7 +135,7 @@ La mini-pelle neuve CZN coûte environ 33 % moins cher sur 5 ans que l'occasion 
 
 #### Le neuf souvent moins cher que l'occasion
 
-Mini-pelles neuves dès 4 125 € HT, garantie 24 mois, financement 12 à 60 mois.
+Mini-pelles neuves dès 4 125 € HT, garantie 24 mois, financement 12 à 120 mois.
 
 [Voir la gamme →](/mini-pelles/)
 

@@ -45,7 +45,7 @@ Importateur direct constructeur
 ◆
 Garantie 2 ans · pièces & main d'œuvre
 ◆
-Financement Sofinco · jusqu'à 60 mois
+Financement Sofinco · jusqu'à 120 mois
 ◆
 20 modèles au catalogue
 ◆
@@ -62,7 +62,7 @@ Importateur direct constructeur
 ◆
 Garantie 2 ans · pièces & main d'œuvre
 ◆
-Financement Sofinco · jusqu'à 60 mois
+Financement Sofinco · jusqu'à 120 mois
 ◆
 20 modèles au catalogue
 ◆
@@ -627,7 +627,7 @@ Pour les zones plus éloignées, nous proposons une prise en charge avec partena
 
 Peut-on financer sa machine ?
 
-Oui, financement Sofinco jusqu'à 60 mois, avec ou sans apport. La simulation est disponible directement au checkout.
+Oui, financement Sofinco jusqu'à 120 mois, avec ou sans apport. La simulation est disponible directement au checkout.
 Vous obtenez une réponse de principe en quelques heures. Particuliers et professionnels éligibles.
 
 Quelle différence entre vos machines et celles des marques européennes ?
@@ -730,7 +730,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 
@@ -1275,7 +1275,7 @@ Constructeur, sans astérisque. Pièces et main d'œuvre incluses. Extension 4 a
 05
 
 ### Financement Sofinco
-Partenariat Sofinco (Crédit Agricole). De 6 à 60 mois, réponse de principe immédiate.
+Partenariat Sofinco (Crédit Agricole). De 6 à 120 mois, réponse de principe immédiate.
 
 06
 
@@ -1377,7 +1377,7 @@ Notre équipe vous répond du lundi au vendredi, 9h–18h. Devis gratuit, consei
 
 # Financement mini-pelle : Crédit Sofinco en ligne
 
-> Financez votre mini-pelle en plusieurs fois avec Sofinco. De 200 € à 75 000 €, de 6 à 60 mois. Particuliers et professionnels. Réponse de principe immédiate.
+> Financez votre mini-pelle en plusieurs fois avec Sofinco. De 200 € à 75 000 €, de 6 à 120 mois. Particuliers et professionnels. Réponse de principe immédiate.
 
 📍 Toulouse, France
 
@@ -1392,7 +1392,7 @@ Showroom Lun–Ven · 9h–12h / 14h–18h
 
 Financement Sofinco
 
-# Étalez votre paiement,jusqu'à 60 mois.
+# Étalez votre paiement,jusqu'à 120 mois.
 
 En partenariat avec Sofinco (filiale du Crédit Agricole), nous proposons des solutions de financement adaptées aux particuliers comme aux professionnels. Simulation en ligne, réponse de principe immédiate.
 
@@ -1452,7 +1452,7 @@ Financez tout ou partie de votre équipement selon vos besoins.
 
 Durée
 
-6 à 60 mois
+6 à 120 mois
 
 Choisissez la durée adaptée à votre projet et à votre trésorerie.
 
@@ -1476,7 +1476,7 @@ Particuliers
 
 - 100 % en ligne, sans déplacement
 
-- Mensualités fixes sur 6 à 60 mois
+- Mensualités fixes sur 6 à 120 mois
 
 - Droit de rétractation 14 jours
 
@@ -2525,7 +2525,7 @@ XC25S 2,5 T 2,60 m 23 399 €
 
 ## Louer ou acheter pour la piscine ?
 
-Le terrassement par un pro coûte 1 500 à 4 000 €. La location d'une 2 T revient à 250-400 €/jour (500 à 1 200 € pour 2-3 jours). L'achat (dès 11 666 € HT, financement 12 à 60 mois) devient intéressant si vous avez d'autres travaux prévus, d'autant que la machine conserve 60 à 70 % de sa valeur après 3 ans.
+Le terrassement par un pro coûte 1 500 à 4 000 €. La location d'une 2 T revient à 250-400 €/jour (500 à 1 200 € pour 2-3 jours). L'achat (dès 11 666 € HT, financement 12 à 120 mois) devient intéressant si vous avez d'autres travaux prévus, d'autant que la machine conserve 60 à 70 % de sa valeur après 3 ans.
 
 ## FAQ piscine + mini-pelle
 
@@ -2941,7 +2941,7 @@ Avant de démarrer : vérifiez les niveaux, l'état des roues/chenilles, dégage
 
 #### 6 mini-chargeurs dès 6 336 € HT
 
-Roues ou chenilles, garantie 24 mois, SAV France, financement 12 à 60 mois.
+Roues ou chenilles, garantie 24 mois, SAV France, financement 12 à 120 mois.
 
 [Voir la gamme →](/mini-chargeurs/)
 
@@ -3345,7 +3345,7 @@ Location : 200 à 350 €/jour. Achat : dès 4 125 € HT. Moins de 10 jours/an 
 
 ## Nos micro-pelles CZN
 
-3 modèles avec garantie 24 mois et SAV France : CL08 (754 mm, 5 250 €) pour les accès très étroits et l'intérieur, CL10S (6 100 €) pour plus de profondeur et la flèche orientable (meilleur rapport polyvalence/prix), SJW-12F (6 425 €) la plus lourde. Toutes livrées montées avec formation de 30 min, financement 12 à 60 mois disponible.
+3 modèles avec garantie 24 mois et SAV France : CL08 (754 mm, 5 250 €) pour les accès très étroits et l'intérieur, CL10S (6 100 €) pour plus de profondeur et la flèche orientable (meilleur rapport polyvalence/prix), SJW-12F (6 425 €) la plus lourde. Toutes livrées montées avec formation de 30 min, financement 12 à 120 mois disponible.
 
 ## FAQ micro-pelle
 
@@ -3791,7 +3791,7 @@ Le choix entre achat et location dépend essentiellement de la fréquence d'util
 
 - Revente possible avec bonne valeur résiduelle
 
-- Financement possible sur 12 à 60 mois
+- Financement possible sur 12 à 120 mois
 
 - Dès 4 125 € HT en neuf
 
@@ -3854,7 +3854,7 @@ Les machines avec carnet d'entretien complet se revendent 10 à 20 % plus cher q
 
 ## Options de financement
 
-### Crédit classique (12 à 60 mois)
+### Crédit classique (12 à 120 mois)
 
 La formule la plus simple : vous devenez propriétaire dès la livraison, mensualités fixes. Une 1,8 T à 11 666 € HT financée sur 48 mois avec 20 % d'apport revient à environ 230 à 280 €/mois — à comparer aux 350-400 €/jour de location.
 
@@ -4067,7 +4067,7 @@ La mini-pelle neuve CZN coûte environ 33 % moins cher sur 5 ans que l'occasion 
 
 #### Le neuf souvent moins cher que l'occasion
 
-Mini-pelles neuves dès 4 125 € HT, garantie 24 mois, financement 12 à 60 mois.
+Mini-pelles neuves dès 4 125 € HT, garantie 24 mois, financement 12 à 120 mois.
 
 [Voir la gamme →](/mini-pelles/)
 
@@ -4735,7 +4735,7 @@ Pour un artisan qui facture ses chantiers, 2 à 3 jours de travail par mois suff
 
 #### Obtenez une simulation personnalisée
 
-Mensualités sur 12 à 60 mois, particuliers et professionnels.
+Mensualités sur 12 à 120 mois, particuliers et professionnels.
 
 [Financement →](/entreprise/financement/)
 
@@ -5428,7 +5428,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 
@@ -5588,7 +5588,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 
@@ -5791,7 +5791,7 @@ Pour les zones plus éloignées, nous proposons une prise en charge avec partena
 
 Peut-on financer sa machine ?
 
-Oui, financement Sofinco jusqu'à 60 mois, avec ou sans apport. La simulation est disponible directement au checkout.
+Oui, financement Sofinco jusqu'à 120 mois, avec ou sans apport. La simulation est disponible directement au checkout.
 Vous obtenez une réponse de principe en quelques heures. Particuliers et professionnels éligibles.
 
 Quelle différence entre vos machines et celles des marques européennes ?
@@ -5901,7 +5901,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 
@@ -5989,7 +5989,7 @@ Partout en France métropolitaine sur porte-engin spécialisé. 5 à 15 jours ou
 04
 
 ### Financement Sofinco
-De 6 à 60 mois, particuliers et professionnels. Réponse de principe immédiate.
+De 6 à 120 mois, particuliers et professionnels. Réponse de principe immédiate.
 
 05
 

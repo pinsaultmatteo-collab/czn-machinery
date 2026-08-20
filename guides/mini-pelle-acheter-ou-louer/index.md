@@ -35,7 +35,7 @@ Le choix entre achat et location dépend essentiellement de la fréquence d'util
 
 - Revente possible avec bonne valeur résiduelle
 
-- Financement possible sur 12 à 60 mois
+- Financement possible sur 12 à 120 mois
 
 - Dès 4 125 € HT en neuf
 
@@ -98,7 +98,7 @@ Les machines avec carnet d'entretien complet se revendent 10 à 20 % plus cher q
 
 ## Options de financement
 
-### Crédit classique (12 à 60 mois)
+### Crédit classique (12 à 120 mois)
 
 La formule la plus simple : vous devenez propriétaire dès la livraison, mensualités fixes. Une 1,8 T à 11 666 € HT financée sur 48 mois avec 20 % d'apport revient à environ 230 à 280 €/mois — à comparer aux 350-400 €/jour de location.
 

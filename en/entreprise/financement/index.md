@@ -1,6 +1,6 @@
 # Mini excavator financing: online Sofinco credit
 
-> Finance your mini excavator in instalments with Sofinco. From €200 to €75,000, over 6 to 60 months. Individuals and businesses. Immediate decision in principle.
+> Finance your mini excavator in instalments with Sofinco. From €200 to €75,000, over 6 to 120 months. Individuals and businesses. Immediate decision in principle.
 
 📍 Toulouse, France
 
@@ -15,7 +15,7 @@ Showroom Mon–Fri · 9am–12pm / 2pm–6pm
 
 Sofinco financing
 
-# Spread your payment,over up to 60 months.
+# Spread your payment,over up to 120 months.
 
 In partnership with Sofinco (a Crédit Agricole subsidiary), we offer financing solutions tailored to both individuals and businesses. Online simulation, immediate decision in principle.
 
@@ -75,7 +75,7 @@ Finance all or part of your equipment, as you need.
 
 Term
 
-6 to 60 months
+6 to 120 months
 
 Choose the term that suits your project and your cash flow.
 
@@ -99,7 +99,7 @@ Spread the payment for your equipment over several months. Ideal for homeowners,
 
 - 100% online, no travel needed
 
-- Fixed monthly payments over 6 to 60 months
+- Fixed monthly payments over 6 to 120 months
 
 - 14-day right of withdrawal
 

@@ -135,7 +135,7 @@ The new CZN mini excavator costs about 33% less over 5 years than the European u
 
 #### New is often cheaper than used
 
-New mini excavators from €4,125 excl. VAT, 24-month warranty, financing over 12 to 60 months.
+New mini excavators from €4,125 excl. VAT, 24-month warranty, financing over 12 to 120 months.
 
 [See the range →](/en/mini-pelles/)
 

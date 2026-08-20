@@ -101,7 +101,7 @@ Avant de démarrer : vérifiez les niveaux, l'état des roues/chenilles, dégage
 
 #### 6 mini-chargeurs dès 6 336 € HT
 
-Roues ou chenilles, garantie 24 mois, SAV France, financement 12 à 60 mois.
+Roues ou chenilles, garantie 24 mois, SAV France, financement 12 à 120 mois.
 
 [Voir la gamme →](/mini-chargeurs/)
 
