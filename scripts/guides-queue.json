@@ -24,7 +24,9 @@
       "workingTitle": "Transporter sa mini-pelle : remorque et permis",
       "category": "Réglementation",
       "focusKeyword": "transport mini-pelle remorque",
-      "brief": "Comment transporter une mini-pelle : PTAC, permis B/BE, remorque porte-engin, arrimage. Mettre en avant les remorques CZN (1,5 T et 2,7 T) et le lien vers la catégorie remorques."
+      "brief": "Comment transporter une mini-pelle : PTAC, permis B/BE, remorque porte-engin, arrimage. Mettre en avant les remorques CZN (1,5 T et 2,7 T) et le lien vers la catégorie remorques.",
+      "published": true,
+      "publishedAt": "2026-08-25"
     },
     {
       "slug": "mini-pelle-agriculture",

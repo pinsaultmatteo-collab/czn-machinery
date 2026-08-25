@@ -1,6 +1,6 @@
 # Guides mini-pelle : conseils, entretien & réglementation
 
-> 20 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
+> 21 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & ressources
 
 # Tout savoir avantd'acheter votre engin.
 
-20 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+21 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
 
-20
+21
 Guides pratiques
 
 6 ans
@@ -51,6 +51,7 @@ Conseils pratiques
 [18Location Location de mini-pelle : le guide complet Tarifs journaliers, ce qui est inclus, permis, transport — et le seuil où l'achat devient plus malin. Lire le guide →](/guides/location-mini-pelle/)
 [19Usages Creuser une tranchée pour réseaux à la mini-pelle Guide pratique pour creuser une tranchée à la mini-pelle : largeur de godet, profondeur selon les réseaux (eau, électricité, drainage), tonnage conseillé et sécurité. Lire le guide →](/guides/mini-pelle-tranchee-reseaux/)
 [20Achat Mini-pelle 1,5 tonne : le bon compromis ? La mini-pelle 1,5 tonne est-elle le meilleur compromis polyvalence, transport et prix ? Capacités, usages et budget pour particuliers et artisans. Lire le guide →](/guides/mini-pelle-1-5-tonne-guide/)
+[21Réglementation Transporter sa mini-pelle : remorque et permis Transport mini-pelle remorque : PTAC, permis B ou BE, choix de la remorque porte-engin, arrimage et sécurité. Le guide complet pour transporter votre engin en toute légalité. Lire le guide →](/guides/transport-mini-pelle-remorque/)
 
 ## Une question technique ?
 

@@ -1,6 +1,6 @@
 # Guías de miniexcavadora: consejos, mantenimiento y normativa
 
-> 20 guías prácticas para elegir, mantener y utilizar su miniexcavadora. CACES, precios, comparativas, compra vs alquiler, movimiento de tierras, piscina — por CZN Machinery Toulouse.
+> 21 guías prácticas para elegir, mantener y utilizar su miniexcavadora. CACES, precios, comparativas, compra vs alquiler, movimiento de tierras, piscina — por CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guías y recursos
 
 # Todo lo que debe saber antesde comprar su máquina.
 
-20 guías prácticas redactadas por nuestro equipo a partir de 6 años de experiencia sobre el terreno y más de 1.500 máquinas entregadas en Francia.
+21 guías prácticas redactadas por nuestro equipo a partir de 6 años de experiencia sobre el terreno y más de 1.500 máquinas entregadas en Francia.
 
-20
+21
 Guías prácticas
 
 6 años
@@ -51,6 +51,7 @@ Consejos prácticos
 [18Alquiler Alquiler de miniexcavadora: la guía completa Tarifas diarias, qué incluye, permiso, transporte — y el umbral a partir del cual comprar resulta más inteligente. Leer la guía →](/es/guides/location-mini-pelle/)
 [19Usos Excavar una zanja para redes con miniexcavadora Guía práctica para excavar una zanja con miniexcavadora: anchura del cazo, profundidad según las redes (agua, electricidad, drenaje), tonelaje recomendado y seguridad. Leer la guía →](/es/guides/mini-pelle-tranchee-reseaux/)
 [20Compra Miniexcavadora de 1,5 toneladas: ¿el equilibrio perfecto? ¿Es la miniexcavadora de 1,5 toneladas el mejor equilibrio entre polivalencia, transporte y precio? Capacidades, usos y presupuesto para particulares y autónomos. Leer la guía →](/guides/mini-pelle-1-5-tonne-guide/)
+[21Normativa Transportar tu miniexcavadora: remolque y permiso Transporte de miniexcavadora en remolque: MMA, permiso B o BE, elección del remolque portamáquinas, amarre y seguridad. La guía completa para transportar tu máquina con total legalidad. Leer la guía →](/guides/transport-mini-pelle-remorque/)
 
 ## ¿Una duda técnica?
 
