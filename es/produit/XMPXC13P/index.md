@@ -1,4 +1,4 @@
-# Miniexcavadora XC13P Xcavator — Miniexcavadora desde 7 381 € sin IVA
+# Miniexcavadora XC13P Xcavator — Miniexcavadora desde 7 880 € sin IVA
 
 > La miniexcavadora Xcavator XC13P es la miniexcavadora de 1,15 toneladas de gama de entrada, ideal para los particulares y los profesionales. Con su peso en va
 
@@ -9,7 +9,7 @@ Xcavator · Miniexcavadora
 Miniexcavadora de 1,15 t con pluma orientable — lo esencial con prestaciones, transportable con permiso B.
 
 En stock
-7 381 € sin IVA
+7 880 € sin IVA
 
 1.150 kg
 Peso en vacío

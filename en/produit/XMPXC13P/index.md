@@ -1,4 +1,4 @@
-# Mini excavator XC13P Xcavator — Mini excavator from 7 381 € excl. VAT
+# Mini excavator XC13P Xcavator — Mini excavator from 7 880 € excl. VAT
 
 > The Xcavator XC13P is the entry-level 1.15-tonne mini excavator, ideal for homeowners and tradespeople. At just 1,150 kg, it loads onto a standard trailer beh
 
@@ -9,7 +9,7 @@ Xcavator · Mini excavator
 1.15 t swing-boom mini excavator — the performant essential, towable on a car licence.
 
 In stock
-7 381 € excl. VAT
+7 880 € excl. VAT
 
 1,150 kg
 Operating weight

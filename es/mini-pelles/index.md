@@ -41,7 +41,7 @@ Sonca
 ### Miniexcavadora SJW-12 P
 
 Desde
-7 250 €
+7 050 €
 sin IVA · envío no incluido
 
 En stock
@@ -71,7 +71,7 @@ Xcavator
 ### Miniexcavadora XC13P
 
 Desde
-7 381 €
+7 880 €
 sin IVA · envío no incluido
 
 En stock

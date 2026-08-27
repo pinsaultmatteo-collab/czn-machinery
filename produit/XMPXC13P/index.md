@@ -1,4 +1,4 @@
-# Mini-pelle XC13P Xcavator — Mini-pelle dès 7 381 € HT
+# Mini-pelle XC13P Xcavator — Mini-pelle dès 7 880 € HT
 
 > La mini-pelle Xcavator XC13P est la mini-pelle 1,15 tonne d'entrée de gamme idéale pour les particuliers et les artisans. Avec son poids à vide de seulement 1
 
@@ -9,9 +9,9 @@ Xcavator · Mini-pelle
 Mini-pelle 1,15 t à bras déporté — l'essentiel performant, transportable en permis B.
 
 En stock
-7 381 € HT
+7 880 € HT
 
-ou à partir de 149 € / mois *
+ou à partir de 159 € / mois *
 Simuler mon financement
 
 * Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.

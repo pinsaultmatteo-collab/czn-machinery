@@ -41,7 +41,7 @@ Sonca
 ### Mini excavator SJW-12 P
 
 From
-7 250 €
+7 050 €
 excl. VAT · delivery not included
 
 In stock
@@ -71,7 +71,7 @@ Xcavator
 ### Mini excavator XC13P
 
 From
-7 381 €
+7 880 €
 excl. VAT · delivery not included
 
 In stock

@@ -1,4 +1,4 @@
-# Mini excavator SJW-12 P Sonca — Mini excavator from 7 250 € excl. VAT
+# Mini excavator SJW-12 P Sonca — Mini excavator from 7 050 € excl. VAT
 
 > The SONCA SJW-12 P is the refined version of the compact 1.2-tonne range: offset boom, careful finish and hydraulic joysticks built into the seat armrests for
 
@@ -9,8 +9,8 @@ Sonca · Mini excavator
 The 1.2 t with offset boom and premium finish.
 
 In stock
-7 250 € excl. VAT
-i.e. 8 700 € incl. VAT
+7 050 € excl. VAT
+i.e. 8 460 € incl. VAT
 
 1,015 kg
 Operating weight

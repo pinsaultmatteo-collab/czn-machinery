@@ -1,4 +1,4 @@
-# Mini-pelle SJW-12 P Sonca — Mini-pelle dès 7 250 € HT
+# Mini-pelle SJW-12 P Sonca — Mini-pelle dès 7 050 € HT
 
 > La SONCA SJW-12 P est la version aboutie de la gamme compacte 1,2 tonne : flèche orientable, finitions soignées et joysticks hydrauliques intégrés aux accoudo
 
@@ -9,10 +9,10 @@ Sonca · Mini-pelle
 La 1,2 t à flèche orientable, finitions haut de gamme.
 
 En stock
-7 250 € HT
-soit 8 700 € TTC
+7 050 € HT
+soit 8 460 € TTC
 
-ou à partir de 147 € / mois *
+ou à partir de 143 € / mois *
 Simuler mon financement
 
 * Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.

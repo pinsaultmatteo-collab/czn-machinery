@@ -31,7 +31,7 @@
     fr: {
       title: 'Assistant CZN', subtitle: 'Réponse immédiate',
       open: "Ouvrir l'assistant", close: 'Fermer', restart: 'Recommencer',
-      teaser: '👋 Coucou ! Une question sur nos machines ? Je vous oriente en 2 clics.',
+      teaser: '👋 Bonjour ! Une question sur nos machines ? Je vous oriente en 2 clics.',
       human: 'Parler à un conseiller', typing: 'écrit…',
       you: 'Vous',
       q_start: "Bonjour 👋 Je suis l'assistant CZN Machinery. Que puis-je faire pour vous ?",

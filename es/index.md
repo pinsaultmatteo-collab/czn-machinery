@@ -309,7 +309,7 @@ Yanmar
 Motor
 
 Desde
-7 250 €
+7 050 €
 sin IVA · sin envío
 
 En stock

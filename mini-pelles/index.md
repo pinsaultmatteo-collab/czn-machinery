@@ -41,7 +41,7 @@ Sonca
 ### Mini-pelle SJW-12 P
 
 À partir de
-7 250 €
+7 050 €
 HT · hors livraison
 
 En stock
@@ -71,7 +71,7 @@ Xcavator
 ### Mini-pelle XC13P
 
 À partir de
-7 381 €
+7 880 €
 HT · hors livraison
 
 En stock

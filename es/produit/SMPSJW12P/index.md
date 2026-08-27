@@ -1,4 +1,4 @@
-# Miniexcavadora SJW-12 P Sonca — Miniexcavadora desde 7 250 € sin IVA
+# Miniexcavadora SJW-12 P Sonca — Miniexcavadora desde 7 050 € sin IVA
 
 > La SONCA SJW-12 P es la versión más completa de la gama compacta de 1,2 toneladas: pluma orientable, acabados cuidados y joysticks hidráulicos integrados en l
 
@@ -9,8 +9,8 @@ Sonca · Miniexcavadora
 La 1,2 t con pluma orientable, acabados de gama alta.
 
 En stock
-7 250 € sin IVA
-es decir 8 700 € con IVA
+7 050 € sin IVA
+es decir 8 460 € con IVA
 
 1.015 kg
 Peso operativo

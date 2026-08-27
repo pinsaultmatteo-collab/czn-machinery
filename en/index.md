@@ -308,7 +308,7 @@ Yanmar
 Engine
 
 From
-7 250 €
+7 050 €
 excl. VAT · delivery extra
 
 In stock

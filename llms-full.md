@@ -311,7 +311,7 @@ Yanmar
 Moteur
 
 À partir de
-7 250 €
+7 050 €
 HT · hors livraison
 
 En stock
@@ -5638,7 +5638,7 @@ Sonca
 ### Mini-pelle SJW-12 P
 
 À partir de
-7 250 €
+7 050 €
 HT · hors livraison
 
 En stock
@@ -5668,7 +5668,7 @@ Xcavator
 ### Mini-pelle XC13P
 
 À partir de
-7 381 €
+7 880 €
 HT · hors livraison
 
 En stock
@@ -7399,7 +7399,7 @@ Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
 
 <!-- /produit/SMPSJW12P/ -->
 
-# Mini-pelle SJW-12 P Sonca — Mini-pelle dès 7 250 € HT
+# Mini-pelle SJW-12 P Sonca — Mini-pelle dès 7 050 € HT
 
 > La SONCA SJW-12 P est la version aboutie de la gamme compacte 1,2 tonne : flèche orientable, finitions soignées et joysticks hydrauliques intégrés aux accoudo
 
@@ -7410,10 +7410,10 @@ Sonca · Mini-pelle
 La 1,2 t à flèche orientable, finitions haut de gamme.
 
 En stock
-7 250 € HT
-soit 8 700 € TTC
+7 050 € HT
+soit 8 460 € TTC
 
-ou à partir de 147 € / mois *
+ou à partir de 143 € / mois *
 Simuler mon financement
 
 * Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
@@ -8280,7 +8280,7 @@ Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
 
 <!-- /produit/XMPXC13P/ -->
 
-# Mini-pelle XC13P Xcavator — Mini-pelle dès 7 381 € HT
+# Mini-pelle XC13P Xcavator — Mini-pelle dès 7 880 € HT
 
 > La mini-pelle Xcavator XC13P est la mini-pelle 1,15 tonne d'entrée de gamme idéale pour les particuliers et les artisans. Avec son poids à vide de seulement 1
 
@@ -8291,9 +8291,9 @@ Xcavator · Mini-pelle
 Mini-pelle 1,15 t à bras déporté — l'essentiel performant, transportable en permis B.
 
 En stock
-7 381 € HT
+7 880 € HT
 
-ou à partir de 149 € / mois *
+ou à partir de 159 € / mois *
 Simuler mon financement
 
 * Estimation indicative sur 60 mois, TAEG fixe 7,9 %, hors assurance facultative — sans valeur contractuelle. Un crédit vous engage et doit être remboursé.
