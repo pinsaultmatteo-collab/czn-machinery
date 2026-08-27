@@ -19,7 +19,7 @@
 
   var PHONE      = '+33531605161';
   var PHONE_TXT  = '05 31 60 51 61';
-  var TEASER_MS  = 12000;   // délai avant la bulle d'accroche (0 = désactivé)
+  var TEASER_MS  = 4500;    // délai avant le message d'accueil (0 = désactivé) — desktop uniquement
 
   /* ---------------- langue ---------------- */
   var LANG = (document.documentElement.getAttribute('lang') || 'fr').slice(0, 2).toLowerCase();
@@ -31,7 +31,7 @@
     fr: {
       title: 'Assistant CZN', subtitle: 'Réponse immédiate',
       open: "Ouvrir l'assistant", close: 'Fermer', restart: 'Recommencer',
-      teaser: 'Une question ? Je vous oriente 👋',
+      teaser: '👋 Coucou ! Une question sur nos machines ? Je vous oriente en 2 clics.',
       human: 'Parler à un conseiller', typing: 'écrit…',
       you: 'Vous',
       q_start: "Bonjour 👋 Je suis l'assistant CZN Machinery. Que puis-je faire pour vous ?",
@@ -71,7 +71,7 @@
     en: {
       title: 'CZN Assistant', subtitle: 'Instant reply',
       open: 'Open the assistant', close: 'Close', restart: 'Start over',
-      teaser: 'A question? Let me point you 👋',
+      teaser: "👋 Hi there! A question about our machines? I'll point you in the right direction.",
       human: 'Talk to an advisor', typing: 'is typing…',
       you: 'You',
       q_start: "Hello 👋 I'm the CZN Machinery assistant. How can I help?",
@@ -111,7 +111,7 @@
     es: {
       title: 'Asistente CZN', subtitle: 'Respuesta inmediata',
       open: 'Abrir el asistente', close: 'Cerrar', restart: 'Empezar de nuevo',
-      teaser: '¿Alguna pregunta? Le oriento 👋',
+      teaser: '👋 ¡Hola! ¿Alguna pregunta sobre nuestras máquinas? Le oriento en 2 clics.',
       human: 'Hablar con un asesor', typing: 'está escribiendo…',
       you: 'Usted',
       q_start: 'Hola 👋 Soy el asistente de CZN Machinery. ¿En qué puedo ayudarle?',
@@ -231,12 +231,24 @@
     '.czn-bot-launch.is-open .ic-chat{display:none;}.czn-bot-launch.is-open .ic-x{display:block;}',
     '.czn-bot-dot{position:absolute;top:2px;right:2px;width:13px;height:13px;border-radius:50%;background:#2ecc71;border:2px solid #fff;}',
     '.czn-bot-launch.is-open .czn-bot-dot{display:none;}',
-    '.czn-bot-teaser{position:fixed;right:92px;bottom:34px;z-index:9990;max-width:230px;background:#fff;color:var(--ink,#212A35);',
-    'font-family:var(--f-body,Inter,sans-serif);font-size:13.5px;line-height:1.45;padding:11px 14px;border-radius:14px 14px 2px 14px;',
-    'box-shadow:0 10px 30px rgba(33,42,53,.18);opacity:0;transform:translateY(6px);pointer-events:none;transition:opacity .3s,transform .3s;}',
-    '.czn-bot-teaser.show{opacity:1;transform:translateY(0);pointer-events:auto;}',
-    '.czn-bot-teaser button{position:absolute;top:-7px;right:-7px;width:21px;height:21px;border-radius:50%;border:none;cursor:pointer;',
-    'background:var(--ink,#212A35);color:#fff;font-size:13px;line-height:1;display:flex;align-items:center;justify-content:center;}',
+    '.czn-bot-teaser{position:fixed;right:20px;bottom:94px;z-index:9990;width:292px;cursor:pointer;',
+    'display:flex;align-items:flex-start;gap:11px;background:#fff;color:var(--ink,#212A35);',
+    'font-family:var(--f-body,Inter,sans-serif);padding:13px 15px;border-radius:16px 16px 4px 16px;',
+    'box-shadow:0 14px 38px rgba(33,42,53,.22);opacity:0;transform:translateY(10px) scale(.96);pointer-events:none;',
+    'transition:opacity .32s ease,transform .32s cubic-bezier(.34,1.56,.64,1);}',
+    '.czn-bot-teaser.show{opacity:1;transform:translateY(0) scale(1);pointer-events:auto;}',
+    '.czn-bot-teaser:hover{box-shadow:0 18px 46px rgba(242,129,28,.3);}',
+    '.czn-bot-tz-ava{flex:0 0 auto;width:34px;height:34px;border-radius:50%;background:var(--orange,#F2811C);color:#fff;',
+    'display:flex;align-items:center;justify-content:center;}',
+    '.czn-bot-tz-ava svg{width:17px;height:17px;}',
+    '.czn-bot-tz-txt{flex:1;min-width:0;}',
+    '.czn-bot-tz-txt b{display:block;font-size:12.5px;font-weight:600;margin-bottom:2px;}',
+    '.czn-bot-tz-txt b i{font-style:normal;font-weight:400;color:var(--muted,#6b6660);font-size:11px;margin-left:5px;}',
+    '.czn-bot-tz-txt span{display:block;font-size:13.2px;line-height:1.45;color:var(--muted,#6b6660);}',
+    '.czn-bot-teaser button{position:absolute;top:-8px;right:-8px;width:23px;height:23px;border-radius:50%;border:none;cursor:pointer;',
+    'background:var(--ink,#212A35);color:#fff;font-size:14px;line-height:1;display:flex;align-items:center;justify-content:center;',
+    'box-shadow:0 2px 8px rgba(33,42,53,.3);}',
+    '.czn-bot-teaser button:hover{background:var(--orange,#F2811C);}',
     '.czn-bot-panel{position:fixed;right:20px;bottom:92px;z-index:9991;width:372px;max-width:calc(100vw - 32px);max-height:min(620px,calc(100vh - 120px));',
     'background:var(--cream,#f4efe4);border-radius:18px;box-shadow:0 26px 70px rgba(33,42,53,.34);display:none;flex-direction:column;overflow:hidden;',
     'font-family:var(--f-body,Inter,sans-serif);opacity:0;transform:translateY(10px) scale(.98);transition:opacity .22s ease,transform .22s ease;}',
@@ -279,7 +291,7 @@
     '@media(max-width:600px){',
     '.czn-bot-panel{right:0;bottom:0;width:100%;max-width:100%;max-height:100%;height:100dvh;border-radius:0;}',
     '.czn-bot-launch{right:16px;bottom:16px;width:56px;height:56px;}',
-    '.czn-bot-teaser{right:80px;bottom:26px;max-width:190px;}',
+    '.czn-bot-teaser{display:none;}',   /* message d\'accueil : desktop uniquement */
     '.czn-bot-panel.open ~ .czn-bot-launch{display:none;}}',
     '@media(prefers-reduced-motion:reduce){.czn-bot-panel,.czn-bot-b,.czn-bot-launch{transition:none;animation:none;}}'
   ].join('');
@@ -296,8 +308,14 @@
 
   var teaser = document.createElement('div');
   teaser.className = 'czn-bot czn-bot-teaser';
-  teaser.innerHTML = '<span></span><button type="button" aria-label="' + t.close + '">&times;</button>';
-  teaser.querySelector('span').textContent = t.teaser;
+  teaser.setAttribute('role', 'button'); teaser.setAttribute('tabindex', '0');
+  teaser.innerHTML =
+    '<span class="czn-bot-tz-ava">' + IC_CHAT + '</span>' +
+    '<span class="czn-bot-tz-txt"><b></b><span></span></span>' +
+    '<button type="button" aria-label="' + t.close + '">&times;</button>';
+  teaser.querySelector('.czn-bot-tz-txt b').innerHTML =
+    esc(t.title) + '<i>' + esc(t.subtitle) + '</i>';
+  teaser.querySelector('.czn-bot-tz-txt span').textContent = t.teaser;
 
   var panel = document.createElement('div');
   panel.className = 'czn-bot czn-bot-panel';
@@ -470,6 +488,9 @@
       e.stopPropagation(); hideTeaser(true);
     });
     teaser.addEventListener('click', function () { open(); });
+    teaser.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(); }
+    });
 
     document.addEventListener('keydown', function (e) {
       if (e.key === 'Escape' && isOpen) close();
@@ -480,7 +501,7 @@
     try { seen = sessionStorage.getItem('czn_bot_teaser') === '1'; } catch (e) {}
     if (TEASER_MS && !seen) {
       setTimeout(function () {
-        if (!isOpen) { teaser.classList.add('show'); setTimeout(function () { hideTeaser(false); }, 9000); }
+        if (!isOpen) { teaser.classList.add('show'); setTimeout(function () { hideTeaser(false); }, 13000); }
       }, TEASER_MS);
     }
   }
