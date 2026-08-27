@@ -831,6 +831,7 @@ ${finScript}
 ${optionScript}
 </script>
   <script src="/rdv-modal.js" defer></script>
+  <script src="/chatbot.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
 </body>
 </html>`;
@@ -932,6 +933,7 @@ ${nav(L)}
 ${categoryEndBlocks(L, page.slug)}
 ${footer(L)}
   <script src="/rdv-modal.js" defer></script>
+  <script src="/chatbot.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
 </body>
 </html>`;

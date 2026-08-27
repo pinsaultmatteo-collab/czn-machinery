@@ -291,6 +291,7 @@ function getFbp(){return getCookie('_fbp');}
 (function(){var o=document.querySelector('.pdp-option');if(!o)return;var base=parseFloat(o.dataset.base)||0,add=parseFloat(o.dataset.opt)||0;var c=document.getElementById('pdpOptCheck'),v=document.getElementById('pdpPrice');function f(n){return String(Math.round(n)).replace(/\B(?=(\d{3})+(?!\d))/g,'\u2009');}function u(){if(v)v.textContent=f(base+(c.checked?add:0))+' \u20ac';}c.addEventListener('change',u);})();
 </script>
   <script src="/rdv-modal.js" defer></script>
+  <script src="/chatbot.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
 </body>
 </html>
