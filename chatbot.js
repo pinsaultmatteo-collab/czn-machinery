@@ -431,7 +431,11 @@
     if (isOpen) return;
     isOpen = true; hideTeaser(true);
     panel.classList.add('open');
-    requestAnimationFrame(function () { panel.classList.add('in'); });
+    // reflow force : garantit que la transition se joue meme si rAF est bride
+    // (onglet en arriere-plan, economie d'energie...). Sans cela le panneau
+    // pouvait rester a opacity:0, donc invisible.
+    void panel.offsetWidth;
+    panel.classList.add('in');
     launch.classList.add('is-open'); launch.setAttribute('aria-expanded', 'true');
     if (!started) { started = true; reset(); track('chatbot_open', { lang: LANG }); 
       try { if (typeof fbq === 'function') fbq('trackCustom', 'ChatbotOpen'); } catch (e) {} }
