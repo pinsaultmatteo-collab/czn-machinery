@@ -50,6 +50,14 @@ const ALLOWED_HOSTS = /^(www\.)?czn-machinery\.com$|^localhost$|\.vercel\.app$/;
    Surchargeable sans redéploiement via la variable AXONAUT_BUSINESS_MANAGER. */
 const BUSINESS_MANAGER = process.env.AXONAUT_BUSINESS_MANAGER || "Mickael Legrand";
 
+/* Personnes qui doivent VOIR passer chaque demande. Axonaut n'autorise qu'UN
+   seul commercial par société et par opportunité (champ unique), mais les
+   événements acceptent une liste : tout le monde est donc notifié de
+   l'activité, même si la fiche reste rattachée à un responsable.
+   Noms ou e-mails, séparés par des virgules. */
+const NOTIFY = (process.env.AXONAUT_NOTIFY || "Mickael Legrand, m.caron@czn-machinery.com")
+  .split(",").map((v) => clean(v)).filter(Boolean);
+
 /* Opportunité créée pour chaque demande, dans la colonne « Nouveau Prospect »
    du cycle commercial. Les noms exacts sont résolus via GET /pipes : si la
    colonne est renommée dans Axonaut, la correspondance tient quand même
@@ -69,32 +77,37 @@ const nameKey = (v) =>
   String(v == null ? "" : v).normalize("NFD").replace(/[\u0300-\u036f]/g, "")
     .toLowerCase().replace(/[^a-z]/g, "");
 
-/* Résolu une fois puis mémorisé pour la durée de vie de l'instance (les
-   invocations « à chaud » réutilisent le résultat, pas d'appel superflu). */
-let managerEmailCache;
-async function resolveManagerEmail(apiKey) {
-  if (managerEmailCache !== undefined) return managerEmailCache;
-  const target = clean(BUSINESS_MANAGER);
-  if (!target) return (managerEmailCache = null);
-  if (target.includes("@")) return (managerEmailCache = target);
+/* Annuaire des utilisateurs Axonaut, mémorisé (voir CACHE_TTL_MS) : évite un
+   appel par lead tout en prenant en compte une arrivée/départ assez vite. */
+let usersCache, usersCacheAt = 0;
+async function axUsers(apiKey) {
+  if (usersCache && Date.now() - usersCacheAt < CACHE_TTL_MS) return usersCache;
+  usersCacheAt = Date.now();
   try {
     const r = await ax(apiKey, "/users");
-    const users = r.ok ? asList(r.data) : [];
-    const key = nameKey(target);
-    const hit =
-      users.find((u) => nameKey(u.fullname) === key) ||
-      users.find((u) => nameKey(clean(u.firstname) + clean(u.lastname)) === key) ||
-      users.find((u) => nameKey(clean(u.lastname) + clean(u.firstname)) === key);
-    managerEmailCache = (hit && clean(hit.email)) || null;
-    if (!managerEmailCache) {
-      console.warn("[axonaut-lead] commercial introuvable :", target,
-        "| utilisateurs:", users.map((u) => u.fullname).join(", "));
-    }
+    usersCache = r.ok ? asList(r.data) : [];
   } catch (e) {
-    managerEmailCache = null;
-    console.warn("[axonaut-lead] resolution commercial impossible :", String(e.message || e));
+    usersCache = [];
+    console.warn("[axonaut-lead] annuaire indisponible :", String(e.message || e));
   }
-  return managerEmailCache;
+  return usersCache;
+}
+
+/* « Mickael Legrand » ou « m.caron@… » → e-mail. Renvoie null si inconnu. */
+function emailOf(entry, users) {
+  const v = clean(entry);
+  if (!v) return null;
+  if (v.includes("@")) return v;
+  const key = nameKey(v);
+  const hit =
+    users.find((u) => nameKey(u.fullname) === key) ||
+    users.find((u) => nameKey(clean(u.firstname) + clean(u.lastname)) === key) ||
+    users.find((u) => nameKey(clean(u.lastname) + clean(u.firstname)) === key);
+  if (!hit) {
+    console.warn("[axonaut-lead] utilisateur introuvable :", v,
+      "| annuaire:", users.map((u) => u.fullname).join(", "));
+  }
+  return (hit && clean(hit.email)) || null;
 }
 
 /* Renvoie { pipe, step } avec les libellés EXACTS d'Axonaut.
@@ -278,7 +291,12 @@ module.exports = async (req, res) => {
 
     // Résolu avant la création ; sur une société DÉJÀ existante on n'y touche
     // pas, pour ne pas déposséder le commercial qui la suit déjà.
-    const managerEmail = await resolveManagerEmail(apiKey);
+    const users = await axUsers(apiKey);
+    const managerEmail = emailOf(BUSINESS_MANAGER, users);
+    // Destinataires de l'activité : tout le monde, responsable inclus, dédoublonné.
+    const notifyEmails = [...new Set(
+      [managerEmail].concat(NOTIFY.map((n) => emailOf(n, users))).filter(Boolean)
+    )];
 
     if (!company) {
       // Nouvelle société → prospect + contact en un seul appel.
@@ -338,6 +356,7 @@ module.exports = async (req, res) => {
           content: recap,
           date: isoWithOffset(new Date()),
           is_done: true,
+          ...(notifyEmails.length ? { users: notifyEmails } : {}),
         }),
       });
       eventLogged = !!ev.ok;
@@ -396,6 +415,7 @@ module.exports = async (req, res) => {
       company_is_prospect: company ? company.is_prospect : null,
       company_is_customer: company ? company.is_customer : null,
       business_manager: managerEmail || null,
+      notified: notifyEmails,
       opportunity_id: opportunityId,
       opportunity_skipped: opportunitySkipped,
       opportunity_pipe: pipeUsed ? pipeUsed.pipe : null,
