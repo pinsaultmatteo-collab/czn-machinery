@@ -66,6 +66,16 @@
       h_form: '✉️ Envoyer ma demande', h_catalog: 'Voir les machines',
       l_need: 'Besoin', l_type: 'Type de machine', l_usage: 'Usage',
       l_size: 'Gabarit', l_timing: 'Délai', l_sav: 'SAV',
+      h_callback: '✍️ Être recontacté',
+      f_title: 'Laissez-moi vos coordonnées, on vous recontacte rapidement.',
+      f_name: 'Nom et prénom', f_email: 'E-mail', f_phone: 'Téléphone (facultatif)',
+      f_consent: 'J\'accepte que mes données soient utilisées pour être recontacté.',
+      f_privacy: 'Politique de confidentialité',
+      f_send: 'Envoyer ma demande', f_sending: 'Envoi…',
+      f_errName: 'Merci d\'indiquer votre nom.', f_errMail: 'Merci d\'indiquer un e-mail valide.',
+      f_errConsent: 'Merci d\'accepter pour continuer.',
+      f_okTitle: 'C\'est envoyé !', f_okBody: 'Merci, votre demande est transmise à notre équipe. Nous revenons vers vous très vite.',
+      f_ko: 'Envoi impossible pour le moment. Vous pouvez nous appeler au ' + PHONE_TXT + '.',
       msg_head: "Demande envoyée depuis l'assistant du site :"
     },
     en: {
@@ -106,6 +116,16 @@
       h_form: '✉️ Send my request', h_catalog: 'See the machines',
       l_need: 'Need', l_type: 'Machine type', l_usage: 'Use',
       l_size: 'Size', l_timing: 'Timeframe', l_sav: 'After-sales',
+      h_callback: '✍️ Get a call back',
+      f_title: 'Leave your details and we\'ll get back to you quickly.',
+      f_name: 'Full name', f_email: 'Email', f_phone: 'Phone (optional)',
+      f_consent: 'I agree that my details may be used to contact me back.',
+      f_privacy: 'Privacy policy',
+      f_send: 'Send my request', f_sending: 'Sending…',
+      f_errName: 'Please enter your name.', f_errMail: 'Please enter a valid email.',
+      f_errConsent: 'Please accept to continue.',
+      f_okTitle: 'Sent!', f_okBody: 'Thank you, your request has reached our team. We\'ll get back to you shortly.',
+      f_ko: 'Could not send right now. You can call us on ' + PHONE_TXT + '.',
       msg_head: 'Request sent from the website assistant:'
     },
     es: {
@@ -146,6 +166,16 @@
       h_form: '✉️ Enviar mi solicitud', h_catalog: 'Ver las máquinas',
       l_need: 'Necesidad', l_type: 'Tipo de máquina', l_usage: 'Uso',
       l_size: 'Tamaño', l_timing: 'Plazo', l_sav: 'Posventa',
+      h_callback: '✍️ Que me llamen',
+      f_title: 'Déjenos sus datos y le contactamos rápidamente.',
+      f_name: 'Nombre y apellidos', f_email: 'Correo electrónico', f_phone: 'Teléfono (opcional)',
+      f_consent: 'Acepto que mis datos se utilicen para ponerse en contacto conmigo.',
+      f_privacy: 'Política de privacidad',
+      f_send: 'Enviar mi solicitud', f_sending: 'Enviando…',
+      f_errName: 'Indique su nombre, por favor.', f_errMail: 'Indique un correo válido.',
+      f_errConsent: 'Debe aceptar para continuar.',
+      f_okTitle: '¡Enviado!', f_okBody: 'Gracias, su solicitud ha llegado a nuestro equipo. Le responderemos muy pronto.',
+      f_ko: 'No se ha podido enviar. Puede llamarnos al ' + PHONE_TXT + '.',
       msg_head: 'Solicitud enviada desde el asistente de la web:'
     }
   };
@@ -288,6 +318,18 @@
     'cursor:pointer;text-decoration:none;padding:2px;transition:color .18s;}',
     '.czn-bot-foot a:hover,.czn-bot-foot button:hover{color:var(--orange,#F2811C);}',
     '.czn-bot-foot a{font-weight:600;color:var(--ink,#212A35);}',
+    '.czn-bot-form{display:flex;flex-direction:column;gap:7px;}',
+    '.czn-bot-form input[type=text],.czn-bot-form input[type=email],.czn-bot-form input[type=tel]{',
+    'width:100%;padding:10px 12px;border-radius:10px;border:1px solid rgba(33,42,53,.18);',
+    'font-family:inherit;font-size:13.4px;background:#fff;color:var(--ink,#212A35);}',
+    '.czn-bot-form input:focus{outline:none;border-color:var(--orange,#F2811C);',
+    'box-shadow:0 0 0 3px var(--orange-dim,rgba(242,129,28,.12));}',
+    '.czn-bot-consent{display:flex;gap:8px;align-items:flex-start;font-size:11.6px;line-height:1.4;',
+    'color:var(--muted,#6b6660);padding:2px 1px;}',
+    '.czn-bot-consent input{margin:1px 0 0;flex:0 0 auto;accent-color:var(--orange,#F2811C);}',
+    '.czn-bot-consent a{color:var(--ink,#212A35);}',
+    '.czn-bot-err{font-size:12px;color:#c0392b;padding:0 2px;}',
+    '.czn-bot-hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0;}',
     '@media(max-width:600px){',
     '.czn-bot-panel{right:0;bottom:0;width:100%;max-width:100%;max-height:100%;height:100dvh;border-radius:0;}',
     '.czn-bot-launch{right:16px;bottom:16px;width:56px;height:56px;}',
@@ -413,6 +455,70 @@
            '&msg=' + encodeURIComponent(msg);
   }
 
+  /* Capture des coordonnées directement dans l'assistant : couvre le visiteur
+     qui a répondu aux questions mais n'irait pas jusqu'au formulaire de
+     contact. Envoie vers /api/axonaut-lead (prospect + contact + opportunité).
+     Consentement explicite requis avant tout envoi (RGPD). */
+  function leadForm(topic) {
+    say(esc(t.f_title));
+    optsEl.innerHTML = '';
+    var wrap = document.createElement('div');
+    wrap.className = 'czn-bot-form';
+    wrap.innerHTML =
+      '<input type="text"  class="f-name"  autocomplete="name"  placeholder="' + esc(t.f_name) + '">' +
+      '<input type="email" class="f-mail"  autocomplete="email" placeholder="' + esc(t.f_email) + '">' +
+      '<input type="tel"   class="f-tel"   autocomplete="tel"   placeholder="' + esc(t.f_phone) + '">' +
+      '<input type="text"  class="czn-bot-hp f-hp" tabindex="-1" autocomplete="off" aria-hidden="true">' +
+      '<label class="czn-bot-consent"><input type="checkbox" class="f-ok"><span>' + esc(t.f_consent) +
+        ' <a href="' + PREFIX + '/politique-confidentialite/" target="_blank" rel="noopener">' + esc(t.f_privacy) + '</a></span></label>' +
+      '<div class="czn-bot-err" hidden></div>';
+    optsEl.appendChild(wrap);
+
+    var btn = document.createElement('button');
+    btn.type = 'button'; btn.className = 'czn-bot-o pri'; btn.textContent = t.f_send;
+    optsEl.appendChild(btn);
+
+    var errEl = wrap.querySelector('.czn-bot-err');
+    var fail = function (m) { errEl.textContent = m; errEl.hidden = false; };
+
+    btn.addEventListener('click', function () {
+      var name = wrap.querySelector('.f-name').value.trim();
+      var mail = wrap.querySelector('.f-mail').value.trim();
+      var tel  = wrap.querySelector('.f-tel').value.trim();
+      var hp   = wrap.querySelector('.f-hp').value.trim();
+      errEl.hidden = true;
+      if (!name) return fail(t.f_errName);
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(mail)) return fail(t.f_errMail);
+      if (!wrap.querySelector('.f-ok').checked) return fail(t.f_errConsent);
+
+      btn.disabled = true; btn.textContent = t.f_sending;
+      track('chatbot_handoff', { method: 'callback', topic: topic });
+      try { if (typeof gtag === 'function') gtag('event', 'generate_lead', { form_name: 'chatbot', value: 1, currency: 'EUR' }); } catch (e) {}
+      try { if (typeof fbq === 'function') fbq('track', 'Lead', { value: 1, currency: 'EUR' }); } catch (e) {}
+
+      fetch('/api/axonaut-lead/', {
+        method: 'POST', keepalive: true,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          source: 'chatbot', name: name, email: mail, phone: tel, _gotcha: hp,
+          company: '', topic: topic, message: recapText(),
+          lang: LANG, page: location.href
+        })
+      }).then(function (r) { return r.json().catch(function () { return {}; }); })
+        .then(function (j) {
+          if (j && j.ok === false) throw new Error(j.error || 'ko');
+          optsEl.innerHTML = '';
+          say('<strong>' + esc(t.f_okTitle) + '</strong><br>' + esc(t.f_okBody));
+          setOpts([{ label: t.restart, onClick: function () { track('chatbot_restart'); reset(); } }]);
+        })
+        .catch(function () {
+          btn.disabled = false; btn.textContent = t.f_send;
+          fail(t.f_ko);
+        });
+    });
+    requestAnimationFrame(scroll);
+  }
+
   function handoff(topic) {
     typing(function () {
       if (answers.length) {
@@ -423,7 +529,11 @@
       }
       say(esc(t.q_hand));
       var list = [
-        { label: t.h_rdv, pri: true, rdv: true, onClick: function () {
+        { label: t.h_callback, pri: true, onClick: function () {
+            track('chatbot_step', { step: 'handoff', choice: 'callback' });
+            leadForm(topic);
+          } },
+        { label: t.h_rdv, rdv: true, onClick: function () {
             track('chatbot_handoff', { method: 'rdv', topic: topic }); close();
           } },
         { label: t.h_form, href: contactHref(topic), onClick: function () {

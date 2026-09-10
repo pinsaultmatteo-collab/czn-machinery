@@ -26,6 +26,10 @@
 const AXONAUT_BASE = "https://axonaut.com/api/v2";
 const TIMEOUT_MS = 8000;
 
+/* Provenance de la demande : permet aux commerciaux de distinguer d'un coup
+   d'œil un formulaire rempli d'une conversation avec l'assistant. */
+const SOURCES = { chatbot: "Assistant du site", formulaire: "Formulaire du site" };
+
 const TOPICS = {
   devis: "Demande de devis",
   financement: "Financement",
@@ -200,9 +204,9 @@ function isoWithOffset(d) {
     sign + p(off / 60) + ":" + p(off % 60);
 }
 
-function buildRecap(b, topicLabel) {
+function buildRecap(b, topicLabel, sourceLabel) {
   const lines = [];
-  lines.push("Demande envoyée depuis le site czn-machinery.com");
+  lines.push(sourceLabel + " — czn-machinery.com");
   lines.push("Sujet : " + topicLabel);
   if (clean(b.name)) lines.push("Nom : " + clean(b.name));
   if (clean(b.company)) lines.push("Société : " + clean(b.company));
@@ -263,6 +267,8 @@ module.exports = async (req, res) => {
     const phone = clean(b.phone);
     const topicKey = norm(b.topic);
     const topicLabel = TOPICS[topicKey] || TOPICS.autre;
+    const sourceLabel = SOURCES[norm(b.source)] || SOURCES.formulaire;
+    const recap = buildRecap(b, topicLabel, sourceLabel);
     const lang = (clean(b.lang) || "fr").slice(0, 2);
 
     const found = await findCompany(apiKey, email, companyName);
@@ -282,7 +288,7 @@ module.exports = async (req, res) => {
         isB2C: isB2C,
         currency: "EUR",
         language: lang,
-        comments: buildRecap(b, topicLabel),
+        comments: recap,
         ...(managerEmail ? { business_manager: managerEmail } : {}),
         employees: [{
           firstname: firstname,
@@ -328,8 +334,8 @@ module.exports = async (req, res) => {
         method: "POST",
         body: JSON.stringify({
           company_id: company.id,
-          title: "Demande site web — " + topicLabel,
-          content: buildRecap(b, topicLabel),
+          title: sourceLabel + " — " + topicLabel,
+          content: recap,
           date: isoWithOffset(new Date()),
           is_done: true,
         }),
@@ -357,8 +363,8 @@ module.exports = async (req, res) => {
       } else {
         const oPayload = {
           company_id: company.id,
-          name: "Demande site web — " + topicLabel,
-          comments: buildRecap(b, topicLabel),
+          name: sourceLabel + " — " + topicLabel,
+          comments: recap,
           amount: 0,
           pipe_step_name: pipe.step,
           ...(pipe.pipe ? { pipe_name: pipe.pipe } : {}),
