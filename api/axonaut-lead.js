@@ -46,6 +46,13 @@ const ALLOWED_HOSTS = /^(www\.)?czn-machinery\.com$|^localhost$|\.vercel\.app$/;
    Surchargeable sans redéploiement via la variable AXONAUT_BUSINESS_MANAGER. */
 const BUSINESS_MANAGER = process.env.AXONAUT_BUSINESS_MANAGER || "Mickael Legrand";
 
+/* Opportunité créée pour chaque demande, dans la colonne « Nouveau Prospect »
+   du cycle commercial. Les noms exacts sont résolus via GET /pipes : si la
+   colonne est renommée dans Axonaut, la correspondance tient quand même
+   (casse et accents ignorés). Surchargeables via AXONAUT_PIPE / AXONAUT_PIPE_STEP. */
+const PIPE_STEP = process.env.AXONAUT_PIPE_STEP || "Nouveau Prospect";
+const PIPE_NAME = process.env.AXONAUT_PIPE || "";
+
 /* Comparaison de noms insensible à la casse, aux accents et à la ponctuation
    (« Mickaël Legrand », « mickael legrand », « Legrand, Mickael » → même clé). */
 const nameKey = (v) =>
@@ -78,6 +85,34 @@ async function resolveManagerEmail(apiKey) {
     console.warn("[axonaut-lead] resolution commercial impossible :", String(e.message || e));
   }
   return managerEmailCache;
+}
+
+/* Renvoie { pipe, step } avec les libellés EXACTS d'Axonaut, ou null. */
+let pipeCache;
+async function resolvePipe(apiKey) {
+  if (pipeCache !== undefined) return pipeCache;
+  try {
+    const r = await ax(apiKey, "/pipes");
+    const pipes = (r.ok ? asList(r.data) : []).filter((p) => !p.is_deleted);
+    const stepKey = nameKey(PIPE_STEP);
+    const wanted = nameKey(PIPE_NAME);
+    const match = (p) => (p.pipe_steps || []).find((st) => nameKey(st.name) === stepKey);
+    // Si un pipeline précis est configuré on le privilégie, sinon on prend le
+    // premier qui contient la colonne visée.
+    const ordered = wanted ? pipes.filter((p) => nameKey(p.name) === wanted).concat(pipes) : pipes;
+    for (const p of ordered) {
+      const st = match(p);
+      if (st) return (pipeCache = { pipe: p.name, step: st.name });
+    }
+    console.warn("[axonaut-lead] colonne introuvable :", PIPE_STEP,
+      "| pipelines:", pipes.map((p) => p.name + " [" + (p.pipe_steps || []).map((x) => x.name).join(", ") + "]").join(" / "));
+    // Repli sur les libellés configurés : ils sont probablement corrects.
+    pipeCache = { pipe: PIPE_NAME || null, step: PIPE_STEP };
+  } catch (e) {
+    console.warn("[axonaut-lead] resolution pipeline impossible :", String(e.message || e));
+    pipeCache = { pipe: PIPE_NAME || null, step: PIPE_STEP };
+  }
+  return pipeCache;
 }
 
 /* Appel Axonaut avec timeout — ne lève jamais sur un HTTP non-2xx : on
@@ -288,6 +323,45 @@ module.exports = async (req, res) => {
       eventLogged = !!ev.ok;
     }
 
+    // ── Opportunité dans le cycle commercial ──────────────────────────────
+    // Sur une société déjà connue, on n'en rajoute pas si une opportunité
+    // ouverte attend déjà dans la même colonne : inutile d'encombrer le
+    // pipeline avec des doublons quand quelqu'un resoumet le formulaire.
+    let opportunityId = null, opportunitySkipped = false;
+    if (company && company.id) {
+      const pipe = await resolvePipe(apiKey);
+      let already = false;
+      if (!companyCreated) {
+        const ro = await ax(apiKey, "/companies/" + company.id + "/opportunities");
+        already = asList(ro.data).some(
+          (o) => o && !o.is_win && !o.is_archived && nameKey(o.pipe_step_name) === nameKey(pipe.step)
+        );
+      }
+      if (already) {
+        opportunitySkipped = true;
+      } else {
+        const oPayload = {
+          company_id: company.id,
+          name: "Demande site web — " + topicLabel,
+          comments: buildRecap(b, topicLabel),
+          amount: 0,
+          pipe_step_name: pipe.step,
+          ...(pipe.pipe ? { pipe_name: pipe.pipe } : {}),
+          ...(managerEmail ? { business_manager_email: managerEmail } : {}),
+          // ⚠️ 3e convention de nommage : ici les clés sont préfixées employee_
+          employees: [{
+            employee_firstname: firstname,
+            employee_lastname: lastname,
+            employee_email: email,
+            employee_phone: phone,
+          }],
+        };
+        const ro = await ax(apiKey, "/opportunities", { method: "POST", body: JSON.stringify(oPayload) });
+        if (ro.ok && ro.data && ro.data.id) opportunityId = ro.data.id;
+        else console.warn("[axonaut-lead] opportunite refusee", ro.status, JSON.stringify(ro.data).slice(0, 300));
+      }
+    }
+
     const out = {
       ok: true,
       company_id: company ? company.id : null,
@@ -301,6 +375,8 @@ module.exports = async (req, res) => {
       company_is_prospect: company ? company.is_prospect : null,
       company_is_customer: company ? company.is_customer : null,
       business_manager: managerEmail || null,
+      opportunity_id: opportunityId,
+      opportunity_skipped: opportunitySkipped,
     };
     console.log("[axonaut-lead]", JSON.stringify(out));
     return res.status(200).json(out);
