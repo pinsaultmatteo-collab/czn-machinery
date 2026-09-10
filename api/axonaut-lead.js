@@ -44,18 +44,22 @@ const norm = (v) => clean(v).toLowerCase().replace(/\s+/g, " ");
 const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
 const ALLOWED_HOSTS = /^(www\.)?czn-machinery\.com$|^localhost$|\.vercel\.app$/;
 
-/* Commercial à qui attribuer les prospects venant du site.
-   Accepte un e-mail directement, ou un NOM qu'on résout via GET /users
-   (le champ Axonaut `business_manager` attend un e-mail).
-   Surchargeable sans redéploiement via la variable AXONAUT_BUSINESS_MANAGER. */
-const BUSINESS_MANAGER = process.env.AXONAUT_BUSINESS_MANAGER || "Mickael Legrand";
+/* Commercial propriétaire des prospects venant du site.
+   ⚠️ Volontairement Matthieu Caron et NON le compte administrateur
+   (contact@czn-machinery.com) : Axonaut cadre ses vues liste sur le
+   propriétaire de la fiche. Attribuées à l'admin, les fiches restaient
+   invisibles dans les listes de Matthieu — alors qu'attribuées à Matthieu,
+   il les voit dans ses listes ET l'admin continue de tout voir.
+   Accepte un e-mail (utilisé tel quel) ou un nom (résolu via GET /users).
+   Surchargeable via AXONAUT_BUSINESS_MANAGER. */
+const BUSINESS_MANAGER = process.env.AXONAUT_BUSINESS_MANAGER || "m.caron@czn-machinery.com";
 
 /* Personnes qui doivent VOIR passer chaque demande. Axonaut n'autorise qu'UN
    seul commercial par société et par opportunité (champ unique), mais les
    événements acceptent une liste : tout le monde est donc notifié de
    l'activité, même si la fiche reste rattachée à un responsable.
    Noms ou e-mails, séparés par des virgules. */
-const NOTIFY = (process.env.AXONAUT_NOTIFY || "Mickael Legrand, m.caron@czn-machinery.com")
+const NOTIFY = (process.env.AXONAUT_NOTIFY || "m.caron@czn-machinery.com, contact@czn-machinery.com")
   .split(",").map((v) => clean(v)).filter(Boolean);
 
 /* Opportunité créée pour chaque demande, dans la colonne « Nouveau Prospect »
@@ -291,7 +295,11 @@ module.exports = async (req, res) => {
 
     // Résolu avant la création ; sur une société DÉJÀ existante on n'y touche
     // pas, pour ne pas déposséder le commercial qui la suit déjà.
-    const users = await axUsers(apiKey);
+    // L'annuaire n'est interrogé que si une entrée est un NOM à résoudre :
+    // avec des e-mails, on économise un aller-retour sur chaque lead.
+    const needsDirectory = [BUSINESS_MANAGER].concat(NOTIFY)
+      .some((v) => clean(v) && !clean(v).includes("@"));
+    const users = needsDirectory ? await axUsers(apiKey) : [];
     const managerEmail = emailOf(BUSINESS_MANAGER, users);
     // Destinataires de l'activité : tout le monde, responsable inclus, dédoublonné.
     const notifyEmails = [...new Set(
