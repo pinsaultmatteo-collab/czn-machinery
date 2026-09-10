@@ -93,10 +93,15 @@ async function resolveManagerEmail(apiKey) {
   return managerEmailCache;
 }
 
-/* Renvoie { pipe, step } avec les libellés EXACTS d'Axonaut, ou null. */
-let pipeCache;
+/* Renvoie { pipe, step } avec les libellés EXACTS d'Axonaut.
+   Mémorisé 10 min : assez pour éviter un appel par lead, assez court pour
+   qu'une colonne ajoutée dans Axonaut soit prise en compte rapidement sans
+   attendre le recyclage de l'instance. */
+const CACHE_TTL_MS = 10 * 60 * 1000;
+let pipeCache, pipeCacheAt = 0;
 async function resolvePipe(apiKey) {
-  if (pipeCache !== undefined) return pipeCache;
+  if (pipeCache !== undefined && Date.now() - pipeCacheAt < CACHE_TTL_MS) return pipeCache;
+  pipeCacheAt = Date.now();
   try {
     const r = await ax(apiKey, "/pipes");
     const pipes = (r.ok ? asList(r.data) : []).filter((p) => !p.is_deleted);
@@ -336,9 +341,10 @@ module.exports = async (req, res) => {
     // Sur une société déjà connue, on n'en rajoute pas si une opportunité
     // ouverte attend déjà dans la même colonne : inutile d'encombrer le
     // pipeline avec des doublons quand quelqu'un resoumet le formulaire.
-    let opportunityId = null, opportunitySkipped = false;
+    let opportunityId = null, opportunitySkipped = false, pipeUsed = null;
     if (company && company.id) {
       const pipe = await resolvePipe(apiKey);
+      pipeUsed = pipe;
       let already = false;
       if (!companyCreated) {
         const ro = await ax(apiKey, "/companies/" + company.id + "/opportunities");
@@ -386,6 +392,8 @@ module.exports = async (req, res) => {
       business_manager: managerEmail || null,
       opportunity_id: opportunityId,
       opportunity_skipped: opportunitySkipped,
+      opportunity_pipe: pipeUsed ? pipeUsed.pipe : null,
+      opportunity_step: pipeUsed ? pipeUsed.step : null,
     };
     console.log("[axonaut-lead]", JSON.stringify(out));
     return res.status(200).json(out);
