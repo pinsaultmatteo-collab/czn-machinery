@@ -40,6 +40,46 @@ const norm = (v) => clean(v).toLowerCase().replace(/\s+/g, " ");
 const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
 const ALLOWED_HOSTS = /^(www\.)?czn-machinery\.com$|^localhost$|\.vercel\.app$/;
 
+/* Commercial à qui attribuer les prospects venant du site.
+   Accepte un e-mail directement, ou un NOM qu'on résout via GET /users
+   (le champ Axonaut `business_manager` attend un e-mail).
+   Surchargeable sans redéploiement via la variable AXONAUT_BUSINESS_MANAGER. */
+const BUSINESS_MANAGER = process.env.AXONAUT_BUSINESS_MANAGER || "Mickael Legrand";
+
+/* Comparaison de noms insensible à la casse, aux accents et à la ponctuation
+   (« Mickaël Legrand », « mickael legrand », « Legrand, Mickael » → même clé). */
+const nameKey = (v) =>
+  String(v == null ? "" : v).normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase().replace(/[^a-z]/g, "");
+
+/* Résolu une fois puis mémorisé pour la durée de vie de l'instance (les
+   invocations « à chaud » réutilisent le résultat, pas d'appel superflu). */
+let managerEmailCache;
+async function resolveManagerEmail(apiKey) {
+  if (managerEmailCache !== undefined) return managerEmailCache;
+  const target = clean(BUSINESS_MANAGER);
+  if (!target) return (managerEmailCache = null);
+  if (target.includes("@")) return (managerEmailCache = target);
+  try {
+    const r = await ax(apiKey, "/users");
+    const users = r.ok ? asList(r.data) : [];
+    const key = nameKey(target);
+    const hit =
+      users.find((u) => nameKey(u.fullname) === key) ||
+      users.find((u) => nameKey(clean(u.firstname) + clean(u.lastname)) === key) ||
+      users.find((u) => nameKey(clean(u.lastname) + clean(u.firstname)) === key);
+    managerEmailCache = (hit && clean(hit.email)) || null;
+    if (!managerEmailCache) {
+      console.warn("[axonaut-lead] commercial introuvable :", target,
+        "| utilisateurs:", users.map((u) => u.fullname).join(", "));
+    }
+  } catch (e) {
+    managerEmailCache = null;
+    console.warn("[axonaut-lead] resolution commercial impossible :", String(e.message || e));
+  }
+  return managerEmailCache;
+}
+
 /* Appel Axonaut avec timeout — ne lève jamais sur un HTTP non-2xx : on
    retourne { ok, status, data } pour décider au cas par cas. */
 async function ax(apiKey, path, init) {
@@ -181,6 +221,10 @@ module.exports = async (req, res) => {
     let companyCreated = false;
     let employeeCreated = false;
 
+    // Résolu avant la création ; sur une société DÉJÀ existante on n'y touche
+    // pas, pour ne pas déposséder le commercial qui la suit déjà.
+    const managerEmail = await resolveManagerEmail(apiKey);
+
     if (!company) {
       // Nouvelle société → prospect + contact en un seul appel.
       const payload = {
@@ -190,6 +234,7 @@ module.exports = async (req, res) => {
         currency: "EUR",
         language: lang,
         comments: buildRecap(b, topicLabel),
+        ...(managerEmail ? { business_manager: managerEmail } : {}),
         employees: [{
           firstname: firstname,
           lastname: lastname,
@@ -255,6 +300,7 @@ module.exports = async (req, res) => {
       company_name: company ? company.name : null,
       company_is_prospect: company ? company.is_prospect : null,
       company_is_customer: company ? company.is_customer : null,
+      business_manager: managerEmail || null,
     };
     console.log("[axonaut-lead]", JSON.stringify(out));
     return res.status(200).json(out);
