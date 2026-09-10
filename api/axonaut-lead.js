@@ -50,7 +50,13 @@ const BUSINESS_MANAGER = process.env.AXONAUT_BUSINESS_MANAGER || "Mickael Legran
    du cycle commercial. Les noms exacts sont résolus via GET /pipes : si la
    colonne est renommée dans Axonaut, la correspondance tient quand même
    (casse et accents ignorés). Surchargeables via AXONAUT_PIPE / AXONAUT_PIPE_STEP. */
-const PIPE_STEP = process.env.AXONAUT_PIPE_STEP || "Nouveau Prospect";
+/* Liste de préférence : on prend la PREMIÈRE colonne qui existe réellement.
+   « Demandes web » est une colonne dédiée à créer à la main dans Axonaut
+   (l'API ne permet pas de modifier un pipeline existant). Tant qu'elle
+   n'existe pas, les demandes vont dans « Nouveau Prospect » ; dès qu'elle est
+   créée, elles y basculent seules, sans redéploiement. */
+const PIPE_STEPS = (process.env.AXONAUT_PIPE_STEP || "Demandes web, Nouveau Prospect")
+  .split(",").map((v) => clean(v)).filter(Boolean);
 const PIPE_NAME = process.env.AXONAUT_PIPE || "";
 
 /* Comparaison de noms insensible à la casse, aux accents et à la ponctuation
@@ -94,23 +100,26 @@ async function resolvePipe(apiKey) {
   try {
     const r = await ax(apiKey, "/pipes");
     const pipes = (r.ok ? asList(r.data) : []).filter((p) => !p.is_deleted);
-    const stepKey = nameKey(PIPE_STEP);
     const wanted = nameKey(PIPE_NAME);
-    const match = (p) => (p.pipe_steps || []).find((st) => nameKey(st.name) === stepKey);
     // Si un pipeline précis est configuré on le privilégie, sinon on prend le
     // premier qui contient la colonne visée.
     const ordered = wanted ? pipes.filter((p) => nameKey(p.name) === wanted).concat(pipes) : pipes;
-    for (const p of ordered) {
-      const st = match(p);
-      if (st) return (pipeCache = { pipe: p.name, step: st.name });
+    // On parcourt les colonnes par ordre de préférence, pas les pipelines :
+    // « Demandes web » l'emporte partout où elle existe.
+    for (const want of PIPE_STEPS) {
+      const key = nameKey(want);
+      for (const p of ordered) {
+        const st = (p.pipe_steps || []).find((x) => nameKey(x.name) === key);
+        if (st) return (pipeCache = { pipe: p.name, step: st.name });
+      }
     }
-    console.warn("[axonaut-lead] colonne introuvable :", PIPE_STEP,
+    console.warn("[axonaut-lead] aucune colonne trouvee parmi :", PIPE_STEPS.join(" / "),
       "| pipelines:", pipes.map((p) => p.name + " [" + (p.pipe_steps || []).map((x) => x.name).join(", ") + "]").join(" / "));
-    // Repli sur les libellés configurés : ils sont probablement corrects.
-    pipeCache = { pipe: PIPE_NAME || null, step: PIPE_STEP };
+    // Repli sur le dernier libellé configuré : c'est le plus sûr.
+    pipeCache = { pipe: PIPE_NAME || null, step: PIPE_STEPS[PIPE_STEPS.length - 1] };
   } catch (e) {
     console.warn("[axonaut-lead] resolution pipeline impossible :", String(e.message || e));
-    pipeCache = { pipe: PIPE_NAME || null, step: PIPE_STEP };
+    pipeCache = { pipe: PIPE_NAME || null, step: PIPE_STEPS[PIPE_STEPS.length - 1] };
   }
   return pipeCache;
 }
