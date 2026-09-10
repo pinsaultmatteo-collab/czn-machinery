@@ -200,10 +200,13 @@ module.exports = async (req, res) => {
       };
       const r = await ax(apiKey, "/companies", { method: "POST", body: JSON.stringify(payload) });
       if (!r.ok || !r.data || !r.data.id) {
-        return res.status(200).json({
+        const fail = {
           ok: false, step: "create_company", status: r.status,
           error: (r.data && (r.data.message || r.data.error)) || "Création société refusée",
-        });
+          detail: r.data ? JSON.stringify(r.data).slice(0, 400) : null,
+        };
+        console.error("[axonaut-lead] ECHEC", JSON.stringify(fail));
+        return res.status(200).json(fail);
       }
       company = r.data;
       companyCreated = true;
@@ -240,14 +243,21 @@ module.exports = async (req, res) => {
       eventLogged = !!ev.ok;
     }
 
-    return res.status(200).json({
+    const out = {
       ok: true,
       company_id: company ? company.id : null,
       company_created: companyCreated,
       matched_on: found.matchedOn,
       employee_created: employeeCreated,
       event_logged: eventLogged,
-    });
+      // Drapeaux tels qu'Axonaut les a réellement enregistrés : c'est
+      // `company_is_prospect` qui conditionne l'affichage dans Clients ▸ Prospects.
+      company_name: company ? company.name : null,
+      company_is_prospect: company ? company.is_prospect : null,
+      company_is_customer: company ? company.is_customer : null,
+    };
+    console.log("[axonaut-lead]", JSON.stringify(out));
+    return res.status(200).json(out);
   } catch (err) {
     return res.status(200).json({ ok: false, error: String((err && err.message) || err) });
   }
