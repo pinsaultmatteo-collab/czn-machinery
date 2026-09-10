@@ -1,0 +1,254 @@
+// 📁 /api/axonaut-lead.js
+//
+// Remonte dans Axonaut (CRM) chaque demande envoyée depuis le formulaire de
+// contact du site, EN PLUS du circuit existant (Formspree + e-mail à
+// contact@czn-machinery.com), qui reste inchangé.
+//
+// Ce qui est créé dans Axonaut :
+//   • une SOCIÉTÉ marquée `is_prospect` → visible dans Clients ▸ Prospects
+//   • un CONTACT (employee) rattaché à cette société → visible dans Contacts
+//   • un ÉVÉNEMENT retraçant la demande (sujet, message, page, tracking)
+//
+// Anti-doublon : on cherche d'abord une société existante (par e-mail du
+// contact, puis par nom exact). Si elle existe, on ne la recrée pas : on y
+// ajoute le contact s'il manque, et on journalise l'événement.
+//
+// ⚠️ Le champ `comments` de la société n'est renseigné qu'à la CRÉATION.
+// On n'y touche jamais ensuite : c'est une zone de notes éditée par les
+// commerciaux, l'historique des demandes va dans les événements.
+//
+// Variable d'environnement requise (déjà présente sur Vercel) :
+//   AXONAUT_API_KEY
+//
+// Le endpoint répond TOUJOURS 200 : un incident CRM ne doit jamais faire
+// échouer l'envoi du formulaire côté visiteur.
+
+const AXONAUT_BASE = "https://axonaut.com/api/v2";
+const TIMEOUT_MS = 8000;
+
+const TOPICS = {
+  devis: "Demande de devis",
+  financement: "Financement",
+  livraison: "Livraison",
+  sav: "SAV / pièces détachées",
+  occasion: "Machine d'occasion",
+  autre: "Autre",
+};
+
+const clean = (v) => String(v == null ? "" : v).trim();
+const norm = (v) => clean(v).toLowerCase().replace(/\s+/g, " ");
+const isEmail = (v) => /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v);
+const ALLOWED_HOSTS = /^(www\.)?czn-machinery\.com$|^localhost$|\.vercel\.app$/;
+
+/* Appel Axonaut avec timeout — ne lève jamais sur un HTTP non-2xx : on
+   retourne { ok, status, data } pour décider au cas par cas. */
+async function ax(apiKey, path, init) {
+  const ctrl = new AbortController();
+  const timer = setTimeout(() => ctrl.abort(), TIMEOUT_MS);
+  try {
+    const res = await fetch(AXONAUT_BASE + path, {
+      ...(init || {}),
+      signal: ctrl.signal,
+      headers: {
+        userApiKey: apiKey,
+        Accept: "application/json",
+        ...((init && init.body) ? { "Content-Type": "application/json" } : {}),
+        ...((init && init.headers) || {}),
+      },
+    });
+    const data = await res.json().catch(() => null);
+    return { ok: res.ok, status: res.status, data };
+  } finally {
+    clearTimeout(timer);
+  }
+}
+
+/* L'API renvoie tantôt un tableau, tantôt un objet enveloppe. */
+const asList = (d) => (Array.isArray(d) ? d : (d && (d.data || d.results)) || []);
+
+const employeesOf = (c) => (c && Array.isArray(c.employees) ? c.employees : []);
+const hasEmail = (c, email) =>
+  employeesOf(c).some((e) => norm(e && e.email) === email);
+
+/* « Jean Dupont » → { firstname:"Jean", lastname:"Dupont" }
+   « Dupont »      → { firstname:"",     lastname:"Dupont" }  (tri CRM par nom) */
+function splitName(full) {
+  const parts = clean(full).split(/\s+/).filter(Boolean);
+  if (!parts.length) return { firstname: "", lastname: "" };
+  if (parts.length === 1) return { firstname: "", lastname: parts[0] };
+  return { firstname: parts.shift(), lastname: parts.join(" ") };
+}
+
+async function searchCompanies(apiKey, query) {
+  if (!query) return [];
+  const r = await ax(apiKey, "/companies?search=" + encodeURIComponent(query));
+  return r.ok ? asList(r.data) : [];
+}
+
+/* Recherche prudente : on ne rattache à une société existante que sur une
+   correspondance FORTE (même e-mail de contact, ou nom strictement identique),
+   pour ne jamais greffer un prospect sur la mauvaise fiche. */
+async function findCompany(apiKey, email, companyName) {
+  for (const c of await searchCompanies(apiKey, email)) {
+    if (hasEmail(c, email)) return { company: c, matchedOn: "email" };
+  }
+  if (companyName) {
+    const target = norm(companyName);
+    for (const c of await searchCompanies(apiKey, companyName)) {
+      if (norm(c.name) === target) return { company: c, matchedOn: "nom" };
+    }
+  }
+  return { company: null, matchedOn: null };
+}
+
+/* Date ISO8601 avec décalage horaire (format attendu par Axonaut). */
+function isoWithOffset(d) {
+  const p = (n) => String(Math.floor(Math.abs(n))).padStart(2, "0");
+  const off = -d.getTimezoneOffset();
+  const sign = off >= 0 ? "+" : "-";
+  return d.getFullYear() + "-" + p(d.getMonth() + 1) + "-" + p(d.getDate()) +
+    "T" + p(d.getHours()) + ":" + p(d.getMinutes()) + ":" + p(d.getSeconds()) +
+    sign + p(off / 60) + ":" + p(off % 60);
+}
+
+function buildRecap(b, topicLabel) {
+  const lines = [];
+  lines.push("Demande envoyée depuis le site czn-machinery.com");
+  lines.push("Sujet : " + topicLabel);
+  if (clean(b.name)) lines.push("Nom : " + clean(b.name));
+  if (clean(b.company)) lines.push("Société : " + clean(b.company));
+  if (clean(b.email)) lines.push("E-mail : " + clean(b.email));
+  if (clean(b.phone)) lines.push("Téléphone : " + clean(b.phone));
+  if (clean(b.message)) lines.push("", "Message :", clean(b.message));
+  const meta = [];
+  if (clean(b.page)) meta.push("Page : " + clean(b.page));
+  if (clean(b.lang)) meta.push("Langue : " + clean(b.lang));
+  if (clean(b.gclid)) meta.push("gclid : " + clean(b.gclid));
+  if (clean(b.fbclid)) meta.push("fbclid : " + clean(b.fbclid));
+  if (meta.length) lines.push("", "— " + meta.join(" · "));
+  return lines.join("\n");
+}
+
+module.exports = async (req, res) => {
+  if (req.method !== "POST") {
+    return res.status(200).json({ ok: true, note: "Axonaut lead endpoint actif" });
+  }
+
+  try {
+    let b = req.body;
+    if (typeof b === "string") { try { b = JSON.parse(b); } catch (e) {} }
+    b = b || {};
+
+    // Origine : on n'accepte que les envois venant du site. Ce n'est pas une
+    // sécurité forte (un en-tête se falsifie), mais cela bloque les POST
+    // opportunistes de robots qui scannent les routes /api.
+    const src = clean(req.headers && (req.headers.origin || req.headers.referer));
+    if (src) {
+      let host = "";
+      try { host = new URL(src).hostname; } catch (e) { host = ""; }
+      if (!ALLOWED_HOSTS.test(host)) {
+        return res.status(200).json({ ok: false, error: "Origine non autorisée" });
+      }
+    }
+
+    // Honeypot : rempli = robot, on ne pollue pas le CRM.
+    if (clean(b._gotcha)) {
+      return res.status(200).json({ ok: true, skipped: "honeypot" });
+    }
+
+    const email = norm(b.email);
+    if (!isEmail(email)) {
+      return res.status(200).json({ ok: false, error: "E-mail absent ou invalide" });
+    }
+
+    const apiKey = process.env.AXONAUT_API_KEY;
+    if (!apiKey) {
+      return res.status(200).json({ ok: false, error: "AXONAUT_API_KEY manquante" });
+    }
+
+    const personName = clean(b.name);
+    const companyName = clean(b.company);
+    const isB2C = !companyName;                       // particulier si pas de société
+    const accountName = companyName || personName || email.split("@")[0];
+    const { firstname, lastname } = splitName(personName);
+    const phone = clean(b.phone);
+    const topicKey = norm(b.topic);
+    const topicLabel = TOPICS[topicKey] || TOPICS.autre;
+    const lang = (clean(b.lang) || "fr").slice(0, 2);
+
+    const found = await findCompany(apiKey, email, companyName);
+    let company = found.company;
+    let companyCreated = false;
+    let employeeCreated = false;
+
+    if (!company) {
+      // Nouvelle société → prospect + contact en un seul appel.
+      const payload = {
+        name: accountName,
+        is_prospect: true,
+        isB2C: isB2C,
+        currency: "EUR",
+        language: lang,
+        comments: buildRecap(b, topicLabel),
+        employees: [{
+          firstname: firstname,
+          lastname: lastname,
+          email: email,
+          // ⚠️ dans le tableau imbriqué, Axonaut attend du camelCase
+          phoneNumber: phone,
+        }],
+      };
+      const r = await ax(apiKey, "/companies", { method: "POST", body: JSON.stringify(payload) });
+      if (!r.ok || !r.data || !r.data.id) {
+        return res.status(200).json({
+          ok: false, step: "create_company", status: r.status,
+          error: (r.data && (r.data.message || r.data.error)) || "Création société refusée",
+        });
+      }
+      company = r.data;
+      companyCreated = true;
+      employeeCreated = true;
+    } else if (!hasEmail(company, email)) {
+      // Société connue mais nouveau contact → on ajoute le contact seul.
+      // Ici l'endpoint /employees attend du snake_case (phone_number).
+      const r = await ax(apiKey, "/employees", {
+        method: "POST",
+        body: JSON.stringify({
+          company_id: company.id,
+          firstname: firstname,
+          lastname: lastname,
+          email: email,
+          phone_number: phone,
+        }),
+      });
+      employeeCreated = !!(r.ok && r.data);
+    }
+
+    // Journalisation de la demande (n'écrase jamais les notes commerciales).
+    let eventLogged = false;
+    if (company && company.id) {
+      const ev = await ax(apiKey, "/events", {
+        method: "POST",
+        body: JSON.stringify({
+          company_id: company.id,
+          title: "Demande site web — " + topicLabel,
+          content: buildRecap(b, topicLabel),
+          date: isoWithOffset(new Date()),
+          is_done: true,
+        }),
+      });
+      eventLogged = !!ev.ok;
+    }
+
+    return res.status(200).json({
+      ok: true,
+      company_id: company ? company.id : null,
+      company_created: companyCreated,
+      matched_on: found.matchedOn,
+      employee_created: employeeCreated,
+      event_logged: eventLogged,
+    });
+  } catch (err) {
+    return res.status(200).json({ ok: false, error: String((err && err.message) || err) });
+  }
+};

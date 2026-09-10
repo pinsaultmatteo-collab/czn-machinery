@@ -478,7 +478,7 @@ function getFbp(){return getCookie('_fbp');}
       var fp = document.getElementById('fbp-field'); if (fp) fp.value = getFbp();
       var _leadEmail=(document.getElementById('email')||{}).value||'';
       var _leadPhone=(document.getElementById('phone')||{}).value||'';
-      var _leadName=(document.getElementById('name')||{}).value||'';
+      var _leadName=(document.getElementById('name')||{}).value||'';var _leadCompany=(document.getElementById('company')||{}).value||'';var _leadTopic=(document.getElementById('topic')||{}).value||'';var _leadMessage=(document.getElementById('message')||{}).value||'';var _leadHp=(document.getElementById('site-url-hp')||{}).value||'';
 
       fetch(form.action, {
         method: 'POST',
@@ -491,7 +491,7 @@ function getFbp(){return getCookie('_fbp');}
           if(typeof gtag==='function'){gtag('event','generate_lead',{form_name:'contact',value:1,currency:'EUR'});}
           var eid='lead.'+Date.now()+'.'+Math.random().toString(36).slice(2);
           if(typeof fbq==='function'){fbq('track','Lead',{value:1,currency:'EUR'},{eventID:eid});}
-          try{fetch('/api/lead-capi/',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({event_id:eid,event_source_url:location.href,fbc:getFbc(),fbp:getFbp(),fbclid:getStoredFbclid(),email:_leadEmail,phone:_leadPhone,name:_leadName})}).catch(function(){});}catch(e){}
+          try{fetch('/api/lead-capi/',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({event_id:eid,event_source_url:location.href,fbc:getFbc(),fbp:getFbp(),fbclid:getStoredFbclid(),email:_leadEmail,phone:_leadPhone,name:_leadName})}).catch(function(){});}catch(e){}try{fetch('/api/axonaut-lead/',{method:'POST',keepalive:true,headers:{'Content-Type':'application/json'},body:JSON.stringify({name:_leadName,company:_leadCompany,email:_leadEmail,phone:_leadPhone,topic:_leadTopic,message:_leadMessage,_gotcha:_leadHp,lang:document.documentElement.lang,page:location.href,gclid:getStoredGclid(),fbclid:getStoredFbclid()})}).catch(function(){});}catch(e){}
         } else {
           res.json().then(function(data){
             var detail = (data && data.errors)
