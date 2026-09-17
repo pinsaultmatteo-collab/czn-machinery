@@ -1,12 +1,12 @@
 # Miniexcavadora XC15P Xcavator — Miniexcavadora desde 10 699 € sin IVA
 
-> La miniexcavadora Xcavator XC15P es la miniexcavadora de 1,25 toneladas pensada para las obras polivalentes. Su motor Laidong KM385B bicilíndrico Euro 5 ofrec
+> La miniexcavadora Xcavator XC15P es la miniexcavadora de 1,25 toneladas pensada para las obras polivalentes. Su motor Laidong KM385B de 3 cilindros Euro 5 ofr
 
 Xcavator · Miniexcavadora
 
 # Miniexcavadora XC15P
 
-Miniexcavadora de 1,25 t bicilíndrica — la polivalencia en obra.
+Miniexcavadora de 1,25 t de 3 cilindros — la polivalencia en obra.
 
 En stock
 10 699 € sin IVA
@@ -14,7 +14,7 @@ En stock
 1.250 kg
 Peso en vacío
 
-Bicilíndrico
+3 cilindros
 Laidong KM385B Euro 5
 
 1.160 mm
@@ -28,13 +28,13 @@ Swing boom de serie
 
 ✓ Garantía 2 años ✓ Envíos en Francia ✓ Importador directo
 
-La miniexcavadora Xcavator XC15P es la miniexcavadora de 1,25 toneladas pensada para las obras polivalentes. Su motor Laidong KM385B bicilíndrico Euro 5 ofrece un plus de par y de suavidad, mientras que sus orugas 230 × 72 × 44 y su anchura de 1.160 mm aseguran estabilidad y paso por la mayoría de los accesos. Pluma orientable (swing boom) de serie, mando hidráulico con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.
+La miniexcavadora Xcavator XC15P es la miniexcavadora de 1,25 toneladas pensada para las obras polivalentes. Su motor Laidong KM385B de 3 cilindros Euro 5 ofrece un plus de par y de suavidad, mientras que sus orugas 230 × 72 × 44 y su anchura de 1.160 mm aseguran estabilidad y paso por la mayoría de los accesos. Pluma orientable (swing boom) de serie, mando hidráulico con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.
 
-## Motor bicilíndrico, más par
-El motor Laidong KM385B bicilíndrico Euro 5 aporta más par y suavidad que las motorizaciones monocilíndricas de la clase inferior. Resultado: movimientos más fluidos, un mejor comportamiento en carga y un confort de trabajo superior en las largas jornadas de obra.
+## Motor de 3 cilindros, más par
+El motor Laidong KM385B de 3 cilindros Euro 5 aporta más par y suavidad que las motorizaciones monocilíndricas de la clase inferior. Resultado: movimientos más fluidos, un mejor comportamiento en carga y un confort de trabajo superior en las largas jornadas de obra.
 
 #### Laidong KM385B
-Bicilíndrico Euro 5: par generoso y funcionamiento más suave que un monocilíndrico.
+3 cilindros Euro 5: par generoso y funcionamiento más suave que un monocilíndrico.
 
 #### Orugas 230 × 72 × 44
 Anchura de zapata generosa para una buena estabilidad y una baja presión sobre el suelo.
@@ -84,7 +84,7 @@ Enganche rápido semiautomático, cazos de 20 cm con dientes y de 120 cm de limp
 
 ### Motorización y mando
 
-**Motor** : Laidong KM385B – bicilíndrico
+**Motor** : Laidong KM385B – 3 cilindros
 
 **Norma anticontaminación** : Euro 5
 

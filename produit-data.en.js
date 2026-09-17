@@ -1030,19 +1030,19 @@ module.exports = {
 
   // ───────────────────────── XCAVATOR XC15P (1.25 t) ─────────────────────────
   "XMPXC15P": {
-    tagline: `1.25 t twin-cylinder mini excavator — jobsite versatility.`,
-    intro: `The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B twin-cylinder Euro 5 engine delivers extra torque and smoothness, while its 230 × 72 × 44 tracks and 1,160 mm width provide stability and access. Standard swing boom, hydraulic pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
+    tagline: `1.25 t 3-cylinder mini excavator — jobsite versatility.`,
+    intro: `The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B 3-cylinder Euro 5 engine delivers extra torque and smoothness, while its 230 × 72 × 44 tracks and 1,160 mm width provide stability and access. Standard swing boom, hydraulic pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
     stats: [
       { value: "1,250 kg", label: "Operating weight" },
-      { value: "Twin-cylinder", label: "Laidong KM385B Euro 5" },
+      { value: "3-cylinder", label: "Laidong KM385B Euro 5" },
       { value: "1,160 mm", label: "Machine width" },
       { value: "Swing boom", label: "Standard" },
     ],
     sections: [
-      { title: "Twin-cylinder engine, more torque",
-        body: `The Laidong KM385B twin-cylinder Euro 5 engine delivers more torque and smoothness than the single-cylinder units of the class below. The result: smoother movements, better performance under load and greater comfort over long working days.`,
+      { title: "3-cylinder engine, more torque",
+        body: `The Laidong KM385B 3-cylinder Euro 5 engine delivers more torque and smoothness than the single-cylinder units of the class below. The result: smoother movements, better performance under load and greater comfort over long working days.`,
         features: [
-          { title: "Laidong KM385B", text: "Twin-cylinder Euro 5: generous torque and smoother running than a single-cylinder." },
+          { title: "Laidong KM385B", text: "3-cylinder Euro 5: generous torque and smoother running than a single-cylinder." },
           { title: "230 × 72 × 44 tracks", text: "Generous shoe width for good stability and low ground pressure." },
           { title: "Pilot joystick control", text: "Precise hydraulic control of boom, dipper and bucket." },
         ] },
@@ -1071,7 +1071,7 @@ module.exports = {
         { label: "Indicative lead time", value: "≈ 30 days" },
       ]},
       { group: "Powertrain & controls", rows: [
-        { label: "Engine", value: "Laidong KM385B – twin-cylinder" },
+        { label: "Engine", value: "Laidong KM385B – 3-cylinder" },
         { label: "Emission standard", value: "Euro 5" },
         { label: "Control", value: "Hydraulic (pilot joystick)" },
         { label: "Boom", value: "Swing boom" },

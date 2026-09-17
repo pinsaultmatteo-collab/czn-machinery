@@ -1030,19 +1030,19 @@ module.exports = {
 
   // ───────────────────────── XCAVATOR XC15P (1,25 t) ─────────────────────────
   "XMPXC15P": {
-    tagline: `Mini-pelle 1,25 t bi-cylindre — la polyvalence chantier.`,
-    intro: `La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B bi-cylindre Euro 5 offre un surcroît de couple et de souplesse, tandis que ses chenilles 230 × 72 × 44 et sa largeur de 1 160 mm assurent stabilité et passage dans la plupart des accès. Bras déporté (swing boom) de série, commande hydraulique au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
+    tagline: `Mini-pelle 1,25 t 3 cylindres — la polyvalence chantier.`,
+    intro: `La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B 3 cylindres Euro 5 offre un surcroît de couple et de souplesse, tandis que ses chenilles 230 × 72 × 44 et sa largeur de 1 160 mm assurent stabilité et passage dans la plupart des accès. Bras déporté (swing boom) de série, commande hydraulique au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
     stats: [
       { value: "1 250 kg", label: "Poids à vide" },
-      { value: "Bi-cylindre", label: "Laidong KM385B Euro 5" },
+      { value: "3 cylindres", label: "Laidong KM385B Euro 5" },
       { value: "1 160 mm", label: "Largeur machine" },
       { value: "Bras déporté", label: "Swing boom de série" },
     ],
     sections: [
-      { title: "Moteur bi-cylindre, plus de couple",
-        body: `Le moteur Laidong KM385B bi-cylindre Euro 5 apporte davantage de couple et de douceur que les motorisations mono-cylindre de la classe inférieure. Résultat : des mouvements plus fluides, une meilleure tenue en charge et un confort de travail supérieur sur les longues journées de chantier.`,
+      { title: "Moteur 3 cylindres, plus de couple",
+        body: `Le moteur Laidong KM385B 3 cylindres Euro 5 apporte davantage de couple et de douceur que les motorisations mono-cylindre de la classe inférieure. Résultat : des mouvements plus fluides, une meilleure tenue en charge et un confort de travail supérieur sur les longues journées de chantier.`,
         features: [
-          { title: "Laidong KM385B", text: "Bi-cylindre Euro 5 : couple généreux et fonctionnement plus souple qu'un mono-cylindre." },
+          { title: "Laidong KM385B", text: "3 cylindres Euro 5 : couple généreux et fonctionnement plus souple qu'un mono-cylindre." },
           { title: "Chenilles 230 × 72 × 44", text: "Largeur de semelle généreuse pour une bonne stabilité et une faible pression au sol." },
           { title: "Commande joystick pilot", text: "Pilotage hydraulique précis du bras, du balancier et du godet." },
         ] },
@@ -1071,7 +1071,7 @@ module.exports = {
         { label: "Délai indicatif", value: "≈ 30 jours" },
       ]},
       { group: "Motorisation & commande", rows: [
-        { label: "Moteur", value: "Laidong KM385B – bi-cylindre" },
+        { label: "Moteur", value: "Laidong KM385B – 3 cylindres" },
         { label: "Norme antipollution", value: "Euro 5" },
         { label: "Commande", value: "Hydraulique (joystick pilot)" },
         { label: "Bras", value: "Déporté (swing boom)" },

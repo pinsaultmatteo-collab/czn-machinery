@@ -8404,13 +8404,13 @@ Demandez votre devis personnalisé — réponse rapide, conseil sans engagement.
 
 # Mini-pelle XC15P Xcavator — Mini-pelle dès 10 699 € HT
 
-> La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B bi-cylindre Euro 5 offre un surcroî
+> La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B 3 cylindres Euro 5 offre un surcroî
 
 Xcavator · Mini-pelle
 
 # Mini-pelle XC15P
 
-Mini-pelle 1,25 t bi-cylindre — la polyvalence chantier.
+Mini-pelle 1,25 t 3 cylindres — la polyvalence chantier.
 
 En stock
 10 699 € HT
@@ -8423,7 +8423,7 @@ Simuler mon financement
 1 250 kg
 Poids à vide
 
-Bi-cylindre
+3 cylindres
 Laidong KM385B Euro 5
 
 1 160 mm
@@ -8437,13 +8437,13 @@ Swing boom de série
 
 ✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
 
-La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B bi-cylindre Euro 5 offre un surcroît de couple et de souplesse, tandis que ses chenilles 230 × 72 × 44 et sa largeur de 1 160 mm assurent stabilité et passage dans la plupart des accès. Bras déporté (swing boom) de série, commande hydraulique au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.
+La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B 3 cylindres Euro 5 offre un surcroît de couple et de souplesse, tandis que ses chenilles 230 × 72 × 44 et sa largeur de 1 160 mm assurent stabilité et passage dans la plupart des accès. Bras déporté (swing boom) de série, commande hydraulique au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.
 
-## Moteur bi-cylindre, plus de couple
-Le moteur Laidong KM385B bi-cylindre Euro 5 apporte davantage de couple et de douceur que les motorisations mono-cylindre de la classe inférieure. Résultat : des mouvements plus fluides, une meilleure tenue en charge et un confort de travail supérieur sur les longues journées de chantier.
+## Moteur 3 cylindres, plus de couple
+Le moteur Laidong KM385B 3 cylindres Euro 5 apporte davantage de couple et de douceur que les motorisations mono-cylindre de la classe inférieure. Résultat : des mouvements plus fluides, une meilleure tenue en charge et un confort de travail supérieur sur les longues journées de chantier.
 
 #### Laidong KM385B
-Bi-cylindre Euro 5 : couple généreux et fonctionnement plus souple qu'un mono-cylindre.
+3 cylindres Euro 5 : couple généreux et fonctionnement plus souple qu'un mono-cylindre.
 
 #### Chenilles 230 × 72 × 44
 Largeur de semelle généreuse pour une bonne stabilité et une faible pression au sol.
@@ -8493,7 +8493,7 @@ Attache rapide semi-automatique, godets 20 cm à dents et 120 cm de curage dispo
 
 ### Motorisation & commande
 
-**Moteur** : Laidong KM385B – bi-cylindre
+**Moteur** : Laidong KM385B – 3 cylindres
 
 **Norme antipollution** : Euro 5
 

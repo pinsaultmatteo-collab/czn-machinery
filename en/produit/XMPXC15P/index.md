@@ -1,12 +1,12 @@
 # Mini excavator XC15P Xcavator — Mini excavator from 10 699 € excl. VAT
 
-> The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B twin-cylinder Euro 5 engine delivers extra torque and smo
+> The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B 3-cylinder Euro 5 engine delivers extra torque and smooth
 
 Xcavator · Mini excavator
 
 # Mini excavator XC15P
 
-1.25 t twin-cylinder mini excavator — jobsite versatility.
+1.25 t 3-cylinder mini excavator — jobsite versatility.
 
 In stock
 10 699 € excl. VAT
@@ -14,7 +14,7 @@ In stock
 1,250 kg
 Operating weight
 
-Twin-cylinder
+3-cylinder
 Laidong KM385B Euro 5
 
 1,160 mm
@@ -28,13 +28,13 @@ Standard
 
 ✓ 2-year warranty ✓ Delivery across France ✓ Direct importer
 
-The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B twin-cylinder Euro 5 engine delivers extra torque and smoothness, while its 230 × 72 × 44 tracks and 1,160 mm width provide stability and access. Standard swing boom, hydraulic pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.
+The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B 3-cylinder Euro 5 engine delivers extra torque and smoothness, while its 230 × 72 × 44 tracks and 1,160 mm width provide stability and access. Standard swing boom, hydraulic pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.
 
-## Twin-cylinder engine, more torque
-The Laidong KM385B twin-cylinder Euro 5 engine delivers more torque and smoothness than the single-cylinder units of the class below. The result: smoother movements, better performance under load and greater comfort over long working days.
+## 3-cylinder engine, more torque
+The Laidong KM385B 3-cylinder Euro 5 engine delivers more torque and smoothness than the single-cylinder units of the class below. The result: smoother movements, better performance under load and greater comfort over long working days.
 
 #### Laidong KM385B
-Twin-cylinder Euro 5: generous torque and smoother running than a single-cylinder.
+3-cylinder Euro 5: generous torque and smoother running than a single-cylinder.
 
 #### 230 × 72 × 44 tracks
 Generous shoe width for good stability and low ground pressure.
@@ -84,7 +84,7 @@ Semi-automatic quick hitch, 20 cm toothed and 120 cm grading buckets available a
 
 ### Powertrain & controls
 
-**Engine** : Laidong KM385B – twin-cylinder
+**Engine** : Laidong KM385B – 3-cylinder
 
 **Emission standard** : Euro 5
 
