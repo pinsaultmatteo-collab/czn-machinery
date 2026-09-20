@@ -1303,6 +1303,7 @@ module.exports = {
         { label: "Pièces détachées", value: "Disponibles 10 ans" },
       ]},
     ],
+    cover: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-rotor.webp",
     images: [
       { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-3-4-avant.webp", alt: "Broyeur forestier radiocommandé Sonca — vue 3/4 avant, tête de broyage et moteur KOOP" },
       { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-face.webp", alt: "Broyeur forestier radiocommandé Sonca — vue de face, tête de broyage et moteur KOOP" },

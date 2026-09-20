@@ -1303,6 +1303,7 @@ module.exports = {
         { label: "Spare parts", value: "Available for 10 years" },
       ]},
     ],
+    cover: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-rotor.webp",
     images: [
       { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-3-4-avant.webp", alt: "Sonca radio-controlled forestry mulcher — front three-quarter view, mulching head and KOOP engine" },
       { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-face.webp", alt: "Sonca radio-controlled forestry mulcher — front view, mulching head and KOOP engine" },

@@ -299,7 +299,10 @@ function cardHTML(p, L) {
   const tag = inStockOf(p) ? `<span class="product-tag stock">${L.ui.inStock}</span>` : `<span class="product-tag">${L.ui.onOrder}</span>`;
   const d = L.DATA[p.reference] || {};
   const imgs = (d.images || []).map((im) => (typeof im === "string" ? { src: im } : im));
-  const photo = imgs[0] ? imgs[0].src : p.image;
+  /* `cover` : image de couverture pour les listings (accueil, page catégorie).
+     Facultative — sans elle on retombe sur la 1re photo de la galerie.
+     Permet de mettre en avant un visuel different du 1er de la fiche produit. */
+  const photo = d.cover || (imgs[0] ? imgs[0].src : p.image);
   const name = cleanName(p.name, p.brand, L);
   const img = photo
     ? '<img class="product-photo" src="' + esc(photo) + '" alt="' + esc(name) + '" loading="lazy">'

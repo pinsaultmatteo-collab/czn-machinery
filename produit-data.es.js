@@ -1303,6 +1303,7 @@ module.exports = {
         { label: "Piezas de repuesto", value: "Disponibles durante 10 años" },
       ]},
     ],
+    cover: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-rotor.webp",
     images: [
       { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-3-4-avant.webp", alt: "Trituradora forestal radiocontrolada Sonca — vista 3/4 delantera, cabezal de trituración y motor KOOP" },
       { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-face.webp", alt: "Trituradora forestal radiocontrolada Sonca — vista frontal, cabezal de trituración y motor KOOP" },
