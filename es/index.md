@@ -295,6 +295,7 @@ Muy vendida
 Sonca
 
 ### Miniexcavadora SJW-12 P
+Amarillo
 
 1 015 kg
 

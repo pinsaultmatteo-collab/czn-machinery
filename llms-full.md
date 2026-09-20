@@ -297,6 +297,7 @@ Top vente
 Sonca
 
 ### Mini-pelle SJW-12 P
+Jaune
 
 1 015 kg
 
@@ -5637,6 +5638,8 @@ Sonca
 
 ### Mini-pelle SJW-12 P
 
+Jaune
+
 À partir de
 7 050 €
 HT · hors livraison
@@ -7437,6 +7440,18 @@ Profondeur d'excavation
 ✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
 
 La SONCA SJW-12 P est la version aboutie de la gamme compacte 1,2 tonne : flèche orientable, finitions soignées et joysticks hydrauliques intégrés aux accoudoirs du siège pour une ergonomie et une précision optimales. Son rayon de pivotement de 1 490 mm et sa largeur d'un mètre permettent de naviguer dans les espaces les plus restreints. Destinée aux particuliers exigeants et aux chantiers résidentiels soignés, elle conjugue performance technique et esthétique. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
+
+Grey Edition
+
+## La SJW-12 P en série grise
+
+Même machine, même moteur Yanmar et mêmes performances que la version jaune : seule la teinte change. Carrosserie grise et toit noir, produite en série limitée et disponible en stock à Toulouse.
+
+7 490 € HT au lieu de 7 050 € HT en version jaune
+[Demander un devis Grey Edition](/contact/?topic=devis&msg=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20la%20mini-pelle%20SJW-12%20P%20en%20Grey%20Edition%20%287%20490%20%E2%82%AC%20HT%29.%20Merci%20de%20me%20recontacter.)
+Deux SJW-12 P grises au déchargement du container Bras et attache rapide de la série grise Sanglage des machines avant sortie du container
+
+Photos prises à l'arrivée du container, à notre entrepôt de Toulouse. Les vues détaillées de la série grise sont accessibles via le sélecteur de couleur en haut de page.
 
 ## Flèche orientable et finitions soignées
 La SJW-12 P se distingue par sa flèche orientable et ses finitions de qualité. Le système d'orientation renforcé offre maniabilité et précision dans tous les espaces exigus, tandis que le cache moteur esthétique protège l'ensemble des composants.

@@ -5585,3 +5585,4 @@ body.drawer-locked { overflow: hidden; }
 .cs-dots--card .cs-dot{width:17px;height:17px;}
 .pdp-colors{display:flex;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap;}
 .pdp-colors-label{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;}
+.cs-label{font-family:var(--f-mono);font-size:10.5px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted,#6b6660);margin-left:3px;white-space:nowrap;}

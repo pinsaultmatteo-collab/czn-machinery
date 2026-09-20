@@ -294,6 +294,7 @@ Top seller
 Sonca
 
 ### SJW-12 P mini excavator
+Yellow
 
 1 015 kg
 

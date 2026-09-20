@@ -314,7 +314,11 @@ function colorDots(d, cls) {
   const dots = d.colors.map((c, i) =>
     `<button type="button" class="cs-dot${i === 0 ? " is-on" : ""}" data-color="${esc(c.key)}"` +
     ` style="--cs:${esc(c.hex)}" title="${esc(c.label)}" aria-label="${esc(c.label)}"></button>`).join("");
-  return `<div class="${cls}">${dots}</div>`;
+  // Sur les cartes, les pastilles seules ne disent pas ce qu'elles sont :
+  // on affiche le libellé de la couleur active à côté.
+  const label = cls.indexOf("--card") > -1
+    ? `<span class="cs-label">${esc(d.colors[0].label)}</span>` : "";
+  return `<div class="${cls}">${dots}${label}</div>`;
 }
 function cardHTML(p, L) {
   const tag = inStockOf(p) ? `<span class="product-tag stock">${L.ui.inStock}</span>` : `<span class="product-tag">${L.ui.onOrder}</span>`;

@@ -40,6 +40,8 @@ Sonca
 
 ### Mini-pelle SJW-12 P
 
+Jaune
+
 À partir de
 7 050 €
 HT · hors livraison

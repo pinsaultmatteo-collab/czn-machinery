@@ -40,6 +40,8 @@ Sonca
 
 ### Mini excavator SJW-12 P
 
+Yellow
+
 From
 7 050 €
 excl. VAT · delivery not included

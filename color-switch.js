@@ -36,6 +36,7 @@
     var dots = [].slice.call(card.querySelectorAll('.cs-dot'));
     var img = card.querySelector('.product-photo');
     var val = card.querySelector('.price-val');
+    var lab = card.querySelector('.cs-label');
     if (!dots.length || !img) return;
 
     dots.forEach(function (dot) {
@@ -54,6 +55,7 @@
         if (val && c.priceHT) {
           val.innerHTML = euro(c.priceHT) + '<span class="currency">€</span>';
         }
+        if (lab && c.label) lab.textContent = c.label;
         mark(dots, c.key);
       });
     });

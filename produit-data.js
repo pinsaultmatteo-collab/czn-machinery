@@ -199,6 +199,21 @@ module.exports = {
         { label: "Réservoir carburant", value: "5,5 L" },
       ]},
     ],
+    edition: {
+      badge: "Grey Edition",
+      title: "La SJW-12 P en série grise",
+      body: `Même machine, même moteur Yanmar et mêmes performances que la version jaune : seule la teinte change. Carrosserie grise et toit noir, produite en série limitée et disponible en stock à Toulouse.`,
+      priceHT: 7490,
+      priceNote: "au lieu de 7 050 € HT en version jaune",
+      ctaLabel: "Demander un devis Grey Edition",
+      ctaHref: "/contact/?topic=devis&msg=Bonjour%2C%20je%20souhaite%20un%20devis%20pour%20la%20mini-pelle%20SJW-12%20P%20en%20Grey%20Edition%20%287%20490%20%E2%82%AC%20HT%29.%20Merci%20de%20me%20recontacter.",
+      images: [
+        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-1.webp", alt: "Mini-pelle Sonca SJW-12 P Grey Edition — Deux SJW-12 P grises au déchargement du container", caption: "Deux SJW-12 P grises au déchargement du container" },
+        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-2.webp", alt: "Mini-pelle Sonca SJW-12 P Grey Edition — Bras et attache rapide de la série grise", caption: "Bras et attache rapide de la série grise" },
+        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-3.webp", alt: "Mini-pelle Sonca SJW-12 P Grey Edition — Sanglage des machines avant sortie du container", caption: "Sanglage des machines avant sortie du container" },
+      ],
+      note: "Photos prises à l'arrivée du container, à notre entrepôt de Toulouse. Les vues détaillées de la série grise sont accessibles via le sélecteur de couleur en haut de page.",
+    },
     colors: [
       { key: "jaune", label: "Jaune", hex: "#E9A319", priceHT: 7050, images: [
         { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp", alt: "Mini-pelle Sonca SJW-12 P à flèche orientable, vue avant droit" },

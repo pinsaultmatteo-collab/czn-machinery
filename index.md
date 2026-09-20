@@ -295,6 +295,7 @@ Top vente
 Sonca
 
 ### Mini-pelle SJW-12 P
+Jaune
 
 1 015 kg
 

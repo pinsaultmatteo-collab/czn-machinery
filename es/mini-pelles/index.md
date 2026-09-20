@@ -40,6 +40,8 @@ Sonca
 
 ### Miniexcavadora SJW-12 P
 
+Amarillo
+
 Desde
 7 050 €
 sin IVA · envío no incluido
