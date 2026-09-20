@@ -11,6 +11,7 @@ La 1,2 t con pluma orientable, acabados de gama alta.
 En stock
 7 050 € sin IVA
 es decir 8 460 € con IVA
+Amarillo
 
 1.015 kg
 Peso operativo
@@ -30,18 +31,6 @@ Profundidad de excavación
 ✓ Garantía 2 años ✓ Envíos en Francia ✓ Importador directo
 
 La SONCA SJW-12 P es la versión más completa de la gama compacta de 1,2 toneladas: pluma orientable, acabados cuidados y joysticks hidráulicos integrados en los reposabrazos del asiento para una ergonomía y una precisión óptimas. Su radio de giro de 1.490 mm y su anchura de un metro permiten desenvolverse en los espacios más reducidos. Destinada a los particulares exigentes y a las obras residenciales cuidadas, combina rendimiento técnico y estética. Importada directamente por CZN Machinery, garantía de 2 años, entrega en Francia.
-
-Grey Edition
-
-## La SJW-12 P en serie gris
-
-La misma máquina, el mismo motor Yanmar y las mismas prestaciones que la versión amarilla: solo cambia el color. Carrocería gris y techo negro, producida en serie limitada y disponible en stock en Toulouse.
-
-7 490 € sin IVA en lugar de 7.050 € sin IVA en la versión amarilla
-[Solicitar presupuesto Grey Edition](/es/contact/?topic=devis&msg=Hola%2C%20quisiera%20un%20presupuesto%20para%20la%20miniexcavadora%20SJW-12%20P%20en%20Grey%20Edition%20%287.490%20%E2%82%AC%20sin%20IVA%29.%20Gracias%20por%20contactarme.)
-Dos SJW-12 P grises durante la descarga del contenedor Brazo y enganche rápido de la serie gris Amarre de las máquinas antes de la descarga
-
-Fotos tomadas a la llegada del contenedor, con las máquinas aún embaladas. Las imágenes de estudio de la serie gris se publicarán próximamente.
 
 ## Pluma orientable y acabados cuidados
 La SJW-12 P se distingue por su pluma orientable y sus acabados de calidad. El sistema de orientación reforzado ofrece maniobrabilidad y precisión en todos los espacios reducidos, mientras que el capó estético del motor protege el conjunto de los componentes.

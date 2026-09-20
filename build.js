@@ -295,6 +295,27 @@ function hreflangLinks(frUrl, enUrl, esUrl) {
 }
 
 /* ── catalogue (cartes + JSON-LD entre marqueurs) ── */
+/* ── Sélecteur de couleur ──
+   Un produit peut declarer `colors: [{key,label,hex,priceHT,images}]`.
+   Les donnees sont serialisees dans un attribut data-colors, et color-switch.js
+   s'en sert pour changer photos et prix sans rechargement. Sans `colors`
+   (ou avec une seule), rien n'est emis : les autres fiches sont intactes. */
+function hasColors(d) { return Array.isArray(d.colors) && d.colors.length > 1; }
+function colorsAttr(d) {
+  if (!hasColors(d)) return "";
+  const payload = d.colors.map((c) => ({
+    key: c.key, label: c.label, hex: c.hex, priceHT: c.priceHT,
+    images: (c.images || []).map((i) => ({ src: i.src, alt: i.alt || "" })),
+  }));
+  return " data-colors='" + esc(JSON.stringify(payload)) + "'";
+}
+function colorDots(d, cls) {
+  if (!hasColors(d)) return "";
+  const dots = d.colors.map((c, i) =>
+    `<button type="button" class="cs-dot${i === 0 ? " is-on" : ""}" data-color="${esc(c.key)}"` +
+    ` style="--cs:${esc(c.hex)}" title="${esc(c.label)}" aria-label="${esc(c.label)}"></button>`).join("");
+  return `<div class="${cls}">${dots}</div>`;
+}
 function cardHTML(p, L) {
   const tag = inStockOf(p) ? `<span class="product-tag stock">${L.ui.inStock}</span>` : `<span class="product-tag">${L.ui.onOrder}</span>`;
   const d = L.DATA[p.reference] || {};
@@ -310,11 +331,12 @@ function cardHTML(p, L) {
   const price = (p.priceHT && p.priceHT > 0)
     ? '<span class="price-label">' + L.ui.from + '</span>\n              <span class="price-val">' + euro(p.priceHT) + '<span class="currency">€</span></span>\n              <span class="price-suffix">' + L.ui.priceSuffix + "</span>"
     : '<span class="price-label">' + L.ui.priceWord + '</span>\n              <span class="price-val" style="font-size:22px;">' + L.ui.onQuote + "</span>";
-  return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '" style="position:relative;">',
+  return ['      <article class="product-card" data-brand="' + esc(p.brand || "") + '"' + colorsAttr(d) + ' style="position:relative;">',
     '        <a class="card-link" href="' + slugUrl(p.reference, L) + '" aria-label="' + esc(L.ui.cardAria + name) + '" style="position:absolute;inset:0;z-index:2;"></a>',
     '        <div class="product-img" style="aspect-ratio:1/1;">' + tag + img + "</div>",
     '        <div class="product-info"><div class="product-brand">' + esc(p.brand || "CZN") + "</div>",
     '          <h3 class="product-name">' + esc(name) + "</h3>",
+    colorDots(d, "cs-dots cs-dots--card"),
     '          <div class="product-footer"><div class="product-price">', "              " + price, "            </div>",
     '            <span class="product-cta" aria-hidden="true"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></span>',
     "          </div></div>", "      </article>"].join("\n");
@@ -675,7 +697,7 @@ function productPageHTML(p, L) {
   const intro = d.intro || d.description || L.ui.introDefault(name, label, p.brand);
   const stockBadge = inStockOf(p) ? `<span class="pdp-stock in">${L.ui.inStock}</span>` : `<span class="pdp-stock pre">${L.ui.onOrder}</span>`;
   const priceHTML = (p.priceHT && p.priceHT > 0)
-    ? `<div class="pdp-price"><span class="pdp-price-val" id="pdpPrice">${euro(p.priceHT)} €</span><span class="pdp-price-ht">${L.ui.ht}</span></div>${p.priceTTC ? `<div class="pdp-price-ttc">${L.ui.ttcWord(euro(p.priceTTC))}</div>` : ""}`
+    ? `<div class="pdp-price"><span class="pdp-price-val" id="pdpPrice">${euro(p.priceHT)} €</span><span class="pdp-price-ht">${L.ui.ht}</span></div>${p.priceTTC ? `<div class="pdp-price-ttc" id="pdpPriceTtc">${L.ui.ttcWord(euro(p.priceTTC))}</div>` : ""}${hasColors(d) ? `<div class="pdp-colors"${colorsAttr(d)}><span class="pdp-colors-label" id="pdpColorLabel">${esc(d.colors[0].label)}</span>${colorDots(d, "cs-dots cs-dots--pdp")}</div>` : ""}`
     : `<div class="pdp-price"><span class="pdp-price-val" style="font-size:32px;">${L.ui.onQuote}</span></div>`;
   /* Option configurable (ex. roue de secours + support) — prix = somme des composants Axonaut */
   const optRefs = (d.option && Array.isArray(d.option.refs)) ? d.option.refs : [];
@@ -881,6 +903,7 @@ ${optionScript}
 </script>
   <script src="/rdv-modal.js" defer></script>
   <script src="/chatbot.js" defer></script>
+  <script src="/color-switch.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
 </body>
 </html>`;
@@ -983,6 +1006,7 @@ ${categoryEndBlocks(L, page.slug)}
 ${footer(L)}
   <script src="/rdv-modal.js" defer></script>
   <script src="/chatbot.js" defer></script>
+  <script src="/color-switch.js" defer></script>
   <script src="/mobile-nav.js" defer></script>
 </body>
 </html>`;

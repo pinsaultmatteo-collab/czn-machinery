@@ -199,21 +199,18 @@ module.exports = {
         { label: "Depósito de combustible", value: "5,5 L" },
       ]},
     ],
-    edition: {
-      badge: "Grey Edition",
-      title: "La SJW-12 P en serie gris",
-      body: `La misma máquina, el mismo motor Yanmar y las mismas prestaciones que la versión amarilla: solo cambia el color. Carrocería gris y techo negro, producida en serie limitada y disponible en stock en Toulouse.`,
-      priceHT: 7490,
-      priceNote: "en lugar de 7.050 € sin IVA en la versión amarilla",
-      ctaLabel: "Solicitar presupuesto Grey Edition",
-      ctaHref: "/es/contact/?topic=devis&msg=Hola%2C%20quisiera%20un%20presupuesto%20para%20la%20miniexcavadora%20SJW-12%20P%20en%20Grey%20Edition%20%287.490%20%E2%82%AC%20sin%20IVA%29.%20Gracias%20por%20contactarme.",
-      images: [
-        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-1.webp", alt: "Miniexcavadora Sonca SJW-12 P Grey Edition — Dos SJW-12 P grises durante la descarga del contenedor", caption: "Dos SJW-12 P grises durante la descarga del contenedor" },
-        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-2.webp", alt: "Miniexcavadora Sonca SJW-12 P Grey Edition — Brazo y enganche rápido de la serie gris", caption: "Brazo y enganche rápido de la serie gris" },
-        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-3.webp", alt: "Miniexcavadora Sonca SJW-12 P Grey Edition — Amarre de las máquinas antes de la descarga", caption: "Amarre de las máquinas antes de la descarga" },
-      ],
-      note: "Fotos tomadas a la llegada del contenedor, con las máquinas aún embaladas. Las imágenes de estudio de la serie gris se publicarán próximamente.",
-    },
+    colors: [
+      { key: "jaune", label: "Amarillo", hex: "#E9A319", priceHT: 7050, images: [
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp", alt: "Miniexcavadora Sonca SJW-12 P con pluma orientable, vista delantera derecha" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp", alt: "SJW-12 P trasera izquierda, sistema hidráulico" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp", alt: "SJW-12 P, capó del motor y acabados" },
+      ]},
+      { key: "grey",  label: "Grey Edition", hex: "#C9CDD2", priceHT: 7490, images: [
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-avant-droit.webp", alt: "Miniexcavadora Sonca SJW-12 P Grey Edition con pluma orientable, vista delantera derecha" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-arriere-gauche.webp", alt: "SJW-12 P Grey Edition, trasera izquierda y sistema hidráulico" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-moteur.webp", alt: "SJW-12 P Grey Edition, compartimento del motor" },
+      ]},
+    ],
     images: [
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Miniexcavadora Sonca SJW-12 P con pluma orientable, vista delantera derecha" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P trasera izquierda, sistema hidráulico" },

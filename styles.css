@@ -5571,3 +5571,17 @@ body.drawer-locked { overflow: hidden; }
 /* Dans le bloc Showroom (valeur "Téléphone") : couleur héritée au repos, orange au survol */
 .loc-value .phone-cta{ color:inherit; font-weight:inherit; }
 .loc-value .phone-cta:hover, .loc-value .phone-cta:focus-visible{ color:var(--orange); }
+
+/* ── Sélecteur de couleur (cartes d'aperçu + fiche produit) ──
+   Doit vivre ici et non dans le <style> de la fiche produit : les cartes
+   apparaissent aussi sur les pages catégorie et sur l'accueil. */
+.cs-dots{display:flex;gap:7px;align-items:center;}
+.cs-dots--card{position:relative;z-index:3;margin:8px 0 0;}
+.cs-dots--pdp{margin:0;}
+.cs-dot{width:21px;height:21px;border-radius:50%;padding:0;cursor:pointer;background:var(--cs,#ccc);
+  border:2px solid #fff;box-shadow:0 0 0 1px rgba(33,42,53,.22);transition:box-shadow .18s,transform .18s;}
+.cs-dot:hover{transform:scale(1.12);}
+.cs-dot.is-on{box-shadow:0 0 0 2px var(--orange,#F2811C);}
+.cs-dots--card .cs-dot{width:17px;height:17px;}
+.pdp-colors{display:flex;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap;}
+.pdp-colors-label{font-family:var(--f-mono);font-size:12px;letter-spacing:.06em;color:var(--muted);text-transform:uppercase;}

@@ -199,21 +199,18 @@ module.exports = {
         { label: "Fuel tank", value: "5.5 L" },
       ]},
     ],
-    edition: {
-      badge: "Grey Edition",
-      title: "The SJW-12 P in grey",
-      body: `Same machine, same Yanmar engine and same performance as the yellow version — only the colour changes. Grey bodywork and black canopy, produced as a limited run and in stock in Toulouse.`,
-      priceHT: 7490,
-      priceNote: "instead of €7,050 excl. VAT for the yellow version",
-      ctaLabel: "Request a Grey Edition quote",
-      ctaHref: "/en/contact/?topic=devis&msg=Hello%2C%20I%20would%20like%20a%20quote%20for%20the%20SJW-12%20P%20mini%20excavator%20in%20Grey%20Edition%20%28%E2%82%AC7%2C490%20excl.%20VAT%29.%20Please%20get%20back%20to%20me.",
-      images: [
-        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-1.webp", alt: "Sonca SJW-12 P Grey Edition mini excavator — Two grey SJW-12 P units being unloaded from the container", caption: "Two grey SJW-12 P units being unloaded from the container" },
-        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-2.webp", alt: "Sonca SJW-12 P Grey Edition mini excavator — Boom and quick hitch of the grey series", caption: "Boom and quick hitch of the grey series" },
-        { src: "/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-3.webp", alt: "Sonca SJW-12 P Grey Edition mini excavator — Strapping the machines before unloading", caption: "Strapping the machines before unloading" },
-      ],
-      note: "Photos taken as the container arrived, machines still wrapped. Studio shots of the grey series will be published shortly.",
-    },
+    colors: [
+      { key: "jaune", label: "Yellow", hex: "#E9A319", priceHT: 7050, images: [
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp", alt: "Sonca SJW-12 P mini excavator with offset boom, front right view" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp", alt: "SJW-12 P left rear view, hydraulic system" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp", alt: "SJW-12 P engine cover and finish" },
+      ]},
+      { key: "grey",  label: "Grey Edition", hex: "#C9CDD2", priceHT: 7490, images: [
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-avant-droit.webp", alt: "Sonca SJW-12 P Grey Edition mini excavator with offset boom, front right view" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-arriere-gauche.webp", alt: "SJW-12 P Grey Edition, left rear view and hydraulic system" },
+        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-moteur.webp", alt: "SJW-12 P Grey Edition, engine bay" },
+      ]},
+    ],
     images: [
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Sonca SJW-12 P mini excavator with offset boom, front right view" },
       { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P left rear view, hydraulic system" },
