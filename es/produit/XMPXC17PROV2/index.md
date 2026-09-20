@@ -28,7 +28,7 @@ Hidráulica avanzada
 
 ✓ Garantía 2 años ✓ Envíos en Francia ✓ Importador directo
 
-La miniexcavadora Xcavator XC17 PRO V2 es la versión PRO de 1,45 toneladas, dotada de un tren de rodaje de vía variable (90 a 120 cm) y de una traslación de 2 velocidades. La vía se retrae para pasar por los accesos estrechos y luego se ensancha para una estabilidad máxima en el trabajo. Hidráulica avanzada (3.er circuito / hydraulic advance) para accionar los accesorios, motor Laidong KM385B bicilíndrico Euro 5, mando con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.
+La miniexcavadora Xcavator XC17 PRO V2 es la versión PRO de 1,45 toneladas, dotada de un tren de rodaje de vía variable (90 a 120 cm) y de una traslación de 2 velocidades. La vía se retrae para pasar por los accesos estrechos y luego se ensancha para una estabilidad máxima en el trabajo. Hidráulica avanzada (3.er circuito / hydraulic advance) para accionar los accesorios, motor Laidong KM385B de 3 cilindros Euro 5, mando con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.
 
 ## Vía variable: estrecha para pasar, ancha para trabajar
 El tren de rodaje de vía variable se retrae a 90 cm para franquear los portones y los accesos más estrechos, y luego se ensancha hasta 120 cm para ofrecer una estabilidad máxima durante el movimiento de tierras. Una ventaja decisiva en las obras de entorno reducido donde el acceso y la estabilidad parecen incompatibles.
@@ -86,7 +86,7 @@ Enganche rápido semiautomático, cazos de 20 cm con dientes y de 120 cm de limp
 
 ### Motorización y mando
 
-**Motor** : Laidong KM385B – bicilíndrico
+**Motor** : Laidong KM385B – 3 cilindros
 
 **Norma anticontaminación** : Euro 5
 

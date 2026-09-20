@@ -29,7 +29,7 @@ En una miniexcavadora, el motor diésel es el corazón de la máquina: es el que
 
 ### El motor Laidong
 
-Laidong es un fabricante de motores chino especializado en motores diésel compactos (mono y bicilíndricos) para el sector agrícola y la maquinaria de obra ligera. En las miniexcavadoras CZN de 1,25 a 2 toneladas, encontramos el Laidong KM385B bicilíndrico, norma Euro 5 : aporta más par y suavidad que un monocilíndrico de la clase inferior, para movimientos más fluidos y un mejor comportamiento en carga durante las jornadas largas.
+Laidong es un fabricante de motores chino especializado en motores diésel compactos (mono y bicilíndricos) para el sector agrícola y la maquinaria de obra ligera. En las miniexcavadoras CZN de 1,25 a 2 toneladas, encontramos el Laidong KM385B de 3 cilindros, norma Euro 5 : aporta más par y suavidad que un monocilíndrico de la clase inferior, para movimientos más fluidos y un mejor comportamiento en carga durante las jornadas largas.
 
 ### El motor Kubota
 

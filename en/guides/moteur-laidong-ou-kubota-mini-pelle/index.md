@@ -29,7 +29,7 @@ On a mini excavator, the diesel engine is the heart of the machine: it drives th
 
 ### The Laidong engine
 
-Laidong is a Chinese engine maker specialising in compact diesel engines (single and twin-cylinder) for agriculture and light construction machinery. On CZN mini excavators from 1.25 to 2 tonnes you'll find the Laidong KM385B twin-cylinder, Euro 5 standard : it delivers more torque and smoothness than a single-cylinder from the class below, for more fluid movements and better performance under load on long days.
+Laidong is a Chinese engine maker specialising in compact diesel engines (single and twin-cylinder) for agriculture and light construction machinery. On CZN mini excavators from 1.25 to 2 tonnes you'll find the Laidong KM385B 3-cylinder, Euro 5 standard : it delivers more torque and smoothness than a single-cylinder from the class below, for more fluid movements and better performance under load on long days.
 
 ### The Kubota engine
 

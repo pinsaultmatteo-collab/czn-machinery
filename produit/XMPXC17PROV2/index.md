@@ -33,7 +33,7 @@ Hydraulique avancée
 
 ✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
 
-La mini-pelle Xcavator XC17 PRO V2 est la version PRO de 1,45 tonne, dotée d'un train de roulement à voie variable (90 à 120 cm) et d'une translation à 2 vitesses. La voie se rétracte pour passer les accès étroits, puis s'élargit pour une stabilité maximale au travail. Hydraulique avancée (3ᵉ circuit / hydraulic advance) pour piloter les accessoires, moteur Laidong KM385B bi-cylindre Euro 5, commande au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.
+La mini-pelle Xcavator XC17 PRO V2 est la version PRO de 1,45 tonne, dotée d'un train de roulement à voie variable (90 à 120 cm) et d'une translation à 2 vitesses. La voie se rétracte pour passer les accès étroits, puis s'élargit pour une stabilité maximale au travail. Hydraulique avancée (3ᵉ circuit / hydraulic advance) pour piloter les accessoires, moteur Laidong KM385B 3 cylindres Euro 5, commande au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.
 
 ## Voie variable : étroite pour passer, large pour travailler
 Le train de roulement à voie variable se rétracte à 90 cm pour franchir les portails et les accès les plus serrés, puis s'élargit jusqu'à 120 cm pour offrir une stabilité maximale lors du terrassement. Un avantage décisif sur les chantiers en milieu contraint où l'accès et la stabilité semblent incompatibles.
@@ -91,7 +91,7 @@ Attache rapide semi-automatique, godets 20 cm à dents et 120 cm de curage en su
 
 ### Motorisation & commande
 
-**Moteur** : Laidong KM385B – bi-cylindre
+**Moteur** : Laidong KM385B – 3 cylindres
 
 **Norme antipollution** : Euro 5
 

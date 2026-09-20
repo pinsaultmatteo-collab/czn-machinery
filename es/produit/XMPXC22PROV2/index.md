@@ -28,7 +28,7 @@ Traslación
 
 ✓ Garantía 2 años ✓ Envíos en Francia ✓ Importador directo
 
-La miniexcavadora Xcavator XC22 PRO V2 es la miniexcavadora de 2 toneladas más robusta de la gama. Su sistema hidráulico de tres bombas ofrece potencia y fluidez para encadenar los movimientos simultáneos, mientras que la traslación de 2 velocidades y la vía variable (110 a 140 cm) la convierten en una máquina tan cómoda en los accesos estrechos como en las grandes obras de movimiento de tierras. Motor Laidong KM385B bicilíndrico Euro 5, pluma orientable (swing boom), mando con joystick hidráulico y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.
+La miniexcavadora Xcavator XC22 PRO V2 es la miniexcavadora de 2 toneladas más robusta de la gama. Su sistema hidráulico de tres bombas ofrece potencia y fluidez para encadenar los movimientos simultáneos, mientras que la traslación de 2 velocidades y la vía variable (110 a 140 cm) la convierten en una máquina tan cómoda en los accesos estrechos como en las grandes obras de movimiento de tierras. Motor Laidong KM385B de 3 cilindros Euro 5, pluma orientable (swing boom), mando con joystick hidráulico y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.
 
 ## Hidráulica de 3 bombas, potencia y fluidez
 El sistema hidráulico de tres bombas alimenta simultáneamente la pluma, el giro y la traslación sin pérdida de caudal. Los movimientos combinados permanecen fluidos y potentes, incluso en carga: una ventaja importante para la productividad en las obras de movimiento de tierras más exigentes.
@@ -82,7 +82,7 @@ Enganche rápido hidráulico, cazos de 20 cm con dientes y de 120 cm de limpieza
 
 ### Motorización y mando
 
-**Motor** : Laidong KM385B – bicilíndrico
+**Motor** : Laidong KM385B – 3 cilindros
 
 **Norma anticontaminación** : Euro 5
 

@@ -28,7 +28,7 @@ Travel
 
 ✓ 2-year warranty ✓ Delivery across France ✓ Direct importer
 
-The Xcavator XC22 PRO V2 is the toughest 2-tonne mini excavator in the range. Its three-pump hydraulic system delivers power and smoothness for combined movements, while 2-speed travel and a variable track (110 to 140 cm) make it as comfortable in tight access as on large earthworks sites. Laidong KM385B twin-cylinder Euro 5 engine, swing boom, hydraulic joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.
+The Xcavator XC22 PRO V2 is the toughest 2-tonne mini excavator in the range. Its three-pump hydraulic system delivers power and smoothness for combined movements, while 2-speed travel and a variable track (110 to 140 cm) make it as comfortable in tight access as on large earthworks sites. Laidong KM385B 3-cylinder Euro 5 engine, swing boom, hydraulic joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.
 
 ## 3-pump hydraulics, power and smoothness
 The three-pump hydraulic system simultaneously feeds the boom, slew and travel with no loss of flow. Combined movements stay smooth and powerful, even under load: a major asset for productivity on the most demanding earthworks sites.
@@ -82,7 +82,7 @@ Hydraulic quick hitch, 20 cm toothed and 120 cm grading buckets available at ext
 
 ### Powertrain & controls
 
-**Engine** : Laidong KM385B – twin-cylinder
+**Engine** : Laidong KM385B – 3-cylinder
 
 **Emission standard** : Euro 5
 

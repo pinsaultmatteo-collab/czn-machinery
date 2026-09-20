@@ -33,7 +33,7 @@ Translation
 
 ✓ Garantie 2 ans ✓ Livraison France ✓ Importateur direct
 
-La mini-pelle Xcavator XC22 PRO V2 est la mini-pelle 2 tonnes la plus robuste de la gamme. Son système hydraulique à trois pompes délivre puissance et fluidité pour enchaîner les mouvements simultanés, tandis que la translation à 2 vitesses et la voie variable (110 à 140 cm) en font une machine aussi à l'aise dans les accès serrés que sur les gros chantiers de terrassement. Moteur Laidong KM385B bi-cylindre Euro 5, bras déporté (swing boom), commande au joystick hydraulique et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.
+La mini-pelle Xcavator XC22 PRO V2 est la mini-pelle 2 tonnes la plus robuste de la gamme. Son système hydraulique à trois pompes délivre puissance et fluidité pour enchaîner les mouvements simultanés, tandis que la translation à 2 vitesses et la voie variable (110 à 140 cm) en font une machine aussi à l'aise dans les accès serrés que sur les gros chantiers de terrassement. Moteur Laidong KM385B 3 cylindres Euro 5, bras déporté (swing boom), commande au joystick hydraulique et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.
 
 ## Hydraulique 3 pompes, puissance et fluidité
 Le système hydraulique à trois pompes alimente simultanément le bras, la rotation et la translation sans perte de débit. Les mouvements combinés restent fluides et puissants, même en charge : un atout majeur pour la productivité sur les chantiers de terrassement les plus exigeants.
@@ -87,7 +87,7 @@ Attache rapide hydraulique, godets 20 cm à dents et 120 cm de curage disponible
 
 ### Motorisation & commande
 
-**Moteur** : Laidong KM385B – bi-cylindre
+**Moteur** : Laidong KM385B – 3 cylindres
 
 **Norme antipollution** : Euro 5
 

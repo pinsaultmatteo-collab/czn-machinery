@@ -29,7 +29,7 @@ Sur une mini-pelle, le moteur diesel est le cœur de la machine : c'est lui qui 
 
 ### Le moteur Laidong
 
-Laidong est un motoriste chinois spécialisé dans les moteurs diesel compacts (mono et bi-cylindre) pour l'agricole et les engins de chantier légers. Sur les mini-pelles CZN de 1,25 à 2 tonnes, on retrouve le Laidong KM385B bi-cylindre, norme Euro 5 : il apporte davantage de couple et de souplesse qu'un mono-cylindre de la classe inférieure, pour des mouvements plus fluides et une meilleure tenue en charge sur les longues journées.
+Laidong est un motoriste chinois spécialisé dans les moteurs diesel compacts (mono et bi-cylindre) pour l'agricole et les engins de chantier légers. Sur les mini-pelles CZN de 1,25 à 2 tonnes, on retrouve le Laidong KM385B 3 cylindres, norme Euro 5 : il apporte davantage de couple et de souplesse qu'un mono-cylindre de la classe inférieure, pour des mouvements plus fluides et une meilleure tenue en charge sur les longues journées.
 
 ### Le moteur Kubota
 

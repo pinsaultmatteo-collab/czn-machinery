@@ -1097,7 +1097,7 @@ module.exports = {
   // ───────────────────────── XCAVATOR XC17 PRO V2 (1,45 t) ─────────────────────────
   "XMPXC17PROV2": {
     tagline: `Mini-pelle 1,45 t PRO — voie variable et 2 vitesses de translation.`,
-    intro: `La mini-pelle Xcavator XC17 PRO V2 est la version PRO de 1,45 tonne, dotée d'un train de roulement à voie variable (90 à 120 cm) et d'une translation à 2 vitesses. La voie se rétracte pour passer les accès étroits, puis s'élargit pour une stabilité maximale au travail. Hydraulique avancée (3ᵉ circuit / hydraulic advance) pour piloter les accessoires, moteur Laidong KM385B bi-cylindre Euro 5, commande au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
+    intro: `La mini-pelle Xcavator XC17 PRO V2 est la version PRO de 1,45 tonne, dotée d'un train de roulement à voie variable (90 à 120 cm) et d'une translation à 2 vitesses. La voie se rétracte pour passer les accès étroits, puis s'élargit pour une stabilité maximale au travail. Hydraulique avancée (3ᵉ circuit / hydraulic advance) pour piloter les accessoires, moteur Laidong KM385B 3 cylindres Euro 5, commande au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
     stats: [
       { value: "1 450 kg", label: "Poids à vide" },
       { value: "90–120 cm", label: "Voie variable" },
@@ -1138,7 +1138,7 @@ module.exports = {
         { label: "Délai indicatif", value: "≈ 30 jours" },
       ]},
       { group: "Motorisation & commande", rows: [
-        { label: "Moteur", value: "Laidong KM385B – bi-cylindre" },
+        { label: "Moteur", value: "Laidong KM385B – 3 cylindres" },
         { label: "Norme antipollution", value: "Euro 5" },
         { label: "Commande", value: "Hydraulique (joystick pilot)" },
         { label: "Hydraulique", value: "Avancée — 3ᵉ circuit (hydraulic advance)" },
@@ -1164,7 +1164,7 @@ module.exports = {
   // ───────────────────────── XCAVATOR XC22 PRO V2 (2 t) ─────────────────────────
   "XMPXC22PROV2": {
     tagline: `Mini-pelle 2 t — la plus robuste de la gamme, hydraulique 3 pompes.`,
-    intro: `La mini-pelle Xcavator XC22 PRO V2 est la mini-pelle 2 tonnes la plus robuste de la gamme. Son système hydraulique à trois pompes délivre puissance et fluidité pour enchaîner les mouvements simultanés, tandis que la translation à 2 vitesses et la voie variable (110 à 140 cm) en font une machine aussi à l'aise dans les accès serrés que sur les gros chantiers de terrassement. Moteur Laidong KM385B bi-cylindre Euro 5, bras déporté (swing boom), commande au joystick hydraulique et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
+    intro: `La mini-pelle Xcavator XC22 PRO V2 est la mini-pelle 2 tonnes la plus robuste de la gamme. Son système hydraulique à trois pompes délivre puissance et fluidité pour enchaîner les mouvements simultanés, tandis que la translation à 2 vitesses et la voie variable (110 à 140 cm) en font une machine aussi à l'aise dans les accès serrés que sur les gros chantiers de terrassement. Moteur Laidong KM385B 3 cylindres Euro 5, bras déporté (swing boom), commande au joystick hydraulique et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.`,
     stats: [
       { value: "2 000 kg", label: "Poids à vide" },
       { value: "3 pompes", label: "Hydraulique" },
@@ -1203,7 +1203,7 @@ module.exports = {
         { label: "Délai indicatif", value: "≈ 30 jours" },
       ]},
       { group: "Motorisation & commande", rows: [
-        { label: "Moteur", value: "Laidong KM385B – bi-cylindre" },
+        { label: "Moteur", value: "Laidong KM385B – 3 cylindres" },
         { label: "Norme antipollution", value: "Euro 5" },
         { label: "Hydraulique", value: "Trois pompes" },
         { label: "Commande", value: "Joystick hydraulique" },

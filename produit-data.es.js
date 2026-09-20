@@ -1097,7 +1097,7 @@ module.exports = {
   // ───────────────────────── XCAVATOR XC17 PRO V2 (1,45 t) ─────────────────────────
   "XMPXC17PROV2": {
     tagline: `Miniexcavadora de 1,45 t PRO — vía variable y 2 velocidades de traslación.`,
-    intro: `La miniexcavadora Xcavator XC17 PRO V2 es la versión PRO de 1,45 toneladas, dotada de un tren de rodaje de vía variable (90 a 120 cm) y de una traslación de 2 velocidades. La vía se retrae para pasar por los accesos estrechos y luego se ensancha para una estabilidad máxima en el trabajo. Hidráulica avanzada (3.er circuito / hydraulic advance) para accionar los accesorios, motor Laidong KM385B bicilíndrico Euro 5, mando con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.`,
+    intro: `La miniexcavadora Xcavator XC17 PRO V2 es la versión PRO de 1,45 toneladas, dotada de un tren de rodaje de vía variable (90 a 120 cm) y de una traslación de 2 velocidades. La vía se retrae para pasar por los accesos estrechos y luego se ensancha para una estabilidad máxima en el trabajo. Hidráulica avanzada (3.er circuito / hydraulic advance) para accionar los accesorios, motor Laidong KM385B de 3 cilindros Euro 5, mando con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.`,
     stats: [
       { value: "1.450 kg", label: "Peso en vacío" },
       { value: "90–120 cm", label: "Vía variable" },
@@ -1138,7 +1138,7 @@ module.exports = {
         { label: "Plazo indicativo", value: "≈ 30 días" },
       ]},
       { group: "Motorización y mando", rows: [
-        { label: "Motor", value: "Laidong KM385B – bicilíndrico" },
+        { label: "Motor", value: "Laidong KM385B – 3 cilindros" },
         { label: "Norma anticontaminación", value: "Euro 5" },
         { label: "Mando", value: "Hidráulico (joystick piloto)" },
         { label: "Hidráulica", value: "Avanzada — 3.er circuito (hydraulic advance)" },
@@ -1164,7 +1164,7 @@ module.exports = {
   // ───────────────────────── XCAVATOR XC22 PRO V2 (2 t) ─────────────────────────
   "XMPXC22PROV2": {
     tagline: `Miniexcavadora de 2 t — la más robusta de la gama, hidráulica de 3 bombas.`,
-    intro: `La miniexcavadora Xcavator XC22 PRO V2 es la miniexcavadora de 2 toneladas más robusta de la gama. Su sistema hidráulico de tres bombas ofrece potencia y fluidez para encadenar los movimientos simultáneos, mientras que la traslación de 2 velocidades y la vía variable (110 a 140 cm) la convierten en una máquina tan cómoda en los accesos estrechos como en las grandes obras de movimiento de tierras. Motor Laidong KM385B bicilíndrico Euro 5, pluma orientable (swing boom), mando con joystick hidráulico y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.`,
+    intro: `La miniexcavadora Xcavator XC22 PRO V2 es la miniexcavadora de 2 toneladas más robusta de la gama. Su sistema hidráulico de tres bombas ofrece potencia y fluidez para encadenar los movimientos simultáneos, mientras que la traslación de 2 velocidades y la vía variable (110 a 140 cm) la convierten en una máquina tan cómoda en los accesos estrechos como en las grandes obras de movimiento de tierras. Motor Laidong KM385B de 3 cilindros Euro 5, pluma orientable (swing boom), mando con joystick hidráulico y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.`,
     stats: [
       { value: "2.000 kg", label: "Peso en vacío" },
       { value: "3 bombas", label: "Hidráulica" },
@@ -1203,7 +1203,7 @@ module.exports = {
         { label: "Plazo indicativo", value: "≈ 30 días" },
       ]},
       { group: "Motorización y mando", rows: [
-        { label: "Motor", value: "Laidong KM385B – bicilíndrico" },
+        { label: "Motor", value: "Laidong KM385B – 3 cilindros" },
         { label: "Norma anticontaminación", value: "Euro 5" },
         { label: "Hidráulica", value: "Tres bombas" },
         { label: "Mando", value: "Joystick hidráulico" },

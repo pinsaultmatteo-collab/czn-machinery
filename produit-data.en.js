@@ -1097,7 +1097,7 @@ module.exports = {
   // ───────────────────────── XCAVATOR XC17 PRO V2 (1.45 t) ─────────────────────────
   "XMPXC17PROV2": {
     tagline: `1.45 t PRO mini excavator — variable track width and 2-speed travel.`,
-    intro: `The Xcavator XC17 PRO V2 is the 1.45-tonne PRO version, with a variable-width undercarriage (90 to 120 cm) and 2-speed travel. The track retracts to clear tight access, then widens for maximum working stability. Advanced hydraulics (3rd circuit / hydraulic advance) to power attachments, Laidong KM385B twin-cylinder Euro 5 engine, pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
+    intro: `The Xcavator XC17 PRO V2 is the 1.45-tonne PRO version, with a variable-width undercarriage (90 to 120 cm) and 2-speed travel. The track retracts to clear tight access, then widens for maximum working stability. Advanced hydraulics (3rd circuit / hydraulic advance) to power attachments, Laidong KM385B 3-cylinder Euro 5 engine, pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
     stats: [
       { value: "1,450 kg", label: "Operating weight" },
       { value: "90–120 cm", label: "Variable track" },
@@ -1138,7 +1138,7 @@ module.exports = {
         { label: "Indicative lead time", value: "≈ 30 days" },
       ]},
       { group: "Powertrain & controls", rows: [
-        { label: "Engine", value: "Laidong KM385B – twin-cylinder" },
+        { label: "Engine", value: "Laidong KM385B – 3-cylinder" },
         { label: "Emission standard", value: "Euro 5" },
         { label: "Control", value: "Hydraulic (pilot joystick)" },
         { label: "Hydraulics", value: "Advanced — 3rd circuit (hydraulic advance)" },
@@ -1164,7 +1164,7 @@ module.exports = {
   // ───────────────────────── XCAVATOR XC22 PRO V2 (2 t) ─────────────────────────
   "XMPXC22PROV2": {
     tagline: `2 t mini excavator — the toughest in the range, 3-pump hydraulics.`,
-    intro: `The Xcavator XC22 PRO V2 is the toughest 2-tonne mini excavator in the range. Its three-pump hydraulic system delivers power and smoothness for combined movements, while 2-speed travel and a variable track (110 to 140 cm) make it as comfortable in tight access as on large earthworks sites. Laidong KM385B twin-cylinder Euro 5 engine, swing boom, hydraulic joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
+    intro: `The Xcavator XC22 PRO V2 is the toughest 2-tonne mini excavator in the range. Its three-pump hydraulic system delivers power and smoothness for combined movements, while 2-speed travel and a variable track (110 to 140 cm) make it as comfortable in tight access as on large earthworks sites. Laidong KM385B 3-cylinder Euro 5 engine, swing boom, hydraulic joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.`,
     stats: [
       { value: "2,000 kg", label: "Operating weight" },
       { value: "3 pumps", label: "Hydraulics" },
@@ -1203,7 +1203,7 @@ module.exports = {
         { label: "Indicative lead time", value: "≈ 30 days" },
       ]},
       { group: "Powertrain & controls", rows: [
-        { label: "Engine", value: "Laidong KM385B – twin-cylinder" },
+        { label: "Engine", value: "Laidong KM385B – 3-cylinder" },
         { label: "Emission standard", value: "Euro 5" },
         { label: "Hydraulics", value: "Three pumps" },
         { label: "Control", value: "Hydraulic joystick" },

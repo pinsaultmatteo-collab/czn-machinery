@@ -28,7 +28,7 @@ Advanced hydraulics
 
 ✓ 2-year warranty ✓ Delivery across France ✓ Direct importer
 
-The Xcavator XC17 PRO V2 is the 1.45-tonne PRO version, with a variable-width undercarriage (90 to 120 cm) and 2-speed travel. The track retracts to clear tight access, then widens for maximum working stability. Advanced hydraulics (3rd circuit / hydraulic advance) to power attachments, Laidong KM385B twin-cylinder Euro 5 engine, pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.
+The Xcavator XC17 PRO V2 is the 1.45-tonne PRO version, with a variable-width undercarriage (90 to 120 cm) and 2-speed travel. The track retracts to clear tight access, then widens for maximum working stability. Advanced hydraulics (3rd circuit / hydraulic advance) to power attachments, Laidong KM385B 3-cylinder Euro 5 engine, pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.
 
 ## Variable track: narrow to pass, wide to work
 The variable-width undercarriage retracts to 90 cm to clear gates and the tightest access, then widens to 120 cm for maximum stability when digging. A decisive advantage on constrained sites where access and stability seem incompatible.
@@ -86,7 +86,7 @@ Semi-automatic quick hitch, 20 cm toothed and 120 cm grading buckets at extra co
 
 ### Powertrain & controls
 
-**Engine** : Laidong KM385B – twin-cylinder
+**Engine** : Laidong KM385B – 3-cylinder
 
 **Emission standard** : Euro 5
 
