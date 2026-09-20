@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The Sonca forestry mulcher is a fully radio-controlled tracked machine, built to clear and mulch vegetation where people cannot — or should not — go: embankments, steep slopes, brush, undergrowth and solar farms. Operated remotely up to 600 m away, it keeps the operator clear of danger. Its 15 hp KOOP KD195F diesel engine with electric start drives a floating 1,000 mm cutting rotor fitted with flail-type blades. Imported directly by CZN Machinery: 24-month warranty and spare parts available for 10 years.</div></section>
+  
   <section class="pdp-block"><h2>Radio-controlled up to 600 m, safely</h2><p class="pdp-block-body">The long-range remote control (up to 600 m, included) lets you work well clear of flying debris and hazardous areas. The electric-start KOOP diesel engine and its built-in alternator automatically recharge the 24 V control battery while running — no manual charging between sessions.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Remote control included</h4><p>Long range up to 600 m, operator clear of danger.</p></div><div class="pdp-feat"><h4>KOOP KD195F engine</h4><p>Single-cylinder 15 hp diesel, electric start.</p></div><div class="pdp-feat"><h4>Automatic recharge</h4><p>Built-in alternator, 24 V control battery charged on the move.</p></div></div></section>
 <section class="pdp-block"><h2>Floating 1,000 mm cut with flail-type blades</h2><p class="pdp-block-body">The 1,000 mm rotor carries 20 sets of suspended Y-blades (40 pieces), effective on tall grass, brambles and young saplings. Cutting height is manually adjustable from 20 to 200 mm, and the floating mechanism follows the ground contour for an even cut without scalping the soil.</p><div class="pdp-feats"><div class="pdp-feat"><h4>1,000 mm cutting width</h4><p>Height adjustable from 20 to 200 mm (manual).</p></div><div class="pdp-feat"><h4>Flail-type blades</h4><p>Suspended Y-blades, 20 sets / 40 pieces.</p></div><div class="pdp-feat"><h4>Floating mechanism</h4><p>The cutting unit follows the terrain for an even finish.</p></div></div></section>
 <section class="pdp-block"><h2>All-terrain tracks, built for slopes</h2><p class="pdp-block-body">The 150 mm rubber tracks grip loose, wet or uneven ground. The machine works on slopes up to 30° (and travels up to 45°), for an output of around 0.5 ha/h — ideal for maintaining embankments, orchards, parks and solar farms.</p><div class="pdp-feats"><div class="pdp-feat"><h4>150 mm tracks</h4><p>Grip and stability on difficult ground.</p></div><div class="pdp-feat"><h4>Steep slopes</h4><p>Works up to 30°, travels up to 45°.</p></div><div class="pdp-feat"><h4>~0.5 ha/h output</h4><p>Travel speed 0 to 5 km/h.</p></div></div></section>

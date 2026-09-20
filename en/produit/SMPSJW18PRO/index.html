@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The SONCA SJW-18 PRO is a versatile 1.8-tonne mini excavator, built for more demanding earthworks while remaining easy to transport. Rugged and comfortable, it accepts a wide range of attachments. Imported directly by CZN Machinery, 2-year warranty, delivery across France.</div></section>
+  
   <section class="pdp-block"><h2>Reinforced design for intensive use</h2><p class="pdp-block-body">Reinforced 24 hp Laidong 385 engine and high-durability Shimadzu hydraulic pump: a 1.8-tonne excavator with reinforced components for the most demanding sites (construction, civil engineering, intensive earthworks).</p><div class="pdp-feats"><div class="pdp-feat"><h4>Laidong 385 engine</h4><p>24 hp three-cylinder, liquid-cooled, hardened components for continuous operation.</p></div><div class="pdp-feat"><h4>Shimadzu pump 25 L/min</h4><p>Oversized rams and high-resistance seals for maximum durability.</p></div><div class="pdp-feat"><h4>Digging capabilities</h4><p>Digging height of 2.9 m and depth of 2.2 m maintained even in intensive use.</p></div></div></section>
 <section class="pdp-block"><h2>Ultra-rugged structure</h2><p class="pdp-block-body">High-strength steel chassis, reinforced pivot points and a 1.1 m width that preserves manoeuvrability while offering increased stability.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Reinforced chassis</h4><p>High-strength steel, reinforced welds and additional protection.</p></div><div class="pdp-feat"><h4>Complete pro pack</h4><p>40 cm bucket, canopy, toolbox and maintenance kit included.</p></div><div class="pdp-feat"><h4>Tanks</h4><p>Fuel 10 L, hydraulic 16 L.</p></div></div></section>
 

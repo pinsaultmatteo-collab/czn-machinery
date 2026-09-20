@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,16 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La SONCA SJW-12 P es la versión más completa de la gama compacta de 1,2 toneladas: pluma orientable, acabados cuidados y joysticks hidráulicos integrados en los reposabrazos del asiento para una ergonomía y una precisión óptimas. Su radio de giro de 1.490 mm y su anchura de un metro permiten desenvolverse en los espacios más reducidos. Destinada a los particulares exigentes y a las obras residenciales cuidadas, combina rendimiento técnico y estética. Importada directamente por CZN Machinery, garantía de 2 años, entrega en Francia.</div></section>
+  <section class="pdp-section"><div class="pdp-edition">
+    <div class="pdp-ed-top">
+      <span class="pdp-ed-badge">Grey Edition</span>
+      <h2 class="pdp-ed-title">La SJW-12 P en serie gris</h2>
+    </div>
+    <p class="pdp-ed-body">La misma máquina, el mismo motor Yanmar y las mismas prestaciones que la versión amarilla: solo cambia el color. Carrocería gris y techo negro, producida en serie limitada y disponible en stock en Toulouse.</p>
+    <div class="pdp-ed-price"><strong>7&thinsp;490 €</strong> <span>sin IVA</span><em>en lugar de 7.050 € sin IVA en la versión amarilla</em></div><a class="pdp-ed-cta" href="/es/contact/?topic=devis&amp;msg=Hola%2C%20quisiera%20un%20presupuesto%20para%20la%20miniexcavadora%20SJW-12%20P%20en%20Grey%20Edition%20%287.490%20%E2%82%AC%20sin%20IVA%29.%20Gracias%20por%20contactarme.">Solicitar presupuesto Grey Edition</a>
+    <div class="pdp-ed-shots"><figure class="pdp-ed-shot"><img src="/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-1.webp" alt="Miniexcavadora Sonca SJW-12 P Grey Edition — Dos SJW-12 P grises durante la descarga del contenedor" loading="lazy" width="900" height="1200"><figcaption>Dos SJW-12 P grises durante la descarga del contenedor</figcaption></figure><figure class="pdp-ed-shot"><img src="/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-2.webp" alt="Miniexcavadora Sonca SJW-12 P Grey Edition — Brazo y enganche rápido de la serie gris" loading="lazy" width="900" height="1200"><figcaption>Brazo y enganche rápido de la serie gris</figcaption></figure><figure class="pdp-ed-shot"><img src="/images/SONCA/SJW-12-P/sjw-12-p-grey-arrivage-3.webp" alt="Miniexcavadora Sonca SJW-12 P Grey Edition — Amarre de las máquinas antes de la descarga" loading="lazy" width="900" height="1200"><figcaption>Amarre de las máquinas antes de la descarga</figcaption></figure></div>
+    <p class="pdp-ed-note">Fotos tomadas a la llegada del contenedor, con las máquinas aún embaladas. Las imágenes de estudio de la serie gris se publicarán próximamente.</p>
+  </div></section>
   <section class="pdp-block"><h2>Pluma orientable y acabados cuidados</h2><p class="pdp-block-body">La SJW-12 P se distingue por su pluma orientable y sus acabados de calidad. El sistema de orientación reforzado ofrece maniobrabilidad y precisión en todos los espacios reducidos, mientras que el capó estético del motor protege el conjunto de los componentes.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Pluma orientable reforzada</h4><p>Sistema de orientación duradero y preciso para trabajar en los espacios más reducidos.</p></div><div class="pdp-feat"><h4>Joysticks integrados</h4><p>Mandos hidráulicos integrados en los reposabrazos del asiento para una ergonomía óptima.</p></div><div class="pdp-feat"><h4>Motor KOOP optimizado</h4><p>Motor KOOP KD192F, equilibrio entre potencia, fiabilidad y facilidad de mantenimiento.</p></div></div></section>
 <section class="pdp-block"><h2>Compacta y precisa</h2><p class="pdp-block-body">Con un radio de giro mínimo de 1.490 mm y una anchura de solo 1 metro, la SJW-12 P se desplaza con gran precisión alrededor de los obstáculos. Ideal para jardines, patios interiores y acondicionamientos residenciales cuidados.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Anchura de 1 metro</h4><p>Acceso facilitado a espacios reducidos y pasos estrechos.</p></div><div class="pdp-feat"><h4>Giro de 1.490 mm</h4><p>Navegación ultraprecisa alrededor de los obstáculos.</p></div><div class="pdp-feat"><h4>Pack completo</h4><p>Entregada con cazo de 40 cm, canopy, caja de herramientas y filtros.</p></div></div></section>
 <section class="pdp-block"><h2>Sistema hidráulico optimizado</h2><p class="pdp-block-body">El sistema hidráulico, reforzado para soportar la pluma orientable, conserva una gran precisión. La bomba Tianjin de 20 L y el cazo de movimiento de tierras de 40 cm aseguran movimientos fluidos y perfectamente controlados, incluso durante las maniobras de orientación.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Bomba Tianjin de 20 L</h4><p>Caudal generoso para movimientos fluidos y una buena productividad.</p></div><div class="pdp-feat"><h4>Cazo de 40 cm reforzado</h4><p>Incluido, dimensionado para los trabajos de movimiento de tierras habituales.</p></div><div class="pdp-feat"><h4>Opción de pulgar manipulador</h4><p>Dispositivo opcional en el balancín, para agarrar todo tipo de materiales.</p></div></div></section>

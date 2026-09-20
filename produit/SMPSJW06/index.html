@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -214,6 +231,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La mini pelleteuse SJW-06 est la micro pelle la plus compacte de la gamme SONCA avec seulement 700 mm de largeur et 660 kg. Elle se faufile partout : portails de jardin, passages étroits, cours intérieures. Équipée du moteur Longxin G300FD Euro 5 de 8,5 CV, elle offre une puissance suffisante pour les travaux de terrassement léger, l&#39;aménagement paysager et le creusement de tranchées.</div></section>
+  
   <section class="pdp-block"><h2>Compacte, légère et transportable facilement</h2><p class="pdp-block-body">La SJW-06 pèse seulement 660 kg, ce qui la rend transportable sur une simple remorque avec un véhicule de permis B. Son châssis compact et ses chenilles de 150 mm offrent stabilité et maniabilité sur tous types de sols. Le poste de conduite ouvert assure une visibilité totale à 360° (canopy disponible en option).</p><div class="pdp-feats"><div class="pdp-feat"><h4>Transportable permis B</h4><p>Avec 660 kg, elle se charge sur une remorque standard. Aucun permis spécial nécessaire pour le transport.</p></div><div class="pdp-feat"><h4>Poste de conduite ouvert</h4><p>Visibilité optimale à 360° et commandes ergonomiques accessibles, même dans les espaces réduits.</p></div><div class="pdp-feat"><h4>Chenilles tout terrain</h4><p>Chenilles caoutchouc de 150 mm pour une bonne adhérence sans abîmer pelouses et surfaces fragiles.</p></div></div></section>
 <section class="pdp-block"><h2>Système hydraulique performant et précis</h2><p class="pdp-block-body">Le système hydraulique utilise une pompe Gear 3+3 délivrant 21,6 L/min à 16 MPa. Ce débit généreux pour cette classe de machine assure des mouvements fluides et précis du bras, du balancier et du godet. Le réservoir hydraulique de 11,4 L garantit une autonomie de travail confortable.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Pompe Gear 3+3</h4><p>Pompe à engrenages double flux assurant un débit de 21,6 L/min pour des mouvements simultanés fluides.</p></div><div class="pdp-feat"><h4>Pression 16 MPa</h4><p>Force d&#39;excavation de 3,5 kN au balancier, suffisante pour creuser dans la plupart des sols courants.</p></div><div class="pdp-feat"><h4>Entretien simplifié</h4><p>Accès facile aux points de maintenance, intervalles d&#39;entretien espacés pour réduire les coûts.</p></div></div></section>
 <section class="pdp-block"><h2>Pour particuliers comme professionnels</h2><p class="pdp-block-body">Choix idéal pour les particuliers réalisant eux-mêmes leurs travaux (jardin, terrasse, piscine hors-sol, tranchées) comme pour les paysagistes et artisans intervenant dans des espaces restreints. Sa facilité de transport et sa simplicité d&#39;utilisation en font une micro pelle accessible à tous.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Idéale aménagement paysager</h4><p>Massifs, tranchées d&#39;arrosage, fondations de murets, plantation d&#39;arbres : elle simplifie les travaux pénibles à la main.</p></div><div class="pdp-feat"><h4>Prix imbattable + garantie 2 ans</h4><p>Dès 4 125 € HT, garantie pièces 24 mois et SAV basé en France avec stock de pièces détachées.</p></div><div class="pdp-feat"><h4>Accessoires dédiés</h4><p>Attache rapide, godet de curage, dent ripper, pouce de manutention, râteau : adaptez la machine à vos besoins.</p></div></div></section>

@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -214,6 +231,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">Le SONCA SJ-460 T est la version chenillée du mini-chargeur compact : meilleure motricité et stabilité sur sols meubles ou difficiles, pour la manutention et le chargement sur tous terrains. Importé en direct par CZN Machinery, garantie 2 ans, livraison France.</div></section>
+  
   <section class="pdp-block"><h2>Chenilles tout-terrain et moteur KOOP 23 CV</h2><p class="pdp-block-body">Version chenillée du chargeur compact : chenilles de 720 mm (18×72) pour une adhérence exceptionnelle sur sols meubles, boueux ou accidentés, avec une pente franchissable de 30 %.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Moteur KOOP bicylindre</h4><p>23 CV, 639 cc, 3600 tr/min, Euro 5.</p></div><div class="pdp-feat"><h4>Chenilles 720 mm</h4><p>Adhérence maximale, pente franchissable de 30 %.</p></div><div class="pdp-feat"><h4>Godet 0,12 m³</h4><p>Charge max 400 kg, hauteur de travail 2,45 m.</p></div></div></section>
 <section class="pdp-block"><h2>Compact et endurant</h2><p class="pdp-block-body">Format 2,2 × 1,1 × 1,28 m et composants robustes pour les espaces étroits et les chantiers exigeants, avec hydraulique de 17-21 Bar et force de levage de 4,5 kN.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Dimensions compactes</h4><p>2,2 m × 1,1 m × 1,28 m, garde au sol 150 mm.</p></div><div class="pdp-feat"><h4>Force de levage 4,5 kN</h4><p>Hauteur de déchargement 1,51 m.</p></div><div class="pdp-feat"><h4>Robustesse</h4><p>Composants renforcés pour une longévité accrue.</p></div></div></section>
 

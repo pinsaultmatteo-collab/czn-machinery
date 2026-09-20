@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">El SONCA SJ-460 T es la versión de orugas de la minicargadora compacta: mejor motricidad y estabilidad en suelos blandos o difíciles, para la manipulación y la carga en todo tipo de terrenos. Importada directamente por CZN Machinery, garantía de 2 años, entrega en Francia.</div></section>
+  
   <section class="pdp-block"><h2>Orugas todoterreno y motor KOOP de 23 CV</h2><p class="pdp-block-body">Versión de orugas de la cargadora compacta: orugas de 720 mm (18×72) para una adherencia excepcional en suelos blandos, embarrados o accidentados, con una pendiente franqueable del 30 %.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Motor KOOP bicilíndrico</h4><p>23 CV, 639 cc, 3600 rpm, Euro 5.</p></div><div class="pdp-feat"><h4>Orugas de 720 mm</h4><p>Adherencia máxima, pendiente franqueable del 30 %.</p></div><div class="pdp-feat"><h4>Cazo de 0,12 m³</h4><p>Carga máx. de 400 kg, altura de trabajo de 2,45 m.</p></div></div></section>
 <section class="pdp-block"><h2>Compacta y resistente</h2><p class="pdp-block-body">Formato de 2,2 × 1,1 × 1,28 m y componentes robustos para los espacios estrechos y las obras exigentes, con hidráulica de 17-21 Bar y fuerza de elevación de 4,5 kN.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Dimensiones compactas</h4><p>2,2 m × 1,1 m × 1,28 m, altura libre al suelo de 150 mm.</p></div><div class="pdp-feat"><h4>Fuerza de elevación de 4,5 kN</h4><p>Altura de descarga de 1,51 m.</p></div><div class="pdp-feat"><h4>Robustez</h4><p>Componentes reforzados para una mayor longevidad.</p></div></div></section>
 

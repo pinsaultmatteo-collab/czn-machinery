@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The SONCA SJW-12 F is the versatile 1.2-tonne mini excavator with an offset boom as standard. This feature reaches angles impossible with a fixed boom and lets you work in hard-to-access areas without repositioning the machine. With its one-metre width and reduced tail swing radius, it moves easily through tight spaces — the ideal tool for earthworks and residential landscaping. Air-cooled 10 hp KOOP KD192F engine. Imported directly by CZN Machinery, 2-year warranty, delivery across France.</div></section>
+  
   <section class="pdp-block"><h2>Offset boom as standard</h2><p class="pdp-block-body">The offset boom reaches angles inaccessible with a fixed boom and considerably increases the working area without moving the machine. The engine cover protects the hydraulic hoses for greater longevity and simpler maintenance.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Exceptional manoeuvrability</h4><p>Work efficiently in any hard-to-access area, without repositioning the machine.</p></div><div class="pdp-feat"><h4>Protective engine cover</h4><p>Effectively shields the hydraulic hoses from the elements for greater durability.</p></div><div class="pdp-feat"><h4>10 hp KOOP engine</h4><p>Air-cooled KOOP KD192F engine, balancing power, reliability and ease of maintenance.</p></div></div></section>
 <section class="pdp-block"><h2>Compact and manoeuvrable</h2><p class="pdp-block-body">With a width of just 1 metre and a minimum tail swing radius of 1,490 mm at the front, the SJW-12 F navigates easily around obstacles in the tightest spaces, while maximising productivity on residential sites.</p><div class="pdp-feats"><div class="pdp-feat"><h4>1-metre width</h4><p>Passes through narrow accesses and standard garden gates.</p></div><div class="pdp-feat"><h4>1,490 mm tail swing</h4><p>Precise navigation around obstacles, ideal in residential settings.</p></div><div class="pdp-feat"><h4>40 cm bucket included</h4><p>Delivered ready to use for everyday earthworks.</p></div></div></section>
 

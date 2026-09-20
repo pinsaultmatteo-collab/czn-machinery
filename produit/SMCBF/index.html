@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -214,6 +231,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">Le broyeur forestier Sonca est une machine chenillée entièrement radiocommandée, conçue pour débroussailler et broyer la végétation là où l&#39;homme ne peut pas — ou ne devrait pas — intervenir : talus, fortes pentes, friches, sous-bois et fermes solaires. Piloté à distance jusqu&#39;à 600 m, il tient l&#39;opérateur à l&#39;écart du danger. Son moteur diesel KOOP KD195F de 15 CV à démarrage électrique entraîne un rotor de coupe flottant de 1 000 mm équipé de couteaux type fléaux. Importé en direct par CZN Machinery : garantie 24 mois et pièces détachées disponibles 10 ans.</div></section>
+  
   <section class="pdp-block"><h2>Radiocommandé jusqu&#39;à 600 m, en toute sécurité</h2><p class="pdp-block-body">La radiocommande longue portée (jusqu&#39;à 600 m, incluse) permet de travailler à distance des projections et des zones dangereuses. Le moteur diesel KOOP à démarrage électrique et l&#39;alternateur intégré rechargent automatiquement la batterie 24 V de commande en fonctionnement : pas de recharge manuelle entre deux sessions.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Radiocommande incluse</h4><p>Portée longue distance jusqu&#39;à 600 m, opérateur à l&#39;écart du danger.</p></div><div class="pdp-feat"><h4>Moteur KOOP KD195F</h4><p>Monocylindre diesel 15 CV, démarrage électrique.</p></div><div class="pdp-feat"><h4>Recharge automatique</h4><p>Alternateur intégré, batterie de commande 24 V rechargée en marche.</p></div></div></section>
 <section class="pdp-block"><h2>Coupe flottante 1 000 mm à couteaux type fléaux</h2><p class="pdp-block-body">Le rotor de 1 000 mm est équipé de 20 jeux de couteaux Y suspendus (40 pièces), efficaces sur l&#39;herbe haute, les ronces et les jeunes ligneux. La hauteur de coupe se règle manuellement de 20 à 200 mm, et le mécanisme flottant suit le relief du terrain pour une coupe régulière sans scalper le sol.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Largeur de coupe 1 000 mm</h4><p>Hauteur réglable de 20 à 200 mm (réglage manuel).</p></div><div class="pdp-feat"><h4>Couteaux type fléaux</h4><p>Couteaux Y suspendus, 20 jeux / 40 pièces.</p></div><div class="pdp-feat"><h4>Mécanisme flottant</h4><p>Le groupe de coupe suit le relief pour une coupe homogène.</p></div></div></section>
 <section class="pdp-block"><h2>Chenilles tous terrains, spécialiste des pentes</h2><p class="pdp-block-body">Les chenilles caoutchouc de 150 mm assurent l&#39;adhérence sur sol meuble, humide ou accidenté. La machine travaille jusqu&#39;à 30° de pente (et se déplace jusqu&#39;à 45°), pour un rendement d&#39;environ 0,5 ha/h — idéale pour l&#39;entretien des talus, vergers, parcs et fermes photovoltaïques.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Chenilles 150 mm</h4><p>Adhérence et stabilité sur terrains difficiles.</p></div><div class="pdp-feat"><h4>Pentes fortes</h4><p>Travail jusqu&#39;à 30°, déplacement jusqu&#39;à 45°.</p></div><div class="pdp-feat"><h4>Rendement ~0,5 ha/h</h4><p>Vitesse de déplacement 0 à 5 km/h.</p></div></div></section>

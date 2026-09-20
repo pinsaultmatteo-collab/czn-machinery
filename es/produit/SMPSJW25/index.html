@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La SONCA SJW-25 es la más potente de las miniexcavadoras Sonca con sus 2,5 toneladas: mayor profundidad de excavación y superior fuerza de arranque para afrontar las obras de movimiento de tierras más ambiciosas. Importada directamente por CZN Machinery, garantía de 2 años, entrega en Francia.</div></section>
+  
   <section class="pdp-block"><h2>Vías variables y motor Changchai de 29 CV</h2><p class="pdp-block-body">Sistema exclusivo de ajuste de la anchura de las orugas (1080-1520 mm) para pasar por accesos estrechos y luego estabilizarse en terreno difícil. Motor Changchai 390 de 29 CV refrigerado por líquido, fiable y sobrio.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Vías variables 1080-1520 mm</h4><p>Orugas estrechas para los pasos, anchas para la máxima estabilidad.</p></div><div class="pdp-feat"><h4>Motor Changchai 390</h4><p>29 CV (20 kW), 4 tiempos refrigerado por líquido, Euro 5.</p></div><div class="pdp-feat"><h4>Pluma orientable</h4><p>Alcanza las zonas de difícil acceso sin reposicionar la máquina.</p></div></div></section>
 <section class="pdp-block"><h2>Maniobrabilidad y motor de traslación protegido</h2><p class="pdp-block-body">Radio de giro trasero reducido a 756 mm y motor de traslación plano integrado en el chasis, protegido de los impactos para una mayor durabilidad en terrenos difíciles.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Radio trasero de 756 mm</h4><p>Maniobra en los espacios más reducidos.</p></div><div class="pdp-feat"><h4>Motor de traslación protegido</h4><p>Integrado en el chasis, a resguardo de los obstáculos.</p></div><div class="pdp-feat"><h4>Opción de pulgar manipulador</h4><p>Dispositivo de 225 mm para agarrar madera, hormigón, rocas.</p></div></div></section>
 

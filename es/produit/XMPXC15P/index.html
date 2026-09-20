@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La miniexcavadora Xcavator XC15P es la miniexcavadora de 1,25 toneladas pensada para las obras polivalentes. Su motor Laidong KM385B de 3 cilindros Euro 5 ofrece un plus de par y de suavidad, mientras que sus orugas 230 × 72 × 44 y su anchura de 1.160 mm aseguran estabilidad y paso por la mayoría de los accesos. Pluma orientable (swing boom) de serie, mando hidráulico con joystick (mando piloto) y techo de 4 montantes (ROPS). Importada directamente por CZN Machinery: garantía de 2 años, entrega en Francia.</div></section>
+  
   <section class="pdp-block"><h2>Motor de 3 cilindros, más par</h2><p class="pdp-block-body">El motor Laidong KM385B de 3 cilindros Euro 5 aporta más par y suavidad que las motorizaciones monocilíndricas de la clase inferior. Resultado: movimientos más fluidos, un mejor comportamiento en carga y un confort de trabajo superior en las largas jornadas de obra.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Laidong KM385B</h4><p>3 cilindros Euro 5: par generoso y funcionamiento más suave que un monocilíndrico.</p></div><div class="pdp-feat"><h4>Orugas 230 × 72 × 44</h4><p>Anchura de zapata generosa para una buena estabilidad y una baja presión sobre el suelo.</p></div><div class="pdp-feat"><h4>Mando joystick piloto</h4><p>Pilotaje hidráulico preciso de la pluma, el balancín y el cazo.</p></div></div></section>
 <section class="pdp-block"><h2>Compacta pero estable</h2><p class="pdp-block-body">Con 1.160 mm de anchura, la XC15P pasa por la mayoría de los accesos ofreciendo al mismo tiempo un asiento estable. La pluma orientable (swing boom) permite excavar en el límite de un muro o de una valla. El pulgar hidráulico (pinza de clasificación) se entrega de serie para la clasificación y la manipulación.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Anchura de 1.160 mm</h4><p>Compromiso ideal entre estabilidad en el trabajo y paso por los accesos de obra.</p></div><div class="pdp-feat"><h4>Swing boom de serie</h4><p>Excavación lo más cerca posible de los obstáculos sin reposicionar la máquina.</p></div><div class="pdp-feat"><h4>Pulgar hidráulico incluido</h4><p>Pinza de clasificación de serie para piedras, tocones y escombros.</p></div></div></section>
 <section class="pdp-block"><h2>Equipada y con garantía</h2><p class="pdp-block-body">Cilindro en la parte superior de la pluma, motor de traslación oculto, pack de escape y parada de emergencia, asiento con detector de presencia, retrovisor y alarma de marcha atrás: la XC15P se entrega lista para trabajar. Garantía del fabricante de 2 años, servicio posventa y piezas en Francia. Plazo indicativo de entrega: unos 30 días.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Lista para usar</h4><p>Equipamiento de seguridad y de confort de serie, cazo de 40 cm incluido.</p></div><div class="pdp-feat"><h4>Garantía de 2 años</h4><p>Garantía de 24 meses, piezas de repuesto y servicio posventa con sede en Francia.</p></div><div class="pdp-feat"><h4>Accesorios opcionales</h4><p>Enganche rápido semiautomático, cazos de 20 cm con dientes y de 120 cm de limpieza disponibles como complemento.</p></div></div></section>

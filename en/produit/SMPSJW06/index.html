@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The SJW-06 mini excavator is the most compact micro excavator in the SONCA range, at just 700 mm wide and 660 kg. It slips in everywhere: garden gates, narrow passages, inner courtyards. Powered by the 8.5 hp Longxin G300FD Euro 5 engine, it offers ample power for light earthworks, landscaping and trench digging.</div></section>
+  
   <section class="pdp-block"><h2>Compact, lightweight and easy to transport</h2><p class="pdp-block-body">The SJW-06 weighs just 660 kg, making it transportable on a simple trailer with a category B vehicle. Its compact chassis and 150 mm tracks deliver stability and manoeuvrability on all types of ground. The open operator station ensures full 360° visibility (canopy available as an option).</p><div class="pdp-feats"><div class="pdp-feat"><h4>Transportable on a category B licence</h4><p>At 660 kg, it loads onto a standard trailer. No special licence required for transport.</p></div><div class="pdp-feat"><h4>Open operator station</h4><p>Optimal 360° visibility and ergonomic, accessible controls, even in tight spaces.</p></div><div class="pdp-feat"><h4>All-terrain tracks</h4><p>150 mm rubber tracks for good grip without damaging lawns and delicate surfaces.</p></div></div></section>
 <section class="pdp-block"><h2>Powerful, precise hydraulic system</h2><p class="pdp-block-body">The hydraulic system uses a Gear 3+3 pump delivering 21.6 L/min at 16 MPa. This generous flow rate for this class of machine ensures smooth, precise movements of the boom, dipper arm and bucket. The 11.4 L hydraulic tank guarantees comfortable working autonomy.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Gear 3+3 pump</h4><p>Dual-flow gear pump delivering 21.6 L/min for smooth simultaneous movements.</p></div><div class="pdp-feat"><h4>16 MPa pressure</h4><p>Digging force of 3.5 kN at the dipper arm, enough to dig into most common ground.</p></div><div class="pdp-feat"><h4>Simplified servicing</h4><p>Easy access to maintenance points and extended service intervals to reduce costs.</p></div></div></section>
 <section class="pdp-block"><h2>For private individuals and professionals alike</h2><p class="pdp-block-body">An ideal choice both for private individuals carrying out their own projects (garden, terrace, above-ground pool, trenches) and for landscapers and tradespeople working in confined spaces. Its ease of transport and simplicity of use make it a micro excavator accessible to everyone.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Ideal for landscaping</h4><p>Flower beds, irrigation trenches, low-wall foundations, tree planting: it takes the strain out of back-breaking manual work.</p></div><div class="pdp-feat"><h4>Unbeatable price + 2-year warranty</h4><p>From €4,125 excl. VAT, with a 24-month parts warranty and after-sales service based in France with spare-parts stock.</p></div><div class="pdp-feat"><h4>Dedicated attachments</h4><p>Quick hitch, ditching bucket, ripper tooth, grab thumb, rake: adapt the machine to your needs.</p></div></div></section>

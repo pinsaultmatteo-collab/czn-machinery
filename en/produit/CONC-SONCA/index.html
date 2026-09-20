@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The Sonca jaw crusher is a compact, mobile crushing unit on tracks that recycles rubble straight on site: concrete, bricks, blocks, stone and spoil are turned into reusable aggregate, with no haulage or landfill costs. Hopper feed, hydraulic lever controls and a Koop KD1100F diesel engine compliant with the Euro 5 standard. Imported directly by CZN Machinery: 24-month warranty. Detailed technical specifications (capacity, jaw opening, dimensions) available on request.</div></section>
+  
   <section class="pdp-block"><h2>Recycle your rubble straight on site</h2><p class="pdp-block-body">Instead of hauling waste away and buying fresh aggregate, crush inert waste on site — concrete, bricks, blocks, natural stone — and reuse the material as fill, sub-base or drainage. You save on haulage, landfill and new material, while reducing the footprint of the job.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Concrete, brick, stone</h4><p>Turns inert spoil into reusable aggregate.</p></div><div class="pdp-feat"><h4>Immediate savings</h4><p>Less haulage, less landfill, less aggregate to buy.</p></div><div class="pdp-feat"><h4>Hopper feed</h4><p>Simple loading by shovel or bucket.</p></div></div></section>
 <section class="pdp-block"><h2>Compact, tracked and self-contained</h2><p class="pdp-block-body">Mounted on rubber tracks, the crusher moves right up to the work area, including tight access. Hydraulic lever controls drive travel and operation, powered by a reliable, self-contained Koop KD1100F Euro 5 diesel engine.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Tracked chassis</h4><p>Mobility and stability on rough ground.</p></div><div class="pdp-feat"><h4>Hydraulic controls</h4><p>Lever operation, direct handling.</p></div><div class="pdp-feat"><h4>Koop KD1100F engine</h4><p>Diesel, Euro 5 standard.</p></div></div></section>
 

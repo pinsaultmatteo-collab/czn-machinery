@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The Xcavator XC15P is the 1.25-tonne mini excavator built for versatile jobsites. Its Laidong KM385B 3-cylinder Euro 5 engine delivers extra torque and smoothness, while its 230 × 72 × 44 tracks and 1,160 mm width provide stability and access. Standard swing boom, hydraulic pilot joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.</div></section>
+  
   <section class="pdp-block"><h2>3-cylinder engine, more torque</h2><p class="pdp-block-body">The Laidong KM385B 3-cylinder Euro 5 engine delivers more torque and smoothness than the single-cylinder units of the class below. The result: smoother movements, better performance under load and greater comfort over long working days.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Laidong KM385B</h4><p>3-cylinder Euro 5: generous torque and smoother running than a single-cylinder.</p></div><div class="pdp-feat"><h4>230 × 72 × 44 tracks</h4><p>Generous shoe width for good stability and low ground pressure.</p></div><div class="pdp-feat"><h4>Pilot joystick control</h4><p>Precise hydraulic control of boom, dipper and bucket.</p></div></div></section>
 <section class="pdp-block"><h2>Compact yet stable</h2><p class="pdp-block-body">At 1,160 mm wide, the XC15P fits through most access points while offering a stable base. The swing boom lets you dig right up to walls and fences. The hydraulic thumb (sorting grapple) is supplied as standard for sorting and handling.</p><div class="pdp-feats"><div class="pdp-feat"><h4>1,160 mm width</h4><p>Ideal balance between working stability and jobsite access.</p></div><div class="pdp-feat"><h4>Standard swing boom</h4><p>Dig close to obstacles without repositioning the machine.</p></div><div class="pdp-feat"><h4>Hydraulic thumb included</h4><p>Sorting grapple as standard for stones, stumps and rubble.</p></div></div></section>
 <section class="pdp-block"><h2>Equipped and warranted</h2><p class="pdp-block-body">Cylinder on top of the boom, concealed travel motor, exhaust pack and emergency stop, seat presence switch, mirror and reversing alarm: the XC15P arrives ready to work. 2-year manufacturer warranty, after-sales service and parts in France. Indicative lead time: around 30 days.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Ready to use</h4><p>Safety and comfort equipment as standard, 40 cm bucket included.</p></div><div class="pdp-feat"><h4>2-year warranty</h4><p>24-month warranty, spare parts and after-sales service based in France.</p></div><div class="pdp-feat"><h4>Optional attachments</h4><p>Semi-automatic quick hitch, 20 cm toothed and 120 cm grading buckets available at extra cost.</p></div></div></section>

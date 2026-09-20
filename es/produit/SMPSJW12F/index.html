@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La SONCA SJW-12 F es la miniexcavadora de 1,2 toneladas polivalente con pluma orientable de serie. Esta función permite alcanzar ángulos imposibles con una pluma fija e intervenir en zonas de difícil acceso sin reposicionar la máquina. Con su anchura de un metro y su radio de giro reducido, se desenvuelve con facilidad en espacios reducidos: la herramienta ideal para el movimiento de tierras y el acondicionamiento residencial. Motor KOOP KD192F de 10 CV refrigerado por aire. Importada directamente por CZN Machinery, garantía de 2 años, entrega en Francia.</div></section>
+  
   <section class="pdp-block"><h2>Pluma orientable de serie</h2><p class="pdp-block-body">La pluma orientable permite alcanzar ángulos inaccesibles con una pluma fija y aumenta considerablemente la zona de trabajo sin desplazar la máquina. El capó del motor protege los latiguillos hidráulicos para una mayor longevidad y un mantenimiento simplificado.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Maniobrabilidad excepcional</h4><p>Intervención eficaz en todas las zonas de difícil acceso, sin reposicionar la máquina.</p></div><div class="pdp-feat"><h4>Capó protector del motor</h4><p>Protege eficazmente los latiguillos hidráulicos de los elementos exteriores para una mayor durabilidad.</p></div><div class="pdp-feat"><h4>Motor KOOP de 10 CV</h4><p>Motor KOOP KD192F refrigerado por aire, equilibrio entre potencia, fiabilidad y facilidad de mantenimiento.</p></div></div></section>
 <section class="pdp-block"><h2>Compacta y manejable</h2><p class="pdp-block-body">Con una anchura de solo 1 metro y un radio de giro mínimo de 1.490 mm en la parte delantera, la SJW-12 F se desenvuelve con facilidad alrededor de los obstáculos en los espacios más reducidos, maximizando al mismo tiempo la productividad en las obras residenciales.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Anchura de 1 metro</h4><p>Pasa por accesos estrechos y portones de jardín estándar.</p></div><div class="pdp-feat"><h4>Giro de 1.490 mm</h4><p>Navegación precisa alrededor de los obstáculos, ideal en entorno residencial.</p></div><div class="pdp-feat"><h4>Cazo de 40 cm incluido</h4><p>Entregada lista para usar en los trabajos de movimiento de tierras habituales.</p></div></div></section>
 

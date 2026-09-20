@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -214,6 +231,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La SONCA SJW-18 PRO est une mini-pelle 1,8 tonne polyvalente, taillée pour les chantiers de terrassement plus exigeants tout en restant facilement transportable. Robuste et confortable, elle accepte une large gamme d&#39;accessoires. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.</div></section>
+  
   <section class="pdp-block"><h2>Conception renforcée pour usage intensif</h2><p class="pdp-block-body">Moteur Laidong 385 renforcé de 24 CV et pompe hydraulique Shimadzu haute durabilité : une excavatrice de 1,8 tonne aux composants renforcés pour les chantiers les plus exigeants (BTP, travaux publics, terrassement intensif).</p><div class="pdp-feats"><div class="pdp-feat"><h4>Moteur Laidong 385</h4><p>24 CV tricylindre refroidi par liquide, composants durcis pour un fonctionnement continu.</p></div><div class="pdp-feat"><h4>Pompe Shimadzu 25 l/min</h4><p>Vérins surdimensionnés et joints haute résistance pour une durabilité maximale.</p></div><div class="pdp-feat"><h4>Capacités d&#39;excavation</h4><p>Hauteur d&#39;excavation 2,9 m et profondeur 2,2 m maintenues même en usage intensif.</p></div></div></section>
 <section class="pdp-block"><h2>Structure ultra-robuste</h2><p class="pdp-block-body">Châssis en acier haute résistance, points de pivot renforcés et largeur de 1,1 m conservant la maniabilité tout en offrant une stabilité accrue.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Châssis renforcé</h4><p>Acier haute résistance, soudures renforcées et protections additionnelles.</p></div><div class="pdp-feat"><h4>Pack pro complet</h4><p>Godet 40 cm, canopy, boîte à outils et kit de maintenance inclus.</p></div><div class="pdp-feat"><h4>Réservoirs</h4><p>Carburant 10 L, hydraulique 16 L.</p></div></div></section>
 

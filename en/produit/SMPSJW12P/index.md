@@ -31,6 +31,18 @@ Digging depth
 
 The SONCA SJW-12 P is the refined version of the compact 1.2-tonne range: offset boom, careful finish and hydraulic joysticks built into the seat armrests for optimal ergonomics and precision. Its 1,490 mm tail swing radius and one-metre width let it navigate the tightest spaces. Designed for demanding private individuals and well-finished residential sites, it combines technical performance with aesthetics. Imported directly by CZN Machinery, 2-year warranty, delivery across France.
 
+Grey Edition
+
+## The SJW-12 P in grey
+
+Same machine, same Yanmar engine and same performance as the yellow version — only the colour changes. Grey bodywork and black canopy, produced as a limited run and in stock in Toulouse.
+
+7 490 € excl. VAT instead of €7,050 excl. VAT for the yellow version
+[Request a Grey Edition quote](/en/contact/?topic=devis&msg=Hello%2C%20I%20would%20like%20a%20quote%20for%20the%20SJW-12%20P%20mini%20excavator%20in%20Grey%20Edition%20%28%E2%82%AC7%2C490%20excl.%20VAT%29.%20Please%20get%20back%20to%20me.)
+Two grey SJW-12 P units being unloaded from the container Boom and quick hitch of the grey series Strapping the machines before unloading
+
+Photos taken as the container arrived, machines still wrapped. Studio shots of the grey series will be published shortly.
+
 ## Offset boom and careful finish
 The SJW-12 P stands out with its offset boom and quality finish. The reinforced offset system delivers manoeuvrability and precision in all tight spaces, while the stylish engine cover protects all the components.
 

@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La trituradora forestal Sonca es una máquina de orugas totalmente radiocontrolada, diseñada para desbrozar y triturar la vegetación allí donde el ser humano no puede —o no debería— intervenir: taludes, pendientes pronunciadas, terrenos baldíos, sotobosques y parques solares. Pilotada a distancia hasta 600 m, mantiene al operador alejado del peligro. Su motor diésel KOOP KD195F de 15 CV con arranque eléctrico acciona un rotor de corte flotante de 1.000 mm equipado con cuchillas de tipo mayal. Importada directamente por CZN Machinery: garantía de 24 meses y piezas de repuesto disponibles durante 10 años.</div></section>
+  
   <section class="pdp-block"><h2>Radiocontrolada hasta 600 m, con total seguridad</h2><p class="pdp-block-body">El radiocontrol de largo alcance (hasta 600 m, incluido) permite trabajar lejos de las proyecciones y de las zonas peligrosas. El motor diésel KOOP con arranque eléctrico y el alternador integrado recargan automáticamente la batería de mando de 24 V en funcionamiento: sin recarga manual entre sesiones.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Radiocontrol incluido</h4><p>Alcance de larga distancia hasta 600 m, operador alejado del peligro.</p></div><div class="pdp-feat"><h4>Motor KOOP KD195F</h4><p>Monocilíndrico diésel de 15 CV, arranque eléctrico.</p></div><div class="pdp-feat"><h4>Recarga automática</h4><p>Alternador integrado, batería de mando de 24 V recargada en marcha.</p></div></div></section>
 <section class="pdp-block"><h2>Corte flotante de 1.000 mm con cuchillas de tipo mayal</h2><p class="pdp-block-body">El rotor de 1.000 mm está equipado con 20 juegos de cuchillas en Y suspendidas (40 piezas), eficaces sobre la hierba alta, las zarzas y los leñosos jóvenes. La altura de corte se ajusta manualmente de 20 a 200 mm, y el mecanismo flotante sigue el relieve del terreno para un corte uniforme sin escalpar el suelo.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Anchura de corte de 1.000 mm</h4><p>Altura ajustable de 20 a 200 mm (ajuste manual).</p></div><div class="pdp-feat"><h4>Cuchillas de tipo mayal</h4><p>Cuchillas en Y suspendidas, 20 juegos / 40 piezas.</p></div><div class="pdp-feat"><h4>Mecanismo flotante</h4><p>El grupo de corte sigue el relieve para un corte homogéneo.</p></div></div></section>
 <section class="pdp-block"><h2>Orugas todoterreno, especialista en pendientes</h2><p class="pdp-block-body">Las orugas de caucho de 150 mm aseguran la adherencia en suelo blando, húmedo o accidentado. La máquina trabaja hasta 30° de pendiente (y se desplaza hasta 45°), con un rendimiento de aproximadamente 0,5 ha/h — ideal para el mantenimiento de taludes, huertos, parques y parques fotovoltaicos.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Orugas de 150 mm</h4><p>Adherencia y estabilidad en terrenos difíciles.</p></div><div class="pdp-feat"><h4>Pendientes pronunciadas</h4><p>Trabajo hasta 30°, desplazamiento hasta 45°.</p></div><div class="pdp-feat"><h4>Rendimiento ~0,5 ha/h</h4><p>Velocidad de traslación de 0 a 5 km/h.</p></div></div></section>

@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -214,6 +231,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">La mini-pelle Xcavator XC15P est la mini-pelle 1,25 tonne pensée pour les chantiers polyvalents. Son moteur Laidong KM385B 3 cylindres Euro 5 offre un surcroît de couple et de souplesse, tandis que ses chenilles 230 × 72 × 44 et sa largeur de 1 160 mm assurent stabilité et passage dans la plupart des accès. Bras déporté (swing boom) de série, commande hydraulique au joystick (pilot) et toit 4 montants (ROPS). Importée en direct par CZN Machinery : garantie 2 ans, livraison France.</div></section>
+  
   <section class="pdp-block"><h2>Moteur 3 cylindres, plus de couple</h2><p class="pdp-block-body">Le moteur Laidong KM385B 3 cylindres Euro 5 apporte davantage de couple et de douceur que les motorisations mono-cylindre de la classe inférieure. Résultat : des mouvements plus fluides, une meilleure tenue en charge et un confort de travail supérieur sur les longues journées de chantier.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Laidong KM385B</h4><p>3 cylindres Euro 5 : couple généreux et fonctionnement plus souple qu&#39;un mono-cylindre.</p></div><div class="pdp-feat"><h4>Chenilles 230 × 72 × 44</h4><p>Largeur de semelle généreuse pour une bonne stabilité et une faible pression au sol.</p></div><div class="pdp-feat"><h4>Commande joystick pilot</h4><p>Pilotage hydraulique précis du bras, du balancier et du godet.</p></div></div></section>
 <section class="pdp-block"><h2>Compacte mais stable</h2><p class="pdp-block-body">Avec 1 160 mm de largeur, la XC15P passe la plupart des accès tout en offrant une assise stable. Le bras déporté (swing boom) permet de creuser en limite de mur ou de clôture. Le pouce hydraulique (grappin de tri) est livré de série pour le tri et la manutention.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Largeur 1 160 mm</h4><p>Compromis idéal entre stabilité au travail et passage dans les accès de chantier.</p></div><div class="pdp-feat"><h4>Swing boom de série</h4><p>Excavation au plus près des obstacles sans repositionner la machine.</p></div><div class="pdp-feat"><h4>Pouce hydraulique inclus</h4><p>Grappin de tri de série pour pierres, souches et gravats.</p></div></div></section>
 <section class="pdp-block"><h2>Équipée et garantie</h2><p class="pdp-block-body">Vérin sur le dessus du bras, moteur de translation caché, pack échappement et arrêt d&#39;urgence, siège à contacteur de présence, rétroviseur et alarme de recul : la XC15P est livrée prête à travailler. Garantie constructeur 2 ans, SAV et pièces en France. Délai indicatif de livraison : environ 30 jours.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Prête à l&#39;emploi</h4><p>Équipements de sécurité et de confort de série, godet 40 cm inclus.</p></div><div class="pdp-feat"><h4>Garantie 2 ans</h4><p>Garantie 24 mois, pièces détachées et SAV basés en France.</p></div><div class="pdp-feat"><h4>Accessoires en option</h4><p>Attache rapide semi-automatique, godets 20 cm à dents et 120 cm de curage disponibles en supplément.</p></div></div></section>

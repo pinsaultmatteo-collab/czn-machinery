@@ -17,6 +17,23 @@
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -179,6 +196,7 @@ function getFbp(){return getCookie('_fbp');}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">The Xcavator XC22 PRO V2 is the toughest 2-tonne mini excavator in the range. Its three-pump hydraulic system delivers power and smoothness for combined movements, while 2-speed travel and a variable track (110 to 140 cm) make it as comfortable in tight access as on large earthworks sites. Laidong KM385B 3-cylinder Euro 5 engine, swing boom, hydraulic joystick control and 4-post ROPS canopy. Imported directly by CZN Machinery: 2-year warranty, delivery across France.</div></section>
+  
   <section class="pdp-block"><h2>3-pump hydraulics, power and smoothness</h2><p class="pdp-block-body">The three-pump hydraulic system simultaneously feeds the boom, slew and travel with no loss of flow. Combined movements stay smooth and powerful, even under load: a major asset for productivity on the most demanding earthworks sites.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Three pumps</h4><p>Smooth, powerful simultaneous movements with no jerks, even under load.</p></div><div class="pdp-feat"><h4>2-speed travel</h4><p>Precision at low speed, fast site travel at high speed.</p></div><div class="pdp-feat"><h4>Swing boom</h4><p>Dig along walls and fences without moving the machine.</p></div></div></section>
 <section class="pdp-block"><h2>110–140 cm variable track, maximum stability</h2><p class="pdp-block-body">The expandable undercarriage moves from 110 cm (access) to 140 cm (work) to deliver the best stability in the range when digging and lifting. The 2-tonne machine that backs down from no jobsite.</p><div class="pdp-feats"><div class="pdp-feat"><h4>110–140 cm chassis</h4><p>Retracted for access, widened for maximum working stability.</p></div><div class="pdp-feat"><h4>Tough 2 tonnes</h4><p>The most capable machine in the range for intensive earthworks.</p></div><div class="pdp-feat"><h4>Concealed travel motor</h4><p>Protected from impacts and debris for added reliability.</p></div></div></section>
 <section class="pdp-block"><h2>Equipped and warranted</h2><p class="pdp-block-body">Cylinder on top of the boom, hydraulic thumb (sorting grapple), exhaust pack and emergency stop, seat presence switch, mirror and reversing alarm: the XC22 PRO V2 arrives ready to work. 2-year manufacturer warranty, after-sales service and parts in France. Indicative lead time: around 30 days.</p><div class="pdp-feats"><div class="pdp-feat"><h4>Hydraulic thumb included</h4><p>Sorting grapple as standard for stones, stumps and rubble.</p></div><div class="pdp-feat"><h4>2-year warranty</h4><p>24-month warranty, spare parts and after-sales service based in France.</p></div><div class="pdp-feat"><h4>Optional attachments</h4><p>Hydraulic quick hitch, 20 cm toothed and 120 cm grading buckets available at extra cost.</p></div></div></section>

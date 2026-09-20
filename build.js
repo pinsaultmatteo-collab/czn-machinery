@@ -365,6 +365,34 @@ function statsHTML(d) {
   if (!Array.isArray(d.stats) || !d.stats.length) return "";
   return `<div class="pdp-stats">` + d.stats.map((s) => `<div class="pdp-stat"><div class="pdp-stat-val">${esc(s.value)}</div><div class="pdp-stat-label">${esc(s.label)}</div></div>`).join("") + `</div>`;
 }
+/* ── Édition spéciale (ex. « Grey Edition » de la SJW-12 P) ──
+   Bloc facultatif : présente une déclinaison vendue à un autre prix sur la
+   MÊME fiche, sans dupliquer la page ni le référencement.
+   Les photos sont libellées pour ce qu'elles sont (clichés d'arrivage) : on
+   n'essaie pas de les faire passer pour des visuels studio. */
+function editionHTML(d, L) {
+  const e = d.edition;
+  if (!e) return "";
+  const shots = (e.images || []).map((im) =>
+    `<figure class="pdp-ed-shot"><img src="${esc(im.src)}" alt="${esc(im.alt || "")}" loading="lazy" width="900" height="1200">` +
+    (im.caption ? `<figcaption>${esc(im.caption)}</figcaption>` : "") + `</figure>`).join("");
+  const price = e.priceHT
+    ? `<div class="pdp-ed-price"><strong>${euro(e.priceHT)} €</strong> <span>${L.ui.ht}</span>` +
+      (e.priceNote ? `<em>${esc(e.priceNote)}</em>` : "") + `</div>`
+    : "";
+  const cta = e.ctaHref
+    ? `<a class="pdp-ed-cta" href="${esc(e.ctaHref)}">${esc(e.ctaLabel || L.ui.requestQuote)}</a>` : "";
+  return `<section class="pdp-section"><div class="pdp-edition">
+    <div class="pdp-ed-top">
+      <span class="pdp-ed-badge">${esc(e.badge || "")}</span>
+      <h2 class="pdp-ed-title">${esc(e.title || "")}</h2>
+    </div>
+    ${e.body ? `<p class="pdp-ed-body">${esc(e.body)}</p>` : ""}
+    ${price}${cta}
+    ${shots ? `<div class="pdp-ed-shots">${shots}</div>` : ""}
+    ${e.note ? `<p class="pdp-ed-note">${esc(e.note)}</p>` : ""}
+  </div></section>`;
+}
 function sectionsHTML(d) {
   if (!Array.isArray(d.sections) || !d.sections.length) return "";
   return d.sections.map((sec) => {
@@ -706,6 +734,23 @@ ${HEAD_FONTS}
 <style>
   .pdp{padding:130px 0 60px;}
   .pdp-crumbs{font-family:var(--f-mono);font-size:12px;letter-spacing:.04em;color:var(--muted);margin-bottom:30px;}
+  .pdp-edition{border:1px solid rgba(242,129,28,.35);border-radius:16px;background:linear-gradient(180deg,rgba(242,129,28,.06),rgba(242,129,28,0));padding:26px 24px 22px;margin-top:34px;}
+  .pdp-ed-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-ed-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--ink);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-ed-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-ed-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-ed-price{margin-top:16px;display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;}
+  .pdp-ed-price strong{font-family:var(--f-display);font-size:30px;font-weight:600;color:var(--ink);letter-spacing:-.02em;}
+  .pdp-ed-price span{font-family:var(--f-mono);font-size:13px;color:var(--muted);}
+  .pdp-ed-price em{font-style:normal;font-size:13px;color:var(--muted);}
+  .pdp-ed-cta{display:inline-block;margin-top:16px;padding:11px 20px;border-radius:999px;background:var(--orange);color:#fff;text-decoration:none;font-size:14px;font-weight:600;transition:background .2s;}
+  .pdp-ed-cta:hover{background:var(--orange-deep,#C9551A);}
+  .pdp-ed-shots{margin-top:22px;display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
+  .pdp-ed-shot{margin:0;}
+  .pdp-ed-shot img{width:100%;height:auto;display:block;border-radius:10px;background:var(--cream-2,#faf6ec);}
+  .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
+  .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -815,6 +860,7 @@ ${nav(L)}
   </div>
 
   <section class="pdp-section"><div class="pdp-lead">${esc(intro)}</div></section>
+  ${editionHTML(d, L)}
   ${sectionsHTML(d)}
 
   <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">${L.ui.techSpecs}</h2>${specsHTML(d, L, v2)}</section>
