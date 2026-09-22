@@ -22,6 +22,9 @@ on:
     - cron: "0 7 * * 2"    # visé : 09:00 Paris en été (CEST)
     - cron: "0 8 * * 2"    # visé : 09:00 Paris en hiver (CET)
     - cron: "0 13 * * 3"   # filet de sécurité : mercredi, si le mardi a été perdu
+    # Rattrapage ponctuel (7 semaines perdues à cause du garde-fou horaire).
+    # Ne se déclenche qu'à cette date : à supprimer ensuite sans risque.
+    - cron: "0 8 25 9 *"   # vendredi 25 septembre 2026
   workflow_dispatch: {}    # bouton "Run workflow" pour publier / tester à la main
 
 permissions:
@@ -44,15 +47,17 @@ jobs:
           # planifiées (jusqu'à 5 h observées), ce qui faisait échouer
           # silencieusement toutes les publications depuis septembre 2026.
           # On vérifie plutôt si un guide a déjà été publié cette semaine.
-          DOW=$(TZ=Europe/Paris date +%u)                      # 1 = lundi
-          LUNDI=$(TZ=Europe/Paris date -d "-$((DOW-1)) days" +%Y-%m-%d)
-          echo "Semaine en cours depuis le lundi $LUNDI (heure Paris : $(TZ=Europe/Paris date +%H)h)"
-          DEJA=$(git log --since="$LUNDI 00:00" --grep="guide hebdomadaire (auto" --format=%h | head -1)
+          # Fenêtre volontairement courte (2 jours) : elle suffit à empêcher les
+          # doublons (les 2 crons du mardi, puis le filet du mercredi), tout en
+          # laissant passer un cron de rattrapage place quelques jours plus tard.
+          DEPUIS=$(TZ=Europe/Paris date -d "-2 days" +%Y-%m-%d)
+          echo "Recherche d'un guide publié depuis le $DEPUIS (heure Paris : $(TZ=Europe/Paris date +%H)h)"
+          DEJA=$(git log --since="$DEPUIS 00:00" --grep="guide hebdomadaire (auto" --format=%h | head -1)
           if [ -n "$DEJA" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
-            echo "Guide déjà publié cette semaine ($DEJA) — on saute."
+            echo "Guide déjà publié il y a moins de 2 jours ($DEJA) — on saute."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
-            echo "Aucun guide cette semaine — on publie."
+            echo "Aucun guide récent — on publie."
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
 
