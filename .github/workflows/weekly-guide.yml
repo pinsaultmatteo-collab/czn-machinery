@@ -29,6 +29,7 @@ on:
 
 permissions:
   contents: write
+  issues: write   # pour ouvrir un ticket d'alerte si plus rien ne se publie
 
 jobs:
   publish:
@@ -85,3 +86,58 @@ jobs:
             git commit -m "Guides : nouveau guide hebdomadaire (auto, $(TZ=Europe/Paris date +%Y-%m-%d))"
             git push
           fi
+
+      # Cette automatisation est restée muette 7 semaines : un workflow qui saute
+      # est indistinguable d'un workflow qui réussit. La surveillance ci-dessous
+      # rend le silence bruyant — ticket GitHub + échec du run (donc e-mail).
+      - name: Alerte — aucun guide publié depuis 10 jours
+        if: always() && steps.guard.conclusion != 'skipped'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DERNIER=$(git log -1 --grep="guide hebdomadaire (auto" --format=%cI)
+          if [ -z "$DERNIER" ]; then
+            echo "Aucun guide dans l'historique — rien à surveiller."; exit 0
+          fi
+          AGE=$(( ( $(date +%s) - $(date -d "$DERNIER" +%s) ) / 86400 ))
+          echo "Dernier guide publié le $DERNIER — il y a $AGE jour(s)."
+          if [ "$AGE" -le 10 ]; then
+            echo "Dans les clous (seuil : 10 jours)."; exit 0
+          fi
+
+          echo "::error::Aucun guide publié depuis $AGE jours."
+          gh label create auto-blog --color B60205 --description "Publication automatique de guides" 2>/dev/null || true
+          EXISTANT=$(gh issue list --label auto-blog --state open --json number -q '.[0].number' 2>/dev/null)
+          if [ -n "$EXISTANT" ]; then
+            gh issue comment "$EXISTANT" --body "Toujours rien publié : $AGE jours au $(TZ=Europe/Paris date +%Y-%m-%d)."
+          else
+            gh issue create \
+              --title "Auto-blog : aucun guide publié depuis $AGE jours" \
+              --label auto-blog \
+              --body "$(printf '%s\n' \
+                "La publication automatique de guides semble interrompue." \
+                "" \
+                "- Dernier guide : **$DERNIER** (il y a **$AGE jours**)" \
+                "- Seuil d'alerte : 10 jours" \
+                "" \
+                "Pistes à vérifier :" \
+                "1. Journal de ce run : l'étape « Générer le guide » a-t-elle tourné, ou le garde-fou a-t-il sauté ?" \
+                "2. Le secret \\`ANTHROPIC_API_KEY\\` est-il toujours valide ?" \
+                "3. Reste-t-il des sujets non publiés dans \\`scripts/guides-queue.json\\` ?" \
+                "" \
+                "Ce ticket se ferme tout seul dès qu'un guide repart.")"
+          fi
+          exit 1
+
+      - name: Refermer l'alerte si tout est reparti
+        if: always() && steps.guard.conclusion != 'skipped'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DERNIER=$(git log -1 --grep="guide hebdomadaire (auto" --format=%cI)
+          [ -z "$DERNIER" ] && exit 0
+          AGE=$(( ( $(date +%s) - $(date -d "$DERNIER" +%s) ) / 86400 ))
+          [ "$AGE" -gt 10 ] && exit 0
+          for N in $(gh issue list --label auto-blog --state open --json number -q '.[].number' 2>/dev/null); do
+            gh issue close "$N" --comment "Publication repartie : dernier guide il y a $AGE jour(s)."
+          done
