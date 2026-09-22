@@ -1552,6 +1552,8 @@ Clients équipés
 100 %
 Conseils pratiques
 
+[Dernier guide publiéUsages · 22 septembre 2026 Mini-pelle agricole : usages à la ferme Guide de la mini-pelle agricole : curage de fossés, clôtures, drainage, entretien de chemins. Modèles adaptés, budget et conseils terrain. Lire le guide →](/guides/mini-pelle-agriculture/)
+
 [01Fondamentaux Qu'est-ce qu'une mini-pelle ? Définition, catégories par tonnage (800 kg à 6 T), composants clés et différences avec une pelleteuse classique. Lire le guide →](/guides/quest-ce-quune-mini-pelle/)
 [02Achat Comment choisir une mini-pelle ? Les 6 critères essentiels : tonnage, profondeur de fouille, largeur, motorisation, accessoires et transport. Lire le guide →](/guides/comment-choisir-mini-pelle/)
 [03Usages À quoi sert une mini-pelle ? Les 6 principaux usages : terrassement, tranchées, aménagement paysager, piscine, démolition et agriculture. Lire le guide →](/guides/utilisation-mini-pelle/)

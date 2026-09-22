@@ -295,15 +295,36 @@ ${relCards}
 }
 
 /* ── config par langue ── */
-const L_FR = { refPath: "guides/location-mini-pelle/index.html", outDir: `guides/${slug}`, homeRel: "/", guidesRel: "/guides/", homeUrl: `${SITE}/`, guidesUrl: `${SITE}/guides/`, urlBase: `${SITE}/guides/`, jsonldLang: "fr-FR", breadHome: "Accueil", tocTitle: "Sommaire", metaRead: (n) => `⏱ ${n} min de lecture`, metaAdvice: "✓ Conseils CZN Machinery", metaUpd: (y) => `↻ Mis à jour ${y}`, relEyebrow: "À lire aussi", relTitle: "Articles <em>associés</em>.", indexPath: "guides/index.html", countLabel: "Guides pratiques", countPhrase: "guides pratiques", readMore: "Lire le guide →" };
-const L_EN = { refPath: "en/guides/location-mini-pelle/index.html", outDir: `en/guides/${slug}`, homeRel: "/en/", guidesRel: "/en/guides/", homeUrl: `${SITE}/en/`, guidesUrl: `${SITE}/en/guides/`, urlBase: `${SITE}/en/guides/`, jsonldLang: "en-GB", breadHome: "Home", tocTitle: "Contents", metaRead: (n) => `⏱ ${n} min read`, metaAdvice: "✓ CZN Machinery advice", metaUpd: (y) => `↻ Updated ${y}`, relEyebrow: "Further reading", relTitle: "Related <em>articles</em>.", indexPath: "en/guides/index.html", countLabel: "Practical guides", countPhrase: "practical guides", readMore: "Read the guide →" };
-const L_ES = { refPath: "es/guides/location-mini-pelle/index.html", outDir: `es/guides/${slug}`, homeRel: "/es/", guidesRel: "/es/guides/", homeUrl: `${SITE}/es/`, guidesUrl: `${SITE}/es/guides/`, urlBase: `${SITE}/es/guides/`, jsonldLang: "es-ES", breadHome: "Inicio", tocTitle: "Índice", metaRead: (n) => `⏱ ${n} min de lectura`, metaAdvice: "✓ Consejos de CZN Machinery", metaUpd: (y) => `↻ Actualizado ${y}`, relEyebrow: "Leer también", relTitle: "Artículos <em>relacionados</em>.", indexPath: "es/guides/index.html", countLabel: "Guías prácticas", countPhrase: "guías prácticas", readMore: "Leer la guía →" };
+const L_FR = { refPath: "guides/location-mini-pelle/index.html", outDir: `guides/${slug}`, homeRel: "/", guidesRel: "/guides/", homeUrl: `${SITE}/`, guidesUrl: `${SITE}/guides/`, urlBase: `${SITE}/guides/`, jsonldLang: "fr-FR", breadHome: "Accueil", tocTitle: "Sommaire", metaRead: (n) => `⏱ ${n} min de lecture`, metaAdvice: "✓ Conseils CZN Machinery", metaUpd: (y) => `↻ Mis à jour ${y}`, relEyebrow: "À lire aussi", relTitle: "Articles <em>associés</em>.", indexPath: "guides/index.html", countLabel: "Guides pratiques", countPhrase: "guides pratiques", readMore: "Lire le guide →" , latestLabel: "Dernier guide publié", months: ["janvier","février","mars","avril","mai","juin","juillet","août","septembre","octobre","novembre","décembre"]};
+const L_EN = { refPath: "en/guides/location-mini-pelle/index.html", outDir: `en/guides/${slug}`, homeRel: "/en/", guidesRel: "/en/guides/", homeUrl: `${SITE}/en/`, guidesUrl: `${SITE}/en/guides/`, urlBase: `${SITE}/en/guides/`, jsonldLang: "en-GB", breadHome: "Home", tocTitle: "Contents", metaRead: (n) => `⏱ ${n} min read`, metaAdvice: "✓ CZN Machinery advice", metaUpd: (y) => `↻ Updated ${y}`, relEyebrow: "Further reading", relTitle: "Related <em>articles</em>.", indexPath: "en/guides/index.html", countLabel: "Practical guides", countPhrase: "practical guides", readMore: "Read the guide →" , latestLabel: "Latest guide", months: ["January","February","March","April","May","June","July","August","September","October","November","December"]};
+const L_ES = { refPath: "es/guides/location-mini-pelle/index.html", outDir: `es/guides/${slug}`, homeRel: "/es/", guidesRel: "/es/guides/", homeUrl: `${SITE}/es/`, guidesUrl: `${SITE}/es/guides/`, urlBase: `${SITE}/es/guides/`, jsonldLang: "es-ES", breadHome: "Inicio", tocTitle: "Índice", metaRead: (n) => `⏱ ${n} min de lectura`, metaAdvice: "✓ Consejos de CZN Machinery", metaUpd: (y) => `↻ Actualizado ${y}`, relEyebrow: "Leer también", relTitle: "Artículos <em>relacionados</em>.", indexPath: "es/guides/index.html", countLabel: "Guías prácticas", countPhrase: "guías prácticas", readMore: "Leer la guía →" , latestLabel: "Última guía publicada", months: ["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre"]};
 
 for (const [L, a] of [[L_FR, art], [L_EN, artEn], [L_ES, artEs]]) {
   const dir = path.join(ROOT, L.outDir);
   fs.mkdirSync(dir, { recursive: true });
   fs.writeFileSync(path.join(dir, "index.html"), buildGuide(L, a));
   console.log(`✅ ${L.outDir}/index.html`);
+}
+
+/* ── Encart « dernier guide publié » sur l'index ──
+   Réécrit entre les marqueurs LATEST:START / LATEST:END. Sans cet appel,
+   l'encart afficherait éternellement le guide qui était le dernier le jour
+   où il a été posé. */
+function updateLatest(L, a) {
+  const idxPath = path.join(ROOT, L.indexPath);
+  let idx = fs.readFileSync(idxPath, "utf8");
+  if (!/LATEST:START/.test(idx)) { console.log(`… pas d'encart dans ${L.indexPath} — ignoré`); return; }
+  const d = new Date();
+  const date = `${d.getDate()} ${L.months[d.getMonth()]} ${d.getFullYear()}`;
+  const bloc = `    <a href="${L.guidesRel}${slug}/" class="latest-guide reveal">
+      <div class="latest-guide-tag"><span class="lg-dot"></span>${esc(L.latestLabel)}<span class="lg-date">${esc(a.category)} · ${date}</span></div>
+      <h2 class="latest-guide-title">${esc(a.title)}</h2>
+      <p class="latest-guide-desc">${esc(a.metaDescription)}</p>
+      <span class="latest-guide-link">${L.readMore}</span>
+    </a>`;
+  idx = idx.replace(/(<!-- LATEST:START[\s\S]*?-->)[\s\S]*?(<!-- LATEST:END -->)/, `$1\n${bloc}\n    $2`);
+  fs.writeFileSync(idxPath, idx);
+  console.log(`✅ encart « dernier guide » ${L.indexPath}`);
 }
 
 /* ── 5. Cartes sur les 2 index + compteurs ── */
@@ -328,8 +349,11 @@ function addCard(L, a) {
   console.log(`✅ carte ${L.indexPath} (n°${num}, total ${newCount})`);
 }
 addCard(L_FR, art);
+updateLatest(L_FR, art);
 addCard(L_EN, artEn);
+updateLatest(L_EN, artEn);
 addCard(L_ES, artEs);
+updateLatest(L_ES, artEs);
 
 /* ── 6. Marque publié ── */
 topic.published = true; topic.publishedAt = today();

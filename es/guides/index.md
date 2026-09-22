@@ -31,6 +31,8 @@ Clientes equipados
 100 %
 Consejos prácticos
 
+[Última guía publicadaUsos · 22 septiembre 2026 Miniexcavadora agrícola: usos en la granja Guía de la miniexcavadora agrícola: limpieza de cunetas, vallados, drenaje, mantenimiento de caminos. Modelos adecuados, presupuesto y consejos. Leer la guía →](/es/guides/mini-pelle-agriculture/)
+
 [01Fundamentos ¿Qué es una miniexcavadora? Definición, categorías por tonelaje (800 kg a 6 T), componentes clave y diferencias con una excavadora convencional. Leer la guía →](/es/guides/quest-ce-quune-mini-pelle/)
 [02Compra ¿Cómo elegir una miniexcavadora? Los 6 criterios esenciales: tonelaje, profundidad de excavación, anchura, motorización, accesorios y transporte. Leer la guía →](/es/guides/comment-choisir-mini-pelle/)
 [03Usos ¿Para qué sirve una miniexcavadora? Los 6 usos principales: movimiento de tierras, zanjas, paisajismo, piscina, demolición y agricultura. Leer la guía →](/es/guides/utilisation-mini-pelle/)

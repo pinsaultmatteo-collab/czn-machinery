@@ -31,6 +31,8 @@ Customers equipped
 100 %
 Practical advice
 
+[Latest guideUses · 22 September 2026 Agricultural Mini Excavator: Uses on the Farm Guide to the agricultural mini excavator: ditch clearing, fencing, drainage, track maintenance. Suitable models, budget and field advice. Read the guide →](/en/guides/mini-pelle-agriculture/)
+
 [01Fundamentals What is a mini excavator? Definition, categories by weight (800 kg to 6 t), key components and differences from a standard excavator. Read the guide →](/en/guides/quest-ce-quune-mini-pelle/)
 [02Buying How to choose a mini excavator? The 6 essential criteria: weight, digging depth, width, engine, attachments and transport. Read the guide →](/en/guides/comment-choisir-mini-pelle/)
 [03Uses What is a mini excavator used for? The 6 main uses: earthworks, trenches, landscaping, swimming pools, demolition and farming. Read the guide →](/en/guides/utilisation-mini-pelle/)
