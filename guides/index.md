@@ -1,6 +1,6 @@
 # Guides mini-pelle : conseils, entretien & réglementation
 
-> 21 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
+> 22 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & ressources
 
 # Tout savoir avantd'acheter votre engin.
 
-21 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+22 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
 
-21
+22
 Guides pratiques
 
 6 ans
@@ -52,6 +52,7 @@ Conseils pratiques
 [19Usages Creuser une tranchée pour réseaux à la mini-pelle Guide pratique pour creuser une tranchée à la mini-pelle : largeur de godet, profondeur selon les réseaux (eau, électricité, drainage), tonnage conseillé et sécurité. Lire le guide →](/guides/mini-pelle-tranchee-reseaux/)
 [20Achat Mini-pelle 1,5 tonne : le bon compromis ? La mini-pelle 1,5 tonne est-elle le meilleur compromis polyvalence, transport et prix ? Capacités, usages et budget pour particuliers et artisans. Lire le guide →](/guides/mini-pelle-1-5-tonne-guide/)
 [21Réglementation Transporter sa mini-pelle : remorque et permis Transport mini-pelle remorque : PTAC, permis B ou BE, choix de la remorque porte-engin, arrimage et sécurité. Le guide complet pour transporter votre engin en toute légalité. Lire le guide →](/guides/transport-mini-pelle-remorque/)
+[22Usages Mini-pelle agricole : usages à la ferme Guide de la mini-pelle agricole : curage de fossés, clôtures, drainage, entretien de chemins et fosses. Tonnage, accessoires et conseils d'achat pour la ferme. Lire le guide →](/guides/mini-pelle-agriculture/)
 
 ## Une question technique ?
 
