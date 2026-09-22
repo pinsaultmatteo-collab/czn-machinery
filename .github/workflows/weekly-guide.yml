@@ -15,10 +15,14 @@ name: Guide SEO hebdomadaire
 
 on:
   schedule:
-    # GitHub cron est en UTC. Double horaire pour couvrir l'heure d'été/hiver :
-    - cron: "0 7 * * 2"   # 09:00 Paris en été (CEST)
-    - cron: "0 8 * * 2"   # 09:00 Paris en hiver (CET)
-  workflow_dispatch: {}    # bouton "Run workflow" pour tester à la main
+    # GitHub cron est en UTC, et ne garantit PAS l'heure : les tâches planifiées
+    # sont régulièrement différées de plusieurs heures en cas de charge.
+    # On vise donc large, et c'est le garde-fou ci-dessous (un seul guide par
+    # semaine) qui empêche les doublons — pas l'heure.
+    - cron: "0 7 * * 2"    # visé : 09:00 Paris en été (CEST)
+    - cron: "0 8 * * 2"    # visé : 09:00 Paris en hiver (CET)
+    - cron: "0 13 * * 3"   # filet de sécurité : mercredi, si le mardi a été perdu
+  workflow_dispatch: {}    # bouton "Run workflow" pour publier / tester à la main
 
 permissions:
   contents: write
@@ -27,21 +31,30 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
-      - name: Garde 09:00 Paris (une seule exécution par mardi)
+      # Le garde-fou a besoin de l'historique : on récupère le dépôt d'abord.
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Garde — un seul guide par semaine
         id: guard
         run: |
-          H=$(TZ=Europe/Paris date +%H)
-          echo "Heure Paris : $H"
-          if [ "${{ github.event_name }}" != "workflow_dispatch" ] && [ "$H" != "09" ]; then
-            echo "Pas 09h à Paris — on saute cette exécution."
+          # ⚠️ Ne PAS se fier à l'heure d'exécution : GitHub décale les tâches
+          # planifiées (jusqu'à 5 h observées), ce qui faisait échouer
+          # silencieusement toutes les publications depuis septembre 2026.
+          # On vérifie plutôt si un guide a déjà été publié cette semaine.
+          DOW=$(TZ=Europe/Paris date +%u)                      # 1 = lundi
+          LUNDI=$(TZ=Europe/Paris date -d "-$((DOW-1)) days" +%Y-%m-%d)
+          echo "Semaine en cours depuis le lundi $LUNDI (heure Paris : $(TZ=Europe/Paris date +%H)h)"
+          DEJA=$(git log --since="$LUNDI 00:00" --grep="guide hebdomadaire (auto" --format=%h | head -1)
+          if [ -n "$DEJA" ] && [ "${{ github.event_name }}" != "workflow_dispatch" ]; then
+            echo "Guide déjà publié cette semaine ($DEJA) — on saute."
             echo "skip=true" >> "$GITHUB_OUTPUT"
           else
+            echo "Aucun guide cette semaine — on publie."
             echo "skip=false" >> "$GITHUB_OUTPUT"
           fi
-
-      - name: Checkout
-        if: steps.guard.outputs.skip != 'true'
-        uses: actions/checkout@v4
 
       - name: Setup Node
         if: steps.guard.outputs.skip != 'true'
