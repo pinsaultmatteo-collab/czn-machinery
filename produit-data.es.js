@@ -216,9 +216,13 @@ module.exports = {
     },
     colors: [
       { key: "jaune", label: "Amarillo", hex: "#E9A319", priceHT: 7050, images: [
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp", alt: "Miniexcavadora Sonca SJW-12 P con pluma orientable, vista delantera derecha" },
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp", alt: "SJW-12 P trasera izquierda, sistema hidráulico" },
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp", alt: "SJW-12 P, capó del motor y acabados" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant.webp", alt: "Miniexcavadora Sonca SJW-12 P de 1,2 t — vista 3/4 delantera, brazo elevado, cazo y enganche rápido" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant-gauche.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista 3/4 delantera, brazo plegado y hoja niveladora" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-droit.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista de perfil, brazo desplegado y orugas de caucho" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista de perfil opuesto, puesto de conducción y techo" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-arriere.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista 3/4 trasera, capó del motor ventilado" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-tourelle.webp", alt: "Miniexcavadora Sonca SJW-12 P — torreta y contrapeso, vista 3/4 trasera" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-vue-arriere.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista trasera, marcado CE y orugas" },
       ]},
       { key: "grey",  label: "Grey Edition", hex: "#C9CDD2", priceHT: 7490, images: [
         { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-avant-droit.webp", alt: "Miniexcavadora Sonca SJW-12 P Grey Edition con pluma orientable, vista delantera derecha" },
@@ -227,9 +231,13 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Miniexcavadora Sonca SJW-12 P con pluma orientable, vista delantera derecha" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P trasera izquierda, sistema hidráulico" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp",        alt: "SJW-12 P, capó del motor y acabados" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant.webp", alt: "Miniexcavadora Sonca SJW-12 P de 1,2 t — vista 3/4 delantera, brazo elevado, cazo y enganche rápido" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant-gauche.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista 3/4 delantera, brazo plegado y hoja niveladora" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-droit.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista de perfil, brazo desplegado y orugas de caucho" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista de perfil opuesto, puesto de conducción y techo" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-arriere.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista 3/4 trasera, capó del motor ventilado" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-tourelle.webp", alt: "Miniexcavadora Sonca SJW-12 P — torreta y contrapeso, vista 3/4 trasera" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-vue-arriere.webp", alt: "Miniexcavadora Sonca SJW-12 P — vista trasera, marcado CE y orugas" },
     ],
   },
 

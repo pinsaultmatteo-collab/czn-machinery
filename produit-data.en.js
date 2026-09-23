@@ -216,9 +216,13 @@ module.exports = {
     },
     colors: [
       { key: "jaune", label: "Yellow", hex: "#E9A319", priceHT: 7050, images: [
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp", alt: "Sonca SJW-12 P mini excavator with offset boom, front right view" },
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp", alt: "SJW-12 P left rear view, hydraulic system" },
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp", alt: "SJW-12 P engine cover and finish" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant.webp", alt: "Sonca SJW-12 P 1.2 t mini excavator — front three-quarter view, raised boom, bucket and quick hitch" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant-gauche.webp", alt: "Sonca SJW-12 P mini excavator — front three-quarter view, folded boom and dozer blade" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-droit.webp", alt: "Sonca SJW-12 P mini excavator — side view, extended boom and rubber tracks" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "Sonca SJW-12 P mini excavator — opposite side view, operator station and canopy" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-arriere.webp", alt: "Sonca SJW-12 P mini excavator — rear three-quarter view, vented engine cover" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-tourelle.webp", alt: "Sonca SJW-12 P mini excavator — slew turret and counterweight, rear three-quarter view" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-vue-arriere.webp", alt: "Sonca SJW-12 P mini excavator — rear view, CE marking and tracks" },
       ]},
       { key: "grey",  label: "Grey Edition", hex: "#C9CDD2", priceHT: 7490, images: [
         { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-avant-droit.webp", alt: "Sonca SJW-12 P Grey Edition mini excavator with offset boom, front right view" },
@@ -227,9 +231,13 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Sonca SJW-12 P mini excavator with offset boom, front right view" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P left rear view, hydraulic system" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp",        alt: "SJW-12 P engine cover and finish" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant.webp", alt: "Sonca SJW-12 P 1.2 t mini excavator — front three-quarter view, raised boom, bucket and quick hitch" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant-gauche.webp", alt: "Sonca SJW-12 P mini excavator — front three-quarter view, folded boom and dozer blade" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-droit.webp", alt: "Sonca SJW-12 P mini excavator — side view, extended boom and rubber tracks" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "Sonca SJW-12 P mini excavator — opposite side view, operator station and canopy" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-arriere.webp", alt: "Sonca SJW-12 P mini excavator — rear three-quarter view, vented engine cover" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-tourelle.webp", alt: "Sonca SJW-12 P mini excavator — slew turret and counterweight, rear three-quarter view" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-vue-arriere.webp", alt: "Sonca SJW-12 P mini excavator — rear view, CE marking and tracks" },
     ],
   },
 

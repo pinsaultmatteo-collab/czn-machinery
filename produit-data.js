@@ -216,9 +216,13 @@ module.exports = {
     },
     colors: [
       { key: "jaune", label: "Jaune", hex: "#E9A319", priceHT: 7050, images: [
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp", alt: "Mini-pelle Sonca SJW-12 P à flèche orientable, vue avant droit" },
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp", alt: "SJW-12 P arrière gauche, système hydraulique" },
-        { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp", alt: "SJW-12 P, cache moteur et finitions" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant.webp", alt: "Mini-pelle Sonca SJW-12 P 1,2 t — vue 3/4 avant, bras relevé, godet et attache rapide" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant-gauche.webp", alt: "Mini-pelle Sonca SJW-12 P — vue 3/4 avant, bras replié et lame niveleuse" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-droit.webp", alt: "Mini-pelle Sonca SJW-12 P — vue de profil, bras déployé et chenilles caoutchouc" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "Mini-pelle Sonca SJW-12 P — vue de profil opposé, poste de conduite et canopy" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-arriere.webp", alt: "Mini-pelle Sonca SJW-12 P — vue 3/4 arrière, capot moteur ventilé" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-tourelle.webp", alt: "Mini-pelle Sonca SJW-12 P — tourelle et contrepoids, vue 3/4 arrière" },
+        { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-vue-arriere.webp", alt: "Mini-pelle Sonca SJW-12 P — vue arrière, marquage CE et chenilles" },
       ]},
       { key: "grey",  label: "Grey Edition", hex: "#C9CDD2", priceHT: 7490, images: [
         { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-grey-avant-droit.webp", alt: "Mini-pelle Sonca SJW-12 P Grey Edition à flèche orientable, vue avant droit" },
@@ -227,9 +231,13 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-avant-droit.webp",   alt: "Mini-pelle Sonca SJW-12 P à flèche orientable, vue avant droit" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-arriere-gauche.webp",alt: "SJW-12 P arrière gauche, système hydraulique" },
-      { src: "/images/SONCA/SJW-12-P/Mini-pelle-sonca-sjw-12-p-moteur.webp",        alt: "SJW-12 P, cache moteur et finitions" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant.webp", alt: "Mini-pelle Sonca SJW-12 P 1,2 t — vue 3/4 avant, bras relevé, godet et attache rapide" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-avant-gauche.webp", alt: "Mini-pelle Sonca SJW-12 P — vue 3/4 avant, bras replié et lame niveleuse" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-droit.webp", alt: "Mini-pelle Sonca SJW-12 P — vue de profil, bras déployé et chenilles caoutchouc" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-profil-gauche.webp", alt: "Mini-pelle Sonca SJW-12 P — vue de profil opposé, poste de conduite et canopy" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-trois-quarts-arriere.webp", alt: "Mini-pelle Sonca SJW-12 P — vue 3/4 arrière, capot moteur ventilé" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-tourelle.webp", alt: "Mini-pelle Sonca SJW-12 P — tourelle et contrepoids, vue 3/4 arrière" },
+      { src: "/images/SONCA/SJW-12-P/mini-pelle-sonca-sjw-12-p-vue-arriere.webp", alt: "Mini-pelle Sonca SJW-12 P — vue arrière, marquage CE et chenilles" },
     ],
   },
 
