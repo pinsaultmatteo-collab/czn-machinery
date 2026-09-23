@@ -291,10 +291,13 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil.webp",  alt: "Miniexcavadora Sonca SJW-18 PRO, vista lateral con cazo a la derecha" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-avant.webp",   alt: "Miniexcavadora Sonca SJW-18 PRO, vista delantera" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-moteur.webp",  alt: "Sonca SJW-18 PRO motor" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-pedales.webp", alt: "Sonca SJW-18 PRO pedales y mandos" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-droit.webp", alt: "Miniexcavadora Sonca SJW-18 PRO de 1,8 t — vista de perfil, brazo desplegado y hoja niveladora" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "Miniexcavadora Sonca SJW-18 PRO — vista 3/4 delantera, brazo plegado y puesto de conducción" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-gauche.webp", alt: "Miniexcavadora Sonca SJW-18 PRO — vista de perfil opuesto, orugas de caucho y techo de protección" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-godet-attache-rapide.webp", alt: "Miniexcavadora Sonca SJW-18 PRO — detalle del cazo y enganche rápido" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-arriere.webp", alt: "Miniexcavadora Sonca SJW-18 PRO — vista 3/4 trasera, capó del motor y asiento" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-tourelle.webp", alt: "Miniexcavadora Sonca SJW-18 PRO — torreta y capó del motor ventilado" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-vue-arriere.webp", alt: "Miniexcavadora Sonca SJW-18 PRO — vista trasera, contrapeso y marcado CE" },
     ],
   },
 

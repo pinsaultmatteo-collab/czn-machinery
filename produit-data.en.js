@@ -291,10 +291,13 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil.webp",  alt: "Sonca SJW-18 PRO mini excavator, side view, bucket to the right" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-avant.webp",   alt: "Sonca SJW-18 PRO mini excavator, front view" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-moteur.webp",  alt: "Sonca SJW-18 PRO engine" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-pedales.webp", alt: "Sonca SJW-18 PRO pedals and controls" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-droit.webp", alt: "Sonca SJW-18 PRO 1.8 t mini excavator — side view, extended boom and dozer blade" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "Sonca SJW-18 PRO mini excavator — front three-quarter view, folded boom and operator station" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-gauche.webp", alt: "Sonca SJW-18 PRO mini excavator — opposite side view, rubber tracks and canopy" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-godet-attache-rapide.webp", alt: "Sonca SJW-18 PRO mini excavator — bucket and quick hitch close-up" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-arriere.webp", alt: "Sonca SJW-18 PRO mini excavator — rear three-quarter view, engine cover and seat" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-tourelle.webp", alt: "Sonca SJW-18 PRO mini excavator — slew turret and vented engine cover" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-vue-arriere.webp", alt: "Sonca SJW-18 PRO mini excavator — rear view, counterweight and CE marking" },
     ],
   },
 

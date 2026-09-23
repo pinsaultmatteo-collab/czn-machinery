@@ -291,10 +291,13 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil.webp",  alt: "Mini-pelle Sonca SJW-18 PRO, vue latérale godet à droite" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-avant.webp",   alt: "Mini-pelle Sonca SJW-18 PRO vue avant" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-moteur.webp",  alt: "Sonca SJW-18 PRO moteur" },
-      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-pedales.webp", alt: "Sonca SJW-18 PRO pédales et commandes" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-droit.webp", alt: "Mini-pelle Sonca SJW-18 PRO 1,8 t — vue de profil, bras déployé et lame niveleuse" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "Mini-pelle Sonca SJW-18 PRO — vue 3/4 avant, bras replié et poste de conduite" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-gauche.webp", alt: "Mini-pelle Sonca SJW-18 PRO — vue de profil opposé, chenilles caoutchouc et canopy" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-godet-attache-rapide.webp", alt: "Mini-pelle Sonca SJW-18 PRO — godet et attache rapide en détail" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-arriere.webp", alt: "Mini-pelle Sonca SJW-18 PRO — vue 3/4 arrière, capot moteur et siège" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-tourelle.webp", alt: "Mini-pelle Sonca SJW-18 PRO — tourelle et capot moteur ventilé" },
+      { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-vue-arriere.webp", alt: "Mini-pelle Sonca SJW-18 PRO — vue arrière, contrepoids et marquage CE" },
     ],
   },
 
