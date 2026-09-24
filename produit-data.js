@@ -321,6 +321,20 @@ module.exports = {
         { label: "Réservoir hydraulique", value: "16 L" },
       ]},
     ],
+    upgrades: {
+      badge: "Nouvel arrivage",
+      title: "Trois améliorations sur le dernier arrivage",
+      body: "Le dernier container apporte trois évolutions sur la SJW-18 PRO. Elles portent toutes sur le poste de conduite et le circuit hydraulique — autrement dit sur ce qui se ressent dès les premières heures de chantier.",
+      items: [
+        { title: "Nouveaux joysticks professionnels",
+          text: "Des commandes plus fines et plus progressives : le godet se pose au millimètre et les mouvements s'enchaînent sans à-coups. Moins d'effort sur les poignets, donc moins de fatigue sur une journée complète, et une prise en main nettement plus rapide pour un opérateur occasionnel." },
+        { title: "Vanne 3 voies",
+          text: "Le débit hydraulique se dirige vers un accessoire sans toucher aux flexibles. On passe du godet au marteau-piqueur, à la tarière ou à la pince de tri en quelques secondes : la même machine enchaîne plusieurs types de travaux dans la journée." },
+        { title: "Nouveau siège ergonomique",
+          text: "Assise et dossier redessinés pour mieux tenir le dos et filtrer les vibrations des chenilles. Sur des journées de terrassement complètes, ce confort se traduit directement en heures de travail réellement productives." },
+      ],
+      note: "Ces évolutions équipent les machines du dernier arrivage. Contactez-nous pour confirmer la version disponible en stock.",
+    },
     images: [
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "Mini-pelle Sonca SJW-18 PRO de 1 271 kg vue de trois quarts avant droit, godet 400 mm et attache rapide" },
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-droit.webp", alt: "Mini-pelle Sonca SJW-18 PRO vue de profil côté droit, bras de 2 560 mm et canopy à gyrophare" },

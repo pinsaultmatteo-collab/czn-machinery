@@ -36,6 +36,18 @@ Profondeur d'excavation
 
 La SONCA SJW-18 PRO est une mini-pelle 1,8 tonne polyvalente, taillée pour les chantiers de terrassement plus exigeants tout en restant facilement transportable. Robuste et confortable, elle accepte une large gamme d'accessoires. Importée en direct par CZN Machinery, garantie 2 ans, livraison France.
 
+Nouvel arrivage
+
+## Trois améliorations sur le dernier arrivage
+
+Le dernier container apporte trois évolutions sur la SJW-18 PRO. Elles portent toutes sur le poste de conduite et le circuit hydraulique — autrement dit sur ce qui se ressent dès les premières heures de chantier.
+
+- 01 ### Nouveaux joysticks professionnels Des commandes plus fines et plus progressives : le godet se pose au millimètre et les mouvements s'enchaînent sans à-coups. Moins d'effort sur les poignets, donc moins de fatigue sur une journée complète, et une prise en main nettement plus rapide pour un opérateur occasionnel.
+- 02 ### Vanne 3 voies Le débit hydraulique se dirige vers un accessoire sans toucher aux flexibles. On passe du godet au marteau-piqueur, à la tarière ou à la pince de tri en quelques secondes : la même machine enchaîne plusieurs types de travaux dans la journée.
+- 03 ### Nouveau siège ergonomique Assise et dossier redessinés pour mieux tenir le dos et filtrer les vibrations des chenilles. Sur des journées de terrassement complètes, ce confort se traduit directement en heures de travail réellement productives.
+
+Ces évolutions équipent les machines du dernier arrivage. Contactez-nous pour confirmer la version disponible en stock.
+
 ## Conception renforcée pour usage intensif
 Moteur Laidong 385 renforcé de 24 CV et pompe hydraulique Shimadzu haute durabilité : une excavatrice de 1,8 tonne aux composants renforcés pour les chantiers les plus exigeants (BTP, travaux publics, terrassement intensif).
 

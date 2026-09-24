@@ -419,6 +419,26 @@ function editionHTML(d, L) {
     ${e.note ? `<p class="pdp-ed-note">${esc(e.note)}</p>` : ""}
   </div></section>`;
 }
+/* ── Nouveautes d'une version (ex. dernier arrivage de la SJW-18 PRO) ──
+   Bloc facultatif : met en avant ce qui change sur les machines du dernier
+   container, avec pour chaque evolution ce qu'elle apporte reellement a
+   l'operateur. Pas de prix ici : la fiche garde un seul tarif. */
+function upgradesHTML(d, L) {
+  const u = d.upgrades;
+  if (!u || !Array.isArray(u.items) || !u.items.length) return "";
+  const items = u.items.map((it, i) =>
+    `<li class="pdp-upg-item"><span class="pdp-upg-num">${String(i + 1).padStart(2, "0")}</span>` +
+    `<h3>${esc(it.title)}</h3><p>${esc(it.text)}</p></li>`).join("");
+  return `<section class="pdp-section"><div class="pdp-upg">
+    <div class="pdp-upg-top">
+      ${u.badge ? `<span class="pdp-upg-badge">${esc(u.badge)}</span>` : ""}
+      <h2 class="pdp-upg-title">${esc(u.title || "")}</h2>
+    </div>
+    ${u.body ? `<p class="pdp-upg-body">${esc(u.body)}</p>` : ""}
+    <ol class="pdp-upg-list">${items}</ol>
+    ${u.note ? `<p class="pdp-upg-note">${esc(u.note)}</p>` : ""}
+  </div></section>`;
+}
 function sectionsHTML(d) {
   if (!Array.isArray(d.sections) || !d.sections.length) return "";
   return d.sections.map((sec) => {
@@ -777,6 +797,18 @@ ${HEAD_FONTS}
   .pdp-ed-shot figcaption{margin-top:6px;font-size:11.5px;color:var(--muted-light,#98938b);line-height:1.4;}
   .pdp-ed-note{margin:14px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
   @media(max-width:700px){.pdp-ed-shots{grid-template-columns:1fr 1fr;}.pdp-ed-shot:nth-child(3){display:none;}}
+  .pdp-upg{border:1px solid rgba(33,42,53,.12);border-radius:16px;background:var(--cream,#f4efe4);padding:26px 24px 24px;margin-top:34px;}
+  .pdp-upg-top{display:flex;align-items:center;gap:12px;flex-wrap:wrap;}
+  .pdp-upg-badge{display:inline-block;padding:5px 12px;border-radius:999px;background:var(--orange);color:#fff;font-family:var(--f-mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;}
+  .pdp-upg-title{margin:0;font-family:var(--f-display);font-weight:500;font-size:25px;letter-spacing:-.02em;color:var(--ink);}
+  .pdp-upg-body{margin:14px 0 0;color:var(--muted);font-size:15px;line-height:1.65;max-width:70ch;}
+  .pdp-upg-list{list-style:none;margin:22px 0 0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:14px;}
+  .pdp-upg-item{background:#fff;border:1px solid rgba(33,42,53,.07);border-radius:12px;padding:18px 18px 16px;}
+  .pdp-upg-num{display:block;font-family:var(--f-mono);font-size:11px;letter-spacing:.14em;color:var(--orange);}
+  .pdp-upg-item h3{margin:8px 0 7px;font-family:var(--f-display);font-weight:500;font-size:17.5px;letter-spacing:-.01em;color:var(--ink);}
+  .pdp-upg-item p{margin:0;font-size:13.5px;line-height:1.62;color:var(--muted);}
+  .pdp-upg-note{margin:16px 0 0;font-size:12.5px;color:var(--muted-light,#98938b);font-style:italic;}
+  @media(max-width:820px){.pdp-upg-list{grid-template-columns:1fr;}}
   .pdp-crumbs a{color:var(--muted);text-decoration:none;}.pdp-crumbs a:hover{color:var(--orange);}
   .pdp-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:54px;align-items:start;}
   .pdp-gallery{position:sticky;top:118px;}
@@ -887,6 +919,7 @@ ${nav(L)}
 
   <section class="pdp-section"><div class="pdp-lead">${esc(intro)}</div></section>
   ${editionHTML(d, L)}
+  ${upgradesHTML(d, L)}
   ${sectionsHTML(d)}
 
   <section class="pdp-section"><h2 style="font-family:var(--f-display);font-weight:500;font-size:27px;letter-spacing:-.02em;color:var(--ink);margin-bottom:8px;">${L.ui.techSpecs}</h2>${specsHTML(d, L, v2)}</section>

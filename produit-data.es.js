@@ -321,6 +321,20 @@ module.exports = {
         { label: "Depósito hidráulico", value: "16 L" },
       ]},
     ],
+    upgrades: {
+      badge: "Nueva partida",
+      title: "Tres mejoras en la última partida",
+      body: "El último contenedor trae tres evoluciones en la SJW-18 PRO. Todas afectan al puesto de conducción y al circuito hidráulico, es decir, a lo que se nota desde las primeras horas de obra.",
+      items: [
+        { title: "Nuevos joysticks profesionales",
+          text: "Un mando más fino y progresivo: el cazo se apoya al milímetro y los movimientos se encadenan sin tirones. Menos esfuerzo en las muñecas, por tanto menos fatiga en una jornada completa, y un aprendizaje mucho más rápido para un operario ocasional." },
+        { title: "Válvula de 3 vías",
+          text: "El caudal hidráulico se dirige a un accesorio sin tocar ningún latiguillo. Se pasa del cazo al martillo picador, a la ahoyadora o a la pinza de clasificación en segundos: la misma máquina encadena varios tipos de trabajo en el día." },
+        { title: "Nuevo asiento ergonómico",
+          text: "Asiento y respaldo rediseñados para sujetar mejor la espalda y filtrar las vibraciones de las orugas. En jornadas completas de movimiento de tierras, ese confort se traduce directamente en horas de trabajo realmente productivas." },
+      ],
+      note: "Estas mejoras equipan las máquinas de la última partida. Consúltenos para confirmar la versión disponible en stock.",
+    },
     images: [
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "Miniexcavadora Sonca SJW-18 PRO de 1.271 kg en vista tres cuartos delantera derecha, con cazo de 400 mm y enganche rápido" },
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-droit.webp", alt: "Miniexcavadora Sonca SJW-18 PRO en vista lateral derecha, brazo de 2.560 mm y techo canopy con rotativo" },

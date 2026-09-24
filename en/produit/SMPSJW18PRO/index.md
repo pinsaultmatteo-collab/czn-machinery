@@ -31,6 +31,18 @@ Digging depth
 
 The SONCA SJW-18 PRO is a versatile 1.8-tonne mini excavator, built for more demanding earthworks while remaining easy to transport. Rugged and comfortable, it accepts a wide range of attachments. Imported directly by CZN Machinery, 2-year warranty, delivery across France.
 
+New shipment
+
+## Three upgrades on the latest shipment
+
+The latest container brings three changes to the SJW-18 PRO. All of them concern the operator station and the hydraulic circuit — in other words, the parts you feel within the first hours on site.
+
+- 01 ### New professional joysticks Finer, more progressive control: the bucket sets down to the millimetre and movements flow without jolts. Less strain on the wrists, so less fatigue over a full day, and a far quicker learning curve for an occasional operator.
+- 02 ### 3-way valve Hydraulic flow is directed to an attachment without touching a single hose. Switch from bucket to breaker, auger or sorting grab in seconds: the same machine handles several types of work in one day.
+- 03 ### New ergonomic seat Redesigned cushion and backrest to support the back and filter out track vibration. Over full days of earthmoving, that comfort translates directly into genuinely productive working hours.
+
+These upgrades are fitted to machines from the latest shipment. Contact us to confirm the version currently in stock.
+
 ## Reinforced design for intensive use
 Reinforced 24 hp Laidong 385 engine and high-durability Shimadzu hydraulic pump: a 1.8-tonne excavator with reinforced components for the most demanding sites (construction, civil engineering, intensive earthworks).
 

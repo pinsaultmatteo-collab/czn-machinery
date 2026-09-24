@@ -321,6 +321,20 @@ module.exports = {
         { label: "Hydraulic tank", value: "16 L" },
       ]},
     ],
+    upgrades: {
+      badge: "New shipment",
+      title: "Three upgrades on the latest shipment",
+      body: "The latest container brings three changes to the SJW-18 PRO. All of them concern the operator station and the hydraulic circuit — in other words, the parts you feel within the first hours on site.",
+      items: [
+        { title: "New professional joysticks",
+          text: "Finer, more progressive control: the bucket sets down to the millimetre and movements flow without jolts. Less strain on the wrists, so less fatigue over a full day, and a far quicker learning curve for an occasional operator." },
+        { title: "3-way valve",
+          text: "Hydraulic flow is directed to an attachment without touching a single hose. Switch from bucket to breaker, auger or sorting grab in seconds: the same machine handles several types of work in one day." },
+        { title: "New ergonomic seat",
+          text: "Redesigned cushion and backrest to support the back and filter out track vibration. Over full days of earthmoving, that comfort translates directly into genuinely productive working hours." },
+      ],
+      note: "These upgrades are fitted to machines from the latest shipment. Contact us to confirm the version currently in stock.",
+    },
     images: [
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "1,271 kg Sonca SJW-18 PRO mini excavator, front right three-quarter view with 400 mm bucket and quick coupler" },
       { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-profil-droit.webp", alt: "Sonca SJW-18 PRO mini excavator, right-hand side view with 2,560 mm arm and beacon-equipped canopy" },

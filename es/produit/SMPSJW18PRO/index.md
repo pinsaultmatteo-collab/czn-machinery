@@ -31,6 +31,18 @@ Profundidad de excavación
 
 La SONCA SJW-18 PRO es una miniexcavadora de 1,8 toneladas polivalente, diseñada para las obras de movimiento de tierras más exigentes sin dejar de ser fácilmente transportable. Robusta y confortable, admite una amplia gama de accesorios. Importada directamente por CZN Machinery, garantía de 2 años, entrega en Francia.
 
+Nueva partida
+
+## Tres mejoras en la última partida
+
+El último contenedor trae tres evoluciones en la SJW-18 PRO. Todas afectan al puesto de conducción y al circuito hidráulico, es decir, a lo que se nota desde las primeras horas de obra.
+
+- 01 ### Nuevos joysticks profesionales Un mando más fino y progresivo: el cazo se apoya al milímetro y los movimientos se encadenan sin tirones. Menos esfuerzo en las muñecas, por tanto menos fatiga en una jornada completa, y un aprendizaje mucho más rápido para un operario ocasional.
+- 02 ### Válvula de 3 vías El caudal hidráulico se dirige a un accesorio sin tocar ningún latiguillo. Se pasa del cazo al martillo picador, a la ahoyadora o a la pinza de clasificación en segundos: la misma máquina encadena varios tipos de trabajo en el día.
+- 03 ### Nuevo asiento ergonómico Asiento y respaldo rediseñados para sujetar mejor la espalda y filtrar las vibraciones de las orugas. En jornadas completas de movimiento de tierras, ese confort se traduce directamente en horas de trabajo realmente productivas.
+
+Estas mejoras equipan las máquinas de la última partida. Consúltenos para confirmar la versión disponible en stock.
+
 ## Diseño reforzado para uso intensivo
 Motor Laidong 385 reforzado de 24 CV y bomba hidráulica Shimadzu de alta durabilidad: una excavadora de 1,8 toneladas con componentes reforzados para las obras más exigentes (construcción, obra pública, movimiento de tierras intensivo).
 
