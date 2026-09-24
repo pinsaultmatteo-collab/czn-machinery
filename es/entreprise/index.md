@@ -141,6 +141,20 @@ Hoy, más de 1 500 máquinas entregadas después, me enorgullece dirigir un equi
 
 Principio fundacional, CZN Machinery
 
+En los medios
+
+## CZN Machinery en BFM Business.
+
+Laurent Cazenave, fundador de CZN Machinery, fue invitado al programa Objectif Croissance de BFM Business para hablar de las miniexcavadoras nuevas y del modelo de importación directa de la empresa.
+
+- BFM Business
+- Objectif Croissance
+- 4 minutos
+
+Su navegador no puede reproducir este vídeo. [Descargar el vídeo (MP4, 17 MB)](/videos/czn-machinery-bfm-business-objectif-croissance.mp4)
+
+Extracto del programa «Objectif Croissance», emitido en BFM Business como contenido de partner. Entrevista en francés.
+
 Showroom y SPV
 
 ## Venga a visitarnos.

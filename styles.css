@@ -5604,3 +5604,18 @@ body.drawer-locked { overflow: hidden; }
 .latest-guide-desc{margin:10px 0 0;color:var(--muted,#6b6660);font-size:15px;line-height:1.6;max-width:72ch;}
 .latest-guide-link{display:inline-block;margin-top:14px;font-size:14px;font-weight:600;color:var(--orange,#F2811C);}
 @media(max-width:700px){.latest-guide{padding:22px 20px;}.latest-guide-title{font-size:22px;}}
+
+/* ═══════════════ PASSAGE MÉDIA (interview BFM Business) ═══════════════
+   La vidéo est servie par le site, avec preload="none" : aucun octet de
+   vidéo n'est téléchargé tant que le visiteur ne lance pas la lecture.
+   Seule l'affiche (48 Ko) est chargée. */
+.media-tv{background:var(--cream-pure,#faf6ec);padding:96px 0;}
+.mediatv-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:52px;align-items:center;}
+.mediatv-text .section-title{margin-top:10px;}
+.mediatv-intro{margin:18px 0 0;color:var(--muted,#6b6660);font-size:16px;line-height:1.7;max-width:48ch;}
+.mediatv-meta{list-style:none;margin:26px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:9px;}
+.mediatv-meta li{font-family:var(--f-mono,monospace);font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--ink,#212A35);background:#fff;border:1px solid rgba(33,42,53,.1);border-radius:999px;padding:7px 13px;}
+.mediatv-player{margin:0;}
+.mediatv-player video{width:100%;height:auto;display:block;border-radius:16px;background:#000;box-shadow:0 18px 48px rgba(33,42,53,.18);}
+.mediatv-player figcaption{margin-top:13px;font-size:12.5px;line-height:1.55;color:var(--muted-light,#98938b);}
+@media(max-width:900px){.media-tv{padding:64px 0;}.mediatv-grid{grid-template-columns:1fr;gap:30px;}.mediatv-intro{max-width:none;}}

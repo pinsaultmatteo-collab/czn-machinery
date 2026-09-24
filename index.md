@@ -242,6 +242,20 @@ Ouverture du SAV France, joignable en français. Atelier d'assemblage et stock d
 « Vendre le même engin, au juste prix. »
 Notre principe fondateur
 
+Dans les médias
+
+## CZN Machinery sur BFM Business.
+
+Laurent Cazenave, fondateur de CZN Machinery, était l'invité de l'émission Objectif Croissance sur BFM Business, pour parler des mini-pelles mécaniques neuves et du modèle d'importation directe de l'entreprise.
+
+- BFM Business
+- Objectif Croissance
+- 4 minutes
+
+Votre navigateur ne peut pas lire cette vidéo. [Télécharger la vidéo (MP4, 17 Mo)](/videos/czn-machinery-bfm-business-objectif-croissance.mp4)
+
+Extrait de l'émission « Objectif Croissance » diffusée sur BFM Business, dans un format partenaire.
+
 Le catalogue
 
 ## Deux gammes,une exigence.
