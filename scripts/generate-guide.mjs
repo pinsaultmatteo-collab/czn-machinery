@@ -36,10 +36,10 @@ const ALLOWED_LINKS = [
 ];
 const ALLOWED_PREFIXES = ["/produit/"];
 const ALLOWED_IMAGES = [
-  { src: "/images/SONCA/SJW-06/sjw-06-3-4-avant.webp", alt: "Mini-pelle Sonca SJW-06" },
-  { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-avant.webp", alt: "Mini-pelle Sonca SJW-18 PRO" },
+  { src: "/images/SONCA/SJW-06/mini-pelle-sonca-sjw-06-trois-quarts-avant.webp", alt: "Mini-pelle Sonca SJW-06" },
+  { src: "/images/SJW-18-PRO/mini-pelle-sonca-sjw-18-pro-trois-quarts-avant.webp", alt: "Mini-pelle Sonca SJW-18 PRO" },
   { src: "/images/XCAVATOR/XC22PROV2/mini-pelle-xcavator-xc22-pro-v2-trois-quarts-avant-droite-lame.webp", alt: "Mini-pelle Xcavator XC22 PRO V2" },
-  { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-4.webp", alt: "Broyeur forestier radiocommandé Sonca" },
+  { src: "/images/BROYEUR-FORESTIER/broyeur-forestier-czn-3-4-avant.webp", alt: "Broyeur forestier radiocommandé Sonca" },
   { src: "/images/CONCASSEUR/concasseur-sonca-2.webp", alt: "Concasseur à mâchoires Sonca" },
   { src: "/images/remorques/REM-2.7T/remorque-2-7t-avant.webp", alt: "Remorque porte-engin 2,7 T CZN" },
 ];
