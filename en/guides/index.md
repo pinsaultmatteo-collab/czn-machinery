@@ -1,6 +1,6 @@
 # Mini excavator guides: advice, maintenance & regulations
 
-> 23 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
+> 24 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & resources
 
 # Everything to know beforebuying your machine.
 
-23 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
+24 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
 
-23
+24
 Practical guides
 
 6 years
@@ -31,7 +31,7 @@ Customers equipped
 100 %
 Practical advice
 
-[Latest guideUses · 25 September 2026 Mini Excavator Attachments: The Complete Guide Buckets, hydraulic breaker, auger, grapple, quick hitch: discover the essential mini excavator attachments, what they do and how to choose them well. Read the guide →](/en/guides/accessoires-mini-pelle-indispensables/)
+[Latest guideMaintenance · 29 September 2026 Mini Excavator Tracks: Maintenance, Wear and Replacement A complete guide to mini excavator tracks: checking tension, signs of wear, prevention, replacement and service life. CZN Machinery maintenance advice. Read the guide →](/en/guides/entretien-chenilles-caoutchouc-mini-pelle/)
 
 [01Fundamentals What is a mini excavator? Definition, categories by weight (800 kg to 6 t), key components and differences from a standard excavator. Read the guide →](/en/guides/quest-ce-quune-mini-pelle/)
 [02Buying How to choose a mini excavator? The 6 essential criteria: weight, digging depth, width, engine, attachments and transport. Read the guide →](/en/guides/comment-choisir-mini-pelle/)
@@ -56,6 +56,7 @@ Practical advice
 [21Regulations Transporting your mini excavator: trailer and licence Mini excavator trailer transport: GVW, category B or BE licence, choosing a plant trailer, lashing and safety. The complete guide to transporting your machine legally. Read the guide →](/en/guides/transport-mini-pelle-remorque/)
 [22Uses Agricultural Mini Excavator: Uses on the Farm Guide to the agricultural mini excavator: ditch clearing, fencing, drainage, track maintenance and pits. Tonnage, attachments and buying advice for the farm. Read the guide →](/en/guides/mini-pelle-agriculture/)
 [23Uses Mini Excavator Attachments: The Complete Guide Buckets, hydraulic breaker, auger, grapple, quick hitch: discover the essential mini excavator attachments, what they do and how to choose them well. Read the guide →](/en/guides/accessoires-mini-pelle-indispensables/)
+[24Maintenance Mini Excavator Tracks: Maintenance, Wear and Replacement A complete guide to mini excavator tracks: checking tension, signs of wear, prevention, replacement and service life. CZN Machinery maintenance advice. Read the guide →](/en/guides/entretien-chenilles-caoutchouc-mini-pelle/)
 
 ## A technical question?
 

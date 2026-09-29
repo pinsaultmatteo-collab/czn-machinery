@@ -51,7 +51,9 @@
       "workingTitle": "Entretenir les chenilles caoutchouc d'une mini-pelle",
       "category": "Entretien",
       "focusKeyword": "chenilles mini-pelle",
-      "brief": "Tension, usure, remplacement, prévention. Durée de vie. Renvoyer vers le guide entretien-mini-pelle et le SAV France CZN."
+      "brief": "Tension, usure, remplacement, prévention. Durée de vie. Renvoyer vers le guide entretien-mini-pelle et le SAV France CZN.",
+      "published": true,
+      "publishedAt": "2026-09-29"
     },
     {
       "slug": "mini-pelle-hiver-precautions",
