@@ -1,6 +1,6 @@
 # Guides mini-pelle : conseils, entretien & réglementation
 
-> 24 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
+> 25 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & ressources
 
 # Tout savoir avantd'acheter votre engin.
 
-24 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+25 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
 
-24
+25
 Guides pratiques
 
 6 ans
@@ -31,7 +31,7 @@ Clients équipés
 100 %
 Conseils pratiques
 
-[Dernier guide publiéEntretien · 29 septembre 2026 Chenilles mini-pelle : entretien, usure et remplacement Guide complet sur les chenilles mini-pelle : contrôle de la tension, signes d'usure, prévention, remplacement et durée de vie. Conseils d'entretien CZN Machinery. Lire le guide →](/guides/entretien-chenilles-caoutchouc-mini-pelle/)
+[Dernier guide publiéEntretien · 6 octobre 2026 Mini-pelle en hiver : précautions et conseils froid Mini-pelle en hiver : démarrage à froid, hydraulique, gasoil, batterie et stockage. Nos conseils d'entretien saisonnier pour travailler par temps froid sans panne. Lire le guide →](/guides/mini-pelle-hiver-precautions/)
 
 [01Fondamentaux Qu'est-ce qu'une mini-pelle ? Définition, catégories par tonnage (800 kg à 6 T), composants clés et différences avec une pelleteuse classique. Lire le guide →](/guides/quest-ce-quune-mini-pelle/)
 [02Achat Comment choisir une mini-pelle ? Les 6 critères essentiels : tonnage, profondeur de fouille, largeur, motorisation, accessoires et transport. Lire le guide →](/guides/comment-choisir-mini-pelle/)
@@ -57,6 +57,7 @@ Conseils pratiques
 [22Usages Mini-pelle agricole : usages à la ferme Guide de la mini-pelle agricole : curage de fossés, clôtures, drainage, entretien de chemins et fosses. Tonnage, accessoires et conseils d'achat pour la ferme. Lire le guide →](/guides/mini-pelle-agriculture/)
 [23Usages Accessoires mini-pelle : le guide complet Godets, marteau hydraulique, tarière, grappin, attache rapide : découvrez les accessoires mini-pelle indispensables, leur utilité et comment bien les choisir. Lire le guide →](/guides/accessoires-mini-pelle-indispensables/)
 [24Entretien Chenilles mini-pelle : entretien, usure et remplacement Guide complet sur les chenilles mini-pelle : contrôle de la tension, signes d'usure, prévention, remplacement et durée de vie. Conseils d'entretien CZN Machinery. Lire le guide →](/guides/entretien-chenilles-caoutchouc-mini-pelle/)
+[25Entretien Mini-pelle en hiver : précautions et conseils froid Mini-pelle en hiver : démarrage à froid, hydraulique, gasoil, batterie et stockage. Nos conseils d'entretien saisonnier pour travailler par temps froid sans panne. Lire le guide →](/guides/mini-pelle-hiver-precautions/)
 
 ## Une question technique ?
 
