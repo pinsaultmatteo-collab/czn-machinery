@@ -5719,5 +5719,61 @@ body.drawer-locked { overflow: hidden; }
    ancres (#catalogue, #media-bfm…) s'arretent sous le header grace a
    scroll-padding-top. */
 :root { --util-h: 34px; --header-h: 122px; }
-@media (max-width: 768px) { :root { --util-h: 41px; --header-h: 128px; } }
+@media (max-width: 768px) { :root { --util-h: 0px; --header-h: 87px; } }   /* pas de top bar sur mobile */
 html { scroll-padding-top: var(--header-h); }
+
+
+/* ═══════════════ MOBILE (≤768px) : PAS DE TOP BAR, TOUT DANS LE HEADER ═══════════════
+   logo · telephone (pastille verte si showroom ouvert) · langue · bouton court · burger.
+   Les outils sont injectes par mobile-nav.js ; invisibles sur ordinateur. */
+.nav-m-tools, .nav-cta-short { display: none; }
+@media (max-width: 768px) {
+  .utility-bar { display: none !important; }
+
+  #mainNav .nav-inner { display: flex; align-items: center; gap: 8px; }
+  #mainNav .site-logo { flex-shrink: 0; margin-right: auto; }
+  #mainNav .nav-actions { justify-self: auto; flex-shrink: 0; }
+  .nav-m-tools { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+
+  .nav-m-phone {
+    position: relative;
+    width: 40px; height: 40px; flex-shrink: 0;
+    display: grid; place-items: center;
+    border: 1px solid var(--border); border-radius: 10px;
+    color: var(--ink); background: transparent;
+    transition: border-color .2s, color .2s;
+  }
+  .nav-m-phone svg { width: 17px; height: 17px; }
+  .nav-m-phone:active { border-color: var(--orange); color: var(--orange); }
+  .nav-m-phone.is-open::after {
+    content: '';
+    position: absolute; top: -3px; right: -3px;
+    width: 10px; height: 10px; border-radius: 50%;
+    background: #3fb950; border: 2px solid var(--cream);
+    animation: pillPulse 2.2s ease-in-out infinite;
+  }
+
+  .nav-m-tools .lang-dd-btn {
+    height: 40px; padding: 0 10px; gap: 5px;
+    border: 1px solid var(--border); border-radius: 10px;
+    color: var(--ink);
+  }
+  .nav-m-tools .lang-dd-btn > span { display: none; }      /* drapeau seul */
+  .nav-m-tools .lang-dd-btn .flag { width: 20px; height: 13px; }
+
+  #mainNav .nav-cta { height: 40px; padding: 0 14px; font-size: 11px; }
+  #mainNav .nav-cta .arrow { display: none; }
+  .nav-cta-txt { display: none; }
+  .nav-cta-short { display: inline; }
+
+  #mainNav .nav-burger { width: 40px; height: 40px; }
+}
+@media (max-width: 380px) {
+  #mainNav .nav-inner { gap: 6px; }
+  .nav-m-tools { gap: 6px; }
+  .nav-m-phone, .nav-m-tools .lang-dd-btn, #mainNav .nav-cta, #mainNav .nav-burger { height: 38px; }
+  .nav-m-phone, #mainNav .nav-burger { width: 38px; }
+  .nav-m-tools .lang-dd-btn { padding: 0 8px; }
+  .nav-m-tools .lang-dd-caret { display: none; }
+  #mainNav .nav-cta { padding: 0 11px; font-size: 10.5px; letter-spacing: 0.06em; }
+}

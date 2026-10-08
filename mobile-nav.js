@@ -1,6 +1,7 @@
 /* 📁 /mobile-nav.js — Header & top bar mobile CZN
-   Injecte : burger + drawer de navigation, dropdown de langue (top bar),
-   et cale le header sous la top bar toujours visible.
+   Injecte : burger + drawer de navigation, et sur mobile (≤768px) les outils
+   de la top bar dans le header (telephone + statut showroom, langue, libelle
+   court du bouton). Sur ordinateur, cale le header sous la top bar.
    Chargé en defer sur toutes les pages. Aucun changement de markup requis. */
 (function () {
   var isEN = (document.documentElement.lang || '').toLowerCase().indexOf('en') === 0
@@ -37,10 +38,65 @@
     bar.addEventListener('transitionend', sync);   /* filet : valeur finale apres l'animation */
   })();
 
-  /* ───────────────── 1. DROPDOWN LANGUE (top bar) ───────────────── */
+  /* ───────────────── 1. OUTILS MOBILE DANS LE HEADER ─────────────────
+     Sur mobile la top bar est masquee : son contenu passe dans le header,
+     entre le logo et le bouton principal. */
   var utilRight = document.querySelector('.utility-bar .utility-right');
-  if (utilRight) {
-    var existing = utilRight.querySelector('.util-langs');
+  var navInnerTools = document.querySelector('#mainNav .nav-inner');
+  var tools = null;
+  if (navInnerTools) {
+    tools = document.createElement('div');
+    tools.className = 'nav-m-tools';
+    var navActions = navInnerTools.querySelector('.nav-actions');
+    navInnerTools.insertBefore(tools, navActions || null);
+
+    /* Telephone : pastille verte quand le showroom est ouvert */
+    var utilPhone = document.querySelector('.utility-bar .util-phone');
+    var tel = utilPhone ? utilPhone.getAttribute('href') : 'tel:+33531605161';
+    var phone = document.createElement('a');
+    phone.className = 'nav-m-phone';
+    phone.href = tel;
+    phone.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2a1 1 0 0 1 1.02-.24 11.36 11.36 0 0 0 3.57.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.24 1.02l-2.21 2.2z"/></svg>';
+    tools.appendChild(phone);
+    var pillSrc = document.getElementById('openStatus');
+    var syncOpen = function () {
+      var open = !!(pillSrc && pillSrc.classList.contains('is-open'));
+      phone.classList.toggle('is-open', open);
+      var lbl = open ? t('Showroom ouvert — appeler', 'Showroom open — call us', 'Showroom abierto — llamar')
+                     : t('Appeler', 'Call us', 'Llamar');
+      phone.setAttribute('aria-label', lbl);
+      phone.setAttribute('title', lbl);
+    };
+    syncOpen();
+    if (pillSrc) new MutationObserver(syncOpen).observe(pillSrc, { attributes: true, attributeFilter: ['class'] });
+
+    /* Bouton principal : libelle court sur mobile (le long reste sur ordinateur) */
+    var cta = navInnerTools.querySelector('.nav-cta');
+    if (cta) {
+      var full = '';
+      [].slice.call(cta.childNodes).forEach(function (n) {
+        if (n.nodeType === 3) { full += n.textContent; cta.removeChild(n); }
+      });
+      full = full.replace(/\s+/g, ' ').trim();
+      var SHORT = [
+        [/rdv|rendez/i, 'RDV'], [/visit/i, 'Visit'], [/cita/i, 'Cita'],
+        [/devis/i, 'Devis'], [/quote/i, 'Quote'], [/presupuesto/i, 'Presupuesto']
+      ];
+      var short = full;
+      for (var i = 0; i < SHORT.length; i++) { if (SHORT[i][0].test(full)) { short = SHORT[i][1]; break; } }
+      if (full) {
+        var a1 = document.createElement('span'); a1.className = 'nav-cta-txt'; a1.textContent = full;
+        var a2 = document.createElement('span'); a2.className = 'nav-cta-short'; a2.textContent = short;
+        cta.insertBefore(a2, cta.firstChild);
+        cta.insertBefore(a1, cta.firstChild);
+        if (!cta.getAttribute('aria-label')) cta.setAttribute('aria-label', full);
+      }
+    }
+  }
+
+  /* Dropdown de langue */
+  if (utilRight || tools) {
+    var existing = utilRight ? utilRight.querySelector('.util-langs') : null;
     var frHref = '/', enHref = '/en/', esHref = '/es/';
     if (existing) {
       var frA = existing.querySelector('a[hreflang="fr"]');
@@ -68,7 +124,7 @@
         '<a role="menuitem" href="' + enHref + '" hreflang="en"' + (isEN ? ' class="active"' : '') + '>' + FLAG_EN + '<span>English</span></a>' +
         '<a role="menuitem" href="' + esHref + '" hreflang="es"' + (isES ? ' class="active"' : '') + '>' + FLAG_ES + '<span>Español</span></a>' +
       '</div>';
-    utilRight.appendChild(dd);
+    (tools || utilRight).appendChild(dd);
 
     var btn = dd.querySelector('.lang-dd-btn');
     btn.addEventListener('click', function (e) {
@@ -80,30 +136,6 @@
       dd.classList.remove('open');
       btn.setAttribute('aria-expanded', 'false');
     });
-  }
-
-  /* ───────────────── 3. PASTILLE COMPACTE (très petits écrans) ─────────────────
-     "Actuellement ouvert" → "Ouvert" sous 420px (le script inline réécrit le
-     texte complet toutes les 60s, on observe et on re-raccourcit). */
-  var pill = document.getElementById('openStatus');
-  if (pill) {
-    var statusTxt = pill.querySelector('.status-text');
-    var mqSmall = window.matchMedia('(max-width: 420px)');
-    var shorten = function () {
-      if (!statusTxt) return;
-      var cur = statusTxt.textContent;
-      if (/^(Actuellement|Currently)\s/i.test(cur)) statusTxt.dataset.full = cur;
-      var full = statusTxt.dataset.full || cur;
-      var want = full;
-      if (mqSmall.matches) {
-        want = full.replace(/^(Actuellement|Currently)\s+/i, '');
-        want = want.charAt(0).toUpperCase() + want.slice(1);
-      }
-      if (cur !== want) statusTxt.textContent = want;
-    };
-    shorten();
-    new MutationObserver(shorten).observe(pill, { childList: true, subtree: true, characterData: true });
-    if (mqSmall.addEventListener) mqSmall.addEventListener('change', shorten);
   }
 
   /* ───────────────── 4. BURGER + DRAWER ───────────────── */
