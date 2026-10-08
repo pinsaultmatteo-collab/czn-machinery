@@ -5647,11 +5647,13 @@ body.drawer-locked { overflow: hidden; }
 /* ── Entree en perspective des grilles ── */
 .reveal-stagger.r3d { perspective: 1100px; }
 .reveal-stagger.r3d > * {
-  transform: rotateX(18deg) translateY(36px);
   transform-origin: 50% 100%;
   transition: opacity 0.9s var(--ease-quart), transform 1s var(--ease-quart);
 }
-.reveal-stagger.r3d.visible > *, .reveal-stagger.r3d.in-view > * { transform: rotateX(0) translateY(0); }
+/* La bascule 3D ne s'applique qu'avant l'apparition : une fois la grille
+   visible, plus aucune regle r3d ne touche au transform, et les survols
+   (soulevement des cartes, pastilles) reprennent la main normalement. */
+.reveal-stagger.r3d:not(.visible):not(.in-view) > * { transform: rotateX(18deg) translateY(36px); }
 
 /* ── Six raisons : l'icone s'anime, le numero file vers l'orange ── */
 @keyframes pqWobble {
@@ -5691,7 +5693,7 @@ body.drawer-locked { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .tilt, .tilt.is-tilting, .product-card.tilt:hover, .catv2-card.tilt:hover { transform: none; transition: none; }
   .tilt-glare { display: none; }
-  .reveal-stagger.r3d > * { transform: translateY(0); }
+  .reveal-stagger.r3d:not(.visible):not(.in-view) > * { transform: translateY(0); }
   .pourquoi-item:hover .pq-icon svg, .testimonial:hover .test-stars svg, .faq-item:not(.open):hover .faq-toggle { animation: none; }
   .step:hover .step-num { transform: none; }
   .product-card:hover .product-photo { transform: none; }
