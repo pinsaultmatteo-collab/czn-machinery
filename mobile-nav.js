@@ -1,5 +1,6 @@
 /* 📁 /mobile-nav.js — Header & top bar mobile CZN
-   Injecte : burger + drawer de navigation, dropdown de langue (top bar).
+   Injecte : burger + drawer de navigation, dropdown de langue (top bar),
+   et cale le header sous la top bar toujours visible.
    Chargé en defer sur toutes les pages. Aucun changement de markup requis. */
 (function () {
   var isEN = (document.documentElement.lang || '').toLowerCase().indexOf('en') === 0
@@ -8,6 +9,30 @@
           || window.location.pathname.indexOf('/es') === 0;
   var prefix = isES ? '/es' : isEN ? '/en' : '';
   var t = function (fr, en, es) { return isES ? es : isEN ? en : fr; };
+
+  /* ───────────────── 0. TOP BAR + HEADER TOUJOURS VISIBLES ───────────────── */
+  /* Le header colle sous la top bar : on publie leurs hauteurs reelles en
+     variables CSS (--util-h, --header-h), recalculees a chaque changement de
+     taille (rotation, largeur de fenetre, effet d'agrandissement au survol). */
+  (function () {
+    var bar = document.querySelector('.utility-bar');
+    if (!bar) return;
+    var nav = document.getElementById('mainNav');
+    var root = document.documentElement;
+    function sync() {
+      var u = bar.offsetHeight;
+      root.style.setProperty('--util-h', u + 'px');
+      root.style.setProperty('--header-h', (u + (nav ? nav.offsetHeight : 0)) + 'px');
+    }
+    sync();
+    if ('ResizeObserver' in window) {
+      var ro = new ResizeObserver(sync);
+      ro.observe(bar);
+      if (nav) ro.observe(nav);
+    } else {
+      window.addEventListener('resize', sync);
+    }
+  })();
 
   /* ───────────────── 1. DROPDOWN LANGUE (top bar) ───────────────── */
   var utilRight = document.querySelector('.utility-bar .utility-right');

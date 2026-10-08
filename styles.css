@@ -96,7 +96,8 @@
     font-size: 11.5px;
     font-family: var(--f-mono);
     letter-spacing: 0.06em;
-    position: relative;
+    position: sticky;      /* toujours visible, au-dessus du header */
+    top: 0;
     z-index: 100;
   }
   .utility-bar .container {
@@ -119,11 +120,11 @@
   /* ═══════════════ NAVIGATION ═══════════════ */
   nav#mainNav {
     position: sticky;
-    top: 0;
+    top: var(--util-h);    /* se cale sous la top bar (hauteur recalee par mobile-nav.js) */
     z-index: 90;
     background: var(--cream);
     border-bottom: 1px solid var(--border);
-    transition: all 0.4s var(--ease-quart);
+    transition: all 0.4s var(--ease-quart), top 0s;
   }
   nav#mainNav.scrolled {
     background: rgba(244,239,228,0.92);
@@ -626,7 +627,7 @@
   }
   .histoire-left {
     position: sticky;
-    top: 120px;
+    top: calc(var(--util-h) + 120px);
   }
   .histoire-timeline {
     margin-top: 48px;
@@ -2620,7 +2621,7 @@
 }
 .story-aside {
   position: sticky;
-  top: 110px;
+  top: calc(var(--util-h) + 110px);
 }
 .story-stat-list {
   margin-top: 40px;
@@ -3565,7 +3566,7 @@ a.contact-item-val:hover { color: var(--orange); }
 .article-body { min-width: 0; }
 .article-toc {
   position: sticky;
-  top: 96px;
+  top: calc(var(--util-h) + 96px);
   max-height: calc(100vh - 120px);
   overflow-y: auto;
   font-family: var(--f-body);
@@ -3619,7 +3620,7 @@ a.contact-item-val:hover { color: var(--orange); }
   color: var(--ink);
   margin: 56px 0 20px;
   line-height: 1.15;
-  scroll-margin-top: 100px;
+  scroll-margin-top: 12px;
 }
 .article-body h2:first-child { margin-top: 0; }
 .article-body h3 {
@@ -3971,7 +3972,7 @@ a.contact-item-val:hover { color: var(--orange); }
 /* LEFT — sticky years acting like the guides TOC */
 .htl-aside {
   position: sticky;
-  top: 110px;
+  top: calc(var(--util-h) + 110px);
 }
 .htl-nav {
   display: flex;
@@ -4033,7 +4034,7 @@ a.contact-item-val:hover { color: var(--orange); }
   gap: 64px;
 }
 .htl-chapter {
-  scroll-margin-top: 120px;
+  scroll-margin-top: 32px;
 }
 .htl-chapter-head {
   display: flex;
@@ -5709,3 +5710,14 @@ body.drawer-locked { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .reveal-stagger.visible > .pourquoi-item:hover, .reveal-stagger.visible > .testimonial:hover { transform: none; }
 }
+
+
+/* ═══════════════ TOP BAR + HEADER TOUJOURS VISIBLES ═══════════════
+   La top bar colle en haut de l'ecran (desktop et mobile), le header juste
+   dessous. --util-h et --header-h sont mesures et tenus a jour par
+   mobile-nav.js ; les valeurs ci-dessous ne servent que de repli. Les
+   ancres (#catalogue, #media-bfm…) s'arretent sous le header grace a
+   scroll-padding-top. */
+:root { --util-h: 34px; --header-h: 122px; }
+@media (max-width: 768px) { :root { --util-h: 41px; --header-h: 128px; } }
+html { scroll-padding-top: var(--header-h); }
