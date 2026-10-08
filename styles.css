@@ -5609,3 +5609,90 @@ body.drawer-locked { overflow: hidden; }
 .mediatv-player video{width:100%;height:auto;display:block;border-radius:16px;background:#000;box-shadow:0 18px 48px rgba(33,42,53,.18);}
 .mediatv-player figcaption{margin-top:13px;font-size:12.5px;line-height:1.55;color:var(--muted-light,#98938b);}
 @media(max-width:900px){.media-tv{padding:64px 0;}.mediatv-grid{grid-template-columns:1fr;gap:30px;}.mediatv-intro{max-width:none;}}
+
+/* ═══════════════ MOUVEMENT 3D & SURVOLS — page d'accueil ═══════════════
+   Inclinaison 3D des cartes (angles poses par motion-3d.js), reflet qui
+   suit la souris, entree en perspective des grilles .r3d, et survols plus
+   vivants sur les six raisons, les etapes d'achat, la FAQ et les avis.
+   Tout est coupe si l'utilisateur a demande moins d'animations. */
+
+/* ── Inclinaison 3D + reflet ── */
+.tilt {
+  position: relative;
+  --rx: 0deg; --ry: 0deg; --gx: 50%; --gy: 50%;
+  transform: perspective(1000px) rotateX(var(--rx)) rotateY(var(--ry)) translateY(0);
+  transform-style: preserve-3d;
+  transition: transform 0.6s var(--ease-quart), box-shadow 0.4s var(--ease-quart), border-color 0.4s var(--ease-quart);
+  will-change: transform;
+}
+.tilt.is-tilting { transition: transform 0.08s linear, box-shadow 0.4s var(--ease-quart), border-color 0.4s var(--ease-quart); }
+.product-card.tilt:hover, .catv2-card.tilt:hover {
+  transform: perspective(1000px) rotateX(var(--rx)) rotateY(var(--ry)) translateY(-8px) scale(1.01);
+}
+.tilt-glare {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  pointer-events: none;
+  z-index: 3;
+  opacity: 0;
+  background: radial-gradient(circle at var(--gx) var(--gy), rgba(255,255,255,0.32), rgba(255,255,255,0.06) 32%, transparent 60%);
+  mix-blend-mode: soft-light;
+  transition: opacity 0.4s ease;
+}
+.tilt:hover .tilt-glare { opacity: 1; }
+.product-img .product-photo { transition: transform 0.9s var(--ease-quart); }
+.product-card:hover .product-photo { transform: scale(1.06); }
+
+/* ── Entree en perspective des grilles ── */
+.reveal-stagger.r3d { perspective: 1100px; }
+.reveal-stagger.r3d > * {
+  transform: rotateX(18deg) translateY(36px);
+  transform-origin: 50% 100%;
+  transition: opacity 0.9s var(--ease-quart), transform 1s var(--ease-quart);
+}
+.reveal-stagger.r3d.visible > *, .reveal-stagger.r3d.in-view > * { transform: rotateX(0) translateY(0); }
+
+/* ── Six raisons : l'icone s'anime, le numero file vers l'orange ── */
+@keyframes pqWobble {
+  0% { transform: rotate(0) scale(1); }
+  30% { transform: rotate(-9deg) scale(1.12); }
+  60% { transform: rotate(7deg) scale(1.12); }
+  100% { transform: rotate(0) scale(1.08); }
+}
+.pourquoi-item:hover .pq-icon svg { animation: pqWobble 0.65s var(--ease-quart) both; }
+.pq-number { transition: letter-spacing 0.4s var(--ease-quart), transform 0.4s var(--ease-quart); }
+.pourquoi-item:hover .pq-number { letter-spacing: 0.3em; transform: translateX(4px); }
+
+/* ── Acheter en trois temps : la pastille tourne sur elle-meme ── */
+.step { transition: transform 0.4s var(--ease-quart); }
+.step:hover { transform: translateY(-4px); }
+.step-num { transition: transform 0.8s var(--ease-quart), box-shadow 0.4s ease, background-color 0.4s ease; }
+.step:hover .step-num {
+  transform: rotateY(360deg) scale(1.08);
+  background: var(--orange);
+  color: var(--cream-pure);
+  box-shadow: 0 0 0 8px rgba(242,129,28,0.12), 0 12px 28px rgba(242,129,28,0.28);
+}
+
+/* ── FAQ : la fleche invite a ouvrir ── */
+@keyframes faqNudge { 0%,100% { transform: translateY(0); } 50% { transform: translateY(3px); } }
+.faq-item:not(.open):hover .faq-toggle { border-color: var(--orange); color: var(--orange); animation: faqNudge 0.7s ease-in-out infinite; }
+
+/* ── Avis : les etoiles s'allument l'une apres l'autre ── */
+@keyframes starPop { 0% { transform: scale(1); } 50% { transform: scale(1.35) rotate(-8deg); } 100% { transform: scale(1); } }
+.test-stars svg { transition: transform 0.3s; }
+.testimonial:hover .test-stars svg { animation: starPop 0.5s var(--ease-quart) both; }
+.testimonial:hover .test-stars svg:nth-child(2) { animation-delay: 0.06s; }
+.testimonial:hover .test-stars svg:nth-child(3) { animation-delay: 0.12s; }
+.testimonial:hover .test-stars svg:nth-child(4) { animation-delay: 0.18s; }
+.testimonial:hover .test-stars svg:nth-child(5) { animation-delay: 0.24s; }
+
+@media (prefers-reduced-motion: reduce) {
+  .tilt, .tilt.is-tilting, .product-card.tilt:hover, .catv2-card.tilt:hover { transform: none; transition: none; }
+  .tilt-glare { display: none; }
+  .reveal-stagger.r3d > * { transform: translateY(0); }
+  .pourquoi-item:hover .pq-icon svg, .testimonial:hover .test-stars svg, .faq-item:not(.open):hover .faq-toggle { animation: none; }
+  .step:hover .step-num { transform: none; }
+  .product-card:hover .product-photo { transform: none; }
+}
