@@ -26,12 +26,15 @@
     }
     sync();
     if ('ResizeObserver' in window) {
+      /* border-box : la barre s'agrandit au survol par son padding, que
+         l'observation par defaut (content-box) ne voit pas. */
       var ro = new ResizeObserver(sync);
-      ro.observe(bar);
-      if (nav) ro.observe(nav);
+      ro.observe(bar, { box: 'border-box' });
+      if (nav) ro.observe(nav, { box: 'border-box' });
     } else {
       window.addEventListener('resize', sync);
     }
+    bar.addEventListener('transitionend', sync);   /* filet : valeur finale apres l'animation */
   })();
 
   /* ───────────────── 1. DROPDOWN LANGUE (top bar) ───────────────── */
