@@ -78,9 +78,10 @@
         if (n.nodeType === 3) { full += n.textContent; cta.removeChild(n); }
       });
       full = full.replace(/\s+/g, ' ').trim();
+      /* mots entiers : « Solicitar » contient « cita » */
       var SHORT = [
-        [/rdv|rendez/i, 'RDV'], [/visit/i, 'Visit'], [/cita/i, 'Cita'],
-        [/devis/i, 'Devis'], [/quote/i, 'Quote'], [/presupuesto/i, 'Presupuesto']
+        [/\bpresupuesto\b/i, 'Presupuesto'], [/\bdevis\b/i, 'Devis'], [/\bquote\b/i, 'Quote'],
+        [/\brdv\b|rendez/i, 'RDV'], [/\bvisit\b/i, 'Visit'], [/\bcita\b/i, 'Cita']
       ];
       var short = full;
       for (var i = 0; i < SHORT.length; i++) { if (SHORT[i][0].test(full)) { short = SHORT[i][1]; break; } }
