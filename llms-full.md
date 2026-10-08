@@ -42,38 +42,20 @@ D'expérience
 Garantie incluse
 
 Importateur direct constructeur
-◆
-Garantie 2 ans · pièces & main d'œuvre
-◆
-Financement Sofinco · jusqu'à 120 mois
-◆
-20 modèles au catalogue
-◆
-Livraison France · délai 5 jours
-◆
-SAV atelier Toulouse · 31200
-◆
-148+ avis clients 5★
-◆
-Acompte 30% sécurisé Stripe
-◆
 
-Importateur direct constructeur
-◆
-Garantie 2 ans · pièces & main d'œuvre
-◆
-Financement Sofinco · jusqu'à 120 mois
-◆
+Garantie 2 ans pièces & main d'œuvre
+
+Financement Sofinco jusqu'à 120 mois
+
 20 modèles au catalogue
-◆
-Livraison France · délai 5 jours
-◆
+
+Livraison France délai 5 jours
+
 SAV atelier Toulouse · 31200
-◆
-148+ avis clients 5★
-◆
-Acompte 30% sécurisé Stripe
-◆
+
+148+ avis clients notés 5★ sur Google
+
+Acompte 30 % sécurisé par Stripe
 
 Meilleure vente
 

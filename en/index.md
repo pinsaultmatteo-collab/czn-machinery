@@ -39,38 +39,20 @@ Of experience
 Warranty included
 
 Importer factory-direct
-◆
-Warranty 2 ans · parts & labour
-◆
-Financing Sofinco · up to 120 months
-◆
-20 models in the catalogue
-◆
-Delivery in France · lead time 5 jours
-◆
-Workshop after-sales Toulouse · 31200
-◆
-148+ 5★ customer reviews
-◆
-Acompte 30% secured by Stripe
-◆
 
-Importer factory-direct
-◆
-Warranty 2 ans · parts & labour
-◆
-Financing Sofinco · up to 120 months
-◆
+2-year warranty parts & labour
+
+Sofinco financing up to 120 months
+
 20 models in the catalogue
-◆
-Delivery in France · lead time 5 jours
-◆
+
+Delivery in France 5-day lead time
+
 Workshop after-sales Toulouse · 31200
-◆
-148+ 5★ customer reviews
-◆
-Acompte 30% secured by Stripe
-◆
+
+148+ customer reviews rated 5★ on Google
+
+30% deposit secured by Stripe
 
 Best seller
 

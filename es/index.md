@@ -40,38 +40,20 @@ De experiencia
 Garantía incluida
 
 Importador directo de fábrica
-◆
-Garantía 2 años · piezas y mano de obra
-◆
-Financiación Sofinco · hasta 120 meses
-◆
-20 modelos en catálogo
-◆
-Entrega en Francia · plazo 5 días
-◆
-Taller postventa Toulouse · 31200
-◆
-148+ reseñas de clientes 5★
-◆
-Entrada 30% segura con Stripe
-◆
 
-Importador directo de fábrica
-◆
-Garantía 2 años · piezas y mano de obra
-◆
-Financiación Sofinco · hasta 120 meses
-◆
+Garantía 2 años piezas y mano de obra
+
+Financiación Sofinco hasta 120 meses
+
 20 modelos en catálogo
-◆
-Entrega en Francia · plazo 5 días
-◆
+
+Entrega en Francia plazo de 5 días
+
 Taller postventa Toulouse · 31200
-◆
-148+ reseñas de clientes 5★
-◆
-Entrada 30% segura con Stripe
-◆
+
+148+ reseñas valoradas 5★ en Google
+
+Entrada del 30 % segura con Stripe
 
 Más vendida
 
