@@ -799,11 +799,11 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-profil.webp",             alt: "Mini-chargeur Sonca SJ-460 W profil" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-biais.webp",              alt: "Sonca SJ-460 W vue de biais" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-moteur.webp",             alt: "Sonca SJ-460 W moteur" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-panneau-de-controle.webp",alt: "Sonca SJ-460 W panneau de contrôle" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-radiateur.webp",          alt: "Sonca SJ-460 W radiateur" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-profil.webp", alt: "Mini-chargeur Sonca SJ-460 W de 1 000 kg vue de profil, godet de 1 m et roues tout terrain" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-trois-quarts-avant.webp", alt: "Mini-chargeur Sonca SJ-460 W vue de trois quarts avant, bras de levage et godet au sol" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-moteur.webp", alt: "Compartiment moteur du mini-chargeur Sonca SJ-460 W : moteur diesel bicylindre refroidi par air et ventilateur" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-panneau-de-controle.webp", alt: "Poste de commande du mini-chargeur Sonca SJ-460 W : leviers, compteur horaire, voltmètre et contacteur à clé" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-radiateur.webp", alt: "Refroidisseur d'huile hydraulique basculant du mini-chargeur Sonca SJ-460 W, accès au compartiment moteur" },
     ],
   },
 

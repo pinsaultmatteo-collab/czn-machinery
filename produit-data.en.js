@@ -799,11 +799,11 @@ module.exports = {
       ]},
     ],
     images: [
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-profil.webp",             alt: "Sonca SJ-460 W mini loader, side view" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-biais.webp",              alt: "Sonca SJ-460 W angled view" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-moteur.webp",             alt: "Sonca SJ-460 W engine" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-panneau-de-controle.webp",alt: "Sonca SJ-460 W control panel" },
-      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-radiateur.webp",          alt: "Sonca SJ-460 W radiator" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-profil.webp", alt: "1,000 kg Sonca SJ-460 W mini loader, side view with 1 m bucket and all-terrain wheels" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-trois-quarts-avant.webp", alt: "Sonca SJ-460 W mini loader, front three-quarter view with lift arms and bucket on the ground" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-moteur.webp", alt: "Engine bay of the Sonca SJ-460 W mini loader: air-cooled twin-cylinder diesel engine and fan" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-panneau-de-controle.webp", alt: "Control station of the Sonca SJ-460 W mini loader: levers, hour meter, voltmeter and key switch" },
+      { src: "/images/SJW460W/mini-chargeur-sonca-sj-460-w-radiateur.webp", alt: "Tilting hydraulic oil cooler of the Sonca SJ-460 W mini loader, giving access to the engine bay" },
     ],
   },
 
