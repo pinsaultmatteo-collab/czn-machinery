@@ -42,21 +42,27 @@
       "workingTitle": "Les accessoires indispensables pour mini-pelle",
       "category": "Usages",
       "focusKeyword": "accessoires mini-pelle",
-      "brief": "Godets, marteau hydraulique, tarière, grappin, attache rapide. À quoi sert chaque accessoire. Lien vers la catégorie accessoires CZN."
+      "brief": "Godets, marteau hydraulique, tarière, grappin, attache rapide. À quoi sert chaque accessoire. Lien vers la catégorie accessoires CZN.",
+      "published": true,
+      "publishedAt": "2026-09-25"
     },
     {
       "slug": "entretien-chenilles-caoutchouc-mini-pelle",
       "workingTitle": "Entretenir les chenilles caoutchouc d'une mini-pelle",
       "category": "Entretien",
       "focusKeyword": "chenilles mini-pelle",
-      "brief": "Tension, usure, remplacement, prévention. Durée de vie. Renvoyer vers le guide entretien-mini-pelle et le SAV France CZN."
+      "brief": "Tension, usure, remplacement, prévention. Durée de vie. Renvoyer vers le guide entretien-mini-pelle et le SAV France CZN.",
+      "published": true,
+      "publishedAt": "2026-09-29"
     },
     {
       "slug": "mini-pelle-hiver-precautions",
       "workingTitle": "Utiliser sa mini-pelle en hiver : précautions",
       "category": "Entretien",
       "focusKeyword": "mini-pelle hiver",
-      "brief": "Démarrage à froid, hydraulique, gasoil, stockage, batterie. Conseils saisonniers. Mettre en avant la fiabilité et le SAV CZN."
+      "brief": "Démarrage à froid, hydraulique, gasoil, stockage, batterie. Conseils saisonniers. Mettre en avant la fiabilité et le SAV CZN.",
+      "published": true,
+      "publishedAt": "2026-10-06"
     },
     {
       "slug": "broyeur-forestier-radiocommande-usages",
