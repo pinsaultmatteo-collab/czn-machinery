@@ -448,30 +448,6 @@
   .btn:hover .arrow { transform: translateX(4px); }
 
   /* Hero stats bar */
-  .hero-meta {
-    position: relative;
-    z-index: 5;
-    border-top: 1px solid rgba(242,129,28,0.18);
-    padding: 24px 0;
-    background: rgba(33,42,53,0.45);
-    backdrop-filter: blur(8px);
-  }
-  .hero-meta .container {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
-    gap: 32px;
-    align-items: center;
-  }
-  .meta-status {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-family: var(--f-mono);
-    font-size: 11px;
-    color: rgba(244,239,228,0.7);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-  }
   .status-dot {
     width: 8px; height: 8px;
     border-radius: 50%;
@@ -483,37 +459,18 @@
     0%, 100% { opacity: 1; }
     50% { opacity: 0.5; }
   }
-  .meta-stat {
-    border-left: 1px solid rgba(242,129,28,0.15);
-    padding-left: 24px;
-  }
-  .meta-stat-num {
-    font-family: var(--f-display);
-    font-size: 28px;
-    font-weight: 600;
-    color: var(--orange-light);
-    line-height: 1;
-    letter-spacing: -0.02em;
-  }
-  .meta-stat-label {
-    font-family: var(--f-mono);
-    font-size: 10px;
-    color: rgba(244,239,228,0.55);
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    margin-top: 4px;
-  }
 
-  /* ═══════════════ PLEDGE BAND — Engagements, bandeau fixe sous le hero
-     Huit engagements avec pictogramme, sur le fond navy du hero.
-     Remplace l'ancien bandeau defilant : tout est lisible d'un coup d'oeil,
-     rien ne bouge. 4 colonnes, 2 sur mobile.
+  /* ═══════════════ PLEDGE BAND — Chiffres cles + engagements, bandeau unique
+     Un seul bandeau sous le hero : les quatre chiffres (clients, avis,
+     experience, garantie) et les quatre engagements, chacun avec son
+     pictogramme. Au survol la cellule se souleve, l'icone s'anime et une
+     lueur orange monte derriere elle.
   ═══════════════ */
   .pledge-band {
     background: var(--oak);
     color: var(--cream-pure);
     position: relative;
-    padding: 22px 0;
+    padding: 18px 0 20px;
     border-bottom: 1px solid var(--oak-line);
   }
   .pledge-band::before {
@@ -524,49 +481,102 @@
     background: linear-gradient(to right, transparent, var(--orange) 30%, var(--orange) 70%, transparent);
     opacity: 0.4;
   }
+  .pl-status {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(244,239,228,0.7);
+  }
   .pl-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 14px 28px;
+    gap: 6px 18px;
   }
   .pl-item {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 12px;
     min-width: 0;
-    padding: 8px 0;
+    padding: 12px 14px;
+    margin: 0 -14px;
+    border-radius: 12px;
+    isolation: isolate;
+    transition: transform .35s cubic-bezier(.2,.8,.2,1), background-color .35s ease;
   }
-  .pl-ic {
+  .pl-item::before {
+    /* lueur orange qui monte depuis le bas de la cellule */
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    background: radial-gradient(120% 90% at 50% 120%, rgba(242,129,28,0.28), transparent 60%);
+    opacity: 0;
+    transform: translateY(14px);
+    transition: opacity .4s ease, transform .4s cubic-bezier(.2,.8,.2,1);
+    z-index: -1;
+  }
+  .pl-item::after {
+    /* trait orange qui se deploie sous la cellule */
+    content: '';
+    position: absolute;
+    left: 14px; right: 14px; bottom: 4px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, var(--orange), transparent);
+    transform: scaleX(0);
+    transition: transform .45s cubic-bezier(.2,.8,.2,1);
+  }
+  .pl-item:hover { transform: translateY(-4px); background-color: rgba(244,239,228,0.04); }
+  .pl-item:hover::before { opacity: 1; transform: translateY(0); }
+  .pl-item:hover::after  { transform: scaleX(1); }
+  .pl-ic-wrap {
     flex: 0 0 auto;
-    width: 26px;
-    height: 26px;
-    color: var(--orange);
+    width: 42px; height: 42px;
+    display: grid; place-items: center;
+    border-radius: 50%;
+    background: rgba(242,129,28,0.10);
+    border: 1px solid rgba(242,129,28,0.22);
+    transition: background-color .35s ease, border-color .35s ease, box-shadow .35s ease, transform .35s cubic-bezier(.2,.8,.2,1);
   }
-  .pl-txt {
-    display: flex;
-    flex-direction: column;
-    line-height: 1.25;
-    min-width: 0;
+  .pl-ic { width: 22px; height: 22px; color: var(--orange); transition: transform .45s cubic-bezier(.2,.8,.2,1); }
+  .pl-item:hover .pl-ic-wrap {
+    background: rgba(242,129,28,0.22);
+    border-color: rgba(242,129,28,0.6);
+    box-shadow: 0 0 0 6px rgba(242,129,28,0.08), 0 8px 20px rgba(242,129,28,0.18);
+    transform: rotate(-6deg);
   }
+  .pl-item:hover .pl-ic { transform: scale(1.14) rotate(6deg); }
+  .pl-txt { display: flex; flex-direction: column; line-height: 1.22; min-width: 0; }
   .pl-txt strong {
     font-family: var(--f-display);
-    font-size: 15px;
+    font-size: 15.5px;
     font-weight: 600;
     color: var(--cream-pure);
     letter-spacing: 0.005em;
+    transition: color .3s ease;
   }
-  .pl-txt span {
-    font-size: 12.5px;
-    color: rgba(244, 239, 228, 0.68);
-    margin-top: 2px;
+  .pl-item:hover .pl-txt strong { color: var(--orange-light, #F6A15A); }
+  .pl-txt span { font-size: 12.5px; color: rgba(244,239,228,0.66); margin-top: 2px; }
+  @media (prefers-reduced-motion: reduce) {
+    .pl-item, .pl-item::before, .pl-item::after, .pl-ic-wrap, .pl-ic, .pl-txt strong { transition: none; }
+    .pl-item:hover { transform: none; }
+    .pl-item:hover .pl-ic-wrap, .pl-item:hover .pl-ic { transform: none; }
   }
   @media (max-width: 980px) {
-    .pl-grid { grid-template-columns: repeat(2, 1fr); gap: 6px 20px; }
+    .pl-grid { grid-template-columns: repeat(2, 1fr); gap: 2px 10px; }
+    .pl-item { padding: 10px 10px; margin: 0 -10px; }
   }
   @media (max-width: 480px) {
-    .pledge-band { padding: 16px 0; }
-    .pl-item { gap: 10px; padding: 6px 0; }
-    .pl-ic { width: 22px; height: 22px; }
+    .pledge-band { padding: 14px 0 16px; }
+    .pl-status { font-size: 10px; margin-bottom: 8px; }
+    .pl-item { gap: 9px; padding: 8px 8px; margin: 0 -8px; }
+    .pl-ic-wrap { width: 34px; height: 34px; }
+    .pl-ic { width: 18px; height: 18px; }
     .pl-txt strong { font-size: 13.5px; }
     .pl-txt span { font-size: 11.5px; }
   }
@@ -2266,7 +2276,6 @@
     .histoire-left { position: static; }
     .footer-top { grid-template-columns: 1fr 1fr; gap: 40px; }
     .hero-machine { width: 70%; opacity: 0.4 !important; }
-    .hero-meta .container { grid-template-columns: 1fr 1fr; gap: 16px; }
   }
   @media (max-width: 720px) {
     .container { padding: 0 20px; }
@@ -2303,19 +2312,6 @@
     .hero-actions { justify-content: center; }
 
     /* Pastille stock centrée + 4 stats en 2 colonnes de 2, centrées */
-    .hero-meta .container {
-      grid-template-columns: 1fr 1fr;
-      gap: 20px 16px;
-    }
-    .meta-status {
-      grid-column: 1 / -1;
-      justify-content: center;
-    }
-    .meta-stat {
-      border-left: none;
-      padding-left: 0;
-      text-align: center;
-    }
     .acheter-trust { gap: 24px; flex-direction: column; }
     .steps::before { display: none; }
     .reviews-meta { flex-direction: column; gap: 14px; }
@@ -5005,7 +5001,6 @@ a.contact-item-val:hover { color: var(--orange); }
 .hero-glow { z-index: 4; mix-blend-mode: screen; opacity: 0.6; }
 /* Content sits above everything */
 .hero-content { z-index: 5; }
-.hero-meta { z-index: 5; }
 /* The old SVG class is no longer in the DOM, but make sure no orphan rule shows it */
 .hero-machine { display: none; }
 

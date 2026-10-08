@@ -22,37 +22,21 @@ Mini excavators, loaders and dumpers imported directly from the manufacturers, d
 
 In stock · shipped within 5 days
 
-5 500+
+5,500+ clients equipped
 
-Clients equipped
+148+ reviews rated 5★ on Google
 
-148+
-
-5★ Google reviews
-
-6 years
-
-Of experience
-
-2 years
-
-Warranty included
-
-Importer factory-direct
+6 years of experience
 
 2-year warranty parts & labour
 
-Sofinco financing up to 120 months
+Importer factory-direct
 
-20 models in the catalogue
+Sofinco financing up to 120 months
 
 Delivery in France 5-day lead time
 
 Workshop after-sales Toulouse · 31200
-
-148+ customer reviews rated 5★ on Google
-
-30% deposit secured by Stripe
 
 Best seller
 

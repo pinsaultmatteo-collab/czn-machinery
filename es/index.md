@@ -23,37 +23,21 @@ La misma calidad que las marcas premium, sin el sobrecoste del distribuidor.
 
 Stock disponible · envío en 5 días
 
-5 500+
+5.500+ clientes equipados
 
-Clientes equipados
+148+ reseñas valoradas 5★ en Google
 
-148+
-
-Reseñas 5★ Google
-
-6 años
-
-De experiencia
-
-2 años
-
-Garantía incluida
-
-Importador directo de fábrica
+6 años de experiencia
 
 Garantía 2 años piezas y mano de obra
 
-Financiación Sofinco hasta 120 meses
+Importador directo de fábrica
 
-20 modelos en catálogo
+Financiación Sofinco hasta 120 meses
 
 Entrega en Francia plazo de 5 días
 
 Taller postventa Toulouse · 31200
-
-148+ reseñas valoradas 5★ en Google
-
-Entrada del 30 % segura con Stripe
 
 Más vendida
 

@@ -25,37 +25,21 @@ La même qualité que les marques premium, sans le surcoût du distributeur.
 
 Stock disponible · expédition sous 5 jours
 
-5 500+
+5 500+ clients équipés
 
-Clients équipés
+148+ avis notés 5★ sur Google
 
-148+
-
-Avis 5★ Google
-
-6 ans
-
-D'expérience
-
-2 ans
-
-Garantie incluse
-
-Importateur direct constructeur
+6 ans d'expérience
 
 Garantie 2 ans pièces & main d'œuvre
 
-Financement Sofinco jusqu'à 120 mois
+Importateur direct constructeur
 
-20 modèles au catalogue
+Financement Sofinco jusqu'à 120 mois
 
 Livraison France délai 5 jours
 
 SAV atelier Toulouse · 31200
-
-148+ avis clients notés 5★ sur Google
-
-Acompte 30 % sécurisé par Stripe
 
 Meilleure vente
 
