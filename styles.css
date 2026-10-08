@@ -5698,3 +5698,14 @@ body.drawer-locked { overflow: hidden; }
   .step:hover .step-num { transform: none; }
   .product-card:hover .product-photo { transform: none; }
 }
+
+/* Les soulevements au survol des cartes placees dans une grille .reveal-stagger
+   etaient annules par la regle .reveal-stagger.visible > * (meme specificite,
+   declaree plus bas dans le fichier). Reaffirmes ici, apres elle. */
+.reveal-stagger.visible > .pourquoi-item:hover,
+.reveal-stagger.in-view > .pourquoi-item:hover,
+.reveal-stagger.visible > .testimonial:hover,
+.reveal-stagger.in-view > .testimonial:hover { transform: translateY(-4px); }
+@media (prefers-reduced-motion: reduce) {
+  .reveal-stagger.visible > .pourquoi-item:hover, .reveal-stagger.visible > .testimonial:hover { transform: none; }
+}
