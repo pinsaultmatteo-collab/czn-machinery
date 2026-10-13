@@ -1,6 +1,6 @@
 # Guías de miniexcavadora: consejos, mantenimiento y normativa
 
-> 25 guías prácticas para elegir, mantener y utilizar su miniexcavadora. CACES, precios, comparativas, compra vs alquiler, movimiento de tierras, piscina — por CZN Machinery Toulouse.
+> 26 guías prácticas para elegir, mantener y utilizar su miniexcavadora. CACES, precios, comparativas, compra vs alquiler, movimiento de tierras, piscina — por CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guías y recursos
 
 # Todo lo que debe saber antesde comprar su máquina.
 
-25 guías prácticas redactadas por nuestro equipo a partir de 6 años de experiencia sobre el terreno y más de 1.500 máquinas entregadas en Francia.
+26 guías prácticas redactadas por nuestro equipo a partir de 6 años de experiencia sobre el terreno y más de 1.500 máquinas entregadas en Francia.
 
-25
+26
 Guías prácticas
 
 6 años
@@ -31,7 +31,7 @@ Clientes equipados
 100 %
 Consejos prácticos
 
-[Última guía publicadaMantenimiento · 6 octubre 2026 Miniexcavadora en invierno: precauciones y consejos para el frío Miniexcavadora en invierno: arranque en frío, hidráulica, gasóleo, batería y almacenamiento. Nuestros consejos de mantenimiento estacional para trabajar con frío sin averías. Leer la guía →](/es/guides/mini-pelle-hiver-precautions/)
+[Última guía publicadaUsos · 13 octubre 2026 Trituradora forestal radiocontrolada: usos y ventajas Desbrozar taludes, eriales y sotobosques con seguridad: descubre los usos y ventajas de la trituradora forestal radiocontrolada, sus puntos fuertes y el modelo CZN. Leer la guía →](/es/guides/broyeur-forestier-radiocommande-usages/)
 
 [01Fundamentos ¿Qué es una miniexcavadora? Definición, categorías por tonelaje (800 kg a 6 T), componentes clave y diferencias con una excavadora convencional. Leer la guía →](/es/guides/quest-ce-quune-mini-pelle/)
 [02Compra ¿Cómo elegir una miniexcavadora? Los 6 criterios esenciales: tonelaje, profundidad de excavación, anchura, motorización, accesorios y transporte. Leer la guía →](/es/guides/comment-choisir-mini-pelle/)
@@ -58,6 +58,7 @@ Consejos prácticos
 [23Usos Accesorios para miniexcavadora: la guía completa Cazos, martillo hidráulico, barrena, pulpo, enganche rápido: descubre los accesorios imprescindibles para miniexcavadora, su utilidad y cómo elegirlos bien. Leer la guía →](/guides/accessoires-mini-pelle-indispensables/)
 [24Mantenimiento Orugas de miniexcavadora: mantenimiento, desgaste y sustitución Guía completa sobre las orugas de miniexcavadora: control de la tensión, signos de desgaste, prevención, sustitución y vida útil. Consejos de mantenimiento CZN Machinery. Leer la guía →](/guides/entretien-chenilles-caoutchouc-mini-pelle/)
 [25Mantenimiento Miniexcavadora en invierno: precauciones y consejos para el frío Miniexcavadora en invierno: arranque en frío, hidráulica, gasóleo, batería y almacenamiento. Nuestros consejos de mantenimiento estacional para trabajar con frío sin averías. Leer la guía →](/guides/mini-pelle-hiver-precautions/)
+[26Usos Trituradora forestal radiocontrolada: usos y ventajas Desbrozar taludes, eriales y sotobosques con seguridad: descubre los usos y ventajas de la trituradora forestal radiocontrolada, sus puntos fuertes y el modelo CZN. Leer la guía →](/guides/broyeur-forestier-radiocommande-usages/)
 
 ## ¿Una duda técnica?
 
