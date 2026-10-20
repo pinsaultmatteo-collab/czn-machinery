@@ -1,6 +1,6 @@
 # Guides mini-pelle : conseils, entretien & réglementation
 
-> 26 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
+> 27 guides pratiques pour choisir, entretenir et utiliser votre mini-pelle. CACES, prix, comparatifs, achat vs location, terrassement, piscine — par CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & ressources
 
 # Tout savoir avantd'acheter votre engin.
 
-26 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
+27 guides pratiques rédigés par notre équipe à partir de 6 ans d'expérience terrain et plus de 1 500 machines livrées en France.
 
-26
+27
 Guides pratiques
 
 6 ans
@@ -31,7 +31,7 @@ Clients équipés
 100 %
 Conseils pratiques
 
-[Dernier guide publiéUsages · 13 octobre 2026 Broyeur forestier radiocommandé : usages et avantages Débroussailler talus, friches et sous-bois en sécurité : découvrez les usages et avantages du broyeur forestier radiocommandé, ses atouts et le modèle CZN. Lire le guide →](/guides/broyeur-forestier-radiocommande-usages/)
+[Dernier guide publiéUsages · 20 octobre 2026 Concasseur de chantier : recycler ses gravats sur place Concasseur gravats chantier : transformez béton, briques et pierre en granulat réutilisable. Économies de transport et de décharge, étapes et conseils pratiques. Lire le guide →](/guides/concasseur-chantier-recycler-gravats/)
 
 [01Fondamentaux Qu'est-ce qu'une mini-pelle ? Définition, catégories par tonnage (800 kg à 6 T), composants clés et différences avec une pelleteuse classique. Lire le guide →](/guides/quest-ce-quune-mini-pelle/)
 [02Achat Comment choisir une mini-pelle ? Les 6 critères essentiels : tonnage, profondeur de fouille, largeur, motorisation, accessoires et transport. Lire le guide →](/guides/comment-choisir-mini-pelle/)
@@ -59,6 +59,7 @@ Conseils pratiques
 [24Entretien Chenilles mini-pelle : entretien, usure et remplacement Guide complet sur les chenilles mini-pelle : contrôle de la tension, signes d'usure, prévention, remplacement et durée de vie. Conseils d'entretien CZN Machinery. Lire le guide →](/guides/entretien-chenilles-caoutchouc-mini-pelle/)
 [25Entretien Mini-pelle en hiver : précautions et conseils froid Mini-pelle en hiver : démarrage à froid, hydraulique, gasoil, batterie et stockage. Nos conseils d'entretien saisonnier pour travailler par temps froid sans panne. Lire le guide →](/guides/mini-pelle-hiver-precautions/)
 [26Usages Broyeur forestier radiocommandé : usages et avantages Débroussailler talus, friches et sous-bois en sécurité : découvrez les usages et avantages du broyeur forestier radiocommandé, ses atouts et le modèle CZN. Lire le guide →](/guides/broyeur-forestier-radiocommande-usages/)
+[27Usages Concasseur de chantier : recycler ses gravats sur place Concasseur gravats chantier : transformez béton, briques et pierre en granulat réutilisable. Économies de transport et de décharge, étapes et conseils pratiques. Lire le guide →](/guides/concasseur-chantier-recycler-gravats/)
 
 ## Une question technique ?
 

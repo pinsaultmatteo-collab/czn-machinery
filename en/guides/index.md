@@ -1,6 +1,6 @@
 # Mini excavator guides: advice, maintenance & regulations
 
-> 26 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
+> 27 practical guides to choose, maintain and use your mini excavator. Licences, prices, comparisons, buying vs renting, earthworks, pools — by CZN Machinery Toulouse.
 
 📍 Toulouse, France
 
@@ -17,9 +17,9 @@ Guides & resources
 
 # Everything to know beforebuying your machine.
 
-26 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
+27 practical guides written by our team, drawing on 6 years of field experience and over 5,500 customers equipped across France.
 
-26
+27
 Practical guides
 
 6 years
@@ -31,7 +31,7 @@ Customers equipped
 100 %
 Practical advice
 
-[Latest guideUses · 13 October 2026 Radio-Controlled Forestry Mulcher: Uses and Benefits Clear embankments, scrubland and undergrowth safely: discover the uses and benefits of the radio-controlled forestry mulcher, its strengths and the CZN model. Read the guide →](/en/guides/broyeur-forestier-radiocommande-usages/)
+[Latest guideUses · 20 October 2026 Site Crusher: Recycle Your Rubble On Site Site rubble crusher: turn concrete, brick and stone into reusable aggregate. Save on transport and landfill, plus practical steps and advice. Read the guide →](/en/guides/concasseur-chantier-recycler-gravats/)
 
 [01Fundamentals What is a mini excavator? Definition, categories by weight (800 kg to 6 t), key components and differences from a standard excavator. Read the guide →](/en/guides/quest-ce-quune-mini-pelle/)
 [02Buying How to choose a mini excavator? The 6 essential criteria: weight, digging depth, width, engine, attachments and transport. Read the guide →](/en/guides/comment-choisir-mini-pelle/)
@@ -59,6 +59,7 @@ Practical advice
 [24Maintenance Mini Excavator Tracks: Maintenance, Wear and Replacement A complete guide to mini excavator tracks: checking tension, signs of wear, prevention, replacement and service life. CZN Machinery maintenance advice. Read the guide →](/en/guides/entretien-chenilles-caoutchouc-mini-pelle/)
 [25Maintenance Mini Excavator in Winter: Cold-Weather Precautions and Tips Mini excavator in winter: cold starting, hydraulics, diesel, battery and storage. Our seasonal maintenance tips for working in cold weather without breakdowns. Read the guide →](/en/guides/mini-pelle-hiver-precautions/)
 [26Uses Radio-Controlled Forestry Mulcher: Uses and Benefits Clear embankments, scrubland and undergrowth safely: discover the uses and benefits of the radio-controlled forestry mulcher, its strengths and the CZN model. Read the guide →](/en/guides/broyeur-forestier-radiocommande-usages/)
+[27Uses Site Crusher: Recycle Your Rubble On Site Site rubble crusher: turn concrete, brick and stone into reusable aggregate. Save on transport and landfill, plus practical steps and advice. Read the guide →](/en/guides/concasseur-chantier-recycler-gravats/)
 
 ## A technical question?
 
